@@ -48,6 +48,16 @@ jobs:
               assert isinstance(event['evidence'], list)
           assert isinstance(p['source_health'], list)
           assert len(p['source_health']) >= 15
+
+          news_observations = [row for row in p['incidents'] if row.get('source_kind') == 'news']
+          news_summaries = [row for row in p['events'] if (row.get('metadata') or {}).get('news_summary')]
+          if news_observations and not news_summaries:
+              raise SystemExit('Live news observations were collected but no normalized news summaries were generated')
+          print(f"news_observations={len(news_observations)} news_summaries={len(news_summaries)}")
+          for row in news_summaries[:3]:
+              summary = (row.get('metadata') or {}).get('news_summary', '')
+              print(f"NEWS_SUMMARY {row.get('title')}: {summary[:180]}")
+
           errors = [s for s in p['source_health'] if s['status'] == 'error']
           print(f"events={len(p['events'])} observations={len(p['incidents'])} sources={len(p['source_health'])} errors={len(errors)}")
           for row in errors:
