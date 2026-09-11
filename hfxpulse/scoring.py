@@ -19,7 +19,20 @@ def _text(row: Incident) -> str:
 
 
 def _has(text: str, *terms: str) -> bool:
-    return any(term in text for term in terms)
+    """Match complete words/phrases, never substrings inside unrelated words.
+
+    This is especially important for emergency acronyms. For example, ERT must
+    not match CERTIFIED or alert.
+    """
+    return any(re.search(rf"(?<!\w){re.escape(term)}(?!\w)", text, re.I) for term in terms)
+
+
+def _is_listing_context(row: Incident) -> bool:
+    return (
+        row.category.upper() == "EVENT"
+        or row.source_kind in {"event", "listing"}
+        or row.confidence == "listing"
+    )
 
 
 def _customers(row: Incident) -> int:
@@ -60,6 +73,12 @@ def seriousness_score(row: Incident) -> tuple[int, list[str], str]:
     }
     score = category_base.get(category, score)
 
+    # Calendar/promotional listings are contextual signals, not public-safety
+    # incidents. Do not allow promotional wording to trigger emergency keywords.
+    # Any actual closure/emergency should arrive from traffic, police, fire, etc.
+    if _is_listing_context(row):
+        return min(score, 8), ["event/listing context"], scope
+
     critical_terms = (
         ("evacuation order", 92, "evacuation order"),
         ("shelter in place", 88, "shelter-in-place"),
@@ -69,7 +88,7 @@ def seriousness_score(row: Incident) -> tuple[int, list[str], str]:
         ("wildfire", 76, "wildfire"),
     )
     for term, floor, reason in critical_terms:
-        if term in text:
+        if _has(text, term):
             score = max(score, floor)
             reasons.append(reason)
 
@@ -81,7 +100,7 @@ def seriousness_score(row: Incident) -> tuple[int, list[str], str]:
         score = max(score, 78); reasons.append("tactical response")
     if _has(text, "hazmat high", "gas leak", "propane leak", "chemical spill"):
         score = max(score, 62); reasons.append("hazardous material")
-    elif "hazmat" in text:
+    elif _has(text, "hazmat"):
         score = max(score, 48); reasons.append("hazmat response")
     if _has(text, "water rescue", "missing swimmer", "person in water", "search and rescue"):
         score = max(score, 62); reasons.append("rescue operation")
@@ -95,7 +114,7 @@ def seriousness_score(row: Incident) -> tuple[int, list[str], str]:
         score = max(score, 48); reasons.append("water safety advisory")
     if _has(text, "severe thunderstorm warning", "tornado warning", "hurricane warning", "storm surge warning"):
         score = max(score, 60); reasons.append("severe weather warning")
-    elif "warning" in text and category == "WEATHER":
+    elif _has(text, "warning") and category == "WEATHER":
         score = max(score, 42); reasons.append("weather warning")
 
     units = apparatus_count(str(row.metadata.get("response", ""))) if row.metadata else 0
@@ -175,6 +194,12 @@ def priority_score(row: Incident, seriousness: int) -> tuple[int, list[str]]:
     # Only a tiny priority nudge prevents a stale low-quality report outranking a live dispatch on ties.
     if row.source_kind in {"official", "official_archive"}:
         score += 2
+
+    # Promotional/calendar listings can provide useful context for crowds, but
+    # they must never occupy the emergency priority surface on their own.
+    if _is_listing_context(row):
+        score = min(score, 19)
+        reasons = ["event/listing context"]
 
     score = min(100, max(0, int(round(score))))
     return score, reasons
