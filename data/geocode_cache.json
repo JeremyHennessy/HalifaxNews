@@ -1,1 +1,32 @@
-{}
+{
+  "GARY MARTIN BEDFORD": {
+    "lat": 44.7217798,
+    "lon": -63.7069392,
+    "precision": "approximate_geocode",
+    "query": "GARY MARTIN DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "GRENNAN LOWER SACKVILLE": {
+    "lat": 44.7864957,
+    "lon": -63.6894751,
+    "precision": "approximate_geocode",
+    "query": "GRENNAN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "KETCH HARBOUR HERRING COVE": {
+    "lat": 44.5569177,
+    "lon": -63.562663,
+    "precision": "approximate_geocode",
+    "query": "KETCH HARBOUR RD, HERRING COVE, Halifax, Nova Scotia, Canada"
+  },
+  "METROPOLITAN LOWER SACKVILLE": {
+    "lat": 44.7775008,
+    "lon": -63.6748655,
+    "precision": "approximate_geocode",
+    "query": "METROPOLITAN AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "ROBIE": {
+    "lat": 44.6424271,
+    "lon": -63.5879823,
+    "precision": "approximate_geocode",
+    "query": "ROBIE ST, HALIFAX, Nova Scotia, Canada"
+  }
+}

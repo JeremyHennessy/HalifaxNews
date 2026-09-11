@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T13:52:45Z",
+  "generated_at": "2026-09-11T14:00:04Z",
   "history_hours": 48,
   "incidents": [
     {
@@ -10,7 +10,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -43,7 +43,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -76,7 +76,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -109,7 +109,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -142,7 +142,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -175,7 +175,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -208,7 +208,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -241,7 +241,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -274,7 +274,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -307,7 +307,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -340,7 +340,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -373,7 +373,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -406,7 +406,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -439,7 +439,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -472,7 +472,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -505,7 +505,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -538,7 +538,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -571,7 +571,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -604,7 +604,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -637,7 +637,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -670,7 +670,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -703,7 +703,7 @@
       "title": "Power outage",
       "summary": "Damage to Overhead Equipment",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -736,7 +736,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -769,7 +769,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -802,7 +802,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -835,7 +835,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -868,7 +868,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -901,7 +901,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -934,7 +934,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -967,7 +967,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1000,7 +1000,7 @@
       "title": "Power outage",
       "summary": "Damage to Overhead Equipment",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1033,7 +1033,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1066,7 +1066,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1099,7 +1099,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1132,7 +1132,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1165,7 +1165,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1198,7 +1198,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1231,7 +1231,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1264,7 +1264,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1297,7 +1297,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1330,7 +1330,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1363,7 +1363,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1396,7 +1396,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1429,7 +1429,7 @@
       "title": "Power outage",
       "summary": "Emergency Repair of Lines",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1462,7 +1462,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1495,7 +1495,7 @@
       "title": "Power outage",
       "summary": "Wildlife Interference",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1528,7 +1528,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1561,7 +1561,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1594,7 +1594,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1627,7 +1627,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1660,7 +1660,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1693,7 +1693,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1726,7 +1726,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1759,7 +1759,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1792,7 +1792,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1825,7 +1825,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1858,7 +1858,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1891,7 +1891,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1924,7 +1924,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1957,7 +1957,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -1990,7 +1990,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2023,7 +2023,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2056,7 +2056,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2089,7 +2089,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2122,7 +2122,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2155,7 +2155,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2188,7 +2188,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2221,7 +2221,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2254,7 +2254,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2287,7 +2287,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2320,7 +2320,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2353,7 +2353,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2386,7 +2386,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2419,7 +2419,7 @@
       "title": "Power outage",
       "summary": "Wildlife Interference",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2452,7 +2452,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2485,7 +2485,7 @@
       "title": "Power outage",
       "summary": "Wildlife Interference",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2518,7 +2518,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2551,7 +2551,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2584,7 +2584,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2617,7 +2617,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2650,7 +2650,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2683,7 +2683,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2716,7 +2716,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2749,7 +2749,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2782,7 +2782,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2815,7 +2815,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2848,7 +2848,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2881,7 +2881,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2914,7 +2914,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2947,7 +2947,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -2980,7 +2980,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -3013,7 +3013,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -3046,7 +3046,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -3079,7 +3079,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -3112,7 +3112,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -3145,7 +3145,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -3178,7 +3178,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -3211,7 +3211,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -3244,7 +3244,7 @@
       "title": "Power outage",
       "summary": "Cause Being Investigated",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T13:52:45Z",
+      "reported_at": "2026-09-11T13:59:51Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -3262,6 +3262,39 @@
       ],
       "raw_ids": [
         "3132"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-d0d32a676a3a43feec",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:59:51Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.08,
+      "lon": -64.34999,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3234"
       ],
       "related_ids": [],
       "metadata": {
@@ -3301,6 +3334,710 @@
         "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
         "customers": null,
         "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013642",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013642",
+      "title": "Motor Vehicle Collision",
+      "summary": "HIGHWAY 103 WB EXIT 3 OFF RAMP / HIGHWAY 103, TIMBERLEA · Responding: E05 STN58 T58",
+      "category": "RESCUE",
+      "reported_at": "2026-09-11T13:49:47Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "HIGHWAY 103 WB EXIT 3 OFF RAMP / HIGHWAY 103, TIMBERLEA",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 84,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013642"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013642",
+        "response": "E05 STN58 T58"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013641",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013641",
+      "title": "Medical Assistance",
+      "summary": "GRENNAN DR, LOWER SACKVILLE · Responding: E09 STN09",
+      "category": "EMS",
+      "reported_at": "2026-09-11T13:49:46Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "GRENNAN DR, LOWER SACKVILLE",
+      "lat": 44.7864957,
+      "lon": -63.6894751,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 62,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013641"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013641",
+        "response": "E09 STN09"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013640",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013640",
+      "title": "Medical Assistance",
+      "summary": "KETCH HARBOUR RD, HERRING COVE · Responding: E60 STN60",
+      "category": "EMS",
+      "reported_at": "2026-09-11T13:41:40Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "KETCH HARBOUR RD, HERRING COVE",
+      "lat": 44.5569177,
+      "lon": -63.562663,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 56,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013640"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013640",
+        "response": "E60 STN60"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013639",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013639",
+      "title": "Motor Vehicle Collision",
+      "summary": "ROBIE ST, HALIFAX · Responding: E02 STN02",
+      "category": "RESCUE",
+      "reported_at": "2026-09-11T12:52:34Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "ROBIE ST, HALIFAX",
+      "lat": 44.6424271,
+      "lon": -63.5879823,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 68,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013639"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013639",
+        "response": "E02 STN02"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013638",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013638",
+      "title": "Alarms",
+      "summary": "GARY MARTIN DR, BEDFORD · Responding: E08 E50 Q07 STN08",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T12:50:44Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "GARY MARTIN DR, BEDFORD",
+      "lat": 44.7217798,
+      "lon": -63.7069392,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 63,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013638"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013638",
+        "response": "E08 E50 Q07 STN08"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013637",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013637",
+      "title": "Medical Assistance",
+      "summary": "METROPOLITAN AVE, LOWER SACKVILLE · Responding: E09 STN09",
+      "category": "EMS",
+      "reported_at": "2026-09-11T12:19:03Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "METROPOLITAN AVE, LOWER SACKVILLE",
+      "lat": 44.7775008,
+      "lon": -63.6748655,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013637"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013637",
+        "response": "E09 STN09"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013636",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013636",
+      "title": "Motor Vehicle Collision",
+      "summary": "BARRINGTON ST, HALIFAX · Responding: E02 STN02",
+      "category": "RESCUE",
+      "reported_at": "2026-09-11T11:58:54Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "BARRINGTON ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 62,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013636"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013636",
+        "response": "E02 STN02"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013635",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013635",
+      "title": "Alarms",
+      "summary": "WILLIAMS AVE, DARTMOUTH · Responding: A03 E12 E14 STN12",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T11:53:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "WILLIAMS AVE, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013635"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013635",
+        "response": "A03 E12 E14 STN12"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013634",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013634",
+      "title": "Motor Vehicle Collision",
+      "summary": "EISENER BLVD, DARTMOUTH · Responding: E17 STN17",
+      "category": "RESCUE",
+      "reported_at": "2026-09-11T11:36:43Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "EISENER BLVD, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 62,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013634"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013634",
+        "response": "E17 STN17"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013633",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013633",
+      "title": "Motor Vehicle Collision",
+      "summary": "HIGHWAY 111 WB EXIT 8 OFF RAMP / HIGHWAY 111, DARTMOUTH · Responding: E12 E14 STN14",
+      "category": "RESCUE",
+      "reported_at": "2026-09-11T11:27:20Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "HIGHWAY 111 WB EXIT 8 OFF RAMP / HIGHWAY 111, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 66,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013633"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013633",
+        "response": "E12 E14 STN14"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013632",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013632",
+      "title": "Alarms",
+      "summary": "SOUTH PARK ST, HALIFAX · Responding: A03 E03 E04 STN02",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T11:25:27Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SOUTH PARK ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013632"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013632",
+        "response": "A03 E03 E04 STN02"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013631",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013631",
+      "title": "Investigation",
+      "summary": "HAMMONDS PLAINS RD / YANKEETOWN RD, HAMMONDS PLAINS · Responding: E65 STN50",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T11:14:28Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "INVESTIGATION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "HAMMONDS PLAINS RD / YANKEETOWN RD, HAMMONDS PLAINS",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 40,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013631"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013631",
+        "response": "E65 STN50"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013630",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013630",
+      "title": "Medical Assistance",
+      "summary": "LAKE RD, HATCHET LAKE · Responding: E52 E54 STN52",
+      "category": "EMS",
+      "reported_at": "2026-09-11T11:02:54Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "LAKE RD, HATCHET LAKE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 48,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013630"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013630",
+        "response": "E52 E54 STN52"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013629",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013629",
+      "title": "Salt Water Incident",
+      "summary": "LOWER WATER ST, HALIFAX · Responding: DC02 E02 E15 FB1 JRCC PCE Q13 STN02",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T11:01:52Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "SALT WATER INCIDENT",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "LOWER WATER ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 50,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013629"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013629",
+        "response": "DC02 E02 E15 FB1 JRCC PCE Q13 STN02"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013628",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013628",
+      "title": "Motor Vehicle Collision",
+      "summary": "HAMMONDS PLAINS RD / KINGSWOOD DR, HAMMONDS PLAINS · Responding: E50 STN50",
+      "category": "RESCUE",
+      "reported_at": "2026-09-11T10:39:36Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "HAMMONDS PLAINS RD / KINGSWOOD DR, HAMMONDS PLAINS",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 62,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013628"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013628",
+        "response": "E50 STN50"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013627",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013627",
+      "title": "Alarms",
+      "summary": "NITA LANE, HALIFAX · Responding: E06 STN06 STN62",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T10:05:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "NITA LANE, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 49,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013627"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013627",
+        "response": "E06 STN06 STN62"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013625",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013625",
+      "title": "Alarms",
+      "summary": "SPRING GARDEN RD, HALIFAX · Responding: A03 E02 E03 STN02",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T09:41:20Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SPRING GARDEN RD, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013625"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013625",
+        "response": "A03 E02 E03 STN02"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013624",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013624",
+      "title": "Alarms",
+      "summary": "PRIMROSE ST, DARTMOUTH · Responding: A12 E12 Q13 STN12",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T09:19:10Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "PRIMROSE ST, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013624"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013624",
+        "response": "A12 E12 Q13 STN12"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013623",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013623",
+      "title": "Medical Assistance",
+      "summary": "KAREN DR, WESTPHAL · Responding: E18 STN18",
+      "category": "EMS",
+      "reported_at": "2026-09-11T08:15:22Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "KAREN DR, WESTPHAL",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013623"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013623",
+        "response": "E18 STN18"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013622",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013622",
+      "title": "Medical Assistance",
+      "summary": "ARMBRO LANE, COLE HARBOUR · Responding: E17 STN17",
+      "category": "EMS",
+      "reported_at": "2026-09-11T08:03:02Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "ARMBRO LANE, COLE HARBOUR",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013622"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013622",
+        "response": "E17 STN17"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013621",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013621",
+      "title": "Medical Assistance",
+      "summary": "SHINING WALK, LOWER SACKVILLE · Responding: E09 STN09",
+      "category": "EMS",
+      "reported_at": "2026-09-11T07:51:49Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SHINING WALK, LOWER SACKVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013621"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013621",
+        "response": "E09 STN09"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013619",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013619",
+      "title": "Alarms",
+      "summary": "KINGSWOOD DR, HAMMONDS PLAINS · Responding: E08 E50 STN50",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T04:32:29Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "KINGSWOOD DR, HAMMONDS PLAINS",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 53,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013619"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013619",
+        "response": "E08 E50 STN50"
       }
     },
     {
@@ -3356,6 +4093,934 @@
       "metadata": {}
     },
     {
+      "id": "hrfe-hf26000013618",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013618",
+      "title": "Medical Assistance",
+      "summary": "HEAD SHIP HARBOUR LOOP, SHIP HARBOUR · Responding: E26 STN26",
+      "category": "EMS",
+      "reported_at": "2026-09-11T02:55:10Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "HEAD SHIP HARBOUR LOOP, SHIP HARBOUR",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013618"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013618",
+        "response": "E26 STN26"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013617",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013617",
+      "title": "Fire Structure",
+      "summary": "BLUE MOUNTAIN DR, HAMMONDS PLAINS · Responding: DC04 E08 E09 E50 PCW Q07 STN08 TCT08",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T02:43:19Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "FIRE STRUCTURE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "BLUE MOUNTAIN DR, HAMMONDS PLAINS",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 3,
+      "siren_score": 85,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013617"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013617",
+        "response": "DC04 E08 E09 E50 PCW Q07 STN08 TCT08"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013616",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013616",
+      "title": "Medical Assistance",
+      "summary": "PEGGYS POINT RD, PEGGYS COVE · Responding: E54 E55 STN55",
+      "category": "EMS",
+      "reported_at": "2026-09-11T02:38:50Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "PEGGYS POINT RD, PEGGYS COVE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 48,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013616"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013616",
+        "response": "E54 E55 STN55"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013615",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013615",
+      "title": "Medical Assistance",
+      "summary": "LIVELY RD, MIDDLE SACKVILLE · Responding: STN10 T10",
+      "category": "EMS",
+      "reported_at": "2026-09-11T02:36:56Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "LIVELY RD, MIDDLE SACKVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013615"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013615",
+        "response": "STN10 T10"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013614",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013614",
+      "title": "Medical Assistance",
+      "summary": "PEPPERELL ST, HALIFAX · Responding: A03 STN03",
+      "category": "EMS",
+      "reported_at": "2026-09-11T02:34:43Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "PEPPERELL ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013614"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013614",
+        "response": "A03 STN03"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013613",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013613",
+      "title": "Medical Assistance",
+      "summary": "BLACK ST, HALIFAX · Responding: E03 STN03",
+      "category": "EMS",
+      "reported_at": "2026-09-11T02:16:33Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "BLACK ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013613"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013613",
+        "response": "E03 STN03"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013612",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013612",
+      "title": "Medical Assistance",
+      "summary": "SPINNER CRES, LOWER SACKVILLE · Responding: E09 STN09",
+      "category": "EMS",
+      "reported_at": "2026-09-11T02:12:28Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SPINNER CRES, LOWER SACKVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013612"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013612",
+        "response": "E09 STN09"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013611",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013611",
+      "title": "Technical Rescue",
+      "summary": "MORRIS ST, HALIFAX · Responding: E02 STN02",
+      "category": "RESCUE",
+      "reported_at": "2026-09-11T01:28:56Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "TECHNICAL RESCUE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "MORRIS ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 60,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013611"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013611",
+        "response": "E02 STN02"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013610",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013610",
+      "title": "Medical Assistance",
+      "summary": "SACKVILLE DR, MIDDLE SACKVILLE · Responding: STN10 T11",
+      "category": "EMS",
+      "reported_at": "2026-09-11T00:38:23Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SACKVILLE DR, MIDDLE SACKVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013610"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013610",
+        "response": "STN10 T11"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013609",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013609",
+      "title": "Alarms",
+      "summary": "MORRIS ST, HALIFAX · Responding: A03 E02 E03 STN02",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T00:07:52Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "MORRIS ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013609"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013609",
+        "response": "A03 E02 E03 STN02"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013608",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013608",
+      "title": "Medical Assistance",
+      "summary": "SOVEREIGN CRES, WESTPHAL · Responding: E12 STN18",
+      "category": "EMS",
+      "reported_at": "2026-09-11T00:05:01Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SOVEREIGN CRES, WESTPHAL",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013608"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013608",
+        "response": "E12 STN18"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013607",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013607",
+      "title": "Alarms",
+      "summary": "SPRING AVE, DARTMOUTH · Responding: E15 E18 Q13 STN14",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T00:03:11Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SPRING AVE, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013607"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013607",
+        "response": "E15 E18 Q13 STN14"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013606",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013606",
+      "title": "Vehicle Fire",
+      "summary": "COLE HARBOUR RD, COLE HARBOUR · Responding: E17 STN17",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T23:56:57Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "VEHICLE FIRE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "COLE HARBOUR RD, COLE HARBOUR",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 54,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013606"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013606",
+        "response": "E17 STN17"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013605",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013605",
+      "title": "Motor Vehicle Collision",
+      "summary": "VALLEYFIELD RD / WOODLAWN RD, DARTMOUTH · Responding: E14 STN14",
+      "category": "RESCUE",
+      "reported_at": "2026-09-10T23:52:55Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "VALLEYFIELD RD / WOODLAWN RD, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 62,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013605"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013605",
+        "response": "E14 STN14"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013604",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013604",
+      "title": "Alarms",
+      "summary": "CLIFTON ST, HALIFAX · Responding: A03 E03 E04 STN03",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T23:08:12Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "CLIFTON ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013604"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013604",
+        "response": "A03 E03 E04 STN03"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013603",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013603",
+      "title": "Medical Assistance",
+      "summary": "RUSSELL ST, DARTMOUTH · Responding: E12 STN12",
+      "category": "EMS",
+      "reported_at": "2026-09-10T23:01:23Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "RUSSELL ST, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013603"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013603",
+        "response": "E12 STN12"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013602",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013602",
+      "title": "Medical Assistance",
+      "summary": "FEDERAL AVE, HALIFAX · Responding: E05 STN05",
+      "category": "EMS",
+      "reported_at": "2026-09-10T23:01:23Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "FEDERAL AVE, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013602"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013602",
+        "response": "E05 STN05"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013601",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013601",
+      "title": "Fire Structure",
+      "summary": "CARRIE CRES, BEAVER BANK · Responding: A09 DC04 E09 E45 E48 PCV4E PCW STN48 T10 T48 TCT08",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T22:15:32Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "FIRE STRUCTURE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "CARRIE CRES, BEAVER BANK",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 3,
+      "siren_score": 85,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013601"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013601",
+        "response": "A09 DC04 E09 E45 E48 PCV4E PCW STN48 T10 T48 TCT08"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013600",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013600",
+      "title": "Outside Fire",
+      "summary": "BARRINGTON ST, HALIFAX · Responding: E03 STN03",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T22:10:33Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "OUTSIDE FIRE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "BARRINGTON ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 54,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013600"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013600",
+        "response": "E03 STN03"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013599",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013599",
+      "title": "Medical Assistance",
+      "summary": "SKY BLVD, GOFFS · Responding: E45 E47 STN47",
+      "category": "EMS",
+      "reported_at": "2026-09-10T21:09:36Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SKY BLVD, GOFFS",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 48,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013599"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013599",
+        "response": "E45 E47 STN47"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013598",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013598",
+      "title": "Medical Assistance",
+      "summary": "HANNEBURY DR, COLE HARBOUR · Responding: E18 STN17",
+      "category": "EMS",
+      "reported_at": "2026-09-10T20:50:36Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "HANNEBURY DR, COLE HARBOUR",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013598"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013598",
+        "response": "E18 STN17"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013597",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013597",
+      "title": "Alarms",
+      "summary": "KIMBERLEY CRES, DARTMOUTH · Responding: E14 E17 Q13 STN14",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T20:46:45Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "KIMBERLEY CRES, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013597"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013597",
+        "response": "E14 E17 Q13 STN14"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013596",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013596",
+      "title": "Hazmat Low",
+      "summary": "RIDGEPARK LANE, HALIFAX · Responding: E06 STN06",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T20:17:16Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "HAZMAT LOW",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "RIDGEPARK LANE, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 56,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013596"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013596",
+        "response": "E06 STN06"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013595",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013595",
+      "title": "Alarms",
+      "summary": "EAST PENNANT RD, EAST PENNANT · Responding: E62 STN62",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T20:13:08Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "EAST PENNANT RD, EAST PENNANT",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 49,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013595"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013595",
+        "response": "E62 STN62"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013594",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013594",
+      "title": "Medical Assistance",
+      "summary": "DEWHURST DR, DARTMOUTH · Responding: E18 STN18",
+      "category": "EMS",
+      "reported_at": "2026-09-10T19:38:42Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "DEWHURST DR, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013594"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013594",
+        "response": "E18 STN18"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013593",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013593",
+      "title": "Alarms",
+      "summary": "SPRUCE VIEW DR, BEDFORD · Responding: E05 E08 Q07 STN08",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T19:36:51Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SPRUCE VIEW DR, BEDFORD",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013593"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013593",
+        "response": "E05 E08 Q07 STN08"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013592",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013592",
+      "title": "Medical Assistance",
+      "summary": "EAST CHEZZETCOOK RD, EAST CHEZZETCOOK · Responding: E23 STN23",
+      "category": "EMS",
+      "reported_at": "2026-09-10T19:28:35Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "EAST CHEZZETCOOK RD, EAST CHEZZETCOOK",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013592"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013592",
+        "response": "E23 STN23"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013591",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013591",
+      "title": "Motor Vehicle Collision",
+      "summary": "FOG LANE / HIGGINS AVE, BEECHVILLE · Responding: STN58 T58",
+      "category": "RESCUE",
+      "reported_at": "2026-09-10T19:22:31Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "FOG LANE / HIGGINS AVE, BEECHVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 62,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013591"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013591",
+        "response": "STN58 T58"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013590",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013590",
+      "title": "Alarms",
+      "summary": "FISHER DR, HAMMONDS PLAINS · Responding: E50 STN50",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T18:41:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "FISHER DR, HAMMONDS PLAINS",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 49,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013590"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013590",
+        "response": "E50 STN50"
+      }
+    },
+    {
       "id": "hfxgov-5a63c8afc357863bc0",
       "source": "Halifax Regional Municipality · Bluesky",
       "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv6p3xx6rz2t",
@@ -3384,6 +5049,102 @@
       "metadata": {}
     },
     {
+      "id": "hrfe-hf26000013589",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013589",
+      "title": "Alarms",
+      "summary": "PAULINE CRES, DARTMOUTH · Responding: E14 E17 Q13 STN14",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T18:20:56Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "PAULINE CRES, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013589"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013589",
+        "response": "E14 E17 Q13 STN14"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013588",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013588",
+      "title": "Alarms",
+      "summary": "EVANS AVE, HALIFAX · Responding: E04 E05 Q07 STN05",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T18:18:55Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "EVANS AVE, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013588"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013588",
+        "response": "E04 E05 Q07 STN05"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013586",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013586",
+      "title": "Alarms",
+      "summary": "HIGHWAY 7, WESTPHAL · Responding: E15 E18 Q13 STN18",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T17:46:33Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "HIGHWAY 7, WESTPHAL",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013586"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013586",
+        "response": "E15 E18 Q13 STN18"
+      }
+    },
+    {
       "id": "hfxgov-c7a14fbae7c35c67ff",
       "source": "Halifax Regional Municipality · Bluesky",
       "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv6m6kz5qr2x",
@@ -3410,6 +5171,390 @@
       ],
       "related_ids": [],
       "metadata": {}
+    },
+    {
+      "id": "hrfe-hf26000013585",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013585",
+      "title": "Motor Vehicle Collision",
+      "summary": "SPRING GARDEN RD, HALIFAX · Responding: E02 STN02",
+      "category": "RESCUE",
+      "reported_at": "2026-09-10T17:37:15Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SPRING GARDEN RD, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 62,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013585"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013585",
+        "response": "E02 STN02"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013584",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013584",
+      "title": "Motor Vehicle Collision",
+      "summary": "CALEDONIA RD / MAIN ST, DARTMOUTH · Responding: E14 STN14",
+      "category": "RESCUE",
+      "reported_at": "2026-09-10T17:33:12Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "CALEDONIA RD / MAIN ST, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 62,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013584"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013584",
+        "response": "E14 STN14"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013583",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013583",
+      "title": "Medical Assistance",
+      "summary": "SMOKEY DR, LOWER SACKVILLE · Responding: E09 STN09",
+      "category": "EMS",
+      "reported_at": "2026-09-10T17:17:01Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SMOKEY DR, LOWER SACKVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013583"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013583",
+        "response": "E09 STN09"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013582",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013582",
+      "title": "Medical Assistance",
+      "summary": "REGAL RD, DARTMOUTH · Responding: E17 STN17",
+      "category": "EMS",
+      "reported_at": "2026-09-10T17:15:03Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "REGAL RD, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013582"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013582",
+        "response": "E17 STN17"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013581",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013581",
+      "title": "Alarms",
+      "summary": "WESTERN PKY, BEDFORD · Responding: E08 E50 Q07 STN08",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T17:01:03Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "WESTERN PKY, BEDFORD",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013581"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013581",
+        "response": "E08 E50 Q07 STN08"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013580",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013580",
+      "title": "Motor Vehicle Collision",
+      "summary": "PINEHILL DR / SACKVILLE DR, LOWER SACKVILLE · Responding: E09 STN09",
+      "category": "RESCUE",
+      "reported_at": "2026-09-10T15:51:39Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "PINEHILL DR / SACKVILLE DR, LOWER SACKVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 62,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013580"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013580",
+        "response": "E09 STN09"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013577",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013577",
+      "title": "Medical Assistance",
+      "summary": "DICKEY DR, LOWER SACKVILLE · Responding: E09 STN09",
+      "category": "EMS",
+      "reported_at": "2026-09-10T15:31:05Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "DICKEY DR, LOWER SACKVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 44,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013577"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013577",
+        "response": "E09 STN09"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013576",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013576",
+      "title": "Outside Fire",
+      "summary": "COW BAY RD, COW BAY · Responding: STN16 T16",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T15:27:49Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "OUTSIDE FIRE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "COW BAY RD, COW BAY",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 54,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013576"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013576",
+        "response": "STN16 T16"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013575",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013575",
+      "title": "Technical Rescue",
+      "summary": "BRUNSWICK ST, HALIFAX · Responding: E04 STN03",
+      "category": "RESCUE",
+      "reported_at": "2026-09-10T15:06:19Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "TECHNICAL RESCUE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "BRUNSWICK ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 60,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013575"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013575",
+        "response": "E04 STN03"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013574",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013574",
+      "title": "Alarms",
+      "summary": "SUMMER ST, HALIFAX · Responding: A03 E02 E03 STN02",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T15:02:35Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SUMMER ST, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 57,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013574"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013574",
+        "response": "A03 E02 E03 STN02"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013572",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013572",
+      "title": "Outside Fire",
+      "summary": "BELMONT AVE, DARTMOUTH · Responding: E15 STN15",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T14:15:31Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "OUTSIDE FIRE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "BELMONT AVE, DARTMOUTH",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 54,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013572"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013572",
+        "response": "E15 STN15"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013570",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013570",
+      "title": "Fire Structure",
+      "summary": "QUINPOOL RD, HALIFAX · Responding: A03 DC02 E02 E03 E05 PCE STN03 TCT12",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T14:09:14Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "FIRE STRUCTURE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "QUINPOOL RD, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 3,
+      "siren_score": 85,
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013570"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013570",
+        "response": "A03 DC02 E02 E03 E05 PCE STN03 TCT12"
+      }
     },
     {
       "id": "hfxgov-331602dde4384b6861",
@@ -4010,20 +6155,20 @@
       "source": "Halifax Regional Fire & Emergency",
       "url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed",
       "authority": "official",
-      "status": "error",
-      "checked_at": "2026-09-11T13:52:21Z",
-      "fetched_at": null,
-      "records": 0,
-      "error": "ValueError: HRFE page fetched but no incident blocks matched the expected public labels",
-      "notes": "Official dispatch feed. Location is intentionally street/intersection level, not an exact person location."
+      "status": "ok",
+      "checked_at": "2026-09-11T13:59:48Z",
+      "fetched_at": "2026-09-11T13:59:48Z",
+      "records": 66,
+      "error": null,
+      "notes": "Official HRFE RSS dispatch feed. Location is intentionally street/intersection level, not an exact person location."
     },
     {
       "source": "Halifax Transit GTFS-Realtime",
       "url": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T13:52:40Z",
-      "fetched_at": "2026-09-11T13:52:41Z",
+      "checked_at": "2026-09-11T13:59:48Z",
+      "fetched_at": "2026-09-11T13:59:48Z",
       "records": 81,
       "error": null,
       "notes": "Official GTFS-Realtime alerts; data licensed under the Open Government Licence — Halifax."
@@ -4033,7 +6178,7 @@
       "url": "https://www.halifax.ca/home/news?category=25",
       "authority": "official",
       "status": "error",
-      "checked_at": "2026-09-11T13:52:41Z",
+      "checked_at": "2026-09-11T13:59:48Z",
       "fetched_at": null,
       "records": 0,
       "error": "ValueError: HRP news page fetched but no dated police release links were parsed",
@@ -4044,8 +6189,8 @@
       "url": "https://bsky.app/profile/hfxgov.bsky.social",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T13:52:42Z",
-      "fetched_at": "2026-09-11T13:52:42Z",
+      "checked_at": "2026-09-11T13:59:49Z",
+      "fetched_at": "2026-09-11T13:59:50Z",
       "records": 32,
       "error": null,
       "notes": "Official HRM social updates filtered to disruption/public-safety terms. HRM directs residents to this account during emergency events."
@@ -4055,8 +6200,8 @@
       "url": "https://511.novascotia.ca/list/events/traffic",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T13:52:42Z",
-      "fetched_at": "2026-09-11T13:52:43Z",
+      "checked_at": "2026-09-11T13:59:50Z",
+      "fetched_at": "2026-09-11T13:59:50Z",
       "records": 0,
       "error": null,
       "notes": "Official traffic-event text report. Zero parsed rows can legitimately mean there are no listed HRM traffic events at collection time."
@@ -4066,8 +6211,8 @@
       "url": "https://www.halifaxwater.ca/notices-and-news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T13:52:43Z",
-      "fetched_at": "2026-09-11T13:52:44Z",
+      "checked_at": "2026-09-11T13:59:50Z",
+      "fetched_at": "2026-09-11T13:59:50Z",
       "records": 4,
       "error": null,
       "notes": null
@@ -4077,8 +6222,8 @@
       "url": "https://weather.gc.ca/rss/battleboard/ns1_e.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T13:52:44Z",
-      "fetched_at": "2026-09-11T13:52:44Z",
+      "checked_at": "2026-09-11T13:59:50Z",
+      "fetched_at": "2026-09-11T13:59:50Z",
       "records": 1,
       "error": null,
       "notes": "Halifax Metro and Halifax County West near-real-time public weather alert Atom feed."
@@ -4088,8 +6233,8 @@
       "url": "https://emergencyinfo.novascotia.ca/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T13:52:44Z",
-      "fetched_at": "2026-09-11T13:52:44Z",
+      "checked_at": "2026-09-11T13:59:50Z",
+      "fetched_at": "2026-09-11T13:59:51Z",
       "records": 0,
       "error": null,
       "notes": "Provincial active emergency events. Event dates can be less granular than dispatch sources."
@@ -4099,8 +6244,8 @@
       "url": "https://outagemap.hfxdeploy.com/api/outages",
       "authority": "secondary",
       "status": "ok",
-      "checked_at": "2026-09-11T13:52:44Z",
-      "fetched_at": "2026-09-11T13:52:45Z",
+      "checked_at": "2026-09-11T13:59:51Z",
+      "fetched_at": "2026-09-11T13:59:51Z",
       "records": 100,
       "error": null,
       "notes": "Read-only community API used only as a machine-readable helper. Incident cards link to the official Nova Scotia Power outage map."
@@ -4110,7 +6255,7 @@
       "url": "https://www.reddit.com/r/halifax/new.json?limit=60&raw_json=1",
       "authority": "community",
       "status": "error",
-      "checked_at": "2026-09-11T13:52:45Z",
+      "checked_at": "2026-09-11T13:59:51Z",
       "fetched_at": null,
       "records": 0,
       "error": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/halifax/new.json?limit=60&raw_json=1",
