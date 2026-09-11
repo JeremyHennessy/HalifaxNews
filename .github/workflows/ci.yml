@@ -37,24 +37,21 @@ jobs:
           import json
           from pathlib import Path
           p = json.loads(Path('public/data/incidents.json').read_text())
-          assert p['schema_version'] >= 2
+          assert p['schema_version'] >= 3
           assert isinstance(p['incidents'], list)
           assert isinstance(p['source_health'], list)
-          assert len(p['source_health']) >= 10
+          assert len(p['source_health']) >= 15
           errors = [s for s in p['source_health'] if s['status'] == 'error']
           print(f"incidents={len(p['incidents'])} sources={len(p['source_health'])} errors={len(errors)}")
           for row in errors:
               print(f"SOURCE_ERROR {row['source']}: {row.get('error')}")
           status = {s['source']: s['status'] for s in p['source_health']}
-          hrfe_paths = {
-              'Halifax Regional Fire & Emergency',
-              'HRFE Incident Initial Response · Open Data',
-          }
-          hrfe_ok = any(status.get(name) == 'ok' for name in hrfe_paths)
           transit_ok = status.get('Halifax Transit GTFS-Realtime') == 'ok'
+          hrfe_live_ok = status.get('Halifax Regional Fire & Emergency') == 'ok'
+          hrfe_mirror_ok = status.get('HRFE incident mirror · Bluesky') == 'ok'
           failures = []
-          if not hrfe_ok:
-              failures.append('HRFE coverage (all configured HRFE paths failed)')
+          if not (hrfe_live_ok or hrfe_mirror_ok):
+              failures.append('near-real-time HRFE coverage (primary live feed and dedicated mirror both failed)')
           if not transit_ok:
               failures.append('Halifax Transit GTFS-Realtime')
           if failures:

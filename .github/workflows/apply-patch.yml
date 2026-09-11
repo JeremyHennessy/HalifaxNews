@@ -1,0 +1,65 @@
+name: Apply HFX Pulse source patch
+
+on:
+  push:
+    branches: [build/hfx-pulse-mvp]
+    paths:
+      - '.patch/**'
+      - '.github/workflows/apply-patch.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hfx-pulse-source-patch
+  cancel-in-progress: false
+
+jobs:
+  apply-verify-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: build/hfx-pulse-mvp
+          fetch-depth: 1
+      - name: Reassemble and verify patch archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .patch/part-* | base64 --decode > /tmp/hfxpatch.tgz
+          echo '87f77fd423f6d4af961d1747145150cc49e83e94596eddb3145a17e177bcbdf3  /tmp/hfxpatch.tgz' | sha256sum -c -
+          tar -tzf /tmp/hfxpatch.tgz >/dev/null
+      - name: Apply patch source files
+        run: tar -xzf /tmp/hfxpatch.tgz
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Verify patched source
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m unittest discover -s tests -v
+          python -m compileall -q hfxpulse scripts tests
+          node --check public/assets/app.js
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          json.loads(Path('config/sources.json').read_text())
+          print('source registry parses')
+          PY
+      - name: Commit verified source patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md config/sources.json hfxpulse tests/test_core.py
+          if git diff --cached --quiet; then
+            echo 'No application changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Build 003: add resilient live and community source fallbacks'
+          git push origin HEAD:build/hfx-pulse-mvp
