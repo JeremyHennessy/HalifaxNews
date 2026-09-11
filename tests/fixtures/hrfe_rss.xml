@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>HRFE Incident Feed</title>
+    <item>
+      <title>MOTOR VEHICLE COLLISION</title>
+      <link>https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013642</link>
+      <description>Location: HIGHWAY 103 WB EXIT 3 OFF RAMP / HIGHWAY 103, TIMBERLEA
+Call Number: HF26000013642
+Response: E05 STN58 T58</description>
+      <pubDate>Fri, 11 Sep 2026 10:49:47 -0300</pubDate>
+      <dc:creator>HRFE Call Automation</dc:creator>
+      <guid>HF26000013642</guid>
+    </item>
+    <item>
+      <title>MEDICAL ASSISTANCE</title>
+      <link>https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013641</link>
+      <description>Location: GRENNAN DR, LOWER SACKVILLE
+Call Number: HF26000013641
+Response: E09 STN09</description>
+      <pubDate>Fri, 11 Sep 2026 10:49:46 -0300</pubDate>
+      <dc:creator>HRFE Call Automation</dc:creator>
+      <guid>HF26000013641</guid>
+    </item>
+  </channel>
+</rss>
