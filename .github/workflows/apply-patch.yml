@@ -5,6 +5,7 @@ on:
     branches: [build/hfx-pulse-mvp]
     paths:
       - '.patch/**'
+      - '.patch-deps/**'
       - '.github/workflows/apply-patch.yml'
 
 permissions:
@@ -23,15 +24,26 @@ jobs:
         with:
           ref: build/hfx-pulse-mvp
           fetch-depth: 1
-      - name: Reassemble and verify patch archive
+      - name: Reassemble and verify source patch
         shell: bash
         run: |
           set -euo pipefail
           cat .patch/part-* | base64 --decode > /tmp/hfxpatch.tgz
           echo '87f77fd423f6d4af961d1747145150cc49e83e94596eddb3145a17e177bcbdf3  /tmp/hfxpatch.tgz' | sha256sum -c -
           tar -tzf /tmp/hfxpatch.tgz >/dev/null
-      - name: Apply patch source files
-        run: tar -xzf /tmp/hfxpatch.tgz
+      - name: Reassemble and verify dependency patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .patch-deps/part-* | base64 --decode > /tmp/hfxdeps.tgz
+          echo '7982f41a607f4cc4c96e5f143d8c7ff739aa52090d61b35f616e87c53f4788eb  /tmp/hfxdeps.tgz' | sha256sum -c -
+          tar -tzf /tmp/hfxdeps.tgz >/dev/null
+      - name: Apply source and dependency patches
+        shell: bash
+        run: |
+          set -euo pipefail
+          tar -xzf /tmp/hfxdeps.tgz
+          tar -xzf /tmp/hfxpatch.tgz
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -56,7 +68,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md config/sources.json hfxpulse tests/test_core.py
+          git add README.md config/sources.json hfxpulse tests/test_core.py public/index.html public/assets
           if git diff --cached --quiet; then
             echo 'No application changes to commit.'
             exit 0
