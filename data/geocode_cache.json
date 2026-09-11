@@ -29,6 +29,18 @@
     "precision": "approximate_geocode",
     "query": "KETCH HARBOUR RD, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
+  "LAKE HATCHET LAKE": {
+    "lat": 44.5682549,
+    "lon": -63.7211158,
+    "precision": "approximate_geocode",
+    "query": "LAKE RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "LOWER WATER": {
+    "lat": 44.6460229,
+    "lon": -63.5709755,
+    "precision": "approximate_geocode",
+    "query": "LOWER WATER ST, HALIFAX, Nova Scotia, Canada"
+  },
   "METROPOLITAN LOWER SACKVILLE": {
     "lat": 44.7775008,
     "lon": -63.6748655,
