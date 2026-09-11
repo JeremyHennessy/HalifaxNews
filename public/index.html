@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#0b1118" />
-  <meta name="description" content="Fast, source-backed public incident intelligence for Halifax." />
+  <meta name="description" content="Near-real-time Halifax incident, disruption and community-signal intelligence." />
   <title>HFX Pulse</title>
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="preconnect" href="https://unpkg.com" crossorigin />
@@ -26,14 +26,25 @@
   <main>
     <section class="hero shell">
       <div>
-        <p class="eyebrow">DOWNTOWN HALIFAX · PUBLIC SIGNALS</p>
+        <p class="eyebrow">DOWNTOWN HALIFAX · LIVE SIGNALS</p>
         <h1>What’s happening <em>right now?</em></h1>
-        <p class="lede">Dispatches, road events, transit disruption, police context, utilities, weather and community reports — normalized into one evidence-first timeline.</p>
+        <p class="lede">Fire dispatch, police and RCMP releases, traffic, bridges, transit, utilities, weather, local news, Reddit, Bluesky, event and harbour context — together in one timeline with the source shown.</p>
       </div>
       <div class="hero-clock" aria-label="Current Halifax time">
         <span id="clockTime">--:--</span>
         <small id="clockDate">Halifax</small>
       </div>
+    </section>
+
+    <section class="shell priority-section" aria-labelledby="priorityHeading">
+      <div class="section-title-row">
+        <div>
+          <p class="eyebrow">PRIORITY NOW</p>
+          <h2 id="priorityHeading">What deserves attention</h2>
+        </div>
+        <span class="time-window">seriousness + recency + local impact</span>
+      </div>
+      <div id="priorityCards" class="priority-grid" aria-live="polite"></div>
     </section>
 
     <section class="shell siren-section" aria-labelledby="sirenHeading">
@@ -50,14 +61,11 @@
     <section class="shell dashboard-grid">
       <div class="panel feed-panel">
         <div class="panel-header sticky-panel-header">
-          <div>
-            <p class="eyebrow">LIVE TIMELINE</p>
-            <h2>Halifax signals</h2>
-          </div>
+          <div><p class="eyebrow">LIVE TIMELINE</p><h2>Halifax signals</h2></div>
           <span id="visibleCount" class="count-badge">0</span>
         </div>
 
-        <div class="filters" id="filters" aria-label="Incident filters">
+        <div class="filters" id="filters" aria-label="Signal filters">
           <button class="filter active" data-filter="ALL">All</button>
           <button class="filter" data-filter="FIRE">Fire</button>
           <button class="filter" data-filter="RESCUE">Rescue</button>
@@ -68,12 +76,20 @@
           <button class="filter" data-filter="UTILITY">Utilities</button>
           <button class="filter" data-filter="WEATHER">Weather</button>
           <button class="filter" data-filter="EMERGENCY">Emergency</button>
-          <button class="filter" data-filter="COMMUNITY">Community</button>
+          <button class="filter" data-filter="EVENT">Events</button>
+          <button class="filter" data-filter="MARINE">Harbour</button>
+          <button class="filter" data-filter="COMMUNITY">Other</button>
         </div>
 
         <div class="feed-controls">
           <label><input id="downtownOnly" type="checkbox" checked /> Downtown focus</label>
-          <label><input id="officialOnly" type="checkbox" /> Official only</label>
+          <label><input id="hideCommunity" type="checkbox" /> Hide community posts</label>
+          <select id="priorityRange" aria-label="Minimum priority">
+            <option value="0" selected>All priorities</option>
+            <option value="20">Moderate+</option>
+            <option value="40">Elevated+</option>
+            <option value="60">High+</option>
+          </select>
           <select id="timeRange" aria-label="Time range">
             <option value="3">Last 3 hours</option>
             <option value="12" selected>Last 12 hours</option>
@@ -88,22 +104,16 @@
       <aside class="right-column">
         <div class="panel map-panel">
           <div class="panel-header">
-            <div>
-              <p class="eyebrow">MAP</p>
-              <h2>Active locations</h2>
-            </div>
+            <div><p class="eyebrow">MAP</p><h2>Active locations</h2></div>
             <span class="map-note">Approx. where noted</span>
           </div>
-          <div id="map" aria-label="Map of Halifax incident signals"></div>
-          <div class="map-legend"><span><b class="legend-dot official"></b> Official/secondary</span><span><b class="legend-dot community"></b> Community</span></div>
+          <div id="map" aria-label="Map of Halifax signals"></div>
+          <div class="map-legend"><span><b class="legend-dot official"></b> First-party/news</span><span><b class="legend-dot community"></b> Community/secondary</span></div>
         </div>
 
         <div class="panel health-panel">
           <div class="panel-header">
-            <div>
-              <p class="eyebrow">SOURCE HEALTH</p>
-              <h2>Collectors</h2>
-            </div>
+            <div><p class="eyebrow">SOURCE HEALTH</p><h2>Collectors</h2></div>
             <span id="sourceHealthSummary" class="health-summary">—</span>
           </div>
           <div id="sourceHealth" class="source-list"></div>
@@ -111,16 +121,16 @@
 
         <div class="panel explanation-panel">
           <p class="eyebrow">HOW TO READ THIS</p>
-          <h2>Evidence, not rumours</h2>
-          <p><strong>Official</strong> means the item came directly from a public authority feed or notice. <strong>Corroborated</strong> means at least two official sources appear to describe the same place and time. <strong>Community</strong> is context only and is explicitly unverified.</p>
-          <p class="emergency-note">This is not an emergency service. Call <strong>911</strong> for an emergency.</p>
+          <h2>Everything, with provenance</h2>
+          <p>The default view includes broad public signals. <strong>Priority</strong> ranks what deserves attention now using seriousness, recency, downtown relevance and matching signals. <strong>Seriousness</strong> estimates potential public impact and is separate from source confidence. Community reports can therefore be important without being treated as confirmed.</p>
+          <p class="emergency-note">Community and automated sources can be wrong. This is not an emergency service. Call <strong>911</strong> for an emergency.</p>
         </div>
       </aside>
     </section>
   </main>
 
   <footer class="shell footer">
-    <span>HFX Pulse · public-source local intelligence</span>
+    <span>HFX Pulse · broad-source local intelligence</span>
     <span id="generatedAt">No refresh yet</span>
   </footer>
 
@@ -128,10 +138,7 @@
     <article class="incident-card">
       <div class="incident-rail"></div>
       <div class="incident-content">
-        <div class="incident-topline">
-          <div class="badges"></div>
-          <time></time>
-        </div>
+        <div class="incident-topline"><div class="badges"></div><time></time></div>
         <h3></h3>
         <p class="incident-summary"></p>
         <div class="incident-location"></div>

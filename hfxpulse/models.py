@@ -25,6 +25,11 @@ class Incident:
     location_precision: str | None = None
     severity: int = 1
     siren_score: int = 0
+    seriousness_score: int = 0
+    priority_score: int = 0
+    priority_band: str = "low"
+    impact_scope: str = "local"
+    attention_reasons: list[str] = field(default_factory=list)
     signals: list[str] = field(default_factory=list)
     raw_ids: list[str] = field(default_factory=list)
     related_ids: list[str] = field(default_factory=list)

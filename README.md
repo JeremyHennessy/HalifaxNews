@@ -1,101 +1,112 @@
 # HFX Pulse
 
-HFX Pulse is an evidence-first, near-real-time local incident dashboard for Halifax. Its core question is simple: **“I hear sirens / see a closure / notice disruption downtown — what public signals explain it right now?”**
+HFX Pulse is a near-real-time Halifax local-intelligence dashboard built around one practical question: **“I hear sirens / see a closure / notice something unusual downtown — what public signals can explain it right now?”**
 
-It is deliberately not a conventional news reader. The collector prioritizes operational public feeds and then adds slower official context and clearly labelled community observations.
+The product deliberately collects broadly. First-party dispatch/operational sources, news, automated mirrors, public social posts, Reddit, utilities, traffic, event listings and harbour context are all eligible. **Source quality is shown as provenance; it is not used to hide useful signals by default.**
 
 ## Product rules
 
-1. **Official is a source property, not a visual style.** An item is official only if it originated from a public authority source.
-2. **Corroborated requires two official sources.** A Reddit post cannot turn an official incident into “corroborated.”
-3. **Unknown stays unknown.** A failed scraper is shown in Source Health; it does not become “0 incidents.”
-4. **No person tracking.** The product stores incident/location information published for public awareness. It intentionally does not store Reddit usernames or attempt to identify people involved.
-5. **Source timestamps are preserved.** Collector run time is not substituted for the event time when the source provides one.
-6. **Not a 911 service.** Delays and omissions are possible.
+1. **Broad collection, explicit provenance.** First-party, news, secondary, event and community signals can all appear in the default timeline.
+2. **No invented certainty.** A community/news item is never silently converted into a confirmed incident. `corroborated` is reserved for independent first-party records that align in place and time.
+3. **Unknown stays unknown.** A failed collector is visible in Source Health. Failure never becomes “0 incidents.”
+4. **No unnecessary person tracking.** The Reddit collector does not persist usernames. The app is about incidents and public context, not identifying people involved.
+5. **Source time wins.** When a source provides an event/publication timestamp, the collector preserves it instead of substituting the scrape time.
+6. **Independent failures.** Every source adapter is isolated; one broken website does not take down the collection run.
+7. **Not a 911 service.** Public feeds can be delayed, incomplete or wrong.
 
-## Current source adapters
+## Current collector surface
 
-| Source | Role | Authority | Current implementation |
-|---|---|---|---|
-| Halifax Regional Fire & Emergency incident feed | Fire/rescue/medical/collision dispatch, response units | Official | Public-label HTML parser |
-| Halifax Regional Police releases | Police context/corroboration | Official | News listing parser |
-| HRM official Bluesky | Fast municipal emergency/closure context | Official | Public AT Protocol author-feed adapter |
-| Halifax Transit GTFS-Realtime Alerts | Detours/disruption/service alerts | Official | GTFS-RT protobuf |
-| 511 Nova Scotia | Road incidents/closures/bridge activity | Official | Public Traffic Events text-report table parser |
-| Halifax Water notices | Water/road-work/service notices | Official | Notices parser |
-| Environment Canada Halifax Metro/West | Weather alerts | Official | Atom feed |
-| Emergency Info Nova Scotia | Active provincial emergencies | Official | Active-event page parser |
-| Nova Scotia Power | Outage context | Official map + secondary machine helper | Public read-only secondary API, cards link to official outage map |
-| r/halifax | Fast community context | Community | New-post JSON keyword filter; always unverified |
+The MVP has **18 collector paths** covering:
 
-Source definitions live in `config/sources.json`.
+- Halifax Regional Fire & Emergency live incident feed;
+- HRFE Incident Initial Response open-data layer;
+- Halifax Regional Police releases;
+- RCMP Nova Scotia releases filtered to HRM;
+- Halifax Transit GTFS-Realtime alerts;
+- 511 Nova Scotia traffic events;
+- Halifax Harbour Bridges traffic/closure page;
+- Halifax Water notices;
+- Environment Canada Halifax alerts;
+- Emergency Info Nova Scotia;
+- Nova Scotia Power outage context;
+- HRM official Bluesky;
+- Halifax Fire / Transit / Events, Halifax Noise and automated HRFE Bluesky accounts;
+- broad public Bluesky searches for Halifax sirens/fire/police/ambulance/crash/emergency terms;
+- `r/halifax` and HRM-relevant `r/NovaScotia` posts;
+- Global Halifax plus Google News, Bing News, CityNews and Waterfront Media RSS/feed attempts;
+- Downtown Halifax same-day event listings;
+- Port of Halifax same-day cruise schedule context.
+
+The canonical source registry is `config/sources.json`. Runtime compatibility is shown in the app’s Source Health panel.
 
 ## “Likely siren activity”
 
-This is a transparent ranking heuristic, not a claim about the cause of a siren. It gives weight to:
+This is a transparent ranking heuristic, not a declaration of cause. Direct dispatch data receives the strongest weight. Community, news and social text can also contribute when it explicitly mentions sirens, police, fire, ambulance/EHS, rescue, collision, weapons or similar emergency activity, but their maximum score is deliberately lower than a strong direct HRFE dispatch.
 
-- recent HRFE dispatches;
-- incident type (structure fire, MVC/rescue, hazmat, alarms, medical assistance);
-- number of responding apparatus;
-- recency.
-
-The UI says “likely” and shows the score. If no matching recent official signal exists, the UI says the cause is unknown.
+If no recent downtown signal scores above zero, the UI says the cause is **unknown**. That is not evidence that nothing happened.
 
 ## Architecture
 
 ```text
-PUBLIC SOURCES
-  ↓ independent adapters
-NORMALIZED Incident schema
-  ↓ retain 48h history
-CORRELATION + siren score
-  ↓ atomic JSON write
-public/data/incidents.json
-  ↓
-STATIC PWA (timeline + filters + map + source health)
+PUBLIC WEB / FEEDS / SOCIAL / COMMUNITY
+        ↓
+18 independent adapters (parallel fetch)
+        ↓
+normalized Incident schema + SourceHealth
+        ↓
+48-hour retention + approximate geocode cache
+        ↓
+place/time correlation + siren likelihood
+        ↓
+public/data/incidents.json (atomic write)
+        ↓
+static PWA: timeline + map + filters + source health
 ```
 
-The browser does not scrape third parties. This avoids CORS dependence and keeps data provenance in one normalized contract.
+The browser does not scrape third parties directly. GitHub Actions runs the collector server-side and GitHub Pages only serves the normalized static output.
 
-## Run locally
+## Local verification
 
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-python scripts/collect.py
 python -m unittest discover -s tests -v
+python -m compileall -q hfxpulse scripts tests
+node --check public/assets/app.js
+HFXPULSE_GEOCODE=0 python scripts/collect.py
 python -m http.server 8000 -d public
 ```
 
-Open `http://localhost:8000`.
+## GitHub automation
 
-## GitHub Pages MVP
+- `.github/workflows/ci.yml` runs unit/syntax checks and a real network source-compatibility smoke test on branches and pull requests. HRFE and Halifax Transit are critical-path sources for merge readiness; other source failures remain visible but do not block the entire app.
+- `.github/workflows/refresh.yml` refreshes the generated dataset every five minutes on `main`, validates the code, and commits data only when changed.
+- `.github/workflows/pages.yml` deploys `public/` to GitHub Pages whenever app/data content changes.
 
-Two workflows are included:
+GitHub scheduled workflows are **best-effort**, so `*/5 * * * *` is not a guaranteed five-minute SLA. If measured latency is not good enough after a soak test, move ingestion to a minute-level Azure job/function and leave Pages as the presentation layer.
 
-- `.github/workflows/refresh.yml` collects data every five minutes, tests it, and commits the generated JSON only when changed.
-- `.github/workflows/pages.yml` deploys `public/` to GitHub Pages.
+## Data boundaries
 
-**Operational limitation:** scheduled GitHub Actions are best-effort and can run late. Five-minute cron is acceptable for an MVP, but it is not a hard real-time SLA. For a production version intended to explain sirens within 1–2 minutes, run `python scripts/collect.py` from a continuously available scheduler (for example Azure Functions/Container Apps, Cloudflare/worker-backed ingestion, or another minute-level job runner) and publish the normalized JSON/API from there.
+- HRFE open data documents a display-time offset issue. HFX Pulse preserves its supplied timestamp and does **not** guess a correction.
+- Nova Scotia Power uses a secondary machine-readable helper for ingestion while linking incident cards to the official outage map.
+- Reddit/Bluesky community searches are intentionally broad and can contain incorrect or speculative statements; provenance labels are part of the product contract.
+- Approximate geocoding never replaces the original source location text. Set `HFXPULSE_GEOCODE=0` to disable new network geocoding.
 
-## 511 status
+## Priority and seriousness
 
-The 511 Nova Scotia map is a JavaScript client, but the service also exposes a public **Traffic Events** text-report page. HFX Pulse parses that table rather than guessing an undocumented map API. A valid text-report page with zero HRM rows is treated as a healthy zero; a missing/changed page contract is surfaced as a source-health error.
+Every signal receives two independent scores:
 
-## Mapping
+- **Seriousness (0–100):** estimated intrinsic public impact based on incident type, hazardous/violent terms, emergency response size, closures, utility customers affected and resolution state. Source authority is deliberately excluded.
+- **Priority (0–100):** what deserves attention now. It combines seriousness with recency, downtown relevance and independently matching signals.
 
-The UI maps rows that already contain coordinates. HRFE often publishes only a street/intersection for privacy, so those rows are not fabricated onto a precise point. The collector can add `lat/lon` with `location_precision="approximate_geocode"` through a persistent, rate-limited OpenStreetMap Nominatim cache. New lookups are capped at six per run and serialized; set `HFXPULSE_GEOCODE=0` to disable it. The source street text is never replaced.
+Priority bands are `low`, `moderate`, `elevated`, `high` and `critical`. A community report can therefore be high-priority while remaining explicitly `unverified`. Confidence and importance are separate concepts.
 
-## Next production sequence
+Routine small Nova Scotia Power outages are suppressed by default below 100 customers unless the cause has a public-safety signal (for example a vehicle collision) or a smaller core-area outage crosses the reduced downtown threshold. Set `HFXPULSE_POWER_MIN_CUSTOMERS` to tune that threshold.
 
-1. Verify the current HRFE DOM/RSS response from the actual deployment runner and lock a parser fixture from a real response.
-2. Verify 511 text-report event rows against a real active-event response and add a captured fixture.
-3. Run a 24-hour collection soak and inspect source latency, parser misses and duplicate/correlation behaviour.
-4. Move collection to a minute-level runtime if five-minute/best-effort GitHub scheduling is too slow.
-5. Add opt-in watch zones and notifications only after source freshness is measured.
 
-## Attribution / data boundaries
 
-Halifax municipal data should be attributed under the Open Government Licence — Halifax where applicable. Each incident retains its source URL. Community reports are unverified. Nova Scotia Power machine-readable outage data is treated as secondary helper data, while the official outage map is the presentation/evidence link.
+### Build 002 source expansion
+
+Adds dedicated HRFE automated-feed mirrors, HRM active street closures, Emergency Info Nova Scotia ArcGIS messages, Reddit Atom fallback, more resilient HRP parsing, Bluesky search host fallback, and the current Port of Halifax cruise-schedule domain. Source provenance remains explicit; community and secondary sources are visible rather than treated as official facts.
