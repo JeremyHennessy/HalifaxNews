@@ -71,6 +71,12 @@
     "precision": "approximate_geocode",
     "query": "NITA LANE, HALIFAX, Nova Scotia, Canada"
   },
+  "PRIMROSE": {
+    "lat": 44.684797,
+    "lon": -63.5830135,
+    "precision": "approximate_geocode",
+    "query": "PRIMROSE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "ROBIE": {
     "lat": 44.6424271,
     "lon": -63.5879823,
@@ -82,6 +88,12 @@
     "lon": -63.5783674,
     "precision": "approximate_geocode",
     "query": "SOUTH PARK ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "SPRING GARDEN": {
+    "lat": 44.6437582,
+    "lon": -63.5742626,
+    "precision": "approximate_geocode",
+    "query": "SPRING GARDEN RD, HALIFAX, Nova Scotia, Canada"
   },
   "WILLIAMS": {
     "lat": 44.7124043,
