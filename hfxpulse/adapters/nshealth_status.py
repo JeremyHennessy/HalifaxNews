@@ -20,9 +20,11 @@ URBAN_HRM_TERMS = (
 SKIP_FACILITY_TOKENS = {
     "learn more", "directions", "zone", "location", "location details", "service status",
 }
+COUNT_RE = re.compile(r"\b(\d+)\s+Service Status(?:es)?", re.I)
+PAGE_LOCALITY_RE = re.compile(r"\(?\b([A-Za-z][A-Za-z .'-]{1,50}),\s*(?:NS|Nova Scotia)\b\)?", re.I)
 
 
-def _is_urban_hrm(locality: str, facility: str) -> bool:
+def _is_urban_hrm(locality: str, facility: str = "") -> bool:
     text = f"{locality} {facility}".lower()
     return any(term in text for term in URBAN_HRM_TERMS)
 
@@ -106,6 +108,29 @@ def _status_blocks(html: str) -> list[dict]:
     return rows
 
 
+def _validate_live_page_shape(html: str, all_rows: list[dict]) -> None:
+    """Fail only when the live page cannot support a trustworthy HRM zero.
+
+    Nova Scotia Health is a province-wide page. A nonzero provincial status count
+    with zero urban-HRM rows is valid when the page exposes locality evidence and
+    every current locality is outside urban HRM. If the page says statuses exist
+    but exposes no parseable/locality evidence, fail closed rather than claim zero.
+    """
+    page_text = clean_text(BeautifulSoup(html, "html.parser").get_text(" ", strip=True))
+    count_match = COUNT_RE.search(page_text)
+    if not count_match or int(count_match.group(1)) <= 0:
+        return
+    if all_rows:
+        return
+
+    localities = [clean_text(m.group(1)) for m in PAGE_LOCALITY_RE.finditer(page_text)]
+    if not localities:
+        raise ValueError("Nova Scotia Health lists active statuses but exposes no parseable locality evidence")
+    if any(_is_urban_hrm(locality) for locality in localities):
+        raise ValueError("Nova Scotia Health lists an urban-HRM status but no status card could be parsed")
+    # Current statuses are demonstrably outside urban HRM: healthy zero is valid.
+
+
 def parse_html(html: str, observed_at: datetime | None = None) -> list[Incident]:
     observed_at = observed_at or datetime.now(timezone.utc)
     reported = iso_utc(observed_at) or ""
@@ -156,12 +181,7 @@ def fetch() -> AdapterResult:
         res = session().get(URL, timeout=25)
         res.raise_for_status()
         all_rows = _status_blocks(res.text)
-        # The live page normally publishes a count. If it says statuses exist but
-        # our generic parser sees none, fail visibly rather than emit a false zero.
-        page_text = clean_text(BeautifulSoup(res.text, "html.parser").get_text(" ", strip=True))
-        count_match = re.search(r"\b(\d+)\s+Service Status(?:es)?", page_text, re.I)
-        if count_match and int(count_match.group(1)) > 0 and not all_rows:
-            raise ValueError("Nova Scotia Health lists active statuses but none could be parsed")
+        _validate_live_page_shape(res.text, all_rows)
         return parse_html(res.text)
 
     return guarded_fetch(
@@ -169,5 +189,5 @@ def fetch() -> AdapterResult:
         URL,
         "official",
         run,
-        notes="Current Nova Scotia Health disruptions/advisories filtered to urban HRM facilities; provincial non-HRM closures are excluded.",
+        notes="Current Nova Scotia Health disruptions/advisories filtered to urban HRM facilities; provincial non-HRM closures are excluded and locality evidence is required for a healthy zero.",
     )
