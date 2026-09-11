@@ -23,7 +23,7 @@ INCIDENT_TERMS = (
     "siren", "sirens",
     "police", "rcmp", "officer", "officers", "search warrant", "arrest", "arrested",
     "firearm", "firearms", "gun", "guns", "weapon", "weapons", "shooting", "shots fired", "stabbing",
-    "missing person", "missing child", "investigation",
+    "missing person", "missing child",
     "fire", "fire crews", "fire department", "structure fire", "building fire", "house fire", "wildfire",
     "smoke", "flames", "blaze",
     "ambulance", "ehs", "paramedic", "paramedics", "medical emergency",
@@ -75,7 +75,27 @@ def _has_any(text: str, terms: tuple[str, ...]) -> bool:
 
 
 def relevant_news_text(text: str) -> bool:
+    """Convenience predicate for short headline-like text."""
     return _has_any(text, LOCATION_TERMS) and _has_any(text, INCIDENT_TERMS)
+
+
+def relevant_news_item(title: str, description: str) -> bool:
+    """Require local geography plus incident semantics with reasonable proximity.
+
+    Incident language in the title is sufficient when the story is demonstrably
+    Halifax-area. Otherwise a description sentence must itself contain both the
+    local reference and the incident/disruption signal. This prevents general
+    local opinion/politics stories from passing because unrelated words such as
+    police or storm appear somewhere else in the excerpt.
+    """
+    combined = clean_text(f"{title} {description}")
+    if not _has_any(combined, LOCATION_TERMS):
+        return False
+    if _has_any(title, INCIDENT_TERMS):
+        return True
+
+    segments = [clean_text(part) for part in re.split(r"(?<=[.!?])\s+|\s+[|•]\s+", description or "") if clean_text(part)]
+    return any(_has_any(segment, LOCATION_TERMS) and _has_any(segment, INCIDENT_TERMS) for segment in segments)
 
 
 def parse_feed(data: bytes, feed_name: str, feed_url: str) -> list[Incident]:
@@ -105,7 +125,7 @@ def parse_feed(data: bytes, feed_name: str, feed_url: str) -> list[Incident]:
             continue
 
         combined = f"{title} {desc}"
-        if not relevant_news_text(combined):
+        if not relevant_news_item(title, desc):
             continue
 
         reported = iso_utc(dt) or ""
@@ -156,8 +176,8 @@ def fetch() -> AdapterResult:
             records=len(incidents),
             error="; ".join(failures[:3]) if failures and not successes else None,
             notes=(
-                f"{successes}/{len(FEEDS)} feeds reachable. Items require both Halifax-area geography and a separate "
-                "public-safety/disruption signal; reports are not treated as dispatch confirmation."
+                f"{successes}/{len(FEEDS)} feeds reachable. Items require Halifax-area geography plus nearby "
+                "public-safety/disruption language; reports are not treated as dispatch confirmation."
             ),
         ),
     )
