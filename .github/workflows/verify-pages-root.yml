@@ -1,0 +1,59 @@
+name: Verify Pages root entry
+
+on:
+  push:
+    branches: [fix/pages-root]
+    paths: [".github/workflows/verify-pages-root.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Validate root document URL resolution
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.parse import urljoin
+
+          html = Path('index.html').read_text(encoding='utf-8')
+          assert '<base href="./public/"' in html
+          assert '<title>HFX Pulse</title>' in html
+          base = urljoin('https://example.test/HalifaxNews/', './public/')
+          expected = {
+              'assets/styles.css': 'https://example.test/HalifaxNews/public/assets/styles.css',
+              'assets/app.js': 'https://example.test/HalifaxNews/public/assets/app.js',
+              'data/incidents.json': 'https://example.test/HalifaxNews/public/data/incidents.json',
+              'manifest.webmanifest': 'https://example.test/HalifaxNews/public/manifest.webmanifest',
+              'sw.js': 'https://example.test/HalifaxNews/public/sw.js',
+          }
+          for relative, target in expected.items():
+              resolved = urljoin(base, relative)
+              print(relative, '->', resolved)
+              assert resolved == target
+          PY
+      - name: Verify static files are servable at resolved paths
+        run: |
+          python -m http.server 8000 >/tmp/http.log 2>&1 &
+          server_pid=$!
+          trap 'kill $server_pid' EXIT
+          sleep 1
+          curl -fsS http://127.0.0.1:8000/ | grep -q '<title>HFX Pulse</title>'
+          curl -fsS http://127.0.0.1:8000/public/assets/styles.css >/dev/null
+          curl -fsS http://127.0.0.1:8000/public/assets/app.js >/dev/null
+          curl -fsS http://127.0.0.1:8000/public/data/incidents.json | python -m json.tool >/dev/null
+          curl -fsS http://127.0.0.1:8000/public/manifest.webmanifest | python -m json.tool >/dev/null
+          curl -fsS http://127.0.0.1:8000/public/sw.js >/dev/null
+      - name: Check application JavaScript syntax
+        run: node --check public/assets/app.js
