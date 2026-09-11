@@ -19,41 +19,34 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
-      - name: Inspect public HRFE page structure
+      - name: Inspect official HRFE RSS structure
         run: |
           python - <<'PY'
-          import re
           import requests
           from bs4 import BeautifulSoup
+          from xml.etree import ElementTree as ET
 
-          url = 'https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed'
-          r = requests.get(url, timeout=25, headers={'User-Agent':'HFXPulse/1.0 (+https://github.com/JeremyHennessy/HalifaxNews)'})
+          base = 'https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed'
+          headers = {'User-Agent':'HFXPulse/1.0 (+https://github.com/JeremyHennessy/HalifaxNews)'}
+          page = requests.get(base, timeout=25, headers=headers)
+          page.raise_for_status()
+          soup = BeautifulSoup(page.text, 'html.parser')
+          alt = soup.find('link', attrs={'rel':'alternate', 'type':'application/rss+xml'})
+          rss_url = alt.get('href') if alt else base + '/rss.xml'
+          print('rss_url:', rss_url)
+          r = requests.get(rss_url, timeout=25, headers=headers)
           print('status:', r.status_code)
-          print('final_url:', r.url)
           print('content_type:', r.headers.get('content-type'))
           print('bytes:', len(r.content))
-          soup = BeautifulSoup(r.text, 'html.parser')
-          print('title:', soup.title.get_text(' ', strip=True) if soup.title else None)
-          text = soup.get_text(' ', strip=True)
-          print('text_chars:', len(text))
-          print('has_call_number:', 'Call Number:' in text)
-          print('has_hf26:', bool(re.search(r'HF26\d+', text, re.I)))
-          print('TEXT_SAMPLE_START')
-          print(text[:3500])
-          print('TEXT_SAMPLE_END')
-          print('IFRAMES')
-          for x in soup.find_all('iframe'):
-              print(x.get('src'))
-          print('CANDIDATE_LINKS')
-          seen=set()
-          for tag in soup.find_all(['a','link','script']):
-              target = tag.get('href') or tag.get('src') or ''
-              label = tag.get_text(' ', strip=True)
-              blob = f'{target} {label}'.lower()
-              if any(k in blob for k in ('incident','feed','rss','json','fire','emergency')) and target not in seen:
-                  seen.add(target)
-                  print(target, '|', label[:120])
-          print('HTML_MATCHES')
-          for m in re.findall(r'.{0,160}(?:incident|rss|feed|HF26\d+|iframe|json).{0,260}', r.text, flags=re.I):
-              print(re.sub(r'\s+', ' ', m)[:500])
+          r.raise_for_status()
+          root = ET.fromstring(r.content)
+          items = root.findall('.//item')
+          print('items:', len(items))
+          for i, item in enumerate(items[:3]):
+              print(f'ITEM_{i}_START')
+              for child in list(item):
+                  tag = child.tag.split('}')[-1]
+                  text = ''.join(child.itertext()).strip()
+                  print(tag + ':', text[:1200])
+              print(f'ITEM_{i}_END')
           PY
