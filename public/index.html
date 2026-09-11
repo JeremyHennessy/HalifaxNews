@@ -36,6 +36,13 @@
       </div>
     </section>
 
+    <section class="shell metric-strip" aria-label="Current Halifax signal summary">
+      <article class="metric-card"><span>Active nearby</span><strong id="metricActive">—</strong><small id="metricActiveSub">downtown · last 3h</small></article>
+      <article class="metric-card"><span>High priority</span><strong id="metricHigh">—</strong><small id="metricHighSub">high / critical · 6h</small></article>
+      <article class="metric-card"><span>Source health</span><strong id="metricSources">—</strong><small id="metricSourcesSub">collectors healthy</small></article>
+      <article class="metric-card"><span>Noise removed</span><strong id="metricMerged">—</strong><small id="metricMergedSub">duplicate observations merged</small></article>
+    </section>
+
     <section class="shell priority-section" aria-labelledby="priorityHeading">
       <div class="section-title-row">
         <div>
@@ -61,7 +68,7 @@
     <section class="shell dashboard-grid">
       <div class="panel feed-panel">
         <div class="panel-header sticky-panel-header">
-          <div><p class="eyebrow">LIVE TIMELINE</p><h2>Halifax signals</h2></div>
+          <div><p class="eyebrow">NORMALIZED TIMELINE</p><h2>Halifax events</h2><small class="panel-subtitle">Multiple reports of the same event are grouped together.</small></div>
           <span id="visibleCount" class="count-badge">0</span>
         </div>
 
@@ -79,6 +86,11 @@
           <button class="filter" data-filter="EVENT">Events</button>
           <button class="filter" data-filter="MARINE">Harbour</button>
           <button class="filter" data-filter="COMMUNITY">Other</button>
+        </div>
+
+        <div class="feed-search-row">
+          <input id="feedSearch" type="search" placeholder="Search street, incident, neighbourhood or source" aria-label="Search events" />
+          <select id="sortOrder" aria-label="Sort events"><option value="priority" selected>Priority first</option><option value="newest">Newest first</option></select>
         </div>
 
         <div class="feed-controls">
@@ -122,7 +134,7 @@
         <div class="panel explanation-panel">
           <p class="eyebrow">HOW TO READ THIS</p>
           <h2>Everything, with provenance</h2>
-          <p>The default view includes broad public signals. <strong>Priority</strong> ranks what deserves attention now using seriousness, recency, downtown relevance and matching signals. <strong>Seriousness</strong> estimates potential public impact and is separate from source confidence. Community reports can therefore be important without being treated as confirmed.</p>
+          <p>The app keeps every source observation but groups matching reports into one <strong>normalized event</strong>. <strong>Priority</strong> ranks what deserves attention now using seriousness, recency, downtown relevance and source convergence. <strong>Seriousness</strong> estimates public impact and remains separate from source confidence.</p>
           <p class="emergency-note">Community and automated sources can be wrong. This is not an emergency service. Call <strong>911</strong> for an emergency.</p>
         </div>
       </aside>
@@ -143,6 +155,8 @@
         <p class="incident-summary"></p>
         <div class="incident-location"></div>
         <div class="incident-meta"></div>
+        <div class="incident-response"></div>
+        <div class="incident-evidence"></div>
       </div>
     </article>
   </template>
