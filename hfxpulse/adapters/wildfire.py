@@ -10,10 +10,10 @@ QUERY_URL = "https://services.arcgis.com/txWDfZ2LIgzmw5Ts/ArcGIS/rest/services/c
 SOURCE_URL = "https://cwfis.cfs.nrcan.gc.ca/interactive-map"
 SOURCE = "CWFIS active wildfires near Halifax"
 
-# Broad Nova Scotia envelope first, then a Halifax-distance filter.  This keeps
-# the collector useful for smoke/emergency context without importing national noise.
+# Broad Nova Scotia envelope first, then a Halifax-distance filter. This keeps
+# the collector useful for local smoke/emergency context without importing national noise.
 NS_BOUNDS = (43.2, 47.2, -66.7, -59.4)  # south, north, west, east
-MAX_HALIFAX_DISTANCE_KM = 250.0
+MAX_HALIFAX_DISTANCE_KM = 100.0
 
 
 def _number(value) -> float | None:
@@ -140,5 +140,5 @@ def fetch() -> AdapterResult:
         SOURCE_URL,
         "official federal wildfire data",
         run,
-        notes="CWFIS active-fire records within 250 km of downtown Halifax; out/extinguished records are excluded.",
+        notes="CWFIS active-fire records within 100 km of downtown Halifax; out/extinguished records are excluded.",
     )
