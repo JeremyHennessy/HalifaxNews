@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 import html as html_lib
-import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+
+from bs4 import BeautifulSoup
 
 from hfxpulse.adapters.base import AdapterResult, session
 from hfxpulse.models import Incident, SourceHealth, utc_now_iso
@@ -60,14 +61,28 @@ def parse_payload(payload, subreddit: str, require_hrm: bool = False) -> list[In
         reported = datetime.fromtimestamp(float(created), timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
         permalink = p.get("permalink") or ""
         url = f"https://www.reddit.com{permalink}" if permalink.startswith("/") else permalink
-        row = _row(subreddit, str(p.get("id") or ""), title, body, reported, url, require_hrm, {"score": p.get("score"), "num_comments": p.get("num_comments")})
+        row = _row(
+            subreddit,
+            str(p.get("id") or ""),
+            title,
+            body,
+            reported,
+            url,
+            require_hrm,
+            {"score": p.get("score"), "num_comments": p.get("num_comments"), "transport": "json"},
+        )
         if row:
             rows.append(row)
     return rows
 
 
-def _strip_html(value: str) -> str:
-    return clean_text(re.sub(r"<[^>]+>", " ", html_lib.unescape(value or "")))
+def _self_post_body(content_html: str) -> str:
+    """Extract user-authored self-post text without persisting feed author metadata."""
+    if not content_html:
+        return ""
+    soup = BeautifulSoup(html_lib.unescape(content_html), "html.parser")
+    body = soup.select_one(".md")
+    return clean_text(body.get_text(" ", strip=True)) if body else ""
 
 
 def parse_rss(data: bytes, subreddit: str, require_hrm: bool = False) -> list[Incident]:
@@ -76,8 +91,9 @@ def parse_rss(data: bytes, subreddit: str, require_hrm: bool = False) -> list[In
     rows: list[Incident] = []
     for entry in root.findall("a:entry", ns):
         title = clean_text(entry.findtext("a:title", default="", namespaces=ns))
-        body = _strip_html(entry.findtext("a:content", default="", namespaces=ns) or entry.findtext("a:summary", default="", namespaces=ns))
-        when = entry.findtext("a:updated", default="", namespaces=ns) or entry.findtext("a:published", default="", namespaces=ns)
+        content_html = entry.findtext("a:content", default="", namespaces=ns) or entry.findtext("a:summary", default="", namespaces=ns) or ""
+        body = _self_post_body(content_html)
+        when = entry.findtext("a:published", default="", namespaces=ns) or entry.findtext("a:updated", default="", namespaces=ns)
         dt = parse_datetime(when)
         if not title or not dt:
             continue
@@ -88,10 +104,26 @@ def parse_rss(data: bytes, subreddit: str, require_hrm: bool = False) -> list[In
                 link = href
                 break
         entry_id = clean_text(entry.findtext("a:id", default="", namespaces=ns)) or link
-        row = _row(subreddit, entry_id, title, body, iso_utc(dt) or "", link or f"https://www.reddit.com/r/{subreddit}/new/", require_hrm, {"transport": "rss"})
+        raw_id = entry_id.removeprefix("t3_") if entry_id else stable_id(link, title)
+        row = _row(
+            subreddit,
+            raw_id,
+            title,
+            body,
+            iso_utc(dt) or "",
+            link or f"https://www.reddit.com/r/{subreddit}/new/",
+            require_hrm,
+            {"transport": "rss"},
+        )
         if row:
             rows.append(row)
     return rows
+
+
+def parse_atom(data: bytes | str, subreddit: str = "halifax", require_hrm: bool = False) -> list[Incident]:
+    """Backward-compatible name for the public Reddit Atom parser."""
+    payload = data.encode("utf-8") if isinstance(data, str) else data
+    return parse_rss(payload, subreddit, require_hrm=require_hrm)
 
 
 def fetch() -> AdapterResult:
