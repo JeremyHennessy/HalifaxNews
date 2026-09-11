@@ -23,6 +23,12 @@
     "precision": "approximate_geocode",
     "query": "BEECH TREE RUN, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BERNICE WEST CHEZZETCOOK": {
+    "lat": 44.7377399,
+    "lon": -63.2697139,
+    "precision": "approximate_geocode",
+    "query": "BERNICE DR, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "BRENNANS PROSPECT BAY": {
     "lat": 44.5064134,
     "lon": -63.7919104,
