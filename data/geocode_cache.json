@@ -17,6 +17,18 @@
     "precision": "approximate_geocode",
     "query": "BEECH TREE RUN, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BRENNANS PROSPECT BAY": {
+    "lat": 44.5064134,
+    "lon": -63.7919104,
+    "precision": "approximate_geocode",
+    "query": "BRENNANS RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
+  },
+  "DAWN": {
+    "lat": 44.6602421,
+    "lon": -63.6363408,
+    "precision": "approximate_geocode",
+    "query": "DAWN ST, HALIFAX, Nova Scotia, Canada"
+  },
   "DOWNTOWN": {
     "lat": 44.6461752,
     "lon": -63.5725221,
