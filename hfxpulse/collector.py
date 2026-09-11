@@ -64,6 +64,20 @@ def _retain_history(existing: list[Incident], fresh: list[Incident], hours: int 
     return kept
 
 
+def _revalidate_retained_rows(rows: list[Incident]) -> list[Incident]:
+    """Apply current source-quality rules to retained history as well as fresh data.
+
+    This prevents observations admitted by an older, looser adapter from surviving
+    for the full 48-hour history window after the source rule has been corrected.
+    """
+    kept: list[Incident] = []
+    for row in rows:
+        if row.source_kind == "news" and not newsfeeds.relevant_news_item(row.title, row.summary):
+            continue
+        kept.append(row)
+    return kept
+
+
 def _run_adapters() -> tuple[list[Incident], list[SourceHealth]]:
     fresh: list[Incident] = []
     health: list[SourceHealth] = []
@@ -91,7 +105,7 @@ def _run_adapters() -> tuple[list[Incident], list[SourceHealth]]:
 def collect(output: Path) -> dict:
     fresh, health = _run_adapters()
     existing = _read_existing(output)
-    rows = _retain_history(existing, fresh)
+    rows = _revalidate_retained_rows(_retain_history(existing, fresh))
     cache_path = output.parents[2] / "data" / "geocode_cache.json"
     normalize_observations(rows)
     rows = suppress_noise(rows)
