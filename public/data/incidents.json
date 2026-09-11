@@ -1,8 +1,4121 @@
 {
   "schema_version": 1,
-  "generated_at": null,
+  "generated_at": "2026-09-11T13:52:45Z",
   "history_hours": 48,
-  "incidents": [],
-  "source_health": [],
+  "incidents": [
+    {
+      "id": "nsp-16ec333d6b487df9dc",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.07,
+      "lon": -64.56,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3233"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a3d63c0b0479ac50cd",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.89,
+      "lon": -63.79,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3232"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-6128cbf7181a97c407",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.79,
+      "lon": -63.03,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3230"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-1b251f64571dbb6852",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.79,
+      "lon": -63.03,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3231"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-99c14c7a8ef26a814f",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.64019,
+      "lon": -62.03575,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3229"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-040f44c1d9a5160f0f",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.65294,
+      "lon": -63.58325,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3228"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a98ac12dc34812849a",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.55,
+      "lon": -64.31999,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3227"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-c681a9f6a3b9d51502",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.09,
+      "lon": -63.39,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3226"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-7c03bc8fbcdda89ce2",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.13715,
+      "lon": -60.19269,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3225"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-f87552a1314ed4b875",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.94,
+      "lon": -63.87,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3224"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-e79fdefe1857c4a093",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.16,
+      "lon": -60.19,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3222"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-913bb4d037213ee744",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.16079,
+      "lon": -60.18714,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3223"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-8805e457c02d39baf4",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.81956,
+      "lon": -64.31875,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3221"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-422fd5bfa7b8612b76",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.82098,
+      "lon": -64.31959,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3220"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-2dd7939d675f664ebc",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.81808,
+      "lon": -64.31457,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3219"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-fa7df1ec78e1b3b4b6",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.19591,
+      "lon": -61.37791,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3218"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-ddce5d4cd1b57f31f6",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.78,
+      "lon": -64.43,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3216"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-f19cfbfd92943598a5",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.53793,
+      "lon": -61.09391,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3215"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-925fa34462d802c5fa",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.91145,
+      "lon": -60.28985,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3214"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-4e9c4cea0f1539bb8a",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.22,
+      "lon": -60.29,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3213"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-72546dfc81df135bce",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.28,
+      "lon": -63.81,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3209"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-ad4c8d84fa26e440a2",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Damage to Overhead Equipment",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.75,
+      "lon": -63.3,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3211"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Damage to Overhead Equipment"
+      }
+    },
+    {
+      "id": "nsp-bd33e13f1bcaf70f29",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.61,
+      "lon": -63.48,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3208"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a3513edad4b95f2c10",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.55,
+      "lon": -64.31,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3207"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-9a04c15c47acbefccd",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.67,
+      "lon": -63.9,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3205"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-568d967dd2d6f65a66",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.66943,
+      "lon": -63.8969,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3206"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-ad4577d7a9dce895d5",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.98,
+      "lon": -60.47,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3203"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-ad4083870e7d6b4dcb",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.77779,
+      "lon": -64.42677,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3204"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-405383332147fc1481",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.78,
+      "lon": -64.43,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3201"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-8d2cc24ba66f7f2d7e",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.65,
+      "lon": -63.54,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3202"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a4b69114cc862536cb",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Damage to Overhead Equipment",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.04495,
+      "lon": -64.57907,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3200"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Damage to Overhead Equipment"
+      }
+    },
+    {
+      "id": "nsp-79e3f0cbcea375142c",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.65,
+      "lon": -63.58,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3199"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-7f501ded67f7f6bd9d",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.61,
+      "lon": -63.48,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3198"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-57830a73f0453a9e33",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.65,
+      "lon": -63.54,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3196"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-c1b85a09d3b6f82511",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.72,
+      "lon": -63.67,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3197"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-b56eb00bc105f8a50a",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.62,
+      "lon": -63.48,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3195"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-8be57a758e6aa01f4c",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.61,
+      "lon": -63.49,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3217"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-9a091165a89439f967",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.61,
+      "lon": -63.49,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3194"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a89335c3f196d75d2f",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.67,
+      "lon": -63.54,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3190"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-8e49c5d51d8b337c96",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.66931,
+      "lon": -63.54426,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3193"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-0a354700948dcf53ff",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.69,
+      "lon": -63.54,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3192"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-1d3f0c101015d39552",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.14447,
+      "lon": -60.19698,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3186"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-5d2d16bb384b8422f1",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.6965,
+      "lon": -63.14063,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3189"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-77222f7761d86908d6",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Emergency Repair of Lines",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.61928,
+      "lon": -63.49684,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3188"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Emergency Repair of Lines"
+      }
+    },
+    {
+      "id": "nsp-26f72c285563a85ddb",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.63133,
+      "lon": -60.43991,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3210"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a4f8881ba3c6217b18",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Wildlife Interference",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.6301,
+      "lon": -60.43913,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3184"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Wildlife Interference"
+      }
+    },
+    {
+      "id": "nsp-4c27a57dce667a0156",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.63,
+      "lon": -60.44,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3182"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-76b046e9928ba079d7",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.6,
+      "lon": -63.48,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3181"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-1e9f8443e77bed522f",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.87,
+      "lon": -60.62,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3183"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-7dd058dd320cbccdf1",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.05,
+      "lon": -63.15,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3179"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-5e9e35e4d3778985fa",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.59,
+      "lon": -61.02,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3177"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-0663f075fd30b17ac4",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.50768,
+      "lon": -64.62291,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3178"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-8de5fc6c85883fbf7e",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.51,
+      "lon": -64.62,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3176"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-3631973aa9983d5b2b",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.67,
+      "lon": -63.66,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3175"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a2bd59bb95d829ebae",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.14,
+      "lon": -60.2,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3174"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-070712c23d5a7197bc",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.14,
+      "lon": -60.19,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3173"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-9a2fef1022169f47b2",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.14218,
+      "lon": -60.19515,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3172"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-2145c3e7ce74ef291f",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.49313,
+      "lon": -63.24605,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3170"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-dd792a02ad2ffc2e4d",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.98,
+      "lon": -60.19,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3171"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a6dec37d42e59d8151",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.74,
+      "lon": -63.72,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3168"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-fe85b11fb29ae3cf6c",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.69,
+      "lon": -63.07,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3169"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-5fecf808486b157ea6",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.07,
+      "lon": -63.1,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3167"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-e7ca85eebdf1d8c4c3",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.61,
+      "lon": -61.4,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3166"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-9a7cc1dd44ff5ed66a",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.1,
+      "lon": -60.75,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3162"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-cbfe42b5899c620643",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.7,
+      "lon": -63.86,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3164"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-e6c6e48ad1b3f85be2",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.64,
+      "lon": -63.53,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3160"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-d14e4ea96f0de32be5",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.63,
+      "lon": -63.51,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3161"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-2140ccc1214c388e59",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.0342,
+      "lon": -64.74112,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3163"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-290503b15d80291732",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.04,
+      "lon": -64.73,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3159"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-53f655b191e6b163ad",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.04,
+      "lon": -64.73,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3191"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-6c1ee16f125ea55204",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.04,
+      "lon": -60.04,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3158"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-560853cd73c393576f",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.61,
+      "lon": -61.4,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3157"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-b9ba2e4dc4732c9114",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 43.71,
+      "lon": -66.06,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3153"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-40cb34661bfc1c5113",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Wildlife Interference",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.63336,
+      "lon": -63.49669,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3155"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Wildlife Interference"
+      }
+    },
+    {
+      "id": "nsp-c682bad5bf033a6fe2",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.65,
+      "lon": -63.54,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3187"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-5641a37860f7b156fa",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Wildlife Interference",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.63028,
+      "lon": -63.49138,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3185"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Wildlife Interference"
+      }
+    },
+    {
+      "id": "nsp-887705229a4a685071",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.22,
+      "lon": -61.28,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3152"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-49b85de05943327733",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.67914,
+      "lon": -63.59407,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3154"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-45d054cba06f055820",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.67,
+      "lon": -63.39,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3156"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a1254acc3431c64117",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 45.42,
+      "lon": -62.02,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3150"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-d2bd2b998877dc1e18",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.63117,
+      "lon": -63.59101,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3165"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-c38cf60fc9ea6fac08",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.63,
+      "lon": -63.59,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3148"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-d7e94e1f1485e03015",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.61,
+      "lon": -65.81,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3147"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-af00ef31bb91d056c2",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.64,
+      "lon": -63.58,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3143"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-2ea436590bc564734c",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.79,
+      "lon": -63.12,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3146"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-f03ae99938d636c792",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.65,
+      "lon": -63.6,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3142"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-a488aa5caffcff4869",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.63823,
+      "lon": -63.57797,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3144"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-c950dc04dde8c9be35",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.76889,
+      "lon": -63.23238,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3212"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-de9d78dcab616b6497",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.77,
+      "lon": -63.23,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3145"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-484ba3dc1194775bae",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.28,
+      "lon": -65.91,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3140"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-7b1a65ed3b6d0acc6e",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.28318,
+      "lon": -65.91227,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3180"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-1477d87b43c2fda86e",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.67,
+      "lon": -63.54,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3141"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-e42adf65f65e9c4e65",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.74,
+      "lon": -63.72,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3139"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-84e6db00a60db69996",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.28,
+      "lon": -60.54,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3138"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-1cb11f54710a657dc2",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.47381,
+      "lon": -64.33964,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3137"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-c308e2b1468e825eb1",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.48392,
+      "lon": -65.79725,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3135"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-205e123cd0ad6c7634",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.02982,
+      "lon": -64.74433,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3136"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-b6bb06a737ccf2a9b9",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 46.07647,
+      "lon": -60.29305,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3134"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-8700f469be02a32dd6",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.71,
+      "lon": -63.83,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3132"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "nsp-8129f5699e465fc75e",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Cause Being Investigated",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T13:52:45Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.92,
+      "lon": -65.08,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available"
+      ],
+      "raw_ids": [
+        "3131"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": null,
+        "cause": "Cause Being Investigated"
+      }
+    },
+    {
+      "id": "water-67e4afbe420ccd5bb0",
+      "source": "Halifax Water",
+      "source_url": "https://www.halifaxwater.ca/notice/water-service-advisory-cow-bay-road",
+      "title": "Water Service Advisory – Cow Bay Road",
+      "summary": "Water Service Advisory – Cow Bay Road Published: 10:06 AM | September 11, 2026 Due to third-party construction work, Halifax Water crews have temporarily shut down water service near 519 Cow Bay Road, Eastern Passage, to facilitate emergency repairs. This work is taking place within an existing construction zone. Please follow all existing safety signage. Customers in the area may experience discoloured water during/following this repair. It is recommended that those customers run the COLD water at one faucet until the water runs clear. To learn more about discoloured water and to report it, p",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T03:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "water_notice",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "signals": [
+        "official_notice"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "water-6c7502f1d753da199e",
+      "source": "Halifax Water",
+      "source_url": "https://www.halifaxwater.ca/notice/traffic-advisory-herring-cove-road-5",
+      "title": "Traffic Advisory – Herring Cove Road",
+      "summary": "Traffic Advisory – Herring Cove Road Published: 9:56 AM | September 11, 2026 Halifax Water crews are on-site undertaking an emergency water valve repair near 160 Herring Cove Road, Halifax. This will not impact Halifax Water services in the area. There will be an altered centre line in the work zone. Experienced traffic control personnel will be on-site to manage traffic flows. Sidewalks will remain open. Motorists should expect delays and use alternate routes. Motorists are also reminded that speed fines double in work zones. Read more Halifax Water",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T03:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "water_notice",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "signals": [
+        "official_notice"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "hfxgov-5a63c8afc357863bc0",
+      "source": "Halifax Regional Municipality · Bluesky",
+      "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv6p3xx6rz2t",
+      "title": "Traffic delay: Bedford Highway, from Highway 102 to Oakmount Drive on Friday, Sept. 11 from 9 a.m. to 4 p.m. This is to …",
+      "summary": "Traffic delay: Bedford Highway, from Highway 102 to Oakmount Drive on Friday, Sept. 11 from 9 a.m. to 4 p.m. This is to facilitate road repairs. Details: buff.ly/mI9y5DN",
+      "category": "TRAFFIC",
+      "reported_at": "2026-09-10T18:37:50Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "official_social_update",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_social_update"
+      ],
+      "raw_ids": [
+        "at://did:plc:kmrllxdrhgp6bhlbf3zwbleg/app.bsky.feed.post/3mv6p3xx6rz2t"
+      ],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "hfxgov-c7a14fbae7c35c67ff",
+      "source": "Halifax Regional Municipality · Bluesky",
+      "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv6m6kz5qr2x",
+      "title": "Halifax Transit is inviting Lucasville residents to share their feedback to help shape a microtransit proof-of-concept p…",
+      "summary": "Halifax Transit is inviting Lucasville residents to share their feedback to help shape a microtransit proof-of-concept project as part of the Microtransit Service Plan. Learn more at www.halifax.ca/home/news/ha...",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T17:45:36Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "official_social_update",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_social_update"
+      ],
+      "raw_ids": [
+        "at://did:plc:kmrllxdrhgp6bhlbf3zwbleg/app.bsky.feed.post/3mv6m6kz5qr2x"
+      ],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "hfxgov-331602dde4384b6861",
+      "source": "Halifax Regional Municipality · Bluesky",
+      "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv65qtuxbv2c",
+      "title": "Road closure: Market Street, between Carmichael and Prince streets. This work will take place on Monday, Sept. 14 to Fri…",
+      "summary": "Road closure: Market Street, between Carmichael and Prince streets. This work will take place on Monday, Sept. 14 to Friday, Sept. 25, from 7 a.m. to 6 p.m. This is to facilitate road repairs. Details: buff.ly/7zQGqnb",
+      "category": "TRAFFIC",
+      "reported_at": "2026-09-10T13:27:23Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "official_social_update",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_social_update"
+      ],
+      "raw_ids": [
+        "at://did:plc:kmrllxdrhgp6bhlbf3zwbleg/app.bsky.feed.post/3mv65qtuxbv2c"
+      ],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "transit-5385f1855801e4db28",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure Cole Harbour Rd Opposite Perron Dr (9010) is closed for construction",
+      "summary": "Stop Closure Notice Routes: 401 Preston-Porters Lake-Grand Desert Outbound Date Effective: Thursday, September 10, 2026 00:00 Location: Cole Harbour Rd Opposite Perron Dr (9010) Cause: Stop Closed Construction Affected Stops: Cole Harbour Rd Opposite Perron Dr (9010)",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T12:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208530"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 401 / stop 9010"
+        ]
+      }
+    },
+    {
+      "id": "transit-21e1012a18e1577f40",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure Cole Harbour Rd Before Perron Dr (9009) is closed for construction",
+      "summary": "Stop Closure Notice Routes: 401 Preston-Porters Lake-Grand Desert Inbound Date Effective: Thursday, September 10, 2026 00:00 Location: Cole Harbour Rd Before Perron Dr (9009) Cause: Stop Closed Construction Affected Stops: Cole Harbour Rd Before Perron Dr (9009)",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T12:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208531"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 401 / stop 9009"
+        ]
+      }
+    },
+    {
+      "id": "transit-2caf3061cd4e477b09",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure Barnes Dr After Red Wing Dr (8697) is closed for construction",
+      "summary": "Stop Closure Notice Routes: 320 Airport - Fall River Regional Exp Inbound Date Effective: Thursday, September 10, 2026 00:00 Location: Barnes Dr After Red Wing Dr (8697) Cause: Stop Closed Construction Affected Stops: Barnes Dr After Red Wing Dr (8697)",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T10:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208190"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 320 / stop 8697"
+        ]
+      }
+    },
+    {
+      "id": "transit-4c9a4d7539774fb505",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure Barnes Dr At Civic 619 (9014) is closed for construction",
+      "summary": "Stop Closure Notice Routes: 320 Airport - Fall River Regional Exp Outbound Date Effective: Thursday, September 10, 2026 00:00 Location: Barnes Dr At Civic 619 (9014) Cause: Stop Closed Construction Affected Stops: Barnes Dr At Civic 619 (9014)",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T10:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208189"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 320 / stop 9014"
+        ]
+      }
+    },
+    {
+      "id": "transit-bf1950c0c656dee6b6",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Route 161, 61 schedule to depart at Thursday, September 10, 2026 06:41 from Portland Hills Terminal Bay 3 ...",
+      "summary": "Halifax Transit Service Update: 161, 61 Inbound, Outbound is significantly delayed. A helper bus will be available at Portland Hills Terminal Bay 3 (8951) starting at Thursday, September 10, 2026 06:41",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T09:41:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208643"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 61",
+          "route 161"
+        ]
+      }
+    },
+    {
+      "id": "transit-31aa7cc8061974e259",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure Sackville Dr Before Sackville Cross Rd (7311) is closed for construction",
+      "summary": "Stop Closure Notice Routes: 8 Sackville Corridor Outbound Date Effective: Thursday, September 10, 2026 04:00 Location: Sackville Dr Before Sackville Cross Rd (7311) Cause: Stop Closed Construction Affected Stops: Sackville Dr Before Sackville Cross Rd (7311)",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T07:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208247"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 8 / stop 7311"
+        ]
+      }
+    },
+    {
+      "id": "transit-aeb84396689cd64c2a",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure Sackville Dr Opposite Civic 614 (7310) is closed for construction",
+      "summary": "Stop Closure Notice Routes: 8 Sackville Corridor Outbound Date Effective: Thursday, September 10, 2026 04:00 Location: Sackville Dr Opposite Civic 614 (7310) Cause: Stop Closed Construction Affected Stops: Sackville Dr Opposite Civic 614 (7310)",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T07:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208246"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 8 / stop 7310"
+        ]
+      }
+    },
+    {
+      "id": "transit-ecdf2cab7d04efd396",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure Sackville Dr Before Sackville Cross Rd (7311) is closed for construction",
+      "summary": "Stop Closure Notice Routes: 87 Sackville-Dartmouth Outbound Date Effective: Thursday, September 10, 2026 04:00 Location: Sackville Dr Before Sackville Cross Rd (7311) Cause: Stop Closed Construction Affected Stops: Sackville Dr Before Sackville Cross Rd (7311)",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T07:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208249"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 87 / stop 7311"
+        ]
+      }
+    },
+    {
+      "id": "transit-a6bccec44ad0acbb56",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure Sackville Dr Opposite Civic 614 (7310) is closed for construction",
+      "summary": "Stop Closure Notice Routes: 87 Sackville-Dartmouth Outbound Date Effective: Thursday, September 10, 2026 04:00 Location: Sackville Dr Opposite Civic 614 (7310) Cause: Stop Closed Construction Affected Stops: Sackville Dr Opposite Civic 614 (7310)",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-10T07:00:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208248"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 87 / stop 7310"
+        ]
+      }
+    },
+    {
+      "id": "hfxgov-6c02135f583b382155",
+      "source": "Halifax Regional Municipality · Bluesky",
+      "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv46ozpr4u23",
+      "title": "Traffic delay: Highway 2 between Fall River Road and Highway 102 on Thursday, Sept. 10 from 6 p.m. to midnight. This is …",
+      "summary": "Traffic delay: Highway 2 between Fall River Road and Highway 102 on Thursday, Sept. 10 from 6 p.m. to midnight. This is to facilitate road repairs. Stop-and-go traffic will be in place. More details: www.halifax.ca/home/news/tr...",
+      "category": "TRAFFIC",
+      "reported_at": "2026-09-09T18:38:57Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "official_social_update",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_social_update"
+      ],
+      "raw_ids": [
+        "at://did:plc:kmrllxdrhgp6bhlbf3zwbleg/app.bsky.feed.post/3mv46ozpr4u23"
+      ],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "hfxgov-1814b38b89d021ca8d",
+      "source": "Halifax Regional Municipality · Bluesky",
+      "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv44ui7b7i2x",
+      "title": "Ramp Closure – Massachusetts Avenue ramp to Robie Street from the MacKay Bridge and Barrington Street, overnight on Wedn…",
+      "summary": "Ramp Closure – Massachusetts Avenue ramp to Robie Street from the MacKay Bridge and Barrington Street, overnight on Wednesday, Sept. 16 and Thursday, Sept. 17 from 7:30 p.m. until 5:30 a.m. Full-time closure beginning at 6 a.m. on Monday, Sept. 21 until Friday, Nov. 27. Details: buff.ly/yyKzi7w",
+      "category": "TRAFFIC",
+      "reported_at": "2026-09-09T18:06:12Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "official_social_update",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_social_update"
+      ],
+      "raw_ids": [
+        "at://did:plc:kmrllxdrhgp6bhlbf3zwbleg/app.bsky.feed.post/3mv44ui7b7i2x"
+      ],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "hfxgov-dcf07c75a847f6fd0e",
+      "source": "Halifax Regional Municipality · Bluesky",
+      "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv43lifn2m2t",
+      "title": "Traffic delay: Lakelands Boulevard, from Chain Lake Drive and St. Margarets Bay Road. This work will take place on Wedne…",
+      "summary": "Traffic delay: Lakelands Boulevard, from Chain Lake Drive and St. Margarets Bay Road. This work will take place on Wednesday, Sept. 9 to Monday, Nov. 30, from 7 a.m. to 7 p.m. This is to facilitate road repairs. Details: buff.ly/Suej31W",
+      "category": "TRAFFIC",
+      "reported_at": "2026-09-09T17:43:17Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "official_social_update",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_social_update"
+      ],
+      "raw_ids": [
+        "at://did:plc:kmrllxdrhgp6bhlbf3zwbleg/app.bsky.feed.post/3mv43lifn2m2t"
+      ],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "transit-599d08aa7924156862",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure Portland St After Spring Ave (8047) is closed for construction",
+      "summary": "Stop Closure Notice Routes: 5 Portland Inbound Date Effective: Wednesday, September 9, 2026 13:47 Location: Portland St After Spring Ave (8047) Cause: Stop Closed Construction Affected Stops: Portland St After Spring Ave (8047)",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-09T16:47:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208532"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 5 / stop 8047"
+        ]
+      }
+    },
+    {
+      "id": "transit-046aba1dc6cec120ad",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure is closed for construction",
+      "summary": "Stop Closure Notice Routes: 161 North Preston Express Inbound Date Effective: Wednesday, September 9, 2026 13:47 Location: Cause: Stop Closed Construction Affected Stops:",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-09T16:47:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208534"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 161"
+        ]
+      }
+    },
+    {
+      "id": "transit-8370c648b6f0ec2015",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure is closed for construction",
+      "summary": "Stop Closure Notice Routes: 168A Auburn Express Inbound Date Effective: Wednesday, September 9, 2026 13:47 Location: Cause: Stop Closed Construction Affected Stops:",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-09T16:47:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208536"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 168A"
+        ]
+      }
+    },
+    {
+      "id": "transit-ec2360f10b159b2480",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure is closed for construction",
+      "summary": "Stop Closure Notice Routes: 165 Caldwell Express Inbound Date Effective: Wednesday, September 9, 2026 13:47 Location: Cause: Stop Closed Construction Affected Stops:",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-09T16:47:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208535"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 165"
+        ]
+      }
+    },
+    {
+      "id": "transit-782b33e5d25908a7c5",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure is closed for construction",
+      "summary": "Stop Closure Notice Routes: 168B Cherry Brook Express Inbound Date Effective: Wednesday, September 9, 2026 13:47 Location: Cause: Stop Closed Construction Affected Stops:",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-09T16:47:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208537"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 168B"
+        ]
+      }
+    },
+    {
+      "id": "transit-fea2d8f9a1417eed60",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Stop closure is closed for construction",
+      "summary": "Stop Closure Notice Routes: 159 Colby Express Inbound Date Effective: Wednesday, September 9, 2026 13:47 Location: Cause: Stop Closed Construction Affected Stops:",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-09T16:47:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208533"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 159"
+        ]
+      }
+    }
+  ],
+  "source_health": [
+    {
+      "source": "Halifax Regional Fire & Emergency",
+      "url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed",
+      "authority": "official",
+      "status": "error",
+      "checked_at": "2026-09-11T13:52:21Z",
+      "fetched_at": null,
+      "records": 0,
+      "error": "ValueError: HRFE page fetched but no incident blocks matched the expected public labels",
+      "notes": "Official dispatch feed. Location is intentionally street/intersection level, not an exact person location."
+    },
+    {
+      "source": "Halifax Transit GTFS-Realtime",
+      "url": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb",
+      "authority": "official",
+      "status": "ok",
+      "checked_at": "2026-09-11T13:52:40Z",
+      "fetched_at": "2026-09-11T13:52:41Z",
+      "records": 81,
+      "error": null,
+      "notes": "Official GTFS-Realtime alerts; data licensed under the Open Government Licence — Halifax."
+    },
+    {
+      "source": "Halifax Regional Police",
+      "url": "https://www.halifax.ca/home/news?category=25",
+      "authority": "official",
+      "status": "error",
+      "checked_at": "2026-09-11T13:52:41Z",
+      "fetched_at": null,
+      "records": 0,
+      "error": "ValueError: HRP news page fetched but no dated police release links were parsed",
+      "notes": "Official HRP releases; useful for context/corroboration but often slower than dispatch feeds."
+    },
+    {
+      "source": "Halifax Regional Municipality · Bluesky",
+      "url": "https://bsky.app/profile/hfxgov.bsky.social",
+      "authority": "official",
+      "status": "ok",
+      "checked_at": "2026-09-11T13:52:42Z",
+      "fetched_at": "2026-09-11T13:52:42Z",
+      "records": 32,
+      "error": null,
+      "notes": "Official HRM social updates filtered to disruption/public-safety terms. HRM directs residents to this account during emergency events."
+    },
+    {
+      "source": "511 Nova Scotia",
+      "url": "https://511.novascotia.ca/list/events/traffic",
+      "authority": "official",
+      "status": "ok",
+      "checked_at": "2026-09-11T13:52:42Z",
+      "fetched_at": "2026-09-11T13:52:43Z",
+      "records": 0,
+      "error": null,
+      "notes": "Official traffic-event text report. Zero parsed rows can legitimately mean there are no listed HRM traffic events at collection time."
+    },
+    {
+      "source": "Halifax Water",
+      "url": "https://www.halifaxwater.ca/notices-and-news",
+      "authority": "official",
+      "status": "ok",
+      "checked_at": "2026-09-11T13:52:43Z",
+      "fetched_at": "2026-09-11T13:52:44Z",
+      "records": 4,
+      "error": null,
+      "notes": null
+    },
+    {
+      "source": "Environment and Climate Change Canada",
+      "url": "https://weather.gc.ca/rss/battleboard/ns1_e.xml",
+      "authority": "official",
+      "status": "ok",
+      "checked_at": "2026-09-11T13:52:44Z",
+      "fetched_at": "2026-09-11T13:52:44Z",
+      "records": 1,
+      "error": null,
+      "notes": "Halifax Metro and Halifax County West near-real-time public weather alert Atom feed."
+    },
+    {
+      "source": "Emergency Info Nova Scotia",
+      "url": "https://emergencyinfo.novascotia.ca/",
+      "authority": "official",
+      "status": "ok",
+      "checked_at": "2026-09-11T13:52:44Z",
+      "fetched_at": "2026-09-11T13:52:44Z",
+      "records": 0,
+      "error": null,
+      "notes": "Provincial active emergency events. Event dates can be less granular than dispatch sources."
+    },
+    {
+      "source": "Nova Scotia Power outages",
+      "url": "https://outagemap.hfxdeploy.com/api/outages",
+      "authority": "secondary",
+      "status": "ok",
+      "checked_at": "2026-09-11T13:52:44Z",
+      "fetched_at": "2026-09-11T13:52:45Z",
+      "records": 100,
+      "error": null,
+      "notes": "Read-only community API used only as a machine-readable helper. Incident cards link to the official Nova Scotia Power outage map."
+    },
+    {
+      "source": "r/halifax community",
+      "url": "https://www.reddit.com/r/halifax/new.json?limit=60&raw_json=1",
+      "authority": "community",
+      "status": "error",
+      "checked_at": "2026-09-11T13:52:45Z",
+      "fetched_at": null,
+      "records": 0,
+      "error": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/halifax/new.json?limit=60&raw_json=1",
+      "notes": "Unverified context only. Community posts never upgrade an incident to confirmed status and author identities are not stored."
+    }
+  ],
   "disclaimer": "Public-information aggregator. May be delayed or incomplete. For emergencies call 911."
 }
