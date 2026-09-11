@@ -71,7 +71,6 @@ def apparatus_count(response: str | None) -> int:
     if not response:
         return 0
     tokens = [t for t in re.split(r"\s+", response.strip()) if t]
-    # Station markers are not responding apparatus.
     return len([t for t in tokens if not t.upper().startswith("STN")])
 
 
@@ -111,6 +110,54 @@ def infer_siren_score(category: str, subtype: str | None, reported_at: str, meta
         elif age_m <= 90:
             score += 6
     return min(100, score)
+
+
+def infer_category(text: str, fallback: str = "COMMUNITY") -> str:
+    lower = clean_text(text).lower()
+    groups = (
+        ("FIRE", ("structure fire", "fire", "smoke", "alarm sounding", "burning")),
+        ("RESCUE", ("rescue", "coast guard", "water rescue", "search and rescue", "marine rescue")),
+        ("EMS", ("ambulance", "paramedic", "ehs", "medical emergency")),
+        ("POLICE", ("police", "rcmp", "officer", "weapon", "shooting", "stabbing", "ert", "swat", "arrest")),
+        ("TRAFFIC", ("collision", "crash", "mvc", "road closed", "road closure", "traffic", "bridge", "detour")),
+        ("TRANSIT", ("transit", "bus", "ferry", "route cancelled", "route delay")),
+        ("UTILITY", ("power outage", "outage", "water main", "water service", "boil water", "halifax water")),
+        ("WEATHER", ("warning", "storm", "rainfall", "wind", "snowfall", "thunderstorm", "hurricane")),
+        ("EMERGENCY", ("evacuation", "evacuate", "emergency alert", "shelter in place", "hazmat")),
+    )
+    for category, terms in groups:
+        if any(term in lower for term in terms):
+            return category
+    return fallback
+
+
+def infer_text_siren_score(text: str, reported_at: str, source_kind: str = "community") -> int:
+    lower = clean_text(text).lower()
+    score = 0
+    weights = (
+        ("sirens", 26), ("siren", 24), ("structure fire", 30), ("fire", 19), ("smoke", 13),
+        ("ambulance", 19), ("paramedic", 18), ("ehs", 16), ("police", 15), ("rcmp", 12),
+        ("rescue", 18), ("coast guard", 18), ("collision", 15), ("crash", 15), ("mvc", 15),
+        ("shooting", 25), ("stabbing", 22), ("weapon", 18), ("ert", 18), ("swat", 18),
+        ("hazmat", 18), ("emergency", 10),
+    )
+    score += max((weight for term, weight in weights if term in lower), default=0)
+    if source_kind == "official":
+        score += 8
+    elif source_kind == "news":
+        score += 4
+    elif source_kind == "secondary":
+        score += 2
+    dt = parse_datetime(reported_at)
+    if dt:
+        age_m = max(0, (datetime.now(timezone.utc) - dt).total_seconds() / 60)
+        if age_m <= 15:
+            score += 16
+        elif age_m <= 45:
+            score += 10
+        elif age_m <= 90:
+            score += 5
+    return min(70, score)
 
 
 def keyword_hit(text: str, words: Iterable[str]) -> bool:

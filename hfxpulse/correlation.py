@@ -36,10 +36,10 @@ def correlate(rows: list[Incident]) -> None:
 
     by_id = {r.id: r for r in rows}
     for row in rows:
-        official_sources = {row.source} if row.source_kind == "official" else set()
+        official_sources = {row.source} if row.source_kind in {"official", "official_archive"} else set()
         for rid in row.related_ids:
             other = by_id.get(rid)
-            if other and other.source_kind == "official":
+            if other and other.source_kind in {"official", "official_archive"}:
                 official_sources.add(other.source)
         if len(official_sources) >= 2:
             row.confidence = "corroborated"

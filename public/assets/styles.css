@@ -135,3 +135,9 @@ h1 em { color:var(--accent); font-style:normal; }
   .feed-controls select { margin-left:0; }
   .footer { flex-direction:column; }
 }
+/* Expanded provenance and context layers. */
+.incident-card.category-event .incident-rail { background:#6ecf8a; }
+.incident-card.category-marine .incident-rail { background:#4fc3e8; }
+.badge.reported { color:#79b8ff; background:rgba(101,168,255,.10); }
+.badge.secondary { color:#d3b7ff; background:rgba(183,156,255,.09); }
+.badge.listing { color:#7ddf9b; background:rgba(110,207,138,.09); }

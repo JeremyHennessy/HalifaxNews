@@ -1,16 +1,39 @@
 from __future__ import annotations
 
 import json
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from hfxpulse.adapters import emergency_ns, hfxgov_bluesky, hrfe, hrp, ns511, ns_power, reddit, transit, water, weather
+from hfxpulse.adapters import (
+    bluesky, bridges, downtown_events, emergency_ns, hfxgov_bluesky, hrfe, hrfe_open_data, hrp,
+    newsfeeds, ns511, ns_power, port_cruise, rcmp, reddit, transit, water, weather,
+)
 from hfxpulse.correlation import correlate
 from hfxpulse.geocode import enrich as geocode_enrich
 from hfxpulse.models import Incident, SourceHealth, utc_now_iso
 from hfxpulse.util import parse_datetime
 
-ADAPTERS = [hrfe.fetch, transit.fetch, hrp.fetch, hfxgov_bluesky.fetch, ns511.fetch, water.fetch, weather.fetch, emergency_ns.fetch, ns_power.fetch, reddit.fetch]
+ADAPTERS = [
+    hrfe.fetch,
+    hrfe_open_data.fetch,
+    transit.fetch,
+    hrp.fetch,
+    rcmp.fetch,
+    hfxgov_bluesky.fetch,
+    bluesky.fetch_official_and_local,
+    bluesky.fetch_search,
+    ns511.fetch,
+    bridges.fetch,
+    water.fetch,
+    weather.fetch,
+    emergency_ns.fetch,
+    ns_power.fetch,
+    reddit.fetch,
+    newsfeeds.fetch,
+    downtown_events.fetch,
+    port_cruise.fetch,
+]
 
 
 def _read_existing(path: Path) -> list[Incident]:
@@ -35,29 +58,49 @@ def _retain_history(existing: list[Incident], fresh: list[Incident], hours: int 
     return kept
 
 
-def collect(output: Path) -> dict:
+def _run_adapters() -> tuple[list[Incident], list[SourceHealth]]:
     fresh: list[Incident] = []
     health: list[SourceHealth] = []
-    for adapter in ADAPTERS:
-        result = adapter()
-        fresh.extend(result.incidents)
-        if result.health:
-            health.append(result.health)
+    with ThreadPoolExecutor(max_workers=min(10, len(ADAPTERS))) as pool:
+        futures = {pool.submit(adapter): adapter for adapter in ADAPTERS}
+        for future in as_completed(futures):
+            adapter = futures[future]
+            try:
+                result = future.result()
+                fresh.extend(result.incidents)
+                if result.health:
+                    health.append(result.health)
+            except Exception as exc:
+                # Adapters are expected to guard their own failures, but keep a second isolation boundary.
+                health.append(SourceHealth(
+                    source=getattr(adapter, "__module__", repr(adapter)).rsplit(".", 1)[-1],
+                    url="",
+                    authority="unknown",
+                    status="error",
+                    checked_at=utc_now_iso(),
+                    error=f"Unhandled adapter error: {type(exc).__name__}: {exc}",
+                ))
+    return fresh, health
 
+
+def collect(output: Path) -> dict:
+    fresh, health = _run_adapters()
     existing = _read_existing(output)
     rows = _retain_history(existing, fresh)
     cache_path = output.parents[2] / "data" / "geocode_cache.json"
     geocode_enrich(rows, cache_path)
     correlate(rows)
     rows.sort(key=lambda r: parse_datetime(r.reported_at) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+    health.sort(key=lambda h: (h.status != "error", h.source.lower()))
 
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": utc_now_iso(),
         "history_hours": 48,
+        "collector_count": len(ADAPTERS),
         "incidents": [r.to_dict() for r in rows],
         "source_health": [h.to_dict() for h in health],
-        "disclaimer": "Public-information aggregator. May be delayed or incomplete. For emergencies call 911.",
+        "disclaimer": "Broad public-information aggregator. Sources can be delayed, wrong or incomplete. Provenance is shown on every signal. For emergencies call 911.",
     }
     output.parent.mkdir(parents=True, exist_ok=True)
     tmp = output.with_suffix(".tmp")

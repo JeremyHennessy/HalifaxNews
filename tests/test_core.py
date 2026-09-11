@@ -11,9 +11,11 @@ sys.path.insert(0, str(ROOT))
 from hfxpulse.adapters.hrfe import parse_hrfe_text
 from hfxpulse.adapters.ns511 import parse_text_report
 from hfxpulse.adapters.weather import parse_atom
+from hfxpulse.adapters.newsfeeds import parse_feed
+from hfxpulse.adapters.reddit import parse_payload as parse_reddit
 from hfxpulse.correlation import correlate
 from hfxpulse.models import Incident
-from hfxpulse.util import apparatus_count, normalized_place
+from hfxpulse.util import apparatus_count, infer_category, infer_text_siren_score, normalized_place
 
 
 class HRFEParserTests(unittest.TestCase):
@@ -80,10 +82,29 @@ class OtherParserTests(unittest.TestCase):
         self.assertEqual("WEATHER", rows[0].category)
         self.assertEqual("Rainfall warning in effect", rows[0].title)
 
+    def test_news_rss_parser(self):
+        data = b"""<?xml version='1.0'?><rss><channel><item><title>Fire closes Barrington Street in Halifax</title><link>https://example.test/story</link><pubDate>Fri, 11 Sep 2026 09:30:00 -0300</pubDate><description>Crews are responding downtown.</description></item></channel></rss>"""
+        rows = parse_feed(data, "Test News", "https://example.test/feed")
+        self.assertEqual(1, len(rows))
+        self.assertEqual("FIRE", rows[0].category)
+        self.assertEqual("reported", rows[0].confidence)
+
+    def test_reddit_keeps_nonofficial_signal(self):
+        payload = {"data":{"children":[{"data":{"id":"abc","title":"Lots of sirens on Lower Water in Halifax","selftext":"Fire boats too","created_utc":1789133400,"permalink":"/r/halifax/comments/abc/x","score":4,"num_comments":8}}]}}
+        rows = parse_reddit(payload, "halifax")
+        self.assertEqual(1, len(rows))
+        self.assertEqual("community", rows[0].source_kind)
+        self.assertGreater(rows[0].siren_score, 0)
+
 
 class UtilityTests(unittest.TestCase):
     def test_normalized_place(self):
         self.assertEqual("BARRINGTON", normalized_place("Barrington St, Halifax"))
+
+    def test_text_classification_and_siren_score(self):
+        self.assertEqual("RESCUE", infer_category("Coast Guard water rescue on Halifax waterfront"))
+        score = infer_text_siren_score("many sirens, police and ambulance", "2026-09-11T13:00:00Z", "community")
+        self.assertGreater(score, 0)
 
 
 if __name__ == "__main__":

@@ -1,82 +1,20 @@
 [
-  {
-    "id": "hrfe",
-    "name": "Halifax Regional Fire & Emergency incident feed",
-    "url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed",
-    "authority": "official",
-    "expected_latency": "near real time",
-    "purpose": "Fire, rescue, medical-assistance and collision dispatch context; call number and responding units."
-  },
-  {
-    "id": "hrp",
-    "name": "Halifax Regional Police releases",
-    "url": "https://www.halifax.ca/home/news?category=25",
-    "authority": "official",
-    "expected_latency": "event dependent",
-    "purpose": "Police context and corroboration; not treated as a dispatch feed."
-  },
-  {
-    "id": "transit",
-    "name": "Halifax Transit GTFS-Realtime alerts",
-    "url": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb",
-    "authority": "official",
-    "expected_latency": "real time",
-    "purpose": "Service disruptions, detours and alerts that can reveal road incidents."
-  },
-  {
-    "id": "511",
-    "name": "511 Nova Scotia",
-    "url": "https://511.novascotia.ca/",
-    "authority": "official",
-    "expected_latency": "about 5 minutes after captured",
-    "purpose": "Road incidents, closures, construction and Halifax Harbour Bridge activity."
-  },
-  {
-    "id": "water",
-    "name": "Halifax Water notices",
-    "url": "https://www.halifaxwater.ca/notices-and-news",
-    "authority": "official",
-    "expected_latency": "notice dependent",
-    "purpose": "Water work, emergency repairs, traffic impacts and service notices."
-  },
-  {
-    "id": "weather",
-    "name": "Environment Canada Halifax Metro/West Atom warnings",
-    "url": "https://weather.gc.ca/rss/battleboard/ns1_e.xml",
-    "authority": "official",
-    "expected_latency": "near real time",
-    "purpose": "Weather warnings that explain emergency response or disruption."
-  },
-  {
-    "id": "nsp",
-    "name": "Nova Scotia Power outage map",
-    "url": "https://outagemap.nspower.ca/external/default.html",
-    "authority": "official presentation / secondary machine helper",
-    "expected_latency": "official map approximately 10 minutes",
-    "purpose": "Power outages and restoration context."
-  },
-  {
-    "id": "hfxgov-bluesky",
-    "name": "Halifax Regional Municipality official Bluesky",
-    "url": "https://bsky.app/profile/hfxgov.bsky.social",
-    "authority": "official",
-    "expected_latency": "near real time / post dependent",
-    "purpose": "Official municipal emergency, closure, transit and public-safety context."
-  },
-  {
-    "id": "ns-emergency",
-    "name": "Emergency Info Nova Scotia",
-    "url": "https://emergencyinfo.novascotia.ca/",
-    "authority": "official",
-    "expected_latency": "event dependent",
-    "purpose": "Provincial active emergencies, evacuation orders and all-hazards context."
-  },
-  {
-    "id": "reddit",
-    "name": "r/halifax new posts",
-    "url": "https://www.reddit.com/r/halifax/new/",
-    "authority": "community",
-    "expected_latency": "user dependent",
-    "purpose": "Unverified eyewitness/context layer only; never upgrades official confidence."
-  }
+  {"id":"hrfe","name":"Halifax Regional Fire & Emergency incident feed","url":"https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed","authority":"first-party","latency":"near real time","purpose":"Fire, rescue, medical-assistance and collision dispatch context, call number and responding units."},
+  {"id":"hrfe-open","name":"HRFE Incident Initial Response open data","url":"https://data-hrm.hub.arcgis.com/datasets/HRM::hrfe-incident-initial-response","authority":"first-party archive","latency":"periodic","purpose":"Second HRFE incident path and post-incident enrichment. Source timestamps are preserved without guessed offset correction."},
+  {"id":"hrp","name":"Halifax Regional Police releases","url":"https://www.halifax.ca/home/news?category=25","authority":"first-party","latency":"event dependent","purpose":"Police incident context and later corroboration."},
+  {"id":"rcmp","name":"RCMP Nova Scotia releases","url":"https://rcmp.ca/en/nova-scotia/news","authority":"first-party","latency":"event dependent","purpose":"HRM-area RCMP incident context."},
+  {"id":"transit","name":"Halifax Transit GTFS-Realtime alerts","url":"https://gtfs.halifax.ca/realtime/Alert/Alerts.pb","authority":"first-party","latency":"real time","purpose":"Service disruptions, detours and alerts that can reveal road incidents."},
+  {"id":"511","name":"511 Nova Scotia traffic events","url":"https://511.novascotia.ca/list/events/traffic","authority":"first-party","latency":"near real time","purpose":"Road incidents, closures, construction and bridge activity."},
+  {"id":"bridges","name":"Halifax Harbour Bridges traffic","url":"https://halifaxharbourbridges.ca/traffic/","authority":"first-party","latency":"live page","purpose":"Macdonald and MacKay closure, restriction and traffic context."},
+  {"id":"water","name":"Halifax Water notices","url":"https://www.halifaxwater.ca/notices-and-news","authority":"first-party","latency":"notice dependent","purpose":"Water work, emergency repairs, outages and traffic impacts."},
+  {"id":"weather","name":"Environment Canada Halifax alerts","url":"https://weather.gc.ca/rss/battleboard/ns1_e.xml","authority":"first-party","latency":"near real time","purpose":"Weather warnings that can explain emergency response or disruption."},
+  {"id":"nsp","name":"Nova Scotia Power outage context","url":"https://outagemap.nspower.ca/external/default.html","authority":"mixed","latency":"approximately 10 minutes on official map","purpose":"Power outages and restoration context using a secondary machine-readable helper linked back to the official map."},
+  {"id":"ns-emergency","name":"Emergency Info Nova Scotia","url":"https://emergencyinfo.novascotia.ca/","authority":"first-party","latency":"event dependent","purpose":"Provincial active emergencies and evacuation information."},
+  {"id":"hfxgov-bsky","name":"HRM Bluesky","url":"https://bsky.app/profile/hfxgov.bsky.social","authority":"first-party social","latency":"post dependent","purpose":"Municipal emergency, closure and public-safety posts."},
+  {"id":"bsky-local","name":"Local Bluesky account feeds","url":"https://bsky.app/","authority":"mixed","latency":"near real time","purpose":"Halifax Fire, Transit, Events, Halifax Noise and automated HRFE mirrors."},
+  {"id":"bsky-search","name":"Bluesky public search","url":"https://public.api.bsky.app/","authority":"community search","latency":"near real time","purpose":"Broad Halifax siren, emergency, crash, fire, police, ambulance and downtown queries."},
+  {"id":"reddit","name":"r/halifax and r/NovaScotia","url":"https://www.reddit.com/r/halifax/new/","authority":"community","latency":"user dependent","purpose":"Fast eyewitness/context layer; usernames are not persisted."},
+  {"id":"news","name":"Local news and news-search RSS","url":"https://globalnews.ca/halifax/feed/","authority":"news / aggregator","latency":"publisher dependent","purpose":"Global Halifax plus broad Google News, Bing News, CityNews and Waterfront Media feed attempts."},
+  {"id":"downtown-events","name":"Downtown Halifax event listings","url":"https://downtownhalifax.ca/events","authority":"event listing","latency":"calendar","purpose":"Same-day event context for crowds, road impacts and unusual activity."},
+  {"id":"port-cruise","name":"Port of Halifax cruise schedule","url":"https://www.porthalifax.ca/cruise/cruise-schedule/","authority":"official schedule","latency":"schedule","purpose":"Same-day harbour and cruise activity context."}
 ]

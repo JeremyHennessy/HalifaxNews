@@ -1,8 +1,9 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "generated_at": null,
   "history_hours": 48,
+  "collector_count": 18,
   "incidents": [],
   "source_health": [],
-  "disclaimer": "Public-information aggregator. May be delayed or incomplete. For emergencies call 911."
+  "disclaimer": "Broad public-information aggregator. Sources can be delayed, wrong or incomplete. Provenance is shown on every signal. For emergencies call 911."
 }

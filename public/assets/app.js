@@ -12,7 +12,7 @@ const state = {
   payload: null,
   category: 'ALL',
   downtownOnly: true,
-  officialOnly: false,
+  hideCommunity: false,
   hours: 12,
   map: null,
   layer: null,
@@ -50,20 +50,22 @@ function visibleRows() {
   return state.payload.incidents.filter(row => {
     if (state.category !== 'ALL' && row.category !== state.category) return false;
     if (state.downtownOnly && !isDowntown(row)) return false;
-    if (state.officialOnly && !['official','corroborated'].includes(row.confidence)) return false;
+    if (state.hideCommunity && row.source_kind === 'community') return false;
     const age = minutesAgo(row.reported_at);
     return age !== null && age <= state.hours * 60;
   });
 }
 function categoryLabel(row) {
-  const labels = {FIRE:'Fire',RESCUE:'Rescue',EMS:'EMS',POLICE:'Police',TRAFFIC:'Traffic',TRANSIT:'Transit',UTILITY:'Utility',WEATHER:'Weather',EMERGENCY:'Emergency',COMMUNITY:'Community'};
+  const labels = {FIRE:'Fire',RESCUE:'Rescue',EMS:'EMS',POLICE:'Police',TRAFFIC:'Traffic',TRANSIT:'Transit',UTILITY:'Utility',WEATHER:'Weather',EMERGENCY:'Emergency',EVENT:'Event',MARINE:'Harbour',COMMUNITY:'Other'};
   return labels[row.category] || row.category;
 }
 function confidenceLabel(row) {
-  if (row.confidence === 'corroborated') return 'Corroborated';
-  if (row.confidence === 'official') return 'Official';
+  if (row.confidence === 'corroborated') return 'Linked signals';
+  if (row.confidence === 'official') return row.source_kind === 'official_archive' ? 'First-party archive' : 'First-party';
+  if (row.confidence === 'reported') return 'News';
   if (row.confidence === 'secondary') return 'Secondary';
-  return 'Unverified';
+  if (row.confidence === 'listing') return 'Event listing';
+  return 'Community';
 }
 function sourceMeta(row) {
   const bits = [esc(row.source)];
@@ -133,7 +135,7 @@ function renderMap(rows) {
   if (!state.map || !state.layer) return;
   state.layer.clearLayers();
   rows.filter(r => Number.isFinite(r.lat) && Number.isFinite(r.lon)).slice(0,80).forEach(row => {
-    const community = row.source_kind === 'community';
+    const community = ['community','secondary'].includes(row.source_kind);
     const marker = L.circleMarker([row.lat,row.lon], {radius:7, color:community?'#b79cff':'#65a8ff', weight:2, fillColor:community?'#b79cff':'#65a8ff', fillOpacity:.45});
     marker.bindPopup(`<strong>${esc(row.title)}</strong><br><span>${esc(row.location_text||'')}</span><br><small>${esc(row.source)} · ${esc(ageLabel(row.reported_at))}</small>`);
     marker.addTo(state.layer);
@@ -186,7 +188,7 @@ function wireControls() {
     document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active')); btn.classList.add('active'); state.category=btn.dataset.filter; renderFeed();
   }));
   el('downtownOnly').addEventListener('change',e=>{state.downtownOnly=e.target.checked;renderFeed();});
-  el('officialOnly').addEventListener('change',e=>{state.officialOnly=e.target.checked;renderFeed();});
+  el('hideCommunity').addEventListener('change',e=>{state.hideCommunity=e.target.checked;renderFeed();});
   el('timeRange').addEventListener('change',e=>{state.hours=Number(e.target.value);renderFeed();});
   el('refreshButton').addEventListener('click',()=>loadData({cacheBust:true}));
 }
