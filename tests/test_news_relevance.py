@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import unittest
 
-from hfxpulse.adapters.newsfeeds import parse_feed, relevant_news_text
+from hfxpulse.adapters.newsfeeds import parse_feed, relevant_news_item, relevant_news_text
+from hfxpulse.collector import _revalidate_retained_rows
+from hfxpulse.models import Incident
 
 
 class NewsRelevanceTests(unittest.TestCase):
@@ -12,6 +14,14 @@ class NewsRelevanceTests(unittest.TestCase):
             "and the consequences of war."
         )
         self.assertFalse(relevant_news_text(text))
+
+    def test_incidental_incident_word_far_from_halifax_context_is_rejected(self):
+        title = "Municipal leadership and public trust"
+        desc = (
+            "A Halifax columnist reflects on municipal politics and public life. "
+            "Later in the essay, the author discusses police institutions in an international historical example."
+        )
+        self.assertFalse(relevant_news_item(title, desc))
 
     def test_non_halifax_incident_is_rejected(self):
         text = "Police investigate a collision and road closure in Yarmouth, Nova Scotia."
@@ -40,6 +50,32 @@ class NewsRelevanceTests(unittest.TestCase):
         rows = parse_feed(data, "Test News", "https://example.test/feed")
         self.assertEqual(1, len(rows))
         self.assertEqual("POLICE", rows[0].category)
+
+    def test_retained_news_is_revalidated_after_rules_change(self):
+        bad = Incident(
+            id="old-noise",
+            source="Halifax Examiner",
+            source_url="https://example.test/opinion",
+            title="Municipal leadership and public trust",
+            summary="A Halifax columnist reflects on public life and politics.",
+            category="COMMUNITY",
+            reported_at="2026-09-11T15:00:00Z",
+            source_kind="news",
+            confidence="reported",
+        )
+        good = Incident(
+            id="real-news",
+            source="CityNews Halifax",
+            source_url="https://example.test/closure",
+            title="Police close Barrington Street after downtown collision",
+            summary="Halifax police say the street is closed while officers investigate a collision.",
+            category="POLICE",
+            reported_at="2026-09-11T15:00:00Z",
+            source_kind="news",
+            confidence="reported",
+        )
+        kept = _revalidate_retained_rows([bad, good])
+        self.assertEqual(["real-news"], [row.id for row in kept])
 
 
 if __name__ == "__main__":
