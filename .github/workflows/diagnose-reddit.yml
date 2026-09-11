@@ -1,4 +1,4 @@
-name: Diagnose Reddit public feeds
+name: Diagnose Reddit public Atom contract
 
 on:
   push:
@@ -18,31 +18,37 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Probe ordinary public Reddit endpoints
+      - name: Inspect public r/halifax new Atom entries
         run: |
           python - <<'PY'
           import requests
+          from xml.etree import ElementTree as ET
 
-          urls = [
-              'https://www.reddit.com/r/halifax/new.json?limit=10&raw_json=1',
-              'https://www.reddit.com/r/halifax/new/.rss',
-              'https://www.reddit.com/r/halifax/new.rss',
-              'https://www.reddit.com/r/halifax/.rss',
-              'https://old.reddit.com/r/halifax/new/.rss',
-          ]
+          url = 'https://www.reddit.com/r/halifax/new/.rss'
           headers = {
               'User-Agent': 'HFXPulse/1.0 (+https://github.com/JeremyHennessy/HalifaxNews)',
-              'Accept': 'application/atom+xml, application/rss+xml, application/json, text/xml;q=0.9, */*;q=0.5',
+              'Accept': 'application/atom+xml, application/rss+xml, text/xml;q=0.9, */*;q=0.5',
           }
-          for url in urls:
-              print('\n===', url, '===')
-              try:
-                  r = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
-                  print('status:', r.status_code)
-                  print('final_url:', r.url)
-                  print('content_type:', r.headers.get('content-type'))
-                  print('bytes:', len(r.content))
-                  print('sample:', r.text[:600].replace('\n', ' '))
-              except Exception as exc:
-                  print(type(exc).__name__ + ':', exc)
+          r = requests.get(url, headers=headers, timeout=20)
+          print('status:', r.status_code)
+          print('content_type:', r.headers.get('content-type'))
+          print('bytes:', len(r.content))
+          r.raise_for_status()
+          root = ET.fromstring(r.content)
+          ns = {'a': 'http://www.w3.org/2005/Atom'}
+          entries = root.findall('a:entry', ns)
+          print('entries:', len(entries))
+          for i, entry in enumerate(entries[:4]):
+              print(f'ENTRY_{i}_START')
+              for child in list(entry):
+                  tag = child.tag.split('}')[-1]
+                  if tag == 'link':
+                      print('link:', child.attrib)
+                  elif tag == 'author':
+                      # Deliberately do not print/store author identity.
+                      print('author: [present but intentionally ignored]')
+                  else:
+                      text = ''.join(child.itertext()).strip()
+                      print(tag + ':', text[:1800])
+              print(f'ENTRY_{i}_END')
           PY
