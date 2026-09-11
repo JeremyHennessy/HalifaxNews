@@ -11,11 +11,23 @@
     "precision": "approximate_geocode",
     "query": "BARRINGTON ST, HALIFAX, Nova Scotia, Canada"
   },
+  "BEECH TREE RUN BEECHVILLE": {
+    "lat": 44.6335518,
+    "lon": -63.6823721,
+    "precision": "approximate_geocode",
+    "query": "BEECH TREE RUN, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
   "DOWNTOWN": {
     "lat": 44.6461752,
     "lon": -63.5725221,
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
+  },
+  "EAST CHEZZETCOOK EAST CHEZZETCOOK": {
+    "lat": 44.7226355,
+    "lon": -63.2374789,
+    "precision": "approximate_geocode",
+    "query": "EAST CHEZZETCOOK RD, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
   "EISENER": {
     "lat": 44.668348,
