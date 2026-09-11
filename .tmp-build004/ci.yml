@@ -1,0 +1,66 @@
+name: Verify HFX Pulse
+
+on:
+  push:
+    branches: [main, "build/**"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Python syntax
+        run: python -m compileall -q hfxpulse scripts tests
+      - name: JavaScript syntax
+        run: node --check public/assets/app.js
+      - name: Live source compatibility smoke test
+        env:
+          HFXPULSE_GEOCODE: "0"
+        run: python scripts/collect.py
+      - name: Validate generated contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path('public/data/incidents.json').read_text())
+          assert p['schema_version'] >= 4
+          assert isinstance(p['incidents'], list)
+          assert isinstance(p['events'], list)
+          assert p['event_count'] == len(p['events'])
+          assert p['observation_count'] == len(p['incidents'])
+          for event in p['events'][:50]:
+              assert event['source_count'] >= 1
+              assert event['evidence_count'] >= 1
+              assert isinstance(event['evidence'], list)
+          assert isinstance(p['source_health'], list)
+          assert len(p['source_health']) >= 15
+          errors = [s for s in p['source_health'] if s['status'] == 'error']
+          print(f"events={len(p['events'])} observations={len(p['incidents'])} sources={len(p['source_health'])} errors={len(errors)}")
+          for row in errors:
+              print(f"SOURCE_ERROR {row['source']}: {row.get('error')}")
+          status = {s['source']: s['status'] for s in p['source_health']}
+          transit_ok = status.get('Halifax Transit GTFS-Realtime') == 'ok'
+          hrfe_live_ok = status.get('Halifax Regional Fire & Emergency') == 'ok'
+          hrfe_mirror_ok = status.get('HRFE incident mirror · Bluesky') == 'ok'
+          failures = []
+          if not (hrfe_live_ok or hrfe_mirror_ok):
+              failures.append('near-real-time HRFE coverage (primary live feed and dedicated mirror both failed)')
+          if not transit_ok:
+              failures.append('Halifax Transit GTFS-Realtime')
+          if failures:
+              raise SystemExit(f"Critical source compatibility failed: {failures}")
+          PY
