@@ -1,9 +1,87 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-11T18:31:41Z",
+  "generated_at": "2026-09-11T18:37:24Z",
   "history_hours": 48,
-  "collector_count": 24,
+  "collector_count": 25,
   "incidents": [
+    {
+      "id": "transit-92292d9fce52f704d7",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Route 1 Inbound trip departing at Friday, September 11, 2026 15:55 from Bridge Terminal Bay 5 (7605) is can...",
+      "summary": "Route 1 Inbound departing at Friday, September 11, 2026 15:55 from Bridge Terminal Bay 5 (7605) arriving at Friday, September 11, 2026 16:46 Mumford Terminal Bay 2 (8640) is cancelled",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-11T18:55:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "seriousness_score": 12,
+      "source_class": "first_party",
+      "event_type": "transit_disruption",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 29,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "very recent"
+      ],
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208914"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "informed_entities": [
+          "route 1 / stop 7605",
+          "route 1 / stop 2327",
+          "route 1 / stop 6774",
+          "route 1 / stop 6786",
+          "route 1 / stop 6790",
+          "route 1 / stop 6771",
+          "route 1 / stop 6107",
+          "route 1 / stop 6084",
+          "route 1 / stop 6102",
+          "route 1 / stop 6122",
+          "route 1 / stop 8331",
+          "route 1 / stop 8330",
+          "route 1 / stop 8334",
+          "route 1 / stop 8335",
+          "route 1 / stop 8329",
+          "route 1 / stop 8332",
+          "route 1 / stop 6448",
+          "route 1 / stop 6450",
+          "route 1 / stop 6451",
+          "route 1 / stop 7401",
+          "route 1 / stop 7403",
+          "route 1 / stop 7410",
+          "route 1 / stop 7421",
+          "route 1 / stop 7404",
+          "route 1 / stop 7411",
+          "route 1 / stop 7405",
+          "route 1 / stop 2391",
+          "route 1 / stop 2392",
+          "route 1 / stop 2389",
+          "route 1 / stop 6620",
+          "route 1 / stop 6621",
+          "route 1 / stop 8640"
+        ]
+      }
+    },
     {
       "id": "nsp-77222f7761d86908d6",
       "source": "Nova Scotia Power outages",
@@ -11,7 +89,7 @@
       "title": "Power outage",
       "summary": "Emergency Repair of Lines",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -61,7 +139,7 @@
       "title": "Live Music: Adam Otmar: Farewell to Nova Scotia (with Marlo Day) Sep 11 2026 Trident Booksellers & Cafe",
       "summary": "Live Music: Adam Otmar: Farewell to Nova Scotia (with Marlo Day) Sep 11 2026 Trident Booksellers & Cafe",
       "category": "EVENT",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -102,7 +180,7 @@
       "title": "Boot Scootin’ For The Bride! Sep 11 2026 - Sep 27 2026 The Neon Armadillo Dance Bar",
       "summary": "Boot Scootin’ For The Bride! Sep 11 2026 - Sep 27 2026 The Neon Armadillo Dance Bar",
       "category": "EVENT",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -143,7 +221,7 @@
       "title": "Saturday nights are CERTIFIED at The Dome!! Sep 11 2026 - Sep 26 2026 The Dome Night Club",
       "summary": "Saturday nights are CERTIFIED at The Dome!! Sep 11 2026 - Sep 26 2026 The Dome Night Club",
       "category": "EVENT",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -184,7 +262,7 @@
       "title": "Celebrate in style at UNKNWN! Sep 11 2026 - Sep 26 2026 Unknwn Lounge",
       "summary": "Celebrate in style at UNKNWN! Sep 11 2026 - Sep 26 2026 Unknwn Lounge",
       "category": "EVENT",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -219,6 +297,51 @@
       "metadata": {}
     },
     {
+      "id": "marine-warning-8832f51808748df18d",
+      "source": "Environment Canada · Halifax Harbour marine warnings",
+      "source_url": "https://weather.gc.ca/marine/forecast_e.html?mapID=15&siteID=06000",
+      "title": "Strong wind warning in effect",
+      "summary": "Strong wind warning in effect Halifax Harbour and Approaches Issued 3:30 PM ADT 11 September 2026 'Strong' winds of 20 to 33 knots are occurring or expected to occur in this marine area. Please refer to the latest marine forecasts for further details and continue to monitor the situation through Canadian Coast Guard radio.",
+      "category": "MARINE",
+      "reported_at": "2026-09-11T18:30:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "marine_weather_warning",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "Halifax Harbour and Approaches",
+      "lat": 44.65,
+      "lon": -63.56,
+      "location_precision": "marine_area",
+      "severity": 2,
+      "siren_score": 0,
+      "seriousness_score": 18,
+      "source_class": "first_party",
+      "event_type": "weather_warning",
+      "canonical_location": "HARBOUR AND APPROACHES",
+      "neighbourhood": null,
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 41,
+      "priority_band": "elevated",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "very recent",
+        "downtown relevance"
+      ],
+      "signals": [
+        "official_marine_warning"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {
+        "currently_active": true,
+        "marine_area": "Halifax Harbour and Approaches"
+      }
+    },
+    {
       "id": "hrfe-hf26000013652",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013652",
@@ -232,9 +355,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "CALDWELL RD, COLE HARBOUR",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6539551,
+      "lon": -63.4874848,
+      "location_precision": "approximate_geocode",
       "severity": 3,
       "siren_score": 97,
       "seriousness_score": 90,
@@ -749,12 +872,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 35,
+      "priority_score": 31,
       "priority_band": "moderate",
       "impact_scope": "local",
-      "attention_reasons": [
-        "within 90 minutes"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_dispatch",
         "responding_units"
@@ -827,11 +948,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 24,
+      "priority_score": 20,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
-        "within 90 minutes",
         "downtown relevance"
       ],
       "signals": [
@@ -863,7 +983,7 @@
       "lon": -63.5709755,
       "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 44,
+      "siren_score": 38,
       "seriousness_score": 38,
       "source_class": "first_party",
       "event_type": "water_rescue",
@@ -873,11 +993,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 46,
+      "priority_score": 42,
       "priority_band": "elevated",
       "impact_scope": "local",
       "attention_reasons": [
-        "within 90 minutes",
         "downtown relevance"
       ],
       "signals": [
@@ -1863,7 +1982,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 12,
+      "priority_score": 7,
       "priority_band": "low",
       "impact_scope": "local",
       "attention_reasons": [],
@@ -15708,9 +15827,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "CALDWELL RD, COLE HARBOUR",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6539551,
+      "lon": -63.4874848,
+      "location_precision": "approximate_geocode",
       "severity": 3,
       "siren_score": 97,
       "seriousness_score": 90,
@@ -16604,7 +16723,7 @@
       "lon": -63.5709755,
       "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 44,
+      "siren_score": 38,
       "seriousness_score": 38,
       "source_class": "first_party",
       "event_type": "water_rescue",
@@ -16624,11 +16743,10 @@
           "title": "Salt Water Incident"
         }
       ],
-      "priority_score": 46,
+      "priority_score": 42,
       "priority_band": "elevated",
       "impact_scope": "local",
       "attention_reasons": [
-        "within 90 minutes",
         "downtown relevance"
       ],
       "signals": [
@@ -16678,6 +16796,70 @@
         "first_reported_at": "2026-09-11T17:03:03Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-b40d144d65bbc14737",
+      "source": "Environment Canada · Halifax Harbour marine warnings",
+      "source_url": "https://weather.gc.ca/marine/forecast_e.html?mapID=15&siteID=06000",
+      "title": "Strong wind warning in effect",
+      "summary": "Strong wind warning in effect Halifax Harbour and Approaches Issued 3:30 PM ADT 11 September 2026 'Strong' winds of 20 to 33 knots are occurring or expected to occur in this marine area. Please refer to the latest marine forecasts for further details and continue to monitor the situation through Canadian Coast Guard radio.",
+      "category": "MARINE",
+      "reported_at": "2026-09-11T18:30:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "marine_weather_warning",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "Halifax Harbour and Approaches",
+      "lat": 44.65,
+      "lon": -63.56,
+      "location_precision": "marine_area",
+      "severity": 2,
+      "siren_score": 0,
+      "seriousness_score": 18,
+      "source_class": "first_party",
+      "event_type": "weather_warning",
+      "canonical_location": "HARBOUR AND APPROACHES",
+      "neighbourhood": null,
+      "cluster_id": "evt-b40d144d65bbc14737",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "marine-warning-8832f51808748df18d",
+          "source": "Environment Canada · Halifax Harbour marine warnings",
+          "source_url": "https://weather.gc.ca/marine/forecast_e.html?mapID=15&siteID=06000",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T18:30:00Z",
+          "title": "Strong wind warning in effect"
+        }
+      ],
+      "priority_score": 41,
+      "priority_band": "elevated",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "very recent",
+        "downtown relevance"
+      ],
+      "signals": [
+        "official_marine_warning"
+      ],
+      "raw_ids": [],
+      "related_ids": [
+        "marine-warning-8832f51808748df18d"
+      ],
+      "metadata": {
+        "currently_active": true,
+        "marine_area": "Halifax Harbour and Approaches",
+        "first_reported_at": "2026-09-11T18:30:00Z",
+        "source_names": [
+          "Environment Canada · Halifax Harbour marine warnings"
         ],
         "source_classes": [
           "first_party"
@@ -17590,103 +17772,6 @@
         "first_reported_at": "2026-09-11T16:15:00Z",
         "source_names": [
           "Halifax Regional Police"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
-      "id": "evt-3cb9f704d2f83064e7",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013649",
-      "title": "Vehicle Fire",
-      "summary": "Emergency response: Engine 5 and Station 5 assignment.",
-      "category": "FIRE",
-      "reported_at": "2026-09-11T17:07:15Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "VEHICLE FIRE",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "DAWN ST, HALIFAX",
-      "lat": 44.6602421,
-      "lon": -63.6363408,
-      "location_precision": "approximate_geocode",
-      "severity": 2,
-      "siren_score": 60,
-      "seriousness_score": 34,
-      "source_class": "first_party",
-      "event_type": "fire_incident",
-      "canonical_location": "DAWN",
-      "neighbourhood": null,
-      "cluster_id": "evt-3cb9f704d2f83064e7",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "hrfe-hf26000013649",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013649",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T17:07:15Z",
-          "title": "Vehicle Fire"
-        }
-      ],
-      "priority_score": 35,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "within 90 minutes"
-      ],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013649"
-      ],
-      "related_ids": [
-        "hrfe-hf26000013649"
-      ],
-      "metadata": {
-        "call_number": "HF26000013649",
-        "response": "E05 STN05",
-        "decoded_units": [
-          {
-            "code": "E05",
-            "label": "Engine 5",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN05",
-            "label": "Station 5 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E05 — Engine 5 · STN05 — Station 5 assignment",
-        "response_summary": "Emergency response: Engine 5 and Station 5 assignment.",
-        "decoded_response": [
-          {
-            "code": "E05",
-            "label": "Engine 5",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN05",
-            "label": "Station 5 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": [],
-        "first_reported_at": "2026-09-11T17:07:15Z",
-        "source_names": [
-          "Halifax Regional Fire & Emergency"
         ],
         "source_classes": [
           "first_party"
@@ -18682,6 +18767,101 @@
       }
     },
     {
+      "id": "evt-3cb9f704d2f83064e7",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013649",
+      "title": "Vehicle Fire",
+      "summary": "Emergency response: Engine 5 and Station 5 assignment.",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T17:07:15Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "VEHICLE FIRE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "DAWN ST, HALIFAX",
+      "lat": 44.6602421,
+      "lon": -63.6363408,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 60,
+      "seriousness_score": 34,
+      "source_class": "first_party",
+      "event_type": "fire_incident",
+      "canonical_location": "DAWN",
+      "neighbourhood": null,
+      "cluster_id": "evt-3cb9f704d2f83064e7",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "hrfe-hf26000013649",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013649",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T17:07:15Z",
+          "title": "Vehicle Fire"
+        }
+      ],
+      "priority_score": 31,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013649"
+      ],
+      "related_ids": [
+        "hrfe-hf26000013649"
+      ],
+      "metadata": {
+        "call_number": "HF26000013649",
+        "response": "E05 STN05",
+        "decoded_units": [
+          {
+            "code": "E05",
+            "label": "Engine 5",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN05",
+            "label": "Station 5 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E05 — Engine 5 · STN05 — Station 5 assignment",
+        "response_summary": "Emergency response: Engine 5 and Station 5 assignment.",
+        "decoded_response": [
+          {
+            "code": "E05",
+            "label": "Engine 5",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN05",
+            "label": "Station 5 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": [],
+        "first_reported_at": "2026-09-11T17:07:15Z",
+        "source_names": [
+          "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
       "id": "evt-1c30c6eb539ed18a9e",
       "source": "Bluesky · @hbgpalocalnews.bsky.social",
       "source_url": "https://bsky.app/profile/hbgpalocalnews.bsky.social/post/3mvaz5k5jgb2o",
@@ -19057,6 +19237,103 @@
         "first_reported_at": "2026-09-10T15:31:05Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-15f7ef94a0f0b3113a",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Route 1 Inbound trip departing at Friday, September 11, 2026 15:55 from Bridge Terminal Bay 5 (7605) is can...",
+      "summary": "Route 1 Inbound departing at Friday, September 11, 2026 15:55 from Bridge Terminal Bay 5 (7605) arriving at Friday, September 11, 2026 16:46 Mumford Terminal Bay 2 (8640) is cancelled",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-11T18:55:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "seriousness_score": 12,
+      "source_class": "first_party",
+      "event_type": "transit_disruption",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-15f7ef94a0f0b3113a",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "transit-92292d9fce52f704d7",
+          "source": "Halifax Transit GTFS-Realtime",
+          "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T18:55:00Z",
+          "title": "Route 1 Inbound trip departing at Friday, September 11, 2026 15:55 from Bridge Terminal Bay 5 (7605) is can..."
+        }
+      ],
+      "priority_score": 29,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "very recent"
+      ],
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "208914"
+      ],
+      "related_ids": [
+        "transit-92292d9fce52f704d7"
+      ],
+      "metadata": {
+        "informed_entities": [
+          "route 1 / stop 7605",
+          "route 1 / stop 2327",
+          "route 1 / stop 6774",
+          "route 1 / stop 6786",
+          "route 1 / stop 6790",
+          "route 1 / stop 6771",
+          "route 1 / stop 6107",
+          "route 1 / stop 6084",
+          "route 1 / stop 6102",
+          "route 1 / stop 6122",
+          "route 1 / stop 8331",
+          "route 1 / stop 8330",
+          "route 1 / stop 8334",
+          "route 1 / stop 8335",
+          "route 1 / stop 8329",
+          "route 1 / stop 8332",
+          "route 1 / stop 6448",
+          "route 1 / stop 6450",
+          "route 1 / stop 6451",
+          "route 1 / stop 7401",
+          "route 1 / stop 7403",
+          "route 1 / stop 7410",
+          "route 1 / stop 7421",
+          "route 1 / stop 7404",
+          "route 1 / stop 7411",
+          "route 1 / stop 7405",
+          "route 1 / stop 2391",
+          "route 1 / stop 2392",
+          "route 1 / stop 2389",
+          "route 1 / stop 6620",
+          "route 1 / stop 6621",
+          "route 1 / stop 8640"
+        ],
+        "first_reported_at": "2026-09-11T18:55:00Z",
+        "source_names": [
+          "Halifax Transit GTFS-Realtime"
         ],
         "source_classes": [
           "first_party"
@@ -19530,7 +19807,7 @@
       "title": "Power outage",
       "summary": "Emergency Repair of Lines",
       "category": "UTILITY",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -19557,7 +19834,7 @@
           "source_url": "https://outagemap.nspower.ca/external/default.html",
           "source_class": "secondary",
           "confidence": "secondary",
-          "reported_at": "2026-09-11T18:30:32Z",
+          "reported_at": "2026-09-11T18:36:48Z",
           "title": "Power outage"
         }
       ],
@@ -19583,7 +19860,7 @@
         "customers": 0,
         "cause": "Emergency Repair of Lines",
         "minimum_customers": 100,
-        "first_reported_at": "2026-09-11T18:30:32Z",
+        "first_reported_at": "2026-09-11T18:36:48Z",
         "source_names": [
           "Nova Scotia Power outages"
         ],
@@ -21051,7 +21328,7 @@
       "title": "Live Music: Adam Otmar: Farewell to Nova Scotia (with Marlo Day) Sep 11 2026 Trident Booksellers & Cafe",
       "summary": "Live Music: Adam Otmar: Farewell to Nova Scotia (with Marlo Day) Sep 11 2026 Trident Booksellers & Cafe",
       "category": "EVENT",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -21078,7 +21355,7 @@
           "source_url": "https://downtownhalifax.ca/event/live-music-adam-otmar-farewell-nova-scotia-marlo-day",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-09-11T18:30:32Z",
+          "reported_at": "2026-09-11T18:36:48Z",
           "title": "Live Music: Adam Otmar: Farewell to Nova Scotia (with Marlo Day) Sep 11 2026 Trident Booksellers & Cafe"
         }
       ],
@@ -21096,7 +21373,7 @@
         "dhevent-df36677eb198186430"
       ],
       "metadata": {
-        "first_reported_at": "2026-09-11T18:30:32Z",
+        "first_reported_at": "2026-09-11T18:36:48Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -21112,7 +21389,7 @@
       "title": "Boot Scootin’ For The Bride! Sep 11 2026 - Sep 27 2026 The Neon Armadillo Dance Bar",
       "summary": "Boot Scootin’ For The Bride! Sep 11 2026 - Sep 27 2026 The Neon Armadillo Dance Bar",
       "category": "EVENT",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -21139,7 +21416,7 @@
           "source_url": "https://downtownhalifax.ca/event/boot-scootin-bride",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-09-11T18:30:32Z",
+          "reported_at": "2026-09-11T18:36:48Z",
           "title": "Boot Scootin’ For The Bride! Sep 11 2026 - Sep 27 2026 The Neon Armadillo Dance Bar"
         }
       ],
@@ -21157,7 +21434,7 @@
         "dhevent-42ac72990c700b3091"
       ],
       "metadata": {
-        "first_reported_at": "2026-09-11T18:30:32Z",
+        "first_reported_at": "2026-09-11T18:36:48Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -21173,7 +21450,7 @@
       "title": "Saturday nights are CERTIFIED at The Dome!! Sep 11 2026 - Sep 26 2026 The Dome Night Club",
       "summary": "Saturday nights are CERTIFIED at The Dome!! Sep 11 2026 - Sep 26 2026 The Dome Night Club",
       "category": "EVENT",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -21200,7 +21477,7 @@
           "source_url": "https://downtownhalifax.ca/event/saturday-nights-are-certified-dome",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-09-11T18:30:32Z",
+          "reported_at": "2026-09-11T18:36:48Z",
           "title": "Saturday nights are CERTIFIED at The Dome!! Sep 11 2026 - Sep 26 2026 The Dome Night Club"
         }
       ],
@@ -21218,7 +21495,7 @@
         "dhevent-f94f1092a117b3b13a"
       ],
       "metadata": {
-        "first_reported_at": "2026-09-11T18:30:32Z",
+        "first_reported_at": "2026-09-11T18:36:48Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -21234,7 +21511,7 @@
       "title": "Celebrate in style at UNKNWN! Sep 11 2026 - Sep 26 2026 Unknwn Lounge",
       "summary": "Celebrate in style at UNKNWN! Sep 11 2026 - Sep 26 2026 Unknwn Lounge",
       "category": "EVENT",
-      "reported_at": "2026-09-11T18:30:32Z",
+      "reported_at": "2026-09-11T18:36:48Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -21261,7 +21538,7 @@
           "source_url": "https://downtownhalifax.ca/event/celebrate-style-unknwn",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-09-11T18:30:32Z",
+          "reported_at": "2026-09-11T18:36:48Z",
           "title": "Celebrate in style at UNKNWN! Sep 11 2026 - Sep 26 2026 Unknwn Lounge"
         }
       ],
@@ -21279,7 +21556,7 @@
         "dhevent-efda169e5ce3528d2d"
       ],
       "metadata": {
-        "first_reported_at": "2026-09-11T18:30:32Z",
+        "first_reported_at": "2026-09-11T18:36:48Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -22880,70 +23157,6 @@
       }
     },
     {
-      "id": "evt-0ab13f738354a17eee",
-      "source": "r/halifax",
-      "source_url": "https://www.reddit.com/r/halifax/comments/1wdi0fb/thank_you_to_the_kind_stranger_who_brought_my/",
-      "title": "Thank you to the kind stranger who brought my package over to Queen st after it was accidentally delivered to your home",
-      "summary": "U big dawg! you saved me (probably hours) from having to deal with purolator customer service and Shark vacuum customer service (which is so soul sucking lol). My roommate had no idea it was delivered to the wrong house so when you dropped it off she probably thought you were the delivery person. When she texted me an update, I was so so relieved. But this meant I didn't get the chance to properly thank you- Thank you very much <3 (and I do mean very). And to everyone else if you've ever done this, thank you. You probably don't realize how much stress you've saved someone.",
-      "category": "COMMUNITY",
-      "reported_at": "2026-09-11T14:33:43Z",
-      "source_kind": "community",
-      "confidence": "unverified",
-      "subtype": "community_report",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 1,
-      "siren_score": 0,
-      "seriousness_score": 10,
-      "source_class": "community",
-      "event_type": "community_report",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": "evt-0ab13f738354a17eee",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "reddit-halifax-5ee59ac21b16d7ec09",
-          "source": "r/halifax",
-          "source_url": "https://www.reddit.com/r/halifax/comments/1wdi0fb/thank_you_to_the_kind_stranger_who_brought_my/",
-          "source_class": "community",
-          "confidence": "unverified",
-          "reported_at": "2026-09-11T14:33:43Z",
-          "title": "Thank you to the kind stranger who brought my package over to Queen st after it was accidentally delivered to your home"
-        }
-      ],
-      "priority_score": 12,
-      "priority_band": "low",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "community_report",
-        "unverified"
-      ],
-      "raw_ids": [
-        "1wdi0fb"
-      ],
-      "related_ids": [
-        "reddit-halifax-5ee59ac21b16d7ec09"
-      ],
-      "metadata": {
-        "subreddit": "halifax",
-        "transport": "rss",
-        "first_reported_at": "2026-09-11T14:33:43Z",
-        "source_names": [
-          "r/halifax"
-        ],
-        "source_classes": [
-          "community"
-        ]
-      }
-    },
-    {
       "id": "evt-bef5ba11c04ce28780",
       "source": "Halifax Water",
       "source_url": "https://www.halifaxwater.ca/notice/water-service-advisory-cow-bay-road",
@@ -24423,6 +24636,70 @@
       }
     },
     {
+      "id": "evt-0ab13f738354a17eee",
+      "source": "r/halifax",
+      "source_url": "https://www.reddit.com/r/halifax/comments/1wdi0fb/thank_you_to_the_kind_stranger_who_brought_my/",
+      "title": "Thank you to the kind stranger who brought my package over to Queen st after it was accidentally delivered to your home",
+      "summary": "U big dawg! you saved me (probably hours) from having to deal with purolator customer service and Shark vacuum customer service (which is so soul sucking lol). My roommate had no idea it was delivered to the wrong house so when you dropped it off she probably thought you were the delivery person. When she texted me an update, I was so so relieved. But this meant I didn't get the chance to properly thank you- Thank you very much <3 (and I do mean very). And to everyone else if you've ever done this, thank you. You probably don't realize how much stress you've saved someone.",
+      "category": "COMMUNITY",
+      "reported_at": "2026-09-11T14:33:43Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "community_report",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "seriousness_score": 10,
+      "source_class": "community",
+      "event_type": "community_report",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-0ab13f738354a17eee",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "reddit-halifax-5ee59ac21b16d7ec09",
+          "source": "r/halifax",
+          "source_url": "https://www.reddit.com/r/halifax/comments/1wdi0fb/thank_you_to_the_kind_stranger_who_brought_my/",
+          "source_class": "community",
+          "confidence": "unverified",
+          "reported_at": "2026-09-11T14:33:43Z",
+          "title": "Thank you to the kind stranger who brought my package over to Queen st after it was accidentally delivered to your home"
+        }
+      ],
+      "priority_score": 7,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_report",
+        "unverified"
+      ],
+      "raw_ids": [
+        "1wdi0fb"
+      ],
+      "related_ids": [
+        "reddit-halifax-5ee59ac21b16d7ec09"
+      ],
+      "metadata": {
+        "subreddit": "halifax",
+        "transport": "rss",
+        "first_reported_at": "2026-09-11T14:33:43Z",
+        "source_names": [
+          "r/halifax"
+        ],
+        "source_classes": [
+          "community"
+        ]
+      }
+    },
+    {
       "id": "evt-bbbee631cea9354f8b",
       "source": "2 sources",
       "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv6m6kz5qr2x",
@@ -24620,48 +24897,26 @@
       }
     }
   ],
-  "event_count": 93,
-  "observation_count": 270,
+  "event_count": 95,
+  "observation_count": 272,
   "source_health": [
     {
       "source": "Bluesky community search",
       "url": "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=Halifax%20sirens",
       "authority": "community",
       "status": "error",
-      "checked_at": "2026-09-11T18:30:30Z",
+      "checked_at": "2026-09-11T18:36:47Z",
       "fetched_at": null,
       "records": 0,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=Barrington+Halifax+closure&limit=40&sort=latest",
       "notes": "Broad public Halifax disruption search. Each query independently falls back across both Bluesky AppView hosts; partial query failures do not discard successful search results."
     },
     {
-      "source": "Environment and Climate Change Canada",
-      "url": "https://weather.gc.ca/rss/battleboard/ns1_e.xml",
-      "authority": "official",
-      "status": "error",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": null,
-      "records": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='weather.gc.ca', port=443): Max retries exceeded with url: /rss/battleboard/ns1_e.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='weather.gc.ca', port=443) at 0x7f7adfe93200>, 'Connection to weather.gc.ca timed out. (connect timeout=20)'))",
-      "notes": "Halifax Metro and Halifax County West near-real-time public weather alert Atom feed."
-    },
-    {
-      "source": "Environment Canada · Halifax Harbour marine warnings",
-      "url": "https://weather.gc.ca/marine/forecast_e.html?mapID=15&siteID=06000",
-      "authority": "official",
-      "status": "error",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": null,
-      "records": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='weather.gc.ca', port=443): Max retries exceeded with url: /marine/forecast_e.html?mapID=15&siteID=06000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='weather.gc.ca', port=443) at 0x7f7adfe784d0>, 'Connection to weather.gc.ca timed out. (connect timeout=25)'))",
-      "notes": "Environment Canada warnings specifically for Halifax Harbour and Approaches; emits no row when no warning is in effect."
-    },
-    {
       "source": "Port of Halifax cruise schedule",
       "url": "https://www.portofhalifax.ca/cruise/cruise-schedule/",
       "authority": "official schedule",
       "status": "error",
-      "checked_at": "2026-09-11T18:30:32Z",
+      "checked_at": "2026-09-11T18:36:48Z",
       "fetched_at": null,
       "records": 0,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portofhalifax.ca/cruise/cruise-schedule/",
@@ -24672,8 +24927,8 @@
       "url": "https://511.novascotia.ca/list/events/traffic",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:47Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 0,
       "error": null,
       "notes": "Official traffic-event text report. Zero parsed rows can legitimately mean there are no listed HRM traffic events at collection time."
@@ -24683,19 +24938,30 @@
       "url": "https://bsky.app/",
       "authority": "mixed",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:32Z",
-      "fetched_at": "2026-09-11T18:30:32Z",
+      "checked_at": "2026-09-11T18:36:49Z",
+      "fetched_at": "2026-09-11T18:36:49Z",
       "records": 173,
       "error": null,
       "notes": "4/4 configured accounts reachable; includes official, community and automated mirrors."
+    },
+    {
+      "source": "CWFIS active wildfires near Halifax",
+      "url": "https://cwfis.cfs.nrcan.gc.ca/interactive-map",
+      "authority": "official federal wildfire data",
+      "status": "ok",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
+      "records": 0,
+      "error": null,
+      "notes": "CWFIS active-fire records within 100 km of downtown Halifax; out/extinguished records are excluded."
     },
     {
       "source": "Downtown Halifax events",
       "url": "https://downtownhalifax.ca/events",
       "authority": "event listing",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:32Z",
-      "fetched_at": "2026-09-11T18:30:32Z",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 4,
       "error": null,
       "notes": "Only events whose published date range includes today are emitted as context."
@@ -24705,19 +24971,41 @@
       "url": "https://emergencyinfo.novascotia.ca/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 39,
       "error": null,
       "notes": "Provincial public-message ArcGIS view; avoids website TLS/rendering failures while preserving the same emergency-information source."
+    },
+    {
+      "source": "Environment and Climate Change Canada",
+      "url": "https://weather.gc.ca/rss/battleboard/ns1_e.xml",
+      "authority": "official",
+      "status": "ok",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
+      "records": 1,
+      "error": null,
+      "notes": "Halifax Metro and Halifax County West near-real-time public weather alert Atom feed."
+    },
+    {
+      "source": "Environment Canada · Halifax Harbour marine warnings",
+      "url": "https://weather.gc.ca/marine/forecast_e.html?mapID=15&siteID=06000",
+      "authority": "official",
+      "status": "ok",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
+      "records": 1,
+      "error": null,
+      "notes": "Environment Canada warnings specifically for Halifax Harbour and Approaches; emits no row when no warning is in effect."
     },
     {
       "source": "Halifax Harbour Bridges",
       "url": "https://halifaxharbourbridges.ca/traffic/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 0,
       "error": null,
       "notes": "Live bridge traffic/closure page. Only disruption-like text is emitted into the incident timeline."
@@ -24727,8 +25015,8 @@
       "url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed/rss.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:30Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:47Z",
+      "fetched_at": "2026-09-11T18:36:47Z",
       "records": 63,
       "error": null,
       "notes": "Official HRFE RSS dispatch feed with official HTML fallback. Response codes are retained verbatim and decoded into human-readable apparatus/command labels; inferred code expansions remain marked in metadata."
@@ -24738,8 +25026,8 @@
       "url": "https://bsky.app/profile/hfxgov.bsky.social",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:30Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:47Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 33,
       "error": null,
       "notes": "Official HRM social updates filtered to disruption/public-safety terms. HRM directs residents to this account during emergency events."
@@ -24749,8 +25037,8 @@
       "url": "https://www.halifax.ca/home/news?category=25",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:30Z",
-      "fetched_at": "2026-09-11T18:30:32Z",
+      "checked_at": "2026-09-11T18:36:47Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 10,
       "error": null,
       "notes": "Official HRP releases; current release-card parser with a bounded dated-link fallback."
@@ -24760,9 +25048,9 @@
       "url": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:30Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
-      "records": 81,
+      "checked_at": "2026-09-11T18:36:47Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
+      "records": 82,
       "error": null,
       "notes": "Official GTFS-Realtime alerts; data licensed under the Open Government Licence — Halifax."
     },
@@ -24771,8 +25059,8 @@
       "url": "https://www.halifaxwater.ca/notices-and-news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 4,
       "error": null,
       "notes": null
@@ -24782,8 +25070,8 @@
       "url": "https://www.halifaxwater.ca/alerts",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 1,
       "error": null,
       "notes": "Current Halifax Water alert banner/list; historical alerts are excluded at the parser boundary."
@@ -24793,8 +25081,8 @@
       "url": "https://data-hrm.hub.arcgis.com/datasets/HRM::hrfe-incident-initial-response",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:30Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:47Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 200,
       "error": null,
       "notes": "Periodic HRFE open-data layer used as a second incident source/enrichment path. Source timestamps are preserved; no guessed offset correction is applied."
@@ -24804,8 +25092,8 @@
       "url": "https://bsky.app/profile/hrfeincidents.bsky.social",
       "authority": "secondary automated mirror",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 0,
       "error": null,
       "notes": "2/2 HRFE mirror accounts reachable. Primary mirror states it republishes the HRFE RSS incident feed and may lag by up to five minutes. Not operated by HRFE."
@@ -24815,8 +25103,8 @@
       "url": "https://services2.arcgis.com/11XBiaBYA9Ep0yNJ/ArcGIS/rest/services/Street_Closures_Active/FeatureServer/0",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": "2026-09-11T18:30:31Z",
+      "checked_at": "2026-09-11T18:36:47Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 20,
       "error": null,
       "notes": "HRM's active planned/permitted street-closure layer. Useful context for blocked roads and unusual response routing; not an emergency feed."
@@ -24826,8 +25114,8 @@
       "url": "https://www.halifax.ca/home/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:30Z",
-      "fetched_at": "2026-09-11T18:30:32Z",
+      "checked_at": "2026-09-11T18:36:47Z",
+      "fetched_at": "2026-09-11T18:36:49Z",
       "records": 0,
       "error": null,
       "notes": "Current HRM newsroom filtered to public-safety, transportation and disruption terms."
@@ -24837,8 +25125,8 @@
       "url": "https://globalnews.ca/halifax/feed/",
       "authority": "news / aggregator",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:55Z",
-      "fetched_at": "2026-09-11T18:30:55Z",
+      "checked_at": "2026-09-11T18:37:11Z",
+      "fetched_at": "2026-09-11T18:37:11Z",
       "records": 68,
       "error": null,
       "notes": "6/11 feeds reachable. Items require Halifax-area geography plus nearby public-safety/disruption language; reports are not treated as dispatch confirmation."
@@ -24848,8 +25136,8 @@
       "url": "https://outagemap.hfxdeploy.com/api/outages",
       "authority": "secondary",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:31Z",
-      "fetched_at": "2026-09-11T18:30:32Z",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 1,
       "error": null,
       "notes": "Machine-readable helper linked to the official NSP map. Routine small outages are suppressed; threshold defaults to 100 customers."
@@ -24859,8 +25147,8 @@
       "url": "https://rcmp.ca/en/nova-scotia/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:30Z",
-      "fetched_at": "2026-09-11T18:30:35Z",
+      "checked_at": "2026-09-11T18:36:47Z",
+      "fetched_at": "2026-09-11T18:36:47Z",
       "records": 0,
       "error": null,
       "notes": "RCMP Nova Scotia releases filtered to HRM-area place names."
@@ -24870,8 +25158,8 @@
       "url": "https://www.reddit.com/r/halifax/new/",
       "authority": "community",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:32Z",
-      "fetched_at": "2026-09-11T18:30:32Z",
+      "checked_at": "2026-09-11T18:36:49Z",
+      "fetched_at": "2026-09-11T18:36:49Z",
       "records": 2,
       "error": null,
       "notes": "1/2 subreddits reachable via r/halifax:rss. JSON is preferred; Atom/RSS is the fallback. Usernames are not persisted."
@@ -24881,8 +25169,8 @@
       "url": "https://www.smu.ca/alert/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T18:30:32Z",
-      "fetched_at": "2026-09-11T18:30:32Z",
+      "checked_at": "2026-09-11T18:36:48Z",
+      "fetched_at": "2026-09-11T18:36:48Z",
       "records": 0,
       "error": null,
       "notes": "Saint Mary's current closure/interruption page; normal operating status produces zero events."

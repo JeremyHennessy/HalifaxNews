@@ -23,6 +23,12 @@
     "precision": "approximate_geocode",
     "query": "BRENNANS RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
   },
+  "CALDWELL COLE HARBOUR": {
+    "lat": 44.6539551,
+    "lon": -63.4874848,
+    "precision": "approximate_geocode",
+    "query": "CALDWELL RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "DAWN": {
     "lat": 44.6602421,
     "lon": -63.6363408,
