@@ -1,4 +1,16 @@
 {
+  "BARRINGTON": {
+    "lat": 44.652306,
+    "lon": -63.5775196,
+    "precision": "approximate_geocode",
+    "query": "BARRINGTON ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "EISENER": {
+    "lat": 44.668348,
+    "lon": -63.5230931,
+    "precision": "approximate_geocode",
+    "query": "EISENER BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "GARY MARTIN BEDFORD": {
     "lat": 44.7217798,
     "lon": -63.7069392,
@@ -28,5 +40,17 @@
     "lon": -63.5879823,
     "precision": "approximate_geocode",
     "query": "ROBIE ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "SOUTH PARK": {
+    "lat": 44.6394911,
+    "lon": -63.5783674,
+    "precision": "approximate_geocode",
+    "query": "SOUTH PARK ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "WILLIAMS": {
+    "lat": 44.7124043,
+    "lon": -63.5850295,
+    "precision": "approximate_geocode",
+    "query": "WILLIAMS AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   }
 }
