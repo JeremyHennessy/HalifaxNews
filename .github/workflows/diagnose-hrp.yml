@@ -1,0 +1,67 @@
+name: Diagnose HRP live source
+
+on:
+  push:
+    branches: [fix/hrp-live-parser]
+    paths: [".github/workflows/diagnose-hrp.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - name: Inspect official HRP news page structure
+        run: |
+          python - <<'PY'
+          import re
+          import requests
+          from bs4 import BeautifulSoup
+          from urllib.parse import urljoin
+
+          url = 'https://www.halifax.ca/home/news?category=25'
+          headers = {'User-Agent':'HFXPulse/1.0 (+https://github.com/JeremyHennessy/HalifaxNews)'}
+          r = requests.get(url, timeout=25, headers=headers)
+          print('status:', r.status_code)
+          print('final_url:', r.url)
+          print('content_type:', r.headers.get('content-type'))
+          print('bytes:', len(r.content))
+          r.raise_for_status()
+          soup = BeautifulSoup(r.text, 'html.parser')
+          print('title:', soup.title.get_text(' ', strip=True) if soup.title else None)
+          print('alternate_feeds:')
+          for tag in soup.find_all('link', rel='alternate'):
+              print(tag.get('type'), urljoin(r.url, tag.get('href','')))
+          print('articles:', len(soup.find_all('article')))
+          print('time_tags:', len(soup.find_all('time')))
+          print('candidate_links:')
+          n = 0
+          seen = set()
+          for a in soup.find_all('a', href=True):
+              href = urljoin(r.url, a['href'])
+              title = ' '.join(a.stripped_strings)
+              blob = (href + ' ' + title).lower()
+              if any(k in blob for k in ('/home/news', '/news/', 'police', 'collision', 'arrest', 'investigat')):
+                  if href in seen: continue
+                  seen.add(href)
+                  print(href, '|', title[:220])
+                  n += 1
+                  if n >= 80: break
+          print('candidate_count_shown:', n)
+          text = ' '.join(soup.stripped_strings)
+          print('text_chars:', len(text))
+          print('TEXT_SAMPLE_START')
+          print(text[:7000])
+          print('TEXT_SAMPLE_END')
+          print('DATE_MATCHES:', re.findall(r'(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+\\d{1,2},\\s+\\d{4}', text, re.I)[:30])
+          print('HTML_MATCHES')
+          for m in re.findall(r'.{0,180}(?:September|2026|police|news-release|media-release|view-content).{0,320}', r.text, flags=re.I):
+              print(re.sub(r'\\s+', ' ', m)[:520])
+          PY
