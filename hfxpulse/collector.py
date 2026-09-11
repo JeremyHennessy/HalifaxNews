@@ -7,7 +7,8 @@ from pathlib import Path
 
 from hfxpulse.adapters import (
     bluesky, bridges, downtown_events, emergency_ns, hfxgov_bluesky, hrfe, hrfe_mirror, hrfe_open_data, hrm_news, hrp,
-    newsfeeds, ns511, ns_power, port_cruise, rcmp, reddit, street_closures, transit, water, weather,
+    marine_weather, newsfeeds, ns511, ns_power, port_cruise, rcmp, reddit, smu_alert, street_closures, transit, water,
+    water_alerts, weather,
 )
 from hfxpulse.correlation import correlate
 from hfxpulse.geocode import enrich as geocode_enrich
@@ -32,12 +33,15 @@ ADAPTERS = [
     street_closures.fetch,
     bridges.fetch,
     water.fetch,
+    water_alerts.fetch,
     weather.fetch,
+    marine_weather.fetch,
     emergency_ns.fetch,
     ns_power.fetch,
     reddit.fetch,
     newsfeeds.fetch,
     downtown_events.fetch,
+    smu_alert.fetch,
     port_cruise.fetch,
 ]
 
