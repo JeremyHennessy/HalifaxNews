@@ -12,6 +12,7 @@ from hfxpulse.adapters import (
 from hfxpulse.correlation import correlate
 from hfxpulse.geocode import enrich as geocode_enrich
 from hfxpulse.models import Incident, SourceHealth, utc_now_iso
+from hfxpulse.news_context import attach_news_context
 from hfxpulse.normalization import cluster_events, normalize_observations, suppress_noise
 from hfxpulse.scoring import score_incidents
 from hfxpulse.util import parse_datetime
@@ -98,6 +99,7 @@ def collect(output: Path) -> dict:
     correlate(rows)
     score_incidents(rows)
     events = cluster_events(rows)
+    attach_news_context(events, rows)
     rows.sort(key=lambda row: parse_datetime(row.reported_at) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
     health.sort(key=lambda item: (item.status != "error", item.source.lower()))
 
