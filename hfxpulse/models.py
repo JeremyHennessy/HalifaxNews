@@ -26,6 +26,14 @@ class Incident:
     severity: int = 1
     siren_score: int = 0
     seriousness_score: int = 0
+    source_class: str = "unknown"
+    event_type: str | None = None
+    canonical_location: str | None = None
+    neighbourhood: str | None = None
+    cluster_id: str | None = None
+    evidence_count: int = 1
+    source_count: int = 1
+    evidence: list[dict[str, Any]] = field(default_factory=list)
     priority_score: int = 0
     priority_band: str = "low"
     impact_scope: str = "local"
