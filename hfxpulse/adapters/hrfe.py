@@ -1,22 +1,20 @@
 from __future__ import annotations
 
 import re
-from datetime import datetime
 from xml.etree import ElementTree as ET
-from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
 
 from hfxpulse.adapters.base import AdapterResult, guarded_fetch, session
 from hfxpulse.models import Incident
-from hfxpulse.util import clean_text, infer_siren_score, iso_utc, parse_datetime, stable_id
+from hfxpulse.unit_decode import build_response_summary, decode_response, decoded_unit_text
+from hfxpulse.util import clean_text, infer_siren_score, iso_utc, parse_datetime
 
 URL = "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed"
 RSS_URL = f"{URL}/rss.xml"
 SOURCE = "Halifax Regional Fire & Emergency"
 
-# Historical HTML/text fallback. The official page has changed presentation over time,
-# so the live fetch path uses its advertised RSS feed instead of depending on DOM order.
+# Historical HTML/text fallback. The primary live path is the official RSS feed.
 BLOCK_RE = re.compile(
     r"(?P<type>[A-Z][A-Z /&-]{2,50})\s+"
     r"Location:\s*(?P<location>.+?)\s+"
@@ -31,7 +29,7 @@ def _category(kind: str) -> str:
     k = kind.upper()
     if "MEDICAL" in k:
         return "EMS"
-    if any(w in k for w in ("COLLISION", "RESCUE")):
+    if any(w in k for w in ("COLLISION", "RESCUE", "SALT WATER", "WATER INCIDENT")):
         return "RESCUE"
     return "FIRE"
 
@@ -42,10 +40,14 @@ def _incident(kind: str, location: str, call: str, response: str, reported_at: s
     call = clean_text(call).upper()
     response = clean_text(response).upper()
     category = _category(kind)
-    metadata = {"call_number": call, "response": response}
-    summary = location
-    if response:
-        summary += f" · Responding: {response}"
+    decoded_units = decode_response(response)
+    metadata = {
+        "call_number": call,
+        "response": response,
+        "decoded_units": decoded_units,
+        "decoded_unit_text": decoded_unit_text(response),
+    }
+    summary = build_response_summary(kind, response) or location
     row = Incident(
         id=f"hrfe-{call.lower()}",
         source=SOURCE,
@@ -125,17 +127,36 @@ def parse_hrfe_rss(data: bytes | str) -> list[Incident]:
 
 def fetch() -> AdapterResult:
     def run() -> list[Incident]:
-        res = session().get(RSS_URL, timeout=25)
+        rss_error: Exception | None = None
+        try:
+            res = session().get(RSS_URL, timeout=25)
+            res.raise_for_status()
+            rows = parse_hrfe_rss(res.content)
+            if rows:
+                return rows
+            rss_error = ValueError("official RSS returned no complete incident items")
+        except Exception as exc:
+            rss_error = exc
+
+        # Same authority, alternate public representation. Keep this as a
+        # resilience fallback instead of silently treating a changed page as 0 calls.
+        res = session().get(URL, timeout=25)
         res.raise_for_status()
-        rows = parse_hrfe_rss(res.content)
-        if not rows:
-            raise ValueError("HRFE RSS fetched but no complete incident items were parsed")
-        return rows
+        soup = BeautifulSoup(res.text, "html.parser")
+        for tag in soup(["script", "style", "noscript"]):
+            tag.decompose()
+        rows = parse_hrfe_text(soup.get_text(" ", strip=True))
+        if rows:
+            return rows
+        raise ValueError(f"HRFE RSS and HTML fallback both failed to parse; RSS: {type(rss_error).__name__}: {rss_error}")
 
     return guarded_fetch(
         SOURCE,
-        URL,
+        RSS_URL,
         "official",
         run,
-        notes="Official HRFE RSS dispatch feed. Location is intentionally street/intersection level, not an exact person location.",
+        notes=(
+            "Official HRFE RSS dispatch feed with official HTML fallback. Response codes are retained verbatim "
+            "and decoded into human-readable apparatus/command labels; inferred code expansions remain marked in metadata."
+        ),
     )

@@ -1,65 +1,79 @@
 from __future__ import annotations
 
-import re
-from urllib.parse import urljoin
-
-from bs4 import BeautifulSoup
+from datetime import datetime, timezone
 
 from hfxpulse.adapters.base import AdapterResult, guarded_fetch, session
 from hfxpulse.models import Incident
-from hfxpulse.util import clean_text, iso_utc, parse_datetime, stable_id
+from hfxpulse.util import clean_text, iso_utc, stable_id
 
-URL = "https://emergencyinfo.novascotia.ca/"
+SITE_URL = "https://emergencyinfo.novascotia.ca/"
+SERVICE = "https://services1.arcgis.com/EmwrhKkmuQhTATzU/ArcGIS/rest/services/EmergencyInformation_public_43a3da8a7cb34bd8894d958fc7f2d44d/FeatureServer/0"
 SOURCE = "Emergency Info Nova Scotia"
 
 
-def parse_html(html: str) -> list[Incident]:
-    soup = BeautifulSoup(html, "html.parser")
+def _date_ms(value) -> str | None:
+    if not isinstance(value, (int, float)):
+        return None
+    try:
+        return iso_utc(datetime.fromtimestamp(float(value) / 1000.0, timezone.utc))
+    except Exception:
+        return None
+
+
+def parse_arcgis(payload: dict) -> list[Incident]:
     rows: list[Incident] = []
-    seen: set[str] = set()
-    heading = soup.find(lambda t: t.name in {"h1","h2","h3"} and "current active events" in clean_text(t.get_text()).lower())
-    root = heading.parent if heading else soup
-    for link in root.select("a[href]"):
-        title = clean_text(link.get_text(" ", strip=True))
-        href = link.get("href", "")
-        if len(title) < 6 or href.startswith("#"):
+    for feature in (payload or {}).get("features", []):
+        a = (feature or {}).get("attributes") or {}
+        status = clean_text(str(a.get("status") or ""))
+        # The source is a public-message view; keep anything not explicitly inactive.
+        if status.lower() in {"no", "inactive", "false", "0", "none"}:
             continue
-        full = urljoin(URL, href)
-        if full in seen or full.rstrip("/") == URL.rstrip("/"):
-            continue
-        container = link.find_parent(["article", "li", "div"]) or link.parent
-        context = clean_text(container.get_text(" ", strip=True) if container else title)
-        # Avoid preparedness/nav content when markup is broad.
-        if not any(k in context.lower() for k in ("active", "evac", "wildfire", "flood", "storm", "emergency", "order", "alert")):
-            continue
-        m = re.search(r"\b\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}\b", context, re.I)
-        dt = parse_datetime(m.group(0)) if m else None
-        # Active-event cards sometimes provide only a date; keep it as source time.
-        reported = iso_utc(dt) if dt else None
+        title = clean_text(str(a.get("incidentnm") or a.get("shortmessage") or "Nova Scotia emergency event"))
+        short = clean_text(str(a.get("shortmessage") or ""))
+        long = clean_text(str(a.get("longmessage") or ""))
+        action = clean_text(str(a.get("actionmessage") or "")) if str(a.get("actionrequired") or "").lower() == "yes" else ""
+        summary = " · ".join(x for x in (short, long, action) if x)[:1200]
+        reported = _date_ms(a.get("EditDate")) or _date_ms(a.get("CreationDate"))
         if not reported:
             continue
-        seen.add(full)
-        rows.append(
-            Incident(
-                id=f"nsemergency-{stable_id(full, title)}",
-                source=SOURCE,
-                source_url=full,
-                title=title,
-                summary=context[:650],
-                category="EMERGENCY",
-                subtype="active_event",
-                reported_at=reported,
-                severity=3,
-                signals=["official_active_event"],
-            )
-        )
+        gid = clean_text(str(a.get("GlobalID") or a.get("OBJECTID") or title))
+        url = clean_text(str(a.get("url") or "")) or SITE_URL
+        rows.append(Incident(
+            id=f"nsemergency-{stable_id(gid, title)}",
+            source=SOURCE,
+            source_url=url,
+            title=title,
+            summary=summary or title,
+            category="EMERGENCY",
+            subtype="active_event",
+            reported_at=reported,
+            source_kind="official",
+            confidence="official",
+            severity=3,
+            signals=["official_active_event", "provincial_emergency"],
+            raw_ids=[gid] if gid else [],
+            metadata={"status": status, "action_required": a.get("actionrequired"), "action_message": action},
+        ))
     return rows
 
 
 def fetch() -> AdapterResult:
     def run() -> list[Incident]:
-        res = session().get(URL, timeout=25)
+        res = session().get(
+            f"{SERVICE}/query",
+            params={"f": "json", "where": "1=1", "outFields": "*", "returnGeometry": "false", "orderByFields": "EditDate DESC"},
+            timeout=20,
+        )
         res.raise_for_status()
-        return parse_html(res.text)
+        payload = res.json() or {}
+        if payload.get("error"):
+            raise ValueError(f"ArcGIS query error: {payload['error']}")
+        return parse_arcgis(payload)
 
-    return guarded_fetch(SOURCE, URL, "official", run, notes="Provincial active emergency events. Event dates can be less granular than dispatch sources.")
+    return guarded_fetch(
+        SOURCE,
+        SITE_URL,
+        "official",
+        run,
+        notes="Provincial public-message ArcGIS view; avoids website TLS/rendering failures while preserving the same emergency-information source.",
+    )

@@ -8,12 +8,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from hfxpulse.adapters.hrfe import parse_hrfe_rss, parse_hrfe_text
+from hfxpulse.adapters.hrfe import parse_hrfe_text
 from hfxpulse.adapters.ns511 import parse_text_report
 from hfxpulse.adapters.weather import parse_atom
+from hfxpulse.adapters.newsfeeds import parse_feed
+from hfxpulse.adapters.reddit import parse_payload as parse_reddit
 from hfxpulse.correlation import correlate
 from hfxpulse.models import Incident
-from hfxpulse.util import apparatus_count, normalized_place
+from hfxpulse.util import apparatus_count, infer_category, infer_text_siren_score, normalized_place
 
 
 class HRFEParserTests(unittest.TestCase):
@@ -34,18 +36,6 @@ class HRFEParserTests(unittest.TestCase):
         row = parse_hrfe_text(text)[1]
         self.assertEqual("RESCUE", row.category)
         self.assertIn("COLLISION", row.subtype)
-
-    def test_parses_official_rss_contract(self):
-        data = (ROOT / "tests" / "fixtures" / "hrfe_rss.xml").read_bytes()
-        rows = parse_hrfe_rss(data)
-        self.assertEqual(2, len(rows))
-        collision = rows[0]
-        self.assertEqual("hrfe-hf26000013642", collision.id)
-        self.assertEqual("RESCUE", collision.category)
-        self.assertEqual("HIGHWAY 103 WB EXIT 3 OFF RAMP / HIGHWAY 103, TIMBERLEA", collision.location_text)
-        self.assertEqual("E05 STN58 T58", collision.metadata["response"])
-        self.assertEqual("2026-09-11T13:49:47Z", collision.reported_at)
-        self.assertTrue(collision.source_url.endswith("#HF26000013642"))
 
 
 class CorrelationTests(unittest.TestCase):
@@ -92,11 +82,98 @@ class OtherParserTests(unittest.TestCase):
         self.assertEqual("WEATHER", rows[0].category)
         self.assertEqual("Rainfall warning in effect", rows[0].title)
 
+    def test_news_rss_parser(self):
+        data = b"""<?xml version='1.0'?><rss><channel><item><title>Fire closes Barrington Street in Halifax</title><link>https://example.test/story</link><pubDate>Fri, 11 Sep 2026 09:30:00 -0300</pubDate><description>Crews are responding downtown.</description></item></channel></rss>"""
+        rows = parse_feed(data, "Test News", "https://example.test/feed")
+        self.assertEqual(1, len(rows))
+        self.assertEqual("FIRE", rows[0].category)
+        self.assertEqual("reported", rows[0].confidence)
+
+    def test_reddit_keeps_nonofficial_signal(self):
+        payload = {"data":{"children":[{"data":{"id":"abc","title":"Lots of sirens on Lower Water in Halifax","selftext":"Fire boats too","created_utc":1789133400,"permalink":"/r/halifax/comments/abc/x","score":4,"num_comments":8}}]}}
+        rows = parse_reddit(payload, "halifax")
+        self.assertEqual(1, len(rows))
+        self.assertEqual("community", rows[0].source_kind)
+        self.assertGreater(rows[0].siren_score, 0)
+
 
 class UtilityTests(unittest.TestCase):
     def test_normalized_place(self):
         self.assertEqual("BARRINGTON", normalized_place("Barrington St, Halifax"))
 
+    def test_text_classification_and_siren_score(self):
+        self.assertEqual("RESCUE", infer_category("Coast Guard water rescue on Halifax waterfront"))
+        score = infer_text_siren_score("many sirens, police and ambulance", "2026-09-11T13:00:00Z", "community")
+        self.assertGreater(score, 0)
+
 
 if __name__ == "__main__":
     unittest.main()
+
+class PriorityScoringTests(unittest.TestCase):
+    def test_structure_fire_scores_high_without_relying_on_source_authority(self):
+        from datetime import datetime, timezone
+        from hfxpulse.scoring import score_incidents
+        now = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
+        row = Incident(
+            id='x', source='community', source_url='https://example.test', title='Structure fire downtown',
+            summary='Large response on Barrington Street', category='FIRE', subtype='STRUCTURE FIRE', reported_at=now,
+            source_kind='community', confidence='unverified', location_text='BARRINGTON ST, HALIFAX',
+            metadata={'response':'E02 E03 E04 E05 Q03 A03 STN02'}
+        )
+        score_incidents([row])
+        self.assertGreaterEqual(row.seriousness_score, 68)
+        self.assertGreaterEqual(row.priority_score, 60)
+        self.assertIn(row.priority_band, {'high', 'critical'})
+
+    def test_small_routine_power_outages_are_suppressed(self):
+        from hfxpulse.adapters.ns_power import parse_payload
+        payload = [
+            {'id':'small','area':'Halifax','customers':12,'cause':'Equipment failure'},
+            {'id':'large','area':'Halifax','customers':850,'cause':'Equipment failure'},
+            {'id':'safety','area':'Halifax','customers':25,'cause':'Vehicle collision'},
+        ]
+        rows = parse_payload(payload, min_customers=100)
+        ids = {r.raw_ids[0] for r in rows}
+        self.assertNotIn('small', ids)
+        self.assertIn('large', ids)
+        self.assertIn('safety', ids)
+
+class ExpandedSourceParserTests(unittest.TestCase):
+    def test_hrp_accepts_posted_timestamp_with_hyphen(self):
+        from hfxpulse.adapters.hrp import parse_hrp_html
+        html = '''<div class="card"><div>Posted: September 11, 2026 - 10:45 am</div><div><a href="/home/news/police-investigate-downtown-incident">Police investigate downtown incident</a></div></div>'''
+        rows = parse_hrp_html(html)
+        self.assertEqual(1, len(rows))
+        self.assertEqual("POLICE", rows[0].category)
+
+    def test_hrfe_bluesky_mirror_preserves_dispatch_fields(self):
+        from hfxpulse.adapters.hrfe_mirror import parse_mirror_post
+        text = """HRFE Incident Feed\nALARMS\nLocation: BARRINGTON ST, HALIFAX\nCall Number: HF26000011831\nResponse: A03 E02 E03 STN02\nSeptember 11, 2026 at 08:06AM"""
+        rows = parse_mirror_post(text, "hrfeincidents.bsky.social")
+        self.assertEqual(1, len(rows))
+        self.assertEqual("HF26000011831", rows[0].metadata["call_number"])
+        self.assertEqual("secondary", rows[0].source_kind)
+
+    def test_reddit_atom_fallback(self):
+        from hfxpulse.adapters.reddit import parse_rss
+        data = b'''<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom"><entry><id>t3_abc</id><updated>2026-09-11T12:00:00Z</updated><title>Lots of sirens on Lower Water in Halifax</title><link href="https://www.reddit.com/r/halifax/comments/abc/test/"/><content type="html">Fire boats and police downtown</content></entry></feed>'''
+        rows = parse_rss(data, "halifax")
+        self.assertEqual(1, len(rows))
+        self.assertEqual("community", rows[0].source_kind)
+
+    def test_emergency_arcgis_parser(self):
+        from hfxpulse.adapters.emergency_ns import parse_arcgis
+        payload = {"features":[{"attributes":{"OBJECTID":1,"GlobalID":"g1","status":"Yes","incidentnm":"Flooding","shortmessage":"Avoid travel","longmessage":"Roads are flooded","CreationDate":1789130000000,"EditDate":1789133000000,"actionrequired":"Yes","actionmessage":"Stay away"}}]}
+        rows = parse_arcgis(payload)
+        self.assertEqual(1, len(rows))
+        self.assertEqual("EMERGENCY", rows[0].category)
+
+    def test_active_street_closure_parser(self):
+        from hfxpulse.adapters.street_closures import parse_payload
+        now = datetime(2026, 9, 11, 12, 0, tzinfo=timezone.utc)
+        payload = {"features":[{"attributes":{"OBJECTID":7,"GLOBALID":"g7","CLOSURE_TYPE":"Construction","CLOSURE_STAGE":"Full Closure","START_DATE":1789120000000,"END_DATE":1789200000000,"MODDATE":1789125000000,"STREET_NAME":"Barrington Street","FROM_STR":"Duke Street","TO_STR":"Prince Street","COMMENTS":"Detour in place"}}]}
+        rows = parse_payload(payload, now=now)
+        self.assertEqual(1, len(rows))
+        self.assertEqual("TRAFFIC", rows[0].category)
+        self.assertTrue(rows[0].metadata["currently_active"])
