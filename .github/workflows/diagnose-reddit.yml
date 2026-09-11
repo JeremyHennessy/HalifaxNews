@@ -1,0 +1,48 @@
+name: Diagnose Reddit public feeds
+
+on:
+  push:
+    branches: [diagnostic/reddit-public-feed]
+    paths: [".github/workflows/diagnose-reddit.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Probe ordinary public Reddit endpoints
+        run: |
+          python - <<'PY'
+          import requests
+
+          urls = [
+              'https://www.reddit.com/r/halifax/new.json?limit=10&raw_json=1',
+              'https://www.reddit.com/r/halifax/new/.rss',
+              'https://www.reddit.com/r/halifax/new.rss',
+              'https://www.reddit.com/r/halifax/.rss',
+              'https://old.reddit.com/r/halifax/new/.rss',
+          ]
+          headers = {
+              'User-Agent': 'HFXPulse/1.0 (+https://github.com/JeremyHennessy/HalifaxNews)',
+              'Accept': 'application/atom+xml, application/rss+xml, application/json, text/xml;q=0.9, */*;q=0.5',
+          }
+          for url in urls:
+              print('\n===', url, '===')
+              try:
+                  r = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
+                  print('status:', r.status_code)
+                  print('final_url:', r.url)
+                  print('content_type:', r.headers.get('content-type'))
+                  print('bytes:', len(r.content))
+                  print('sample:', r.text[:600].replace('\n', ' '))
+              except Exception as exc:
+                  print(type(exc).__name__ + ':', exc)
+          PY
