@@ -1,16 +1,19 @@
-name: Diagnose HRFE live source
+name: Verify HRFE live adapter
 
 on:
   push:
     branches: [fix/hrfe-live-parser]
-    paths: [".github/workflows/diagnose-hrfe.yml"]
+    paths:
+      - "hfxpulse/adapters/hrfe.py"
+      - "tests/**"
+      - ".github/workflows/diagnose-hrfe.yml"
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  inspect:
+  verify:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
@@ -18,35 +21,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests beautifulsoup4
-      - name: Inspect official HRFE RSS structure
+      - run: pip install -r requirements.txt
+      - name: Run regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Verify live HRFE adapter
         run: |
           python - <<'PY'
-          import requests
-          from bs4 import BeautifulSoup
-          from xml.etree import ElementTree as ET
+          from hfxpulse.adapters.hrfe import fetch
 
-          base = 'https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed'
-          headers = {'User-Agent':'HFXPulse/1.0 (+https://github.com/JeremyHennessy/HalifaxNews)'}
-          page = requests.get(base, timeout=25, headers=headers)
-          page.raise_for_status()
-          soup = BeautifulSoup(page.text, 'html.parser')
-          alt = soup.find('link', attrs={'rel':'alternate', 'type':'application/rss+xml'})
-          rss_url = alt.get('href') if alt else base + '/rss.xml'
-          print('rss_url:', rss_url)
-          r = requests.get(rss_url, timeout=25, headers=headers)
-          print('status:', r.status_code)
-          print('content_type:', r.headers.get('content-type'))
-          print('bytes:', len(r.content))
-          r.raise_for_status()
-          root = ET.fromstring(r.content)
-          items = root.findall('.//item')
-          print('items:', len(items))
-          for i, item in enumerate(items[:3]):
-              print(f'ITEM_{i}_START')
-              for child in list(item):
-                  tag = child.tag.split('}')[-1]
-                  text = ''.join(child.itertext()).strip()
-                  print(tag + ':', text[:1200])
-              print(f'ITEM_{i}_END')
+          result = fetch()
+          health = result.health
+          print('status:', health.status if health else None)
+          print('records:', len(result.incidents))
+          print('error:', health.error if health else None)
+          assert health is not None
+          assert health.status == 'ok', health.error
+          assert len(result.incidents) > 0
+          first = result.incidents[0]
+          print('first_id:', first.id)
+          print('first_title:', first.title)
+          print('first_location:', first.location_text)
+          print('first_reported_at:', first.reported_at)
+          print('first_response:', first.metadata.get('response'))
           PY
