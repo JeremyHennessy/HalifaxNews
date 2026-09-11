@@ -5,20 +5,44 @@ import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 
-from hfxpulse.adapters.base import AdapterResult, guarded_fetch, session
+from hfxpulse.adapters.base import AdapterResult, session
 from hfxpulse.models import Incident, SourceHealth, utc_now_iso
-from hfxpulse.util import clean_text, infer_category, infer_text_siren_score, iso_utc, keyword_hit, parse_datetime, stable_id
+from hfxpulse.util import clean_text, infer_category, infer_text_siren_score, iso_utc, parse_datetime, stable_id
 
-KEYWORDS = (
-    "halifax", "downtown", "dartmouth", "bedford", "sirens", "police", "rcmp", "fire", "ambulance", "ehs",
-    "smoke", "crash", "collision", "closure", "closed", "traffic", "bridge", "waterfront", "emergency", "evacu",
-    "rescue", "coast guard", "outage", "flood", "storm", "transit", "ferry"
+# Geography and incident semantics are intentionally separate. A story should
+# not enter the incident timeline merely because a Halifax publication mentions
+# Halifax somewhere in otherwise unrelated copy.
+LOCATION_TERMS = (
+    "halifax", "dartmouth", "bedford", "hrm", "halifax regional municipality",
+    "downtown halifax", "barrington", "spring garden", "lower water", "quinpool",
+    "gottingen", "hollis", "argyle", "robie", "halifax harbour", "halifax waterfront",
+    "macdonald bridge", "mackay bridge", "macdonald", "mackay",
 )
+
+INCIDENT_TERMS = (
+    "siren", "sirens",
+    "police", "rcmp", "officer", "officers", "search warrant", "arrest", "arrested",
+    "firearm", "firearms", "gun", "guns", "weapon", "weapons", "shooting", "shots fired", "stabbing",
+    "missing person", "missing child", "investigation",
+    "fire", "fire crews", "fire department", "structure fire", "building fire", "house fire", "wildfire",
+    "smoke", "flames", "blaze",
+    "ambulance", "ehs", "paramedic", "paramedics", "medical emergency",
+    "crash", "collision", "mvc", "rollover", "vehicle collision", "pedestrian struck",
+    "road closure", "street closure", "lane closure", "closed", "closure", "traffic", "detour",
+    "emergency", "evacuation", "evacuate", "shelter in place", "hazmat", "gas leak", "chemical spill",
+    "rescue", "coast guard", "search and rescue", "person in water", "missing swimmer",
+    "outage", "power outage", "without power", "water main", "water outage", "boil water", "water advisory",
+    "flood", "flooding", "storm", "weather warning", "rainfall warning", "wind warning", "storm surge",
+    "transit", "bus cancellation", "bus cancelled", "route cancelled", "route canceled", "service disruption",
+    "ferry", "ferry cancellation", "ferry cancelled",
+)
+
 
 @dataclass(frozen=True)
 class Feed:
     name: str
     url: str
+
 
 FEEDS = (
     Feed("Global News Halifax", "https://globalnews.ca/halifax/feed/"),
@@ -41,6 +65,19 @@ def _strip_html(text: str | None) -> str:
     return clean_text(value)
 
 
+def _term_hit(text: str, term: str) -> bool:
+    """Match a term as a lexical token/phrase, not an arbitrary substring."""
+    return bool(re.search(rf"(?<!\w){re.escape(term)}(?!\w)", text, flags=re.I))
+
+
+def _has_any(text: str, terms: tuple[str, ...]) -> bool:
+    return any(_term_hit(text, term) for term in terms)
+
+
+def relevant_news_text(text: str) -> bool:
+    return _has_any(text, LOCATION_TERMS) and _has_any(text, INCIDENT_TERMS)
+
+
 def parse_feed(data: bytes, feed_name: str, feed_url: str) -> list[Incident]:
     root = ET.fromstring(data)
     rows: list[Incident] = []
@@ -54,6 +91,7 @@ def parse_feed(data: bytes, feed_name: str, feed_url: str) -> list[Incident]:
                 if node is not None and node.text:
                     return clean_text(node.text)
             return ""
+
         title = text_for("title", "{http://www.w3.org/2005/Atom}title")
         desc = _strip_html(text_for("description", "summary", "{http://www.w3.org/2005/Atom}summary", "{http://purl.org/rss/1.0/modules/content/}encoded"))
         link = text_for("link")
@@ -65,13 +103,11 @@ def parse_feed(data: bytes, feed_name: str, feed_url: str) -> list[Incident]:
         dt = parse_datetime(when)
         if not title or not dt:
             continue
+
         combined = f"{title} {desc}"
-        lower = combined.lower()
-        if "halifax" not in lower and "dartmouth" not in lower and "bedford" not in lower and "hrm" not in lower:
-            if not keyword_hit(combined, ("Barrington", "Spring Garden", "Lower Water", "Halifax Harbour", "Macdonald Bridge", "MacKay Bridge")):
-                continue
-        if not keyword_hit(combined, KEYWORDS):
+        if not relevant_news_text(combined):
             continue
+
         reported = iso_utc(dt) or ""
         category = infer_category(combined, "COMMUNITY")
         rows.append(Incident(
@@ -119,6 +155,9 @@ def fetch() -> AdapterResult:
             fetched_at=utc_now_iso() if successes else None,
             records=len(incidents),
             error="; ".join(failures[:3]) if failures and not successes else None,
-            notes=f"{successes}/{len(FEEDS)} feeds reachable. News reports are included as reports, not treated as dispatch confirmation.",
+            notes=(
+                f"{successes}/{len(FEEDS)} feeds reachable. Items require both Halifax-area geography and a separate "
+                "public-safety/disruption signal; reports are not treated as dispatch confirmation."
+            ),
         ),
     )
