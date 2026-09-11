@@ -6,14 +6,28 @@ from bs4 import BeautifulSoup
 
 from hfxpulse.adapters.base import AdapterResult, guarded_fetch, session
 from hfxpulse.models import Incident
-from hfxpulse.util import clean_text, iso_utc, keyword_hit, parse_datetime, stable_id
+from hfxpulse.util import clean_text, iso_utc, parse_datetime, stable_id
 
 URL = "https://www.reddit.com/r/halifax/new/.rss"
 SOURCE = "r/halifax community"
 ATOM_NS = {"a": "http://www.w3.org/2005/Atom"}
-KEYWORDS = (
-    "sirens", "police", "fire", "ambulance", "smoke", "crash", "collision", "closed", "closure", "downtown",
-    "barrington", "spring garden", "waterfront", "quinpool", "rob ie", "robie", "emergency", "evacu"
+
+# Community data is deliberately high-precision rather than exhaustive. A location
+# word by itself (for example "downtown") must never turn an ordinary post into an
+# incident signal.
+SIGNAL_TERMS = (
+    "sirens", "police", "fire truck", "fire trucks", "fire department", "structure fire", "smoke",
+    "ambulance", "paramedic", "crash", "collision", "accident", "emergency", "evacu", "explosion",
+    "shooting", "stabbing", "swat", "hazmat", "rescue", "road closed", "road closure", "street closed",
+    "bridge closed", "blocked off", "power outage", "outage",
+)
+QUESTION_TERMS = (
+    "what happened", "what's happening", "what is happening", "what's going on", "what is going on",
+    "anyone know", "does anyone know", "why are there", "what was that",
+)
+LOCATION_TERMS = (
+    "downtown", "barrington", "spring garden", "waterfront", "quinpool", "robie", "gottingen", "hollis",
+    "lower water", "upper water", "brunswick", "citadel", "argyle", "sackville st", "south end", "north end",
 )
 
 
@@ -26,6 +40,13 @@ def _self_post_body(content_html: str) -> str:
     return clean_text(body.get_text(" ", strip=True)) if body else ""
 
 
+def _incident_hit(text: str) -> bool:
+    value = text.lower()
+    if any(term in value for term in SIGNAL_TERMS):
+        return True
+    return any(term in value for term in QUESTION_TERMS) and any(term in value for term in LOCATION_TERMS)
+
+
 def parse_atom(data: bytes | str) -> list[Incident]:
     root = ET.fromstring(data)
     rows: list[Incident] = []
@@ -34,7 +55,7 @@ def parse_atom(data: bytes | str) -> list[Incident]:
         title = clean_text(entry.findtext("a:title", default="", namespaces=ATOM_NS))
         content_html = entry.findtext("a:content", default="", namespaces=ATOM_NS) or ""
         body = _self_post_body(content_html)
-        if not keyword_hit(f"{title} {body}", KEYWORDS):
+        if not _incident_hit(f"{title} {body}"):
             continue
 
         published = clean_text(
@@ -45,7 +66,9 @@ def parse_atom(data: bytes | str) -> list[Incident]:
         if not reported:
             continue
 
-        link_node = entry.find("a:link[@rel='alternate']", ATOM_NS) or entry.find("a:link", ATOM_NS)
+        link_node = entry.find("a:link[@rel='alternate']", ATOM_NS)
+        if link_node is None:
+            link_node = entry.find("a:link", ATOM_NS)
         href = clean_text(link_node.get("href", "") if link_node is not None else "")
         if not href.startswith("https://www.reddit.com/r/halifax/comments/"):
             continue
@@ -87,8 +110,7 @@ def fetch() -> AdapterResult:
             headers={"Accept": "application/atom+xml, application/rss+xml, text/xml;q=0.9"},
         )
         res.raise_for_status()
-        rows = parse_atom(res.content)
-        return rows
+        return parse_atom(res.content)
 
     return guarded_fetch(
         SOURCE,
