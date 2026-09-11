@@ -77,6 +77,12 @@
     "precision": "approximate_geocode",
     "query": "GRENNAN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "HOROBIN FALL RIVER": {
+    "lat": 44.8082219,
+    "lon": -63.6162375,
+    "precision": "approximate_geocode",
+    "query": "HOROBIN DR, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "KAREN WESTPHAL": {
     "lat": 44.6953349,
     "lon": -63.4937707,
