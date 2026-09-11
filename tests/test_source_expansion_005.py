@@ -33,6 +33,7 @@ class MarineWarningTests(unittest.TestCase):
         html = """
         <main>
           <section>
+            <h2>Warnings (In effect)</h2>
             <h3>Strong wind warning in effect</h3>
             <h4>Halifax Harbour and Approaches</h4>
             <p>Issued 3:30 PM ADT 21 July 2026</p>
@@ -46,6 +47,7 @@ class MarineWarningTests(unittest.TestCase):
         self.assertEqual("marine_weather_warning", rows[0].subtype)
         self.assertEqual("Halifax Harbour and Approaches", rows[0].location_text)
         self.assertTrue(rows[0].metadata["currently_active"])
+        self.assertIn("2026-07-21", rows[0].reported_at)
 
     def test_no_warning_means_no_event(self):
         html = "<main><h2>Warnings</h2><p>No warnings in effect.</p></main>"
