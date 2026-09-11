@@ -65,6 +65,12 @@
     "precision": "approximate_geocode",
     "query": "GRENNAN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "KAREN WESTPHAL": {
+    "lat": 44.6953349,
+    "lon": -63.4937707,
+    "precision": "approximate_geocode",
+    "query": "KAREN DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
   "KETCH HARBOUR HERRING COVE": {
     "lat": 44.5569177,
     "lon": -63.562663,
@@ -94,6 +100,12 @@
     "lon": -63.637959,
     "precision": "approximate_geocode",
     "query": "NITA LANE, HALIFAX, Nova Scotia, Canada"
+  },
+  "PEGGYS POINT PEGGYS COVE": {
+    "lat": 44.4951665,
+    "lon": -63.9145881,
+    "precision": "approximate_geocode",
+    "query": "PEGGYS POINT RD, PEGGYS COVE, Halifax, Nova Scotia, Canada"
   },
   "PRIMROSE": {
     "lat": 44.684797,
