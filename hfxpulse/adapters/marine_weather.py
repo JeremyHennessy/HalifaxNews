@@ -23,9 +23,21 @@ ISSUED_RE = re.compile(
 def _warning_blocks(soup: BeautifulSoup):
     for heading in soup.find_all(["h2", "h3", "h4"]):
         title = clean_text(heading.get_text(" ", strip=True))
-        if "warning" not in title.lower() or "in effect" not in title.lower():
+        lower = title.lower()
+        if "warning" not in lower or "in effect" not in lower:
+            continue
+        # The page contains a generic section heading "Warnings (In effect)"
+        # immediately above the actual warning title. It is not a separate alert.
+        if lower.startswith("warnings"):
             continue
         yield heading, title
+
+
+def _parse_issued(value: str):
+    # dateutil does not understand ADT/AST abbreviations reliably. Removing the
+    # abbreviation lets parse_datetime apply the project's Halifax timezone.
+    normalized = re.sub(r"\b(?:ADT|AST)\b", "", value, flags=re.I)
+    return parse_datetime(clean_text(normalized))
 
 
 def parse_html(html: str, now: datetime | None = None) -> list[Incident]:
@@ -51,7 +63,7 @@ def parse_html(html: str, now: datetime | None = None) -> list[Incident]:
         issued = None
         match = ISSUED_RE.search(context)
         if match:
-            issued = parse_datetime(match.group(1))
+            issued = _parse_issued(match.group(1))
         reported = iso_utc(issued) if issued else iso_utc(now)
         key = f"{title}|{reported[:13] if reported else now.date().isoformat()}"
         if key in seen:
