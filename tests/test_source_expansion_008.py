@@ -58,6 +58,30 @@ class NovaScotiaHealthStatusTests(unittest.TestCase):
         self.assertEqual(1, len(rows))
         self.assertEqual(3, rows[0].severity)
 
+    def test_non_hrm_live_statuses_can_be_healthy_zero(self):
+        html = """
+        <main>
+          <h2>2 Service Statuses, Closures, and Cancellations</h2>
+          <p>(Springhill, NS)</p><p>(Yarmouth, NS)</p>
+        </main>
+        """
+        nshealth_status._validate_live_page_shape(html, [])
+
+    def test_count_without_locality_evidence_fails_closed(self):
+        html = "<main><h2>10 Service Statuses, Closures, and Cancellations</h2></main>"
+        with self.assertRaises(ValueError):
+            nshealth_status._validate_live_page_shape(html, [])
+
+    def test_unparsed_hrm_locality_fails_closed(self):
+        html = """
+        <main>
+          <h2>1 Service Status, Closure, and Cancellation</h2>
+          <p>(Halifax, NS)</p>
+        </main>
+        """
+        with self.assertRaises(ValueError):
+            nshealth_status._validate_live_page_shape(html, [])
+
 
 class SnapshotLifecycleTests(unittest.TestCase):
     def _old_active(self) -> Incident:
