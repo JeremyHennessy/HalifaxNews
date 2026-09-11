@@ -47,6 +47,12 @@
     "precision": "approximate_geocode",
     "query": "METROPOLITAN AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "NITA": {
+    "lat": 44.5935414,
+    "lon": -63.637959,
+    "precision": "approximate_geocode",
+    "query": "NITA LANE, HALIFAX, Nova Scotia, Canada"
+  },
   "ROBIE": {
     "lat": 44.6424271,
     "lon": -63.5879823,
