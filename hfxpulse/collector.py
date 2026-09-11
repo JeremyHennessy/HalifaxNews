@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import copy
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
@@ -7,8 +8,8 @@ from pathlib import Path
 
 from hfxpulse.adapters import (
     bluesky, bridges, downtown_events, emergency_ns, hfxgov_bluesky, hrfe, hrfe_mirror, hrfe_open_data, hrm_news, hrp,
-    marine_weather, navwarn, newsfeeds, ns511, ns_power, port_cruise, rcmp, reddit, smu_alert, street_closures, transit,
-    water, water_alerts, weather, wildfire,
+    marine_weather, navwarn, newsfeeds, ns511, ns_power, nshealth_status, port_cruise, rcmp, reddit, smu_alert,
+    street_closures, transit, water, water_alerts, weather, wildfire,
 )
 from hfxpulse.correlation import correlate
 from hfxpulse.geocode import enrich as geocode_enrich
@@ -40,12 +41,25 @@ ADAPTERS = [
     emergency_ns.fetch,
     wildfire.fetch,
     ns_power.fetch,
+    nshealth_status.fetch,
     reddit.fetch,
     newsfeeds.fetch,
     downtown_events.fetch,
     smu_alert.fetch,
     port_cruise.fetch,
 ]
+
+# These collectors are current-state snapshots, not append-only historical feeds.
+# A healthy zero/missing row means the old item is no longer active. A failed
+# collector must never be interpreted as resolution.
+SNAPSHOT_SOURCES = {
+    water_alerts.SOURCE,
+    marine_weather.SOURCE,
+    navwarn.SOURCE,
+    wildfire.SOURCE,
+    nshealth_status.SOURCE,
+    smu_alert.SOURCE,
+}
 
 
 def _read_existing(path: Path) -> list[Incident]:
@@ -56,6 +70,47 @@ def _read_existing(path: Path) -> list[Incident]:
         return [Incident(**row) for row in payload.get("incidents", [])]
     except Exception:
         return []
+
+
+def _apply_snapshot_lifecycle(
+    existing: list[Incident], fresh: list[Incident], health: list[SourceHealth]
+) -> list[Incident]:
+    """Resolve vanished snapshot rows only when that source refreshed successfully.
+
+    If a snapshot source fails, previously-active rows become ``monitoring`` with
+    unverified freshness instead of being falsely cleared or left labelled fresh.
+    """
+    status_by_source = {item.source: item.status for item in health}
+    fresh_ids = {row.id for row in fresh}
+    checked = utc_now_iso()
+    adjusted: list[Incident] = []
+
+    for row in existing:
+        if row.source not in SNAPSHOT_SOURCES or row.id in fresh_ids:
+            adjusted.append(row)
+            continue
+
+        source_status = status_by_source.get(row.source)
+        if source_status == "ok":
+            resolved = copy.deepcopy(row)
+            resolved.status = "resolved"
+            resolved.updated_at = checked
+            resolved.metadata = dict(resolved.metadata or {})
+            resolved.metadata["currently_active"] = False
+            resolved.metadata["resolved_by_snapshot_absence"] = True
+            resolved.metadata.pop("freshness_unverified", None)
+            adjusted.append(resolved)
+        elif source_status == "error" and (row.metadata or {}).get("currently_active") is True:
+            uncertain = copy.deepcopy(row)
+            uncertain.status = "monitoring"
+            uncertain.updated_at = checked
+            uncertain.metadata = dict(uncertain.metadata or {})
+            uncertain.metadata["freshness_unverified"] = True
+            adjusted.append(uncertain)
+        else:
+            adjusted.append(row)
+
+    return adjusted
 
 
 def _retain_history(existing: list[Incident], fresh: list[Incident], hours: int = 48) -> list[Incident]:
@@ -71,11 +126,7 @@ def _retain_history(existing: list[Incident], fresh: list[Incident], hours: int 
 
 
 def _revalidate_retained_rows(rows: list[Incident]) -> list[Incident]:
-    """Apply current source-quality rules to retained history as well as fresh data.
-
-    This prevents observations admitted by an older, looser adapter from surviving
-    for the full 48-hour history window after the source rule has been corrected.
-    """
+    """Apply current source-quality rules to retained history as well as fresh data."""
     kept: list[Incident] = []
     for row in rows:
         if row.source_kind == "news" and not newsfeeds.relevant_news_item(row.title, row.summary):
@@ -110,7 +161,7 @@ def _run_adapters() -> tuple[list[Incident], list[SourceHealth]]:
 
 def collect(output: Path) -> dict:
     fresh, health = _run_adapters()
-    existing = _read_existing(output)
+    existing = _apply_snapshot_lifecycle(_read_existing(output), fresh, health)
     rows = _revalidate_retained_rows(_retain_history(existing, fresh))
     cache_path = output.parents[2] / "data" / "geocode_cache.json"
     normalize_observations(rows)
