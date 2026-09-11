@@ -1,0 +1,68 @@
+name: Final live acceptance
+
+on:
+  push:
+    branches: [diagnostic/final-live-acceptance]
+    paths: [".github/workflows/final-live-acceptance.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify hosted HFX Pulse and source health
+        run: |
+          set -euo pipefail
+          root='https://jeremyhennessy.github.io/HalifaxNews/'
+          data='https://jeremyhennessy.github.io/HalifaxNews/public/data/incidents.json'
+
+          curl -fsSL "$root" -o /tmp/root.html
+          grep -q '<title>HFX Pulse</title>' /tmp/root.html
+          grep -q '<base href="./public/"' /tmp/root.html
+          grep -q 'id="sirenCards"' /tmp/root.html
+          grep -q 'id="sourceHealth"' /tmp/root.html
+          if grep -q 'Jekyll SEO tag' /tmp/root.html; then
+            echo 'Root still contains legacy README/Jekyll wrapper' >&2
+            exit 1
+          fi
+
+          curl -fsSL "${root}public/assets/styles.css" >/dev/null
+          curl -fsSL "${root}public/assets/app.js" >/dev/null
+          curl -fsSL "$data" -o /tmp/incidents.json
+
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+
+          payload = json.load(open('/tmp/incidents.json', encoding='utf-8'))
+          incidents = payload.get('incidents', [])
+          rows = payload.get('source_health', [])
+          health = {row['source']: row for row in rows}
+
+          print('generated_at:', payload.get('generated_at'))
+          print('incidents:', len(incidents))
+          print('source_health_rows:', len(rows))
+          for row in rows:
+              print(row['source'], row.get('status'), row.get('records'))
+
+          assert len(incidents) == 194, len(incidents)
+          assert len(rows) == 10, len(rows)
+          assert all(row.get('status') == 'ok' for row in rows), rows
+
+          hrfe = health['Halifax Regional Fire & Emergency']
+          hrp = health['Halifax Regional Police']
+          reddit = health['r/halifax community']
+          assert int(hrfe.get('records') or 0) > 0, hrfe
+          assert int(hrp.get('records') or 0) > 0, hrp
+          assert reddit.get('status') == 'ok', reddit
+          assert int(reddit.get('records') or 0) == 0, reddit
+
+          generated = datetime.fromisoformat(payload['generated_at'].replace('Z', '+00:00'))
+          age = (datetime.now(timezone.utc) - generated).total_seconds() / 60
+          print('dataset_age_minutes:', round(age, 2))
+          assert age < 30, age
+          PY
