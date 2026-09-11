@@ -39,7 +39,6 @@ def _without_title_prefix(text: str, title: str) -> str:
     if normalized_text == normalized_title:
         return ""
     if normalized_text.startswith(normalized_title) and len(normalized_title) >= 18:
-        # Remove the literal title when feeds repeat it before the useful excerpt.
         match = re.match(rf"^\s*{re.escape(title)}\s*[-–—:|]?\s*", text, flags=re.I)
         if match:
             return clean_text(text[match.end():])
@@ -49,17 +48,17 @@ def _without_title_prefix(text: str, title: str) -> str:
 def extractive_brief(summary: str | None, title: str | None = None, max_chars: int = 420) -> str:
     """Create a concise extractive brief without inventing facts.
 
-    This only trims/cleans text already supplied by a feed. It never adds facts,
-    causal claims, names, locations or timing that are absent from the source text.
+    Only text supplied by the feed is used. A headline repeated as the feed
+    description is *not* treated as a summary.
     """
-    text = _normalize(summary)
-    text = _without_title_prefix(text, _normalize(title))
+    raw_summary = _normalize(summary)
+    title_text = _normalize(title)
+    text = _without_title_prefix(raw_summary, title_text)
     if not text:
-        text = _normalize(title)
+        return ""
     if len(text) <= max_chars:
         return text
 
-    # Prefer complete sentences, capped at roughly two sentences.
     sentences = re.split(r"(?<=[.!?])\s+", text)
     chosen: list[str] = []
     total = 0
@@ -85,13 +84,14 @@ def extractive_brief(summary: str | None, title: str | None = None, max_chars: i
     return clean_text(cut).rstrip(" ,;:") + "…"
 
 
-def _quality(row: Incident) -> tuple[int, int, float]:
-    summary = extractive_brief(row.summary, row.title)
-    source_penalty = -2 if any(row.source.startswith(prefix) for prefix in AGGREGATOR_PREFIXES) else 0
-    content_score = min(500, len(summary))
+def _quality(row: Incident) -> tuple[int, int, int, float]:
+    brief = extractive_brief(row.summary, row.title)
+    detail_score = 2 if len(brief) >= 120 else (1 if len(brief) >= 45 else 0)
+    source_score = 0 if any(row.source.startswith(prefix) for prefix in AGGREGATOR_PREFIXES) else 1
+    content_score = min(500, len(brief))
     dt = parse_datetime(row.reported_at)
     recency = dt.timestamp() if dt else 0.0
-    return (source_penalty, content_score, recency)
+    return (detail_score, source_score, content_score, recency)
 
 
 def _event_observations(event: Incident, observations_by_id: dict[str, Incident]) -> list[Incident]:
@@ -113,13 +113,17 @@ def attach_news_context(events: Iterable[Incident], observations: Iterable[Incid
             continue
 
         ranked = sorted(news_rows, key=_quality, reverse=True)
-        best = ranked[0]
-        brief = extractive_brief(best.summary, best.title)
-        if not brief:
+        informative = [(row, extractive_brief(row.summary, row.title)) for row in ranked]
+        informative = [(row, brief) for row, brief in informative if brief]
+        if not informative:
+            # Preserve the article evidence but do not mislabel a repeated headline
+            # as a generated summary.
             continue
 
+        best, brief = informative[0]
         event.metadata = dict(event.metadata or {})
         event.metadata["news_summary"] = brief
+        event.metadata["news_summary_source"] = best.source
         event.metadata["news_source_count"] = len({row.source for row in news_rows})
         event.metadata["news_sources"] = [
             {
@@ -127,12 +131,11 @@ def attach_news_context(events: Iterable[Incident], observations: Iterable[Incid
                 "title": row.title,
                 "url": row.source_url,
                 "reported_at": row.reported_at,
+                "has_summary": bool(extractive_brief(row.summary, row.title)),
             }
             for row in ranked[:5]
         ]
         event.metadata["news_summary_basis"] = "extractive_feed_text"
 
-        # Preserve a specialized emergency-response summary when present. For all
-        # other events, the best feed excerpt becomes the human-readable summary.
         if not event.metadata.get("response_summary"):
             event.summary = brief
