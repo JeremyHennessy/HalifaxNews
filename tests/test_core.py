@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from hfxpulse.adapters.hrfe import parse_hrfe_text
+from hfxpulse.adapters.hrfe import parse_hrfe_rss, parse_hrfe_text
 from hfxpulse.adapters.ns511 import parse_text_report
 from hfxpulse.adapters.weather import parse_atom
 from hfxpulse.correlation import correlate
@@ -34,6 +34,18 @@ class HRFEParserTests(unittest.TestCase):
         row = parse_hrfe_text(text)[1]
         self.assertEqual("RESCUE", row.category)
         self.assertIn("COLLISION", row.subtype)
+
+    def test_parses_official_rss_contract(self):
+        data = (ROOT / "tests" / "fixtures" / "hrfe_rss.xml").read_bytes()
+        rows = parse_hrfe_rss(data)
+        self.assertEqual(2, len(rows))
+        collision = rows[0]
+        self.assertEqual("hrfe-hf26000013642", collision.id)
+        self.assertEqual("RESCUE", collision.category)
+        self.assertEqual("HIGHWAY 103 WB EXIT 3 OFF RAMP / HIGHWAY 103, TIMBERLEA", collision.location_text)
+        self.assertEqual("E05 STN58 T58", collision.metadata["response"])
+        self.assertEqual("2026-09-11T13:49:47Z", collision.reported_at)
+        self.assertTrue(collision.source_url.endswith("#HF26000013642"))
 
 
 class CorrelationTests(unittest.TestCase):
