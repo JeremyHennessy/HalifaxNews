@@ -23,8 +23,8 @@ AUTHOR_SOURCES = (
 )
 
 SEARCH_QUERIES = (
-    'Halifax sirens', 'Halifax fire', 'Halifax police', 'Halifax ambulance', 'downtown Halifax emergency',
-    'Halifax crash', 'Halifax Coast Guard', 'Halifax smoke', 'Lower Water Halifax', 'Barrington Halifax closure'
+    "Halifax sirens", "Halifax fire", "Halifax police", "Halifax ambulance", "downtown Halifax emergency",
+    "Halifax crash", "Halifax Coast Guard", "Halifax smoke", "Lower Water Halifax", "Barrington Halifax closure",
 )
 
 
@@ -117,31 +117,35 @@ def fetch_search() -> AdapterResult:
     def run() -> list[Incident]:
         rows: dict[str, Incident] = {}
         s = session()
-        working_endpoint = None
-        last_error = None
-        # The cached public AppView currently returns 403 for searchPosts in some deployments;
-        # api.bsky.app has remained readable without credentials. Probe deterministically.
-        for endpoint in endpoints:
-            try:
-                probe = s.get(endpoint, params={"q": SEARCH_QUERIES[0], "limit": 10, "sort": "latest"}, timeout=20)
-                probe.raise_for_status()
-                working_endpoint = endpoint
-                for post in (probe.json() or {}).get("posts", []):
-                    row = _to_incident(post or {}, "Bluesky community search", "community", "unverified", "bsky-search")
-                    if row:
-                        rows[row.id] = row
-                break
-            except Exception as exc:
-                last_error = exc
-        if not working_endpoint:
-            raise last_error or RuntimeError("No Bluesky search endpoint reachable")
-        for query in SEARCH_QUERIES[1:]:
-            res = s.get(working_endpoint, params={"q": query, "limit": 40, "sort": "latest"}, timeout=20)
-            res.raise_for_status()
-            for post in (res.json() or {}).get("posts", []):
-                row = _to_incident(post or {}, "Bluesky community search", "community", "unverified", "bsky-search")
-                if row:
-                    rows[row.id] = row
+        successful_queries = 0
+        errors: list[Exception] = []
+
+        # Search availability can differ by AppView host and can change mid-run.
+        # Retry each query independently across both public endpoints instead of
+        # pinning all later requests to whichever host happened to pass a probe.
+        for query in SEARCH_QUERIES:
+            query_ok = False
+            for endpoint in endpoints:
+                try:
+                    res = s.get(endpoint, params={"q": query, "limit": 40, "sort": "latest"}, timeout=20)
+                    res.raise_for_status()
+                    for post in (res.json() or {}).get("posts", []):
+                        row = _to_incident(post or {}, "Bluesky community search", "community", "unverified", "bsky-search")
+                        if row:
+                            rows[row.id] = row
+                    query_ok = True
+                    successful_queries += 1
+                    break
+                except Exception as exc:
+                    errors.append(exc)
+            # A single query failure must not discard successful results from the
+            # other Halifax searches. The collector becomes unhealthy only when
+            # every query is unreachable on both AppViews.
+            if not query_ok:
+                continue
+
+        if successful_queries == 0:
+            raise errors[-1] if errors else RuntimeError("No Bluesky search endpoint reachable")
         return list(rows.values())
 
     return guarded_fetch(
@@ -149,5 +153,5 @@ def fetch_search() -> AdapterResult:
         f"{endpoints[0]}?q={quote('Halifax sirens')}",
         "community",
         run,
-        notes="Broad public search across multiple Halifax emergency/disruption queries. Tries the direct AppView before the cached public host because unauthenticated search availability differs by host.",
+        notes="Broad public Halifax disruption search. Each query independently falls back across both Bluesky AppView hosts; partial query failures do not discard successful search results.",
     )
