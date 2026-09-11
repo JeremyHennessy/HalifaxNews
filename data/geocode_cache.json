@@ -5,6 +5,12 @@
     "precision": "approximate_geocode",
     "query": "AKERLEY BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ARMBRO COLE HARBOUR": {
+    "lat": 44.6711607,
+    "lon": -63.4871398,
+    "precision": "approximate_geocode",
+    "query": "ARMBRO LANE, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "BARRINGTON": {
     "lat": 44.652306,
     "lon": -63.5775196,
