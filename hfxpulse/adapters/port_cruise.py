@@ -8,8 +8,16 @@ from hfxpulse.adapters.base import AdapterResult, guarded_fetch, session
 from hfxpulse.models import Incident
 from hfxpulse.util import HALIFAX_TZ, clean_text, iso_utc, parse_datetime, stable_id
 
-URL = "https://www.portofhalifax.ca/cruise/cruise-schedule/"
+URL = "https://www.porthalifax.ca/cruise/cruise-schedule/"
+FALLBACK_URL = "https://www.portofhalifax.ca/cruise/cruise-schedule/"
 SOURCE = "Port of Halifax cruise schedule"
+
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36 HFXPulse/0.1",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-CA,en;q=0.9",
+    "Cache-Control": "no-cache",
+}
 
 
 def parse_html(html: str, now: datetime | None = None) -> list[Incident]:
@@ -26,18 +34,20 @@ def parse_html(html: str, now: datetime | None = None) -> list[Incident]:
             parsed = parse_datetime(cell)
             if parsed:
                 dt = parsed.astimezone(HALIFAX_TZ)
+                # The official schedule often publishes MM-DD without a year.
+                if len(cell) <= 5 and cell.replace("-", "").isdigit():
+                    dt = dt.replace(year=now.year)
                 break
         if not dt or dt.date() != now.date():
             continue
         vessel = cells[1] if len(cells) > 1 else "Cruise vessel"
         passengers = next((c for c in cells if c.replace(",", "").isdigit() and int(c.replace(",", "")) > 100), None)
-        summary = row_text
         rows.append(Incident(
             id=f"port-cruise-{stable_id(now.date(), vessel, row_text)}",
             source=SOURCE,
             source_url=URL,
             title=f"Cruise ship in Halifax today — {vessel}",
-            summary=summary[:700],
+            summary=row_text[:700],
             category="MARINE",
             subtype="cruise_call",
             reported_at=iso_utc(now) or "",
@@ -54,7 +64,23 @@ def parse_html(html: str, now: datetime | None = None) -> list[Incident]:
 
 def fetch() -> AdapterResult:
     def run() -> list[Incident]:
-        res = session().get(URL, timeout=25)
-        res.raise_for_status()
-        return parse_html(res.text)
-    return guarded_fetch(SOURCE, URL, "official schedule", run, notes="Same-day cruise calls provide crowd/traffic context; they are not emergency incidents.")
+        errors: list[str] = []
+        for url in (URL, FALLBACK_URL):
+            try:
+                s = session()
+                s.headers.update(BROWSER_HEADERS)
+                res = s.get(url, timeout=25, allow_redirects=True)
+                res.raise_for_status()
+                rows = parse_html(res.text)
+                return rows
+            except Exception as exc:
+                errors.append(f"{url}: {type(exc).__name__}: {exc}")
+        raise RuntimeError("; ".join(errors))
+
+    return guarded_fetch(
+        SOURCE,
+        URL,
+        "official schedule",
+        run,
+        notes="Official Port of Halifax same-day cruise calls provide crowd/traffic context; they are event context, not emergency incidents. Current and legacy official hosts are tried independently.",
+    )
