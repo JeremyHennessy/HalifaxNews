@@ -1,0 +1,53 @@
+name: Verify HFX Pulse
+
+on:
+  push:
+    branches: [main, "build/**"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Python syntax
+        run: python -m compileall -q hfxpulse scripts tests
+      - name: JavaScript syntax
+        run: node --check public/assets/app.js
+      - name: Live source compatibility smoke test
+        env:
+          HFXPULSE_GEOCODE: "0"
+        run: python scripts/collect.py
+      - name: Validate generated contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path('public/data/incidents.json').read_text())
+          assert p['schema_version'] >= 2
+          assert isinstance(p['incidents'], list)
+          assert isinstance(p['source_health'], list)
+          assert len(p['source_health']) >= 10
+          errors = [s for s in p['source_health'] if s['status'] == 'error']
+          print(f"incidents={len(p['incidents'])} sources={len(p['source_health'])} errors={len(errors)}")
+          for row in errors:
+              print(f"SOURCE_ERROR {row['source']}: {row.get('error')}")
+          critical = {'Halifax Regional Fire & Emergency', 'Halifax Transit GTFS-Realtime'}
+          status = {s['source']: s['status'] for s in p['source_health']}
+          missing_or_bad = [name for name in critical if status.get(name) != 'ok']
+          if missing_or_bad:
+              raise SystemExit(f"Critical source compatibility failed: {missing_or_bad}")
+          PY
