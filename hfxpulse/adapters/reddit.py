@@ -10,22 +10,40 @@ from hfxpulse.adapters.base import AdapterResult, session
 from hfxpulse.models import Incident, SourceHealth, utc_now_iso
 from hfxpulse.util import clean_text, infer_category, infer_text_siren_score, iso_utc, keyword_hit, parse_datetime, stable_id
 
-KEYWORDS = (
-    "sirens", "siren", "police", "rcmp", "fire", "ambulance", "ehs", "smoke", "crash", "collision", "closed",
-    "closure", "downtown", "barrington", "spring garden", "waterfront", "lower water", "quinpool", "robie", "emergency",
-    "evacu", "coast guard", "rescue", "helicopter", "ert", "swat", "weapon", "bridge", "traffic", "detour", "ferry",
-    "boats", "search and rescue", "hazmat", "explosion", "bang", "power outage", "water main", "gunshot", "shots"
+# Community collection stays broad, but place names are context rather than incident
+# evidence. This prevents ordinary posts such as "adult ballet downtown" from
+# becoming emergency signals simply because they mention downtown Halifax.
+SIGNAL_TERMS = (
+    "sirens", "siren", "police", "rcmp", "fire truck", "fire trucks", "fire department", "structure fire", "smoke",
+    "ambulance", "paramedic", "ehs", "crash", "collision", "accident", "road closed", "road closure", "street closed",
+    "bridge closed", "blocked off", "emergency", "evacu", "coast guard", "rescue", "helicopter", "ert", "swat",
+    "weapon", "search and rescue", "hazmat", "explosion", "gunshot", "gunshots", "shots fired", "power outage",
+    "water main break", "watermain break", "flooding", "fire boat", "fire boats", "incident response", "detour in place",
 )
-HRM_TERMS = (
+QUESTION_TERMS = (
+    "what happened", "what's happening", "what is happening", "what's going on", "what is going on", "anyone know",
+    "does anyone know", "why are there", "what was that", "any idea what", "does anybody know",
+)
+LOCATION_TERMS = (
     "halifax", "dartmouth", "bedford", "sackville", "cole harbour", "tantallon", "timberlea", "spryfield", "hrm",
-    "barrington", "spring garden", "lower water", "quinpool", "robie", "waterfront", "macdonald", "mackay"
+    "downtown", "barrington", "spring garden", "waterfront", "lower water", "upper water", "quinpool", "robie",
+    "gottingen", "hollis", "brunswick", "citadel", "argyle", "cogswell", "south end", "north end", "macdonald",
+    "mackay", "bridge", "harbour",
 )
+HRM_TERMS = LOCATION_TERMS
 SUBREDDITS = (("halifax", False), ("NovaScotia", True))
+
+
+def _incident_hit(text: str) -> bool:
+    value = (text or "").lower()
+    if any(term in value for term in SIGNAL_TERMS):
+        return True
+    return any(term in value for term in QUESTION_TERMS) and any(term in value for term in LOCATION_TERMS)
 
 
 def _row(subreddit: str, post_id: str, title: str, body: str, reported: str, permalink: str, require_hrm: bool, metadata: dict | None = None) -> Incident | None:
     combined = f"{title} {body}"
-    if not keyword_hit(combined, KEYWORDS):
+    if not _incident_hit(combined):
         return None
     if require_hrm and not keyword_hit(combined, HRM_TERMS):
         return None
