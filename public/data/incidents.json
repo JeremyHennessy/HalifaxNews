@@ -1,9 +1,183 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-11T15:30:58Z",
+  "generated_at": "2026-09-11T15:51:11Z",
   "history_hours": 48,
   "collector_count": 21,
   "incidents": [
+    {
+      "id": "nsp-77222f7761d86908d6",
+      "source": "Nova Scotia Power outages",
+      "source_url": "https://outagemap.nspower.ca/external/default.html",
+      "title": "Power outage",
+      "summary": "Emergency Repair of Lines",
+      "category": "UTILITY",
+      "reported_at": "2026-09-11T15:50:28Z",
+      "source_kind": "secondary",
+      "confidence": "secondary",
+      "subtype": "power_outage",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": 44.61928,
+      "lon": -63.49684,
+      "location_precision": "outage_area",
+      "severity": 2,
+      "siren_score": 0,
+      "seriousness_score": 12,
+      "priority_score": 27,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "very recent"
+      ],
+      "signals": [
+        "secondary_machine_feed",
+        "official_map_available",
+        "impact_threshold_passed"
+      ],
+      "raw_ids": [
+        "3188"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
+        "customers": 0,
+        "cause": "Emergency Repair of Lines",
+        "minimum_customers": 100
+      }
+    },
+    {
+      "id": "dhevent-df36677eb198186430",
+      "source": "Downtown Halifax events",
+      "source_url": "https://downtownhalifax.ca/event/live-music-adam-otmar-farewell-nova-scotia-marlo-day",
+      "title": "Live Music: Adam Otmar: Farewell to Nova Scotia (with Marlo Day) Sep 11 2026 Trident Booksellers & Cafe",
+      "summary": "Live Music: Adam Otmar: Farewell to Nova Scotia (with Marlo Day) Sep 11 2026 Trident Booksellers & Cafe",
+      "category": "EVENT",
+      "reported_at": "2026-09-11T15:50:27Z",
+      "source_kind": "event",
+      "confidence": "listing",
+      "subtype": "downtown_event",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "Downtown Halifax",
+      "lat": 44.6461752,
+      "lon": -63.5725221,
+      "location_precision": "approximate_geocode",
+      "severity": 0,
+      "siren_score": 0,
+      "seriousness_score": 4,
+      "priority_score": 19,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "event/listing context"
+      ],
+      "signals": [
+        "event_context"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "dhevent-42ac72990c700b3091",
+      "source": "Downtown Halifax events",
+      "source_url": "https://downtownhalifax.ca/event/boot-scootin-bride",
+      "title": "Boot Scootin’ For The Bride! Sep 11 2026 - Sep 27 2026 The Neon Armadillo Dance Bar",
+      "summary": "Boot Scootin’ For The Bride! Sep 11 2026 - Sep 27 2026 The Neon Armadillo Dance Bar",
+      "category": "EVENT",
+      "reported_at": "2026-09-11T15:50:27Z",
+      "source_kind": "event",
+      "confidence": "listing",
+      "subtype": "downtown_event",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "Downtown Halifax",
+      "lat": 44.6461752,
+      "lon": -63.5725221,
+      "location_precision": "approximate_geocode",
+      "severity": 0,
+      "siren_score": 0,
+      "seriousness_score": 4,
+      "priority_score": 19,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "event/listing context"
+      ],
+      "signals": [
+        "event_context"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "dhevent-f94f1092a117b3b13a",
+      "source": "Downtown Halifax events",
+      "source_url": "https://downtownhalifax.ca/event/saturday-nights-are-certified-dome",
+      "title": "Saturday nights are CERTIFIED at The Dome!! Sep 11 2026 - Sep 26 2026 The Dome Night Club",
+      "summary": "Saturday nights are CERTIFIED at The Dome!! Sep 11 2026 - Sep 26 2026 The Dome Night Club",
+      "category": "EVENT",
+      "reported_at": "2026-09-11T15:50:27Z",
+      "source_kind": "event",
+      "confidence": "listing",
+      "subtype": "downtown_event",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "Downtown Halifax",
+      "lat": 44.6461752,
+      "lon": -63.5725221,
+      "location_precision": "approximate_geocode",
+      "severity": 0,
+      "siren_score": 0,
+      "seriousness_score": 4,
+      "priority_score": 19,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "event/listing context"
+      ],
+      "signals": [
+        "event_context"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {}
+    },
+    {
+      "id": "dhevent-efda169e5ce3528d2d",
+      "source": "Downtown Halifax events",
+      "source_url": "https://downtownhalifax.ca/event/celebrate-style-unknwn",
+      "title": "Celebrate in style at UNKNWN! Sep 11 2026 - Sep 26 2026 Unknwn Lounge",
+      "summary": "Celebrate in style at UNKNWN! Sep 11 2026 - Sep 26 2026 Unknwn Lounge",
+      "category": "EVENT",
+      "reported_at": "2026-09-11T15:50:27Z",
+      "source_kind": "event",
+      "confidence": "listing",
+      "subtype": "downtown_event",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "Downtown Halifax",
+      "lat": 44.6461752,
+      "lon": -63.5725221,
+      "location_precision": "approximate_geocode",
+      "severity": 0,
+      "siren_score": 0,
+      "seriousness_score": 4,
+      "priority_score": 19,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "event/listing context"
+      ],
+      "signals": [
+        "event_context"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {}
+    },
     {
       "id": "transit-0ed0ab27d910823da7",
       "source": "Halifax Transit GTFS-Realtime",
@@ -23,13 +197,12 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 84,
-      "priority_band": "critical",
+      "seriousness_score": 12,
+      "priority_score": 33,
+      "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
-        "tactical response",
-        "very recent",
+        "recent",
         "downtown relevance"
       ],
       "signals": [
@@ -95,185 +268,6 @@
       }
     },
     {
-      "id": "nsp-77222f7761d86908d6",
-      "source": "Nova Scotia Power outages",
-      "source_url": "https://outagemap.nspower.ca/external/default.html",
-      "title": "Power outage",
-      "summary": "Emergency Repair of Lines",
-      "category": "UTILITY",
-      "reported_at": "2026-09-11T15:29:58Z",
-      "source_kind": "secondary",
-      "confidence": "secondary",
-      "subtype": "power_outage",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": 44.61928,
-      "lon": -63.49684,
-      "location_precision": "outage_area",
-      "severity": 2,
-      "siren_score": 0,
-      "seriousness_score": 12,
-      "priority_score": 27,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "very recent"
-      ],
-      "signals": [
-        "secondary_machine_feed",
-        "official_map_available",
-        "impact_threshold_passed"
-      ],
-      "raw_ids": [
-        "3188"
-      ],
-      "related_ids": [],
-      "metadata": {
-        "secondary_feed": "https://outagemap.hfxdeploy.com/api/outages",
-        "customers": 0,
-        "cause": "Emergency Repair of Lines",
-        "minimum_customers": 100
-      }
-    },
-    {
-      "id": "dhevent-df36677eb198186430",
-      "source": "Downtown Halifax events",
-      "source_url": "https://downtownhalifax.ca/event/live-music-adam-otmar-farewell-nova-scotia-marlo-day",
-      "title": "Live Music: Adam Otmar: Farewell to Nova Scotia (with Marlo Day) Sep 11 2026 Trident Booksellers & Cafe",
-      "summary": "Live Music: Adam Otmar: Farewell to Nova Scotia (with Marlo Day) Sep 11 2026 Trident Booksellers & Cafe",
-      "category": "EVENT",
-      "reported_at": "2026-09-11T15:29:57Z",
-      "source_kind": "event",
-      "confidence": "listing",
-      "subtype": "downtown_event",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "Downtown Halifax",
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 0,
-      "siren_score": 0,
-      "seriousness_score": 4,
-      "priority_score": 29,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "very recent",
-        "downtown relevance"
-      ],
-      "signals": [
-        "event_context"
-      ],
-      "raw_ids": [],
-      "related_ids": [],
-      "metadata": {}
-    },
-    {
-      "id": "dhevent-42ac72990c700b3091",
-      "source": "Downtown Halifax events",
-      "source_url": "https://downtownhalifax.ca/event/boot-scootin-bride",
-      "title": "Boot Scootin’ For The Bride! Sep 11 2026 - Sep 27 2026 The Neon Armadillo Dance Bar",
-      "summary": "Boot Scootin’ For The Bride! Sep 11 2026 - Sep 27 2026 The Neon Armadillo Dance Bar",
-      "category": "EVENT",
-      "reported_at": "2026-09-11T15:29:57Z",
-      "source_kind": "event",
-      "confidence": "listing",
-      "subtype": "downtown_event",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "Downtown Halifax",
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 0,
-      "siren_score": 0,
-      "seriousness_score": 4,
-      "priority_score": 29,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "very recent",
-        "downtown relevance"
-      ],
-      "signals": [
-        "event_context"
-      ],
-      "raw_ids": [],
-      "related_ids": [],
-      "metadata": {}
-    },
-    {
-      "id": "dhevent-f94f1092a117b3b13a",
-      "source": "Downtown Halifax events",
-      "source_url": "https://downtownhalifax.ca/event/saturday-nights-are-certified-dome",
-      "title": "Saturday nights are CERTIFIED at The Dome!! Sep 11 2026 - Sep 26 2026 The Dome Night Club",
-      "summary": "Saturday nights are CERTIFIED at The Dome!! Sep 11 2026 - Sep 26 2026 The Dome Night Club",
-      "category": "EVENT",
-      "reported_at": "2026-09-11T15:29:57Z",
-      "source_kind": "event",
-      "confidence": "listing",
-      "subtype": "downtown_event",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "Downtown Halifax",
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 0,
-      "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 82,
-      "priority_band": "critical",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response",
-        "very recent",
-        "downtown relevance"
-      ],
-      "signals": [
-        "event_context"
-      ],
-      "raw_ids": [],
-      "related_ids": [],
-      "metadata": {}
-    },
-    {
-      "id": "dhevent-efda169e5ce3528d2d",
-      "source": "Downtown Halifax events",
-      "source_url": "https://downtownhalifax.ca/event/celebrate-style-unknwn",
-      "title": "Celebrate in style at UNKNWN! Sep 11 2026 - Sep 26 2026 Unknwn Lounge",
-      "summary": "Celebrate in style at UNKNWN! Sep 11 2026 - Sep 26 2026 Unknwn Lounge",
-      "category": "EVENT",
-      "reported_at": "2026-09-11T15:29:57Z",
-      "source_kind": "event",
-      "confidence": "listing",
-      "subtype": "downtown_event",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "Downtown Halifax",
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 0,
-      "siren_score": 0,
-      "seriousness_score": 4,
-      "priority_score": 29,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "very recent",
-        "downtown relevance"
-      ],
-      "signals": [
-        "event_context"
-      ],
-      "raw_ids": [],
-      "related_ids": [],
-      "metadata": {}
-    },
-    {
       "id": "hrfe-hf26000013644",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013644",
@@ -287,17 +281,17 @@
       "updated_at": null,
       "status": "active",
       "location_text": "AKERLEY BLVD, DARTMOUTH",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.7096252,
+      "lon": -63.6056304,
+      "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 56,
+      "siren_score": 50,
       "seriousness_score": 28,
-      "priority_score": 36,
+      "priority_score": 31,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
-        "recent"
+        "within 90 minutes"
       ],
       "signals": [
         "official_dispatch",
@@ -399,6 +393,43 @@
       "metadata": {
         "subreddit": "halifax",
         "transport": "rss"
+      }
+    },
+    {
+      "id": "bsky-search-4e2f1a07ba060af1d3",
+      "source": "Bluesky · @ns-wn.bsky.social",
+      "source_url": "https://bsky.app/profile/ns-wn.bsky.social/post/3mvarmttkkk2c",
+      "title": "🚔 Two people have been charged with firearm offences after Halifax police searched a residence on Adams Avenue on Sept. 10. Police seized a …",
+      "summary": "🚔 Two people have been charged with firearm offences after Halifax police searched a residence on Adams Avenue on Sept. 10. Police seized a loaded firearm and ammunition during the search. Full details: www.halifax.ca/home/news/po... #Halifax #NovaScotia #HRP #Crime",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T14:28:23Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 24,
+      "seriousness_score": 34,
+      "priority_score": 33,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "within 90 minutes"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:xdo3oojgklcfsgemmmpr2jki/app.bsky.feed.post/3mvarmttkkk2c"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "ns-wn.bsky.social"
       }
     },
     {
@@ -4420,9 +4451,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "FLEETVIEW DR, HALIFAX",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6989508,
+      "lon": -63.672875,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 63,
       "seriousness_score": 40,
@@ -4491,14 +4522,12 @@
       "lon": null,
       "location_precision": null,
       "severity": 1,
-      "siren_score": 9,
+      "siren_score": 4,
       "seriousness_score": 10,
-      "priority_score": 16,
+      "priority_score": 12,
       "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "within 90 minutes"
-      ],
+      "attention_reasons": [],
       "signals": [
         "news_report"
       ],
@@ -4507,6 +4536,43 @@
       ],
       "related_ids": [],
       "metadata": {}
+    },
+    {
+      "id": "bsky-search-a501e886dc76db87d3",
+      "source": "Bluesky · @wfmhfx.bsky.social",
+      "source_url": "https://bsky.app/profile/wfmhfx.bsky.social/post/3mvaqiy5ozc2c",
+      "title": "(Police) Police have a charged a man and a woman with firearm offences following a search in Halifax ** Release waterfrontmediahfx.the902hxi…",
+      "summary": "(Police) Police have a charged a man and a woman with firearm offences following a search in Halifax ** Release waterfrontmediahfx.the902hxir.ca/111966-2",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T14:08:20Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 37,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:4b4kfd25vqnmewptxzscuuu4/app.bsky.feed.post/3mvaqiy5ozc2c"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "wfmhfx.bsky.social"
+      }
     },
     {
       "id": "nsp-8700f469be02a32dd6",
@@ -5002,6 +5068,41 @@
       }
     },
     {
+      "id": "bsky-search-866fb266323bcf453c",
+      "source": "Bluesky · @hfx-fire.bsky.social",
+      "source_url": "https://bsky.app/profile/hfx-fire.bsky.social/post/3mval4kdgkb2i",
+      "title": "At 09:59 hours on Friday, September 11, 2026, the time of the collapse of the South Tower of the World Trade Center, Halifax Regional Fire &…",
+      "summary": "At 09:59 hours on Friday, September 11, 2026, the time of the collapse of the South Tower of the World Trade Center, Halifax Regional Fire & Emergency will pause to recognize the courage, professionalism, and sacrifice of those who answered the call on September 11, 2001.",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T12:31:54Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 42,
+      "priority_score": 35,
+      "priority_band": "moderate",
+      "impact_scope": "citywide",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:mdi5ke2tqwmjnwyomjbq6go4/app.bsky.feed.post/3mval4kdgkb2i"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hfx-fire.bsky.social"
+      }
+    },
+    {
       "id": "news-0d0c0fd50e7f5225b4",
       "source": "Halifax Examiner",
       "source_url": "https://www.halifaxexaminer.ca/economy/energy/more-than-gas-plants-ieso-launches-second-procurement/",
@@ -5227,7 +5328,7 @@
       "severity": 2,
       "siren_score": 62,
       "seriousness_score": 38,
-      "priority_score": 34,
+      "priority_score": 29,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
@@ -5511,6 +5612,43 @@
       }
     },
     {
+      "id": "bsky-search-ff3e8d0e860ff82232",
+      "source": "Bluesky · @hrfeincidents.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3mvag6grjtv2f",
+      "title": "SALT WATER INCIDENT Location: LOWER WATER ST, HALIFAX Call Number: HF26000013629 Response: DC02 E02 E15 FB1 JRCC PCE Q13 STN02 Fri, 11 Sep 2…",
+      "summary": "SALT WATER INCIDENT Location: LOWER WATER ST, HALIFAX Call Number: HF26000013629 Response: DC02 E02 E15 FB1 JRCC PCE Q13 STN02 Fri, 11 Sep 2026 08:01:52 -0300",
+      "category": "COMMUNITY",
+      "reported_at": "2026-09-11T11:03:28Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "seriousness_score": 10,
+      "priority_score": 15,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:7gcf655grv6pgbxffh4ouzub/app.bsky.feed.post/3mvag6grjtv2f"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfeincidents.bsky.social"
+      }
+    },
+    {
       "id": "hrfe-hf26000013630",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013630",
@@ -5566,6 +5704,43 @@
           }
         ],
         "decoded_unit_text": "E52 — Engine 52 · E54 — Engine 54 · STN52 — Station 52 assignment"
+      }
+    },
+    {
+      "id": "bsky-search-27b633c99c92c52713",
+      "source": "Bluesky · @hrfe.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfe.bsky.social/post/3mvag3ptb222d",
+      "title": "SALT WATER INCIDENT Location: LOWER WATER ST, HALIFAX Call Number: HF26000013629 Response: DC02 E02 E15 FB1 JRCC PCE Q13 STN02 📅 2026-09-11 …",
+      "summary": "SALT WATER INCIDENT Location: LOWER WATER ST, HALIFAX Call Number: HF26000013629 Response: DC02 E02 E15 FB1 JRCC PCE Q13 STN02 📅 2026-09-11 • 08:01 UTC",
+      "category": "COMMUNITY",
+      "reported_at": "2026-09-11T11:01:57Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "seriousness_score": 10,
+      "priority_score": 15,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:uztzon76h6zi3nkjig4wqkur/app.bsky.feed.post/3mvag3ptb222d"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfe.bsky.social"
       }
     },
     {
@@ -5711,6 +5886,41 @@
           }
         ],
         "decoded_unit_text": "E50 — Engine 50 · STN50 — Station 50 assignment"
+      }
+    },
+    {
+      "id": "bsky-search-d4612cd99cb6ffd009",
+      "source": "Bluesky · @hbgpalocalnews.bsky.social",
+      "source_url": "https://bsky.app/profile/hbgpalocalnews.bsky.social/post/3mvadw76fzy2i",
+      "title": "Multiple emergency crews responded to a fire at a business in Lancaster County.",
+      "summary": "Multiple emergency crews responded to a fire at a business in Lancaster County.",
+      "category": "FIRE",
+      "reported_at": "2026-09-11T10:23:05Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 24,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:jldwyrazfdid3c7qyxq2eyyf/app.bsky.feed.post/3mvadw76fzy2i"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hbgpalocalnews.bsky.social"
       }
     },
     {
@@ -6170,13 +6380,11 @@
       "location_precision": null,
       "severity": 1,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 58,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 11,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_notice"
       ],
@@ -7313,6 +7521,80 @@
       }
     },
     {
+      "id": "bsky-search-2f8958e788b962bb0f",
+      "source": "Bluesky · @hrfeincidents.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3mv735l6te52l",
+      "title": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 Thu, 10 Sep 2026 19:10:33 -0300",
+      "summary": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 Thu, 10 Sep 2026 19:10:33 -0300",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T22:13:29Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 32,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:7gcf655grv6pgbxffh4ouzub/app.bsky.feed.post/3mv735l6te52l"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfeincidents.bsky.social"
+      }
+    },
+    {
+      "id": "bsky-search-1925bafb6786820710",
+      "source": "Bluesky · @hrfe.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfe.bsky.social/post/3mv72ysyo7i2v",
+      "title": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 📅 2026-09-10 • 19:10 UTC",
+      "summary": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 📅 2026-09-10 • 19:10 UTC",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T22:10:49Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 32,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:uztzon76h6zi3nkjig4wqkur/app.bsky.feed.post/3mv72ysyo7i2v"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfe.bsky.social"
+      }
+    },
+    {
       "id": "hrfe-hf26000013600",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013600",
@@ -7941,6 +8223,111 @@
           }
         ],
         "decoded_unit_text": "STN58 — Station 58 assignment · T58 — Tanker 58"
+      }
+    },
+    {
+      "id": "bsky-search-81289eadd8680a2bc3",
+      "source": "Bluesky · @ns-wn.bsky.social",
+      "source_url": "https://bsky.app/profile/ns-wn.bsky.social/post/3mv6qezfa4k2w",
+      "title": "🚔 Adams Avenue in Halifax has reopened to vehicle and pedestrian traffic after a police operation earlier today. HRP says officers are no lo…",
+      "summary": "🚔 Adams Avenue in Halifax has reopened to vehicle and pedestrian traffic after a police operation earlier today. HRP says officers are no longer on scene. Source: x.com/HfxRegPolice... #Halifax #HRP #NovaScotia",
+      "category": "POLICE",
+      "reported_at": "2026-09-10T19:00:48Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 15,
+      "seriousness_score": 32,
+      "priority_score": 23,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:xdo3oojgklcfsgemmmpr2jki/app.bsky.feed.post/3mv6qezfa4k2w"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "ns-wn.bsky.social"
+      }
+    },
+    {
+      "id": "bsky-search-0b6b6302f87bc8ff90",
+      "source": "Bluesky · @pierce4nchouse.bsky.social",
+      "source_url": "https://bsky.app/profile/pierce4nchouse.bsky.social/post/3mv6pq7l3ak2g",
+      "title": "I took to the House floor to congratulate Greenville, NC Police Department Kolenya \"K.Z.\" Thomas, who was raised in Halifax County, on becom…",
+      "summary": "I took to the House floor to congratulate Greenville, NC Police Department Kolenya \"K.Z.\" Thomas, who was raised in Halifax County, on becoming the first woman & first Black woman to serve as Chief of Police in the history of the department. #halifaxcountync #HD27 youtu.be/zOHcCv0NRt0",
+      "category": "POLICE",
+      "reported_at": "2026-09-10T18:49:09Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 15,
+      "seriousness_score": 32,
+      "priority_score": 23,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:qoklxjrz72trc6jt3xknxlnl/app.bsky.feed.post/3mv6pq7l3ak2g"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "pierce4nchouse.bsky.social"
+      }
+    },
+    {
+      "id": "bsky-search-3f01c3b40fb1905eb9",
+      "source": "Bluesky · @halifaxwater.bsky.social",
+      "source_url": "https://bsky.app/profile/halifaxwater.bsky.social/post/3mv6pfbwdk52u",
+      "title": "Halifax Water Smoke Testing Notice Halifax Water crews will conduct smoke testing near the McIntosh Run Community Trail on Sept 15 & 16, 9 A…",
+      "summary": "Halifax Water Smoke Testing Notice Halifax Water crews will conduct smoke testing near the McIntosh Run Community Trail on Sept 15 & 16, 9 AM–4 PM. Residents may notice non-toxic light grey smoke from manholes, plumbing vents, or sewer lines along the trail. Testing is weather-dependent.",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T18:43:03Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 13,
+      "seriousness_score": 34,
+      "priority_score": 24,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:437b64anwqwu7tkj4m7aqpnf/app.bsky.feed.post/3mv6pfbwdk52u"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "halifaxwater.bsky.social"
       }
     },
     {
@@ -8576,6 +8963,43 @@
       }
     },
     {
+      "id": "bsky-search-0e17ca26b62d6a9b68",
+      "source": "Bluesky · @wfmhfx.bsky.social",
+      "source_url": "https://bsky.app/profile/wfmhfx.bsky.social/post/3mv6jg2ppt22f",
+      "title": "(Police) RCMP Halifax Regional Detachment Community Action Response Team is looking to identify a person of interest in relation to an ongoi…",
+      "summary": "(Police) RCMP Halifax Regional Detachment Community Action Response Team is looking to identify a person of interest in relation to an ongoing investigation involving the fraudulent use of a credit card ** Release waterfrontmediahfx.the902hxir.ca/111936-2",
+      "category": "POLICE",
+      "reported_at": "2026-09-10T16:56:06Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 15,
+      "seriousness_score": 40,
+      "priority_score": 37,
+      "priority_band": "moderate",
+      "impact_scope": "citywide",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:4b4kfd25vqnmewptxzscuuu4/app.bsky.feed.post/3mv6jg2ppt22f"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "wfmhfx.bsky.social"
+      }
+    },
+    {
       "id": "news-5263edef8a54a29d6e",
       "source": "Google News · Halifax emergency search",
       "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1dm9ldjQ2WmgxYmU2a2JISmMyVmJUR3pQRVNQS3FWVEw4cGFzWEJKSUlXcUdqQ3ljbmVVZ1BMRGhJVUt6UjJBLXFQUXpkeExSbzJlcmJuNHRtaDJ1NFE?oc=5",
@@ -8609,6 +9033,41 @@
       ],
       "related_ids": [],
       "metadata": {}
+    },
+    {
+      "id": "bsky-search-69554050326d4affa2",
+      "source": "Bluesky · @terriclarke.bsky.social",
+      "source_url": "https://bsky.app/profile/terriclarke.bsky.social/post/3mv6gg6lzt22i",
+      "title": "Entire neighbourhoods near me were built with “in-law suites” on the hint hint nudge nudge that Halifax was soon going to legalize secondary…",
+      "summary": "Entire neighbourhoods near me were built with “in-law suites” on the hint hint nudge nudge that Halifax was soon going to legalize secondary suites. In order to make them code-passing legal apartments homeowners had to install a fire door and swap the drywall around it for fire resistant drywall,",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T16:02:29Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 24,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:w3uldlmmip6puh7njojgh7gn/app.bsky.feed.post/3mv6gg6lzt22i"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "terriclarke.bsky.social"
+      }
     },
     {
       "id": "hrfe-hf26000013580",
@@ -8685,7 +9144,7 @@
       "severity": 1,
       "siren_score": 4,
       "seriousness_score": 10,
-      "priority_score": 7,
+      "priority_score": 0,
       "priority_band": "low",
       "impact_scope": "local",
       "attention_reasons": [],
@@ -8718,7 +9177,7 @@
       "severity": 2,
       "siren_score": 44,
       "seriousness_score": 28,
-      "priority_score": 30,
+      "priority_score": 22,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
@@ -8920,6 +9379,80 @@
       }
     },
     {
+      "id": "bsky-search-9c16730a697361278c",
+      "source": "Bluesky · @hrfeincidents.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3mv6adbrv6g2c",
+      "title": "FIRE STRUCTURE Location: QUINPOOL RD, HALIFAX Call Number: HF26000013570 Response: A03 DC02 E02 E03 E05 PCE STN03 TCT12 Thu, 10 Sep 2026 11:…",
+      "summary": "FIRE STRUCTURE Location: QUINPOOL RD, HALIFAX Call Number: HF26000013570 Response: A03 DC02 E02 E03 E05 PCE STN03 TCT12 Thu, 10 Sep 2026 11:09:14 -0300",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T14:13:29Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 24,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:7gcf655grv6pgbxffh4ouzub/app.bsky.feed.post/3mv6adbrv6g2c"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfeincidents.bsky.social"
+      }
+    },
+    {
+      "id": "bsky-search-666cda7b749a3f7486",
+      "source": "Bluesky · @hrfe.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfe.bsky.social/post/3mv6a43acse25",
+      "title": "FIRE STRUCTURE Location: QUINPOOL RD, HALIFAX Call Number: HF26000013570 Response: A03 DC02 E02 E03 E05 PCE STN03 TCT12 📅 2026-09-10 • 11:09…",
+      "summary": "FIRE STRUCTURE Location: QUINPOOL RD, HALIFAX Call Number: HF26000013570 Response: A03 DC02 E02 E03 E05 PCE STN03 TCT12 📅 2026-09-10 • 11:09 UTC",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T14:09:27Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 24,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:uztzon76h6zi3nkjig4wqkur/app.bsky.feed.post/3mv6a43acse25"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfe.bsky.social"
+      }
+    },
+    {
       "id": "hrfe-hf26000013570",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013570",
@@ -8957,6 +9490,43 @@
       "metadata": {
         "call_number": "HF26000013570",
         "response": "A03 DC02 E02 E03 E05 PCE STN03 TCT12"
+      }
+    },
+    {
+      "id": "bsky-search-06ed53310dd27766d4",
+      "source": "Bluesky · @ns-wn.bsky.social",
+      "source_url": "https://bsky.app/profile/ns-wn.bsky.social/post/3mv675ef4dk2q",
+      "title": "🚔 Police are conducting an operation on Adams Avenue in Halifax. The street is closed to vehicles and pedestrians between Alvena Cain Avenue…",
+      "summary": "🚔 Police are conducting an operation on Adams Avenue in Halifax. The street is closed to vehicles and pedestrians between Alvena Cain Avenue and Brunswick Street. Police say there is no anticipated threat to public safety. Avoid the area. x.com/HfxRegPolice... #Halifax #HRP #NovaScotia",
+      "category": "POLICE",
+      "reported_at": "2026-09-10T13:52:17Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 15,
+      "seriousness_score": 32,
+      "priority_score": 23,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:xdo3oojgklcfsgemmmpr2jki/app.bsky.feed.post/3mv675ef4dk2q"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "ns-wn.bsky.social"
       }
     },
     {
@@ -9066,6 +9636,76 @@
       }
     },
     {
+      "id": "bsky-search-a69ec29fed5267ee75",
+      "source": "Bluesky · @hrfeincidents.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3mv63cddq4624",
+      "title": "OUTSIDE FIRE Location: BEECH ST, HALIFAX Call Number: HF26000013562 Response: E05 STN03 Thu, 10 Sep 2026 09:42:26 -0300",
+      "summary": "OUTSIDE FIRE Location: BEECH ST, HALIFAX Call Number: HF26000013562 Response: E05 STN03 Thu, 10 Sep 2026 09:42:26 -0300",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T12:43:29Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 16,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:7gcf655grv6pgbxffh4ouzub/app.bsky.feed.post/3mv63cddq4624"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfeincidents.bsky.social"
+      }
+    },
+    {
+      "id": "bsky-search-50b8d73f86337b29cc",
+      "source": "Bluesky · @hrfe.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfe.bsky.social/post/3mv63cbg5j72d",
+      "title": "OUTSIDE FIRE Location: BEECH ST, HALIFAX Call Number: HF26000013562 Response: E05 STN03 📅 2026-09-10 • 09:43 UTC",
+      "summary": "OUTSIDE FIRE Location: BEECH ST, HALIFAX Call Number: HF26000013562 Response: E05 STN03 📅 2026-09-10 • 09:43 UTC",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T12:43:27Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 16,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:uztzon76h6zi3nkjig4wqkur/app.bsky.feed.post/3mv63cbg5j72d"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfe.bsky.social"
+      }
+    },
+    {
       "id": "news-ef0c16ff432b68ef21",
       "source": "Halifax Examiner",
       "source_url": "https://www.halifaxexaminer.ca/province-house-2/opposition-hammers-nova-scotia-government-over-housing-issues/",
@@ -9099,6 +9739,41 @@
       "metadata": {}
     },
     {
+      "id": "bsky-search-28a8eb0bda1fb62da8",
+      "source": "Bluesky · @patboivin.bsky.social",
+      "source_url": "https://bsky.app/profile/patboivin.bsky.social/post/3mv62cccw522c",
+      "title": "My wife and I bought a house in Spryfield a suburb SE of Halifax built in 1948 using leftover lumber from dismantled Navy barracks... Not ma…",
+      "summary": "My wife and I bought a house in Spryfield a suburb SE of Halifax built in 1948 using leftover lumber from dismantled Navy barracks... Not many complete 2x4's in the walls of that house but it was solidly built. They used seaweed as insulation... now considered a fire hazard, I replaced it.",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T12:25:34Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 16,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:k5owzp2dlmnfa3ovsuoyrnaf/app.bsky.feed.post/3mv62cccw522c"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "patboivin.bsky.social"
+      }
+    },
+    {
       "id": "transit-5385f1855801e4db28",
       "source": "Halifax Transit GTFS-Realtime",
       "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
@@ -9117,13 +9792,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 3,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -9156,13 +9829,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 3,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -9174,6 +9845,44 @@
         "informed_entities": [
           "route 401 / stop 9009"
         ]
+      }
+    },
+    {
+      "id": "bsky-search-422507d8551c49dc80",
+      "source": "Bluesky · @wfmhfx.bsky.social",
+      "source_url": "https://bsky.app/profile/wfmhfx.bsky.social/post/3mv5y2efyps2q",
+      "title": "(Traffic) RCMP Halifax Regional Detachment is investigating an impaired driving offence following a single-vehicle crash in Beaver Bank ** R…",
+      "summary": "(Traffic) RCMP Halifax Regional Detachment is investigating an impaired driving offence following a single-vehicle crash in Beaver Bank ** Release waterfrontmediahfx.the902hxir.ca/111893-2",
+      "category": "POLICE",
+      "reported_at": "2026-09-10T11:45:20Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 15,
+      "seriousness_score": 44,
+      "priority_score": 32,
+      "priority_band": "moderate",
+      "impact_scope": "citywide",
+      "attention_reasons": [
+        "collision",
+        "downtown relevance"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:4b4kfd25vqnmewptxzscuuu4/app.bsky.feed.post/3mv5y2efyps2q"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "wfmhfx.bsky.social"
       }
     },
     {
@@ -9228,13 +9937,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 86,
-      "priority_score": 56,
-      "priority_band": "elevated",
+      "seriousness_score": 20,
+      "priority_score": 8,
+      "priority_band": "low",
       "impact_scope": "citywide",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -9267,13 +9974,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 86,
-      "priority_score": 56,
-      "priority_band": "elevated",
+      "seriousness_score": 20,
+      "priority_score": 8,
+      "priority_band": "low",
       "impact_scope": "citywide",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -9306,13 +10011,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 3,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -9346,12 +10049,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 58,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 11,
+      "priority_band": "low",
       "impact_scope": "local",
       "attention_reasons": [
-        "tactical response",
         "downtown relevance"
       ],
       "signals": [
@@ -9386,12 +10088,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 58,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 11,
+      "priority_band": "low",
       "impact_scope": "local",
       "attention_reasons": [
-        "tactical response",
         "downtown relevance"
       ],
       "signals": [
@@ -9426,12 +10127,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 58,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 11,
+      "priority_band": "low",
       "impact_scope": "local",
       "attention_reasons": [
-        "tactical response",
         "downtown relevance"
       ],
       "signals": [
@@ -9466,12 +10166,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 58,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 11,
+      "priority_band": "low",
       "impact_scope": "local",
       "attention_reasons": [
-        "tactical response",
         "downtown relevance"
       ],
       "signals": [
@@ -9485,6 +10184,41 @@
         "informed_entities": [
           "route 87 / stop 7310"
         ]
+      }
+    },
+    {
+      "id": "bsky-search-540a64291abc5fc2bc",
+      "source": "Bluesky · @hrfeincidents.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3mv4zyqmzz52b",
+      "title": "VEHICLE FIRE Location: RAMSGATE LANE, HALIFAX Call Number: HF26000013536 Response: E06 STN06 Wed, 09 Sep 2026 19:22:27 -0300",
+      "summary": "VEHICLE FIRE Location: RAMSGATE LANE, HALIFAX Call Number: HF26000013536 Response: E06 STN06 Wed, 09 Sep 2026 19:22:27 -0300",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T02:47:33Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 16,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:7gcf655grv6pgbxffh4ouzub/app.bsky.feed.post/3mv4zyqmzz52b"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfeincidents.bsky.social"
       }
     },
     {
@@ -9523,6 +10257,41 @@
         "status": "Yes",
         "action_required": "No",
         "action_message": ""
+      }
+    },
+    {
+      "id": "bsky-search-6e43d11cf417cf3e7a",
+      "source": "Bluesky · @hrfe.bsky.social",
+      "source_url": "https://bsky.app/profile/hrfe.bsky.social/post/3mv4lacyj3v2d",
+      "title": "VEHICLE FIRE Location: RAMSGATE LANE, HALIFAX Call Number: HF26000013536 Response: E06 STN06 📅 2026-09-09 • 19:23 UTC",
+      "summary": "VEHICLE FIRE Location: RAMSGATE LANE, HALIFAX Call Number: HF26000013536 Response: E06 STN06 📅 2026-09-09 • 19:23 UTC",
+      "category": "FIRE",
+      "reported_at": "2026-09-09T22:23:21Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 19,
+      "seriousness_score": 34,
+      "priority_score": 16,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:uztzon76h6zi3nkjig4wqkur/app.bsky.feed.post/3mv4lacyj3v2d"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "hrfe.bsky.social"
       }
     },
     {
@@ -9729,6 +10498,41 @@
       "metadata": {}
     },
     {
+      "id": "bsky-search-e9efbd0ef66a7f90c1",
+      "source": "Bluesky · @ladyscotia.bsky.social",
+      "source_url": "https://bsky.app/profile/ladyscotia.bsky.social/post/3mv452rolb22w",
+      "title": "NS does not have a provincial police force. Halifax and Sydney hire their own as do a few other larger towns. Not sure about Sydney but Hali…",
+      "summary": "NS does not have a provincial police force. Halifax and Sydney hire their own as do a few other larger towns. Not sure about Sydney but Halifax is a bad amalgamation of paid City and RCMP",
+      "category": "POLICE",
+      "reported_at": "2026-09-09T18:09:43Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 15,
+      "seriousness_score": 32,
+      "priority_score": 15,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:nsjz6ba36i5rq4bbfdpbrzfq/app.bsky.feed.post/3mv452rolb22w"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "handle": "ladyscotia.bsky.social"
+      }
+    },
+    {
       "id": "hfxgov-1814b38b89d021ca8d",
       "source": "Halifax Regional Municipality · Bluesky",
       "source_url": "https://bsky.app/profile/hfxgov.bsky.social/post/3mv44ui7b7i2x",
@@ -9855,13 +10659,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 3,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -9894,13 +10696,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 3,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -9933,13 +10733,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 3,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -9972,13 +10770,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 3,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -10011,13 +10807,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 3,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -10050,13 +10844,11 @@
       "location_precision": null,
       "severity": 2,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 12,
+      "priority_score": 3,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -10069,39 +10861,6 @@
           "route 159"
         ]
       }
-    },
-    {
-      "id": "news-d973d1e86a8d8780fd",
-      "source": "Google News · Halifax emergency search",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ0hYS0xZV3FLTXRPbGxoS29NVW9BRkVvTUN2SVJHVi1oWTFEWmNVeWRjM2dCS0R4bDVIcTJ3b25CNkp6TW41anBBN083RjJRaVh2V0JZbWxXdko4dkxEbXRDYW5lZ3p0bTdzU0htN2xpQXNVT1RqeE54b3pOVGNCUDlUSWstd1g5anlfUktiX25PQVgxTzE3UXh0T1VLdw?oc=5",
-      "title": "RCMP investigating arson and attempted arson in Timberlea - CityNews Halifax",
-      "summary": "RCMP investigating arson and attempted arson in Timberlea CityNews Halifax",
-      "category": "POLICE",
-      "reported_at": "2026-09-09T15:31:43Z",
-      "source_kind": "news",
-      "confidence": "reported",
-      "subtype": "news_report",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 2,
-      "siren_score": 16,
-      "seriousness_score": 32,
-      "priority_score": 15,
-      "priority_band": "low",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "news_report"
-      ],
-      "raw_ids": [
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ0hYS0xZV3FLTXRPbGxoS29NVW9BRkVvTUN2SVJHVi1oWTFEWmNVeWRjM2dCS0R4bDVIcTJ3b25CNkp6TW41anBBN083RjJRaVh2V0JZbWxXdko4dkxEbXRDYW5lZ3p0bTdzU0htN2xpQXNVT1RqeE54b3pOVGNCUDlUSWstd1g5anlfUktiX25PQVgxTzE3UXh0T1VLdw?oc=5"
-      ],
-      "related_ids": [],
-      "metadata": {}
     },
     {
       "id": "hrm-closure-621c72f28859d39d91",
@@ -10573,13 +11332,11 @@
       "location_precision": null,
       "severity": 1,
       "siren_score": 0,
-      "seriousness_score": 78,
-      "priority_score": 50,
-      "priority_band": "elevated",
+      "seriousness_score": 22,
+      "priority_score": 10,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response"
-      ],
+      "attention_reasons": [],
       "signals": [
         "active_street_closure",
         "planned_or_permitted_road_impact"
@@ -10934,22 +11691,11 @@
   ],
   "source_health": [
     {
-      "source": "Bluesky community search",
-      "url": "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=Halifax%20sirens",
-      "authority": "community",
-      "status": "error",
-      "checked_at": "2026-09-11T15:29:56Z",
-      "fetched_at": null,
-      "records": 0,
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=downtown+Halifax+emergency&limit=40&sort=latest",
-      "notes": "Broad public search across multiple Halifax emergency/disruption queries. Tries the direct AppView before the cached public host because unauthenticated search availability differs by host."
-    },
-    {
       "source": "Port of Halifax cruise schedule",
       "url": "https://www.portofhalifax.ca/cruise/cruise-schedule/",
       "authority": "official schedule",
       "status": "error",
-      "checked_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
       "fetched_at": null,
       "records": 0,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portofhalifax.ca/cruise/cruise-schedule/",
@@ -10960,19 +11706,30 @@
       "url": "https://511.novascotia.ca/list/events/traffic",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 0,
       "error": null,
       "notes": "Official traffic-event text report. Zero parsed rows can legitimately mean there are no listed HRM traffic events at collection time."
+    },
+    {
+      "source": "Bluesky community search",
+      "url": "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=Halifax%20sirens",
+      "authority": "community",
+      "status": "ok",
+      "checked_at": "2026-09-11T15:50:26Z",
+      "fetched_at": "2026-09-11T15:50:28Z",
+      "records": 261,
+      "error": null,
+      "notes": "Broad public search across multiple Halifax emergency/disruption queries. Tries the direct AppView before the cached public host because unauthenticated search availability differs by host."
     },
     {
       "source": "Bluesky local accounts",
       "url": "https://bsky.app/",
       "authority": "mixed",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 173,
       "error": null,
       "notes": "4/4 configured accounts reachable; includes official, community and automated mirrors."
@@ -10982,8 +11739,8 @@
       "url": "https://downtownhalifax.ca/events",
       "authority": "event listing",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 4,
       "error": null,
       "notes": "Only events whose published date range includes today are emitted as context."
@@ -10993,8 +11750,8 @@
       "url": "https://emergencyinfo.novascotia.ca/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 39,
       "error": null,
       "notes": "Provincial public-message ArcGIS view; avoids website TLS/rendering failures while preserving the same emergency-information source."
@@ -11004,8 +11761,8 @@
       "url": "https://weather.gc.ca/rss/battleboard/ns1_e.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 1,
       "error": null,
       "notes": "Halifax Metro and Halifax County West near-real-time public weather alert Atom feed."
@@ -11015,8 +11772,8 @@
       "url": "https://halifaxharbourbridges.ca/traffic/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 0,
       "error": null,
       "notes": "Live bridge traffic/closure page. Only disruption-like text is emitted into the incident timeline."
@@ -11026,9 +11783,9 @@
       "url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed/rss.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:56Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
-      "records": 64,
+      "checked_at": "2026-09-11T15:50:26Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
+      "records": 62,
       "error": null,
       "notes": "Official HRFE RSS dispatch feed with official HTML fallback. Response codes are retained verbatim and decoded into human-readable apparatus/command labels; inferred code expansions remain marked in metadata."
     },
@@ -11037,8 +11794,8 @@
       "url": "https://bsky.app/profile/hfxgov.bsky.social",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:56Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:26Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 32,
       "error": null,
       "notes": "Official HRM social updates filtered to disruption/public-safety terms. HRM directs residents to this account during emergency events."
@@ -11048,8 +11805,8 @@
       "url": "https://www.halifax.ca/home/news?category=25",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:56Z",
-      "fetched_at": "2026-09-11T15:29:58Z",
+      "checked_at": "2026-09-11T15:50:26Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 10,
       "error": null,
       "notes": "Official HRP releases; current release-card parser with a bounded dated-link fallback."
@@ -11059,8 +11816,8 @@
       "url": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:56Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:26Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 82,
       "error": null,
       "notes": "Official GTFS-Realtime alerts; data licensed under the Open Government Licence — Halifax."
@@ -11070,8 +11827,8 @@
       "url": "https://www.halifaxwater.ca/notices-and-news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:28Z",
       "records": 4,
       "error": null,
       "notes": null
@@ -11081,8 +11838,8 @@
       "url": "https://data-hrm.hub.arcgis.com/datasets/HRM::hrfe-incident-initial-response",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:56Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:26Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 200,
       "error": null,
       "notes": "Periodic HRFE open-data layer used as a second incident source/enrichment path. Source timestamps are preserved; no guessed offset correction is applied."
@@ -11092,8 +11849,8 @@
       "url": "https://bsky.app/profile/hrfeincidents.bsky.social",
       "authority": "secondary automated mirror",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 0,
       "error": null,
       "notes": "2/2 HRFE mirror accounts reachable. Primary mirror states it republishes the HRFE RSS incident feed and may lag by up to five minutes. Not operated by HRFE."
@@ -11103,8 +11860,8 @@
       "url": "https://services2.arcgis.com/11XBiaBYA9Ep0yNJ/ArcGIS/rest/services/Street_Closures_Active/FeatureServer/0",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:57Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 20,
       "error": null,
       "notes": "HRM's active planned/permitted street-closure layer. Useful context for blocked roads and unusual response routing; not an emergency feed."
@@ -11114,8 +11871,8 @@
       "url": "https://www.halifax.ca/home/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:56Z",
-      "fetched_at": "2026-09-11T15:29:58Z",
+      "checked_at": "2026-09-11T15:50:26Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 0,
       "error": null,
       "notes": "Current HRM newsroom filtered to public-safety, transportation and disruption terms."
@@ -11125,9 +11882,9 @@
       "url": "https://globalnews.ca/halifax/feed/",
       "authority": "news / aggregator",
       "status": "ok",
-      "checked_at": "2026-09-11T15:30:23Z",
-      "fetched_at": "2026-09-11T15:30:23Z",
-      "records": 97,
+      "checked_at": "2026-09-11T15:50:53Z",
+      "fetched_at": "2026-09-11T15:50:53Z",
+      "records": 98,
       "error": null,
       "notes": "6/11 feeds reachable. News reports are included as reports, not treated as dispatch confirmation."
     },
@@ -11136,8 +11893,8 @@
       "url": "https://outagemap.hfxdeploy.com/api/outages",
       "authority": "secondary",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:57Z",
-      "fetched_at": "2026-09-11T15:29:58Z",
+      "checked_at": "2026-09-11T15:50:27Z",
+      "fetched_at": "2026-09-11T15:50:28Z",
       "records": 1,
       "error": null,
       "notes": "Machine-readable helper linked to the official NSP map. Routine small outages are suppressed; threshold defaults to 100 customers."
@@ -11147,8 +11904,8 @@
       "url": "https://rcmp.ca/en/nova-scotia/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:56Z",
-      "fetched_at": "2026-09-11T15:30:01Z",
+      "checked_at": "2026-09-11T15:50:26Z",
+      "fetched_at": "2026-09-11T15:50:27Z",
       "records": 0,
       "error": null,
       "notes": "RCMP Nova Scotia releases filtered to HRM-area place names."
@@ -11158,8 +11915,8 @@
       "url": "https://www.reddit.com/r/halifax/new/",
       "authority": "community",
       "status": "ok",
-      "checked_at": "2026-09-11T15:29:58Z",
-      "fetched_at": "2026-09-11T15:29:58Z",
+      "checked_at": "2026-09-11T15:50:28Z",
+      "fetched_at": "2026-09-11T15:50:28Z",
       "records": 2,
       "error": null,
       "notes": "1/2 subreddits reachable via r/halifax:rss. JSON is preferred; Atom/RSS is the fallback. Usernames are not persisted."
