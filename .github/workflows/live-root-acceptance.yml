@@ -1,0 +1,54 @@
+name: Live root acceptance
+
+on:
+  push:
+    branches: [diagnostic/live-root-acceptance]
+    paths: [".github/workflows/live-root-acceptance.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify hosted root and live data
+        run: |
+          set -euo pipefail
+          root='https://jeremyhennessy.github.io/HalifaxNews/'
+          data='https://jeremyhennessy.github.io/HalifaxNews/public/data/incidents.json'
+
+          curl -fsSL "$root" -o /tmp/root.html
+          grep -q '<title>HFX Pulse</title>' /tmp/root.html
+          grep -q '<base href="./public/"' /tmp/root.html
+          grep -q 'id="sirenCards"' /tmp/root.html
+          if grep -q 'Jekyll SEO tag' /tmp/root.html; then
+            echo 'Root still contains legacy README/Jekyll wrapper' >&2
+            exit 1
+          fi
+
+          curl -fsSL "${root}public/assets/styles.css" >/dev/null
+          curl -fsSL "${root}public/assets/app.js" >/dev/null
+          curl -fsSL "$data" -o /tmp/incidents.json
+
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+
+          payload = json.load(open('/tmp/incidents.json', encoding='utf-8'))
+          print('generated_at:', payload.get('generated_at'))
+          print('incidents:', len(payload.get('incidents', [])))
+          health = {row['source']: row for row in payload.get('source_health', [])}
+          hrfe = health.get('Halifax Regional Fire & Emergency')
+          print('hrfe:', hrfe)
+          assert len(payload.get('incidents', [])) > 0
+          assert hrfe is not None
+          assert hrfe.get('status') == 'ok', hrfe
+          assert int(hrfe.get('records') or 0) > 0, hrfe
+          generated = datetime.fromisoformat(payload['generated_at'].replace('Z', '+00:00'))
+          age = (datetime.now(timezone.utc) - generated).total_seconds() / 60
+          print('dataset_age_minutes:', round(age, 1))
+          assert age < 30, age
+          PY
