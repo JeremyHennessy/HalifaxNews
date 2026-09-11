@@ -1,42 +1,47 @@
-name: Diagnose HRP live source
+name: Verify HRP live adapter
 
 on:
   push:
     branches: [fix/hrp-live-parser]
-    paths: [".github/workflows/diagnose-hrp.yml"]
+    paths:
+      - "hfxpulse/adapters/hrp.py"
+      - "tests/**"
+      - ".github/workflows/diagnose-hrp.yml"
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  inspect:
+  verify:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests beautifulsoup4
-      - name: Inspect current HRP release-card ancestor
+      - run: pip install -r requirements.txt
+      - name: Run regression suite
+        run: python -m unittest discover -s tests -v
+      - name: Verify live HRP adapter
         run: |
           python - <<'PY'
-          import requests
-          from bs4 import BeautifulSoup
+          from hfxpulse.adapters.hrp import fetch
 
-          url = 'https://www.halifax.ca/home/news?category=25'
-          r = requests.get(url, timeout=25, headers={'User-Agent':'HFXPulse/1.0 (+https://github.com/JeremyHennessy/HalifaxNews)'})
-          r.raise_for_status()
-          soup = BeautifulSoup(r.text, 'html.parser')
-          link = soup.select_one('a.c-news-updates__list-item-link[href*="/home/news/"]')
-          assert link is not None
-          print('link:', link.get('href'))
-          print('title:', link.get_text(' ', strip=True))
-          parent = link
-          for depth in range(1, 8):
-              parent = parent.parent
-              if parent is None: break
-              print('DEPTH', depth, 'tag=', parent.name, 'class=', parent.get('class'))
-              print('text=', parent.get_text(' ', strip=True)[:1200])
-              print('html=', str(parent)[:2200].replace('\n',' '))
+          result = fetch()
+          health = result.health
+          print('status:', health.status if health else None)
+          print('records:', len(result.incidents))
+          print('error:', health.error if health else None)
+          assert health is not None
+          assert health.status == 'ok', health.error
+          assert len(result.incidents) > 0
+          first = result.incidents[0]
+          print('first_title:', first.title)
+          print('first_reported_at:', first.reported_at)
+          print('first_summary:', first.summary)
+          print('first_url:', first.source_url)
+          assert first.reported_at
+          assert '/home/news/' in first.source_url
           PY
