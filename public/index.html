@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1118" />
+  <meta name="description" content="Fast, source-backed public incident intelligence for Halifax." />
+  <title>HFX Pulse</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://unpkg.com" crossorigin />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="HFX Pulse home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span><strong>HFX</strong> PULSE</span>
+    </a>
+    <div class="topbar-actions">
+      <span id="freshnessPill" class="status-pill"><span class="dot"></span> Loading</span>
+      <button id="refreshButton" class="icon-button" aria-label="Refresh data" title="Refresh data">↻</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div>
+        <p class="eyebrow">DOWNTOWN HALIFAX · PUBLIC SIGNALS</p>
+        <h1>What’s happening <em>right now?</em></h1>
+        <p class="lede">Dispatches, road events, transit disruption, police context, utilities, weather and community reports — normalized into one evidence-first timeline.</p>
+      </div>
+      <div class="hero-clock" aria-label="Current Halifax time">
+        <span id="clockTime">--:--</span>
+        <small id="clockDate">Halifax</small>
+      </div>
+    </section>
+
+    <section class="shell siren-section" aria-labelledby="sirenHeading">
+      <div class="section-title-row">
+        <div>
+          <p class="eyebrow">WHY THE SIRENS?</p>
+          <h2 id="sirenHeading">Likely siren activity</h2>
+        </div>
+        <span class="time-window">last 90 min</span>
+      </div>
+      <div id="sirenCards" class="siren-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="shell dashboard-grid">
+      <div class="panel feed-panel">
+        <div class="panel-header sticky-panel-header">
+          <div>
+            <p class="eyebrow">LIVE TIMELINE</p>
+            <h2>Halifax signals</h2>
+          </div>
+          <span id="visibleCount" class="count-badge">0</span>
+        </div>
+
+        <div class="filters" id="filters" aria-label="Incident filters">
+          <button class="filter active" data-filter="ALL">All</button>
+          <button class="filter" data-filter="FIRE">Fire</button>
+          <button class="filter" data-filter="RESCUE">Rescue</button>
+          <button class="filter" data-filter="EMS">EMS</button>
+          <button class="filter" data-filter="POLICE">Police</button>
+          <button class="filter" data-filter="TRAFFIC">Traffic</button>
+          <button class="filter" data-filter="TRANSIT">Transit</button>
+          <button class="filter" data-filter="UTILITY">Utilities</button>
+          <button class="filter" data-filter="WEATHER">Weather</button>
+          <button class="filter" data-filter="EMERGENCY">Emergency</button>
+          <button class="filter" data-filter="COMMUNITY">Community</button>
+        </div>
+
+        <div class="feed-controls">
+          <label><input id="downtownOnly" type="checkbox" checked /> Downtown focus</label>
+          <label><input id="officialOnly" type="checkbox" /> Official only</label>
+          <select id="timeRange" aria-label="Time range">
+            <option value="3">Last 3 hours</option>
+            <option value="12" selected>Last 12 hours</option>
+            <option value="24">Last 24 hours</option>
+            <option value="48">Last 48 hours</option>
+          </select>
+        </div>
+
+        <div id="incidentFeed" class="incident-feed" aria-live="polite"></div>
+      </div>
+
+      <aside class="right-column">
+        <div class="panel map-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">MAP</p>
+              <h2>Active locations</h2>
+            </div>
+            <span class="map-note">Approx. where noted</span>
+          </div>
+          <div id="map" aria-label="Map of Halifax incident signals"></div>
+          <div class="map-legend"><span><b class="legend-dot official"></b> Official/secondary</span><span><b class="legend-dot community"></b> Community</span></div>
+        </div>
+
+        <div class="panel health-panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">SOURCE HEALTH</p>
+              <h2>Collectors</h2>
+            </div>
+            <span id="sourceHealthSummary" class="health-summary">—</span>
+          </div>
+          <div id="sourceHealth" class="source-list"></div>
+        </div>
+
+        <div class="panel explanation-panel">
+          <p class="eyebrow">HOW TO READ THIS</p>
+          <h2>Evidence, not rumours</h2>
+          <p><strong>Official</strong> means the item came directly from a public authority feed or notice. <strong>Corroborated</strong> means at least two official sources appear to describe the same place and time. <strong>Community</strong> is context only and is explicitly unverified.</p>
+          <p class="emergency-note">This is not an emergency service. Call <strong>911</strong> for an emergency.</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="shell footer">
+    <span>HFX Pulse · public-source local intelligence</span>
+    <span id="generatedAt">No refresh yet</span>
+  </footer>
+
+  <template id="incidentTemplate">
+    <article class="incident-card">
+      <div class="incident-rail"></div>
+      <div class="incident-content">
+        <div class="incident-topline">
+          <div class="badges"></div>
+          <time></time>
+        </div>
+        <h3></h3>
+        <p class="incident-summary"></p>
+        <div class="incident-location"></div>
+        <div class="incident-meta"></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
