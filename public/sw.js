@@ -1,7 +1,10 @@
-const CACHE='hfx-pulse-shell-v1';
+const CACHE='hfx-pulse-shell-v2';
 const SHELL=['./','./index.html','./assets/styles.css','./assets/app.js','./manifest.webmanifest'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
+self.addEventListener('activate',e=>e.waitUntil(Promise.all([
+  caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE&&key.startsWith('hfx-pulse-shell-')).map(key=>caches.delete(key)))),
+  self.clients.claim()
+])));
 self.addEventListener('fetch',e=>{
   const u=new URL(e.request.url);
   if (u.pathname.endsWith('/data/incidents.json')) return;
