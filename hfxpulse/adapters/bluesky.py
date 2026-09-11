@@ -7,6 +7,7 @@ from hfxpulse.models import Incident
 from hfxpulse.util import clean_text, infer_category, infer_text_siren_score, iso_utc, keyword_hit, parse_datetime, stable_id
 
 API = "https://public.api.bsky.app/xrpc"
+SEARCH_APIS = ("https://api.bsky.app/xrpc", "https://public.api.bsky.app/xrpc")
 KEYWORDS = (
     "sirens", "siren", "police", "rcmp", "fire", "ambulance", "ehs", "smoke", "crash", "collision",
     "closed", "closure", "downtown", "barrington", "spring garden", "waterfront", "lower water", "quinpool",
@@ -19,8 +20,6 @@ AUTHOR_SOURCES = (
     ("hfxtransit.bsky.social", "Halifax Transit · Bluesky", "official", "official"),
     ("hfxevents.bsky.social", "Halifax Events · Bluesky", "official", "official"),
     ("halifaxnoise.bsky.social", "Halifax Noise · Bluesky", "community", "unverified"),
-    ("hrfe.bsky.social", "HRFE automated mirror · Bluesky", "secondary", "secondary"),
-    ("hrfeincidents.bsky.social", "HRFE Incidents automated mirror · Bluesky", "secondary", "secondary"),
 )
 
 SEARCH_QUERIES = (
@@ -113,13 +112,31 @@ def fetch_official_and_local() -> AdapterResult:
 
 
 def fetch_search() -> AdapterResult:
-    endpoint = f"{API}/app.bsky.feed.searchPosts"
+    endpoints = [f"{base}/app.bsky.feed.searchPosts" for base in SEARCH_APIS]
 
     def run() -> list[Incident]:
         rows: dict[str, Incident] = {}
         s = session()
-        for query in SEARCH_QUERIES:
-            res = s.get(endpoint, params={"q": query, "limit": 40, "sort": "latest"}, timeout=20)
+        working_endpoint = None
+        last_error = None
+        # The cached public AppView currently returns 403 for searchPosts in some deployments;
+        # api.bsky.app has remained readable without credentials. Probe deterministically.
+        for endpoint in endpoints:
+            try:
+                probe = s.get(endpoint, params={"q": SEARCH_QUERIES[0], "limit": 10, "sort": "latest"}, timeout=20)
+                probe.raise_for_status()
+                working_endpoint = endpoint
+                for post in (probe.json() or {}).get("posts", []):
+                    row = _to_incident(post or {}, "Bluesky community search", "community", "unverified", "bsky-search")
+                    if row:
+                        rows[row.id] = row
+                break
+            except Exception as exc:
+                last_error = exc
+        if not working_endpoint:
+            raise last_error or RuntimeError("No Bluesky search endpoint reachable")
+        for query in SEARCH_QUERIES[1:]:
+            res = s.get(working_endpoint, params={"q": query, "limit": 40, "sort": "latest"}, timeout=20)
             res.raise_for_status()
             for post in (res.json() or {}).get("posts", []):
                 row = _to_incident(post or {}, "Bluesky community search", "community", "unverified", "bsky-search")
@@ -129,8 +146,8 @@ def fetch_search() -> AdapterResult:
 
     return guarded_fetch(
         "Bluesky community search",
-        f"{endpoint}?q={quote('Halifax sirens')}",
+        f"{endpoints[0]}?q={quote('Halifax sirens')}",
         "community",
         run,
-        notes="Broad public search across multiple Halifax emergency/disruption queries. Posts are unverified context unless independently corroborated.",
+        notes="Broad public search across multiple Halifax emergency/disruption queries. Tries the direct AppView before the cached public host because unauthenticated search availability differs by host.",
     )

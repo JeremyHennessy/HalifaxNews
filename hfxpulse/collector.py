@@ -6,24 +6,28 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from hfxpulse.adapters import (
-    bluesky, bridges, downtown_events, emergency_ns, hfxgov_bluesky, hrfe, hrfe_open_data, hrp,
-    newsfeeds, ns511, ns_power, port_cruise, rcmp, reddit, transit, water, weather,
+    bluesky, bridges, downtown_events, emergency_ns, hfxgov_bluesky, hrfe, hrfe_mirror, hrfe_open_data, hrm_news, hrp,
+    newsfeeds, ns511, ns_power, port_cruise, rcmp, reddit, street_closures, transit, water, weather,
 )
 from hfxpulse.correlation import correlate
 from hfxpulse.geocode import enrich as geocode_enrich
 from hfxpulse.models import Incident, SourceHealth, utc_now_iso
+from hfxpulse.scoring import score_incidents
 from hfxpulse.util import parse_datetime
 
 ADAPTERS = [
     hrfe.fetch,
+    hrfe_mirror.fetch,
     hrfe_open_data.fetch,
     transit.fetch,
     hrp.fetch,
+    hrm_news.fetch,
     rcmp.fetch,
     hfxgov_bluesky.fetch,
     bluesky.fetch_official_and_local,
     bluesky.fetch_search,
     ns511.fetch,
+    street_closures.fetch,
     bridges.fetch,
     water.fetch,
     weather.fetch,
@@ -53,7 +57,7 @@ def _retain_history(existing: list[Incident], fresh: list[Incident], hours: int 
     kept = []
     for row in merged.values():
         dt = parse_datetime(row.reported_at)
-        if dt and dt >= cutoff:
+        if row.metadata.get("currently_active") is True or (dt and dt >= cutoff):
             kept.append(row)
     return kept
 
@@ -90,11 +94,12 @@ def collect(output: Path) -> dict:
     cache_path = output.parents[2] / "data" / "geocode_cache.json"
     geocode_enrich(rows, cache_path)
     correlate(rows)
+    score_incidents(rows)
     rows.sort(key=lambda r: parse_datetime(r.reported_at) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
     health.sort(key=lambda h: (h.status != "error", h.source.lower()))
 
     payload = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": utc_now_iso(),
         "history_hours": 48,
         "collector_count": len(ADAPTERS),

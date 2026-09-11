@@ -141,3 +141,29 @@ h1 em { color:var(--accent); font-style:normal; }
 .badge.reported { color:#79b8ff; background:rgba(101,168,255,.10); }
 .badge.secondary { color:#d3b7ff; background:rgba(183,156,255,.09); }
 .badge.listing { color:#7ddf9b; background:rgba(110,207,138,.09); }
+/* Priority / seriousness model */
+.priority-section { padding-bottom:28px; }
+.priority-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:14px; }
+.priority-card { display:grid; grid-template-columns:72px minmax(0,1fr); gap:15px; padding:17px; border:1px solid var(--line); border-radius:var(--radius); background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.018)); }
+.priority-score { display:flex; min-height:68px; border:1px solid var(--line); border-radius:14px; align-items:center; justify-content:center; flex-direction:column; background:rgba(255,255,255,.025); }
+.priority-score strong { font-size:24px; line-height:1; font-variant-numeric:tabular-nums; }
+.priority-score span { margin-top:5px; color:var(--muted); text-transform:uppercase; letter-spacing:.1em; font-size:8px; }
+.priority-body { min-width:0; }
+.priority-kicker { display:flex; gap:10px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em; font-size:9px; }
+.priority-card h3 { margin:7px 0 5px; font-size:16px; }
+.priority-card p { margin:0; color:var(--muted); font-size:12px; line-height:1.45; overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
+.priority-meta { margin-top:9px; color:var(--soft); font-size:10px; }
+.priority-card.band-critical { border-color:rgba(255,107,98,.34); background:linear-gradient(145deg,rgba(255,107,98,.13),rgba(255,255,255,.018)); }
+.priority-card.band-high { border-color:rgba(244,188,99,.28); }
+.priority-card.band-elevated { border-color:rgba(101,168,255,.24); }
+.badge.priority.low { color:var(--muted); }
+.badge.priority.moderate { color:#8ec7ff; background:rgba(101,168,255,.08); }
+.badge.priority.elevated { color:#f4bc63; background:rgba(244,188,99,.09); }
+.badge.priority.high, .badge.priority.critical { color:#ff8b83; background:rgba(255,107,98,.10); }
+.feed-controls select { margin-left:0; }
+.feed-controls select:last-of-type { margin-left:auto; }
+@media (max-width:700px) {
+  .priority-grid { grid-template-columns:1fr; }
+  .priority-card:nth-child(n+4) { display:none; }
+  .priority-card { grid-template-columns:60px minmax(0,1fr); padding:14px; gap:12px; }
+}

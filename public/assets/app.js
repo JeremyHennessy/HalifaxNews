@@ -14,6 +14,7 @@ const state = {
   downtownOnly: true,
   hideCommunity: false,
   hours: 12,
+  minPriority: 0,
   map: null,
   layer: null,
 };
@@ -51,6 +52,7 @@ function visibleRows() {
     if (state.category !== 'ALL' && row.category !== state.category) return false;
     if (state.downtownOnly && !isDowntown(row)) return false;
     if (state.hideCommunity && row.source_kind === 'community') return false;
+    if ((row.priority_score||0) < state.minPriority) return false;
     const age = minutesAgo(row.reported_at);
     return age !== null && age <= state.hours * 60;
   });
@@ -59,6 +61,33 @@ function categoryLabel(row) {
   const labels = {FIRE:'Fire',RESCUE:'Rescue',EMS:'EMS',POLICE:'Police',TRAFFIC:'Traffic',TRANSIT:'Transit',UTILITY:'Utility',WEATHER:'Weather',EMERGENCY:'Emergency',EVENT:'Event',MARINE:'Harbour',COMMUNITY:'Other'};
   return labels[row.category] || row.category;
 }
+
+function priorityLabel(row) {
+  const band = row.priority_band || 'low';
+  return `${band} ${row.priority_score ?? 0}`;
+}
+function renderPriority() {
+  const box = el('priorityCards');
+  if (!state.payload || !box) return;
+  const rows = state.payload.incidents
+    .filter(r => minutesAgo(r.reported_at) !== null && minutesAgo(r.reported_at) <= 6*60)
+    .filter(r => isDowntown(r) || (r.priority_score||0) >= 60)
+    .sort((a,b) => (b.priority_score||0)-(a.priority_score||0) || new Date(b.reported_at)-new Date(a.reported_at))
+    .slice(0,4);
+  box.innerHTML = '';
+  if (!rows.length) {
+    box.innerHTML = `<div class="empty-siren">No elevated recent signals in the current dataset.</div>`;
+    return;
+  }
+  rows.forEach(row => {
+    const card = document.createElement('article');
+    card.className = `priority-card band-${esc(row.priority_band||'low')}`;
+    const reasons = (row.attention_reasons||[]).slice(0,3).map(esc).join(' · ');
+    card.innerHTML = `<div class="priority-score"><strong>${row.priority_score||0}</strong><span>priority</span></div><div class="priority-body"><div class="priority-kicker"><span>${esc(categoryLabel(row))}</span><span>${esc(ageLabel(row.reported_at))}</span></div><h3>${esc(row.title)}</h3><p>${esc(row.location_text || row.summary || '')}</p><div class="priority-meta">Seriousness ${row.seriousness_score||0}${reasons?` · ${reasons}`:''}</div></div>`;
+    box.appendChild(card);
+  });
+}
+
 function confidenceLabel(row) {
   if (row.confidence === 'corroborated') return 'Linked signals';
   if (row.confidence === 'official') return row.source_kind === 'official_archive' ? 'First-party archive' : 'First-party';
@@ -70,6 +99,8 @@ function confidenceLabel(row) {
 function sourceMeta(row) {
   const bits = [esc(row.source)];
   if (row.metadata?.response) bits.push(`Units: ${esc(row.metadata.response)}`);
+  bits.push(`Seriousness ${row.seriousness_score||0}`);
+  if (row.impact_scope && row.impact_scope !== 'local') bits.push(esc(row.impact_scope));
   if (row.related_ids?.length) bits.push(`${row.related_ids.length} related signal${row.related_ids.length===1?'':'s'}`);
   return bits;
 }
@@ -88,7 +119,7 @@ function renderFeed() {
     const node = tpl.content.firstElementChild.cloneNode(true);
     node.classList.add(`category-${String(row.category).toLowerCase()}`);
     const badges = node.querySelector('.badges');
-    badges.innerHTML = `<span class="badge">${esc(categoryLabel(row))}</span><span class="badge ${esc(row.confidence)}">${esc(confidenceLabel(row))}</span>`;
+    badges.innerHTML = `<span class="badge">${esc(categoryLabel(row))}</span><span class="badge priority ${esc(row.priority_band||'low')}">${esc(priorityLabel(row))}</span><span class="badge ${esc(row.confidence)}">${esc(confidenceLabel(row))}</span>`;
     node.querySelector('time').textContent = ageLabel(row.reported_at);
     node.querySelector('h3').textContent = row.title;
     node.querySelector('.incident-summary').textContent = row.summary || '';
@@ -171,7 +202,7 @@ async function loadData({cacheBust=false}={}) {
     const res = await fetch(url, {cache:'no-store'});
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     state.payload = await res.json();
-    renderFreshness(); renderSirens(); renderHealth(); renderFeed();
+    renderFreshness(); renderPriority(); renderSirens(); renderHealth(); renderFeed();
   } catch (err) {
     el('freshnessPill').className='status-pill stale';
     el('freshnessPill').innerHTML='<span class="dot"></span> Data unavailable';
@@ -189,6 +220,7 @@ function wireControls() {
   }));
   el('downtownOnly').addEventListener('change',e=>{state.downtownOnly=e.target.checked;renderFeed();});
   el('hideCommunity').addEventListener('change',e=>{state.hideCommunity=e.target.checked;renderFeed();});
+  el('priorityRange').addEventListener('change',e=>{state.minPriority=Number(e.target.value);renderFeed();});
   el('timeRange').addEventListener('change',e=>{state.hours=Number(e.target.value);renderFeed();});
   el('refreshButton').addEventListener('click',()=>loadData({cacheBust:true}));
 }

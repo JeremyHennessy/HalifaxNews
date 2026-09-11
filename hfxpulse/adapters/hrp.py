@@ -11,11 +11,25 @@ from hfxpulse.util import clean_text, iso_utc, parse_datetime, stable_id
 
 URL = "https://www.halifax.ca/home/news?category=25"
 SOURCE = "Halifax Regional Police"
-
-POLICE_TERMS = (
-    "police", "collision", "road closure", "weapons", "firearm", "emergency", "missing", "arrest",
-    "traffic", "investigation", "bomb", "suspicious", "evacuation", "downtown", "waterfront"
+DATE_RE = re.compile(
+    r"(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+"
+    r"\d{1,2},\s+\d{4}(?:\s*(?:-\s*)?\d{1,2}:\d{2}\s*(?:AM|PM))?",
+    re.I,
 )
+
+
+def _nearest_dated_context(link) -> tuple[str, re.Match | None]:
+    node = link.parent
+    last = clean_text(link.get_text(" ", strip=True))
+    for _ in range(8):
+        if node is None:
+            break
+        last = clean_text(node.get_text(" ", strip=True))
+        match = DATE_RE.search(last)
+        if match:
+            return last, match
+        node = node.parent
+    return last, None
 
 
 def parse_hrp_html(html: str) -> list[Incident]:
@@ -30,34 +44,30 @@ def parse_hrp_html(html: str) -> list[Incident]:
         full = urljoin(URL, href)
         if full in seen:
             continue
-        seen.add(full)
-        container = link.find_parent(["article", "li", "div"]) or link.parent
-        context = clean_text(container.get_text(" ", strip=True) if container else title)
-        date_match = re.search(
-            r"(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}(?:\s+\d{1,2}:\d{2}\s*(?:AM|PM))?",
-            context,
-            re.I,
-        )
-        dt = parse_datetime(date_match.group(0)) if date_match else None
+        context, date_match = _nearest_dated_context(link)
+        if not date_match:
+            continue
+        dt = parse_datetime(date_match.group(0))
         if not dt:
             continue
-        reported = iso_utc(dt)
-        text = f"{title} {context}".lower()
-        severity = 2 if any(w in text for w in ("closure", "weapon", "firearm", "collision", "evac")) else 1
-        rows.append(
-            Incident(
-                id=f"hrp-{stable_id(full)}",
-                source=SOURCE,
-                source_url=full,
-                title=title,
-                summary=context[:500],
-                category="POLICE",
-                subtype="media_release",
-                reported_at=reported or "",
-                severity=severity,
-                signals=["official_release"],
-            )
-        )
+        seen.add(full)
+        reported = iso_utc(dt) or ""
+        lower = f"{title} {context}".lower()
+        severity = 2 if any(w in lower for w in ("closure", "weapon", "firearm", "collision", "evac", "shoot", "stabb")) else 1
+        rows.append(Incident(
+            id=f"hrp-{stable_id(full)}",
+            source=SOURCE,
+            source_url=full,
+            title=title,
+            summary=context[:700],
+            category="POLICE",
+            subtype="media_release",
+            reported_at=reported,
+            source_kind="official",
+            confidence="official",
+            severity=severity,
+            signals=["official_release"],
+        ))
     return rows
 
 

@@ -8,7 +8,7 @@ from hfxpulse.adapters.base import AdapterResult, guarded_fetch, session
 from hfxpulse.models import Incident
 from hfxpulse.util import HALIFAX_TZ, clean_text, iso_utc, parse_datetime, stable_id
 
-URL = "https://www.porthalifax.ca/cruise/cruise-schedule/"
+URL = "https://www.portofhalifax.ca/cruise/cruise-schedule/"
 SOURCE = "Port of Halifax cruise schedule"
 
 

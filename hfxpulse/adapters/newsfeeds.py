@@ -22,10 +22,16 @@ class Feed:
 
 FEEDS = (
     Feed("Global News Halifax", "https://globalnews.ca/halifax/feed/"),
-    Feed("Google News · Halifax emergency search", "https://news.google.com/rss/search?q=Halifax+Nova+Scotia+(fire+OR+police+OR+crash+OR+closure+OR+emergency+OR+sirens)&hl=en-CA&gl=CA&ceid=CA:en"),
-    Feed("Bing News · Halifax emergency search", "https://www.bing.com/news/search?q=Halifax+Nova+Scotia+fire+police+crash+emergency+sirens&format=rss"),
+    Feed("CBC Nova Scotia", "https://www.cbc.ca/webfeed/rss/rss-canada-novascotia"),
+    Feed("CTV News Atlantic", "https://atlantic.ctvnews.ca/rss/ctv-news-atlantic-public-rss-1.822315"),
+    Feed("Halifax Examiner", "https://www.halifaxexaminer.ca/feed/"),
+    Feed("The Coast Halifax", "https://www.thecoast.ca/halifax/Rss.xml?section=957802"),
     Feed("CityNews Halifax", "https://halifax.citynews.ca/feed/"),
     Feed("Waterfront Media Halifax", "https://waterfrontmediahfx.the902hxir.ca/feed/"),
+    Feed("Nova Scotia traffic advisories", "https://novascotia.ca/news/rss/traffic.asp"),
+    Feed("Nova Scotia Emergency Management", "https://novascotia.ca/news/rss/rss.asp?dept=107"),
+    Feed("Google News · Halifax emergency search", "https://news.google.com/rss/search?q=Halifax+Nova+Scotia+(fire+OR+police+OR+crash+OR+closure+OR+emergency+OR+sirens)&hl=en-CA&gl=CA&ceid=CA:en"),
+    Feed("Bing News · Halifax emergency search", "https://www.bing.com/news/search?q=Halifax+Nova+Scotia+fire+police+crash+emergency+sirens&format=rss"),
 )
 
 

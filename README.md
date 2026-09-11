@@ -93,3 +93,20 @@ GitHub scheduled workflows are **best-effort**, so `*/5 * * * *` is not a guaran
 - Nova Scotia Power uses a secondary machine-readable helper for ingestion while linking incident cards to the official outage map.
 - Reddit/Bluesky community searches are intentionally broad and can contain incorrect or speculative statements; provenance labels are part of the product contract.
 - Approximate geocoding never replaces the original source location text. Set `HFXPULSE_GEOCODE=0` to disable new network geocoding.
+
+## Priority and seriousness
+
+Every signal receives two independent scores:
+
+- **Seriousness (0–100):** estimated intrinsic public impact based on incident type, hazardous/violent terms, emergency response size, closures, utility customers affected and resolution state. Source authority is deliberately excluded.
+- **Priority (0–100):** what deserves attention now. It combines seriousness with recency, downtown relevance and independently matching signals.
+
+Priority bands are `low`, `moderate`, `elevated`, `high` and `critical`. A community report can therefore be high-priority while remaining explicitly `unverified`. Confidence and importance are separate concepts.
+
+Routine small Nova Scotia Power outages are suppressed by default below 100 customers unless the cause has a public-safety signal (for example a vehicle collision) or a smaller core-area outage crosses the reduced downtown threshold. Set `HFXPULSE_POWER_MIN_CUSTOMERS` to tune that threshold.
+
+
+
+### Build 002 source expansion
+
+Adds dedicated HRFE automated-feed mirrors, HRM active street closures, Emergency Info Nova Scotia ArcGIS messages, Reddit Atom fallback, more resilient HRP parsing, Bluesky search host fallback, and the current Port of Halifax cruise-schedule domain. Source provenance remains explicit; community and secondary sources are visible rather than treated as official facts.

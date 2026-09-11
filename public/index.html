@@ -36,6 +36,17 @@
       </div>
     </section>
 
+    <section class="shell priority-section" aria-labelledby="priorityHeading">
+      <div class="section-title-row">
+        <div>
+          <p class="eyebrow">PRIORITY NOW</p>
+          <h2 id="priorityHeading">What deserves attention</h2>
+        </div>
+        <span class="time-window">seriousness + recency + local impact</span>
+      </div>
+      <div id="priorityCards" class="priority-grid" aria-live="polite"></div>
+    </section>
+
     <section class="shell siren-section" aria-labelledby="sirenHeading">
       <div class="section-title-row">
         <div>
@@ -73,6 +84,12 @@
         <div class="feed-controls">
           <label><input id="downtownOnly" type="checkbox" checked /> Downtown focus</label>
           <label><input id="hideCommunity" type="checkbox" /> Hide community posts</label>
+          <select id="priorityRange" aria-label="Minimum priority">
+            <option value="0" selected>All priorities</option>
+            <option value="20">Moderate+</option>
+            <option value="40">Elevated+</option>
+            <option value="60">High+</option>
+          </select>
           <select id="timeRange" aria-label="Time range">
             <option value="3">Last 3 hours</option>
             <option value="12" selected>Last 12 hours</option>
@@ -105,7 +122,7 @@
         <div class="panel explanation-panel">
           <p class="eyebrow">HOW TO READ THIS</p>
           <h2>Everything, with provenance</h2>
-          <p>The default view includes all useful public signals we can collect. <strong>First-party</strong> is a direct authority or operator source. <strong>Linked signals</strong> means independent first-party records line up in place and time. <strong>News</strong>, <strong>secondary</strong>, <strong>event</strong> and <strong>community</strong> labels tell you what kind of evidence you are looking at rather than hiding it.</p>
+          <p>The default view includes broad public signals. <strong>Priority</strong> ranks what deserves attention now using seriousness, recency, downtown relevance and matching signals. <strong>Seriousness</strong> estimates potential public impact and is separate from source confidence. Community reports can therefore be important without being treated as confirmed.</p>
           <p class="emergency-note">Community and automated sources can be wrong. This is not an emergency service. Call <strong>911</strong> for an emergency.</p>
         </div>
       </aside>
