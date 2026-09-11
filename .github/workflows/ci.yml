@@ -45,9 +45,18 @@ jobs:
           print(f"incidents={len(p['incidents'])} sources={len(p['source_health'])} errors={len(errors)}")
           for row in errors:
               print(f"SOURCE_ERROR {row['source']}: {row.get('error')}")
-          critical = {'Halifax Regional Fire & Emergency', 'Halifax Transit GTFS-Realtime'}
           status = {s['source']: s['status'] for s in p['source_health']}
-          missing_or_bad = [name for name in critical if status.get(name) != 'ok']
-          if missing_or_bad:
-              raise SystemExit(f"Critical source compatibility failed: {missing_or_bad}")
+          hrfe_paths = {
+              'Halifax Regional Fire & Emergency',
+              'HRFE Incident Initial Response · Open Data',
+          }
+          hrfe_ok = any(status.get(name) == 'ok' for name in hrfe_paths)
+          transit_ok = status.get('Halifax Transit GTFS-Realtime') == 'ok'
+          failures = []
+          if not hrfe_ok:
+              failures.append('HRFE coverage (all configured HRFE paths failed)')
+          if not transit_ok:
+              failures.append('Halifax Transit GTFS-Realtime')
+          if failures:
+              raise SystemExit(f"Critical source compatibility failed: {failures}")
           PY
