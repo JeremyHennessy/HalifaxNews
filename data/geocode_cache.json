@@ -137,6 +137,12 @@
     "precision": "approximate_geocode",
     "query": "ROBIE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "SHINING WALK LOWER SACKVILLE": {
+    "lat": 44.7581704,
+    "lon": -63.6593544,
+    "precision": "approximate_geocode",
+    "query": "SHINING WALK, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "SOUTH PARK": {
     "lat": 44.6394911,
     "lon": -63.5783674,
