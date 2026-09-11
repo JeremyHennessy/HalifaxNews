@@ -1,0 +1,43 @@
+name: Diagnose Pages serving mode
+
+on:
+  push:
+    branches: [diagnostic/pages-serving]
+    paths: [".github/workflows/diagnose-pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Inspect Pages endpoints
+        shell: bash
+        run: |
+          set -u
+          probe() {
+            url="$1"
+            echo "=== $url ==="
+            code=$(curl -L -sS -o /tmp/body -w '%{http_code}' "$url" || true)
+            type=$(curl -L -sSI "$url" 2>/dev/null | awk 'BEGIN{IGNORECASE=1}/^content-type:/{print $0}' | tail -1 | tr -d '\r' || true)
+            echo "status=$code"
+            echo "$type"
+            echo "bytes=$(wc -c < /tmp/body)"
+            python - <<'PY'
+          from pathlib import Path
+          data = Path('/tmp/body').read_bytes()[:1200]
+          print(data.decode('utf-8', errors='replace'))
+          PY
+          }
+          probe "https://jeremyhennessy.github.io/HalifaxNews/"
+          probe "https://jeremyhennessy.github.io/HalifaxNews/data/incidents.json"
+          probe "https://jeremyhennessy.github.io/HalifaxNews/public/"
+          probe "https://jeremyhennessy.github.io/HalifaxNews/public/data/incidents.json"
+      - name: Inspect public Pages API metadata
+        run: |
+          code=$(curl -sS -o /tmp/pages.json -w '%{http_code}' -H 'Accept: application/vnd.github+json' -H 'X-GitHub-Api-Version: 2022-11-28' https://api.github.com/repos/JeremyHennessy/HalifaxNews/pages || true)
+          echo "pages_api_status=$code"
+          cat /tmp/pages.json
