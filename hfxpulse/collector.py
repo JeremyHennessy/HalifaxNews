@@ -12,6 +12,7 @@ from hfxpulse.adapters import (
 from hfxpulse.correlation import correlate
 from hfxpulse.geocode import enrich as geocode_enrich
 from hfxpulse.models import Incident, SourceHealth, utc_now_iso
+from hfxpulse.normalization import cluster_events, normalize_observations, suppress_noise
 from hfxpulse.scoring import score_incidents
 from hfxpulse.util import parse_datetime
 
@@ -92,18 +93,24 @@ def collect(output: Path) -> dict:
     existing = _read_existing(output)
     rows = _retain_history(existing, fresh)
     cache_path = output.parents[2] / "data" / "geocode_cache.json"
+    normalize_observations(rows)
+    rows = suppress_noise(rows)
     geocode_enrich(rows, cache_path)
     correlate(rows)
     score_incidents(rows)
+    events = cluster_events(rows)
     rows.sort(key=lambda r: parse_datetime(r.reported_at) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
     health.sort(key=lambda h: (h.status != "error", h.source.lower()))
 
     payload = {
-        "schema_version": 3,
+        "schema_version": 4,
         "generated_at": utc_now_iso(),
         "history_hours": 48,
         "collector_count": len(ADAPTERS),
         "incidents": [r.to_dict() for r in rows],
+        "events": [r.to_dict() for r in events],
+        "event_count": len(events),
+        "observation_count": len(rows),
         "source_health": [h.to_dict() for h in health],
         "disclaimer": "Broad public-information aggregator. Sources can be delayed, wrong or incomplete. Provenance is shown on every signal. For emergencies call 911.",
     }

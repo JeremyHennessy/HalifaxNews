@@ -28,7 +28,7 @@ def _category(kind: str) -> str:
     k = kind.upper()
     if "MEDICAL" in k:
         return "EMS"
-    if any(w in k for w in ("COLLISION", "RESCUE")):
+    if any(w in k for w in ("COLLISION", "RESCUE", "SALT WATER", "FRESH WATER", "ICE INCIDENT", "ICE RESCUE")):
         return "RESCUE"
     return "FIRE"
 

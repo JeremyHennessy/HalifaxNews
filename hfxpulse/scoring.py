@@ -83,7 +83,7 @@ def seriousness_score(row: Incident) -> tuple[int, list[str], str]:
         score = max(score, 62); reasons.append("hazardous material")
     elif "hazmat" in text:
         score = max(score, 48); reasons.append("hazmat response")
-    if _has(text, "water rescue", "missing swimmer", "person in water", "search and rescue"):
+    if _has(text, "water rescue", "salt water incident", "fresh water incident", "missing swimmer", "person in water", "drowning", "search and rescue"):
         score = max(score, 62); reasons.append("rescue operation")
     if _has(text, "entrapment", "rollover", "serious collision", "multi-vehicle", "multi vehicle"):
         score = max(score, 58); reasons.append("serious collision")

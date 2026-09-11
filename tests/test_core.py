@@ -177,3 +177,84 @@ class ExpandedSourceParserTests(unittest.TestCase):
         self.assertEqual(1, len(rows))
         self.assertEqual("TRAFFIC", rows[0].category)
         self.assertTrue(rows[0].metadata["currently_active"])
+
+class NormalizationTests(unittest.TestCase):
+    def test_matching_observations_cluster_into_one_event(self):
+        from hfxpulse.normalization import cluster_events, normalize_observations
+        from hfxpulse.scoring import score_incidents
+        a = Incident(
+            id='fire-a', source='HRFE', source_url='https://example.test/a', title='Structure fire',
+            summary='Crews responding', category='FIRE', subtype='STRUCTURE FIRE',
+            reported_at='2026-09-11T13:00:00Z', location_text='1500 BARRINGTON ST, HALIFAX',
+            source_kind='official', confidence='official', metadata={'call_number':'HF260001'}
+        )
+        b = Incident(
+            id='fire-b', source='Local News', source_url='https://example.test/b', title='Structure fire closes Barrington Street',
+            summary='Emergency crews are on scene downtown', category='FIRE',
+            reported_at='2026-09-11T13:10:00Z', location_text='Barrington Street, Halifax',
+            source_kind='news', confidence='reported'
+        )
+        normalize_observations([a,b])
+        score_incidents([a,b])
+        events = cluster_events([a,b])
+        self.assertEqual(1, len(events))
+        self.assertEqual(2, events[0].source_count)
+        self.assertEqual(2, events[0].evidence_count)
+        self.assertEqual('corroborated', events[0].confidence)
+
+    def test_different_incident_types_same_street_do_not_merge_without_similarity(self):
+        from hfxpulse.normalization import cluster_events, normalize_observations
+        from hfxpulse.scoring import score_incidents
+        fire = Incident(
+            id='fire', source='A', source_url='x', title='Alarm activation', summary='', category='FIRE',
+            reported_at='2026-09-11T13:00:00Z', location_text='Barrington St, Halifax'
+        )
+        crash = Incident(
+            id='crash', source='B', source_url='y', title='Vehicle collision', summary='', category='RESCUE',
+            reported_at='2026-09-11T13:15:00Z', location_text='Barrington St, Halifax'
+        )
+        normalize_observations([fire,crash])
+        score_incidents([fire,crash])
+        events = cluster_events([fire,crash])
+        self.assertEqual(2, len(events))
+
+    def test_normalization_strips_html_and_sets_controlled_fields(self):
+        from hfxpulse.normalization import normalize_observations
+        row = Incident(
+            id='n', source='News', source_url='x', title='<b>Fire</b> on Barrington',
+            summary='  smoke &amp; crews ', category='fire', reported_at='2026-09-11T13:00:00Z',
+            location_text='Barrington St, Halifax', source_kind='news', confidence='reported'
+        )
+        normalize_observations([row])
+        self.assertEqual('Fire on Barrington', row.title)
+        self.assertEqual('smoke & crews', row.summary)
+        self.assertEqual('FIRE', row.category)
+        self.assertEqual('news', row.source_class)
+        self.assertEqual('BARRINGTON', row.canonical_location)
+        self.assertEqual('DOWNTOWN', row.neighbourhood)
+
+class ApparatusDecoderTests(unittest.TestCase):
+    def test_decodes_lower_water_response(self):
+        from hfxpulse.apparatus import decode_response, response_summary
+        response = 'DC02 E02 E15 FB1 JRCC PCE Q13 STN02'
+        units = decode_response(response)
+        labels = {u['code']: u['label'] for u in units}
+        self.assertEqual('District Chief 2', labels['DC02'])
+        self.assertEqual('Engine 2', labels['E02'])
+        self.assertEqual('Engine 15', labels['E15'])
+        self.assertEqual('Fire Boat 1', labels['FB1'])
+        self.assertEqual('Joint Rescue Coordination Centre Halifax', labels['JRCC'])
+        self.assertEqual('Platoon Captain East', labels['PCE'])
+        self.assertEqual('Quint 13', labels['Q13'])
+        self.assertIn('Station 2', labels['STN02'])
+        summary = response_summary('SALT WATER INCIDENT', response)
+        self.assertIn('Marine search-and-rescue response', summary)
+        self.assertIn('Engines 2 and 15', summary)
+        self.assertIn('JRCC Halifax', summary)
+
+    def test_hrfe_salt_water_is_rescue(self):
+        from hfxpulse.adapters.hrfe import parse_hrfe_text
+        text = 'SALT WATER INCIDENT Location: LOWER WATER ST, HALIFAX Call Number: HF26000013629 Response: DC02 E02 E15 FB1 JRCC PCE Q13 STN02 September 11, 2026 at 08:01 AM'
+        rows = parse_hrfe_text(text)
+        self.assertEqual(1, len(rows))
+        self.assertEqual('RESCUE', rows[0].category)
