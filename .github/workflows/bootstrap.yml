@@ -4,7 +4,7 @@ on:
   push:
     branches: [build/hfx-pulse-mvp]
     paths:
-      - ".bootstrap/hfx-pulse.tgz.b64"
+      - ".bootstrap/part-*"
       - ".github/workflows/bootstrap.yml"
 
 permissions:
@@ -18,9 +18,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: build/hfx-pulse-mvp
+      - name: Reassemble and verify staged source package
+        run: |
+          cat .bootstrap/part-* > /tmp/hfx-pulse.tgz.b64
+          test "$(wc -c < /tmp/hfx-pulse.tgz.b64)" -eq 37356
+          base64 --decode /tmp/hfx-pulse.tgz.b64 > /tmp/hfx-pulse.tgz
+          echo "ef635ab15f8aa9def12ad9235add8b65cd26b93629241c81520bcb11295915c4  /tmp/hfx-pulse.tgz" | sha256sum --check --strict
+          tar -tzf /tmp/hfx-pulse.tgz >/dev/null
       - name: Expand staged source package
         run: |
-          base64 --decode .bootstrap/hfx-pulse.tgz.b64 | tar -xzf -
+          tar -xzf /tmp/hfx-pulse.tgz
           rm -rf .bootstrap
           rm -f .github/workflows/bootstrap.yml
       - name: Install test dependencies
