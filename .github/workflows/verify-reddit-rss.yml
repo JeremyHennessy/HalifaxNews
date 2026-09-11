@@ -3,7 +3,11 @@ name: Verify Reddit public Atom adapter
 on:
   push:
     branches: [fix/reddit-rss]
-    paths: [".github/workflows/verify-reddit-rss.yml"]
+    paths:
+      - "hfxpulse/adapters/reddit.py"
+      - "tests/fixtures/reddit_atom.xml"
+      - "tests/test_reddit.py"
+      - ".github/workflows/verify-reddit-rss.yml"
   workflow_dispatch:
 
 permissions:
@@ -20,10 +24,10 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - name: Run regression suite
-        run: python -m unittest discover -s tests -v
+        run: python -W error::DeprecationWarning -m unittest discover -s tests -v
       - name: Verify live Reddit Atom adapter and privacy boundary
         run: |
-          python - <<'PY'
+          python -W error::DeprecationWarning - <<'PY'
           from hfxpulse.adapters.reddit import fetch
 
           result = fetch()
@@ -33,7 +37,8 @@ jobs:
           print('error:', health.error if health else None)
           assert health is not None
           assert health.status == 'ok', health.error
-          assert len(result.incidents) >= 0
+          titles = {row.title.lower() for row in result.incidents}
+          assert 'adult ballet/barre downtown?' not in titles
           for row in result.incidents:
               assert row.confidence == 'unverified'
               assert row.source_kind == 'community'
@@ -42,5 +47,5 @@ jobs:
               assert '/u/' not in row.summary.lower()
               assert 'submitted by' not in row.summary.lower()
           for row in result.incidents[:5]:
-              print('item:', row.reported_at, '|', row.title, '|', row.source_url)
+              print('item:', row.reported_at, '|', row.title, '|', row.summary[:160], '|', row.source_url)
           PY
