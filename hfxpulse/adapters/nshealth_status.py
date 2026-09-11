@@ -11,12 +11,15 @@ from hfxpulse.util import clean_text, iso_utc, stable_id
 
 URL = "https://www.nshealth.ca/service-statuses-closures-and-cancellations"
 SOURCE = "Nova Scotia Health · urban HRM service disruptions"
-STATUS_MARKERS = {"disruption", "advisory", "emergency notice"}
-LOCALITY_RE = re.compile(r"^\(([^()]+),\s*NS\)$", re.I)
+STATUS_MARKERS = ("disruption", "advisory", "emergency notice")
+LOCALITY_RE = re.compile(r"^\(?\s*([^()]+?)(?:,\s*NS|,\s*Nova Scotia)\s*\)?$", re.I)
 URBAN_HRM_TERMS = (
     "halifax", "dartmouth", "bedford", "lower sackville", "sackville", "cole harbour",
     "eastern passage", "timberlea", "tantallon", "fall river", "hammonds plains", "spryfield",
 )
+SKIP_FACILITY_TOKENS = {
+    "learn more", "directions", "zone", "location", "location details", "service status",
+}
 
 
 def _is_urban_hrm(locality: str, facility: str) -> bool:
@@ -24,20 +27,43 @@ def _is_urban_hrm(locality: str, facility: str) -> bool:
     return any(term in text for term in URBAN_HRM_TERMS)
 
 
+def _marker(token: str) -> str | None:
+    lower = clean_text(token).lower().strip(" :-")
+    for marker in STATUS_MARKERS:
+        if lower == marker or lower.startswith(marker + " ") or lower.endswith(" " + marker):
+            return marker.title()
+    return None
+
+
+def _facility_before(block: list[str], locality_index: int) -> str:
+    for idx in range(locality_index - 1, 0, -1):
+        candidate = clean_text(block[idx])
+        if not candidate:
+            continue
+        if _marker(candidate):
+            continue
+        if candidate.lower() in SKIP_FACILITY_TOKENS:
+            continue
+        if len(candidate) <= 2:
+            continue
+        return candidate
+    return ""
+
+
 def _status_blocks(html: str) -> list[dict]:
-    """Parse the public status list using its text sequence, independent of CSS classes."""
+    """Parse the public status list using text order rather than site CSS classes."""
     soup = BeautifulSoup(html, "html.parser")
     main = soup.find("main") or soup
     tokens = [clean_text(value) for value in main.stripped_strings if clean_text(value)]
-    starts = [i for i, token in enumerate(tokens) if token.lower() in STATUS_MARKERS]
+    starts = [i for i, token in enumerate(tokens) if _marker(token)]
     rows: list[dict] = []
 
     for pos, start in enumerate(starts):
-        end = starts[pos + 1] if pos + 1 < len(starts) else min(len(tokens), start + 80)
+        end = starts[pos + 1] if pos + 1 < len(starts) else min(len(tokens), start + 120)
         block = tokens[start:end]
         locality_index = None
         locality = None
-        for idx, token in enumerate(block[1:15], start=1):
+        for idx, token in enumerate(block[1:40], start=1):
             match = LOCALITY_RE.match(token)
             if match:
                 locality_index = idx
@@ -45,23 +71,36 @@ def _status_blocks(html: str) -> list[dict]:
                 break
         if locality_index is None or not locality:
             continue
-        facility = clean_text(block[locality_index - 1]) if locality_index >= 2 else ""
+
+        facility = _facility_before(block, locality_index)
         if not facility:
             continue
-        service = clean_text(block[locality_index + 1]) if locality_index + 1 < len(block) else "Health service"
-        body = block[locality_index + 2:]
-        # Footer / navigation text can trail the last card. It is harmless but not useful.
+
+        service = "Health service"
+        for token in block[locality_index + 1: locality_index + 8]:
+            candidate = clean_text(token)
+            if not candidate:
+                continue
+            if _marker(candidate) or LOCALITY_RE.match(candidate):
+                continue
+            if candidate.lower() in {"learn more", "directions", "services"}:
+                continue
+            service = candidate
+            break
+
+        body = block[locality_index + 1:]
         trimmed: list[str] = []
         for token in body:
-            if token.lower().startswith("for emergencies, call") or token.lower() == "back to top":
+            lower = token.lower()
+            if lower.startswith("for emergencies, call") or lower == "back to top":
                 break
             trimmed.append(token)
         description = clean_text(" ".join(trimmed))
         rows.append({
-            "status": block[0].title(),
+            "status": _marker(block[0]) or clean_text(block[0]).title(),
             "facility": facility,
             "locality": locality,
-            "service": service or "Health service",
+            "service": service,
             "description": description,
         })
     return rows
