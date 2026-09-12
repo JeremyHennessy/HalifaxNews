@@ -89,11 +89,23 @@
     "precision": "approximate_geocode",
     "query": "CARRIE CRES, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "CASTLE HILL": {
+    "lat": 44.6851129,
+    "lon": -63.669723,
+    "precision": "approximate_geocode",
+    "query": "CASTLE HILL DR, HALIFAX, Nova Scotia, Canada"
+  },
   "CHAPAIS LOWER SACKVILLE": {
     "lat": 44.7645511,
     "lon": -63.6673341,
     "precision": "approximate_geocode",
     "query": "CHAPAIS DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "CIRCASSION COLE HARBOUR": {
+    "lat": 44.6792654,
+    "lon": -63.499104,
+    "precision": "approximate_geocode",
+    "query": "CIRCASSION DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "CONRAD LAWRENCETOWN": {
     "lat": 44.6498729,
@@ -131,6 +143,12 @@
     "precision": "approximate_geocode",
     "query": "EISENER BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "FIRST LAKE LOWER SACKVILLE": {
+    "lat": 44.7691107,
+    "lon": -63.6507334,
+    "precision": "approximate_geocode",
+    "query": "FIRST LAKE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "FLEETVIEW": {
     "lat": 44.6989508,
     "lon": -63.672875,
@@ -148,6 +166,12 @@
     "lon": -63.6894751,
     "precision": "approximate_geocode",
     "query": "GRENNAN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "HAMMONDS PLAINS HAMMONDS PLAINS": {
+    "lat": 44.7349786,
+    "lon": -63.8013291,
+    "precision": "approximate_geocode",
+    "query": "HAMMONDS PLAINS RD, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "HEATHERWOOD CRT": {
     "lat": 44.6711094,
@@ -257,6 +281,12 @@
     "precision": "approximate_geocode",
     "query": "PRIMROSE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "RIFLE RANGE BEDFORD": {
+    "lat": 44.7468404,
+    "lon": -63.6634227,
+    "precision": "approximate_geocode",
+    "query": "RIFLE RANGE LANE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "RIVERSIDE LOWER SACKVILLE": {
     "lat": 44.7821309,
     "lon": -63.6801896,
@@ -304,6 +334,12 @@
     "lon": -63.5742626,
     "precision": "approximate_geocode",
     "query": "SPRING GARDEN RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "STELLA PORTERS LAKE": {
+    "lat": 44.7436396,
+    "lon": -63.2801317,
+    "precision": "approximate_geocode",
+    "query": "STELLA DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "WILLIAMS": {
     "lat": 44.7124043,
