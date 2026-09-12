@@ -113,6 +113,12 @@
     "precision": "approximate_geocode",
     "query": "CATAMARAN RD, HALIFAX, Nova Scotia, Canada"
   },
+  "CHAIN LAKE": {
+    "lat": 44.6432376,
+    "lon": -63.6633454,
+    "precision": "approximate_geocode",
+    "query": "CHAIN LAKE DR, HALIFAX, Nova Scotia, Canada"
+  },
   "CHAPAIS LOWER SACKVILLE": {
     "lat": 44.7645511,
     "lon": -63.6673341,
@@ -238,6 +244,12 @@
     "lon": -63.7211158,
     "precision": "approximate_geocode",
     "query": "LAKE RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "LAKEVIEW MIDDLE SACKVILLE": {
+    "lat": 44.8056971,
+    "lon": -63.7461844,
+    "precision": "approximate_geocode",
+    "query": "LAKEVIEW AVE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "LANGBRAE": {
     "lat": 44.6674579,
@@ -371,11 +383,23 @@
     "precision": "approximate_geocode",
     "query": "STELLA DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "STUART HARRIS": {
+    "lat": 44.683859,
+    "lon": -63.5074462,
+    "precision": "approximate_geocode",
+    "query": "STUART HARRIS DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "TUPPER": {
     "lat": 44.6618746,
     "lon": -63.55444,
     "precision": "approximate_geocode",
     "query": "TUPPER ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "WATERSTONE RUN LUCASVILLE": {
+    "lat": 44.7613082,
+    "lon": -63.7347796,
+    "precision": "approximate_geocode",
+    "query": "WATERSTONE RUN, LUCASVILLE, Halifax, Nova Scotia, Canada"
   },
   "WILLIAMS": {
     "lat": 44.7124043,

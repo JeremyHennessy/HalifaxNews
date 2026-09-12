@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-12T20:43:45Z",
+  "generated_at": "2026-09-12T22:38:09Z",
   "history_hours": 48,
   "collector_count": 27,
   "incidents": [
@@ -11,7 +11,7 @@
       "title": "Maritime Heritage Festival Sep 12 2026 - Sep 13 2026 Maritime Museum of the Atlantic",
       "summary": "Maritime Heritage Festival Sep 12 2026 - Sep 13 2026 Maritime Museum of the Atlantic",
       "category": "EVENT",
-      "reported_at": "2026-09-12T20:43:04Z",
+      "reported_at": "2026-09-12T22:37:25Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -52,7 +52,7 @@
       "title": "Birdwatch - an Aerial Circus Show - presented by inesS Circus and Halifax Fringe Sep 12 2026 inesS Circus and Halifax Fringe Festival",
       "summary": "Birdwatch - an Aerial Circus Show - presented by inesS Circus and Halifax Fringe Sep 12 2026 inesS Circus and Halifax Fringe Festival",
       "category": "EVENT",
-      "reported_at": "2026-09-12T20:43:04Z",
+      "reported_at": "2026-09-12T22:37:25Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -87,6 +87,431 @@
       "metadata": {}
     },
     {
+      "id": "reddit-halifax-54b88a172c426d2cfa",
+      "source": "r/halifax",
+      "source_url": "https://www.reddit.com/r/halifax/comments/1weq8xw/angle_grinder_help/",
+      "title": "Angle Grinder Help",
+      "summary": "Hey Halifax! My bike lock seized up and wont let me open it anymore. I tried WD-40 with no luck. Thankfully its stuck on a way that I can still use the bike to get around. Does anyone know of a store open on Sundays where I could get the lock cut off? It's 12mm hardened metal so I think angle grinder is what is needed.",
+      "category": "COMMUNITY",
+      "reported_at": "2026-09-12T22:28:43Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "community_report",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 16,
+      "seriousness_score": 10,
+      "source_class": "community",
+      "event_type": "community_report",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 25,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "very recent"
+      ],
+      "signals": [
+        "community_report",
+        "unverified"
+      ],
+      "raw_ids": [
+        "1weq8xw"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "subreddit": "halifax",
+        "transport": "rss"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013723",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013723",
+      "title": "Alarms",
+      "summary": "Emergency response: Engine 5, Quint 7, Tanker 58, and Station 58 assignment.",
+      "category": "FIRE",
+      "reported_at": "2026-09-12T21:54:31Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "ALARMS",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "BRENTWOOD AVE, TIMBERLEA",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 69,
+      "seriousness_score": 40,
+      "source_class": "first_party",
+      "event_type": "fire_alarm",
+      "canonical_location": "BRENTWOOD TIMBERLEA",
+      "neighbourhood": null,
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 45,
+      "priority_band": "elevated",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "multiple responding units (3)",
+        "recent"
+      ],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013723"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013723",
+        "response": "E05 Q07 STN58 T58",
+        "decoded_units": [
+          {
+            "code": "E05",
+            "label": "Engine 5",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "Q07",
+            "label": "Quint 7",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN58",
+            "label": "Station 58 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          },
+          {
+            "code": "T58",
+            "label": "Tanker 58",
+            "kind": "apparatus",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E05 — Engine 5 · Q07 — Quint 7 · STN58 — Station 58 assignment · T58 — Tanker 58",
+        "response_summary": "Emergency response: Engine 5, Quint 7, Tanker 58, and Station 58 assignment.",
+        "decoded_response": [
+          {
+            "code": "E05",
+            "label": "Engine 5",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "Q07",
+            "label": "Quint 7",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN58",
+            "label": "Station 58 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "T58",
+            "label": "Tanker 58",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": []
+      }
+    },
+    {
+      "id": "hrfe-hf26000013722",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013722",
+      "title": "Motor Vehicle Collision",
+      "summary": "Rescue response: Engine 5 and Station 5 assignment.",
+      "category": "RESCUE",
+      "reported_at": "2026-09-12T21:02:43Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SUSIE LAKE CRES, BEECHVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 62,
+      "seriousness_score": 38,
+      "source_class": "first_party",
+      "event_type": "collision",
+      "canonical_location": "SUSIE LAKE CRES BEECHVILLE",
+      "neighbourhood": null,
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 34,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "collision"
+      ],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013722"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013722",
+        "response": "E05 STN05",
+        "decoded_units": [
+          {
+            "code": "E05",
+            "label": "Engine 5",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN05",
+            "label": "Station 5 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E05 — Engine 5 · STN05 — Station 5 assignment",
+        "response_summary": "Rescue response: Engine 5 and Station 5 assignment.",
+        "decoded_response": [
+          {
+            "code": "E05",
+            "label": "Engine 5",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN05",
+            "label": "Station 5 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": []
+      }
+    },
+    {
+      "id": "nsemergency-682b7eb5611f74225c",
+      "source": "Emergency Info Nova Scotia",
+      "source_url": "https://emergencymanagement-albanygis.hub.arcgis.com/",
+      "title": "Moonshine Fire",
+      "summary": "Fire burning in Albany County, WY, in the Laramie Range. · Go! Evacuate now! Bookout Ranch Area of Albany County, WY. Moonshine Fire Advancing from the South. Leave the area immediately on 9/11/2026 at 12:55 PM. The fire is 6,801.9 acres per the perimeter uploaded to the National Interagency Fire Center (NIFC), visible on the Watch Duty map under Active Fire Perimeters on 9/12/2026 at 12:39 PM. The fire is now 26% contained, per the National Interagency Fire Center (NIFC) on 9/11/2026 at 5:06 PM. · Go! Evacuate now! Leave immediately!",
+      "category": "EMERGENCY",
+      "reported_at": "2026-09-12T20:57:06Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "active_event",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 3,
+      "siren_score": 0,
+      "seriousness_score": 44,
+      "source_class": "first_party",
+      "event_type": "evacuation",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 39,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_active_event",
+        "provincial_emergency"
+      ],
+      "raw_ids": [
+        "5674b9d0-8f68-4b53-8030-66c016cbc124"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "status": "Yes",
+        "action_required": "Yes",
+        "action_message": "Go! Evacuate now! Leave immediately!"
+      }
+    },
+    {
+      "id": "hrfe-hf26000013721",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013721",
+      "title": "Fire Structure",
+      "summary": "Structure-fire response: Engines 2, 3, and 4, Aerial 3, Station 3 assignment, and Tactical Unit 12, under District Chief 2 and Platoon Captain East (inferred).",
+      "category": "FIRE",
+      "reported_at": "2026-09-12T20:51:07Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "FIRE STRUCTURE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "WINDCREST TERR, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 3,
+      "siren_score": 85,
+      "seriousness_score": 90,
+      "source_class": "first_party",
+      "event_type": "police_operation",
+      "canonical_location": "WINDCREST TERR",
+      "neighbourhood": null,
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 72,
+      "priority_band": "high",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "tactical response",
+        "multi-unit response (7 units)"
+      ],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013721"
+      ],
+      "related_ids": [],
+      "metadata": {
+        "call_number": "HF26000013721",
+        "response": "A03 DC02 E02 E03 E04 PCE STN03 TCT12",
+        "decoded_units": [
+          {
+            "code": "A03",
+            "label": "Aerial 3",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "DC02",
+            "label": "District Chief 2",
+            "kind": "command",
+            "confidence": "verified"
+          },
+          {
+            "code": "E02",
+            "label": "Engine 2",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "E03",
+            "label": "Engine 3",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "E04",
+            "label": "Engine 4",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "PCE",
+            "label": "Platoon Captain East",
+            "kind": "command",
+            "confidence": "inferred"
+          },
+          {
+            "code": "STN03",
+            "label": "Station 3 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          },
+          {
+            "code": "TCT12",
+            "label": "Tactical Unit 12",
+            "kind": "specialty",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "A03 — Aerial 3 · DC02 — District Chief 2 · E02 — Engine 2 · E03 — Engine 3 · E04 — Engine 4 · PCE — Platoon Captain East (inferred) · STN03 — Station 3 assignment · TCT12 — Tactical Unit 12",
+        "response_summary": "Structure-fire response: Engines 2, 3, and 4, Aerial 3, Station 3 assignment, and Tactical Unit 12, under District Chief 2 and Platoon Captain East (inferred).",
+        "decoded_response": [
+          {
+            "code": "A03",
+            "label": "Aerial 3",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "DC02",
+            "label": "District Chief 2",
+            "kind": "command",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "E02",
+            "label": "Engine 2",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "E03",
+            "label": "Engine 3",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "E04",
+            "label": "Engine 4",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "PCE",
+            "label": "Platoon Captain East",
+            "kind": "command",
+            "certainty": "inferred"
+          },
+          {
+            "code": "STN03",
+            "label": "Station 3 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "TCT12",
+            "label": "Tactical Unit 12",
+            "kind": "specialty",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": []
+      }
+    },
+    {
       "id": "transit-b25aa925ac66639eca",
       "source": "Halifax Transit GTFS-Realtime",
       "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
@@ -114,11 +539,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 37,
+      "priority_score": 24,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
-        "very recent",
         "downtown relevance"
       ],
       "signals": [
@@ -148,11 +572,11 @@
       "updated_at": null,
       "status": "active",
       "location_text": "WATERSTONE RUN, LUCASVILLE",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.7613082,
+      "lon": -63.7347796,
+      "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 72,
+      "siren_score": 54,
       "seriousness_score": 34,
       "source_class": "first_party",
       "event_type": "fire_incident",
@@ -162,12 +586,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 44,
-      "priority_band": "elevated",
+      "priority_score": 31,
+      "priority_band": "moderate",
       "impact_scope": "local",
-      "attention_reasons": [
-        "very recent"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_dispatch",
         "responding_units"
@@ -230,7 +652,7 @@
       "lon": null,
       "location_precision": "street_or_intersection",
       "severity": 2,
-      "siren_score": 56,
+      "siren_score": 44,
       "seriousness_score": 28,
       "source_class": "first_party",
       "event_type": "medical_response",
@@ -240,12 +662,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 36,
+      "priority_score": 27,
       "priority_band": "moderate",
       "impact_scope": "local",
-      "attention_reasons": [
-        "recent"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_dispatch",
         "responding_units"
@@ -318,12 +738,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 25,
-      "priority_band": "moderate",
+      "priority_score": 16,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "recent"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -365,12 +783,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 25,
-      "priority_band": "moderate",
+      "priority_score": 16,
+      "priority_band": "low",
       "impact_scope": "local",
-      "attention_reasons": [
-        "recent"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_realtime_feed"
       ],
@@ -398,11 +814,11 @@
       "updated_at": null,
       "status": "active",
       "location_text": "CHAIN LAKE DR, HALIFAX",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6432376,
+      "lon": -63.6633454,
+      "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 74,
+      "siren_score": 62,
       "seriousness_score": 38,
       "source_class": "first_party",
       "event_type": "collision",
@@ -412,12 +828,11 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 43,
-      "priority_band": "elevated",
+      "priority_score": 34,
+      "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
-        "collision",
-        "recent"
+        "collision"
       ],
       "signals": [
         "official_dispatch",
@@ -477,11 +892,11 @@
       "updated_at": null,
       "status": "active",
       "location_text": "LAKEVIEW AVE, MIDDLE SACKVILLE",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.8056971,
+      "lon": -63.7461844,
+      "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 60,
+      "siren_score": 54,
       "seriousness_score": 34,
       "source_class": "first_party",
       "event_type": "fire_incident",
@@ -491,13 +906,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 43,
-      "priority_band": "elevated",
+      "priority_score": 31,
+      "priority_band": "moderate",
       "impact_scope": "local",
-      "attention_reasons": [
-        "within 90 minutes",
-        "downtown relevance"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_dispatch",
         "responding_units"
@@ -544,11 +956,11 @@
       "updated_at": null,
       "status": "active",
       "location_text": "STUART HARRIS DR, DARTMOUTH",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.683859,
+      "lon": -63.5074462,
+      "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 62,
+      "siren_score": 56,
       "seriousness_score": 48,
       "source_class": "first_party",
       "event_type": "hazmat",
@@ -558,12 +970,11 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 46,
+      "priority_score": 42,
       "priority_band": "elevated",
       "impact_scope": "local",
       "attention_reasons": [
-        "hazmat response",
-        "within 90 minutes"
+        "hazmat response"
       ],
       "signals": [
         "official_dispatch",
@@ -627,7 +1038,7 @@
       "lon": null,
       "location_precision": "street_or_intersection",
       "severity": 2,
-      "siren_score": 60,
+      "siren_score": 54,
       "seriousness_score": 34,
       "source_class": "first_party",
       "event_type": "fire_incident",
@@ -637,11 +1048,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 43,
-      "priority_band": "elevated",
+      "priority_score": 39,
+      "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
-        "within 90 minutes",
         "downtown relevance"
       ],
       "signals": [
@@ -792,8 +1202,8 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 42,
-      "priority_band": "elevated",
+      "priority_score": 37,
+      "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
         "collision",
@@ -871,7 +1281,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 31,
+      "priority_score": 26,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [],
@@ -935,7 +1345,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 36,
+      "priority_score": 31,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
@@ -1037,7 +1447,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 35,
+      "priority_score": 30,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
@@ -1103,7 +1513,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 36,
+      "priority_score": 31,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
@@ -7097,7 +7507,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-09-12T20:43:30Z",
+      "updated_at": "2026-09-12T22:37:50Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -7398,7 +7808,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 11,
+      "priority_score": 3,
       "priority_band": "low",
       "impact_scope": "local",
       "attention_reasons": [],
@@ -7443,7 +7853,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 29,
+      "priority_score": 21,
       "priority_band": "moderate",
       "impact_scope": "citywide",
       "attention_reasons": [],
@@ -7488,8 +7898,8 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 22,
-      "priority_band": "moderate",
+      "priority_score": 14,
+      "priority_band": "low",
       "impact_scope": "local",
       "attention_reasons": [],
       "signals": [
@@ -7564,7 +7974,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 29,
+      "priority_score": 21,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
@@ -8563,7 +8973,7 @@
       "source_kind": "official",
       "confidence": "corroborated",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-09-12T20:43:30Z",
+      "updated_at": "2026-09-12T22:37:50Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -19301,673 +19711,6 @@
       }
     },
     {
-      "id": "hrfe-hf26000013601",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013601",
-      "title": "Fire Structure",
-      "summary": "Structure-fire response: Engines 9, 45, and 48, Aerial 9, Tankers 10 and 48, Station 48 assignment, and Tactical Unit 8, under District Chief 4, Platoon Captain Volunteer 4 East, and Platoon Captain West (inferred).",
-      "category": "FIRE",
-      "reported_at": "2026-09-10T22:15:32Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "FIRE STRUCTURE",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "CARRIE CRES, BEAVER BANK",
-      "lat": 44.8279996,
-      "lon": -63.6837235,
-      "location_precision": "approximate_geocode",
-      "severity": 3,
-      "siren_score": 85,
-      "seriousness_score": 96,
-      "source_class": "first_party",
-      "event_type": "police_operation",
-      "canonical_location": "CARRIE CRES BEAVER BANK",
-      "neighbourhood": null,
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 63,
-      "priority_band": "high",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "tactical response",
-        "large emergency response (10 units)"
-      ],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013601"
-      ],
-      "related_ids": [],
-      "metadata": {
-        "call_number": "HF26000013601",
-        "response": "A09 DC04 E09 E45 E48 PCV4E PCW STN48 T10 T48 TCT08",
-        "decoded_units": [
-          {
-            "code": "A09",
-            "label": "Aerial 9",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "DC04",
-            "label": "District Chief 4",
-            "kind": "command",
-            "confidence": "verified"
-          },
-          {
-            "code": "E09",
-            "label": "Engine 9",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "E45",
-            "label": "Engine 45",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "E48",
-            "label": "Engine 48",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "PCV4E",
-            "label": "Platoon Captain Volunteer 4 East",
-            "kind": "command",
-            "confidence": "verified"
-          },
-          {
-            "code": "PCW",
-            "label": "Platoon Captain West",
-            "kind": "command",
-            "confidence": "inferred"
-          },
-          {
-            "code": "STN48",
-            "label": "Station 48 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          },
-          {
-            "code": "T10",
-            "label": "Tanker 10",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "T48",
-            "label": "Tanker 48",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "TCT08",
-            "label": "Tactical Unit 8",
-            "kind": "specialty",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "A09 — Aerial 9 · DC04 — District Chief 4 · E09 — Engine 9 · E45 — Engine 45 · E48 — Engine 48 · PCV4E — Platoon Captain Volunteer 4 East · PCW — Platoon Captain West (inferred) · STN48 — Station 48 assignment · T10 — Tanker 10 · T48 — Tanker 48 · TCT08 — Tactical Unit 8",
-        "response_summary": "Structure-fire response: Engines 9, 45, and 48, Aerial 9, Tankers 10 and 48, Station 48 assignment, and Tactical Unit 8, under District Chief 4, Platoon Captain Volunteer 4 East, and Platoon Captain West (inferred).",
-        "decoded_response": [
-          {
-            "code": "A09",
-            "label": "Aerial 9",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "DC04",
-            "label": "District Chief 4",
-            "kind": "command",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "E09",
-            "label": "Engine 9",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "E45",
-            "label": "Engine 45",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "E48",
-            "label": "Engine 48",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "PCV4E",
-            "label": "Platoon Captain Volunteer 4 East",
-            "kind": "command",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "PCW",
-            "label": "Platoon Captain West",
-            "kind": "command",
-            "certainty": "inferred"
-          },
-          {
-            "code": "STN48",
-            "label": "Station 48 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "T10",
-            "label": "Tanker 10",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "T48",
-            "label": "Tanker 48",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "TCT08",
-            "label": "Tactical Unit 8",
-            "kind": "specialty",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": []
-      }
-    },
-    {
-      "id": "bsky-search-2f8958e788b962bb0f",
-      "source": "Bluesky · @hrfeincidents.bsky.social",
-      "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3mv735l6te52l",
-      "title": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 Thu, 10 Sep 2026 19:10:33 -0300",
-      "summary": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 Thu, 10 Sep 2026 19:10:33 -0300",
-      "category": "FIRE",
-      "reported_at": "2026-09-10T22:13:29Z",
-      "source_kind": "community",
-      "confidence": "unverified",
-      "subtype": "social_post",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 2,
-      "siren_score": 19,
-      "seriousness_score": 34,
-      "source_class": "community",
-      "event_type": "fire_incident",
-      "canonical_location": null,
-      "neighbourhood": "DOWNTOWN",
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 24,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance"
-      ],
-      "signals": [
-        "community_social"
-      ],
-      "raw_ids": [
-        "at://did:plc:7gcf655grv6pgbxffh4ouzub/app.bsky.feed.post/3mv735l6te52l"
-      ],
-      "related_ids": [],
-      "metadata": {
-        "handle": "hrfeincidents.bsky.social"
-      }
-    },
-    {
-      "id": "bsky-search-1925bafb6786820710",
-      "source": "Bluesky · @hrfe.bsky.social",
-      "source_url": "https://bsky.app/profile/hrfe.bsky.social/post/3mv72ysyo7i2v",
-      "title": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 📅 2026-09-10 • 19:10 UTC",
-      "summary": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 📅 2026-09-10 • 19:10 UTC",
-      "category": "FIRE",
-      "reported_at": "2026-09-10T22:10:49Z",
-      "source_kind": "community",
-      "confidence": "unverified",
-      "subtype": "social_post",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 2,
-      "siren_score": 19,
-      "seriousness_score": 34,
-      "source_class": "community",
-      "event_type": "fire_incident",
-      "canonical_location": null,
-      "neighbourhood": "DOWNTOWN",
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 24,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance"
-      ],
-      "signals": [
-        "community_social"
-      ],
-      "raw_ids": [
-        "at://did:plc:uztzon76h6zi3nkjig4wqkur/app.bsky.feed.post/3mv72ysyo7i2v"
-      ],
-      "related_ids": [],
-      "metadata": {
-        "handle": "hrfe.bsky.social"
-      }
-    },
-    {
-      "id": "hrfe-hf26000013600",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013600",
-      "title": "Outside Fire",
-      "summary": "Emergency response: Engine 3 and Station 3 assignment.",
-      "category": "FIRE",
-      "reported_at": "2026-09-10T22:10:33Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "OUTSIDE FIRE",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "BARRINGTON ST, HALIFAX",
-      "lat": 44.652306,
-      "lon": -63.5775196,
-      "location_precision": "approximate_geocode",
-      "severity": 2,
-      "siren_score": 54,
-      "seriousness_score": 34,
-      "source_class": "first_party",
-      "event_type": "fire_incident",
-      "canonical_location": "BARRINGTON",
-      "neighbourhood": "DOWNTOWN",
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 26,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance"
-      ],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013600"
-      ],
-      "related_ids": [],
-      "metadata": {
-        "call_number": "HF26000013600",
-        "response": "E03 STN03",
-        "decoded_units": [
-          {
-            "code": "E03",
-            "label": "Engine 3",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN03",
-            "label": "Station 3 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E03 — Engine 3 · STN03 — Station 3 assignment",
-        "response_summary": "Emergency response: Engine 3 and Station 3 assignment.",
-        "decoded_response": [
-          {
-            "code": "E03",
-            "label": "Engine 3",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN03",
-            "label": "Station 3 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": []
-      }
-    },
-    {
-      "id": "hrfe-hf26000013599",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013599",
-      "title": "Medical Assistance",
-      "summary": "Medical first-response: Engines 45 and 47 and Station 47 assignment.",
-      "category": "EMS",
-      "reported_at": "2026-09-10T21:09:36Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "MEDICAL ASSISTANCE",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "SKY BLVD, GOFFS",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
-      "severity": 2,
-      "siren_score": 48,
-      "seriousness_score": 28,
-      "source_class": "first_party",
-      "event_type": "medical_response",
-      "canonical_location": "SKY GOFFS",
-      "neighbourhood": null,
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 14,
-      "priority_band": "low",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013599"
-      ],
-      "related_ids": [],
-      "metadata": {
-        "call_number": "HF26000013599",
-        "response": "E45 E47 STN47",
-        "decoded_units": [
-          {
-            "code": "E45",
-            "label": "Engine 45",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "E47",
-            "label": "Engine 47",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN47",
-            "label": "Station 47 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E45 — Engine 45 · E47 — Engine 47 · STN47 — Station 47 assignment",
-        "response_summary": "Medical first-response: Engines 45 and 47 and Station 47 assignment.",
-        "decoded_response": [
-          {
-            "code": "E45",
-            "label": "Engine 45",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "E47",
-            "label": "Engine 47",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN47",
-            "label": "Station 47 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": []
-      }
-    },
-    {
-      "id": "nsemergency-af10d6f99f6c545c86",
-      "source": "Emergency Info Nova Scotia",
-      "source_url": "https://emergencymanagement-albanygis.hub.arcgis.com/",
-      "title": "Moonshine Fire",
-      "summary": "Fire burning in Albany County, WY, in the Laramie Range · The fire is 3,928.5 acres, per the perimeter uploaded to the National Interagency Fire Center (NIFC), which is visible on the Watch Duty Map under the Active Fire Perimeters map layer on 9/10/2026 at 12:20 PM.",
-      "category": "EMERGENCY",
-      "reported_at": "2026-09-10T21:02:10Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "active_event",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 3,
-      "siren_score": 0,
-      "seriousness_score": 44,
-      "source_class": "first_party",
-      "event_type": "weather_warning",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 26,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_active_event",
-        "provincial_emergency"
-      ],
-      "raw_ids": [
-        "bd9527ad-dcdb-4b8f-863f-85bc717d6fc7"
-      ],
-      "related_ids": [],
-      "metadata": {
-        "status": "Yes",
-        "action_required": "No",
-        "action_message": ""
-      }
-    },
-    {
-      "id": "hrfe-hf26000013598",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013598",
-      "title": "Medical Assistance",
-      "summary": "Medical first-response: Engine 18 and Station 17 assignment.",
-      "category": "EMS",
-      "reported_at": "2026-09-10T20:50:36Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "MEDICAL ASSISTANCE",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "HANNEBURY DR, COLE HARBOUR",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
-      "severity": 2,
-      "siren_score": 44,
-      "seriousness_score": 28,
-      "source_class": "first_party",
-      "event_type": "medical_response",
-      "canonical_location": "HANNEBURY COLE HARBOUR",
-      "neighbourhood": null,
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 14,
-      "priority_band": "low",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013598"
-      ],
-      "related_ids": [],
-      "metadata": {
-        "call_number": "HF26000013598",
-        "response": "E18 STN17",
-        "decoded_units": [
-          {
-            "code": "E18",
-            "label": "Engine 18",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN17",
-            "label": "Station 17 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E18 — Engine 18 · STN17 — Station 17 assignment",
-        "response_summary": "Medical first-response: Engine 18 and Station 17 assignment.",
-        "decoded_response": [
-          {
-            "code": "E18",
-            "label": "Engine 18",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN17",
-            "label": "Station 17 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": []
-      }
-    },
-    {
-      "id": "hrfe-hf26000013597",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013597",
-      "title": "Alarms",
-      "summary": "Emergency response: Engines 14 and 17, Quint 13, and Station 14 assignment.",
-      "category": "FIRE",
-      "reported_at": "2026-09-10T20:46:45Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "ALARMS",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "KIMBERLEY CRES, DARTMOUTH",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
-      "severity": 2,
-      "siren_score": 57,
-      "seriousness_score": 40,
-      "source_class": "first_party",
-      "event_type": "fire_alarm",
-      "canonical_location": "KIMBERLEY CRES",
-      "neighbourhood": "DARTMOUTH",
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 23,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "multiple responding units (3)"
-      ],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013597"
-      ],
-      "related_ids": [],
-      "metadata": {
-        "call_number": "HF26000013597",
-        "response": "E14 E17 Q13 STN14",
-        "decoded_units": [
-          {
-            "code": "E14",
-            "label": "Engine 14",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "E17",
-            "label": "Engine 17",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "Q13",
-            "label": "Quint 13",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN14",
-            "label": "Station 14 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E14 — Engine 14 · E17 — Engine 17 · Q13 — Quint 13 · STN14 — Station 14 assignment",
-        "response_summary": "Emergency response: Engines 14 and 17, Quint 13, and Station 14 assignment.",
-        "decoded_response": [
-          {
-            "code": "E14",
-            "label": "Engine 14",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "E17",
-            "label": "Engine 17",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "Q13",
-            "label": "Quint 13",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN14",
-            "label": "Station 14 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": []
-      }
-    },
-    {
       "id": "hrm-closure-621c72f28859d39d91",
       "source": "HRM active street closures",
       "source_url": "https://catalogue-hrm.opendata.arcgis.com/",
@@ -22154,203 +21897,167 @@
       }
     },
     {
-      "id": "evt-7b4ed9e1cb271bfd27",
+      "id": "evt-728cb3d20827a72cde",
       "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013601",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013721",
       "title": "Fire Structure",
-      "summary": "Structure-fire response: Engines 9, 45, and 48, Aerial 9, Tankers 10 and 48, Station 48 assignment, and Tactical Unit 8, under District Chief 4, Platoon Captain Volunteer 4 East, and Platoon Captain West (inferred).",
+      "summary": "Structure-fire response: Engines 2, 3, and 4, Aerial 3, Station 3 assignment, and Tactical Unit 12, under District Chief 2 and Platoon Captain East (inferred).",
       "category": "FIRE",
-      "reported_at": "2026-09-10T22:15:32Z",
+      "reported_at": "2026-09-12T20:51:07Z",
       "source_kind": "official",
       "confidence": "official",
       "subtype": "FIRE STRUCTURE",
       "updated_at": null,
       "status": "active",
-      "location_text": "CARRIE CRES, BEAVER BANK",
-      "lat": 44.8279996,
-      "lon": -63.6837235,
-      "location_precision": "approximate_geocode",
+      "location_text": "WINDCREST TERR, HALIFAX",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
       "severity": 3,
       "siren_score": 85,
-      "seriousness_score": 96,
+      "seriousness_score": 90,
       "source_class": "first_party",
       "event_type": "police_operation",
-      "canonical_location": "CARRIE CRES BEAVER BANK",
+      "canonical_location": "WINDCREST TERR",
       "neighbourhood": null,
-      "cluster_id": "evt-7b4ed9e1cb271bfd27",
+      "cluster_id": "evt-728cb3d20827a72cde",
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [
         {
-          "id": "hrfe-hf26000013601",
+          "id": "hrfe-hf26000013721",
           "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013601",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013721",
           "source_class": "first_party",
           "confidence": "official",
-          "reported_at": "2026-09-10T22:15:32Z",
+          "reported_at": "2026-09-12T20:51:07Z",
           "title": "Fire Structure"
         }
       ],
-      "priority_score": 63,
+      "priority_score": 72,
       "priority_band": "high",
       "impact_scope": "local",
       "attention_reasons": [
         "tactical response",
-        "large emergency response (10 units)"
+        "multi-unit response (7 units)"
       ],
       "signals": [
         "official_dispatch",
         "responding_units"
       ],
       "raw_ids": [
-        "HF26000013601"
+        "HF26000013721"
       ],
       "related_ids": [
-        "hrfe-hf26000013601"
+        "hrfe-hf26000013721"
       ],
       "metadata": {
-        "call_number": "HF26000013601",
-        "response": "A09 DC04 E09 E45 E48 PCV4E PCW STN48 T10 T48 TCT08",
+        "call_number": "HF26000013721",
+        "response": "A03 DC02 E02 E03 E04 PCE STN03 TCT12",
         "decoded_units": [
           {
-            "code": "A09",
-            "label": "Aerial 9",
+            "code": "A03",
+            "label": "Aerial 3",
             "kind": "apparatus",
             "confidence": "verified"
           },
           {
-            "code": "DC04",
-            "label": "District Chief 4",
+            "code": "DC02",
+            "label": "District Chief 2",
             "kind": "command",
             "confidence": "verified"
           },
           {
-            "code": "E09",
-            "label": "Engine 9",
+            "code": "E02",
+            "label": "Engine 2",
             "kind": "apparatus",
             "confidence": "verified"
           },
           {
-            "code": "E45",
-            "label": "Engine 45",
+            "code": "E03",
+            "label": "Engine 3",
             "kind": "apparatus",
             "confidence": "verified"
           },
           {
-            "code": "E48",
-            "label": "Engine 48",
+            "code": "E04",
+            "label": "Engine 4",
             "kind": "apparatus",
             "confidence": "verified"
           },
           {
-            "code": "PCV4E",
-            "label": "Platoon Captain Volunteer 4 East",
-            "kind": "command",
-            "confidence": "verified"
-          },
-          {
-            "code": "PCW",
-            "label": "Platoon Captain West",
+            "code": "PCE",
+            "label": "Platoon Captain East",
             "kind": "command",
             "confidence": "inferred"
           },
           {
-            "code": "STN48",
-            "label": "Station 48 assignment",
+            "code": "STN03",
+            "label": "Station 3 assignment",
             "kind": "station",
             "confidence": "verified"
           },
           {
-            "code": "T10",
-            "label": "Tanker 10",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "T48",
-            "label": "Tanker 48",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "TCT08",
-            "label": "Tactical Unit 8",
+            "code": "TCT12",
+            "label": "Tactical Unit 12",
             "kind": "specialty",
             "confidence": "verified"
           }
         ],
-        "decoded_unit_text": "A09 — Aerial 9 · DC04 — District Chief 4 · E09 — Engine 9 · E45 — Engine 45 · E48 — Engine 48 · PCV4E — Platoon Captain Volunteer 4 East · PCW — Platoon Captain West (inferred) · STN48 — Station 48 assignment · T10 — Tanker 10 · T48 — Tanker 48 · TCT08 — Tactical Unit 8",
-        "response_summary": "Structure-fire response: Engines 9, 45, and 48, Aerial 9, Tankers 10 and 48, Station 48 assignment, and Tactical Unit 8, under District Chief 4, Platoon Captain Volunteer 4 East, and Platoon Captain West (inferred).",
+        "decoded_unit_text": "A03 — Aerial 3 · DC02 — District Chief 2 · E02 — Engine 2 · E03 — Engine 3 · E04 — Engine 4 · PCE — Platoon Captain East (inferred) · STN03 — Station 3 assignment · TCT12 — Tactical Unit 12",
+        "response_summary": "Structure-fire response: Engines 2, 3, and 4, Aerial 3, Station 3 assignment, and Tactical Unit 12, under District Chief 2 and Platoon Captain East (inferred).",
         "decoded_response": [
           {
-            "code": "A09",
-            "label": "Aerial 9",
+            "code": "A03",
+            "label": "Aerial 3",
             "kind": "apparatus",
             "certainty": "confirmed"
           },
           {
-            "code": "DC04",
-            "label": "District Chief 4",
+            "code": "DC02",
+            "label": "District Chief 2",
             "kind": "command",
             "certainty": "confirmed"
           },
           {
-            "code": "E09",
-            "label": "Engine 9",
+            "code": "E02",
+            "label": "Engine 2",
             "kind": "apparatus",
             "certainty": "confirmed"
           },
           {
-            "code": "E45",
-            "label": "Engine 45",
+            "code": "E03",
+            "label": "Engine 3",
             "kind": "apparatus",
             "certainty": "confirmed"
           },
           {
-            "code": "E48",
-            "label": "Engine 48",
+            "code": "E04",
+            "label": "Engine 4",
             "kind": "apparatus",
             "certainty": "confirmed"
           },
           {
-            "code": "PCV4E",
-            "label": "Platoon Captain Volunteer 4 East",
-            "kind": "command",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "PCW",
-            "label": "Platoon Captain West",
+            "code": "PCE",
+            "label": "Platoon Captain East",
             "kind": "command",
             "certainty": "inferred"
           },
           {
-            "code": "STN48",
-            "label": "Station 48 assignment",
+            "code": "STN03",
+            "label": "Station 3 assignment",
             "kind": "station",
             "certainty": "confirmed"
           },
           {
-            "code": "T10",
-            "label": "Tanker 10",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "T48",
-            "label": "Tanker 48",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "TCT08",
-            "label": "Tactical Unit 8",
+            "code": "TCT12",
+            "label": "Tactical Unit 12",
             "kind": "specialty",
             "certainty": "confirmed"
           }
         ],
         "response_unknown_codes": [],
-        "first_reported_at": "2026-09-10T22:15:32Z",
+        "first_reported_at": "2026-09-12T20:51:07Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -22877,104 +22584,6 @@
       }
     },
     {
-      "id": "evt-b62d96530078235bea",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013714",
-      "title": "Hazmat",
-      "summary": "Emergency response: Engine 18 and Station 18 assignment.",
-      "category": "FIRE",
-      "reported_at": "2026-09-12T19:32:52Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "HAZMAT",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "STUART HARRIS DR, DARTMOUTH",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
-      "severity": 2,
-      "siren_score": 62,
-      "seriousness_score": 48,
-      "source_class": "first_party",
-      "event_type": "hazmat",
-      "canonical_location": "STUART HARRIS",
-      "neighbourhood": "DARTMOUTH",
-      "cluster_id": "evt-b62d96530078235bea",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "hrfe-hf26000013714",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013714",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T19:32:52Z",
-          "title": "Hazmat"
-        }
-      ],
-      "priority_score": 46,
-      "priority_band": "elevated",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "hazmat response",
-        "within 90 minutes"
-      ],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013714"
-      ],
-      "related_ids": [
-        "hrfe-hf26000013714"
-      ],
-      "metadata": {
-        "call_number": "HF26000013714",
-        "response": "E18 STN18",
-        "decoded_units": [
-          {
-            "code": "E18",
-            "label": "Engine 18",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN18",
-            "label": "Station 18 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E18 — Engine 18 · STN18 — Station 18 assignment",
-        "response_summary": "Emergency response: Engine 18 and Station 18 assignment.",
-        "decoded_response": [
-          {
-            "code": "E18",
-            "label": "Engine 18",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN18",
-            "label": "Station 18 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": [],
-        "first_reported_at": "2026-09-12T19:32:52Z",
-        "source_names": [
-          "Halifax Regional Fire & Emergency"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
       "id": "evt-b3bbd72d1e05c5c601",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013668",
@@ -23128,175 +22737,48 @@
       }
     },
     {
-      "id": "evt-75eab56eb22380ee16",
+      "id": "evt-416700b6067d92fd82",
       "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013718",
-      "title": "Vehicle Fire",
-      "summary": "Emergency response: Tanker 10 and Station 50 assignment.",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013723",
+      "title": "Alarms",
+      "summary": "Emergency response: Engine 5, Quint 7, Tanker 58, and Station 58 assignment.",
       "category": "FIRE",
-      "reported_at": "2026-09-12T20:32:22Z",
+      "reported_at": "2026-09-12T21:54:31Z",
       "source_kind": "official",
       "confidence": "official",
-      "subtype": "VEHICLE FIRE",
+      "subtype": "ALARMS",
       "updated_at": null,
       "status": "active",
-      "location_text": "WATERSTONE RUN, LUCASVILLE",
+      "location_text": "BRENTWOOD AVE, TIMBERLEA",
       "lat": null,
       "lon": null,
       "location_precision": "street_or_intersection",
       "severity": 2,
-      "siren_score": 72,
-      "seriousness_score": 34,
+      "siren_score": 69,
+      "seriousness_score": 40,
       "source_class": "first_party",
-      "event_type": "fire_incident",
-      "canonical_location": "WATERSTONE RUN LUCASVILLE",
+      "event_type": "fire_alarm",
+      "canonical_location": "BRENTWOOD TIMBERLEA",
       "neighbourhood": null,
-      "cluster_id": "evt-75eab56eb22380ee16",
-      "evidence_count": 4,
+      "cluster_id": "evt-416700b6067d92fd82",
+      "evidence_count": 1,
       "source_count": 1,
       "evidence": [
         {
-          "id": "hrfe-hf26000013718",
+          "id": "hrfe-hf26000013723",
           "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013718",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013723",
           "source_class": "first_party",
           "confidence": "official",
-          "reported_at": "2026-09-12T20:32:22Z",
-          "title": "Vehicle Fire"
-        },
-        {
-          "id": "hrfe-hf26000013715",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013715",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T19:56:51Z",
-          "title": "Outside Fire"
-        },
-        {
-          "id": "hrfe-hf26000013713",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013713",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T19:32:51Z",
-          "title": "Outside Fire"
-        },
-        {
-          "id": "hrfe-hf26000013708",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013708",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T17:47:03Z",
-          "title": "Fire Moveup"
+          "reported_at": "2026-09-12T21:54:31Z",
+          "title": "Alarms"
         }
       ],
-      "priority_score": 44,
+      "priority_score": 45,
       "priority_band": "elevated",
       "impact_scope": "local",
       "attention_reasons": [
-        "very recent",
-        "within 90 minutes",
-        "downtown relevance"
-      ],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013718"
-      ],
-      "related_ids": [
-        "hrfe-hf26000013708",
-        "hrfe-hf26000013718",
-        "hrfe-hf26000013715",
-        "hrfe-hf26000013713"
-      ],
-      "metadata": {
-        "call_number": "HF26000013708",
-        "response": "E45",
-        "decoded_units": [
-          {
-            "code": "E45",
-            "label": "Engine 45",
-            "kind": "apparatus",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E45 — Engine 45",
-        "response_summary": "Emergency response: Engine 45.",
-        "decoded_response": [
-          {
-            "code": "E45",
-            "label": "Engine 45",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": [],
-        "first_reported_at": "2026-09-12T17:47:03Z",
-        "source_names": [
-          "Halifax Regional Fire & Emergency"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
-      "id": "evt-b3080894562ab364f0",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013716",
-      "title": "Motor Vehicle Collision",
-      "summary": "Rescue response: Quint 7 and Station 7 assignment.",
-      "category": "RESCUE",
-      "reported_at": "2026-09-12T20:03:02Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "MOTOR VEHICLE COLLISION",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "CHAIN LAKE DR, HALIFAX",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
-      "severity": 2,
-      "siren_score": 74,
-      "seriousness_score": 38,
-      "source_class": "first_party",
-      "event_type": "collision",
-      "canonical_location": "CHAIN LAKE",
-      "neighbourhood": null,
-      "cluster_id": "evt-b3080894562ab364f0",
-      "evidence_count": 2,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "hrfe-hf26000013716",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013716",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T20:03:02Z",
-          "title": "Motor Vehicle Collision"
-        },
-        {
-          "id": "hrfe-hf26000013710",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013710",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T18:03:16Z",
-          "title": "Motor Vehicle Collision"
-        }
-      ],
-      "priority_score": 43,
-      "priority_band": "elevated",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "collision",
-        "downtown relevance",
+        "multiple responding units (3)",
         "recent"
       ],
       "signals": [
@@ -23304,47 +22786,70 @@
         "responding_units"
       ],
       "raw_ids": [
-        "HF26000013716"
+        "HF26000013723"
       ],
       "related_ids": [
-        "hrfe-hf26000013710",
-        "hrfe-hf26000013716"
+        "hrfe-hf26000013723"
       ],
       "metadata": {
-        "call_number": "HF26000013710",
-        "response": "E15 STN13",
+        "call_number": "HF26000013723",
+        "response": "E05 Q07 STN58 T58",
         "decoded_units": [
           {
-            "code": "E15",
-            "label": "Engine 15",
+            "code": "E05",
+            "label": "Engine 5",
             "kind": "apparatus",
             "confidence": "verified"
           },
           {
-            "code": "STN13",
-            "label": "Station 13 assignment",
+            "code": "Q07",
+            "label": "Quint 7",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN58",
+            "label": "Station 58 assignment",
             "kind": "station",
+            "confidence": "verified"
+          },
+          {
+            "code": "T58",
+            "label": "Tanker 58",
+            "kind": "apparatus",
             "confidence": "verified"
           }
         ],
-        "decoded_unit_text": "E15 — Engine 15 · STN13 — Station 13 assignment",
-        "response_summary": "Rescue response: Engine 15 and Station 13 assignment.",
+        "decoded_unit_text": "E05 — Engine 5 · Q07 — Quint 7 · STN58 — Station 58 assignment · T58 — Tanker 58",
+        "response_summary": "Emergency response: Engine 5, Quint 7, Tanker 58, and Station 58 assignment.",
         "decoded_response": [
           {
-            "code": "E15",
-            "label": "Engine 15",
+            "code": "E05",
+            "label": "Engine 5",
             "kind": "apparatus",
             "certainty": "confirmed"
           },
           {
-            "code": "STN13",
-            "label": "Station 13 assignment",
+            "code": "Q07",
+            "label": "Quint 7",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN58",
+            "label": "Station 58 assignment",
             "kind": "station",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "T58",
+            "label": "Tanker 58",
+            "kind": "apparatus",
             "certainty": "confirmed"
           }
         ],
         "response_unknown_codes": [],
-        "first_reported_at": "2026-09-12T18:03:16Z",
+        "first_reported_at": "2026-09-12T21:54:31Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -23411,6 +22916,103 @@
         "first_reported_at": "2026-09-10T23:08:50Z",
         "source_names": [
           "Halifax Fire · Bluesky"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-b62d96530078235bea",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013714",
+      "title": "Hazmat",
+      "summary": "Emergency response: Engine 18 and Station 18 assignment.",
+      "category": "FIRE",
+      "reported_at": "2026-09-12T19:32:52Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "HAZMAT",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "STUART HARRIS DR, DARTMOUTH",
+      "lat": 44.683859,
+      "lon": -63.5074462,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 56,
+      "seriousness_score": 48,
+      "source_class": "first_party",
+      "event_type": "hazmat",
+      "canonical_location": "STUART HARRIS",
+      "neighbourhood": "DARTMOUTH",
+      "cluster_id": "evt-b62d96530078235bea",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "hrfe-hf26000013714",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013714",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T19:32:52Z",
+          "title": "Hazmat"
+        }
+      ],
+      "priority_score": 42,
+      "priority_band": "elevated",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "hazmat response"
+      ],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013714"
+      ],
+      "related_ids": [
+        "hrfe-hf26000013714"
+      ],
+      "metadata": {
+        "call_number": "HF26000013714",
+        "response": "E18 STN18",
+        "decoded_units": [
+          {
+            "code": "E18",
+            "label": "Engine 18",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN18",
+            "label": "Station 18 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E18 — Engine 18 · STN18 — Station 18 assignment",
+        "response_summary": "Emergency response: Engine 18 and Station 18 assignment.",
+        "decoded_response": [
+          {
+            "code": "E18",
+            "label": "Engine 18",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN18",
+            "label": "Station 18 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": [],
+        "first_reported_at": "2026-09-12T19:32:52Z",
+        "source_names": [
+          "Halifax Regional Fire & Emergency"
         ],
         "source_classes": [
           "first_party"
@@ -23600,6 +23202,198 @@
       }
     },
     {
+      "id": "evt-8b55d01aa2be9a89f0",
+      "source": "Emergency Info Nova Scotia",
+      "source_url": "https://emergencymanagement-albanygis.hub.arcgis.com/",
+      "title": "Moonshine Fire",
+      "summary": "Fire burning in Albany County, WY, in the Laramie Range. · Go! Evacuate now! Bookout Ranch Area of Albany County, WY. Moonshine Fire Advancing from the South. Leave the area immediately on 9/11/2026 at 12:55 PM. The fire is 6,801.9 acres per the perimeter uploaded to the National Interagency Fire Center (NIFC), visible on the Watch Duty map under Active Fire Perimeters on 9/12/2026 at 12:39 PM. The fire is now 26% contained, per the National Interagency Fire Center (NIFC) on 9/11/2026 at 5:06 PM. · Go! Evacuate now! Leave immediately!",
+      "category": "EMERGENCY",
+      "reported_at": "2026-09-12T20:57:06Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "active_event",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 3,
+      "siren_score": 0,
+      "seriousness_score": 44,
+      "source_class": "first_party",
+      "event_type": "evacuation",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-8b55d01aa2be9a89f0",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "nsemergency-682b7eb5611f74225c",
+          "source": "Emergency Info Nova Scotia",
+          "source_url": "https://emergencymanagement-albanygis.hub.arcgis.com/",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T20:57:06Z",
+          "title": "Moonshine Fire"
+        }
+      ],
+      "priority_score": 39,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_active_event",
+        "provincial_emergency"
+      ],
+      "raw_ids": [
+        "5674b9d0-8f68-4b53-8030-66c016cbc124"
+      ],
+      "related_ids": [
+        "nsemergency-682b7eb5611f74225c"
+      ],
+      "metadata": {
+        "status": "Yes",
+        "action_required": "Yes",
+        "action_message": "Go! Evacuate now! Leave immediately!",
+        "first_reported_at": "2026-09-12T20:57:06Z",
+        "source_names": [
+          "Emergency Info Nova Scotia"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-13f536510ffb6d72a2",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013713",
+      "title": "Outside Fire",
+      "summary": "Emergency response: Tanker 11 and Station 11 assignment.",
+      "category": "FIRE",
+      "reported_at": "2026-09-12T20:32:22Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "OUTSIDE FIRE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "BLAIN ERIC DR / DEAD END, MIDDLE SACKVILLE",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 54,
+      "seriousness_score": 34,
+      "source_class": "first_party",
+      "event_type": "fire_incident",
+      "canonical_location": "BLAIN ERIC DEAD END MIDDLE SACKVILLE",
+      "neighbourhood": "DOWNTOWN",
+      "cluster_id": "evt-13f536510ffb6d72a2",
+      "evidence_count": 4,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "hrfe-hf26000013718",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013718",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T20:32:22Z",
+          "title": "Vehicle Fire"
+        },
+        {
+          "id": "hrfe-hf26000013715",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013715",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T19:56:51Z",
+          "title": "Outside Fire"
+        },
+        {
+          "id": "hrfe-hf26000013713",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013713",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T19:32:51Z",
+          "title": "Outside Fire"
+        },
+        {
+          "id": "hrfe-hf26000013708",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013708",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T17:47:03Z",
+          "title": "Fire Moveup"
+        }
+      ],
+      "priority_score": 39,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013713"
+      ],
+      "related_ids": [
+        "hrfe-hf26000013718",
+        "hrfe-hf26000013715",
+        "hrfe-hf26000013713",
+        "hrfe-hf26000013708"
+      ],
+      "metadata": {
+        "call_number": "HF26000013718",
+        "response": "STN50 T10",
+        "decoded_units": [
+          {
+            "code": "STN50",
+            "label": "Station 50 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          },
+          {
+            "code": "T10",
+            "label": "Tanker 10",
+            "kind": "apparatus",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "STN50 — Station 50 assignment · T10 — Tanker 10",
+        "response_summary": "Emergency response: Tanker 10 and Station 50 assignment.",
+        "decoded_response": [
+          {
+            "code": "STN50",
+            "label": "Station 50 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "T10",
+            "label": "Tanker 10",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": [],
+        "first_reported_at": "2026-09-12T17:47:03Z",
+        "source_names": [
+          "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
       "id": "evt-9431ec6ec2e61401be",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013702",
@@ -23782,531 +23576,115 @@
       }
     },
     {
-      "id": "evt-862d64f5116ee3bc8c",
-      "source": "Halifax Transit GTFS-Realtime",
-      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
-      "title": "Route 9A schedule to depart at Saturday, September 12, 2026 17:37 from Barrington St Before Duke St Bay 5 (...",
-      "summary": "Halifax Transit Service Update: 9A Outbound is significantly delayed. A helper bus will be available at Barrington St Before Duke St Bay 5 (6107) starting at Saturday, September 12, 2026 17:37",
-      "category": "TRANSIT",
-      "reported_at": "2026-09-12T20:37:00Z",
+      "id": "evt-d3066a082b1ee7fb59",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013710",
+      "title": "Motor Vehicle Collision",
+      "summary": "Rescue response: Engine 15 and Station 13 assignment.",
+      "category": "RESCUE",
+      "reported_at": "2026-09-12T21:02:43Z",
       "source_kind": "official",
       "confidence": "official",
-      "subtype": "gtfs_realtime_alert",
+      "subtype": "MOTOR VEHICLE COLLISION",
       "updated_at": null,
       "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
+      "location_text": "ALDERNEY DR, DARTMOUTH",
+      "lat": 44.6664317,
+      "lon": -63.5645888,
+      "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 0,
-      "seriousness_score": 12,
+      "siren_score": 62,
+      "seriousness_score": 38,
       "source_class": "first_party",
-      "event_type": "transit_disruption",
-      "canonical_location": null,
-      "neighbourhood": "DOWNTOWN",
-      "cluster_id": "evt-862d64f5116ee3bc8c",
+      "event_type": "collision",
+      "canonical_location": "ALDERNEY",
+      "neighbourhood": "DARTMOUTH",
+      "cluster_id": "evt-d3066a082b1ee7fb59",
       "evidence_count": 3,
       "source_count": 1,
       "evidence": [
         {
-          "id": "transit-b25aa925ac66639eca",
-          "source": "Halifax Transit GTFS-Realtime",
-          "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+          "id": "hrfe-hf26000013722",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013722",
           "source_class": "first_party",
           "confidence": "official",
-          "reported_at": "2026-09-12T20:37:00Z",
-          "title": "Route 9A schedule to depart at Saturday, September 12, 2026 17:37 from Barrington St Before Duke St Bay 5 (..."
+          "reported_at": "2026-09-12T21:02:43Z",
+          "title": "Motor Vehicle Collision"
         },
         {
-          "id": "transit-4808704f46f5c3c230",
-          "source": "Halifax Transit GTFS-Realtime",
-          "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+          "id": "hrfe-hf26000013716",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013716",
           "source_class": "first_party",
           "confidence": "official",
-          "reported_at": "2026-09-12T20:24:00Z",
-          "title": "Route 1 schedule to depart at Saturday, September 12, 2026 17:24 from Mumford Terminal Bay 2 (8640) now in ..."
+          "reported_at": "2026-09-12T20:03:02Z",
+          "title": "Motor Vehicle Collision"
         },
         {
-          "id": "transit-dc7be779f354a606a0",
-          "source": "Halifax Transit GTFS-Realtime",
-          "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+          "id": "hrfe-hf26000013710",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013710",
           "source_class": "first_party",
           "confidence": "official",
-          "reported_at": "2026-09-12T20:15:00Z",
-          "title": "Route 320 schedule to depart at Saturday, September 12, 2026 17:15 from Silver Dart Dr At Halifax Airport (..."
+          "reported_at": "2026-09-12T18:03:16Z",
+          "title": "Motor Vehicle Collision"
         }
       ],
       "priority_score": 37,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
-        "recent",
-        "very recent",
+        "collision",
         "downtown relevance"
-      ],
-      "signals": [
-        "official_realtime_feed"
-      ],
-      "raw_ids": [
-        "209024"
-      ],
-      "related_ids": [
-        "transit-4808704f46f5c3c230",
-        "transit-b25aa925ac66639eca",
-        "transit-dc7be779f354a606a0"
-      ],
-      "metadata": {
-        "informed_entities": [
-          "route 9A"
-        ],
-        "first_reported_at": "2026-09-12T20:15:00Z",
-        "source_names": [
-          "Halifax Transit GTFS-Realtime"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
-      "id": "evt-fdc7106e24230edb6a",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013717",
-      "title": "Medical Assistance",
-      "summary": "Medical first-response: Engine 28 and Station 28 assignment.",
-      "category": "EMS",
-      "reported_at": "2026-09-12T20:26:30Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "MEDICAL ASSISTANCE",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "PASSAGE RD, WATT SECTION",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
-      "severity": 2,
-      "siren_score": 56,
-      "seriousness_score": 28,
-      "source_class": "first_party",
-      "event_type": "medical_response",
-      "canonical_location": "PASSAGE WATT SECTION",
-      "neighbourhood": null,
-      "cluster_id": "evt-fdc7106e24230edb6a",
-      "evidence_count": 37,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "hrfe-hf26000013717",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013717",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T20:26:30Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013711",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013711",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T18:42:30Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013705",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013705",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T17:06:32Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013701",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013701",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T16:21:58Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013699",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013699",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T15:42:46Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013697",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013697",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T15:07:32Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013696",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013696",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T15:07:31Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013691",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013691",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T13:37:05Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013690",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013690",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T13:30:57Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013687",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013687",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T12:52:17Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013684",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013684",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T12:17:06Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013683",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013683",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T11:56:51Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013681",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013681",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T11:02:48Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013679",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013679",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T09:15:46Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013677",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013677",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T08:52:41Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013675",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013675",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T06:06:38Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013673",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013673",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T03:26:35Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013672",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013672",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T02:27:32Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013670",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013670",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-12T01:56:23Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013664",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013664",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T23:49:03Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013663",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013663",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T23:49:03Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013662",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013662",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T23:37:35Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013661",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013661",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T23:34:44Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013660",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013660",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T23:03:19Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013658",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013658",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T21:31:10Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013654",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013654",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T19:16:29Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013650",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013650",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T17:21:21Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013647",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013647",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T16:59:02Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013645",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013645",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T16:03:31Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013644",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013644",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T15:02:37Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013641",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013641",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T13:49:46Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013640",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013640",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T13:41:40Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013637",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013637",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T12:19:03Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013630",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013630",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T11:02:54Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013623",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013623",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T08:15:22Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013622",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013622",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T08:03:02Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013621",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013621",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T07:51:49Z",
-          "title": "Medical Assistance"
-        }
-      ],
-      "priority_score": 36,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance",
-        "recent"
       ],
       "signals": [
         "official_dispatch",
         "responding_units"
       ],
       "raw_ids": [
-        "HF26000013717"
+        "HF26000013710"
       ],
       "related_ids": [
-        "hrfe-hf26000013705",
-        "hrfe-hf26000013701",
-        "hrfe-hf26000013699",
-        "hrfe-hf26000013697",
-        "hrfe-hf26000013696",
-        "hrfe-hf26000013691",
-        "hrfe-hf26000013690",
-        "hrfe-hf26000013687",
-        "hrfe-hf26000013684",
-        "hrfe-hf26000013683",
-        "hrfe-hf26000013681",
-        "hrfe-hf26000013679",
-        "hrfe-hf26000013677",
-        "hrfe-hf26000013675",
-        "hrfe-hf26000013673",
-        "hrfe-hf26000013672",
-        "hrfe-hf26000013670",
-        "hrfe-hf26000013664",
-        "hrfe-hf26000013663",
-        "hrfe-hf26000013662",
-        "hrfe-hf26000013661",
-        "hrfe-hf26000013660",
-        "hrfe-hf26000013658",
-        "hrfe-hf26000013654",
-        "hrfe-hf26000013650",
-        "hrfe-hf26000013647",
-        "hrfe-hf26000013645",
-        "hrfe-hf26000013644",
-        "hrfe-hf26000013641",
-        "hrfe-hf26000013640",
-        "hrfe-hf26000013637",
-        "hrfe-hf26000013630",
-        "hrfe-hf26000013623",
-        "hrfe-hf26000013622",
-        "hrfe-hf26000013621",
-        "hrfe-hf26000013717",
-        "hrfe-hf26000013711"
+        "hrfe-hf26000013716",
+        "hrfe-hf26000013710",
+        "hrfe-hf26000013722"
       ],
       "metadata": {
-        "call_number": "HF26000013705",
-        "response": "EA04",
+        "call_number": "HF26000013716",
+        "response": "Q07 STN07",
         "decoded_units": [
           {
-            "code": "EA04",
-            "label": "Engine 4 Alpha",
+            "code": "Q07",
+            "label": "Quint 7",
             "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN07",
+            "label": "Station 7 assignment",
+            "kind": "station",
             "confidence": "verified"
           }
         ],
-        "decoded_unit_text": "EA04 — Engine 4 Alpha",
-        "response_summary": "Medical first-response: Engine 4 Alpha.",
+        "decoded_unit_text": "Q07 — Quint 7 · STN07 — Station 7 assignment",
+        "response_summary": "Rescue response: Quint 7 and Station 7 assignment.",
         "decoded_response": [
           {
-            "code": "EA04",
-            "label": "Engine 4 Alpha",
+            "code": "Q07",
+            "label": "Quint 7",
             "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN07",
+            "label": "Station 7 assignment",
+            "kind": "station",
             "certainty": "confirmed"
           }
         ],
         "response_unknown_codes": [],
-        "first_reported_at": "2026-09-11T07:51:49Z",
+        "first_reported_at": "2026-09-12T18:03:16Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -24878,7 +24256,7 @@
       }
     },
     {
-      "id": "evt-905cd1f7bbff4da8af",
+      "id": "evt-e67167aaa272f907fc",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013609",
       "title": "Alarms",
@@ -24901,8 +24279,8 @@
       "event_type": "fire_alarm",
       "canonical_location": "MORRIS",
       "neighbourhood": "SOUTH END",
-      "cluster_id": "evt-905cd1f7bbff4da8af",
-      "evidence_count": 4,
+      "cluster_id": "evt-e67167aaa272f907fc",
+      "evidence_count": 3,
       "source_count": 1,
       "evidence": [
         {
@@ -24931,15 +24309,6 @@
           "confidence": "official",
           "reported_at": "2026-09-10T23:08:12Z",
           "title": "Alarms"
-        },
-        {
-          "id": "hrfe-hf26000013597",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013597",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-10T20:46:45Z",
-          "title": "Alarms"
         }
       ],
       "priority_score": 31,
@@ -24959,8 +24328,7 @@
       "related_ids": [
         "hrfe-hf26000013609",
         "hrfe-hf26000013607",
-        "hrfe-hf26000013604",
-        "hrfe-hf26000013597"
+        "hrfe-hf26000013604"
       ],
       "metadata": {
         "call_number": "HF26000013609",
@@ -25020,7 +24388,464 @@
           }
         ],
         "response_unknown_codes": [],
-        "first_reported_at": "2026-09-10T20:46:45Z",
+        "first_reported_at": "2026-09-10T23:08:12Z",
+        "source_names": [
+          "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-fec6e87fdffd6bdbd1",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013684",
+      "title": "Medical Assistance",
+      "summary": "Medical first-response: Engine 3 and Station 3 assignment.",
+      "category": "EMS",
+      "reported_at": "2026-09-12T20:26:30Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "NORTH ST, HALIFAX",
+      "lat": 44.6570315,
+      "lon": -63.591529,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 48,
+      "seriousness_score": 28,
+      "source_class": "first_party",
+      "event_type": "medical_response",
+      "canonical_location": "NORTH",
+      "neighbourhood": "NORTH END",
+      "cluster_id": "evt-fec6e87fdffd6bdbd1",
+      "evidence_count": 37,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "hrfe-hf26000013717",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013717",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T20:26:30Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013711",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013711",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T18:42:30Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013705",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013705",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T17:06:32Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013701",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013701",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T16:21:58Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013699",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013699",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T15:42:46Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013697",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013697",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T15:07:32Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013696",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013696",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T15:07:31Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013691",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013691",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T13:37:05Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013690",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013690",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T13:30:57Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013687",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013687",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T12:52:17Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013684",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013684",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T12:17:06Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013683",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013683",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T11:56:51Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013681",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013681",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T11:02:48Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013679",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013679",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T09:15:46Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013677",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013677",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T08:52:41Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013675",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013675",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T06:06:38Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013673",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013673",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T03:26:35Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013672",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013672",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T02:27:32Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013670",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013670",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T01:56:23Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013664",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013664",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T23:49:03Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013663",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013663",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T23:49:03Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013662",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013662",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T23:37:35Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013661",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013661",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T23:34:44Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013660",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013660",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T23:03:19Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013658",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013658",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T21:31:10Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013654",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013654",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T19:16:29Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013650",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013650",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T17:21:21Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013647",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013647",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T16:59:02Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013645",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013645",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T16:03:31Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013644",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013644",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T15:02:37Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013641",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013641",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T13:49:46Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013640",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013640",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T13:41:40Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013637",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013637",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T12:19:03Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013630",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013630",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T11:02:54Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013623",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013623",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T08:15:22Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013622",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013622",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T08:03:02Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000013621",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013621",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T07:51:49Z",
+          "title": "Medical Assistance"
+        }
+      ],
+      "priority_score": 30,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013684"
+      ],
+      "related_ids": [
+        "hrfe-hf26000013717",
+        "hrfe-hf26000013711",
+        "hrfe-hf26000013705",
+        "hrfe-hf26000013701",
+        "hrfe-hf26000013699",
+        "hrfe-hf26000013697",
+        "hrfe-hf26000013696",
+        "hrfe-hf26000013691",
+        "hrfe-hf26000013690",
+        "hrfe-hf26000013687",
+        "hrfe-hf26000013684",
+        "hrfe-hf26000013683",
+        "hrfe-hf26000013681",
+        "hrfe-hf26000013679",
+        "hrfe-hf26000013677",
+        "hrfe-hf26000013675",
+        "hrfe-hf26000013673",
+        "hrfe-hf26000013672",
+        "hrfe-hf26000013670",
+        "hrfe-hf26000013664",
+        "hrfe-hf26000013663",
+        "hrfe-hf26000013662",
+        "hrfe-hf26000013661",
+        "hrfe-hf26000013660",
+        "hrfe-hf26000013658",
+        "hrfe-hf26000013654",
+        "hrfe-hf26000013650",
+        "hrfe-hf26000013647",
+        "hrfe-hf26000013645",
+        "hrfe-hf26000013644",
+        "hrfe-hf26000013641",
+        "hrfe-hf26000013640",
+        "hrfe-hf26000013637",
+        "hrfe-hf26000013630",
+        "hrfe-hf26000013623",
+        "hrfe-hf26000013622",
+        "hrfe-hf26000013621"
+      ],
+      "metadata": {
+        "call_number": "HF26000013717",
+        "response": "E28 STN28",
+        "decoded_units": [
+          {
+            "code": "E28",
+            "label": "Engine 28",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN28",
+            "label": "Station 28 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E28 — Engine 28 · STN28 — Station 28 assignment",
+        "response_summary": "Medical first-response: Engine 28 and Station 28 assignment.",
+        "decoded_response": [
+          {
+            "code": "E28",
+            "label": "Engine 28",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN28",
+            "label": "Station 28 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": [],
+        "first_reported_at": "2026-09-11T07:51:49Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -25392,167 +25217,6 @@
         ],
         "response_unknown_codes": [],
         "first_reported_at": "2026-09-12T04:47:29Z",
-        "source_names": [
-          "Halifax Regional Fire & Emergency"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
-      "id": "evt-c7689e06bd62854727",
-      "source": "r/halifax",
-      "source_url": "https://www.reddit.com/r/halifax/comments/1wdtneu/halifax_regional_police_officer_james_symington/",
-      "title": "Halifax Regional Police officer James Symington and his dog Trakr involved in recovery operations - Sept 12th 2001.",
-      "summary": "Community report — not independently verified.",
-      "category": "POLICE",
-      "reported_at": "2026-09-11T21:39:35Z",
-      "source_kind": "community",
-      "confidence": "unverified",
-      "subtype": "community_report",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 1,
-      "siren_score": 15,
-      "seriousness_score": 40,
-      "source_class": "community",
-      "event_type": "police_incident",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": "evt-c7689e06bd62854727",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "reddit-halifax-528db3792cff52c6c0",
-          "source": "r/halifax",
-          "source_url": "https://www.reddit.com/r/halifax/comments/1wdtneu/halifax_regional_police_officer_james_symington/",
-          "source_class": "community",
-          "confidence": "unverified",
-          "reported_at": "2026-09-11T21:39:35Z",
-          "title": "Halifax Regional Police officer James Symington and his dog Trakr involved in recovery operations - Sept 12th 2001."
-        }
-      ],
-      "priority_score": 29,
-      "priority_band": "moderate",
-      "impact_scope": "citywide",
-      "attention_reasons": [],
-      "signals": [
-        "community_report",
-        "unverified"
-      ],
-      "raw_ids": [
-        "1wdtneu"
-      ],
-      "related_ids": [
-        "reddit-halifax-528db3792cff52c6c0"
-      ],
-      "metadata": {
-        "subreddit": "halifax",
-        "transport": "rss",
-        "first_reported_at": "2026-09-11T21:39:35Z",
-        "source_names": [
-          "r/halifax"
-        ],
-        "source_classes": [
-          "community"
-        ]
-      }
-    },
-    {
-      "id": "evt-d0834c5b6cdbb56ef1",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013657",
-      "title": "Motor Vehicle Collision",
-      "summary": "Rescue response: Engine 8 and Station 8 assignment.",
-      "category": "RESCUE",
-      "reported_at": "2026-09-11T21:06:52Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "MOTOR VEHICLE COLLISION",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "BRADFORD PL, BEDFORD",
-      "lat": 44.7021111,
-      "lon": -63.7006755,
-      "location_precision": "approximate_geocode",
-      "severity": 2,
-      "siren_score": 62,
-      "seriousness_score": 38,
-      "source_class": "first_party",
-      "event_type": "collision",
-      "canonical_location": "BRADFORD PL BEDFORD",
-      "neighbourhood": null,
-      "cluster_id": "evt-d0834c5b6cdbb56ef1",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "hrfe-hf26000013657",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013657",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-11T21:06:52Z",
-          "title": "Motor Vehicle Collision"
-        }
-      ],
-      "priority_score": 29,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "collision"
-      ],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013657"
-      ],
-      "related_ids": [
-        "hrfe-hf26000013657"
-      ],
-      "metadata": {
-        "call_number": "HF26000013657",
-        "response": "E08 STN08",
-        "decoded_units": [
-          {
-            "code": "E08",
-            "label": "Engine 8",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN08",
-            "label": "Station 8 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E08 — Engine 8 · STN08 — Station 8 assignment",
-        "response_summary": "Rescue response: Engine 8 and Station 8 assignment.",
-        "decoded_response": [
-          {
-            "code": "E08",
-            "label": "Engine 8",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN08",
-            "label": "Station 8 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": [],
-        "first_reported_at": "2026-09-11T21:06:52Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -26137,81 +25801,6 @@
       }
     },
     {
-      "id": "evt-ec7c23583416c419ea",
-      "source": "2 sources",
-      "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3mv735l6te52l",
-      "title": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 Thu, 10 Sep 2026 19:10:33 -0300",
-      "summary": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 Thu, 10 Sep 2026 19:10:33 -0300",
-      "category": "FIRE",
-      "reported_at": "2026-09-10T22:13:29Z",
-      "source_kind": "community",
-      "confidence": "corroborated",
-      "subtype": "social_post",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 2,
-      "siren_score": 19,
-      "seriousness_score": 34,
-      "source_class": "community",
-      "event_type": "fire_incident",
-      "canonical_location": null,
-      "neighbourhood": "DOWNTOWN",
-      "cluster_id": "evt-ec7c23583416c419ea",
-      "evidence_count": 2,
-      "source_count": 2,
-      "evidence": [
-        {
-          "id": "bsky-search-2f8958e788b962bb0f",
-          "source": "Bluesky · @hrfeincidents.bsky.social",
-          "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3mv735l6te52l",
-          "source_class": "community",
-          "confidence": "unverified",
-          "reported_at": "2026-09-10T22:13:29Z",
-          "title": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 Thu, 10 Sep 2026 19:10:33 -0300"
-        },
-        {
-          "id": "bsky-search-1925bafb6786820710",
-          "source": "Bluesky · @hrfe.bsky.social",
-          "source_url": "https://bsky.app/profile/hrfe.bsky.social/post/3mv72ysyo7i2v",
-          "source_class": "community",
-          "confidence": "unverified",
-          "reported_at": "2026-09-10T22:10:49Z",
-          "title": "OUTSIDE FIRE Location: BARRINGTON ST, HALIFAX Call Number: HF26000013600 Response: E03 STN03 📅 2026-09-10 • 19:10 UTC"
-        }
-      ],
-      "priority_score": 27,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance"
-      ],
-      "signals": [
-        "community_social"
-      ],
-      "raw_ids": [
-        "at://did:plc:7gcf655grv6pgbxffh4ouzub/app.bsky.feed.post/3mv735l6te52l"
-      ],
-      "related_ids": [
-        "bsky-search-2f8958e788b962bb0f",
-        "bsky-search-1925bafb6786820710"
-      ],
-      "metadata": {
-        "handle": "hrfeincidents.bsky.social",
-        "first_reported_at": "2026-09-10T22:10:49Z",
-        "source_names": [
-          "Bluesky · @hrfeincidents.bsky.social",
-          "Bluesky · @hrfe.bsky.social"
-        ],
-        "source_classes": [
-          "community"
-        ]
-      }
-    },
-    {
       "id": "evt-d6fde27689a03d280c",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013695",
@@ -26696,178 +26285,6 @@
       }
     },
     {
-      "id": "evt-3039a3bee96d0ab12f",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013600",
-      "title": "Outside Fire",
-      "summary": "Emergency response: Engine 3 and Station 3 assignment.",
-      "category": "FIRE",
-      "reported_at": "2026-09-10T23:56:57Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "OUTSIDE FIRE",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "BARRINGTON ST, HALIFAX",
-      "lat": 44.652306,
-      "lon": -63.5775196,
-      "location_precision": "approximate_geocode",
-      "severity": 2,
-      "siren_score": 54,
-      "seriousness_score": 34,
-      "source_class": "first_party",
-      "event_type": "fire_incident",
-      "canonical_location": "BARRINGTON",
-      "neighbourhood": "DOWNTOWN",
-      "cluster_id": "evt-3039a3bee96d0ab12f",
-      "evidence_count": 2,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "hrfe-hf26000013606",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013606",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-10T23:56:57Z",
-          "title": "Vehicle Fire"
-        },
-        {
-          "id": "hrfe-hf26000013600",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013600",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-10T22:10:33Z",
-          "title": "Outside Fire"
-        }
-      ],
-      "priority_score": 26,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance"
-      ],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000013600"
-      ],
-      "related_ids": [
-        "hrfe-hf26000013606",
-        "hrfe-hf26000013600"
-      ],
-      "metadata": {
-        "call_number": "HF26000013606",
-        "response": "E17 STN17",
-        "decoded_units": [
-          {
-            "code": "E17",
-            "label": "Engine 17",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN17",
-            "label": "Station 17 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E17 — Engine 17 · STN17 — Station 17 assignment",
-        "response_summary": "Emergency response: Engine 17 and Station 17 assignment.",
-        "decoded_response": [
-          {
-            "code": "E17",
-            "label": "Engine 17",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN17",
-            "label": "Station 17 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": [],
-        "first_reported_at": "2026-09-10T22:10:33Z",
-        "source_names": [
-          "Halifax Regional Fire & Emergency"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
-      "id": "evt-c1c5192fbf7f165727",
-      "source": "Emergency Info Nova Scotia",
-      "source_url": "https://emergencymanagement-albanygis.hub.arcgis.com/",
-      "title": "Moonshine Fire",
-      "summary": "Fire burning in Albany County, WY, in the Laramie Range · The fire is 3,928.5 acres, per the perimeter uploaded to the National Interagency Fire Center (NIFC), which is visible on the Watch Duty Map under the Active Fire Perimeters map layer on 9/10/2026 at 12:20 PM.",
-      "category": "EMERGENCY",
-      "reported_at": "2026-09-10T21:02:10Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "active_event",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 3,
-      "siren_score": 0,
-      "seriousness_score": 44,
-      "source_class": "first_party",
-      "event_type": "weather_warning",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": "evt-c1c5192fbf7f165727",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "nsemergency-af10d6f99f6c545c86",
-          "source": "Emergency Info Nova Scotia",
-          "source_url": "https://emergencymanagement-albanygis.hub.arcgis.com/",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-10T21:02:10Z",
-          "title": "Moonshine Fire"
-        }
-      ],
-      "priority_score": 26,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_active_event",
-        "provincial_emergency"
-      ],
-      "raw_ids": [
-        "bd9527ad-dcdb-4b8f-863f-85bc717d6fc7"
-      ],
-      "related_ids": [
-        "nsemergency-af10d6f99f6c545c86"
-      ],
-      "metadata": {
-        "status": "Yes",
-        "action_required": "No",
-        "action_message": "",
-        "first_reported_at": "2026-09-10T21:02:10Z",
-        "source_names": [
-          "Emergency Info Nova Scotia"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
       "id": "evt-6b8cb5495a09627616",
       "source": "HRM active street closures",
       "source_url": "https://catalogue-hrm.opendata.arcgis.com/",
@@ -26944,6 +26361,72 @@
         ],
         "source_classes": [
           "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-e7e72582b14609b8bd",
+      "source": "r/halifax",
+      "source_url": "https://www.reddit.com/r/halifax/comments/1weq8xw/angle_grinder_help/",
+      "title": "Angle Grinder Help",
+      "summary": "Hey Halifax! My bike lock seized up and wont let me open it anymore. I tried WD-40 with no luck. Thankfully its stuck on a way that I can still use the bike to get around. Does anyone know of a store open on Sundays where I could get the lock cut off? It's 12mm hardened metal so I think angle grinder is what is needed.",
+      "category": "COMMUNITY",
+      "reported_at": "2026-09-12T22:28:43Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "community_report",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 16,
+      "seriousness_score": 10,
+      "source_class": "community",
+      "event_type": "community_report",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-e7e72582b14609b8bd",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "reddit-halifax-54b88a172c426d2cfa",
+          "source": "r/halifax",
+          "source_url": "https://www.reddit.com/r/halifax/comments/1weq8xw/angle_grinder_help/",
+          "source_class": "community",
+          "confidence": "unverified",
+          "reported_at": "2026-09-12T22:28:43Z",
+          "title": "Angle Grinder Help"
+        }
+      ],
+      "priority_score": 25,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "very recent"
+      ],
+      "signals": [
+        "community_report",
+        "unverified"
+      ],
+      "raw_ids": [
+        "1weq8xw"
+      ],
+      "related_ids": [
+        "reddit-halifax-54b88a172c426d2cfa"
+      ],
+      "metadata": {
+        "subreddit": "halifax",
+        "transport": "rss",
+        "first_reported_at": "2026-09-12T22:28:43Z",
+        "source_names": [
+          "r/halifax"
+        ],
+        "source_classes": [
+          "community"
         ]
       }
     },
@@ -27030,6 +26513,92 @@
         "source_names": [
           "Environment Canada · Halifax Harbour marine warnings",
           "Canadian Coast Guard Halifax NAVWARNs"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-862d64f5116ee3bc8c",
+      "source": "Halifax Transit GTFS-Realtime",
+      "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+      "title": "Route 9A schedule to depart at Saturday, September 12, 2026 17:37 from Barrington St Before Duke St Bay 5 (...",
+      "summary": "Halifax Transit Service Update: 9A Outbound is significantly delayed. A helper bus will be available at Barrington St Before Duke St Bay 5 (6107) starting at Saturday, September 12, 2026 17:37",
+      "category": "TRANSIT",
+      "reported_at": "2026-09-12T20:37:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "gtfs_realtime_alert",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 0,
+      "seriousness_score": 12,
+      "source_class": "first_party",
+      "event_type": "transit_disruption",
+      "canonical_location": null,
+      "neighbourhood": "DOWNTOWN",
+      "cluster_id": "evt-862d64f5116ee3bc8c",
+      "evidence_count": 3,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "transit-b25aa925ac66639eca",
+          "source": "Halifax Transit GTFS-Realtime",
+          "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T20:37:00Z",
+          "title": "Route 9A schedule to depart at Saturday, September 12, 2026 17:37 from Barrington St Before Duke St Bay 5 (..."
+        },
+        {
+          "id": "transit-4808704f46f5c3c230",
+          "source": "Halifax Transit GTFS-Realtime",
+          "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T20:24:00Z",
+          "title": "Route 1 schedule to depart at Saturday, September 12, 2026 17:24 from Mumford Terminal Bay 2 (8640) now in ..."
+        },
+        {
+          "id": "transit-dc7be779f354a606a0",
+          "source": "Halifax Transit GTFS-Realtime",
+          "source_url": "https://www.halifax.ca/transportation/halifax-transit/service-disruptions",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-12T20:15:00Z",
+          "title": "Route 320 schedule to depart at Saturday, September 12, 2026 17:15 from Silver Dart Dr At Halifax Airport (..."
+        }
+      ],
+      "priority_score": 24,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "official_realtime_feed"
+      ],
+      "raw_ids": [
+        "209024"
+      ],
+      "related_ids": [
+        "transit-b25aa925ac66639eca",
+        "transit-4808704f46f5c3c230",
+        "transit-dc7be779f354a606a0"
+      ],
+      "metadata": {
+        "informed_entities": [
+          "route 9A"
+        ],
+        "first_reported_at": "2026-09-12T20:15:00Z",
+        "source_names": [
+          "Halifax Transit GTFS-Realtime"
         ],
         "source_classes": [
           "first_party"
@@ -27770,7 +27339,7 @@
       }
     },
     {
-      "id": "evt-4bd5091951dd72f762",
+      "id": "evt-2e79a51634ac1740d8",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013615",
       "title": "Medical Assistance",
@@ -27793,8 +27362,8 @@
       "event_type": "medical_response",
       "canonical_location": "LIVELY MIDDLE SACKVILLE",
       "neighbourhood": "DOWNTOWN",
-      "cluster_id": "evt-4bd5091951dd72f762",
-      "evidence_count": 12,
+      "cluster_id": "evt-2e79a51634ac1740d8",
+      "evidence_count": 10,
       "source_count": 1,
       "evidence": [
         {
@@ -27886,24 +27455,6 @@
           "confidence": "official",
           "reported_at": "2026-09-10T23:01:23Z",
           "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013599",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013599",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-10T21:09:36Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000013598",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013598",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-09-10T20:50:36Z",
-          "title": "Medical Assistance"
         }
       ],
       "priority_score": 22,
@@ -27929,9 +27480,7 @@
         "hrfe-hf26000013610",
         "hrfe-hf26000013608",
         "hrfe-hf26000013603",
-        "hrfe-hf26000013602",
-        "hrfe-hf26000013599",
-        "hrfe-hf26000013598"
+        "hrfe-hf26000013602"
       ],
       "metadata": {
         "call_number": "HF26000013618",
@@ -27967,7 +27516,168 @@
           }
         ],
         "response_unknown_codes": [],
-        "first_reported_at": "2026-09-10T20:50:36Z",
+        "first_reported_at": "2026-09-10T23:01:23Z",
+        "source_names": [
+          "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-c7689e06bd62854727",
+      "source": "r/halifax",
+      "source_url": "https://www.reddit.com/r/halifax/comments/1wdtneu/halifax_regional_police_officer_james_symington/",
+      "title": "Halifax Regional Police officer James Symington and his dog Trakr involved in recovery operations - Sept 12th 2001.",
+      "summary": "Community report — not independently verified.",
+      "category": "POLICE",
+      "reported_at": "2026-09-11T21:39:35Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "community_report",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 15,
+      "seriousness_score": 40,
+      "source_class": "community",
+      "event_type": "police_incident",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-c7689e06bd62854727",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "reddit-halifax-528db3792cff52c6c0",
+          "source": "r/halifax",
+          "source_url": "https://www.reddit.com/r/halifax/comments/1wdtneu/halifax_regional_police_officer_james_symington/",
+          "source_class": "community",
+          "confidence": "unverified",
+          "reported_at": "2026-09-11T21:39:35Z",
+          "title": "Halifax Regional Police officer James Symington and his dog Trakr involved in recovery operations - Sept 12th 2001."
+        }
+      ],
+      "priority_score": 21,
+      "priority_band": "moderate",
+      "impact_scope": "citywide",
+      "attention_reasons": [],
+      "signals": [
+        "community_report",
+        "unverified"
+      ],
+      "raw_ids": [
+        "1wdtneu"
+      ],
+      "related_ids": [
+        "reddit-halifax-528db3792cff52c6c0"
+      ],
+      "metadata": {
+        "subreddit": "halifax",
+        "transport": "rss",
+        "first_reported_at": "2026-09-11T21:39:35Z",
+        "source_names": [
+          "r/halifax"
+        ],
+        "source_classes": [
+          "community"
+        ]
+      }
+    },
+    {
+      "id": "evt-d0834c5b6cdbb56ef1",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013657",
+      "title": "Motor Vehicle Collision",
+      "summary": "Rescue response: Engine 8 and Station 8 assignment.",
+      "category": "RESCUE",
+      "reported_at": "2026-09-11T21:06:52Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MOTOR VEHICLE COLLISION",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "BRADFORD PL, BEDFORD",
+      "lat": 44.7021111,
+      "lon": -63.7006755,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 62,
+      "seriousness_score": 38,
+      "source_class": "first_party",
+      "event_type": "collision",
+      "canonical_location": "BRADFORD PL BEDFORD",
+      "neighbourhood": null,
+      "cluster_id": "evt-d0834c5b6cdbb56ef1",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "hrfe-hf26000013657",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013657",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-11T21:06:52Z",
+          "title": "Motor Vehicle Collision"
+        }
+      ],
+      "priority_score": 21,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "collision"
+      ],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013657"
+      ],
+      "related_ids": [
+        "hrfe-hf26000013657"
+      ],
+      "metadata": {
+        "call_number": "HF26000013657",
+        "response": "E08 STN08",
+        "decoded_units": [
+          {
+            "code": "E08",
+            "label": "Engine 8",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN08",
+            "label": "Station 8 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E08 — Engine 8 · STN08 — Station 8 assignment",
+        "response_summary": "Rescue response: Engine 8 and Station 8 assignment.",
+        "decoded_response": [
+          {
+            "code": "E08",
+            "label": "Engine 8",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN08",
+            "label": "Station 8 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": [],
+        "first_reported_at": "2026-09-11T21:06:52Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -28136,13 +27846,13 @@
       }
     },
     {
-      "id": "evt-b0a59405d0363e44f4",
+      "id": "evt-25af4336b914247fa4",
       "source": "Downtown Halifax events",
       "source_url": "https://downtownhalifax.ca/event/maritime-heritage-festival-0",
       "title": "Maritime Heritage Festival Sep 12 2026 - Sep 13 2026 Maritime Museum of the Atlantic",
       "summary": "Maritime Heritage Festival Sep 12 2026 - Sep 13 2026 Maritime Museum of the Atlantic",
       "category": "EVENT",
-      "reported_at": "2026-09-12T20:43:04Z",
+      "reported_at": "2026-09-12T22:37:25Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -28159,7 +27869,7 @@
       "event_type": "public_event",
       "canonical_location": "DOWNTOWN",
       "neighbourhood": null,
-      "cluster_id": "evt-b0a59405d0363e44f4",
+      "cluster_id": "evt-25af4336b914247fa4",
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [
@@ -28169,7 +27879,7 @@
           "source_url": "https://downtownhalifax.ca/event/maritime-heritage-festival-0",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-09-12T20:43:04Z",
+          "reported_at": "2026-09-12T22:37:25Z",
           "title": "Maritime Heritage Festival Sep 12 2026 - Sep 13 2026 Maritime Museum of the Atlantic"
         }
       ],
@@ -28187,7 +27897,7 @@
         "dhevent-099ba151036414b1cf"
       ],
       "metadata": {
-        "first_reported_at": "2026-09-12T20:43:04Z",
+        "first_reported_at": "2026-09-12T22:37:25Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -28197,13 +27907,13 @@
       }
     },
     {
-      "id": "evt-b0a59405d0363e44f4",
+      "id": "evt-25af4336b914247fa4",
       "source": "Downtown Halifax events",
       "source_url": "https://downtownhalifax.ca/event/birdwatch-aerial-circus-show-presented-iness-circus-and-halifax-fringe",
       "title": "Birdwatch - an Aerial Circus Show - presented by inesS Circus and Halifax Fringe Sep 12 2026 inesS Circus and Halifax Fringe Festival",
       "summary": "Birdwatch - an Aerial Circus Show - presented by inesS Circus and Halifax Fringe Sep 12 2026 inesS Circus and Halifax Fringe Festival",
       "category": "EVENT",
-      "reported_at": "2026-09-12T20:43:04Z",
+      "reported_at": "2026-09-12T22:37:25Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -28220,7 +27930,7 @@
       "event_type": "public_event",
       "canonical_location": "DOWNTOWN",
       "neighbourhood": null,
-      "cluster_id": "evt-b0a59405d0363e44f4",
+      "cluster_id": "evt-25af4336b914247fa4",
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [
@@ -28230,7 +27940,7 @@
           "source_url": "https://downtownhalifax.ca/event/birdwatch-aerial-circus-show-presented-iness-circus-and-halifax-fringe",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-09-12T20:43:04Z",
+          "reported_at": "2026-09-12T22:37:25Z",
           "title": "Birdwatch - an Aerial Circus Show - presented by inesS Circus and Halifax Fringe Sep 12 2026 inesS Circus and Halifax Fringe Festival"
         }
       ],
@@ -28248,7 +27958,7 @@
         "dhevent-e1d7195bf600e919ff"
       ],
       "metadata": {
-        "first_reported_at": "2026-09-12T20:43:04Z",
+        "first_reported_at": "2026-09-12T22:37:25Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -28932,6 +28642,101 @@
         ],
         "response_unknown_codes": [],
         "first_reported_at": "2026-09-11T04:32:29Z",
+        "source_names": [
+          "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-6f3669be8a7cc47ce0",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013606",
+      "title": "Vehicle Fire",
+      "summary": "Emergency response: Engine 17 and Station 17 assignment.",
+      "category": "FIRE",
+      "reported_at": "2026-09-10T23:56:57Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "VEHICLE FIRE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "COLE HARBOUR RD, COLE HARBOUR",
+      "lat": null,
+      "lon": null,
+      "location_precision": "street_or_intersection",
+      "severity": 2,
+      "siren_score": 54,
+      "seriousness_score": 34,
+      "source_class": "first_party",
+      "event_type": "fire_incident",
+      "canonical_location": "COLE HARBOUR COLE HARBOUR",
+      "neighbourhood": null,
+      "cluster_id": "evt-6f3669be8a7cc47ce0",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "hrfe-hf26000013606",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000013606",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-09-10T23:56:57Z",
+          "title": "Vehicle Fire"
+        }
+      ],
+      "priority_score": 18,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000013606"
+      ],
+      "related_ids": [
+        "hrfe-hf26000013606"
+      ],
+      "metadata": {
+        "call_number": "HF26000013606",
+        "response": "E17 STN17",
+        "decoded_units": [
+          {
+            "code": "E17",
+            "label": "Engine 17",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN17",
+            "label": "Station 17 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E17 — Engine 17 · STN17 — Station 17 assignment",
+        "response_summary": "Emergency response: Engine 17 and Station 17 assignment.",
+        "decoded_response": [
+          {
+            "code": "E17",
+            "label": "Engine 17",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN17",
+            "label": "Station 17 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": [],
+        "first_reported_at": "2026-09-10T23:56:57Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -30350,7 +30155,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-09-12T20:43:30Z",
+      "updated_at": "2026-09-12T22:37:50Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -33408,15 +33213,15 @@
       }
     }
   ],
-  "event_count": 111,
-  "observation_count": 375,
+  "event_count": 112,
+  "observation_count": 372,
   "source_health": [
     {
       "source": "Bluesky community search",
       "url": "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=Halifax%20sirens",
       "authority": "community",
       "status": "error",
-      "checked_at": "2026-09-12T20:43:03Z",
+      "checked_at": "2026-09-12T22:37:24Z",
       "fetched_at": null,
       "records": 0,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=Barrington+Halifax+closure&limit=40&sort=latest",
@@ -33427,7 +33232,7 @@
       "url": "https://www.portofhalifax.ca/cruise/cruise-schedule/",
       "authority": "official schedule",
       "status": "error",
-      "checked_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
       "fetched_at": null,
       "records": 0,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portofhalifax.ca/cruise/cruise-schedule/",
@@ -33438,8 +33243,8 @@
       "url": "https://511.novascotia.ca/list/events/traffic",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:03Z",
+      "checked_at": "2026-09-12T22:37:24Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 0,
       "error": null,
       "notes": "Official traffic-event text report. Zero parsed rows can legitimately mean there are no listed HRM traffic events at collection time."
@@ -33449,8 +33254,8 @@
       "url": "https://bsky.app/",
       "authority": "mixed",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:05Z",
-      "fetched_at": "2026-09-12T20:43:05Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 173,
       "error": null,
       "notes": "4/4 configured accounts reachable; includes official, community and automated mirrors."
@@ -33460,8 +33265,8 @@
       "url": "https://nis.ccg-gcc.gc.ca/public/rest/messages/en/search?q=Halifax&status=PUBLISHED",
       "authority": "official Canadian Coast Guard",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:04Z",
-      "fetched_at": "2026-09-12T20:43:06Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:27Z",
       "records": 2,
       "error": null,
       "notes": "Recent published NAVWARNs mentioning Halifax/Bedford Basin; older standing marine notices are excluded from the incident timeline."
@@ -33471,8 +33276,8 @@
       "url": "https://cwfis.cfs.nrcan.gc.ca/interactive-map",
       "authority": "official federal wildfire data",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:04Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 0,
       "error": null,
       "notes": "CWFIS active-fire records within 100 km of downtown Halifax; out/extinguished records are excluded."
@@ -33482,8 +33287,8 @@
       "url": "https://downtownhalifax.ca/events",
       "authority": "event listing",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:04Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:26Z",
       "records": 2,
       "error": null,
       "notes": "Only events whose published date range includes today are emitted as context."
@@ -33493,9 +33298,9 @@
       "url": "https://emergencyinfo.novascotia.ca/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:04Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
-      "records": 42,
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
+      "records": 43,
       "error": null,
       "notes": "Provincial public-message ArcGIS view; avoids website TLS/rendering failures while preserving the same emergency-information source."
     },
@@ -33504,8 +33309,8 @@
       "url": "https://weather.gc.ca/rss/battleboard/ns1_e.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 1,
       "error": null,
       "notes": "Halifax Metro and Halifax County West near-real-time public weather alert Atom feed."
@@ -33515,8 +33320,8 @@
       "url": "https://weather.gc.ca/marine/forecast_e.html?mapID=15&siteID=06000",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 0,
       "error": null,
       "notes": "Environment Canada warnings specifically for Halifax Harbour and Approaches; emits no row when no warning is in effect."
@@ -33526,8 +33331,8 @@
       "url": "https://halifaxharbourbridges.ca/traffic/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:03Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 0,
       "error": null,
       "notes": "Live bridge traffic/closure page. Only disruption-like text is emitted into the incident timeline."
@@ -33537,9 +33342,9 @@
       "url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed/rss.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:03Z",
-      "records": 56,
+      "checked_at": "2026-09-12T22:37:24Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
+      "records": 57,
       "error": null,
       "notes": "Official HRFE RSS dispatch feed with official HTML fallback. Response codes are retained verbatim and decoded into human-readable apparatus/command labels; inferred code expansions remain marked in metadata."
     },
@@ -33548,8 +33353,8 @@
       "url": "https://bsky.app/profile/hfxgov.bsky.social",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:03Z",
+      "checked_at": "2026-09-12T22:37:24Z",
+      "fetched_at": "2026-09-12T22:37:24Z",
       "records": 33,
       "error": null,
       "notes": "Official HRM social updates filtered to disruption/public-safety terms. HRM directs residents to this account during emergency events."
@@ -33559,8 +33364,8 @@
       "url": "https://www.halifax.ca/home/news?category=25",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:24Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 10,
       "error": null,
       "notes": "Official HRP releases; current release-card parser with a bounded dated-link fallback."
@@ -33570,9 +33375,9 @@
       "url": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:03Z",
-      "records": 77,
+      "checked_at": "2026-09-12T22:37:24Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
+      "records": 74,
       "error": null,
       "notes": "Official GTFS-Realtime alerts; data licensed under the Open Government Licence — Halifax."
     },
@@ -33581,8 +33386,8 @@
       "url": "https://www.halifaxwater.ca/notices-and-news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 3,
       "error": null,
       "notes": null
@@ -33592,8 +33397,8 @@
       "url": "https://www.halifaxwater.ca/alerts",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 1,
       "error": null,
       "notes": "Current Halifax Water alert banner/list; historical alerts are excluded at the parser boundary."
@@ -33603,8 +33408,8 @@
       "url": "https://data-hrm.hub.arcgis.com/datasets/HRM::hrfe-incident-initial-response",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:24Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 200,
       "error": null,
       "notes": "Periodic HRFE open-data layer used as a second incident source/enrichment path. Source timestamps are preserved; no guessed offset correction is applied."
@@ -33614,8 +33419,8 @@
       "url": "https://bsky.app/profile/hrfeincidents.bsky.social",
       "authority": "secondary automated mirror",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:04Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 0,
       "error": null,
       "notes": "2/2 HRFE mirror accounts reachable. Primary mirror states it republishes the HRFE RSS incident feed and may lag by up to five minutes. Not operated by HRFE."
@@ -33625,8 +33430,8 @@
       "url": "https://services2.arcgis.com/11XBiaBYA9Ep0yNJ/ArcGIS/rest/services/Street_Closures_Active/FeatureServer/0",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:03Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 20,
       "error": null,
       "notes": "HRM's active planned/permitted street-closure layer. Useful context for blocked roads and unusual response routing; not an emergency feed."
@@ -33636,8 +33441,8 @@
       "url": "https://www.halifax.ca/home/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:24Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 0,
       "error": null,
       "notes": "Current HRM newsroom filtered to public-safety, transportation and disruption terms."
@@ -33647,8 +33452,8 @@
       "url": "https://globalnews.ca/halifax/feed/",
       "authority": "news / aggregator",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:30Z",
-      "fetched_at": "2026-09-12T20:43:30Z",
+      "checked_at": "2026-09-12T22:37:50Z",
+      "fetched_at": "2026-09-12T22:37:50Z",
       "records": 66,
       "error": null,
       "notes": "6/11 feeds reachable. Items require Halifax-area geography plus nearby public-safety/disruption language; reports are not treated as dispatch confirmation."
@@ -33658,8 +33463,8 @@
       "url": "https://www.nshealth.ca/service-statuses-closures-and-cancellations",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:04Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:26Z",
       "records": 0,
       "error": null,
       "notes": "Current Nova Scotia Health disruptions/advisories filtered to urban HRM facilities; provincial non-HRM closures are excluded and locality evidence is required for a healthy zero."
@@ -33669,8 +33474,8 @@
       "url": "https://outagemap.hfxdeploy.com/api/outages",
       "authority": "secondary",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:04Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 0,
       "error": null,
       "notes": "Machine-readable helper linked to the official NSP map. Routine small outages are suppressed; threshold defaults to 100 customers."
@@ -33680,8 +33485,8 @@
       "url": "https://rcmp.ca/en/nova-scotia/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:03Z",
-      "fetched_at": "2026-09-12T20:43:03Z",
+      "checked_at": "2026-09-12T22:37:24Z",
+      "fetched_at": "2026-09-12T22:37:25Z",
       "records": 0,
       "error": null,
       "notes": "RCMP Nova Scotia releases filtered to HRM-area place names."
@@ -33691,9 +33496,9 @@
       "url": "https://www.reddit.com/r/halifax/new/",
       "authority": "community",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:05Z",
-      "fetched_at": "2026-09-12T20:43:05Z",
-      "records": 5,
+      "checked_at": "2026-09-12T22:37:26Z",
+      "fetched_at": "2026-09-12T22:37:26Z",
+      "records": 2,
       "error": null,
       "notes": "1/2 subreddits reachable via r/halifax:rss. JSON is preferred; Atom/RSS is the fallback. Usernames are not persisted."
     },
@@ -33702,8 +33507,8 @@
       "url": "https://www.smu.ca/alert/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-09-12T20:43:04Z",
-      "fetched_at": "2026-09-12T20:43:04Z",
+      "checked_at": "2026-09-12T22:37:25Z",
+      "fetched_at": "2026-09-12T22:37:26Z",
       "records": 0,
       "error": null,
       "notes": "Saint Mary's current closure/interruption page; normal operating status produces zero events."
