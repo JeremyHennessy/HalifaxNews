@@ -59,6 +59,12 @@
     "precision": "approximate_geocode",
     "query": "BRENNANS RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
   },
+  "BROAD BEDFORD": {
+    "lat": 44.7159577,
+    "lon": -63.7049716,
+    "precision": "approximate_geocode",
+    "query": "BROAD ST, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "BRUNSWICK": {
     "lat": 44.6481011,
     "lon": -63.5774749,
@@ -100,6 +106,12 @@
     "lon": -63.6363408,
     "precision": "approximate_geocode",
     "query": "DAWN ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "DELLRIDGE BEDFORD": {
+    "lat": 44.7005551,
+    "lon": -63.6888836,
+    "precision": "approximate_geocode",
+    "query": "DELLRIDGE LANE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "DOWNTOWN": {
     "lat": 44.6461752,
@@ -209,11 +221,23 @@
     "precision": "approximate_geocode",
     "query": "NITA LANE, HALIFAX, Nova Scotia, Canada"
   },
+  "NORTH": {
+    "lat": 44.6570315,
+    "lon": -63.591529,
+    "precision": "approximate_geocode",
+    "query": "NORTH ST, HALIFAX, Nova Scotia, Canada"
+  },
   "OLD SACKVILLE LOWER SACKVILLE": {
     "lat": 44.7650294,
     "lon": -63.6900004,
     "precision": "approximate_geocode",
     "query": "OLD SACKVILLE RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "PARKMOOR": {
+    "lat": 44.5871825,
+    "lon": -63.593638,
+    "precision": "approximate_geocode",
+    "query": "PARKMOOR AVE, HALIFAX, Nova Scotia, Canada"
   },
   "PEGGYS POINT PEGGYS COVE": {
     "lat": 44.4951665,
@@ -286,5 +310,11 @@
     "lon": -63.5850295,
     "precision": "approximate_geocode",
     "query": "WILLIAMS AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "WYSE": {
+    "lat": 44.670027,
+    "lon": -63.5776312,
+    "precision": "approximate_geocode",
+    "query": "WYSE RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   }
 }
