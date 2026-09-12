@@ -17,6 +17,12 @@
     "precision": "approximate_geocode",
     "query": "BARRINGTON ST, HALIFAX, Nova Scotia, Canada"
   },
+  "BARRY ALLEN": {
+    "lat": 44.6697411,
+    "lon": -63.5149112,
+    "precision": "approximate_geocode",
+    "query": "BARRY ALLEN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "BEAVER BANK LOWER SACKVILLE": {
     "lat": 44.7819297,
     "lon": -63.69135,
@@ -47,11 +53,23 @@
     "precision": "approximate_geocode",
     "query": "BRENNANS RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
   },
+  "BURNSIDE": {
+    "lat": 44.7109464,
+    "lon": -63.5893005,
+    "precision": "approximate_geocode",
+    "query": "BURNSIDE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CALDWELL COLE HARBOUR": {
     "lat": 44.6539551,
     "lon": -63.4874848,
     "precision": "approximate_geocode",
     "query": "CALDWELL RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "CHAPAIS LOWER SACKVILLE": {
+    "lat": 44.7645511,
+    "lon": -63.6673341,
+    "precision": "approximate_geocode",
+    "query": "CHAPAIS DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "DAWN": {
     "lat": 44.6602421,
@@ -113,6 +131,12 @@
     "precision": "approximate_geocode",
     "query": "KETCH HARBOUR RD, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
+  "KIRTLAND CRT COLE HARBOUR": {
+    "lat": 44.6803709,
+    "lon": -63.4989318,
+    "precision": "approximate_geocode",
+    "query": "KIRTLAND CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "LAKE HATCHET LAKE": {
     "lat": 44.5682549,
     "lon": -63.7211158,
@@ -143,6 +167,12 @@
     "precision": "approximate_geocode",
     "query": "PEGGYS POINT RD, PEGGYS COVE, Halifax, Nova Scotia, Canada"
   },
+  "PORTLAND HILLS": {
+    "lat": 44.6656116,
+    "lon": -63.5073335,
+    "precision": "approximate_geocode",
+    "query": "PORTLAND HILLS DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "PRIMROSE": {
     "lat": 44.684797,
     "lon": -63.5830135,
@@ -154,6 +184,12 @@
     "lon": -63.5879823,
     "precision": "approximate_geocode",
     "query": "ROBIE ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "RUSSELL LAKE": {
+    "lat": 44.6633718,
+    "lon": -63.5204736,
+    "precision": "approximate_geocode",
+    "query": "RUSSELL LAKE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SHINING WALK LOWER SACKVILLE": {
     "lat": 44.7581704,
