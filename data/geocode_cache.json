@@ -59,6 +59,12 @@
     "precision": "approximate_geocode",
     "query": "BRENNANS RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
   },
+  "BRUNSWICK": {
+    "lat": 44.6481011,
+    "lon": -63.5774749,
+    "precision": "approximate_geocode",
+    "query": "BRUNSWICK ST, HALIFAX, Nova Scotia, Canada"
+  },
   "BURNSIDE": {
     "lat": 44.7109464,
     "lon": -63.5893005,
@@ -71,11 +77,23 @@
     "precision": "approximate_geocode",
     "query": "CALDWELL RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "CARRIE CRES BEAVER BANK": {
+    "lat": 44.8279996,
+    "lon": -63.6837235,
+    "precision": "approximate_geocode",
+    "query": "CARRIE CRES, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "CHAPAIS LOWER SACKVILLE": {
     "lat": 44.7645511,
     "lon": -63.6673341,
     "precision": "approximate_geocode",
     "query": "CHAPAIS DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "CONRAD LAWRENCETOWN": {
+    "lat": 44.6498729,
+    "lon": -63.3686935,
+    "precision": "approximate_geocode",
+    "query": "CONRAD RD, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
   "DAWN": {
     "lat": 44.6602421,
@@ -143,6 +161,12 @@
     "precision": "approximate_geocode",
     "query": "KETCH HARBOUR RD, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
+  "KINGSWOOD HAMMONDS PLAINS": {
+    "lat": 44.6972143,
+    "lon": -63.7555473,
+    "precision": "approximate_geocode",
+    "query": "KINGSWOOD DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "KIRTLAND CRT COLE HARBOUR": {
     "lat": 44.6803709,
     "lon": -63.4989318,
@@ -160,6 +184,12 @@
     "lon": -63.6703396,
     "precision": "approximate_geocode",
     "query": "LANGBRAE DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "LORIANN PORTERS LAKE": {
+    "lat": 44.7490096,
+    "lon": -63.28952,
+    "precision": "approximate_geocode",
+    "query": "LORIANN DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "LOWER WATER": {
     "lat": 44.6460229,
@@ -232,6 +262,12 @@
     "lon": -63.6699294,
     "precision": "approximate_geocode",
     "query": "SOLUTIONS DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "SOUTH": {
+    "lat": 44.6390923,
+    "lon": -63.5740827,
+    "precision": "approximate_geocode",
+    "query": "SOUTH ST, HALIFAX, Nova Scotia, Canada"
   },
   "SOUTH PARK": {
     "lat": 44.6394911,
