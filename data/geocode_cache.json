@@ -11,6 +11,12 @@
     "precision": "approximate_geocode",
     "query": "AKERLEY BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ALDERNEY": {
+    "lat": 44.6664317,
+    "lon": -63.5645888,
+    "precision": "approximate_geocode",
+    "query": "ALDERNEY DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "ARMBRO COLE HARBOUR": {
     "lat": 44.6711607,
     "lon": -63.4871398,
@@ -59,6 +65,12 @@
     "precision": "approximate_geocode",
     "query": "BRENNANS RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
   },
+  "BRIARWOOD CRES": {
+    "lat": 44.6655497,
+    "lon": -63.646704,
+    "precision": "approximate_geocode",
+    "query": "BRIARWOOD CRES, HALIFAX, Nova Scotia, Canada"
+  },
   "BROAD BEDFORD": {
     "lat": 44.7159577,
     "lon": -63.7049716,
@@ -94,6 +106,12 @@
     "lon": -63.669723,
     "precision": "approximate_geocode",
     "query": "CASTLE HILL DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "CATAMARAN": {
+    "lat": 44.6195566,
+    "lon": -63.6177965,
+    "precision": "approximate_geocode",
+    "query": "CATAMARAN RD, HALIFAX, Nova Scotia, Canada"
   },
   "CHAPAIS LOWER SACKVILLE": {
     "lat": 44.7645511,
@@ -142,6 +160,12 @@
     "lon": -63.5230931,
     "precision": "approximate_geocode",
     "query": "EISENER BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "FALL RIVER FALL RIVER": {
+    "lat": 44.8077824,
+    "lon": -63.6404233,
+    "precision": "approximate_geocode",
+    "query": "FALL RIVER RD, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
   "FIRST LAKE LOWER SACKVILLE": {
     "lat": 44.7691107,
@@ -263,6 +287,12 @@
     "precision": "approximate_geocode",
     "query": "PARKMOOR AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "PEGGYS COVE INDIAN HARBOUR": {
+    "lat": 44.5451258,
+    "lon": -63.9359725,
+    "precision": "approximate_geocode",
+    "query": "PEGGYS COVE RD, INDIAN HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "PEGGYS POINT PEGGYS COVE": {
     "lat": 44.4951665,
     "lon": -63.9145881,
@@ -340,6 +370,12 @@
     "lon": -63.2801317,
     "precision": "approximate_geocode",
     "query": "STELLA DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "TUPPER": {
+    "lat": 44.6618746,
+    "lon": -63.55444,
+    "precision": "approximate_geocode",
+    "query": "TUPPER ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "WILLIAMS": {
     "lat": 44.7124043,
