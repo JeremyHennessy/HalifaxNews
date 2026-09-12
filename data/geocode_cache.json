@@ -17,6 +17,12 @@
     "precision": "approximate_geocode",
     "query": "BARRINGTON ST, HALIFAX, Nova Scotia, Canada"
   },
+  "BEAVER BANK LOWER SACKVILLE": {
+    "lat": 44.7819297,
+    "lon": -63.69135,
+    "precision": "approximate_geocode",
+    "query": "BEAVER BANK RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "BEECH TREE RUN BEECHVILLE": {
     "lat": 44.6335518,
     "lon": -63.6823721,
@@ -28,6 +34,12 @@
     "lon": -63.2697139,
     "precision": "approximate_geocode",
     "query": "BERNICE DR, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "BRADFORD PL BEDFORD": {
+    "lat": 44.7021111,
+    "lon": -63.7006755,
+    "precision": "approximate_geocode",
+    "query": "BRADFORD PL, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "BRENNANS PROSPECT BAY": {
     "lat": 44.5064134,
