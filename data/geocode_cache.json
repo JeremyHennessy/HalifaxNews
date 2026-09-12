@@ -1,4 +1,10 @@
 {
+  "A MURRAY MACKAY BRDG": {
+    "lat": 44.6793705,
+    "lon": -63.6105468,
+    "precision": "approximate_geocode",
+    "query": "A MURRAY MACKAY BRDG, HALIFAX, Nova Scotia, Canada"
+  },
   "AKERLEY": {
     "lat": 44.7096252,
     "lon": -63.6056304,
@@ -113,6 +119,12 @@
     "precision": "approximate_geocode",
     "query": "GRENNAN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "HEATHERWOOD CRT": {
+    "lat": 44.6711094,
+    "lon": -63.611969,
+    "precision": "approximate_geocode",
+    "query": "HEATHERWOOD CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "HOROBIN FALL RIVER": {
     "lat": 44.8082219,
     "lon": -63.6162375,
@@ -143,6 +155,12 @@
     "precision": "approximate_geocode",
     "query": "LAKE RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
   },
+  "LANGBRAE": {
+    "lat": 44.6674579,
+    "lon": -63.6703396,
+    "precision": "approximate_geocode",
+    "query": "LANGBRAE DR, HALIFAX, Nova Scotia, Canada"
+  },
   "LOWER WATER": {
     "lat": 44.6460229,
     "lon": -63.5709755,
@@ -160,6 +178,12 @@
     "lon": -63.637959,
     "precision": "approximate_geocode",
     "query": "NITA LANE, HALIFAX, Nova Scotia, Canada"
+  },
+  "OLD SACKVILLE LOWER SACKVILLE": {
+    "lat": 44.7650294,
+    "lon": -63.6900004,
+    "precision": "approximate_geocode",
+    "query": "OLD SACKVILLE RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "PEGGYS POINT PEGGYS COVE": {
     "lat": 44.4951665,
@@ -179,6 +203,12 @@
     "precision": "approximate_geocode",
     "query": "PRIMROSE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "RIVERSIDE LOWER SACKVILLE": {
+    "lat": 44.7821309,
+    "lon": -63.6801896,
+    "precision": "approximate_geocode",
+    "query": "RIVERSIDE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "ROBIE": {
     "lat": 44.6424271,
     "lon": -63.5879823,
@@ -196,6 +226,12 @@
     "lon": -63.6593544,
     "precision": "approximate_geocode",
     "query": "SHINING WALK, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SOLUTIONS": {
+    "lat": 44.6560609,
+    "lon": -63.6699294,
+    "precision": "approximate_geocode",
+    "query": "SOLUTIONS DR, HALIFAX, Nova Scotia, Canada"
   },
   "SOUTH PARK": {
     "lat": 44.6394911,
