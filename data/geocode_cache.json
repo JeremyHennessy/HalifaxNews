@@ -35,11 +35,23 @@
     "precision": "approximate_geocode",
     "query": "BARRY ALLEN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "BAYERS": {
+    "lat": 44.6567,
+    "lon": -63.6076338,
+    "precision": "approximate_geocode",
+    "query": "BAYERS RD, HALIFAX, Nova Scotia, Canada"
+  },
   "BEAVER BANK LOWER SACKVILLE": {
     "lat": 44.7819297,
     "lon": -63.69135,
     "precision": "approximate_geocode",
     "query": "BEAVER BANK RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "BEDFORD HWY": {
+    "lat": 44.6636559,
+    "lon": -63.6331226,
+    "precision": "approximate_geocode",
+    "query": "BEDFORD HWY, HALIFAX, Nova Scotia, Canada"
   },
   "BEDFORD HWY BEDFORD": {
     "lat": 44.7060535,
@@ -263,6 +275,12 @@
     "precision": "approximate_geocode",
     "query": "HEATHERWOOD CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "HIGHFIELD PARK": {
+    "lat": 44.6889062,
+    "lon": -63.5872737,
+    "precision": "approximate_geocode",
+    "query": "HIGHFIELD PARK DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "HOROBIN FALL RIVER": {
     "lat": 44.8082219,
     "lon": -63.6162375,
@@ -341,6 +359,12 @@
     "precision": "approximate_geocode",
     "query": "METROPOLITAN AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "MOUNT EDWARD": {
+    "lat": 44.6880503,
+    "lon": -63.5082188,
+    "precision": "approximate_geocode",
+    "query": "MOUNT EDWARD RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "NITA": {
     "lat": 44.5935414,
     "lon": -63.637959,
@@ -406,6 +430,12 @@
     "lon": -63.5879823,
     "precision": "approximate_geocode",
     "query": "ROBIE ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "ROY CRES BEDFORD": {
+    "lat": 44.7218592,
+    "lon": -63.6823826,
+    "precision": "approximate_geocode",
+    "query": "ROY CRES, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "RUSSELL LAKE": {
     "lat": 44.6633718,
