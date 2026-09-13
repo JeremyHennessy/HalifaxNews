@@ -59,6 +59,12 @@
     "precision": "approximate_geocode",
     "query": "BERNICE DR, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "BISSETT COLE HARBOUR": {
+    "lat": 44.6574924,
+    "lon": -63.4505679,
+    "precision": "approximate_geocode",
+    "query": "BISSETT RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "BRADFORD PL BEDFORD": {
     "lat": 44.7021111,
     "lon": -63.7006755,
@@ -262,6 +268,12 @@
     "lon": -63.6162375,
     "precision": "approximate_geocode",
     "query": "HOROBIN DR, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
+  "ISELEY DUTCH SETTLEMENT": {
+    "lat": 44.9798347,
+    "lon": -63.461845,
+    "precision": "approximate_geocode",
+    "query": "ISELEY LANE, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
   },
   "KAREN WESTPHAL": {
     "lat": 44.6953349,
