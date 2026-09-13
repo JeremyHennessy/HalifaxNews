@@ -17,6 +17,12 @@
     "precision": "approximate_geocode",
     "query": "ALDERNEY DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ANGUS L MACDONALD BRDG": {
+    "lat": 44.663637,
+    "lon": -63.5847142,
+    "precision": "approximate_geocode",
+    "query": "ANGUS L MACDONALD BRDG, HALIFAX, Nova Scotia, Canada"
+  },
   "ARMBRO COLE HARBOUR": {
     "lat": 44.6711607,
     "lon": -63.4871398,
