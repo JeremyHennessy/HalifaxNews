@@ -143,6 +143,18 @@
     "precision": "approximate_geocode",
     "query": "CONRAD RD, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
+  "COWIE HILL": {
+    "lat": 44.6246893,
+    "lon": -63.622829,
+    "precision": "approximate_geocode",
+    "query": "COWIE HILL RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "DAVID ALLEN EAST LAWRENCETOWN": {
+    "lat": 44.6704384,
+    "lon": -63.3169712,
+    "precision": "approximate_geocode",
+    "query": "DAVID ALLEN DR, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
+  },
   "DAWN": {
     "lat": 44.6602421,
     "lon": -63.6363408,
@@ -232,6 +244,12 @@
     "lon": -63.4937707,
     "precision": "approximate_geocode",
     "query": "KAREN DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "KENNEDY": {
+    "lat": 44.6909024,
+    "lon": -63.5285383,
+    "precision": "approximate_geocode",
+    "query": "KENNEDY DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "KETCH HARBOUR HERRING COVE": {
     "lat": 44.5569177,
@@ -358,6 +376,12 @@
     "lon": -63.5204736,
     "precision": "approximate_geocode",
     "query": "RUSSELL LAKE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "RYEDALE CRT WESTPHAL": {
+    "lat": 44.7012946,
+    "lon": -63.451231,
+    "precision": "approximate_geocode",
+    "query": "RYEDALE CRT, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "SHINING WALK LOWER SACKVILLE": {
     "lat": 44.7581704,
