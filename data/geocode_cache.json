@@ -155,6 +155,12 @@
     "precision": "approximate_geocode",
     "query": "CONRAD RD, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
+  "CONVOY RUN BEDFORD": {
+    "lat": 44.7176954,
+    "lon": -63.6738216,
+    "precision": "approximate_geocode",
+    "query": "CONVOY RUN, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "COWIE HILL": {
     "lat": 44.6246893,
     "lon": -63.622829,
@@ -226,6 +232,12 @@
     "lon": -63.7069392,
     "precision": "approximate_geocode",
     "query": "GARY MARTIN DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "GOTTINGEN": {
+    "lat": 44.6692629,
+    "lon": -63.6087222,
+    "precision": "approximate_geocode",
+    "query": "GOTTINGEN ST, HALIFAX, Nova Scotia, Canada"
   },
   "GRENNAN LOWER SACKVILLE": {
     "lat": 44.7864957,
