@@ -65,6 +65,12 @@
     "precision": "approximate_geocode",
     "query": "BRENNANS RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
   },
+  "BRENTWOOD TIMBERLEA": {
+    "lat": 44.653812,
+    "lon": -63.7349529,
+    "precision": "approximate_geocode",
+    "query": "BRENTWOOD AVE, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "BRIARWOOD CRES": {
     "lat": 44.6655497,
     "lon": -63.646704,
@@ -166,6 +172,12 @@
     "lon": -63.5230931,
     "precision": "approximate_geocode",
     "query": "EISENER BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "ERIN": {
+    "lat": 44.6859122,
+    "lon": -63.5181435,
+    "precision": "approximate_geocode",
+    "query": "ERIN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "FALL RIVER FALL RIVER": {
     "lat": 44.8077824,
@@ -389,6 +401,12 @@
     "precision": "approximate_geocode",
     "query": "STUART HARRIS DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "SUSIE LAKE CRES BEECHVILLE": {
+    "lat": 44.6459067,
+    "lon": -63.674284,
+    "precision": "approximate_geocode",
+    "query": "SUSIE LAKE CRES, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
   "TUPPER": {
     "lat": 44.6618746,
     "lon": -63.55444,
@@ -406,6 +424,12 @@
     "lon": -63.5850295,
     "precision": "approximate_geocode",
     "query": "WILLIAMS AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "WINDCREST TERR": {
+    "lat": 44.6532971,
+    "lon": -63.6022509,
+    "precision": "approximate_geocode",
+    "query": "WINDCREST TERR, HALIFAX, Nova Scotia, Canada"
   },
   "WYSE": {
     "lat": 44.670027,
