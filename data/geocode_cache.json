@@ -41,6 +41,12 @@
     "precision": "approximate_geocode",
     "query": "BEAVER BANK RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BEDFORD HWY BEDFORD": {
+    "lat": 44.7060535,
+    "lon": -63.6640606,
+    "precision": "approximate_geocode",
+    "query": "BEDFORD HWY, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "BEECH TREE RUN BEECHVILLE": {
     "lat": 44.6335518,
     "lon": -63.6823721,
@@ -136,6 +142,12 @@
     "lon": -63.499104,
     "precision": "approximate_geocode",
     "query": "CIRCASSION DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "COLE HARBOUR COLE HARBOUR": {
+    "lat": 44.6777183,
+    "lon": -63.4610259,
+    "precision": "approximate_geocode",
+    "query": "COLE HARBOUR RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "CONRAD LAWRENCETOWN": {
     "lat": 44.6498729,
@@ -418,6 +430,12 @@
     "lon": -63.2801317,
     "precision": "approximate_geocode",
     "query": "STELLA DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "STRATFORD COLE HARBOUR": {
+    "lat": 44.6523947,
+    "lon": -63.473791,
+    "precision": "approximate_geocode",
+    "query": "STRATFORD DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "STUART HARRIS": {
     "lat": 44.683859,
