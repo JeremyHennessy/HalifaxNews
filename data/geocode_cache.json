@@ -485,6 +485,12 @@
     "precision": "approximate_geocode",
     "query": "STELLA DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "STOKIL LOWER SACKVILLE": {
+    "lat": 44.7866353,
+    "lon": -63.6866944,
+    "precision": "approximate_geocode",
+    "query": "STOKIL DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "STRATFORD COLE HARBOUR": {
     "lat": 44.6523947,
     "lon": -63.473791,
