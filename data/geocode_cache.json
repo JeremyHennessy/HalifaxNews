@@ -245,6 +245,12 @@
     "precision": "approximate_geocode",
     "query": "ERIN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "EVERWOOD HAMMONDS PLAINS": {
+    "lat": 44.6977734,
+    "lon": -63.8040701,
+    "precision": "approximate_geocode",
+    "query": "EVERWOOD AVE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "FALL RIVER FALL RIVER": {
     "lat": 44.8077824,
     "lon": -63.6404233,
@@ -262,6 +268,12 @@
     "lon": -63.672875,
     "precision": "approximate_geocode",
     "query": "FLEETVIEW DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "FOREST HILLS PKY COLE HARBOUR": {
+    "lat": 44.6783025,
+    "lon": -63.4918596,
+    "precision": "approximate_geocode",
+    "query": "FOREST HILLS PKY, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "GARY MARTIN BEDFORD": {
     "lat": 44.7217798,
@@ -389,6 +401,12 @@
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, HUBBARDS, Halifax, Nova Scotia, Canada"
   },
+  "MARGARETS BAY TIMBERLEA": {
+    "lat": 44.6657985,
+    "lon": -63.7594235,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "METROPOLITAN LOWER SACKVILLE": {
     "lat": 44.7775008,
     "lon": -63.6748655,
@@ -472,6 +490,12 @@
     "lon": -63.5879823,
     "precision": "approximate_geocode",
     "query": "ROBIE ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "ROSS WESTPHAL": {
+    "lat": 44.6958242,
+    "lon": -63.4585758,
+    "precision": "approximate_geocode",
+    "query": "ROSS RD, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "ROY CRES BEDFORD": {
     "lat": 44.7218592,
