@@ -77,6 +77,12 @@
     "precision": "approximate_geocode",
     "query": "BEECH TREE RUN, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BELL GOFFS": {
+    "lat": 44.8842917,
+    "lon": -63.5160016,
+    "precision": "approximate_geocode",
+    "query": "BELL BLVD, GOFFS, Halifax, Nova Scotia, Canada"
+  },
   "BERNICE WEST CHEZZETCOOK": {
     "lat": 44.7377399,
     "lon": -63.2697139,
@@ -299,6 +305,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
+  "HOLLAND FLETCHERS LAKE": {
+    "lat": 44.8504542,
+    "lon": -63.5992914,
+    "precision": "approximate_geocode",
+    "query": "HOLLAND RD, FLETCHERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "HOROBIN FALL RIVER": {
     "lat": 44.8082219,
     "lon": -63.6162375,
@@ -371,6 +383,12 @@
     "precision": "approximate_geocode",
     "query": "LOWER WATER ST, HALIFAX, Nova Scotia, Canada"
   },
+  "MARGARETS BAY HUBBARDS": {
+    "lat": 44.6385428,
+    "lon": -64.0618727,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, HUBBARDS, Halifax, Nova Scotia, Canada"
+  },
   "METROPOLITAN LOWER SACKVILLE": {
     "lat": 44.7775008,
     "lon": -63.6748655,
@@ -400,6 +418,12 @@
     "lon": -63.6900004,
     "precision": "approximate_geocode",
     "query": "OLD SACKVILLE RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "ORDNANCE": {
+    "lat": 44.6674816,
+    "lon": -63.583451,
+    "precision": "approximate_geocode",
+    "query": "ORDNANCE RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "PARKMOOR": {
     "lat": 44.5871825,
@@ -472,6 +496,12 @@
     "lon": -63.6593544,
     "precision": "approximate_geocode",
     "query": "SHINING WALK, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SMITH NORTH PRESTON": {
+    "lat": 44.7409101,
+    "lon": -63.4642733,
+    "precision": "approximate_geocode",
+    "query": "SMITH LANE, NORTH PRESTON, Halifax, Nova Scotia, Canada"
   },
   "SOLUTIONS": {
     "lat": 44.6560609,
