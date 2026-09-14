@@ -55,6 +55,36 @@ class NormalizationTests(unittest.TestCase):
         normalize_observations([a, b])
         events = cluster_events([a, b])
         self.assertEqual(2, len(events))
+        self.assertEqual(2, len({event.id for event in events}))
+        self.assertEqual(2, len({event.cluster_id for event in events}))
+
+    def test_distinct_gtfs_alerts_are_not_clustered_by_shared_downtown_context(self):
+        a = self._incident(
+            id="transit-route-1",
+            source="Halifax Transit GTFS-Realtime",
+            source_kind="official",
+            category="TRANSIT",
+            subtype="gtfs_realtime_alert",
+            title="Route 1 Outbound trip from Mumford Terminal is cancelled",
+            summary="Route 1 service cancellation affecting downtown Halifax",
+            location_text=None,
+            reported_at="2026-09-14T22:00:00Z",
+        )
+        b = self._incident(
+            id="transit-route-24",
+            source="Halifax Transit GTFS-Realtime",
+            source_kind="official",
+            category="TRANSIT",
+            subtype="gtfs_realtime_alert",
+            title="Route 24 schedule from Mumford Terminal is cancelled",
+            summary="Route 24 service cancellation affecting downtown Halifax",
+            location_text=None,
+            reported_at="2026-09-14T22:05:00Z",
+        )
+        normalize_observations([a, b])
+        events = cluster_events([a, b])
+        self.assertEqual(2, len(events))
+        self.assertEqual({"transit-route-1", "transit-route-24"}, {event.related_ids[0] for event in events})
 
     def test_same_hrfe_call_clusters_across_sources(self):
         a = self._incident(
