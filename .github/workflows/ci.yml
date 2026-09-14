@@ -42,10 +42,25 @@ jobs:
           assert isinstance(p['events'], list)
           assert p['event_count'] == len(p['events'])
           assert p['observation_count'] == len(p['incidents'])
-          for event in p['events'][:50]:
+
+          event_ids = [event.get('id') for event in p['events']]
+          if len(event_ids) != len(set(event_ids)):
+              duplicates = sorted({event_id for event_id in event_ids if event_ids.count(event_id) > 1})
+              raise SystemExit(f"Duplicate normalized event IDs: {duplicates[:10]}")
+
+          for event in p['events']:
               assert event['source_count'] >= 1
               assert event['evidence_count'] >= 1
               assert isinstance(event['evidence'], list)
+              gtfs_evidence = [
+                  row for row in event['evidence']
+                  if row.get('source') == 'Halifax Transit GTFS-Realtime'
+              ]
+              if len(gtfs_evidence) > 1:
+                  raise SystemExit(
+                      f"Distinct Halifax Transit GTFS alerts were clustered together: {event.get('id')}"
+                  )
+
           assert isinstance(p['source_health'], list)
           assert len(p['source_health']) >= 15
 
