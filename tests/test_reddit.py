@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from hfxpulse.adapters.reddit import parse_atom
+from hfxpulse.adapters.reddit import _incident_hit, parse_atom
 
 
 class RedditAtomParserTests(unittest.TestCase):
@@ -35,6 +35,10 @@ class RedditAtomParserTests(unittest.TestCase):
         titles = [row.title for row in parse_atom(data)]
         self.assertNotIn("Where to find local pickled items", titles)
         self.assertNotIn("adult ballet/barre downtown?", titles)
+
+    def test_accident_substring_does_not_match_accidently(self):
+        self.assertFalse(_incident_hit("Accidently pocketed an AirPod case on my flight into Halifax"))
+        self.assertTrue(_incident_hit("Accident on Barrington Street in Halifax"))
 
 
 if __name__ == "__main__":
