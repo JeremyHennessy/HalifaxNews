@@ -293,6 +293,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHFIELD PARK DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 7 WESTPHAL": {
+    "lat": 44.6952019,
+    "lon": -63.4969907,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
   "HOROBIN FALL RIVER": {
     "lat": 44.8082219,
     "lon": -63.6162375,
