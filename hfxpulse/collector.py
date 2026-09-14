@@ -131,6 +131,12 @@ def _revalidate_retained_rows(rows: list[Incident]) -> list[Incident]:
     for row in rows:
         if row.source_kind == "news" and not newsfeeds.relevant_news_item(row.title, row.summary):
             continue
+        # Reddit observations are retained for up to 48 hours. Re-run the current
+        # incident matcher so rows admitted by an older looser substring rule do
+        # not survive after the parser is corrected.
+        if row.source.startswith("r/") and row.source_kind == "community":
+            if not reddit._incident_hit(f"{row.title} {row.summary}"):
+                continue
         kept.append(row)
     return kept
 
