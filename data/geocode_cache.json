@@ -35,6 +35,12 @@
     "precision": "approximate_geocode",
     "query": "ARMBRO LANE, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "ATLANTIC": {
+    "lat": 44.6322456,
+    "lon": -63.5757861,
+    "precision": "approximate_geocode",
+    "query": "ATLANTIC ST, HALIFAX, Nova Scotia, Canada"
+  },
   "BARRINGTON": {
     "lat": 44.652306,
     "lon": -63.5775196,
@@ -305,6 +311,12 @@
     "precision": "approximate_geocode",
     "query": "HEATHERWOOD CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "HERRING COVE": {
+    "lat": 44.5876685,
+    "lon": -63.5919463,
+    "precision": "approximate_geocode",
+    "query": "HERRING COVE RD, HALIFAX, Nova Scotia, Canada"
+  },
   "HIGHFIELD PARK": {
     "lat": 44.6889062,
     "lon": -63.5872737,
@@ -395,6 +407,12 @@
     "precision": "approximate_geocode",
     "query": "LOWER WATER ST, HALIFAX, Nova Scotia, Canada"
   },
+  "MACDONALD POINT SEABRIGHT": {
+    "lat": 44.6197528,
+    "lon": -63.9319198,
+    "precision": "approximate_geocode",
+    "query": "MACDONALD POINT RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
+  },
   "MARGARETS BAY HUBBARDS": {
     "lat": 44.6385428,
     "lon": -64.0618727,
@@ -418,6 +436,12 @@
     "lon": -63.5082188,
     "precision": "approximate_geocode",
     "query": "MOUNT EDWARD RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "NEEDHAM": {
+    "lat": 44.6636593,
+    "lon": -63.5983784,
+    "precision": "approximate_geocode",
+    "query": "NEEDHAM ST, HALIFAX, Nova Scotia, Canada"
   },
   "NITA": {
     "lat": 44.5935414,
@@ -592,6 +616,12 @@
     "lon": -63.7347796,
     "precision": "approximate_geocode",
     "query": "WATERSTONE RUN, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "WILLETT": {
+    "lat": 44.6522498,
+    "lon": -63.6452085,
+    "precision": "approximate_geocode",
+    "query": "WILLETT ST, HALIFAX, Nova Scotia, Canada"
   },
   "WILLIAMS": {
     "lat": 44.7124043,
