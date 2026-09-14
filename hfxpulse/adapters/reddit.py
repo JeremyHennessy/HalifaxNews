@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import html as html_lib
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
@@ -16,10 +17,11 @@ from hfxpulse.util import clean_text, infer_category, infer_text_siren_score, is
 SIGNAL_TERMS = (
     "sirens", "siren", "police", "rcmp", "fire truck", "fire trucks", "fire department", "structure fire", "smoke",
     "ambulance", "paramedic", "ehs", "crash", "collision", "accident", "road closed", "road closure", "street closed",
-    "bridge closed", "blocked off", "emergency", "evacu", "coast guard", "rescue", "helicopter", "ert", "swat",
+    "bridge closed", "blocked off", "emergency", "coast guard", "rescue", "helicopter", "ert", "swat",
     "weapon", "search and rescue", "hazmat", "explosion", "gunshot", "gunshots", "shots fired", "power outage",
     "water main break", "watermain break", "flooding", "fire boat", "fire boats", "incident response", "detour in place",
 )
+SIGNAL_PREFIXES = ("evacu",)
 QUESTION_TERMS = (
     "what happened", "what's happening", "what is happening", "what's going on", "what is going on", "anyone know",
     "does anyone know", "why are there", "what was that", "any idea what", "does anybody know",
@@ -34,9 +36,16 @@ HRM_TERMS = LOCATION_TERMS
 SUBREDDITS = (("halifax", False), ("NovaScotia", True))
 
 
+def _bounded_hit(text: str, term: str) -> bool:
+    """Match a complete word or phrase, never a substring inside another word."""
+    return bool(re.search(rf"(?<!\w){re.escape(term)}(?!\w)", text, re.I))
+
+
 def _incident_hit(text: str) -> bool:
     value = (text or "").lower()
-    if any(term in value for term in SIGNAL_TERMS):
+    if any(_bounded_hit(value, term) for term in SIGNAL_TERMS):
+        return True
+    if any(re.search(rf"(?<!\w){re.escape(prefix)}\w*", value, re.I) for prefix in SIGNAL_PREFIXES):
         return True
     return any(term in value for term in QUESTION_TERMS) and any(term in value for term in LOCATION_TERMS)
 
