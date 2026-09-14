@@ -234,6 +234,14 @@ def _same_event(a: Incident, b: Incident) -> bool:
     # Calendar/promotional listings are context records, not incident evidence.
     if a.source_class == "listing" or b.source_class == "listing":
         return False
+    # Individual GTFS alerts are operational records. Sharing a neighbourhood,
+    # event type, and collection window does not make two route/trip alerts the
+    # same real-world event. Exact duplicate IDs were already handled above.
+    if a.category == "TRANSIT" or b.category == "TRANSIT":
+        if a.category != "TRANSIT" or b.category != "TRANSIT":
+            return False
+        if a.source == b.source == "Halifax Transit GTFS-Realtime":
+            return False
     ca, cb = _call_number(a), _call_number(b)
     if ca and cb and ca == cb:
         return True
@@ -315,9 +323,17 @@ def cluster_events(rows: list[Incident]) -> list[Incident]:
         rep.reported_at = max(reported).replace(microsecond=0).isoformat().replace("+00:00", "Z") if reported else rep.reported_at
         first_reported = min(reported).replace(microsecond=0).isoformat().replace("+00:00", "Z") if reported else rep.reported_at
         call = next((_call_number(row) for row in group if _call_number(row)), None)
-        key_parts = (call or rep.event_type, rep.canonical_location or rep.neighbourhood or rep.title, first_reported[:13])
-        rep.cluster_id = f"evt-{stable_id(*key_parts)}"
         original_ids = [row.id for row in group]
+        # Include one stable member ID as a collision-resistant tiebreaker. Two
+        # unrelated singleton listings can share type/location/hour, and two
+        # distinct incident groups can occasionally share the same semantic key.
+        key_parts = (
+            call or rep.event_type,
+            rep.canonical_location or rep.neighbourhood or rep.title,
+            first_reported[:13],
+            min(original_ids),
+        )
+        rep.cluster_id = f"evt-{stable_id(*key_parts)}"
         rep.id = rep.cluster_id
         rep.evidence = evidence
         rep.evidence_count = len(group)
