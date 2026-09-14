@@ -17,6 +17,12 @@
     "precision": "approximate_geocode",
     "query": "ALDERNEY DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ANCONA PL": {
+    "lat": 44.6996696,
+    "lon": -63.5413017,
+    "precision": "approximate_geocode",
+    "query": "ANCONA PL, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "ANGUS L MACDONALD BRDG": {
     "lat": 44.663637,
     "lon": -63.5847142,
