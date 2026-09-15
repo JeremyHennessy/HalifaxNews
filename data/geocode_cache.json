@@ -11,6 +11,12 @@
     "precision": "approximate_geocode",
     "query": "AKERLEY BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ALAN MIDDLE SACKVILLE": {
+    "lat": 44.7837232,
+    "lon": -63.7003292,
+    "precision": "approximate_geocode",
+    "query": "ALAN ST, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "ALDERNEY": {
     "lat": 44.6664317,
     "lon": -63.5645888,
@@ -28,6 +34,12 @@
     "lon": -63.5847142,
     "precision": "approximate_geocode",
     "query": "ANGUS L MACDONALD BRDG, HALIFAX, Nova Scotia, Canada"
+  },
+  "ARBOR WAY HAMMONDS PLAINS": {
+    "lat": 44.7110369,
+    "lon": -63.7228216,
+    "precision": "approximate_geocode",
+    "query": "ARBOR WAY, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "ARMBRO COLE HARBOUR": {
     "lat": 44.6711607,
@@ -329,6 +341,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHFIELD PARK DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 118 WAVERLEY": {
+    "lat": 44.7440489,
+    "lon": -63.560151,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 118, WAVERLEY, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 7 WESTPHAL": {
     "lat": 44.6952019,
     "lon": -63.4969907,
@@ -473,17 +491,35 @@
     "precision": "approximate_geocode",
     "query": "OLD SACKVILLE RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "OLD SAMBRO WILLIAMSWOOD": {
+    "lat": 44.5268952,
+    "lon": -63.6416609,
+    "precision": "approximate_geocode",
+    "query": "OLD SAMBRO RD, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
   "ORDNANCE": {
     "lat": 44.6674816,
     "lon": -63.583451,
     "precision": "approximate_geocode",
     "query": "ORDNANCE RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "OXFORD": {
+    "lat": 44.6360461,
+    "lon": -63.5959853,
+    "precision": "approximate_geocode",
+    "query": "OXFORD ST, HALIFAX, Nova Scotia, Canada"
+  },
   "PARKMOOR": {
     "lat": 44.5871825,
     "lon": -63.593638,
     "precision": "approximate_geocode",
     "query": "PARKMOOR AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "PATTON UPPER SACKVILLE": {
+    "lat": 44.8124982,
+    "lon": -63.7569817,
+    "precision": "approximate_geocode",
+    "query": "PATTON RD, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "PEGGYS COVE INDIAN HARBOUR": {
     "lat": 44.5451258,
