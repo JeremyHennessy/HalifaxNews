@@ -65,6 +65,12 @@
     "precision": "approximate_geocode",
     "query": "BARRY ALLEN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "BASINVIEW BEDFORD": {
+    "lat": 44.7262753,
+    "lon": -63.6822445,
+    "precision": "approximate_geocode",
+    "query": "BASINVIEW DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "BAYERS": {
     "lat": 44.6567,
     "lon": -63.6076338,
@@ -304,6 +310,12 @@
     "lon": -63.7069392,
     "precision": "approximate_geocode",
     "query": "GARY MARTIN DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "GASTON": {
+    "lat": 44.665665,
+    "lon": -63.5394795,
+    "precision": "approximate_geocode",
+    "query": "GASTON RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "GOTTINGEN": {
     "lat": 44.6692629,
