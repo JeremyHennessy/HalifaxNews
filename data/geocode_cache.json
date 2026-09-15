@@ -5,6 +5,12 @@
     "precision": "approximate_geocode",
     "query": "A MURRAY MACKAY BRDG, HALIFAX, Nova Scotia, Canada"
   },
+  "AGRICOLA": {
+    "lat": 44.666086,
+    "lon": -63.6091132,
+    "precision": "approximate_geocode",
+    "query": "AGRICOLA ST, HALIFAX, Nova Scotia, Canada"
+  },
   "AKERLEY": {
     "lat": 44.7096252,
     "lon": -63.6056304,
@@ -233,6 +239,12 @@
     "precision": "approximate_geocode",
     "query": "COWIE HILL RD, HALIFAX, Nova Scotia, Canada"
   },
+  "CROSS": {
+    "lat": 44.6801263,
+    "lon": -63.5106132,
+    "precision": "approximate_geocode",
+    "query": "CROSS RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "DAVID ALLEN EAST LAWRENCETOWN": {
     "lat": 44.6704384,
     "lon": -63.3169712,
@@ -341,6 +353,12 @@
     "precision": "approximate_geocode",
     "query": "HEATHERWOOD CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "HENRY FALL RIVER": {
+    "lat": 44.8285887,
+    "lon": -63.6008333,
+    "precision": "approximate_geocode",
+    "query": "HENRY AVE, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "HERRING COVE": {
     "lat": 44.5876685,
     "lon": -63.5919463,
@@ -400,6 +418,12 @@
     "lon": -63.562663,
     "precision": "approximate_geocode",
     "query": "KETCH HARBOUR RD, HERRING COVE, Halifax, Nova Scotia, Canada"
+  },
+  "KEYWORTH": {
+    "lat": 44.6128596,
+    "lon": -63.6094512,
+    "precision": "approximate_geocode",
+    "query": "KEYWORTH LANE, HALIFAX, Nova Scotia, Canada"
   },
   "KINGSWOOD HAMMONDS PLAINS": {
     "lat": 44.6972143,
@@ -544,6 +568,18 @@
     "lon": -63.9145881,
     "precision": "approximate_geocode",
     "query": "PEGGYS POINT RD, PEGGYS COVE, Halifax, Nova Scotia, Canada"
+  },
+  "PINEHILL": {
+    "lat": 44.6820952,
+    "lon": -63.5777101,
+    "precision": "approximate_geocode",
+    "query": "PINEHILL RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "POPLAR COLE HARBOUR": {
+    "lat": 44.6753405,
+    "lon": -63.5017335,
+    "precision": "approximate_geocode",
+    "query": "POPLAR DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "PORTLAND HILLS": {
     "lat": 44.6656116,
