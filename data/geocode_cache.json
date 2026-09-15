@@ -149,6 +149,12 @@
     "precision": "approximate_geocode",
     "query": "BRIARWOOD CRES, HALIFAX, Nova Scotia, Canada"
   },
+  "BRIARWOOD EASTERN PASSAGE": {
+    "lat": 44.6127309,
+    "lon": -63.4852782,
+    "precision": "approximate_geocode",
+    "query": "BRIARWOOD DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "BROAD BEDFORD": {
     "lat": 44.7159577,
     "lon": -63.7049716,
@@ -239,6 +245,12 @@
     "precision": "approximate_geocode",
     "query": "COWIE HILL RD, HALIFAX, Nova Scotia, Canada"
   },
+  "CRANEHILL EAST PRESTON": {
+    "lat": 44.7154332,
+    "lon": -63.4552114,
+    "precision": "approximate_geocode",
+    "query": "CRANEHILL RD, EAST PRESTON, Halifax, Nova Scotia, Canada"
+  },
   "CROSS": {
     "lat": 44.6801263,
     "lon": -63.5106132,
@@ -268,6 +280,12 @@
     "lon": -63.5725221,
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
+  },
+  "DUTCH VILLAGE": {
+    "lat": 44.6572377,
+    "lon": -63.632206,
+    "precision": "approximate_geocode",
+    "query": "DUTCH VILLAGE RD, HALIFAX, Nova Scotia, Canada"
   },
   "EAST CHEZZETCOOK EAST CHEZZETCOOK": {
     "lat": 44.7226355,
@@ -328,6 +346,12 @@
     "lon": -63.5394795,
     "precision": "approximate_geocode",
     "query": "GASTON RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "GLENFOREST": {
+    "lat": 44.6586218,
+    "lon": -63.6436402,
+    "precision": "approximate_geocode",
+    "query": "GLENFOREST DR, HALIFAX, Nova Scotia, Canada"
   },
   "GOTTINGEN": {
     "lat": 44.6692629,
@@ -406,6 +430,12 @@
     "lon": -63.4937707,
     "precision": "approximate_geocode",
     "query": "KAREN DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "KAYE": {
+    "lat": 44.6605072,
+    "lon": -63.6022582,
+    "precision": "approximate_geocode",
+    "query": "KAYE ST, HALIFAX, Nova Scotia, Canada"
   },
   "KENNEDY": {
     "lat": 44.6909024,
