@@ -149,6 +149,12 @@
     "precision": "approximate_geocode",
     "query": "CALDWELL RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "CARLETON": {
+    "lat": 44.6369927,
+    "lon": -63.5263148,
+    "precision": "approximate_geocode",
+    "query": "CARLETON ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CARRIE CRES BEAVER BANK": {
     "lat": 44.8279996,
     "lon": -63.6837235,
@@ -539,6 +545,12 @@
     "precision": "approximate_geocode",
     "query": "RYEDALE CRT, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
+  "SCHOOL": {
+    "lat": 44.6495992,
+    "lon": -63.637315,
+    "precision": "approximate_geocode",
+    "query": "SCHOOL AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "SHINING WALK LOWER SACKVILLE": {
     "lat": 44.7581704,
     "lon": -63.6593544,
@@ -605,17 +617,35 @@
     "precision": "approximate_geocode",
     "query": "SUSIE LAKE CRES, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "TARANAKI WESTPHAL": {
+    "lat": 44.6908575,
+    "lon": -63.4937088,
+    "precision": "approximate_geocode",
+    "query": "TARANAKI DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
   "TUPPER": {
     "lat": 44.6618746,
     "lon": -63.55444,
     "precision": "approximate_geocode",
     "query": "TUPPER ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "WASHMILL LAKE": {
+    "lat": 44.6474266,
+    "lon": -63.6723168,
+    "precision": "approximate_geocode",
+    "query": "WASHMILL LAKE DR, HALIFAX, Nova Scotia, Canada"
+  },
   "WATERSTONE RUN LUCASVILLE": {
     "lat": 44.7613082,
     "lon": -63.7347796,
     "precision": "approximate_geocode",
     "query": "WATERSTONE RUN, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "WEST PORTERS LAKE WEST PORTERS LAKE": {
+    "lat": 44.6837028,
+    "lon": -63.318684,
+    "precision": "approximate_geocode",
+    "query": "WEST PORTERS LAKE RD, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "WILLETT": {
     "lat": 44.6522498,
