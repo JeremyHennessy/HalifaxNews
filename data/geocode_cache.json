@@ -431,6 +431,12 @@
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "MEADOWBROOK BEDFORD": {
+    "lat": 44.7268184,
+    "lon": -63.6721251,
+    "precision": "approximate_geocode",
+    "query": "MEADOWBROOK DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "METROPOLITAN LOWER SACKVILLE": {
     "lat": 44.7775008,
     "lon": -63.6748655,
@@ -496,6 +502,12 @@
     "lon": -63.5073335,
     "precision": "approximate_geocode",
     "query": "PORTLAND HILLS DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "PRATT AND WHITNEY GOFFS": {
+    "lat": 44.8645219,
+    "lon": -63.542093,
+    "precision": "approximate_geocode",
+    "query": "PRATT AND WHITNEY DR, GOFFS, Halifax, Nova Scotia, Canada"
   },
   "PRIMROSE": {
     "lat": 44.684797,
