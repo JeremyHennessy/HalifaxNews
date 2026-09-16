@@ -443,6 +443,12 @@
     "precision": "approximate_geocode",
     "query": "HAMMONDS PLAINS RD, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "HAWK TERR": {
+    "lat": 44.6580935,
+    "lon": -63.6121363,
+    "precision": "approximate_geocode",
+    "query": "HAWK TERR, HALIFAX, Nova Scotia, Canada"
+  },
   "HEATHERWOOD CRT": {
     "lat": 44.6711094,
     "lon": -63.611969,
@@ -527,6 +533,12 @@
     "precision": "approximate_geocode",
     "query": "KENNEDY DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "KENT": {
+    "lat": 44.6381455,
+    "lon": -63.5715396,
+    "precision": "approximate_geocode",
+    "query": "KENT ST, HALIFAX, Nova Scotia, Canada"
+  },
   "KETCH HARBOUR HERRING COVE": {
     "lat": 44.5569177,
     "lon": -63.562663,
@@ -562,6 +574,12 @@
     "lon": -63.7211158,
     "precision": "approximate_geocode",
     "query": "LAKE RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "LAKEFRONT": {
+    "lat": 44.67046,
+    "lon": -63.5507928,
+    "precision": "approximate_geocode",
+    "query": "LAKEFRONT RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "LAKEVIEW LAKEVIEW": {
     "lat": 44.7682277,
@@ -664,6 +682,12 @@
     "lon": -63.6900004,
     "precision": "approximate_geocode",
     "query": "OLD SACKVILLE RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "OLD SACKVILLE MIDDLE SACKVILLE": {
+    "lat": 44.7759644,
+    "lon": -63.7033312,
+    "precision": "approximate_geocode",
+    "query": "OLD SACKVILLE RD, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "OLD SAMBRO WILLIAMSWOOD": {
     "lat": 44.5268952,
@@ -946,5 +970,11 @@
     "lon": -63.5776312,
     "precision": "approximate_geocode",
     "query": "WYSE RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "YOUNG": {
+    "lat": 44.654574,
+    "lon": -63.6093003,
+    "precision": "approximate_geocode",
+    "query": "YOUNG ST, HALIFAX, Nova Scotia, Canada"
   }
 }
