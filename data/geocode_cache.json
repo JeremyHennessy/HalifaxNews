@@ -59,6 +59,12 @@
     "precision": "approximate_geocode",
     "query": "ATLANTIC ST, HALIFAX, Nova Scotia, Canada"
   },
+  "BANOOK": {
+    "lat": 44.6753203,
+    "lon": -63.5631813,
+    "precision": "approximate_geocode",
+    "query": "BANOOK AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "BARRINGTON": {
     "lat": 44.652306,
     "lon": -63.5775196,
@@ -389,6 +395,12 @@
     "precision": "approximate_geocode",
     "query": "HERRING COVE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "HIGGINS BEECHVILLE": {
+    "lat": 44.636956,
+    "lon": -63.6792335,
+    "precision": "approximate_geocode",
+    "query": "HIGGINS AVE, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
   "HIGHFIELD PARK": {
     "lat": 44.6889062,
     "lon": -63.5872737,
@@ -472,6 +484,12 @@
     "lon": -63.7211158,
     "precision": "approximate_geocode",
     "query": "LAKE RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "LAKEVIEW LAKEVIEW": {
+    "lat": 44.7682277,
+    "lon": -63.6285054,
+    "precision": "approximate_geocode",
+    "query": "LAKEVIEW RD, LAKEVIEW, Halifax, Nova Scotia, Canada"
   },
   "LAKEVIEW MIDDLE SACKVILLE": {
     "lat": 44.8056971,
@@ -605,6 +623,12 @@
     "precision": "approximate_geocode",
     "query": "PINEHILL RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "POCKWOCK UPPER HAMMONDS PLAINS": {
+    "lat": 44.7493493,
+    "lon": -63.816032,
+    "precision": "approximate_geocode",
+    "query": "POCKWOCK RD, UPPER HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "POPLAR COLE HARBOUR": {
     "lat": 44.6753405,
     "lon": -63.5017335,
@@ -689,6 +713,12 @@
     "precision": "approximate_geocode",
     "query": "SMITH LANE, NORTH PRESTON, Halifax, Nova Scotia, Canada"
   },
+  "SMOKEY LOWER SACKVILLE": {
+    "lat": 44.7833143,
+    "lon": -63.6874193,
+    "precision": "approximate_geocode",
+    "query": "SMOKEY DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "SOLUTIONS": {
     "lat": 44.6560609,
     "lon": -63.6699294,
@@ -766,6 +796,12 @@
     "lon": -63.7347796,
     "precision": "approximate_geocode",
     "query": "WATERSTONE RUN, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "WENTWORTH": {
+    "lat": 44.6748901,
+    "lon": -63.6603602,
+    "precision": "approximate_geocode",
+    "query": "WENTWORTH DR, HALIFAX, Nova Scotia, Canada"
   },
   "WEST PORTERS LAKE WEST PORTERS LAKE": {
     "lat": 44.6837028,
