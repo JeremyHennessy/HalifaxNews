@@ -287,6 +287,12 @@
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
   },
+  "DUGGAN BEAVER BANK": {
+    "lat": 44.8001285,
+    "lon": -63.6837742,
+    "precision": "approximate_geocode",
+    "query": "DUGGAN DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "DUTCH VILLAGE": {
     "lat": 44.6572377,
     "lon": -63.632206,
@@ -340,6 +346,12 @@
     "lon": -63.4918596,
     "precision": "approximate_geocode",
     "query": "FOREST HILLS PKY, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "FRASER TIMBERLEA": {
+    "lat": 44.6627425,
+    "lon": -63.7474087,
+    "precision": "approximate_geocode",
+    "query": "FRASER RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "GARY MARTIN BEDFORD": {
     "lat": 44.7217798,
@@ -437,6 +449,12 @@
     "precision": "approximate_geocode",
     "query": "ISELEY LANE, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
   },
+  "JEEP CRES EASTERN PASSAGE": {
+    "lat": 44.6139026,
+    "lon": -63.4648157,
+    "precision": "approximate_geocode",
+    "query": "JEEP CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "KAREN WESTPHAL": {
     "lat": 44.6953349,
     "lon": -63.4937707,
@@ -497,11 +515,23 @@
     "precision": "approximate_geocode",
     "query": "LAKEVIEW AVE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "LANARKSHIRE CRT COLE HARBOUR": {
+    "lat": 44.6807698,
+    "lon": -63.4869296,
+    "precision": "approximate_geocode",
+    "query": "LANARKSHIRE CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "LANGBRAE": {
     "lat": 44.6674579,
     "lon": -63.6703396,
     "precision": "approximate_geocode",
     "query": "LANGBRAE DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "LAWRENCETOWN EAST LAWRENCETOWN": {
+    "lat": 44.6451549,
+    "lon": -63.3313895,
+    "precision": "approximate_geocode",
+    "query": "LAWRENCETOWN RD, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
   "LORIANN PORTERS LAKE": {
     "lat": 44.7490096,
@@ -616,6 +646,12 @@
     "lon": -63.9145881,
     "precision": "approximate_geocode",
     "query": "PEGGYS POINT RD, PEGGYS COVE, Halifax, Nova Scotia, Canada"
+  },
+  "PINEDALE PROSPECT BAY": {
+    "lat": 44.5138821,
+    "lon": -63.7804069,
+    "precision": "approximate_geocode",
+    "query": "PINEDALE DR, PROSPECT BAY, Halifax, Nova Scotia, Canada"
   },
   "PINEHILL": {
     "lat": 44.6820952,
