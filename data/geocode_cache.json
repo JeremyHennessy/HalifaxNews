@@ -149,6 +149,12 @@
     "precision": "approximate_geocode",
     "query": "BERNICE DR, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "BIRKDALE CRES": {
+    "lat": 44.6541235,
+    "lon": -63.6540318,
+    "precision": "approximate_geocode",
+    "query": "BIRKDALE CRES, HALIFAX, Nova Scotia, Canada"
+  },
   "BISSETT COLE HARBOUR": {
     "lat": 44.6574924,
     "lon": -63.4505679,
@@ -292,6 +298,12 @@
     "lon": -63.6738216,
     "precision": "approximate_geocode",
     "query": "CONVOY RUN, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "COTTAGE WINDSOR JUNCTION": {
+    "lat": 44.7861333,
+    "lon": -63.636174,
+    "precision": "approximate_geocode",
+    "query": "COTTAGE LANE, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
   },
   "COWIE HILL": {
     "lat": 44.6246893,
@@ -478,6 +490,18 @@
     "lon": -63.5872737,
     "precision": "approximate_geocode",
     "query": "HIGHFIELD PARK DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 102 BEDFORD": {
+    "lat": 44.7060265,
+    "lon": -63.6953206,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 102, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 103 TIMBERLEA": {
+    "lat": 44.6413671,
+    "lon": -63.7362999,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 103, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 118 WAVERLEY": {
     "lat": 44.7440489,
@@ -827,6 +851,12 @@
     "precision": "approximate_geocode",
     "query": "SCHOOL AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "SEDGEWICK PL BEDFORD": {
+    "lat": 44.7042606,
+    "lon": -63.6828239,
+    "precision": "approximate_geocode",
+    "query": "SEDGEWICK PL, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "SHINING WALK LOWER SACKVILLE": {
     "lat": 44.7581704,
     "lon": -63.6593544,
@@ -964,6 +994,12 @@
     "lon": -63.6022509,
     "precision": "approximate_geocode",
     "query": "WINDCREST TERR, HALIFAX, Nova Scotia, Canada"
+  },
+  "WINLEY WINDSOR JUNCTION": {
+    "lat": 44.7845026,
+    "lon": -63.6326759,
+    "precision": "approximate_geocode",
+    "query": "WINLEY DR, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
   },
   "WYSE": {
     "lat": 44.670027,
