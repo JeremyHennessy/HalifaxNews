@@ -5,6 +5,12 @@
     "precision": "approximate_geocode",
     "query": "A MURRAY MACKAY BRDG, HALIFAX, Nova Scotia, Canada"
   },
+  "ABRAMS WAY": {
+    "lat": 44.6123309,
+    "lon": -63.6119611,
+    "precision": "approximate_geocode",
+    "query": "ABRAMS WAY, HALIFAX, Nova Scotia, Canada"
+  },
   "AGRICOLA": {
     "lat": 44.666086,
     "lon": -63.6091132,
@@ -227,6 +233,12 @@
     "precision": "approximate_geocode",
     "query": "CIRCASSION DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "COGSWELL": {
+    "lat": 44.6503647,
+    "lon": -63.5817161,
+    "precision": "approximate_geocode",
+    "query": "COGSWELL ST, HALIFAX, Nova Scotia, Canada"
+  },
   "COLE HARBOUR COLE HARBOUR": {
     "lat": 44.6777183,
     "lon": -63.4610259,
@@ -310,6 +322,12 @@
     "lon": -63.5230931,
     "precision": "approximate_geocode",
     "query": "EISENER BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "ELLA BEDFORD": {
+    "lat": 44.7085986,
+    "lon": -63.7105244,
+    "precision": "approximate_geocode",
+    "query": "ELLA LANE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "ERIN": {
     "lat": 44.6859122,
@@ -809,6 +827,12 @@
     "precision": "approximate_geocode",
     "query": "SUSIE LAKE CRES, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "TACOMA": {
+    "lat": 44.6817139,
+    "lon": -63.5352785,
+    "precision": "approximate_geocode",
+    "query": "TACOMA DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "TARANAKI WESTPHAL": {
     "lat": 44.6908575,
     "lon": -63.4937088,
@@ -820,6 +844,12 @@
     "lon": -63.55444,
     "precision": "approximate_geocode",
     "query": "TUPPER ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "UNIVERSITY": {
+    "lat": 44.6386917,
+    "lon": -63.5839372,
+    "precision": "approximate_geocode",
+    "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
   },
   "WASHMILL LAKE": {
     "lat": 44.6474266,
