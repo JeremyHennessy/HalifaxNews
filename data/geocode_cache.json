@@ -125,6 +125,12 @@
     "precision": "approximate_geocode",
     "query": "BELL BLVD, GOFFS, Halifax, Nova Scotia, Canada"
   },
+  "BELLEFONTAINE WEST CHEZZETCOOK": {
+    "lat": 44.7052235,
+    "lon": -63.282956,
+    "precision": "approximate_geocode",
+    "query": "BELLEFONTAINE RD, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "BERNICE WEST CHEZZETCOOK": {
     "lat": 44.7377399,
     "lon": -63.2697139,
@@ -514,6 +520,12 @@
     "lon": -63.4989318,
     "precision": "approximate_geocode",
     "query": "KIRTLAND CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "LACEWOOD": {
+    "lat": 44.6639572,
+    "lon": -63.6457346,
+    "precision": "approximate_geocode",
+    "query": "LACEWOOD DR, HALIFAX, Nova Scotia, Canada"
   },
   "LAKE HATCHET LAKE": {
     "lat": 44.5682549,
