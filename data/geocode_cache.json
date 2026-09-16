@@ -65,6 +65,18 @@
     "precision": "approximate_geocode",
     "query": "ATLANTIC ST, HALIFAX, Nova Scotia, Canada"
   },
+  "AUTUMN": {
+    "lat": 44.6020567,
+    "lon": -63.6078411,
+    "precision": "approximate_geocode",
+    "query": "AUTUMN DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "BAKER": {
+    "lat": 44.6701952,
+    "lon": -63.5320777,
+    "precision": "approximate_geocode",
+    "query": "BAKER DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "BANOOK": {
     "lat": 44.6753203,
     "lon": -63.5631813,
@@ -143,6 +155,12 @@
     "precision": "approximate_geocode",
     "query": "BISSETT RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "BLACK": {
+    "lat": 44.6581369,
+    "lon": -63.5931357,
+    "precision": "approximate_geocode",
+    "query": "BLACK ST, HALIFAX, Nova Scotia, Canada"
+  },
   "BRADFORD PL BEDFORD": {
     "lat": 44.7021111,
     "lon": -63.7006755,
@@ -178,6 +196,12 @@
     "lon": -63.7049716,
     "precision": "approximate_geocode",
     "query": "BROAD ST, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "BROWNLOW": {
+    "lat": 44.6956432,
+    "lon": -63.5789756,
+    "precision": "approximate_geocode",
+    "query": "BROWNLOW AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "BRUNSWICK": {
     "lat": 44.6481011,
@@ -232,6 +256,12 @@
     "lon": -63.6673341,
     "precision": "approximate_geocode",
     "query": "CHAPAIS DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "CHRISTOPHER PORTERS LAKE": {
+    "lat": 44.7329887,
+    "lon": -63.3061906,
+    "precision": "approximate_geocode",
+    "query": "CHRISTOPHER LANE, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "CIRCASSION COLE HARBOUR": {
     "lat": 44.6792654,
@@ -760,6 +790,12 @@
     "lon": -63.451231,
     "precision": "approximate_geocode",
     "query": "RYEDALE CRT, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "SACKVILLE LOWER SACKVILLE": {
+    "lat": 44.7530311,
+    "lon": -63.6645123,
+    "precision": "approximate_geocode",
+    "query": "SACKVILLE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SCHOOL": {
     "lat": 44.6495992,
