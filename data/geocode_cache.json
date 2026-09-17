@@ -35,6 +35,12 @@
     "precision": "approximate_geocode",
     "query": "ALDERNEY DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ALMON": {
+    "lat": 44.6577972,
+    "lon": -63.5981735,
+    "precision": "approximate_geocode",
+    "query": "ALMON ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ANCONA PL": {
     "lat": 44.6996696,
     "lon": -63.5413017,
@@ -797,6 +803,12 @@
     "precision": "approximate_geocode",
     "query": "PARKMOOR AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "PARKVIEW MIDDLE SACKVILLE": {
+    "lat": 44.7864978,
+    "lon": -63.6973917,
+    "precision": "approximate_geocode",
+    "query": "PARKVIEW DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "PATTON UPPER SACKVILLE": {
     "lat": 44.8124982,
     "lon": -63.7569817,
@@ -856,6 +868,12 @@
     "lon": -63.5830135,
     "precision": "approximate_geocode",
     "query": "PRIMROSE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "QUINPOOL": {
+    "lat": 44.6430086,
+    "lon": -63.60539,
+    "precision": "approximate_geocode",
+    "query": "QUINPOOL RD, HALIFAX, Nova Scotia, Canada"
   },
   "RIFLE RANGE BEDFORD": {
     "lat": 44.7468404,
@@ -922,6 +940,12 @@
     "lon": -63.6593544,
     "precision": "approximate_geocode",
     "query": "SHINING WALK, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SILVER DART GOFFS": {
+    "lat": 44.888103,
+    "lon": -63.5162612,
+    "precision": "approximate_geocode",
+    "query": "SILVER DART DR, GOFFS, Halifax, Nova Scotia, Canada"
   },
   "SMITH NORTH PRESTON": {
     "lat": 44.7409101,
