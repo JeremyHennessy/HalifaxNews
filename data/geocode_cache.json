@@ -119,6 +119,12 @@
     "precision": "approximate_geocode",
     "query": "BEAVER BANK RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BEDFORD": {
+    "lat": 44.7225398,
+    "lon": -63.6397237,
+    "precision": "approximate_geocode",
+    "query": "DARTMOUTH RD, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "BEDFORD HWY": {
     "lat": 44.6636559,
     "lon": -63.6331226,
@@ -371,6 +377,12 @@
     "precision": "approximate_geocode",
     "query": "DELLRIDGE LANE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "DICKEY LOWER SACKVILLE": {
+    "lat": 44.7662934,
+    "lon": -63.6658074,
+    "precision": "approximate_geocode",
+    "query": "DICKEY DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "DOWNTOWN": {
     "lat": 44.6461752,
     "lon": -63.5725221,
@@ -592,6 +604,12 @@
     "lon": -63.4648157,
     "precision": "approximate_geocode",
     "query": "JEEP CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "KAREN CRES PORTERS LAKE": {
+    "lat": 44.7362451,
+    "lon": -63.308046,
+    "precision": "approximate_geocode",
+    "query": "KAREN CRES, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "KAREN WESTPHAL": {
     "lat": 44.6953349,
@@ -983,6 +1001,12 @@
     "precision": "approximate_geocode",
     "query": "SPRING GARDEN RD, HALIFAX, Nova Scotia, Canada"
   },
+  "SPRUCE COW BAY": {
+    "lat": 44.6241436,
+    "lon": -63.443385,
+    "precision": "approximate_geocode",
+    "query": "SPRUCE DR, COW BAY, Halifax, Nova Scotia, Canada"
+  },
   "STELLA PORTERS LAKE": {
     "lat": 44.7436396,
     "lon": -63.2801317,
@@ -1030,6 +1054,12 @@
     "lon": -63.4937088,
     "precision": "approximate_geocode",
     "query": "TARANAKI DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "TIDEWINDS EASTERN PASSAGE": {
+    "lat": 44.6142543,
+    "lon": -63.4953885,
+    "precision": "approximate_geocode",
+    "query": "TIDEWINDS LANE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "TUPPER": {
     "lat": 44.6618746,
