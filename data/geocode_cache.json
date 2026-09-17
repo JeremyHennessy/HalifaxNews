@@ -131,6 +131,12 @@
     "precision": "approximate_geocode",
     "query": "BEECH TREE RUN, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BELL": {
+    "lat": 44.6452331,
+    "lon": -63.5823852,
+    "precision": "approximate_geocode",
+    "query": "BELL RD, HALIFAX, Nova Scotia, Canada"
+  },
   "BELL GOFFS": {
     "lat": 44.8842917,
     "lon": -63.5160016,
@@ -238,6 +244,12 @@
     "lon": -63.6837235,
     "precision": "approximate_geocode",
     "query": "CARRIE CRES, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
+  "CARRINGTON PL": {
+    "lat": 44.6658449,
+    "lon": -63.6735198,
+    "precision": "approximate_geocode",
+    "query": "CARRINGTON PL, HALIFAX, Nova Scotia, Canada"
   },
   "CASTLE HILL": {
     "lat": 44.6851129,
@@ -521,6 +533,12 @@
     "precision": "approximate_geocode",
     "query": "HOLLAND RD, FLETCHERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "HORIZON CRT": {
+    "lat": 44.6880341,
+    "lon": -63.5649636,
+    "precision": "approximate_geocode",
+    "query": "HORIZON CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "HOROBIN FALL RIVER": {
     "lat": 44.8082219,
     "lon": -63.6162375,
@@ -653,6 +671,12 @@
     "precision": "approximate_geocode",
     "query": "MACDONALD POINT RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
   },
+  "MAGENTA MIDDLE SACKVILLE": {
+    "lat": 44.781139,
+    "lon": -63.7410102,
+    "precision": "approximate_geocode",
+    "query": "MAGENTA DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "MARGARETS BAY HUBBARDS": {
     "lat": 44.6385428,
     "lon": -64.0618727,
@@ -670,6 +694,12 @@
     "lon": -63.6721251,
     "precision": "approximate_geocode",
     "query": "MEADOWBROOK DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "MELROSE": {
+    "lat": 44.6500292,
+    "lon": -63.6382296,
+    "precision": "approximate_geocode",
+    "query": "MELROSE AVE, HALIFAX, Nova Scotia, Canada"
   },
   "METROPOLITAN LOWER SACKVILLE": {
     "lat": 44.7775008,
