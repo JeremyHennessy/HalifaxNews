@@ -65,6 +65,12 @@
     "precision": "approximate_geocode",
     "query": "ARMBRO LANE, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "ARMCREST LOWER SACKVILLE": {
+    "lat": 44.7894466,
+    "lon": -63.6848107,
+    "precision": "approximate_geocode",
+    "query": "ARMCREST DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "ATLANTIC": {
     "lat": 44.6322456,
     "lon": -63.5757861,
@@ -449,6 +455,12 @@
     "precision": "approximate_geocode",
     "query": "FALL RIVER RD, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "FIDDLE PKY HATCHET LAKE": {
+    "lat": 44.5631919,
+    "lon": -63.7369486,
+    "precision": "approximate_geocode",
+    "query": "FIDDLE PKY, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
   "FIRST LAKE LOWER SACKVILLE": {
     "lat": 44.7691107,
     "lon": -63.6507334,
@@ -797,6 +809,12 @@
     "precision": "approximate_geocode",
     "query": "NITA LANE, HALIFAX, Nova Scotia, Canada"
   },
+  "NORA BERNARD": {
+    "lat": 44.6529091,
+    "lon": -63.5831378,
+    "precision": "approximate_geocode",
+    "query": "NORA BERNARD ST, HALIFAX, Nova Scotia, Canada"
+  },
   "NORTH": {
     "lat": 44.6570315,
     "lon": -63.591529,
@@ -964,6 +982,12 @@
     "lon": -63.6645123,
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SACKVILLE UPPER SACKVILLE": {
+    "lat": 44.8257219,
+    "lon": -63.7779156,
+    "precision": "approximate_geocode",
+    "query": "SACKVILLE DR, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SCHOOL": {
     "lat": 44.6495992,
@@ -1139,6 +1163,12 @@
     "precision": "approximate_geocode",
     "query": "WILLIAMS AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "WILMINGTON CRT EASTERN PASSAGE": {
+    "lat": 44.6153925,
+    "lon": -63.4699293,
+    "precision": "approximate_geocode",
+    "query": "WILMINGTON CRT, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "WINDCREST TERR": {
     "lat": 44.6532971,
     "lon": -63.6022509,
@@ -1150,6 +1180,12 @@
     "lon": -63.6326759,
     "precision": "approximate_geocode",
     "query": "WINLEY DR, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
+  },
+  "WRIGHT": {
+    "lat": 44.709807,
+    "lon": -63.5677671,
+    "precision": "approximate_geocode",
+    "query": "WRIGHT AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "WYSE": {
     "lat": 44.670027,
