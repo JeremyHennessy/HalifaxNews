@@ -263,6 +263,12 @@
     "precision": "approximate_geocode",
     "query": "CATAMARAN RD, HALIFAX, Nova Scotia, Canada"
   },
+  "CHADWICK PL": {
+    "lat": 44.6601985,
+    "lon": -63.6572966,
+    "precision": "approximate_geocode",
+    "query": "CHADWICK PL, HALIFAX, Nova Scotia, Canada"
+  },
   "CHAIN LAKE": {
     "lat": 44.6432376,
     "lon": -63.6633454,
@@ -286,6 +292,12 @@
     "lon": -63.499104,
     "precision": "approximate_geocode",
     "query": "CIRCASSION DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "CLUB HOUSE HAMMONDS PLAINS": {
+    "lat": 44.7509704,
+    "lon": -63.7687369,
+    "precision": "approximate_geocode",
+    "query": "CLUB HOUSE LANE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "COGSWELL": {
     "lat": 44.6503647,
@@ -382,6 +394,12 @@
     "lon": -63.5230931,
     "precision": "approximate_geocode",
     "query": "EISENER BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "EISENER TIMBERLEA": {
+    "lat": 44.6513476,
+    "lon": -63.7355611,
+    "precision": "approximate_geocode",
+    "query": "EISENER ST, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "ELLA BEDFORD": {
     "lat": 44.7085986,
@@ -491,6 +509,12 @@
     "precision": "approximate_geocode",
     "query": "HERRING COVE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "HIDEAWAY TRL BROOKSIDE": {
+    "lat": 44.5304062,
+    "lon": -63.7097615,
+    "precision": "approximate_geocode",
+    "query": "HIDEAWAY TRL, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
   "HIGGINS BEECHVILLE": {
     "lat": 44.636956,
     "lon": -63.6792335,
@@ -520,6 +544,12 @@
     "lon": -63.560151,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 118, WAVERLEY, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 7 EAST PRESTON": {
+    "lat": 44.7170792,
+    "lon": -63.4336458,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, EAST PRESTON, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 7 WESTPHAL": {
     "lat": 44.6952019,
@@ -934,6 +964,12 @@
     "lon": -63.2801317,
     "precision": "approximate_geocode",
     "query": "STELLA DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "STEVEN MURPHY WILLIAMSWOOD": {
+    "lat": 44.525024,
+    "lon": -63.6462988,
+    "precision": "approximate_geocode",
+    "query": "STEVEN MURPHY DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
   },
   "STOKIL LOWER SACKVILLE": {
     "lat": 44.7866353,
