@@ -191,6 +191,12 @@
     "precision": "approximate_geocode",
     "query": "BRADFORD PL, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "BRAESIDE": {
+    "lat": 44.6621493,
+    "lon": -63.6401201,
+    "precision": "approximate_geocode",
+    "query": "BRAESIDE LANE, HALIFAX, Nova Scotia, Canada"
+  },
   "BRENNANS PROSPECT BAY": {
     "lat": 44.5064134,
     "lon": -63.7919104,
@@ -659,6 +665,12 @@
     "precision": "approximate_geocode",
     "query": "KIRTLAND CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "KRAUSE CRT": {
+    "lat": 44.6548939,
+    "lon": -63.5223302,
+    "precision": "approximate_geocode",
+    "query": "KRAUSE CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "LACEWOOD": {
     "lat": 44.6639572,
     "lon": -63.6457346,
@@ -670,6 +682,12 @@
     "lon": -63.7211158,
     "precision": "approximate_geocode",
     "query": "LAKE RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "LAKECREST": {
+    "lat": 44.682929,
+    "lon": -63.5393671,
+    "precision": "approximate_geocode",
+    "query": "LAKECREST DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "LAKEFRONT": {
     "lat": 44.67046,
@@ -814,6 +832,12 @@
     "lon": -63.5959853,
     "precision": "approximate_geocode",
     "query": "OXFORD ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "PARKLAND": {
+    "lat": 44.6662625,
+    "lon": -63.6734427,
+    "precision": "approximate_geocode",
+    "query": "PARKLAND DR, HALIFAX, Nova Scotia, Canada"
   },
   "PARKMOOR": {
     "lat": 44.5871825,
@@ -1096,6 +1120,12 @@
     "lon": -63.318684,
     "precision": "approximate_geocode",
     "query": "WEST PORTERS LAKE RD, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "WHITE HILLS RUN HAMMONDS PLAINS": {
+    "lat": 44.7478409,
+    "lon": -63.8051511,
+    "precision": "approximate_geocode",
+    "query": "WHITE HILLS RUN, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "WILLETT": {
     "lat": 44.6522498,
