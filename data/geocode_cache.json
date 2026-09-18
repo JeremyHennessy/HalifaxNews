@@ -203,6 +203,12 @@
     "precision": "approximate_geocode",
     "query": "BLACK ST, HALIFAX, Nova Scotia, Canada"
   },
+  "BLOSSOM CRT COLE HARBOUR": {
+    "lat": 44.6532252,
+    "lon": -63.4763781,
+    "precision": "approximate_geocode",
+    "query": "BLOSSOM CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "BRADFORD PL BEDFORD": {
     "lat": 44.7021111,
     "lon": -63.7006755,
@@ -442,6 +448,12 @@
     "lon": -63.2374789,
     "precision": "approximate_geocode",
     "query": "EAST CHEZZETCOOK RD, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "EAST CHEZZETCOOK LOWER EAST CHEZZETCOOK": {
+    "lat": 44.695273,
+    "lon": -63.2136053,
+    "precision": "approximate_geocode",
+    "query": "EAST CHEZZETCOOK RD, LOWER EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
   "EAST PETPESWICK EAST PETPESWICK": {
     "lat": 44.7319173,
@@ -989,6 +1001,12 @@
     "precision": "approximate_geocode",
     "query": "PINEHILL RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "PLEASANT GAETZ BROOK": {
+    "lat": 44.7703429,
+    "lon": -63.2068298,
+    "precision": "approximate_geocode",
+    "query": "PLEASANT DR, GAETZ BROOK, Halifax, Nova Scotia, Canada"
+  },
   "POCKWOCK UPPER HAMMONDS PLAINS": {
     "lat": 44.7493493,
     "lon": -63.816032,
@@ -1024,6 +1042,12 @@
     "lon": -63.60539,
     "precision": "approximate_geocode",
     "query": "QUINPOOL RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "RAYMOOR": {
+    "lat": 44.6859443,
+    "lon": -63.5337893,
+    "precision": "approximate_geocode",
+    "query": "RAYMOOR DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "RIFLE RANGE BEDFORD": {
     "lat": 44.7468404,
@@ -1186,6 +1210,12 @@
     "lon": -63.5074462,
     "precision": "approximate_geocode",
     "query": "STUART HARRIS DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "SUMMER": {
+    "lat": 44.6424131,
+    "lon": -63.5839663,
+    "precision": "approximate_geocode",
+    "query": "SUMMER ST, HALIFAX, Nova Scotia, Canada"
   },
   "SUSIE LAKE CRES BEECHVILLE": {
     "lat": 44.6459067,
