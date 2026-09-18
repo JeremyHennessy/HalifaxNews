@@ -779,6 +779,12 @@
     "precision": "approximate_geocode",
     "query": "LOWER WATER ST, HALIFAX, Nova Scotia, Canada"
   },
+  "LOWTHER BEDFORD": {
+    "lat": 44.7165296,
+    "lon": -63.7021715,
+    "precision": "approximate_geocode",
+    "query": "LOWTHER LANE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "MACDONALD POINT SEABRIGHT": {
     "lat": 44.6197528,
     "lon": -63.9319198,
@@ -832,6 +838,12 @@
     "lon": -63.5983784,
     "precision": "approximate_geocode",
     "query": "NEEDHAM ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "NICTAUX LOWER SACKVILLE": {
+    "lat": 44.7852389,
+    "lon": -63.6760708,
+    "precision": "approximate_geocode",
+    "query": "NICTAUX DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "NITA": {
     "lat": 44.5935414,
@@ -904,6 +916,12 @@
     "lon": -63.7569817,
     "precision": "approximate_geocode",
     "query": "PATTON RD, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "PEGGYS COVE HACKETTS COVE": {
+    "lat": 44.5451258,
+    "lon": -63.9359725,
+    "precision": "approximate_geocode",
+    "query": "PEGGYS COVE RD, HACKETTS COVE, Halifax, Nova Scotia, Canada"
   },
   "PEGGYS COVE INDIAN HARBOUR": {
     "lat": 44.5451258,
@@ -1162,6 +1180,12 @@
     "lon": -63.7347796,
     "precision": "approximate_geocode",
     "query": "WATERSTONE RUN, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "WELLINGTON": {
+    "lat": 44.6355606,
+    "lon": -63.5798924,
+    "precision": "approximate_geocode",
+    "query": "WELLINGTON ST, HALIFAX, Nova Scotia, Canada"
   },
   "WENTWORTH": {
     "lat": 44.6748901,
