@@ -335,6 +335,12 @@
     "precision": "approximate_geocode",
     "query": "CIRCASSION DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "CLARENCE EASTERN PASSAGE": {
+    "lat": 44.62256,
+    "lon": -63.506701,
+    "precision": "approximate_geocode",
+    "query": "CLARENCE AVE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "CLUB HOUSE HAMMONDS PLAINS": {
     "lat": 44.7509704,
     "lon": -63.7687369,
@@ -629,6 +635,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, EAST PRESTON, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 7 PORTERS LAKE": {
+    "lat": 44.7377872,
+    "lon": -63.3092792,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 7 WESTPHAL": {
     "lat": 44.6952019,
     "lon": -63.4969907,
@@ -832,6 +844,12 @@
     "lon": -63.7410102,
     "precision": "approximate_geocode",
     "query": "MAGENTA DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "MAIN": {
+    "lat": 44.6567905,
+    "lon": -63.6405868,
+    "precision": "approximate_geocode",
+    "query": "MAIN AVE, HALIFAX, Nova Scotia, Canada"
   },
   "MARGARETS BAY HUBBARDS": {
     "lat": 44.6385428,
