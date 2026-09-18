@@ -1037,6 +1037,18 @@
     "precision": "approximate_geocode",
     "query": "PRIMROSE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "PROSPECT HATCHET LAKE": {
+    "lat": 44.572295,
+    "lon": -63.7140736,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "PROSPECT WHITES LAKE": {
+    "lat": 44.5284983,
+    "lon": -63.7605494,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT RD, WHITES LAKE, Halifax, Nova Scotia, Canada"
+  },
   "QUINPOOL": {
     "lat": 44.6430086,
     "lon": -63.60539,
@@ -1120,6 +1132,12 @@
     "lon": -63.637315,
     "precision": "approximate_geocode",
     "query": "SCHOOL AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "SEAPOINT": {
+    "lat": 44.7004285,
+    "lon": -63.6079628,
+    "precision": "approximate_geocode",
+    "query": "SEAPOINT RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SEDGEWICK PL BEDFORD": {
     "lat": 44.7042606,
