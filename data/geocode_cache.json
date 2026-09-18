@@ -125,6 +125,12 @@
     "precision": "approximate_geocode",
     "query": "BAYERS RD, HALIFAX, Nova Scotia, Canada"
   },
+  "BEAVER BANK BEAVER BANK": {
+    "lat": 44.8614871,
+    "lon": -63.6870831,
+    "precision": "approximate_geocode",
+    "query": "BEAVER BANK RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "BEAVER BANK LOWER SACKVILLE": {
     "lat": 44.7819297,
     "lon": -63.69135,
@@ -1037,6 +1043,12 @@
     "precision": "approximate_geocode",
     "query": "ROBIE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "ROCKY LAKE BEDFORD": {
+    "lat": 44.7376231,
+    "lon": -63.6480095,
+    "precision": "approximate_geocode",
+    "query": "ROCKY LAKE DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "ROSS WESTPHAL": {
     "lat": 44.6958242,
     "lon": -63.4585758,
@@ -1066,6 +1078,12 @@
     "lon": -63.6645123,
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SACKVILLE MIDDLE SACKVILLE": {
+    "lat": 44.7945384,
+    "lon": -63.7229411,
+    "precision": "approximate_geocode",
+    "query": "SACKVILLE DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SACKVILLE UPPER SACKVILLE": {
     "lat": 44.8257219,
