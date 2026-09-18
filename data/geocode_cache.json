@@ -71,6 +71,12 @@
     "precision": "approximate_geocode",
     "query": "ARMCREST DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "ARMSTRONG CRT": {
+    "lat": 44.685091,
+    "lon": -63.6725843,
+    "precision": "approximate_geocode",
+    "query": "ARMSTRONG CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "ATLANTIC": {
     "lat": 44.6322456,
     "lon": -63.5757861,
@@ -407,6 +413,12 @@
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
   },
+  "DRYSDALE": {
+    "lat": 44.606829,
+    "lon": -63.6136058,
+    "precision": "approximate_geocode",
+    "query": "DRYSDALE RD, HALIFAX, Nova Scotia, Canada"
+  },
   "DUGGAN BEAVER BANK": {
     "lat": 44.8001285,
     "lon": -63.6837742,
@@ -659,6 +671,12 @@
     "precision": "approximate_geocode",
     "query": "KAYE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "KEARNEY LAKE": {
+    "lat": 44.6938335,
+    "lon": -63.6909241,
+    "precision": "approximate_geocode",
+    "query": "KEARNEY LAKE RD, HALIFAX, Nova Scotia, Canada"
+  },
   "KENNEDY": {
     "lat": 44.6909024,
     "lon": -63.5285383,
@@ -809,6 +827,12 @@
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "MARKETWAY TIMBERLEA": {
+    "lat": 44.6369964,
+    "lon": -63.7201087,
+    "precision": "approximate_geocode",
+    "query": "MARKETWAY LANE, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "MEADOWBROOK BEDFORD": {
     "lat": 44.7268184,
     "lon": -63.6721251,
@@ -832,6 +856,12 @@
     "lon": -63.5082188,
     "precision": "approximate_geocode",
     "query": "MOUNT EDWARD RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "MYRA PORTERS LAKE": {
+    "lat": 44.7589583,
+    "lon": -63.3310675,
+    "precision": "approximate_geocode",
+    "query": "MYRA RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "NEEDHAM": {
     "lat": 44.6636593,
@@ -862,6 +892,12 @@
     "lon": -63.591529,
     "precision": "approximate_geocode",
     "query": "NORTH ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "OLD GUYSBOROUGH GOFFS": {
+    "lat": 44.8875333,
+    "lon": -63.469465,
+    "precision": "approximate_geocode",
+    "query": "OLD GUYSBOROUGH RD, GOFFS, Halifax, Nova Scotia, Canada"
   },
   "OLD SACKVILLE LOWER SACKVILLE": {
     "lat": 44.7650294,
