@@ -209,6 +209,12 @@
     "precision": "approximate_geocode",
     "query": "BLOSSOM CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "BOONDOCKS WEST PORTERS LAKE": {
+    "lat": 44.6868065,
+    "lon": -63.3167782,
+    "precision": "approximate_geocode",
+    "query": "BOONDOCKS LANE, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "BRADFORD PL BEDFORD": {
     "lat": 44.7021111,
     "lon": -63.7006755,
@@ -587,6 +593,12 @@
     "precision": "approximate_geocode",
     "query": "GOTTINGEN ST, HALIFAX, Nova Scotia, Canada"
   },
+  "GREENWOOD TIMBERLEA": {
+    "lat": 44.6536554,
+    "lon": -63.7396488,
+    "precision": "approximate_geocode",
+    "query": "GREENWOOD AVE, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "GRENNAN LOWER SACKVILLE": {
     "lat": 44.7864957,
     "lon": -63.6894751,
@@ -796,6 +808,12 @@
     "lon": -63.6457346,
     "precision": "approximate_geocode",
     "query": "LACEWOOD DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "LAHEY": {
+    "lat": 44.6791939,
+    "lon": -63.5862326,
+    "precision": "approximate_geocode",
+    "query": "LAHEY RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "LAKE HATCHET LAKE": {
     "lat": 44.5682549,
@@ -1366,6 +1384,18 @@
     "lon": -63.7347796,
     "precision": "approximate_geocode",
     "query": "WATERSTONE RUN, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "WEDGEWOOD": {
+    "lat": 44.6794213,
+    "lon": -63.6720239,
+    "precision": "approximate_geocode",
+    "query": "WEDGEWOOD AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "WEDGEWOOD TIMBERLEA": {
+    "lat": 44.6542163,
+    "lon": -63.7365046,
+    "precision": "approximate_geocode",
+    "query": "WEDGEWOOD AVE, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "WELLINGTON": {
     "lat": 44.6355606,
