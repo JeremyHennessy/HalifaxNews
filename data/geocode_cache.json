@@ -281,6 +281,12 @@
     "precision": "approximate_geocode",
     "query": "CALDWELL RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "CALDWELL EASTERN PASSAGE": {
+    "lat": 44.6059333,
+    "lon": -63.4679753,
+    "precision": "approximate_geocode",
+    "query": "CALDWELL RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "CANADA BROOKVALE": {
     "lat": 45.011647,
     "lon": -63.1042896,
@@ -875,6 +881,12 @@
     "precision": "approximate_geocode",
     "query": "LAWRENCETOWN RD, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
+  "LONDRA CRT": {
+    "lat": 44.6861101,
+    "lon": -63.5025056,
+    "precision": "approximate_geocode",
+    "query": "LONDRA CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "LORIANN PORTERS LAKE": {
     "lat": 44.7490096,
     "lon": -63.28952,
@@ -964,6 +976,12 @@
     "lon": -63.3310675,
     "precision": "approximate_geocode",
     "query": "MYRA RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "NAUTICAL WAY TANTALLON": {
+    "lat": 44.6556645,
+    "lon": -63.9105306,
+    "precision": "approximate_geocode",
+    "query": "NAUTICAL WAY, TANTALLON, Halifax, Nova Scotia, Canada"
   },
   "NEEDHAM": {
     "lat": 44.6636593,
