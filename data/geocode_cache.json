@@ -1019,6 +1019,12 @@
     "precision": "approximate_geocode",
     "query": "PATTON RD, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "PEARSON HEAD OF CHEZZETCOOK": {
+    "lat": 44.7551538,
+    "lon": -63.2303746,
+    "precision": "approximate_geocode",
+    "query": "PEARSON DR, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "PEGGYS COVE HACKETTS COVE": {
     "lat": 44.5451258,
     "lon": -63.9359725,
@@ -1312,6 +1318,12 @@
     "lon": -63.674284,
     "precision": "approximate_geocode",
     "query": "SUSIE LAKE CRES, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SYMONDS": {
+    "lat": 44.6799411,
+    "lon": -63.5795216,
+    "precision": "approximate_geocode",
+    "query": "SYMONDS ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "TACOMA": {
     "lat": 44.6817139,
