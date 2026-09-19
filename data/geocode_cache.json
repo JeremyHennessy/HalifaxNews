@@ -275,6 +275,12 @@
     "precision": "approximate_geocode",
     "query": "CALDWELL RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "CANADA BROOKVALE": {
+    "lat": 45.011647,
+    "lon": -63.1042896,
+    "precision": "approximate_geocode",
+    "query": "CANADA RD, BROOKVALE, Halifax, Nova Scotia, Canada"
+  },
   "CARLETON": {
     "lat": 44.6369927,
     "lon": -63.5263148,
@@ -328,6 +334,12 @@
     "lon": -63.6673341,
     "precision": "approximate_geocode",
     "query": "CHAPAIS DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "CHARLES TIMBERLEA": {
+    "lat": 44.6568862,
+    "lon": -63.7494283,
+    "precision": "approximate_geocode",
+    "query": "CHARLES RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "CHRISTOPHER PORTERS LAKE": {
     "lat": 44.7329887,
@@ -1084,6 +1096,12 @@
     "lon": -63.60539,
     "precision": "approximate_geocode",
     "query": "QUINPOOL RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "RAMSGATE": {
+    "lat": 44.6320681,
+    "lon": -63.6118935,
+    "precision": "approximate_geocode",
+    "query": "RAMSGATE LANE, HALIFAX, Nova Scotia, Canada"
   },
   "RANKIN LOWER SACKVILLE": {
     "lat": 44.7843564,
