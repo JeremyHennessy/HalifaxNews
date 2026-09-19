@@ -1049,6 +1049,12 @@
     "precision": "approximate_geocode",
     "query": "POCKWOCK RD, UPPER HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "PONDICHERRY CRES": {
+    "lat": 44.6830377,
+    "lon": -63.4992429,
+    "precision": "approximate_geocode",
+    "query": "PONDICHERRY CRES, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "POPLAR COLE HARBOUR": {
     "lat": 44.6753405,
     "lon": -63.5017335,
