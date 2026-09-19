@@ -521,6 +521,12 @@
     "precision": "approximate_geocode",
     "query": "FALL RIVER RD, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "FERN BEAVER BANK": {
+    "lat": 44.801799,
+    "lon": -63.6834047,
+    "precision": "approximate_geocode",
+    "query": "FERN DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "FIDDLE PKY HATCHET LAKE": {
     "lat": 44.5631919,
     "lon": -63.7369486,
@@ -556,6 +562,12 @@
     "lon": -63.7069392,
     "precision": "approximate_geocode",
     "query": "GARY MARTIN DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "GASPEREAU RUN MIDDLE SACKVILLE": {
+    "lat": 44.7875907,
+    "lon": -63.7537079,
+    "precision": "approximate_geocode",
+    "query": "GASPEREAU RUN, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "GASTON": {
     "lat": 44.665665,
