@@ -305,6 +305,12 @@
     "precision": "approximate_geocode",
     "query": "CATAMARAN RD, HALIFAX, Nova Scotia, Canada"
   },
+  "CAXTON CL": {
+    "lat": 44.6617855,
+    "lon": -63.659507,
+    "precision": "approximate_geocode",
+    "query": "CAXTON CL, HALIFAX, Nova Scotia, Canada"
+  },
   "CHADWICK PL": {
     "lat": 44.6601985,
     "lon": -63.6572966,
@@ -1067,11 +1073,23 @@
     "precision": "approximate_geocode",
     "query": "PROSPECT RD, WHITES LAKE, Halifax, Nova Scotia, Canada"
   },
+  "QUEEN": {
+    "lat": 44.6441809,
+    "lon": -63.5776425,
+    "precision": "approximate_geocode",
+    "query": "QUEEN ST, HALIFAX, Nova Scotia, Canada"
+  },
   "QUINPOOL": {
     "lat": 44.6430086,
     "lon": -63.60539,
     "precision": "approximate_geocode",
     "query": "QUINPOOL RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "RANKIN LOWER SACKVILLE": {
+    "lat": 44.7843564,
+    "lon": -63.6849851,
+    "precision": "approximate_geocode",
+    "query": "RANKIN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "RAYMOOR": {
     "lat": 44.6859443,
