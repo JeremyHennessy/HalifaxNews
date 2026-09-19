@@ -605,6 +605,12 @@
     "precision": "approximate_geocode",
     "query": "GRENNAN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "HADDAD LOWER SACKVILLE": {
+    "lat": 44.7897984,
+    "lon": -63.6870934,
+    "precision": "approximate_geocode",
+    "query": "HADDAD DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "HAMMONDS PLAINS HAMMONDS PLAINS": {
     "lat": 44.7349786,
     "lon": -63.8013291,
@@ -676,6 +682,12 @@
     "lon": -63.4336458,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, EAST PRESTON, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 7 HEAD OF CHEZZETCOOK": {
+    "lat": 44.7412187,
+    "lon": -63.2556912,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 7 PORTERS LAKE": {
     "lat": 44.7377872,
@@ -916,6 +928,12 @@
     "lon": -63.7201087,
     "precision": "approximate_geocode",
     "query": "MARKETWAY LANE, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "MASSACHUSETTS": {
+    "lat": 44.6637255,
+    "lon": -63.6129265,
+    "precision": "approximate_geocode",
+    "query": "MASSACHUSETTS AVE, HALIFAX, Nova Scotia, Canada"
   },
   "MEADOWBROOK BEDFORD": {
     "lat": 44.7268184,
@@ -1174,6 +1192,12 @@
     "lon": -63.5879823,
     "precision": "approximate_geocode",
     "query": "ROBIE ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "ROCHDALE PL BEDFORD": {
+    "lat": 44.7049917,
+    "lon": -63.6687368,
+    "precision": "approximate_geocode",
+    "query": "ROCHDALE PL, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "ROCKY LAKE BEDFORD": {
     "lat": 44.7376231,
