@@ -131,6 +131,12 @@
     "precision": "approximate_geocode",
     "query": "BEAVER BANK RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "BEAVER BANK CROSS MIDDLE SACKVILLE": {
+    "lat": 44.7883413,
+    "lon": -63.7040903,
+    "precision": "approximate_geocode",
+    "query": "BEAVER BANK CROSS RD, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "BEAVER BANK LOWER SACKVILLE": {
     "lat": 44.7819297,
     "lon": -63.69135,
@@ -431,6 +437,12 @@
     "precision": "approximate_geocode",
     "query": "CONRAD RD, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
+  "CONTESSA CRT LOWER SACKVILLE": {
+    "lat": 44.7591587,
+    "lon": -63.6752265,
+    "precision": "approximate_geocode",
+    "query": "CONTESSA CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "CONVOY RUN BEDFORD": {
     "lat": 44.7176954,
     "lon": -63.6738216,
@@ -466,6 +478,12 @@
     "lon": -63.4552114,
     "precision": "approximate_geocode",
     "query": "CRANEHILL RD, EAST PRESTON, Halifax, Nova Scotia, Canada"
+  },
+  "CRESTFIELD HAMMONDS PLAINS": {
+    "lat": 44.7231379,
+    "lon": -63.7428115,
+    "precision": "approximate_geocode",
+    "query": "CRESTFIELD DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "CROSS": {
     "lat": 44.6801263,
@@ -808,6 +826,12 @@
     "lon": -63.4648157,
     "precision": "approximate_geocode",
     "query": "JEEP CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "JUDY ANNE HEAD OF CHEZZETCOOK": {
+    "lat": 44.7439467,
+    "lon": -63.2472684,
+    "precision": "approximate_geocode",
+    "query": "JUDY ANNE DR, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
   "KAREN CRES PORTERS LAKE": {
     "lat": 44.7362451,
@@ -1240,6 +1264,12 @@
     "lon": -63.5830135,
     "precision": "approximate_geocode",
     "query": "PRIMROSE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "PROSPECT BEECHVILLE": {
+    "lat": 44.6298529,
+    "lon": -63.6638831,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT RD, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
   "PROSPECT HATCHET LAKE": {
     "lat": 44.572295,
