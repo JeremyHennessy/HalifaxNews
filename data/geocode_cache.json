@@ -521,6 +521,12 @@
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
   },
+  "DOYLE PORTERS LAKE": {
+    "lat": 44.7426174,
+    "lon": -63.2899081,
+    "precision": "approximate_geocode",
+    "query": "DOYLE DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "DRYSDALE": {
     "lat": 44.606829,
     "lon": -63.6136058,
@@ -689,6 +695,12 @@
     "precision": "approximate_geocode",
     "query": "HADDAD DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "HAGES PROSPECT": {
+    "lat": 44.4937359,
+    "lon": -63.8092687,
+    "precision": "approximate_geocode",
+    "query": "HAGES LANE, PROSPECT, Halifax, Nova Scotia, Canada"
+  },
   "HAMMONDS PLAINS HAMMONDS PLAINS": {
     "lat": 44.7349786,
     "lon": -63.8013291,
@@ -736,6 +748,12 @@
     "lon": -63.5872737,
     "precision": "approximate_geocode",
     "query": "HIGHFIELD PARK DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHLAND CRES COLE HARBOUR": {
+    "lat": 44.6742026,
+    "lon": -63.4945828,
+    "precision": "approximate_geocode",
+    "query": "HIGHLAND CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 102": {
     "lat": 44.7060265,
@@ -1522,6 +1540,12 @@
     "lon": -63.674284,
     "precision": "approximate_geocode",
     "query": "SUSIE LAKE CRES, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SYLVANIA TERR HAMMONDS PLAINS": {
+    "lat": 44.7218543,
+    "lon": -63.8270283,
+    "precision": "approximate_geocode",
+    "query": "SYLVANIA TERR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "SYMONDS": {
     "lat": 44.6799411,
