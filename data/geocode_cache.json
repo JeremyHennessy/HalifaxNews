@@ -569,6 +569,12 @@
     "precision": "approximate_geocode",
     "query": "FOREST HILLS PKY, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "FRANKIE BEAVER BANK": {
+    "lat": 44.7971734,
+    "lon": -63.6871208,
+    "precision": "approximate_geocode",
+    "query": "FRANKIE DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "FRASER TIMBERLEA": {
     "lat": 44.6627425,
     "lon": -63.7474087,
@@ -953,6 +959,12 @@
     "precision": "approximate_geocode",
     "query": "MASSACHUSETTS AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "MEADOWBROOK BEAVER BANK": {
+    "lat": 44.870396,
+    "lon": -63.6842184,
+    "precision": "approximate_geocode",
+    "query": "MEADOWBROOK DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "MEADOWBROOK BEDFORD": {
     "lat": 44.7268184,
     "lon": -63.6721251,
@@ -965,11 +977,23 @@
     "precision": "approximate_geocode",
     "query": "MELROSE AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "MELWOOD": {
+    "lat": 44.6371347,
+    "lon": -63.6231403,
+    "precision": "approximate_geocode",
+    "query": "MELWOOD AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "METROPOLITAN LOWER SACKVILLE": {
     "lat": 44.7775008,
     "lon": -63.6748655,
     "precision": "approximate_geocode",
     "query": "METROPOLITAN AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "MORRIS": {
+    "lat": 44.642235,
+    "lon": -63.5693884,
+    "precision": "approximate_geocode",
+    "query": "MORRIS ST, HALIFAX, Nova Scotia, Canada"
   },
   "MOUNT EDWARD": {
     "lat": 44.6880503,
@@ -1420,6 +1444,12 @@
     "lon": -63.4953885,
     "precision": "approximate_geocode",
     "query": "TIDEWINDS LANE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "TITUS": {
+    "lat": 44.6591734,
+    "lon": -63.6336285,
+    "precision": "approximate_geocode",
+    "query": "TITUS ST, HALIFAX, Nova Scotia, Canada"
   },
   "TUPPER": {
     "lat": 44.6618746,
