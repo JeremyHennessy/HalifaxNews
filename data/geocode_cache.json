@@ -293,6 +293,12 @@
     "precision": "approximate_geocode",
     "query": "CALDWELL RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "CAMPEAU CRT EASTERN PASSAGE": {
+    "lat": 44.6129422,
+    "lon": -63.4720533,
+    "precision": "approximate_geocode",
+    "query": "CAMPEAU CRT, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "CANADA BROOKVALE": {
     "lat": 45.011647,
     "lon": -63.1042896,
@@ -359,6 +365,12 @@
     "precision": "approximate_geocode",
     "query": "CHARLES RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "CHERRY BROOK CHERRY BROOK": {
+    "lat": 44.7069344,
+    "lon": -63.4746486,
+    "precision": "approximate_geocode",
+    "query": "CHERRY BROOK RD, CHERRY BROOK, Halifax, Nova Scotia, Canada"
+  },
   "CHRISTOPHER PORTERS LAKE": {
     "lat": 44.7329887,
     "lon": -63.3061906,
@@ -382,6 +394,12 @@
     "lon": -63.7687369,
     "precision": "approximate_geocode",
     "query": "CLUB HOUSE LANE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "COBURG": {
+    "lat": 44.6366238,
+    "lon": -63.5999336,
+    "precision": "approximate_geocode",
+    "query": "COBURG RD, HALIFAX, Nova Scotia, Canada"
   },
   "COGSWELL": {
     "lat": 44.6503647,
@@ -484,6 +502,12 @@
     "lon": -63.632206,
     "precision": "approximate_geocode",
     "query": "DUTCH VILLAGE RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "DWYER EAST CHEZZETCOOK": {
+    "lat": 44.7114612,
+    "lon": -63.2301382,
+    "precision": "approximate_geocode",
+    "query": "DWYER LANE, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
   "EAST CHEZZETCOOK EAST CHEZZETCOOK": {
     "lat": 44.7226355,
@@ -694,6 +718,12 @@
     "lon": -63.560151,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 118, WAVERLEY, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 2 FALL RIVER": {
+    "lat": 44.8264146,
+    "lon": -63.6111773,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 2, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 7 EAST PRESTON": {
     "lat": 44.7170792,
@@ -1258,6 +1288,12 @@
     "lon": -63.6480095,
     "precision": "approximate_geocode",
     "query": "ROCKY LAKE DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "ROSEMARY MIDDLE SACKVILLE": {
+    "lat": 44.8042318,
+    "lon": -63.7251302,
+    "precision": "approximate_geocode",
+    "query": "ROSEMARY DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "ROSS WESTPHAL": {
     "lat": 44.6958242,
