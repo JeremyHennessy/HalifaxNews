@@ -263,6 +263,12 @@
     "precision": "approximate_geocode",
     "query": "BROAD ST, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "BROADWAY LAKESIDE": {
+    "lat": 44.6349125,
+    "lon": -63.7029491,
+    "precision": "approximate_geocode",
+    "query": "BROADWAY ST, LAKESIDE, Halifax, Nova Scotia, Canada"
+  },
   "BROWNLOW": {
     "lat": 44.6956432,
     "lon": -63.5789756,
@@ -430,6 +436,12 @@
     "lon": -63.6738216,
     "precision": "approximate_geocode",
     "query": "CONVOY RUN, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "CORK": {
+    "lat": 44.6533851,
+    "lon": -63.6096112,
+    "precision": "approximate_geocode",
+    "query": "CORK ST, HALIFAX, Nova Scotia, Canada"
   },
   "COTTAGE WINDSOR JUNCTION": {
     "lat": 44.7861333,
@@ -706,6 +718,12 @@
     "lon": -63.5872737,
     "precision": "approximate_geocode",
     "query": "HIGHFIELD PARK DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 102": {
+    "lat": 44.7060265,
+    "lon": -63.6953206,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 102, HALIFAX, Nova Scotia, Canada"
   },
   "HIGHWAY 102 BEDFORD": {
     "lat": 44.7060265,
@@ -1277,6 +1295,12 @@
     "precision": "approximate_geocode",
     "query": "RIVERSIDE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "ROBERT WESTPHAL": {
+    "lat": 44.6969678,
+    "lon": -63.4806782,
+    "precision": "approximate_geocode",
+    "query": "ROBERT LANE, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
   "ROBIE": {
     "lat": 44.6424271,
     "lon": -63.5879823,
@@ -1456,6 +1480,12 @@
     "lon": -63.5839663,
     "precision": "approximate_geocode",
     "query": "SUMMER ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "SUSAN BEAVER BANK": {
+    "lat": 44.7994755,
+    "lon": -63.6833258,
+    "precision": "approximate_geocode",
+    "query": "SUSAN DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
   "SUSIE LAKE CRES BEECHVILLE": {
     "lat": 44.6459067,
