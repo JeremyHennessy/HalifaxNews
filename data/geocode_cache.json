@@ -227,6 +227,12 @@
     "precision": "approximate_geocode",
     "query": "BRAESIDE LANE, HALIFAX, Nova Scotia, Canada"
   },
+  "BRENDA HAMMONDS PLAINS": {
+    "lat": 44.7181076,
+    "lon": -63.7404743,
+    "precision": "approximate_geocode",
+    "query": "BRENDA DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "BRENNANS PROSPECT BAY": {
     "lat": 44.5064134,
     "lon": -63.7919104,
@@ -1013,6 +1019,12 @@
     "precision": "approximate_geocode",
     "query": "NORTH ST, HALIFAX, Nova Scotia, Canada"
   },
+  "OAKWOOD WILLIAMSWOOD": {
+    "lat": 44.5174604,
+    "lon": -63.6363194,
+    "precision": "approximate_geocode",
+    "query": "OAKWOOD DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
   "OLD GUYSBOROUGH GOFFS": {
     "lat": 44.8875333,
     "lon": -63.469465,
@@ -1397,6 +1409,12 @@
     "precision": "approximate_geocode",
     "query": "TARANAKI DR, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
+  "THISTLE": {
+    "lat": 44.6696644,
+    "lon": -63.5734646,
+    "precision": "approximate_geocode",
+    "query": "THISTLE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "TIDEWINDS EASTERN PASSAGE": {
     "lat": 44.6142543,
     "lon": -63.4953885,
@@ -1456,6 +1474,12 @@
     "lon": -63.318684,
     "precision": "approximate_geocode",
     "query": "WEST PORTERS LAKE RD, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "WHEATSTONE HTS": {
+    "lat": 44.6742446,
+    "lon": -63.5477908,
+    "precision": "approximate_geocode",
+    "query": "WHEATSTONE HTS, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "WHITE HILLS RUN HAMMONDS PLAINS": {
     "lat": 44.7478409,
