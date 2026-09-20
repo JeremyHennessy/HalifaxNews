@@ -1,4 +1,4 @@
-const CACHE='hfx-pulse-shell-v3';
+const CACHE='hfx-pulse-shell-v4';
 const SHELL=['./','./index.html','./assets/styles.css','./assets/ui-fix.css','./assets/app.js','./manifest.webmanifest'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(Promise.all([
