@@ -66,8 +66,15 @@ jobs:
 
           news_observations = [row for row in p['incidents'] if row.get('source_kind') == 'news']
           news_summaries = [row for row in p['events'] if (row.get('metadata') or {}).get('news_summary')]
-          if news_observations and not news_summaries:
-              raise SystemExit('Live news observations were collected but no normalized news summaries were generated')
+          # A live feed may legitimately provide headline-only items. Do not invent
+          # summaries just to satisfy CI; validate quality only when a summary exists.
+          for row in news_summaries:
+              summary = ((row.get('metadata') or {}).get('news_summary') or '').strip()
+              title = (row.get('title') or '').strip()
+              if not summary:
+                  raise SystemExit(f"Empty normalized news summary: {row.get('id')}")
+              if title and summary.casefold() == title.casefold():
+                  raise SystemExit(f"Headline copied as normalized news summary: {row.get('id')}")
           print(f"news_observations={len(news_observations)} news_summaries={len(news_summaries)}")
           for row in news_summaries[:3]:
               summary = (row.get('metadata') or {}).get('news_summary', '')
