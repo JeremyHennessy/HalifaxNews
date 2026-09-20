@@ -443,6 +443,12 @@
     "precision": "approximate_geocode",
     "query": "COWIE HILL RD, HALIFAX, Nova Scotia, Canada"
   },
+  "CRANBERRY CRES": {
+    "lat": 44.681496,
+    "lon": -63.4985109,
+    "precision": "approximate_geocode",
+    "query": "CRANBERRY CRES, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CRANEHILL EAST PRESTON": {
     "lat": 44.7154332,
     "lon": -63.4552114,
@@ -1408,6 +1414,12 @@
     "lon": -63.443385,
     "precision": "approximate_geocode",
     "query": "SPRUCE DR, COW BAY, Halifax, Nova Scotia, Canada"
+  },
+  "STANLEY MIDDLE SACKVILLE": {
+    "lat": 44.7826168,
+    "lon": -63.6971311,
+    "precision": "approximate_geocode",
+    "query": "STANLEY ST, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "STELLA PORTERS LAKE": {
     "lat": 44.7436396,
