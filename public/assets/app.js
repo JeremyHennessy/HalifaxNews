@@ -10,7 +10,7 @@ const downtownWords = [
 
 const state = {
   payload:null, category:'ALL', downtownOnly:true, hideCommunity:false, hours:12, minPriority:0,
-  search:'', sort:'priority', map:null, layer:null,
+  search:'', sort:'priority', map:null, layer:null, refreshFeedbackTimer:null,
 };
 
 const el = id => document.getElementById(id);
@@ -119,9 +119,86 @@ function renderHealth(){
   const health=state.payload?.source_health||[],good=health.filter(x=>x.status==='ok').length;el('sourceHealthSummary').textContent=health.length?`${good}/${health.length} healthy`:'No checks';const box=el('sourceHealth');box.innerHTML='';
   health.forEach(row=>{const div=document.createElement('div');div.className=`source-row ${row.status==='ok'?'ok':'error'}`;const details=row.status==='ok'?`${row.authority} · checked ${ageLabel(row.checked_at)}`:`${row.authority} · ${row.error||'collector error'}`;div.innerHTML=`<span class="source-dot"></span><div><div class="source-name">${esc(row.source)}</div><div class="source-sub">${esc(details)}</div></div><span class="source-count">${row.records||0}</span>`;box.appendChild(div);});if(!health.length)box.innerHTML='<div class="empty-feed">Collector has not run yet.</div>';
 }
-function renderFreshness(){const generated=parseDate(state.payload?.generated_at),pill=el('freshnessPill');if(!generated){pill.className='status-pill stale';pill.innerHTML='<span class="dot"></span> No live refresh yet';return;}const age=Math.max(0,Math.round((Date.now()-generated)/60000));pill.className=`status-pill ${age<=12?'fresh':age>30?'stale':''}`;pill.innerHTML=`<span class="dot"></span> ${age<=1?'Fresh now':`Updated ${age}m ago`}`;el('generatedAt').textContent=`Dataset generated ${generated.toLocaleString('en-CA',{timeZone:HALIFAX_TZ,dateStyle:'medium',timeStyle:'short'})}`;}
+function renderFreshness(){
+  const generated=parseDate(state.payload?.generated_at),pill=el('freshnessPill');
+  if(!generated){
+    pill.className='status-pill stale';
+    pill.innerHTML='<span class="dot"></span> No live refresh yet';
+    return;
+  }
+  const age=Math.max(0,Math.round((Date.now()-generated)/60000));
+  pill.className=`status-pill ${age<=12?'fresh':age>30?'stale':''}`;
+  pill.innerHTML=`<span class="dot"></span> ${age<=1?'Fresh now':`Updated ${age}m ago`}`;
+  el('generatedAt').textContent=`Dataset generated ${generated.toLocaleString('en-CA',{timeZone:HALIFAX_TZ,dateStyle:'medium',timeStyle:'short'})}`;
+}
 function renderAll(){renderFreshness();renderMetrics();renderPriority();renderSirens();renderHealth();renderFeed();}
-async function loadData({cacheBust=false}={}){el('refreshButton').disabled=true;try{const url=cacheBust?`${DATA_URL}?t=${Date.now()}`:DATA_URL,res=await fetch(url,{cache:'no-store'});if(!res.ok)throw new Error(`HTTP ${res.status}`);state.payload=await res.json();renderAll();}catch(err){el('freshnessPill').className='status-pill stale';el('freshnessPill').innerHTML='<span class="dot"></span> Data unavailable';el('incidentFeed').innerHTML=`<div class="empty-feed">Could not load the generated dataset: ${esc(err.message)}</div>`;}finally{el('refreshButton').disabled=false;}}
+
+function beginManualRefresh(){
+  if(state.refreshFeedbackTimer){
+    clearTimeout(state.refreshFeedbackTimer);
+    state.refreshFeedbackTimer=null;
+  }
+  const button=el('refreshButton'),pill=el('freshnessPill');
+  button.classList.add('refreshing');
+  button.setAttribute('aria-busy','true');
+  button.setAttribute('aria-label','Checking for updates');
+  button.title='Checking for updates…';
+  pill.className='status-pill checking';
+  pill.innerHTML='<span class="dot"></span> Checking for updates…';
+  el('generatedAt').textContent='Checking for a newer published dataset…';
+}
+
+function finishManualRefresh(message,{failed=false}={}){
+  const button=el('refreshButton'),pill=el('freshnessPill');
+  button.classList.remove('refreshing');
+  button.setAttribute('aria-busy','false');
+  button.setAttribute('aria-label','Refresh data');
+  button.title='Refresh data';
+  pill.className=`status-pill ${failed?'stale':'fresh'}`;
+  pill.innerHTML=`<span class="dot"></span> ${esc(message)}`;
+  if(!failed&&state.payload?.generated_at){
+    const generated=parseDate(state.payload.generated_at);
+    if(generated)el('generatedAt').textContent=`Dataset generated ${generated.toLocaleString('en-CA',{timeZone:HALIFAX_TZ,dateStyle:'medium',timeStyle:'short'})}`;
+  }
+  state.refreshFeedbackTimer=setTimeout(()=>{
+    state.refreshFeedbackTimer=null;
+    renderFreshness();
+  },3500);
+}
+
+async function loadData({cacheBust=false,userInitiated=false}={}){
+  const button=el('refreshButton');
+  const previousGeneratedAt=state.payload?.generated_at||null;
+  button.disabled=true;
+  if(userInitiated)beginManualRefresh();
+  try{
+    const url=cacheBust?`${DATA_URL}?t=${Date.now()}`:DATA_URL;
+    const res=await fetch(url,{cache:'no-store'});
+    if(!res.ok)throw new Error(`HTTP ${res.status}`);
+    const nextPayload=await res.json();
+    state.payload=nextPayload;
+    renderAll();
+    if(userInitiated){
+      const nextGeneratedAt=nextPayload?.generated_at||null;
+      const changed=Boolean(nextGeneratedAt&&nextGeneratedAt!==previousGeneratedAt);
+      finishManualRefresh(changed?'New data loaded':'Checked · no newer data');
+    }
+  }catch(err){
+    if(userInitiated){
+      finishManualRefresh('Refresh failed',{failed:true});
+    }else{
+      el('freshnessPill').className='status-pill stale';
+      el('freshnessPill').innerHTML='<span class="dot"></span> Data unavailable';
+      el('incidentFeed').innerHTML=`<div class="empty-feed">Could not load the generated dataset: ${esc(err.message)}</div>`;
+    }
+  }finally{
+    button.disabled=false;
+    if(!userInitiated){
+      button.classList.remove('refreshing');
+      button.setAttribute('aria-busy','false');
+    }
+  }
+}
 function updateClock(){const now=new Date();el('clockTime').textContent=now.toLocaleTimeString('en-CA',{timeZone:HALIFAX_TZ,hour:'2-digit',minute:'2-digit',hour12:false});el('clockDate').textContent=now.toLocaleDateString('en-CA',{timeZone:HALIFAX_TZ,weekday:'short',month:'short',day:'numeric'});}
 function wireControls(){
   document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));btn.classList.add('active');state.category=btn.dataset.filter;renderFeed();}));
@@ -131,7 +208,7 @@ function wireControls(){
   el('timeRange').addEventListener('change',e=>{state.hours=Number(e.target.value);renderFeed();});
   el('sortOrder').addEventListener('change',e=>{state.sort=e.target.value;renderFeed();});
   el('feedSearch').addEventListener('input',e=>{state.search=e.target.value;renderFeed();});
-  el('refreshButton').addEventListener('click',()=>loadData({cacheBust:true}));
+  el('refreshButton').addEventListener('click',()=>loadData({cacheBust:true,userInitiated:true}));
 }
 
 initMap();wireControls();updateClock();setInterval(updateClock,30000);loadData();setInterval(()=>loadData({cacheBust:true}),120000);
