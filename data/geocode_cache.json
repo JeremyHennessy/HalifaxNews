@@ -23,6 +23,12 @@
     "precision": "approximate_geocode",
     "query": "AKERLEY BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ALABASTER WAY": {
+    "lat": 44.6039785,
+    "lon": -63.601314,
+    "precision": "approximate_geocode",
+    "query": "ALABASTER WAY, HALIFAX, Nova Scotia, Canada"
+  },
   "ALAN MIDDLE SACKVILLE": {
     "lat": 44.7837232,
     "lon": -63.7003292,
@@ -707,6 +713,12 @@
     "precision": "approximate_geocode",
     "query": "HAMMONDS PLAINS RD, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "HAVENBROOK HILL": {
+    "lat": 44.6664498,
+    "lon": -63.5034056,
+    "precision": "approximate_geocode",
+    "query": "HAVENBROOK HILL, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "HAWK TERR": {
     "lat": 44.6580935,
     "lon": -63.6121363,
@@ -886,6 +898,12 @@
     "lon": -63.5715396,
     "precision": "approximate_geocode",
     "query": "KENT ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "KERNWOOD MIDDLE SACKVILLE": {
+    "lat": 44.8192375,
+    "lon": -63.7232555,
+    "precision": "approximate_geocode",
+    "query": "KERNWOOD DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "KETCH HARBOUR HERRING COVE": {
     "lat": 44.5569177,
