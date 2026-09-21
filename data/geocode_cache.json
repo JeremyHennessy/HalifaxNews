@@ -35,6 +35,12 @@
     "precision": "approximate_geocode",
     "query": "ALAN ST, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "ALBEMARLE": {
+    "lat": 44.6497876,
+    "lon": -63.5775646,
+    "precision": "approximate_geocode",
+    "query": "ALBEMARLE ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ALDERNEY": {
     "lat": 44.6664317,
     "lon": -63.5645888,
@@ -767,6 +773,12 @@
     "precision": "approximate_geocode",
     "query": "HIDEAWAY TRL, BROOKSIDE, Halifax, Nova Scotia, Canada"
   },
+  "HIGGINBOTTOM HEAD OF CHEZZETCOOK": {
+    "lat": 44.7478208,
+    "lon": -63.2428647,
+    "precision": "approximate_geocode",
+    "query": "HIGGINBOTTOM DR, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "HIGGINS BEECHVILLE": {
     "lat": 44.636956,
     "lon": -63.6792335,
@@ -1043,6 +1055,12 @@
     "precision": "approximate_geocode",
     "query": "LAWRENCETOWN RD, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
+  "LEASIDE LOWER SACKVILLE": {
+    "lat": 44.7660979,
+    "lon": -63.6832528,
+    "precision": "approximate_geocode",
+    "query": "LEASIDE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "LONDRA CRT": {
     "lat": 44.6861101,
     "lon": -63.5025056,
@@ -1138,6 +1156,12 @@
     "lon": -63.6748655,
     "precision": "approximate_geocode",
     "query": "METROPOLITAN AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "MILLWOOD MIDDLE SACKVILLE": {
+    "lat": 44.7858945,
+    "lon": -63.7094327,
+    "precision": "approximate_geocode",
+    "query": "MILLWOOD DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "MINEVILLE MINEVILLE": {
     "lat": 44.6816404,
@@ -1324,6 +1348,12 @@
     "lon": -63.5017335,
     "precision": "approximate_geocode",
     "query": "POPLAR DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "PORTERS LAKE STATION PORTERS LAKE": {
+    "lat": 44.7392111,
+    "lon": -63.285665,
+    "precision": "approximate_geocode",
+    "query": "PORTERS LAKE STATION RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "PORTLAND HILLS": {
     "lat": 44.6656116,
