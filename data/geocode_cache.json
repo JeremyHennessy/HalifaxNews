@@ -797,6 +797,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 2, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 277 DUTCH SETTLEMENT": {
+    "lat": 44.9899164,
+    "lon": -63.4425448,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 277, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 7 EAST PRESTON": {
     "lat": 44.7170792,
     "lon": -63.4336458,
