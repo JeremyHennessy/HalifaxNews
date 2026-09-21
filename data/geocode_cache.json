@@ -503,6 +503,12 @@
     "precision": "approximate_geocode",
     "query": "DAVID ALLEN DR, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
+  "DAVID PAUL HAMMONDS PLAINS": {
+    "lat": 44.7322097,
+    "lon": -63.7635757,
+    "precision": "approximate_geocode",
+    "query": "DAVID PAUL DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "DAWN": {
     "lat": 44.6602421,
     "lon": -63.6363408,
@@ -826,6 +832,12 @@
     "lon": -63.4969907,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "HILLTOP LOWER SACKVILLE": {
+    "lat": 44.7645826,
+    "lon": -63.6984021,
+    "precision": "approximate_geocode",
+    "query": "HILLTOP DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "HOLLAND FLETCHERS LAKE": {
     "lat": 44.8504542,
@@ -1319,6 +1331,12 @@
     "precision": "approximate_geocode",
     "query": "PROSPECT RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
   },
+  "PROSPECT SHAD BAY": {
+    "lat": 44.5220861,
+    "lon": -63.787126,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT RD, SHAD BAY, Halifax, Nova Scotia, Canada"
+  },
   "PROSPECT WHITES LAKE": {
     "lat": 44.5284983,
     "lon": -63.7605494,
@@ -1468,6 +1486,12 @@
     "lon": -63.5162612,
     "precision": "approximate_geocode",
     "query": "SILVER DART DR, GOFFS, Halifax, Nova Scotia, Canada"
+  },
+  "SKY GOFFS": {
+    "lat": 44.8667892,
+    "lon": -63.5463109,
+    "precision": "approximate_geocode",
+    "query": "SKY BLVD, GOFFS, Halifax, Nova Scotia, Canada"
   },
   "SMITH NORTH PRESTON": {
     "lat": 44.7409101,
