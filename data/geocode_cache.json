@@ -299,6 +299,12 @@
     "precision": "approximate_geocode",
     "query": "BURNSIDE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CAIN NORTH PRESTON": {
+    "lat": 44.7447232,
+    "lon": -63.4665138,
+    "precision": "approximate_geocode",
+    "query": "CAIN ST, NORTH PRESTON, Halifax, Nova Scotia, Canada"
+  },
   "CALDWELL COLE HARBOUR": {
     "lat": 44.6539551,
     "lon": -63.4874848,
@@ -406,6 +412,12 @@
     "lon": -63.506701,
     "precision": "approximate_geocode",
     "query": "CLARENCE AVE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "CLAUDIA CRES MIDDLE SACKVILLE": {
+    "lat": 44.7776099,
+    "lon": -63.7086878,
+    "precision": "approximate_geocode",
+    "query": "CLAUDIA CRES, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "CLUB HOUSE HAMMONDS PLAINS": {
     "lat": 44.7509704,
@@ -857,6 +869,12 @@
     "precision": "approximate_geocode",
     "query": "HOROBIN DR, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "HOWARD EASTERN PASSAGE": {
+    "lat": 44.6258009,
+    "lon": -63.5074067,
+    "precision": "approximate_geocode",
+    "query": "HOWARD AVE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "ISELEY DUTCH SETTLEMENT": {
     "lat": 44.9798347,
     "lon": -63.461845,
@@ -1121,6 +1139,12 @@
     "precision": "approximate_geocode",
     "query": "METROPOLITAN AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "MINEVILLE MINEVILLE": {
+    "lat": 44.6816404,
+    "lon": -63.3825178,
+    "precision": "approximate_geocode",
+    "query": "MINEVILLE RD, MINEVILLE, Halifax, Nova Scotia, Canada"
+  },
   "MORRIS": {
     "lat": 44.642235,
     "lon": -63.5693884,
@@ -1372,6 +1396,12 @@
     "lon": -63.5337893,
     "precision": "approximate_geocode",
     "query": "RAYMOOR DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "REGENT": {
+    "lat": 44.6767566,
+    "lon": -63.5454862,
+    "precision": "approximate_geocode",
+    "query": "REGENT DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "RIFLE RANGE BEDFORD": {
     "lat": 44.7468404,
