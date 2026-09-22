@@ -323,6 +323,12 @@
     "precision": "approximate_geocode",
     "query": "CALDWELL RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "CAMBRIDGE": {
+    "lat": 44.6420565,
+    "lon": -63.6001756,
+    "precision": "approximate_geocode",
+    "query": "CAMBRIDGE ST, HALIFAX, Nova Scotia, Canada"
+  },
   "CAMPEAU CRT EASTERN PASSAGE": {
     "lat": 44.6129422,
     "lon": -63.4720533,
@@ -989,6 +995,12 @@
     "precision": "approximate_geocode",
     "query": "KEYWORTH LANE, HALIFAX, Nova Scotia, Canada"
   },
+  "KING": {
+    "lat": 44.6656355,
+    "lon": -63.5667937,
+    "precision": "approximate_geocode",
+    "query": "KING ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "KINGS WHARF PL": {
     "lat": 44.6641656,
     "lon": -63.564029,
@@ -1564,6 +1576,12 @@
     "lon": -63.7779156,
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SAWMILL CRES MIDDLE SACKVILLE": {
+    "lat": 44.7960915,
+    "lon": -63.705705,
+    "precision": "approximate_geocode",
+    "query": "SAWMILL CRES, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SCHOOL": {
     "lat": 44.6495992,
