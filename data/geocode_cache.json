@@ -11,6 +11,12 @@
     "precision": "approximate_geocode",
     "query": "ABRAMS WAY, HALIFAX, Nova Scotia, Canada"
   },
+  "ACORN": {
+    "lat": 44.6179418,
+    "lon": -63.6086775,
+    "precision": "approximate_geocode",
+    "query": "ACORN RD, HALIFAX, Nova Scotia, Canada"
+  },
   "AGRICOLA": {
     "lat": 44.666086,
     "lon": -63.6091132,
@@ -533,6 +539,12 @@
     "precision": "approximate_geocode",
     "query": "CROSS RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CUTTER": {
+    "lat": 44.6961489,
+    "lon": -63.6774276,
+    "precision": "approximate_geocode",
+    "query": "CUTTER DR, HALIFAX, Nova Scotia, Canada"
+  },
   "DAVID ALLEN EAST LAWRENCETOWN": {
     "lat": 44.6704384,
     "lon": -63.3169712,
@@ -808,6 +820,12 @@
     "lon": -63.6792335,
     "precision": "approximate_geocode",
     "query": "HIGGINS AVE, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "HIGH FALL RIVER": {
+    "lat": 44.8279341,
+    "lon": -63.6169159,
+    "precision": "approximate_geocode",
+    "query": "HIGH RD, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
   "HIGHFIELD PARK": {
     "lat": 44.6889062,
@@ -1295,6 +1313,12 @@
     "precision": "approximate_geocode",
     "query": "OLD SAMBRO RD, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
   },
+  "OLD TRUNK ELMSDALE": {
+    "lat": 44.9621594,
+    "lon": -63.4915652,
+    "precision": "approximate_geocode",
+    "query": "OLD TRUNK RD, ELMSDALE, Halifax, Nova Scotia, Canada"
+  },
   "ORDNANCE": {
     "lat": 44.6674816,
     "lon": -63.583451,
@@ -1366,6 +1390,12 @@
     "lon": -63.5777101,
     "precision": "approximate_geocode",
     "query": "PINEHILL RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "PLEASANT": {
+    "lat": 44.6607666,
+    "lon": -63.5514505,
+    "precision": "approximate_geocode",
+    "query": "PLEASANT ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "PLEASANT GAETZ BROOK": {
     "lat": 44.7703429,
