@@ -533,6 +533,12 @@
     "precision": "approximate_geocode",
     "query": "DAWN ST, HALIFAX, Nova Scotia, Canada"
   },
+  "DAWN DOUGLAS PORTUGUESE COVE": {
+    "lat": 44.531462,
+    "lon": -63.5462878,
+    "precision": "approximate_geocode",
+    "query": "DAWN DOUGLAS DR, PORTUGUESE COVE, Halifax, Nova Scotia, Canada"
+  },
   "DELLRIDGE BEDFORD": {
     "lat": 44.7005551,
     "lon": -63.6888836,
@@ -845,6 +851,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 7 LAKE ECHO": {
+    "lat": 44.734426,
+    "lon": -63.3690475,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, LAKE ECHO, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 7 PORTERS LAKE": {
     "lat": 44.7377872,
     "lon": -63.3092792,
@@ -1054,6 +1066,12 @@
     "lon": -63.3313895,
     "precision": "approximate_geocode",
     "query": "LAWRENCETOWN RD, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
+  },
+  "LEAMAN": {
+    "lat": 44.6859327,
+    "lon": -63.5794574,
+    "precision": "approximate_geocode",
+    "query": "LEAMAN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "LEASIDE LOWER SACKVILLE": {
     "lat": 44.7660979,
@@ -1433,6 +1451,12 @@
     "precision": "approximate_geocode",
     "query": "REGENT DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "RIDGEWOOD": {
+    "lat": 44.6317263,
+    "lon": -63.5924303,
+    "precision": "approximate_geocode",
+    "query": "RIDGEWOOD DR, HALIFAX, Nova Scotia, Canada"
+  },
   "RIFLE RANGE BEDFORD": {
     "lat": 44.7468404,
     "lon": -63.6634227,
@@ -1702,6 +1726,18 @@
     "lon": -63.5839372,
     "precision": "approximate_geocode",
     "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "VIMY": {
+    "lat": 44.66202,
+    "lon": -63.6342445,
+    "precision": "approximate_geocode",
+    "query": "VIMY AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "WALDEN PL BEDFORD": {
+    "lat": 44.7134252,
+    "lon": -63.682365,
+    "precision": "approximate_geocode",
+    "query": "WALDEN PL, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "WASHMILL LAKE": {
     "lat": 44.6474266,
