@@ -743,6 +743,12 @@
     "precision": "approximate_geocode",
     "query": "GOTTINGEN ST, HALIFAX, Nova Scotia, Canada"
   },
+  "GRAFTON": {
+    "lat": 44.6443991,
+    "lon": -63.5741613,
+    "precision": "approximate_geocode",
+    "query": "GRAFTON ST, HALIFAX, Nova Scotia, Canada"
+  },
   "GREENWOOD TIMBERLEA": {
     "lat": 44.6536554,
     "lon": -63.7396488,
@@ -983,6 +989,12 @@
     "precision": "approximate_geocode",
     "query": "KEARNEY LAKE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "KELLY WILLIAMSWOOD": {
+    "lat": 44.4806946,
+    "lon": -63.6108439,
+    "precision": "approximate_geocode",
+    "query": "KELLY DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
   "KENNEDY": {
     "lat": 44.6909024,
     "lon": -63.5285383,
@@ -1180,6 +1192,12 @@
     "lon": -63.7201087,
     "precision": "approximate_geocode",
     "query": "MARKETWAY LANE, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "MARY JOLLIMORE TERENCE BAY": {
+    "lat": 44.4752745,
+    "lon": -63.7217692,
+    "precision": "approximate_geocode",
+    "query": "MARY JOLLIMORE RD, TERENCE BAY, Halifax, Nova Scotia, Canada"
   },
   "MASSACHUSETTS": {
     "lat": 44.6637255,
