@@ -389,6 +389,12 @@
     "precision": "approximate_geocode",
     "query": "CHAPAIS DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "CHARLES GRAY WEST PENNANT": {
+    "lat": 44.4739764,
+    "lon": -63.636309,
+    "precision": "approximate_geocode",
+    "query": "CHARLES GRAY RD, WEST PENNANT, Halifax, Nova Scotia, Canada"
+  },
   "CHARLES TIMBERLEA": {
     "lat": 44.6568862,
     "lon": -63.7494283,
@@ -406,6 +412,12 @@
     "lon": -63.3061906,
     "precision": "approximate_geocode",
     "query": "CHRISTOPHER LANE, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "CHURCH": {
+    "lat": 44.6679825,
+    "lon": -63.5697698,
+    "precision": "approximate_geocode",
+    "query": "CHURCH ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "CIRCASSION COLE HARBOUR": {
     "lat": 44.6792654,
@@ -1391,6 +1403,12 @@
     "precision": "approximate_geocode",
     "query": "PRIMROSE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "PROSPECT BAY PROSPECT BAY": {
+    "lat": 44.5020772,
+    "lon": -63.7909462,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT BAY RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
+  },
   "PROSPECT BEECHVILLE": {
     "lat": 44.6298529,
     "lon": -63.6638831,
@@ -1493,6 +1511,12 @@
     "precision": "approximate_geocode",
     "query": "ROCKY LAKE DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "ROMANS": {
+    "lat": 44.6546172,
+    "lon": -63.6217528,
+    "precision": "approximate_geocode",
+    "query": "ROMANS AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "ROSEMARY MIDDLE SACKVILLE": {
     "lat": 44.8042318,
     "lon": -63.7251302,
@@ -1558,6 +1582,12 @@
     "lon": -63.6828239,
     "precision": "approximate_geocode",
     "query": "SEDGEWICK PL, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "SEVENTH LUCASVILLE": {
+    "lat": 44.7491828,
+    "lon": -63.7434549,
+    "precision": "approximate_geocode",
+    "query": "SEVENTH ST, LUCASVILLE, Halifax, Nova Scotia, Canada"
   },
   "SHINING WALK LOWER SACKVILLE": {
     "lat": 44.7581704,
