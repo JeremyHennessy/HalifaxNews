@@ -1829,6 +1829,12 @@
     "precision": "approximate_geocode",
     "query": "WEST PORTERS LAKE RD, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "WESTRIDGE HATCHET LAKE": {
+    "lat": 44.5686739,
+    "lon": -63.7078906,
+    "precision": "approximate_geocode",
+    "query": "WESTRIDGE RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
   "WHEATSTONE HTS": {
     "lat": 44.6742446,
     "lon": -63.5477908,
