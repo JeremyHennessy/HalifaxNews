@@ -299,6 +299,12 @@
     "precision": "approximate_geocode",
     "query": "BROADWAY ST, LAKESIDE, Halifax, Nova Scotia, Canada"
   },
+  "BROOKSIDE BROOKSIDE": {
+    "lat": 44.5528893,
+    "lon": -63.7277119,
+    "precision": "approximate_geocode",
+    "query": "BROOKSIDE RD, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
   "BROWNLOW": {
     "lat": 44.6956432,
     "lon": -63.5789756,
@@ -412,6 +418,12 @@
     "lon": -63.6633454,
     "precision": "approximate_geocode",
     "query": "CHAIN LAKE DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "CHAMEAU CRES COLE HARBOUR": {
+    "lat": 44.6810562,
+    "lon": -63.4902744,
+    "precision": "approximate_geocode",
+    "query": "CHAMEAU CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "CHAPAIS LOWER SACKVILLE": {
     "lat": 44.7645511,
@@ -965,6 +977,12 @@
     "precision": "approximate_geocode",
     "query": "HOWARD AVE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "INDIGO WALK": {
+    "lat": 44.5999331,
+    "lon": -63.6140906,
+    "precision": "approximate_geocode",
+    "query": "INDIGO WALK, HALIFAX, Nova Scotia, Canada"
+  },
   "ISELEY DUTCH SETTLEMENT": {
     "lat": 44.9798347,
     "lon": -63.461845,
@@ -1301,6 +1319,12 @@
     "precision": "approximate_geocode",
     "query": "NEEDHAM ST, HALIFAX, Nova Scotia, Canada"
   },
+  "NESTOR CRES COLE HARBOUR": {
+    "lat": 44.6866666,
+    "lon": -63.4924216,
+    "precision": "approximate_geocode",
+    "query": "NESTOR CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "NICTAUX LOWER SACKVILLE": {
     "lat": 44.7852389,
     "lon": -63.6760708,
@@ -1360,6 +1384,12 @@
     "lon": -63.4915652,
     "precision": "approximate_geocode",
     "query": "OLD TRUNK RD, ELMSDALE, Halifax, Nova Scotia, Canada"
+  },
+  "ORCHARD UPPER HAMMONDS PLAINS": {
+    "lat": 44.7531963,
+    "lon": -63.8371069,
+    "precision": "approximate_geocode",
+    "query": "ORCHARD DR, UPPER HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "ORDNANCE": {
     "lat": 44.6674816,
@@ -1684,6 +1714,12 @@
     "lon": -63.7434549,
     "precision": "approximate_geocode",
     "query": "SEVENTH ST, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SHEPPARDS RUN BEECHVILLE": {
+    "lat": 44.6335052,
+    "lon": -63.6809028,
+    "precision": "approximate_geocode",
+    "query": "SHEPPARDS RUN, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
   "SHINING WALK LOWER SACKVILLE": {
     "lat": 44.7581704,
