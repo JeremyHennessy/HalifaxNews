@@ -623,6 +623,12 @@
     "precision": "approximate_geocode",
     "query": "DICKEY DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "DONALDSON": {
+    "lat": 44.6785395,
+    "lon": -63.6667076,
+    "precision": "approximate_geocode",
+    "query": "DONALDSON AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "DOWNTOWN": {
     "lat": 44.6461752,
     "lon": -63.5725221,
@@ -1217,6 +1223,12 @@
     "precision": "approximate_geocode",
     "query": "LORIANN DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "LOWER GOVERNOR EAST PRESTON": {
+    "lat": 44.7142016,
+    "lon": -63.4329531,
+    "precision": "approximate_geocode",
+    "query": "LOWER GOVERNOR ST, EAST PRESTON, Halifax, Nova Scotia, Canada"
+  },
   "LOWER WATER": {
     "lat": 44.6460229,
     "lon": -63.5709755,
@@ -1757,6 +1769,12 @@
     "precision": "approximate_geocode",
     "query": "SHINING WALK, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "SHORE EASTERN PASSAGE": {
+    "lat": 44.6091349,
+    "lon": -63.4920323,
+    "precision": "approximate_geocode",
+    "query": "SHORE RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "SILVER DART GOFFS": {
     "lat": 44.888103,
     "lon": -63.5162612,
@@ -1792,6 +1810,12 @@
     "lon": -63.5740827,
     "precision": "approximate_geocode",
     "query": "SOUTH ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "SOUTH BLAND": {
+    "lat": 44.6342725,
+    "lon": -63.5720873,
+    "precision": "approximate_geocode",
+    "query": "SOUTH BLAND ST, HALIFAX, Nova Scotia, Canada"
   },
   "SOUTH PARK": {
     "lat": 44.6394911,
@@ -1894,6 +1918,12 @@
     "lon": -63.5734646,
     "precision": "approximate_geocode",
     "query": "THISTLE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "THORN BEAVER BANK": {
+    "lat": 44.8020726,
+    "lon": -63.6843037,
+    "precision": "approximate_geocode",
+    "query": "THORN AVE, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
   "TIDEWINDS EASTERN PASSAGE": {
     "lat": 44.6142543,
