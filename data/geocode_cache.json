@@ -5,6 +5,12 @@
     "precision": "approximate_geocode",
     "query": "A MURRAY MACKAY BRDG, HALIFAX, Nova Scotia, Canada"
   },
+  "ABBEY STILLWATER LAKE": {
+    "lat": 44.6890882,
+    "lon": -63.8196665,
+    "precision": "approximate_geocode",
+    "query": "ABBEY RD, STILLWATER LAKE, Halifax, Nova Scotia, Canada"
+  },
   "ABRAMS WAY": {
     "lat": 44.6123309,
     "lon": -63.6119611,
@@ -857,6 +863,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHLAND CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 101 LOWER SACKVILLE": {
+    "lat": 44.7502798,
+    "lon": -63.6626208,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 101, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 102": {
     "lat": 44.7060265,
     "lon": -63.6953206,
@@ -1636,6 +1648,12 @@
     "lon": -63.7779156,
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SARATOGA": {
+    "lat": 44.7045869,
+    "lon": -63.5382584,
+    "precision": "approximate_geocode",
+    "query": "SARATOGA DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SAWMILL CRES MIDDLE SACKVILLE": {
     "lat": 44.7960915,
