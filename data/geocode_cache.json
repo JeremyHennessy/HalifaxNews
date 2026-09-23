@@ -365,6 +365,18 @@
     "precision": "approximate_geocode",
     "query": "CARRINGTON PL, HALIFAX, Nova Scotia, Canada"
   },
+  "CARROLL": {
+    "lat": 44.6783448,
+    "lon": -63.6517977,
+    "precision": "approximate_geocode",
+    "query": "CARROLL LANE, HALIFAX, Nova Scotia, Canada"
+  },
+  "CASSANDRA WESTPHAL": {
+    "lat": 44.6837336,
+    "lon": -63.4810874,
+    "precision": "approximate_geocode",
+    "query": "CASSANDRA DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
   "CASTLE HILL": {
     "lat": 44.6851129,
     "lon": -63.669723,
