@@ -77,6 +77,12 @@
     "precision": "approximate_geocode",
     "query": "ANGUS L MACDONALD BRDG, HALIFAX, Nova Scotia, Canada"
   },
+  "AQUAVISTA": {
+    "lat": 44.6584491,
+    "lon": -63.4984292,
+    "precision": "approximate_geocode",
+    "query": "AQUAVISTA LANE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "ARBOR WAY HAMMONDS PLAINS": {
     "lat": 44.7110369,
     "lon": -63.7228216,
@@ -838,6 +844,12 @@
     "lon": -63.5741613,
     "precision": "approximate_geocode",
     "query": "GRAFTON ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "GREENPARK CL": {
+    "lat": 44.6537474,
+    "lon": -63.6666148,
+    "precision": "approximate_geocode",
+    "query": "GREENPARK CL, HALIFAX, Nova Scotia, Canada"
   },
   "GREENWOOD TIMBERLEA": {
     "lat": 44.6536554,
@@ -1972,6 +1984,12 @@
     "lon": -63.5734646,
     "precision": "approximate_geocode",
     "query": "THISTLE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "THOMAS RADDALL": {
+    "lat": 44.658941,
+    "lon": -63.6653116,
+    "precision": "approximate_geocode",
+    "query": "THOMAS RADDALL DR, HALIFAX, Nova Scotia, Canada"
   },
   "THORN BEAVER BANK": {
     "lat": 44.8020726,
