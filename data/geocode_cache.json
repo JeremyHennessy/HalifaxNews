@@ -1013,6 +1013,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 7 LAKE CHARLOTTE": {
+    "lat": 44.7745705,
+    "lon": -62.966098,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, LAKE CHARLOTTE, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 7 LAKE ECHO": {
     "lat": 44.734426,
     "lon": -63.3690475,
@@ -1060,6 +1066,12 @@
     "lon": -63.5074067,
     "precision": "approximate_geocode",
     "query": "HOWARD AVE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "INDIAN POINT GLEN HAVEN": {
+    "lat": 44.6461668,
+    "lon": -63.9176517,
+    "precision": "approximate_geocode",
+    "query": "INDIAN POINT RD, GLEN HAVEN, Halifax, Nova Scotia, Canada"
   },
   "INDIGO WALK": {
     "lat": 44.5999331,
