@@ -899,6 +899,12 @@
     "precision": "approximate_geocode",
     "query": "HEATHERWOOD CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "HEMLOCK UPPER TANTALLON": {
+    "lat": 44.7230234,
+    "lon": -63.8692603,
+    "precision": "approximate_geocode",
+    "query": "HEMLOCK DR, UPPER TANTALLON, Halifax, Nova Scotia, Canada"
+  },
   "HENRY FALL RIVER": {
     "lat": 44.8285887,
     "lon": -63.6008333,
@@ -1096,6 +1102,18 @@
     "lon": -63.2472684,
     "precision": "approximate_geocode",
     "query": "JUDY ANNE DR, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "JULIUS BEECHVILLE": {
+    "lat": 44.6509678,
+    "lon": -63.6762347,
+    "precision": "approximate_geocode",
+    "query": "JULIUS BLVD, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "KARELS FALL RIVER": {
+    "lat": 44.8177787,
+    "lon": -63.6213295,
+    "precision": "approximate_geocode",
+    "query": "KARELS DR, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
   "KAREN CRES PORTERS LAKE": {
     "lat": 44.7362451,
@@ -1553,6 +1571,12 @@
     "precision": "approximate_geocode",
     "query": "PEGGYS POINT RD, PEGGYS COVE, Halifax, Nova Scotia, Canada"
   },
+  "PINECREST": {
+    "lat": 44.6857257,
+    "lon": -63.586212,
+    "precision": "approximate_geocode",
+    "query": "PINECREST DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "PINEDALE PROSPECT BAY": {
     "lat": 44.5138821,
     "lon": -63.7804069,
@@ -1624,6 +1648,12 @@
     "lon": -63.5830135,
     "precision": "approximate_geocode",
     "query": "PRIMROSE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "PROSPECT BAY PROSPECT": {
+    "lat": 44.47097,
+    "lon": -63.7893064,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT BAY RD, PROSPECT, Halifax, Nova Scotia, Canada"
   },
   "PROSPECT BAY PROSPECT BAY": {
     "lat": 44.5020772,
@@ -1756,6 +1786,12 @@
     "lon": -63.4585758,
     "precision": "approximate_geocode",
     "query": "ROSS RD, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "ROSSING MIDDLE SACKVILLE": {
+    "lat": 44.7961618,
+    "lon": -63.7021887,
+    "precision": "approximate_geocode",
+    "query": "ROSSING DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "ROY CRES BEDFORD": {
     "lat": 44.7218592,
