@@ -209,6 +209,12 @@
     "precision": "approximate_geocode",
     "query": "BELL BLVD, GOFFS, Halifax, Nova Scotia, Canada"
   },
+  "BELL LAKE ECHO": {
+    "lat": 44.726079,
+    "lon": -63.401345,
+    "precision": "approximate_geocode",
+    "query": "BELL ST, LAKE ECHO, Halifax, Nova Scotia, Canada"
+  },
   "BELLEFONTAINE WEST CHEZZETCOOK": {
     "lat": 44.7052235,
     "lon": -63.282956,
@@ -328,6 +334,12 @@
     "lon": -63.5774749,
     "precision": "approximate_geocode",
     "query": "BRUNSWICK ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "BRUSHY HILL UPPER SACKVILLE": {
+    "lat": 44.8409515,
+    "lon": -63.7719323,
+    "precision": "approximate_geocode",
+    "query": "BRUSHY HILL RD, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "BURNSIDE": {
     "lat": 44.7109464,
@@ -454,6 +466,12 @@
     "lon": -63.7494283,
     "precision": "approximate_geocode",
     "query": "CHARLES RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "CHEBUCTO": {
+    "lat": 44.6448606,
+    "lon": -63.6168663,
+    "precision": "approximate_geocode",
+    "query": "CHEBUCTO RD, HALIFAX, Nova Scotia, Canada"
   },
   "CHERRY BROOK CHERRY BROOK": {
     "lat": 44.7069344,
@@ -742,6 +760,12 @@
     "lon": -63.672875,
     "precision": "approximate_geocode",
     "query": "FLEETVIEW DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "FLORENCE PLACE CRT LOWER SACKVILLE": {
+    "lat": 44.7675239,
+    "lon": -63.6811391,
+    "precision": "approximate_geocode",
+    "query": "FLORENCE PLACE CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "FOREST HILLS PKY COLE HARBOUR": {
     "lat": 44.6783025,
@@ -1570,6 +1594,12 @@
     "lon": -63.6638831,
     "precision": "approximate_geocode",
     "query": "PROSPECT RD, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "PROSPECT GOODWOOD": {
+    "lat": 44.5993398,
+    "lon": -63.6858912,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT RD, GOODWOOD, Halifax, Nova Scotia, Canada"
   },
   "PROSPECT HATCHET LAKE": {
     "lat": 44.572295,
