@@ -1565,6 +1565,12 @@
     "precision": "approximate_geocode",
     "query": "PINEHILL RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "PLATEAU CRES": {
+    "lat": 44.6613669,
+    "lon": -63.6424697,
+    "precision": "approximate_geocode",
+    "query": "PLATEAU CRES, HALIFAX, Nova Scotia, Canada"
+  },
   "PLEASANT": {
     "lat": 44.6607666,
     "lon": -63.5514505,
@@ -1931,6 +1937,12 @@
     "precision": "approximate_geocode",
     "query": "STRATFORD DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "STRAWBERRY HILL": {
+    "lat": 44.6614715,
+    "lon": -63.6174706,
+    "precision": "approximate_geocode",
+    "query": "STRAWBERRY HILL ST, HALIFAX, Nova Scotia, Canada"
+  },
   "STUART HARRIS": {
     "lat": 44.683859,
     "lon": -63.5074462,
@@ -2140,5 +2152,11 @@
     "lon": -63.6093003,
     "precision": "approximate_geocode",
     "query": "YOUNG ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "ZINNIA MIDDLE SACKVILLE": {
+    "lat": 44.7900599,
+    "lon": -63.7624075,
+    "precision": "approximate_geocode",
+    "query": "ZINNIA LANE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   }
 }
