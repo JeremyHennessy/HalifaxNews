@@ -1,4 +1,10 @@
 {
+  "1 2 HARRIS": {
+    "lat": 44.6803168,
+    "lon": -63.5438867,
+    "precision": "approximate_geocode",
+    "query": "1/2 HARRIS RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "A MURRAY MACKAY BRDG": {
     "lat": 44.6793705,
     "lon": -63.6105468,
@@ -136,6 +142,12 @@
     "lon": -63.5631813,
     "precision": "approximate_geocode",
     "query": "BANOOK AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "BARKTON": {
+    "lat": 44.6658889,
+    "lon": -63.6621867,
+    "precision": "approximate_geocode",
+    "query": "BARKTON LANE, HALIFAX, Nova Scotia, Canada"
   },
   "BARRINGTON": {
     "lat": 44.652306,
@@ -574,6 +586,12 @@
     "lon": -63.4610259,
     "precision": "approximate_geocode",
     "query": "COLE HARBOUR RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "COLFORD": {
+    "lat": 44.7181396,
+    "lon": -63.5880238,
+    "precision": "approximate_geocode",
+    "query": "COLFORD AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "CONRAD LAWRENCETOWN": {
     "lat": 44.6498729,
@@ -1781,6 +1799,12 @@
     "precision": "approximate_geocode",
     "query": "RAYMOOR DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "REDMONDS SEABRIGHT": {
+    "lat": 44.5977804,
+    "lon": -63.9266629,
+    "precision": "approximate_geocode",
+    "query": "REDMONDS RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
+  },
   "REGENT": {
     "lat": 44.6767566,
     "lon": -63.5454862,
@@ -1990,6 +2014,12 @@
     "lon": -63.5783674,
     "precision": "approximate_geocode",
     "query": "SOUTH PARK ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "SPECTACLE LAKE": {
+    "lat": 44.7011044,
+    "lon": -63.5810733,
+    "precision": "approximate_geocode",
+    "query": "SPECTACLE LAKE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SPRING GARDEN": {
     "lat": 44.6437582,
