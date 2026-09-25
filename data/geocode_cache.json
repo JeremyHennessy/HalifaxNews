@@ -305,6 +305,12 @@
     "precision": "approximate_geocode",
     "query": "BRENTWOOD AVE, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "BRIAN ANDREW LAKE ECHO": {
+    "lat": 44.7340301,
+    "lon": -63.4010912,
+    "precision": "approximate_geocode",
+    "query": "BRIAN ANDREW ST, LAKE ECHO, Halifax, Nova Scotia, Canada"
+  },
   "BRIARWOOD CRES": {
     "lat": 44.6655497,
     "lon": -63.646704,
@@ -454,6 +460,12 @@
     "lon": -63.6633454,
     "precision": "approximate_geocode",
     "query": "CHAIN LAKE DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "CHAIN LAKE BEECHVILLE": {
+    "lat": 44.6523293,
+    "lon": -63.6766197,
+    "precision": "approximate_geocode",
+    "query": "CHAIN LAKE DR, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
   "CHAMEAU CRES COLE HARBOUR": {
     "lat": 44.6810562,
@@ -863,6 +875,12 @@
     "precision": "approximate_geocode",
     "query": "GRENNAN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "GRONO DUTCH SETTLEMENT": {
+    "lat": 44.9858252,
+    "lon": -63.4347282,
+    "precision": "approximate_geocode",
+    "query": "GRONO RD, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
+  },
   "HADDAD LOWER SACKVILLE": {
     "lat": 44.7897984,
     "lon": -63.6870934,
@@ -1186,6 +1204,12 @@
     "lon": -63.6094512,
     "precision": "approximate_geocode",
     "query": "KEYWORTH LANE, HALIFAX, Nova Scotia, Canada"
+  },
+  "KINDLING CRES MIDDLE SACKVILLE": {
+    "lat": 44.7833546,
+    "lon": -63.7080795,
+    "precision": "approximate_geocode",
+    "query": "KINDLING CRES, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "KING": {
     "lat": 44.6656355,
@@ -2015,6 +2039,12 @@
     "precision": "approximate_geocode",
     "query": "SUSIE LAKE CRES, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "SWANTON": {
+    "lat": 44.6749964,
+    "lon": -63.5075565,
+    "precision": "approximate_geocode",
+    "query": "SWANTON DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "SYLVANIA TERR HAMMONDS PLAINS": {
     "lat": 44.7218543,
     "lon": -63.8270283,
@@ -2140,6 +2170,12 @@
     "lon": -63.7078906,
     "precision": "approximate_geocode",
     "query": "WESTRIDGE RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "WESTWOOD UPPER TANTALLON": {
+    "lat": 44.7049687,
+    "lon": -63.855878,
+    "precision": "approximate_geocode",
+    "query": "WESTWOOD BLVD, UPPER TANTALLON, Halifax, Nova Scotia, Canada"
   },
   "WHEATSTONE HTS": {
     "lat": 44.6742446,
