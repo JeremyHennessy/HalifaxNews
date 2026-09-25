@@ -605,6 +605,12 @@
     "precision": "approximate_geocode",
     "query": "COTTAGE LANE, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
   },
+  "COW BAY COW BAY": {
+    "lat": 44.6410905,
+    "lon": -63.4239147,
+    "precision": "approximate_geocode",
+    "query": "COW BAY RD, COW BAY, Halifax, Nova Scotia, Canada"
+  },
   "COWIE HILL": {
     "lat": 44.6246893,
     "lon": -63.622829,
@@ -1012,6 +1018,12 @@
     "lon": -63.6111773,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 2, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 207 WEST CHEZZETCOOK": {
+    "lat": 44.7056905,
+    "lon": -63.2589216,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 207, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 224 ELMSVALE": {
     "lat": 45.0988043,
