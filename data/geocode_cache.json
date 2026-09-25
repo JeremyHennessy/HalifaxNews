@@ -653,6 +653,12 @@
     "precision": "approximate_geocode",
     "query": "CRESTFIELD DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "CRIMSON LOWER SACKVILLE": {
+    "lat": 44.7721556,
+    "lon": -63.6565189,
+    "precision": "approximate_geocode",
+    "query": "CRIMSON DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "CROSS": {
     "lat": 44.6801263,
     "lon": -63.5106132,
@@ -808,6 +814,12 @@
     "lon": -63.7369486,
     "precision": "approximate_geocode",
     "query": "FIDDLE PKY, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "FIRESIDE COLE HARBOUR": {
+    "lat": 44.6620362,
+    "lon": -63.4871527,
+    "precision": "approximate_geocode",
+    "query": "FIRESIDE DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "FIRST LAKE LOWER SACKVILLE": {
     "lat": 44.7691107,
@@ -1463,6 +1475,12 @@
     "precision": "approximate_geocode",
     "query": "MELROSE AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "MELROSE CRES EASTERN PASSAGE": {
+    "lat": 44.6154805,
+    "lon": -63.4611801,
+    "precision": "approximate_geocode",
+    "query": "MELROSE CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "MELWOOD": {
     "lat": 44.6371347,
     "lon": -63.6231403,
@@ -1540,6 +1558,12 @@
     "lon": -63.5831378,
     "precision": "approximate_geocode",
     "query": "NORA BERNARD ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "NORDIC CRES LOWER SACKVILLE": {
+    "lat": 44.7838113,
+    "lon": -63.6784275,
+    "precision": "approximate_geocode",
+    "query": "NORDIC CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "NORTH": {
     "lat": 44.6570315,
@@ -1894,6 +1918,12 @@
     "lon": -63.451231,
     "precision": "approximate_geocode",
     "query": "RYEDALE CRT, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "SACKVILLE CROSS LOWER SACKVILLE": {
+    "lat": 44.7638613,
+    "lon": -63.6877862,
+    "precision": "approximate_geocode",
+    "query": "SACKVILLE CROSS RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SACKVILLE LOWER SACKVILLE": {
     "lat": 44.7530311,
