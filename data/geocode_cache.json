@@ -905,6 +905,12 @@
     "precision": "approximate_geocode",
     "query": "HAGES LANE, PROSPECT, Halifax, Nova Scotia, Canada"
   },
+  "HALEF CRT": {
+    "lat": 44.6336506,
+    "lon": -63.6277471,
+    "precision": "approximate_geocode",
+    "query": "HALEF CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "HAMMONDS PLAINS HAMMONDS PLAINS": {
     "lat": 44.7349786,
     "lon": -63.8013291,
