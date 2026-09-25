@@ -509,6 +509,12 @@
     "precision": "approximate_geocode",
     "query": "CHERRY BROOK RD, CHERRY BROOK, Halifax, Nova Scotia, Canada"
   },
+  "CHESAPEAKE BEAVER BANK": {
+    "lat": 44.8728342,
+    "lon": -63.6983676,
+    "precision": "approximate_geocode",
+    "query": "CHESAPEAKE RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "CHRISTOPHER PORTERS LAKE": {
     "lat": 44.7329887,
     "lon": -63.3061906,
