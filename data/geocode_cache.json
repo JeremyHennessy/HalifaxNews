@@ -659,6 +659,12 @@
     "precision": "approximate_geocode",
     "query": "CRESTFIELD DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "CRESTWOOD PL COLE HARBOUR": {
+    "lat": 44.6641084,
+    "lon": -63.4851323,
+    "precision": "approximate_geocode",
+    "query": "CRESTWOOD PL, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "CRIMSON LOWER SACKVILLE": {
     "lat": 44.7721556,
     "lon": -63.6565189,
@@ -814,6 +820,12 @@
     "lon": -63.8040701,
     "precision": "approximate_geocode",
     "query": "EVERWOOD AVE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "FALKLAND": {
+    "lat": 44.6510458,
+    "lon": -63.5835061,
+    "precision": "approximate_geocode",
+    "query": "FALKLAND ST, HALIFAX, Nova Scotia, Canada"
   },
   "FALL RIVER FALL RIVER": {
     "lat": 44.8077824,
@@ -1625,6 +1637,12 @@
     "precision": "approximate_geocode",
     "query": "OLD SACKVILLE RD, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "OLD SAMBRO SAMBRO": {
+    "lat": 44.4886461,
+    "lon": -63.6190293,
+    "precision": "approximate_geocode",
+    "query": "OLD SAMBRO RD, SAMBRO, Halifax, Nova Scotia, Canada"
+  },
   "OLD SAMBRO WILLIAMSWOOD": {
     "lat": 44.5268952,
     "lon": -63.6416609,
@@ -1636,6 +1654,12 @@
     "lon": -63.4915652,
     "precision": "approximate_geocode",
     "query": "OLD TRUNK RD, ELMSDALE, Halifax, Nova Scotia, Canada"
+  },
+  "ONYX CRES": {
+    "lat": 44.6040746,
+    "lon": -63.5990359,
+    "precision": "approximate_geocode",
+    "query": "ONYX CRES, HALIFAX, Nova Scotia, Canada"
   },
   "ORCHARD UPPER HAMMONDS PLAINS": {
     "lat": 44.7531963,
@@ -2212,6 +2236,12 @@
     "lon": -63.6336285,
     "precision": "approximate_geocode",
     "query": "TITUS ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "TOBIN": {
+    "lat": 44.6390428,
+    "lon": -63.5718555,
+    "precision": "approximate_geocode",
+    "query": "TOBIN ST, HALIFAX, Nova Scotia, Canada"
   },
   "TUPPER": {
     "lat": 44.6618746,
