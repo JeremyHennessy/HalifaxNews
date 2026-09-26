@@ -731,6 +731,12 @@
     "precision": "approximate_geocode",
     "query": "DONALDSON AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "DOOKS HEAD OF JEDDORE": {
+    "lat": 44.7698478,
+    "lon": -63.0757934,
+    "precision": "approximate_geocode",
+    "query": "DOOKS LANE, HEAD OF JEDDORE, Halifax, Nova Scotia, Canada"
+  },
   "DOWNTOWN": {
     "lat": 44.6461752,
     "lon": -63.5725221,
@@ -1337,6 +1343,12 @@
     "precision": "approximate_geocode",
     "query": "KIRTLAND CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "KNIGHTSRIDGE": {
+    "lat": 44.6730619,
+    "lon": -63.6604823,
+    "precision": "approximate_geocode",
+    "query": "KNIGHTSRIDGE DR, HALIFAX, Nova Scotia, Canada"
+  },
   "KRAUSE CRT": {
     "lat": 44.6548939,
     "lon": -63.5223302,
@@ -1535,6 +1547,12 @@
     "precision": "approximate_geocode",
     "query": "METROPOLITAN AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "MIDDLE VILLAGE WEST DOVER": {
+    "lat": 44.5071842,
+    "lon": -63.8821388,
+    "precision": "approximate_geocode",
+    "query": "MIDDLE VILLAGE RD, WEST DOVER, Halifax, Nova Scotia, Canada"
+  },
   "MILLWOOD MIDDLE SACKVILLE": {
     "lat": 44.7858945,
     "lon": -63.7094327,
@@ -1726,6 +1744,12 @@
     "lon": -63.9359725,
     "precision": "approximate_geocode",
     "query": "PEGGYS COVE RD, INDIAN HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "PEGGYS COVE SEABRIGHT": {
+    "lat": 44.6164088,
+    "lon": -63.9266908,
+    "precision": "approximate_geocode",
+    "query": "PEGGYS COVE RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
   },
   "PEGGYS POINT PEGGYS COVE": {
     "lat": 44.4951665,
@@ -2038,6 +2062,12 @@
     "lon": -63.7434549,
     "precision": "approximate_geocode",
     "query": "SEVENTH ST, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SEYMOUR": {
+    "lat": 44.6382721,
+    "lon": -63.5893476,
+    "precision": "approximate_geocode",
+    "query": "SEYMOUR ST, HALIFAX, Nova Scotia, Canada"
   },
   "SHEPPARDS RUN BEECHVILLE": {
     "lat": 44.6335052,
