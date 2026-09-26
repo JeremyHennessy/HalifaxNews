@@ -1067,6 +1067,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 102, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 102 FALL RIVER": {
+    "lat": 44.794877,
+    "lon": -63.6148341,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 102, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 103 TIMBERLEA": {
     "lat": 44.6413671,
     "lon": -63.7362999,
