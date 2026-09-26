@@ -983,6 +983,12 @@
     "precision": "approximate_geocode",
     "query": "HAMMONDS PLAINS RD, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "HANNEBURY COLE HARBOUR": {
+    "lat": 44.6675246,
+    "lon": -63.4966781,
+    "precision": "approximate_geocode",
+    "query": "HANNEBURY DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "HAVENBROOK HILL": {
     "lat": 44.6664498,
     "lon": -63.5034056,
@@ -2290,6 +2296,12 @@
     "lon": -63.5839372,
     "precision": "approximate_geocode",
     "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "UPPER WATER": {
+    "lat": 44.6526031,
+    "lon": -63.5768492,
+    "precision": "approximate_geocode",
+    "query": "UPPER WATER ST, HALIFAX, Nova Scotia, Canada"
   },
   "VICTORIA": {
     "lat": 44.6363866,
