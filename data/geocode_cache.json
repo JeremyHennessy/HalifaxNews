@@ -455,6 +455,12 @@
     "precision": "approximate_geocode",
     "query": "CATAMARAN RD, HALIFAX, Nova Scotia, Canada"
   },
+  "CAUDLE PARK CRES LOWER SACKVILLE": {
+    "lat": 44.7623462,
+    "lon": -63.6569994,
+    "precision": "approximate_geocode",
+    "query": "CAUDLE PARK CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "CAXTON CL": {
     "lat": 44.6617855,
     "lon": -63.659507,
@@ -911,6 +917,12 @@
     "precision": "approximate_geocode",
     "query": "GASTON RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "GERRISH": {
+    "lat": 44.6559671,
+    "lon": -63.5850396,
+    "precision": "approximate_geocode",
+    "query": "GERRISH ST, HALIFAX, Nova Scotia, Canada"
+  },
   "GLENFOREST": {
     "lat": 44.6586218,
     "lon": -63.6436402,
@@ -1211,6 +1223,12 @@
     "precision": "approximate_geocode",
     "query": "JACKSON RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "JAMES ROY PORTERS LAKE": {
+    "lat": 44.7454458,
+    "lon": -63.2796301,
+    "precision": "approximate_geocode",
+    "query": "JAMES ROY DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "JARRETT BROOKSIDE": {
     "lat": 44.5553826,
     "lon": -63.7305319,
@@ -1432,6 +1450,12 @@
     "lon": -63.6832528,
     "precision": "approximate_geocode",
     "query": "LEASIDE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "LES COLLINS WEST CHEZZETCOOK": {
+    "lat": 44.7319266,
+    "lon": -63.2737248,
+    "precision": "approximate_geocode",
+    "query": "LES COLLINS AVE, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
   "LONDRA CRT": {
     "lat": 44.6861101,
@@ -1822,6 +1846,12 @@
     "lon": -63.285665,
     "precision": "approximate_geocode",
     "query": "PORTERS LAKE STATION RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "PORTLAND ESTATES WEST": {
+    "lat": 44.6642326,
+    "lon": -63.517493,
+    "precision": "approximate_geocode",
+    "query": "PORTLAND ESTATES BLVD WEST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "PORTLAND HILLS": {
     "lat": 44.6656116,
