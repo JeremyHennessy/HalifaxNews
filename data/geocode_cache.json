@@ -743,6 +743,12 @@
     "precision": "approximate_geocode",
     "query": "DRYSDALE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "DUFFUS": {
+    "lat": 44.6671906,
+    "lon": -63.6064667,
+    "precision": "approximate_geocode",
+    "query": "DUFFUS ST, HALIFAX, Nova Scotia, Canada"
+  },
   "DUGGAN BEAVER BANK": {
     "lat": 44.8001285,
     "lon": -63.6837742,
@@ -1589,6 +1595,12 @@
     "precision": "approximate_geocode",
     "query": "NORTH ST, HALIFAX, Nova Scotia, Canada"
   },
+  "NOTTING HILL MINEVILLE": {
+    "lat": 44.6981612,
+    "lon": -63.3773883,
+    "precision": "approximate_geocode",
+    "query": "NOTTING HILL RD, MINEVILLE, Halifax, Nova Scotia, Canada"
+  },
   "OAKWOOD WILLIAMSWOOD": {
     "lat": 44.5174604,
     "lon": -63.6363194,
@@ -2212,6 +2224,12 @@
     "lon": -63.5839372,
     "precision": "approximate_geocode",
     "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "VICTORIA": {
+    "lat": 44.6363866,
+    "lon": -63.5743931,
+    "precision": "approximate_geocode",
+    "query": "VICTORIA RD, HALIFAX, Nova Scotia, Canada"
   },
   "VIMY": {
     "lat": 44.66202,
