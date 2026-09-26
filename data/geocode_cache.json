@@ -527,6 +527,12 @@
     "precision": "approximate_geocode",
     "query": "CHESAPEAKE RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "CHOCOLATE LAKE": {
+    "lat": 44.6382059,
+    "lon": -63.6209343,
+    "precision": "approximate_geocode",
+    "query": "CHOCOLATE LAKE RD, HALIFAX, Nova Scotia, Canada"
+  },
   "CHRISTOPHER PORTERS LAKE": {
     "lat": 44.7329887,
     "lon": -63.3061906,
@@ -700,6 +706,12 @@
     "lon": -63.6888836,
     "precision": "approximate_geocode",
     "query": "DELLRIDGE LANE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "DENTITH": {
+    "lat": 44.6137329,
+    "lon": -63.6189743,
+    "precision": "approximate_geocode",
+    "query": "DENTITH RD, HALIFAX, Nova Scotia, Canada"
   },
   "DICKEY LOWER SACKVILLE": {
     "lat": 44.7662934,
@@ -1276,6 +1288,12 @@
     "lon": -63.564029,
     "precision": "approximate_geocode",
     "query": "KINGS WHARF PL, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "KINGSLEY CL": {
+    "lat": 44.6655043,
+    "lon": -63.6695621,
+    "precision": "approximate_geocode",
+    "query": "KINGSLEY CL, HALIFAX, Nova Scotia, Canada"
   },
   "KINGSWOOD HAMMONDS PLAINS": {
     "lat": 44.6972143,
