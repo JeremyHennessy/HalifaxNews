@@ -419,6 +419,12 @@
     "precision": "approximate_geocode",
     "query": "CANADA RD, BROOKVALE, Halifax, Nova Scotia, Canada"
   },
+  "CANDY MOUNTAIN MINEVILLE": {
+    "lat": 44.6919189,
+    "lon": -63.3714067,
+    "precision": "approximate_geocode",
+    "query": "CANDY MOUNTAIN RD, MINEVILLE, Halifax, Nova Scotia, Canada"
+  },
   "CARLETON": {
     "lat": 44.6369927,
     "lon": -63.5263148,
@@ -1325,6 +1331,12 @@
     "precision": "approximate_geocode",
     "query": "KAYE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "KAYE LOWER SACKVILLE": {
+    "lat": 44.763727,
+    "lon": -63.6724033,
+    "precision": "approximate_geocode",
+    "query": "KAYE ST, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "KEARNEY LAKE": {
     "lat": 44.6938335,
     "lon": -63.6909241,
@@ -1480,6 +1492,12 @@
     "lon": -63.6703396,
     "precision": "approximate_geocode",
     "query": "LANGBRAE DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "LAWRENCE": {
+    "lat": 44.6790618,
+    "lon": -63.549328,
+    "precision": "approximate_geocode",
+    "query": "LAWRENCE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "LAWRENCETOWN EAST LAWRENCETOWN": {
     "lat": 44.6451549,
@@ -2452,6 +2470,12 @@
     "lon": -63.682365,
     "precision": "approximate_geocode",
     "query": "WALDEN PL, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "WALKER LOWER SACKVILLE": {
+    "lat": 44.7658616,
+    "lon": -63.6945288,
+    "precision": "approximate_geocode",
+    "query": "WALKER AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "WASHMILL LAKE": {
     "lat": 44.6474266,
