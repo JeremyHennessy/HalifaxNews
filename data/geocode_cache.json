@@ -1649,6 +1649,12 @@
     "precision": "approximate_geocode",
     "query": "MINEVILLE RD, MINEVILLE, Halifax, Nova Scotia, Canada"
   },
+  "MONTAGUE LAKE LOON": {
+    "lat": 44.7030616,
+    "lon": -63.498051,
+    "precision": "approximate_geocode",
+    "query": "MONTAGUE RD, LAKE LOON, Halifax, Nova Scotia, Canada"
+  },
   "MORRIS": {
     "lat": 44.642235,
     "lon": -63.5693884,
@@ -1720,6 +1726,12 @@
     "lon": -63.3773883,
     "precision": "approximate_geocode",
     "query": "NOTTING HILL RD, MINEVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "OAKHILL LOWER SACKVILLE": {
+    "lat": 44.7871185,
+    "lon": -63.6858901,
+    "precision": "approximate_geocode",
+    "query": "OAKHILL DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "OAKWOOD WILLIAMSWOOD": {
     "lat": 44.5174604,
