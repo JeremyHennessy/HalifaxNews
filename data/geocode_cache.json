@@ -77,6 +77,12 @@
     "precision": "approximate_geocode",
     "query": "ANCONA PL, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ANDREW": {
+    "lat": 44.6568704,
+    "lon": -63.6312799,
+    "precision": "approximate_geocode",
+    "query": "ANDREW ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ANGUS L MACDONALD BRDG": {
     "lat": 44.663637,
     "lon": -63.5847142,
@@ -1385,6 +1391,12 @@
     "precision": "approximate_geocode",
     "query": "KINSAC RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "KIPAWA CRES HAMMONDS PLAINS": {
+    "lat": 44.7453852,
+    "lon": -63.7925363,
+    "precision": "approximate_geocode",
+    "query": "KIPAWA CRES, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "KIRTLAND CRT COLE HARBOUR": {
     "lat": 44.6803709,
     "lon": -63.4989318,
@@ -2170,6 +2182,18 @@
     "lon": -63.5162612,
     "precision": "approximate_geocode",
     "query": "SILVER DART DR, GOFFS, Halifax, Nova Scotia, Canada"
+  },
+  "SIMMONDS": {
+    "lat": 44.71748,
+    "lon": -63.596148,
+    "precision": "approximate_geocode",
+    "query": "SIMMONDS DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "SIMMONDS NORTH PRESTON": {
+    "lat": 44.7447914,
+    "lon": -63.4788016,
+    "precision": "approximate_geocode",
+    "query": "SIMMONDS RD, NORTH PRESTON, Halifax, Nova Scotia, Canada"
   },
   "SKY GOFFS": {
     "lat": 44.8667892,
