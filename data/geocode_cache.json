@@ -569,6 +569,12 @@
     "precision": "approximate_geocode",
     "query": "CLAUDIA CRES, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "CLAYMORE": {
+    "lat": 44.604331,
+    "lon": -63.6154116,
+    "precision": "approximate_geocode",
+    "query": "CLAYMORE AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "CLUB HOUSE HAMMONDS PLAINS": {
     "lat": 44.7509704,
     "lon": -63.7687369,
@@ -1690,6 +1696,12 @@
     "lon": -63.6363194,
     "precision": "approximate_geocode",
     "query": "OAKWOOD DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
+  "OCHTERLONEY": {
+    "lat": 44.6695709,
+    "lon": -63.5649982,
+    "precision": "approximate_geocode",
+    "query": "OCHTERLONEY ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "OLD GUYSBOROUGH GOFFS": {
     "lat": 44.8875333,
