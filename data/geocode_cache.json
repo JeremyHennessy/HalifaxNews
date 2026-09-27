@@ -623,6 +623,18 @@
     "precision": "approximate_geocode",
     "query": "CONRAD RD, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
+  "CONRADS HUBBARDS": {
+    "lat": 44.6335809,
+    "lon": -64.0427313,
+    "precision": "approximate_geocode",
+    "query": "CONRADS RD, HUBBARDS, Halifax, Nova Scotia, Canada"
+  },
+  "CONROD BEACH LOWER EAST CHEZZETCOOK": {
+    "lat": 44.699662,
+    "lon": -63.1894513,
+    "precision": "approximate_geocode",
+    "query": "CONROD BEACH RD, LOWER EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "CONTESSA CRT LOWER SACKVILLE": {
     "lat": 44.7591587,
     "lon": -63.6752265,
@@ -1607,6 +1619,12 @@
     "precision": "approximate_geocode",
     "query": "MELWOOD AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "MERSEY CRT HATCHET LAKE": {
+    "lat": 44.562174,
+    "lon": -63.7288857,
+    "precision": "approximate_geocode",
+    "query": "MERSEY CRT, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
   "METROPOLITAN LOWER SACKVILLE": {
     "lat": 44.7775008,
     "lon": -63.6748655,
@@ -2386,6 +2404,12 @@
     "lon": -63.55444,
     "precision": "approximate_geocode",
     "query": "TUPPER ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "UNION BEDFORD": {
+    "lat": 44.7337842,
+    "lon": -63.6588966,
+    "precision": "approximate_geocode",
+    "query": "UNION ST, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "UNIVERSITY": {
     "lat": 44.6386917,
