@@ -803,6 +803,12 @@
     "precision": "approximate_geocode",
     "query": "EAST PETPESWICK RD, EAST PETPESWICK, Halifax, Nova Scotia, Canada"
   },
+  "EDGETT LUCASVILLE": {
+    "lat": 44.7636456,
+    "lon": -63.7134962,
+    "precision": "approximate_geocode",
+    "query": "EDGETT DR, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
   "EISENER": {
     "lat": 44.668348,
     "lon": -63.5230931,
@@ -899,6 +905,12 @@
     "precision": "approximate_geocode",
     "query": "FRASER RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "FREDERICK": {
+    "lat": 44.6533759,
+    "lon": -63.6396753,
+    "precision": "approximate_geocode",
+    "query": "FREDERICK AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "GARY MARTIN BEDFORD": {
     "lat": 44.7217798,
     "lon": -63.7069392,
@@ -922,6 +934,12 @@
     "lon": -63.5850396,
     "precision": "approximate_geocode",
     "query": "GERRISH ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "GLEN ARBOUR WAY HAMMONDS PLAINS": {
+    "lat": 44.7479905,
+    "lon": -63.7841468,
+    "precision": "approximate_geocode",
+    "query": "GLEN ARBOUR WAY, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "GLENFOREST": {
     "lat": 44.6586218,
@@ -1787,6 +1805,12 @@
     "precision": "approximate_geocode",
     "query": "PEGGYS POINT RD, PEGGYS COVE, Halifax, Nova Scotia, Canada"
   },
+  "PINE GROVE": {
+    "lat": 44.6116932,
+    "lon": -63.6145453,
+    "precision": "approximate_geocode",
+    "query": "PINE GROVE DR, HALIFAX, Nova Scotia, Canada"
+  },
   "PINECREST": {
     "lat": 44.6857257,
     "lon": -63.586212,
@@ -1828,6 +1852,12 @@
     "lon": -63.816032,
     "precision": "approximate_geocode",
     "query": "POCKWOCK RD, UPPER HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "POLARA LOWER SACKVILLE": {
+    "lat": 44.7804768,
+    "lon": -63.6714421,
+    "precision": "approximate_geocode",
+    "query": "POLARA DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "PONDICHERRY CRES": {
     "lat": 44.6830377,
