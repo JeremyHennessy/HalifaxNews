@@ -305,6 +305,12 @@
     "precision": "approximate_geocode",
     "query": "BLAIN ERIC DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BLINK BONNIE TERR": {
+    "lat": 44.6428767,
+    "lon": -63.6117482,
+    "precision": "approximate_geocode",
+    "query": "BLINK BONNIE TERR, HALIFAX, Nova Scotia, Canada"
+  },
   "BLOSSOM CRT COLE HARBOUR": {
     "lat": 44.6532252,
     "lon": -63.4763781,
@@ -718,6 +724,12 @@
     "lon": -63.4552114,
     "precision": "approximate_geocode",
     "query": "CRANEHILL RD, EAST PRESTON, Halifax, Nova Scotia, Canada"
+  },
+  "CRESCENT LAKESIDE": {
+    "lat": 44.6344241,
+    "lon": -63.7046927,
+    "precision": "approximate_geocode",
+    "query": "CRESCENT ST, LAKESIDE, Halifax, Nova Scotia, Canada"
   },
   "CRESTFIELD HAMMONDS PLAINS": {
     "lat": 44.7231379,
@@ -1619,6 +1631,12 @@
     "precision": "approximate_geocode",
     "query": "MAIN AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "MAIN EASTERN PASSAGE": {
+    "lat": 44.6144122,
+    "lon": -63.4972858,
+    "precision": "approximate_geocode",
+    "query": "MAIN RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "MARGARETS BAY HUBBARDS": {
     "lat": 44.6385428,
     "lon": -64.0618727,
@@ -1805,6 +1823,12 @@
     "precision": "approximate_geocode",
     "query": "OCHTERLONEY ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "OLD GLEN HAVEN": {
+    "lat": 44.6296271,
+    "lon": -63.8809236,
+    "precision": "approximate_geocode",
+    "query": "OLD HALIFAX RD, GLEN HAVEN, Nova Scotia, Canada"
+  },
   "OLD GUYSBOROUGH GOFFS": {
     "lat": 44.8875333,
     "lon": -63.469465,
@@ -1864,6 +1888,12 @@
     "lon": -63.5959853,
     "precision": "approximate_geocode",
     "query": "OXFORD ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "PARKDALE TIMBERLEA": {
+    "lat": 44.6409287,
+    "lon": -63.7118379,
+    "precision": "approximate_geocode",
+    "query": "PARKDALE AVE, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "PARKLAND": {
     "lat": 44.6662625,
@@ -2104,6 +2134,12 @@
     "lon": -63.5454862,
     "precision": "approximate_geocode",
     "query": "REGENT DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "RETREAT": {
+    "lat": 44.6461928,
+    "lon": -63.6299253,
+    "precision": "approximate_geocode",
+    "query": "RETREAT AVE, HALIFAX, Nova Scotia, Canada"
   },
   "RIDGEWOOD": {
     "lat": 44.6317263,
