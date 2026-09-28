@@ -137,6 +137,12 @@
     "precision": "approximate_geocode",
     "query": "AUTUMN DR, HALIFAX, Nova Scotia, Canada"
   },
+  "AVONDALE COLE HARBOUR": {
+    "lat": 44.6704809,
+    "lon": -63.4860756,
+    "precision": "approximate_geocode",
+    "query": "AVONDALE RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "BAKER": {
     "lat": 44.6701952,
     "lon": -63.5320777,
@@ -178,6 +184,12 @@
     "lon": -63.6076338,
     "precision": "approximate_geocode",
     "query": "BAYERS RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "BAYVIEW HACKETTS COVE": {
+    "lat": 44.5724839,
+    "lon": -63.9271239,
+    "precision": "approximate_geocode",
+    "query": "BAYVIEW DR, HACKETTS COVE, Halifax, Nova Scotia, Canada"
   },
   "BEAVER BANK BEAVER BANK": {
     "lat": 44.8614871,
@@ -286,6 +298,12 @@
     "lon": -63.5931357,
     "precision": "approximate_geocode",
     "query": "BLACK ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "BLAIN ERIC MIDDLE SACKVILLE": {
+    "lat": 44.815855,
+    "lon": -63.7502745,
+    "precision": "approximate_geocode",
+    "query": "BLAIN ERIC DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "BLOSSOM CRT COLE HARBOUR": {
     "lat": 44.6532252,
@@ -484,6 +502,12 @@
     "lon": -63.659507,
     "precision": "approximate_geocode",
     "query": "CAXTON CL, HALIFAX, Nova Scotia, Canada"
+  },
+  "CEDARWOOD WESTPHAL": {
+    "lat": 44.691688,
+    "lon": -63.4973728,
+    "precision": "approximate_geocode",
+    "query": "CEDARWOOD DR, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "CHADWICK PL": {
     "lat": 44.6601985,
