@@ -1553,6 +1553,12 @@
     "precision": "approximate_geocode",
     "query": "LOWER GOVERNOR ST, EAST PRESTON, Halifax, Nova Scotia, Canada"
   },
+  "LOWER LAKEVILLE LAKE CHARLOTTE": {
+    "lat": 44.7635917,
+    "lon": -62.9408989,
+    "precision": "approximate_geocode",
+    "query": "LOWER LAKEVILLE RD, LAKE CHARLOTTE, Halifax, Nova Scotia, Canada"
+  },
   "LOWER WATER": {
     "lat": 44.6460229,
     "lon": -63.5709755,
@@ -1888,6 +1894,12 @@
     "lon": -63.9145881,
     "precision": "approximate_geocode",
     "query": "PEGGYS POINT RD, PEGGYS COVE, Halifax, Nova Scotia, Canada"
+  },
+  "PERRON COLE HARBOUR": {
+    "lat": 44.6730724,
+    "lon": -63.4818282,
+    "precision": "approximate_geocode",
+    "query": "PERRON DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "PINE GROVE": {
     "lat": 44.6116932,
