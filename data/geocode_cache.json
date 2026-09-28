@@ -263,6 +263,12 @@
     "precision": "approximate_geocode",
     "query": "BERNICE DR, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "BIRCH HILL CRT MIDDLE SACKVILLE": {
+    "lat": 44.8131318,
+    "lon": -63.725044,
+    "precision": "approximate_geocode",
+    "query": "BIRCH HILL CRT, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "BIRKDALE CRES": {
     "lat": 44.6541235,
     "lon": -63.6540318,
@@ -1216,6 +1222,12 @@
     "lon": -63.4969907,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "HILLSBORO WESTPHAL": {
+    "lat": 44.6913546,
+    "lon": -63.4908817,
+    "precision": "approximate_geocode",
+    "query": "HILLSBORO DR, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "HILLTOP LOWER SACKVILLE": {
     "lat": 44.7645826,
@@ -2572,6 +2584,12 @@
     "lon": -63.6326759,
     "precision": "approximate_geocode",
     "query": "WINLEY DR, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
+  },
+  "WOODLYN HAMMONDS PLAINS": {
+    "lat": 44.7235735,
+    "lon": -63.739586,
+    "precision": "approximate_geocode",
+    "query": "WOODLYN DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "WRIGHT": {
     "lat": 44.709807,
