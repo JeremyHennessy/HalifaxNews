@@ -167,6 +167,12 @@
     "precision": "approximate_geocode",
     "query": "BARKTON LANE, HALIFAX, Nova Scotia, Canada"
   },
+  "BARNES GOFFS": {
+    "lat": 44.8766335,
+    "lon": -63.5243261,
+    "precision": "approximate_geocode",
+    "query": "BARNES DR, GOFFS, Halifax, Nova Scotia, Canada"
+  },
   "BARRINGTON": {
     "lat": 44.652306,
     "lon": -63.5775196,
@@ -1625,6 +1631,12 @@
     "precision": "approximate_geocode",
     "query": "LEASIDE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "LEDGEVIEW MIDDLE SACKVILLE": {
+    "lat": 44.8243248,
+    "lon": -63.7286619,
+    "precision": "approximate_geocode",
+    "query": "LEDGEVIEW DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "LES COLLINS WEST CHEZZETCOOK": {
     "lat": 44.7319266,
     "lon": -63.2737248,
@@ -1792,6 +1804,12 @@
     "lon": -63.498051,
     "precision": "approximate_geocode",
     "query": "MONTAGUE RD, LAKE LOON, Halifax, Nova Scotia, Canada"
+  },
+  "MONTGOMERY CRT": {
+    "lat": 44.6717738,
+    "lon": -63.669009,
+    "precision": "approximate_geocode",
+    "query": "MONTGOMERY CRT, HALIFAX, Nova Scotia, Canada"
   },
   "MORRIS": {
     "lat": 44.642235,
@@ -2633,6 +2651,12 @@
     "precision": "approximate_geocode",
     "query": "VIMY AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "VOYAGEUR WAY HAMMONDS PLAINS": {
+    "lat": 44.7209452,
+    "lon": -63.761382,
+    "precision": "approximate_geocode",
+    "query": "VOYAGEUR WAY, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "WALDEN PL BEDFORD": {
     "lat": 44.7134252,
     "lon": -63.682365,
@@ -2770,6 +2794,12 @@
     "lon": -63.6093003,
     "precision": "approximate_geocode",
     "query": "YOUNG ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "ZAFFRE MIDDLE SACKVILLE": {
+    "lat": 44.7951349,
+    "lon": -63.7718933,
+    "precision": "approximate_geocode",
+    "query": "ZAFFRE DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "ZINNIA MIDDLE SACKVILLE": {
     "lat": 44.7900599,
