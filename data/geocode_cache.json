@@ -233,6 +233,12 @@
     "precision": "approximate_geocode",
     "query": "BEDFORD HWY, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "BEECH": {
+    "lat": 44.6442813,
+    "lon": -63.6023019,
+    "precision": "approximate_geocode",
+    "query": "BEECH ST, HALIFAX, Nova Scotia, Canada"
+  },
   "BEECH TREE RUN BEECHVILLE": {
     "lat": 44.6335518,
     "lon": -63.6823721,
@@ -827,6 +833,12 @@
     "precision": "approximate_geocode",
     "query": "DONALDSON AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "DONEGAL COLE HARBOUR": {
+    "lat": 44.6691163,
+    "lon": -63.5038037,
+    "precision": "approximate_geocode",
+    "query": "DONEGAL DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "DOOKS HEAD OF JEDDORE": {
     "lat": 44.7698478,
     "lon": -63.0757934,
@@ -1247,6 +1259,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 224, ELMSVALE, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 224 GAYS RIVER": {
+    "lat": 45.0343342,
+    "lon": -63.3302023,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 224, GAYS RIVER, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 277 DUTCH SETTLEMENT": {
     "lat": 44.9899164,
     "lon": -63.4425448,
@@ -1366,6 +1384,12 @@
     "lon": -63.4648157,
     "precision": "approximate_geocode",
     "query": "JEEP CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "JOHN BRACKETT HERRING COVE": {
+    "lat": 44.5727853,
+    "lon": -63.55748,
+    "precision": "approximate_geocode",
+    "query": "JOHN BRACKETT DR, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
   "JOSEPH HOWE": {
     "lat": 44.6495745,
@@ -1918,6 +1942,12 @@
     "lon": -63.583451,
     "precision": "approximate_geocode",
     "query": "ORDNANCE RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "OSBORNE EASTERN PASSAGE": {
+    "lat": 44.6025892,
+    "lon": -63.4695958,
+    "precision": "approximate_geocode",
+    "query": "OSBORNE DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "OXFORD": {
     "lat": 44.6360461,
