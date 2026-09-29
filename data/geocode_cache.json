@@ -311,6 +311,12 @@
     "precision": "approximate_geocode",
     "query": "BLINK BONNIE TERR, HALIFAX, Nova Scotia, Canada"
   },
+  "BLOOMFIELD": {
+    "lat": 44.6592822,
+    "lon": -63.5947748,
+    "precision": "approximate_geocode",
+    "query": "BLOOMFIELD ST, HALIFAX, Nova Scotia, Canada"
+  },
   "BLOSSOM CRT COLE HARBOUR": {
     "lat": 44.6532252,
     "lon": -63.4763781,
@@ -653,6 +659,12 @@
     "precision": "approximate_geocode",
     "query": "COLE HARBOUR RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "COLERIDGE CRT COLE HARBOUR": {
+    "lat": 44.6797877,
+    "lon": -63.4620973,
+    "precision": "approximate_geocode",
+    "query": "COLERIDGE CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "COLFORD": {
     "lat": 44.7181396,
     "lon": -63.5880238,
@@ -922,6 +934,12 @@
     "lon": -63.6404233,
     "precision": "approximate_geocode",
     "query": "FALL RIVER RD, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
+  "FAUCHEAU WAVERLEY": {
+    "lat": 44.7857601,
+    "lon": -63.6000992,
+    "precision": "approximate_geocode",
+    "query": "FAUCHEAU LANE, WAVERLEY, Halifax, Nova Scotia, Canada"
   },
   "FERN BEAVER BANK": {
     "lat": 44.801799,
@@ -2489,6 +2507,12 @@
     "precision": "approximate_geocode",
     "query": "THOMAS RADDALL DR, HALIFAX, Nova Scotia, Canada"
   },
+  "THOMPSON WELLINGTON": {
+    "lat": 44.8564034,
+    "lon": -63.6154355,
+    "precision": "approximate_geocode",
+    "query": "THOMPSON DR, WELLINGTON, Halifax, Nova Scotia, Canada"
+  },
   "THORN BEAVER BANK": {
     "lat": 44.8020726,
     "lon": -63.6843037,
@@ -2602,6 +2626,12 @@
     "lon": -63.318684,
     "precision": "approximate_geocode",
     "query": "WEST PORTERS LAKE RD, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "WESTHAVER GLEN MARGARET": {
+    "lat": 44.5929609,
+    "lon": -63.9161219,
+    "precision": "approximate_geocode",
+    "query": "WESTHAVER RD, GLEN MARGARET, Halifax, Nova Scotia, Canada"
   },
   "WESTRIDGE HATCHET LAKE": {
     "lat": 44.5686739,
