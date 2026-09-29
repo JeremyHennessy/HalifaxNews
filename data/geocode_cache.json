@@ -1367,6 +1367,12 @@
     "precision": "approximate_geocode",
     "query": "ISELEY LANE, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
   },
+  "ISNOR": {
+    "lat": 44.7079201,
+    "lon": -63.600445,
+    "precision": "approximate_geocode",
+    "query": "ISNOR DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "JACKSON": {
     "lat": 44.6831929,
     "lon": -63.5823214,
@@ -1751,6 +1757,12 @@
     "precision": "approximate_geocode",
     "query": "MEADOWBROOK DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "MEISNERS POINT INGRAMPORT": {
+    "lat": 44.6574174,
+    "lon": -63.9694871,
+    "precision": "approximate_geocode",
+    "query": "MEISNERS POINT RD, INGRAMPORT, Halifax, Nova Scotia, Canada"
+  },
   "MELROSE": {
     "lat": 44.6500292,
     "lon": -63.6382296,
@@ -1810,6 +1822,12 @@
     "lon": -63.669009,
     "precision": "approximate_geocode",
     "query": "MONTGOMERY CRT, HALIFAX, Nova Scotia, Canada"
+  },
+  "MORALL CRT HAMMONDS PLAINS": {
+    "lat": 44.7078108,
+    "lon": -63.7547022,
+    "precision": "approximate_geocode",
+    "query": "MORALL CRT, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "MORRIS": {
     "lat": 44.642235,
@@ -2609,6 +2627,12 @@
     "precision": "approximate_geocode",
     "query": "TOBIN ST, HALIFAX, Nova Scotia, Canada"
   },
+  "TUCKER LAKE BEAVER BANK": {
+    "lat": 44.8383034,
+    "lon": -63.6867903,
+    "precision": "approximate_geocode",
+    "query": "TUCKER LAKE RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "TUPPER": {
     "lat": 44.6618746,
     "lon": -63.55444,
@@ -2764,6 +2788,12 @@
     "lon": -63.6022509,
     "precision": "approximate_geocode",
     "query": "WINDCREST TERR, HALIFAX, Nova Scotia, Canada"
+  },
+  "WINDMILL": {
+    "lat": 44.6796685,
+    "lon": -63.5947198,
+    "precision": "approximate_geocode",
+    "query": "WINDMILL RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "WINLEY WINDSOR JUNCTION": {
     "lat": 44.7845026,
