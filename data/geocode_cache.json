@@ -125,6 +125,12 @@
     "precision": "approximate_geocode",
     "query": "ARMSTRONG CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "ASHGROVE COLE HARBOUR": {
+    "lat": 44.6714528,
+    "lon": -63.4829372,
+    "precision": "approximate_geocode",
+    "query": "ASHGROVE AVE, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "ATLANTIC": {
     "lat": 44.6322456,
     "lon": -63.5757861,
@@ -989,6 +995,12 @@
     "precision": "approximate_geocode",
     "query": "FRANKIE DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "FRANKLYN CRT": {
+    "lat": 44.6870602,
+    "lon": -63.5834101,
+    "precision": "approximate_geocode",
+    "query": "FRANKLYN CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "FRASER TIMBERLEA": {
     "lat": 44.6627425,
     "lon": -63.7474087,
@@ -1558,6 +1570,12 @@
     "lon": -63.6703396,
     "precision": "approximate_geocode",
     "query": "LANGBRAE DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "LARRY UTECK": {
+    "lat": 44.6986408,
+    "lon": -63.6644282,
+    "precision": "approximate_geocode",
+    "query": "LARRY UTECK BLVD, HALIFAX, Nova Scotia, Canada"
   },
   "LAWRENCE": {
     "lat": 44.6790618,
@@ -2201,6 +2219,12 @@
     "precision": "approximate_geocode",
     "query": "ROCKY LAKE DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "RODNEY": {
+    "lat": 44.6665024,
+    "lon": -63.551106,
+    "precision": "approximate_geocode",
+    "query": "RODNEY RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "ROMANS": {
     "lat": 44.6546172,
     "lon": -63.6217528,
@@ -2560,6 +2584,12 @@
     "lon": -63.5768492,
     "precision": "approximate_geocode",
     "query": "UPPER WATER ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "VAL": {
+    "lat": 44.6573134,
+    "lon": -63.6351184,
+    "precision": "approximate_geocode",
+    "query": "VAL ST, HALIFAX, Nova Scotia, Canada"
   },
   "VICTORIA": {
     "lat": 44.6363866,
