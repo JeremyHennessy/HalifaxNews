@@ -17,6 +17,12 @@
     "precision": "approximate_geocode",
     "query": "ABBEY RD, STILLWATER LAKE, Halifax, Nova Scotia, Canada"
   },
+  "ABBOTT": {
+    "lat": 44.6514362,
+    "lon": -63.6280604,
+    "precision": "approximate_geocode",
+    "query": "ABBOTT DR, HALIFAX, Nova Scotia, Canada"
+  },
   "ABRAMS WAY": {
     "lat": 44.6123309,
     "lon": -63.6119611,
@@ -100,6 +106,12 @@
     "lon": -63.7228216,
     "precision": "approximate_geocode",
     "query": "ARBOR WAY, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "ARLINGTON": {
+    "lat": 44.6448704,
+    "lon": -63.6352294,
+    "precision": "approximate_geocode",
+    "query": "ARLINGTON AVE, HALIFAX, Nova Scotia, Canada"
   },
   "ARMBRO COLE HARBOUR": {
     "lat": 44.6711607,
@@ -653,6 +665,12 @@
     "precision": "approximate_geocode",
     "query": "CLUB HOUSE LANE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "COBEQUID LOWER SACKVILLE": {
+    "lat": 44.7535276,
+    "lon": -63.663429,
+    "precision": "approximate_geocode",
+    "query": "COBEQUID RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "COBURG": {
     "lat": 44.6366238,
     "lon": -63.5999336,
@@ -916,6 +934,12 @@
     "lon": -63.7134962,
     "precision": "approximate_geocode",
     "query": "EDGETT DR, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "EDWARD ARAB": {
+    "lat": 44.6489553,
+    "lon": -63.6159805,
+    "precision": "approximate_geocode",
+    "query": "EDWARD ARAB AVE, HALIFAX, Nova Scotia, Canada"
   },
   "EISENER": {
     "lat": 44.668348,
@@ -1624,6 +1648,12 @@
     "lon": -63.3313895,
     "precision": "approximate_geocode",
     "query": "LAWRENCETOWN RD, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
+  },
+  "LEACOCK CRT COLE HARBOUR": {
+    "lat": 44.6733792,
+    "lon": -63.4849196,
+    "precision": "approximate_geocode",
+    "query": "LEACOCK CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "LEAMAN": {
     "lat": 44.6859327,
