@@ -2243,6 +2243,12 @@
     "precision": "approximate_geocode",
     "query": "PROSPECT RD, WHITES LAKE, Halifax, Nova Scotia, Canada"
   },
+  "PURCELLS COVE": {
+    "lat": 44.6239318,
+    "lon": -63.6020302,
+    "precision": "approximate_geocode",
+    "query": "PURCELLS COVE RD, HALIFAX, Nova Scotia, Canada"
+  },
   "QUEEN": {
     "lat": 44.6441809,
     "lon": -63.5776425,
@@ -2675,6 +2681,12 @@
     "precision": "approximate_geocode",
     "query": "TOBIN ST, HALIFAX, Nova Scotia, Canada"
   },
+  "TREELINE CRT HARRIETSFIELD": {
+    "lat": 44.5745544,
+    "lon": -63.6365313,
+    "precision": "approximate_geocode",
+    "query": "TREELINE CRT, HARRIETSFIELD, Halifax, Nova Scotia, Canada"
+  },
   "TUCKER LAKE BEAVER BANK": {
     "lat": 44.8383034,
     "lon": -63.6867903,
@@ -2740,6 +2752,12 @@
     "lon": -63.6945288,
     "precision": "approximate_geocode",
     "query": "WALKER AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "WALTER HAVILL": {
+    "lat": 44.6348116,
+    "lon": -63.6332573,
+    "precision": "approximate_geocode",
+    "query": "WALTER HAVILL DR, HALIFAX, Nova Scotia, Canada"
   },
   "WASHMILL LAKE": {
     "lat": 44.6474266,
