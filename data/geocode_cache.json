@@ -29,6 +29,12 @@
     "precision": "approximate_geocode",
     "query": "ABRAMS WAY, HALIFAX, Nova Scotia, Canada"
   },
+  "ACADIA": {
+    "lat": 44.6707553,
+    "lon": -63.6079301,
+    "precision": "approximate_geocode",
+    "query": "ACADIA ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ACORN": {
     "lat": 44.6179418,
     "lon": -63.6086775,
@@ -143,11 +149,23 @@
     "precision": "approximate_geocode",
     "query": "ASHGROVE AVE, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "ASPEN CRES LOWER SACKVILLE": {
+    "lat": 44.7735198,
+    "lon": -63.6831926,
+    "precision": "approximate_geocode",
+    "query": "ASPEN CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "ATLANTIC": {
     "lat": 44.6322456,
     "lon": -63.5757861,
     "precision": "approximate_geocode",
     "query": "ATLANTIC ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "ATLANTIC VIEW SAMBRO HEAD": {
+    "lat": 44.4829193,
+    "lon": -63.5868529,
+    "precision": "approximate_geocode",
+    "query": "ATLANTIC VIEW DR, SAMBRO HEAD, Halifax, Nova Scotia, Canada"
   },
   "AUTUMN": {
     "lat": 44.6020567,
