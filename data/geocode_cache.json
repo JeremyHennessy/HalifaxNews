@@ -329,6 +329,12 @@
     "precision": "approximate_geocode",
     "query": "BIRCH HILL CRT, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BIRCHILL EASTERN PASSAGE": {
+    "lat": 44.6157329,
+    "lon": -63.4719615,
+    "precision": "approximate_geocode",
+    "query": "BIRCHILL DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "BIRKDALE CRES": {
     "lat": 44.6541235,
     "lon": -63.6540318,
@@ -772,6 +778,12 @@
     "lon": -63.4239147,
     "precision": "approximate_geocode",
     "query": "COW BAY RD, COW BAY, Halifax, Nova Scotia, Canada"
+  },
+  "COW BAY EASTERN PASSAGE": {
+    "lat": 44.6221059,
+    "lon": -63.4586906,
+    "precision": "approximate_geocode",
+    "query": "COW BAY RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "COWIE HILL": {
     "lat": 44.6246893,
@@ -1318,6 +1330,12 @@
     "lon": -63.4425448,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 277, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 357 MEAGHERS GRANT": {
+    "lat": 44.9439496,
+    "lon": -63.2328699,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 357, MEAGHERS GRANT, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 7 EAST PRESTON": {
     "lat": 44.7170792,
@@ -2176,6 +2194,12 @@
     "lon": -63.285665,
     "precision": "approximate_geocode",
     "query": "PORTERS LAKE STATION RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "PORTLAND": {
+    "lat": 44.6698792,
+    "lon": -63.5226763,
+    "precision": "approximate_geocode",
+    "query": "PORTLAND ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "PORTLAND ESTATES WEST": {
     "lat": 44.6642326,
