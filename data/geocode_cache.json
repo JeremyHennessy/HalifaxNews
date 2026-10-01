@@ -863,6 +863,12 @@
     "precision": "approximate_geocode",
     "query": "CROSS RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CUNARD": {
+    "lat": 44.6502208,
+    "lon": -63.5952106,
+    "precision": "approximate_geocode",
+    "query": "CUNARD ST, HALIFAX, Nova Scotia, Canada"
+  },
   "CUTTER": {
     "lat": 44.6961489,
     "lon": -63.6774276,
@@ -1607,6 +1613,12 @@
     "precision": "approximate_geocode",
     "query": "KEYWORTH LANE, HALIFAX, Nova Scotia, Canada"
   },
+  "KINCARDINE": {
+    "lat": 44.6912221,
+    "lon": -63.5366971,
+    "precision": "approximate_geocode",
+    "query": "KINCARDINE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "KINDLING CRES MIDDLE SACKVILLE": {
     "lat": 44.7833546,
     "lon": -63.7080795,
@@ -1900,6 +1912,12 @@
     "lon": -63.6231403,
     "precision": "approximate_geocode",
     "query": "MELWOOD AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "MERRIMAC COLE HARBOUR": {
+    "lat": 44.6770191,
+    "lon": -63.4907282,
+    "precision": "approximate_geocode",
+    "query": "MERRIMAC DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "MERSEY CRT HATCHET LAKE": {
     "lat": 44.562174,
@@ -2338,6 +2356,12 @@
     "lon": -63.787126,
     "precision": "approximate_geocode",
     "query": "PROSPECT RD, SHAD BAY, Halifax, Nova Scotia, Canada"
+  },
+  "PROSPECT WEST DOVER": {
+    "lat": 44.5095128,
+    "lon": -63.8881504,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT RD, WEST DOVER, Halifax, Nova Scotia, Canada"
   },
   "PROSPECT WHITES LAKE": {
     "lat": 44.5284983,
