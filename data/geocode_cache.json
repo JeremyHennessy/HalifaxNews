@@ -185,6 +185,12 @@
     "precision": "approximate_geocode",
     "query": "AVONDALE RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "BACK SEAFORTH": {
+    "lat": 44.6728141,
+    "lon": -63.2609669,
+    "precision": "approximate_geocode",
+    "query": "BACK RD, SEAFORTH, Halifax, Nova Scotia, Canada"
+  },
   "BAKER": {
     "lat": 44.6701952,
     "lon": -63.5320777,
@@ -196,6 +202,12 @@
     "lon": -63.5631813,
     "precision": "approximate_geocode",
     "query": "BANOOK AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "BAR HARBOUR WEST PENNANT": {
+    "lat": 44.4702756,
+    "lon": -63.6567865,
+    "precision": "approximate_geocode",
+    "query": "BAR HARBOUR LANE, WEST PENNANT, Halifax, Nova Scotia, Canada"
   },
   "BARKTON": {
     "lat": 44.6658889,
@@ -857,6 +869,12 @@
     "precision": "approximate_geocode",
     "query": "CUTTER DR, HALIFAX, Nova Scotia, Canada"
   },
+  "DARNER BEAVER BANK": {
+    "lat": 44.826857,
+    "lon": -63.6728968,
+    "precision": "approximate_geocode",
+    "query": "DARNER DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "DAVID ALLEN EAST LAWRENCETOWN": {
     "lat": 44.6704384,
     "lon": -63.3169712,
@@ -1432,6 +1450,12 @@
     "lon": -63.5074067,
     "precision": "approximate_geocode",
     "query": "HOWARD AVE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "ILSLEY": {
+    "lat": 44.69967,
+    "lon": -63.5875683,
+    "precision": "approximate_geocode",
+    "query": "ILSLEY AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "INDIAN POINT GLEN HAVEN": {
     "lat": 44.6461668,
