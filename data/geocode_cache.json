@@ -41,6 +41,12 @@
     "precision": "approximate_geocode",
     "query": "ACORN RD, HALIFAX, Nova Scotia, Canada"
   },
+  "ADELAIDE": {
+    "lat": 44.6546242,
+    "lon": -63.6425058,
+    "precision": "approximate_geocode",
+    "query": "ADELAIDE AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "AGRICOLA": {
     "lat": 44.666086,
     "lon": -63.6091132,
@@ -454,6 +460,12 @@
     "lon": -63.5789756,
     "precision": "approximate_geocode",
     "query": "BROWNLOW AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "BRUCE LOWER SACKVILLE": {
+    "lat": 44.7668106,
+    "lon": -63.6894424,
+    "precision": "approximate_geocode",
+    "query": "BRUCE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "BRUNSWICK": {
     "lat": 44.6481011,
@@ -1438,6 +1450,12 @@
     "lon": -63.5823214,
     "precision": "approximate_geocode",
     "query": "JACKSON RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "JAMES PROSPECT BAY": {
+    "lat": 44.513007,
+    "lon": -63.7834762,
+    "precision": "approximate_geocode",
+    "query": "JAMES ST, PROSPECT BAY, Halifax, Nova Scotia, Canada"
   },
   "JAMES ROY PORTERS LAKE": {
     "lat": 44.7454458,
