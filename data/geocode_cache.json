@@ -377,6 +377,12 @@
     "precision": "approximate_geocode",
     "query": "BLOOMFIELD ST, HALIFAX, Nova Scotia, Canada"
   },
+  "BLOOMINGDALE TERR": {
+    "lat": 44.6408528,
+    "lon": -63.6047467,
+    "precision": "approximate_geocode",
+    "query": "BLOOMINGDALE TERR, HALIFAX, Nova Scotia, Canada"
+  },
   "BLOSSOM CRT COLE HARBOUR": {
     "lat": 44.6532252,
     "lon": -63.4763781,
@@ -1241,6 +1247,12 @@
     "precision": "approximate_geocode",
     "query": "HERRING COVE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "HESCOTT ELMSDALE": {
+    "lat": 44.9483751,
+    "lon": -63.4971446,
+    "precision": "approximate_geocode",
+    "query": "HESCOTT ST, ELMSDALE, Halifax, Nova Scotia, Canada"
+  },
   "HIDEAWAY TRL BROOKSIDE": {
     "lat": 44.5304062,
     "lon": -63.7097615,
@@ -1949,6 +1961,12 @@
     "precision": "approximate_geocode",
     "query": "NESTOR CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "NEWTON": {
+    "lat": 44.6447689,
+    "lon": -63.6072979,
+    "precision": "approximate_geocode",
+    "query": "NEWTON AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "NICTAUX LOWER SACKVILLE": {
     "lat": 44.7852389,
     "lon": -63.6760708,
@@ -1984,6 +2002,12 @@
     "lon": -63.3773883,
     "precision": "approximate_geocode",
     "query": "NOTTING HILL RD, MINEVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "OAKES FALL RIVER": {
+    "lat": 44.8109288,
+    "lon": -63.6029623,
+    "precision": "approximate_geocode",
+    "query": "OAKES RD, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
   "OAKHILL LOWER SACKVILLE": {
     "lat": 44.7871185,
@@ -2111,6 +2135,12 @@
     "precision": "approximate_geocode",
     "query": "PEARSON DR, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "PEGGYS COVE GLEN HAVEN": {
+    "lat": 44.6606414,
+    "lon": -63.9014597,
+    "precision": "approximate_geocode",
+    "query": "PEGGYS COVE RD, GLEN HAVEN, Halifax, Nova Scotia, Canada"
+  },
   "PEGGYS COVE HACKETTS COVE": {
     "lat": 44.5451258,
     "lon": -63.9359725,
@@ -2164,6 +2194,12 @@
     "lon": -63.5777101,
     "precision": "approximate_geocode",
     "query": "PINEHILL RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "PINEHILL LOWER SACKVILLE": {
+    "lat": 44.768099,
+    "lon": -63.6743209,
+    "precision": "approximate_geocode",
+    "query": "PINEHILL DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "PLATEAU CRES": {
     "lat": 44.6613669,
