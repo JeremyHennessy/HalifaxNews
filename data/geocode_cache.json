@@ -761,6 +761,12 @@
     "precision": "approximate_geocode",
     "query": "COLFORD AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CONNOLLY MIDDLE SACKVILLE": {
+    "lat": 44.776731,
+    "lon": -63.6999537,
+    "precision": "approximate_geocode",
+    "query": "CONNOLLY RD, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "CONRAD LAWRENCETOWN": {
     "lat": 44.6498729,
     "lon": -63.3686935,
@@ -1031,6 +1037,12 @@
     "precision": "approximate_geocode",
     "query": "ELLA LANE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "ELMRIDGE WAVERLEY": {
+    "lat": 44.7679044,
+    "lon": -63.5726554,
+    "precision": "approximate_geocode",
+    "query": "ELMRIDGE DR, WAVERLEY, Halifax, Nova Scotia, Canada"
+  },
   "ERIN": {
     "lat": 44.6859122,
     "lon": -63.5181435,
@@ -1235,6 +1247,12 @@
     "precision": "approximate_geocode",
     "query": "HANNEBURY DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "HARVEY": {
+    "lat": 44.6404338,
+    "lon": -63.5720439,
+    "precision": "approximate_geocode",
+    "query": "HARVEY ST, HALIFAX, Nova Scotia, Canada"
+  },
   "HAVENBROOK HILL": {
     "lat": 44.6664498,
     "lon": -63.5034056,
@@ -1258,6 +1276,12 @@
     "lon": -63.8692603,
     "precision": "approximate_geocode",
     "query": "HEMLOCK DR, UPPER TANTALLON, Halifax, Nova Scotia, Canada"
+  },
+  "HEMMING CRT": {
+    "lat": 44.6871349,
+    "lon": -63.508264,
+    "precision": "approximate_geocode",
+    "query": "HEMMING CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "HENRY FALL RIVER": {
     "lat": 44.8285887,
@@ -1582,6 +1606,12 @@
     "lon": -63.6108439,
     "precision": "approximate_geocode",
     "query": "KELLY DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
+  "KEMPT": {
+    "lat": 44.6632373,
+    "lon": -63.6208745,
+    "precision": "approximate_geocode",
+    "query": "KEMPT RD, HALIFAX, Nova Scotia, Canada"
   },
   "KENNEDY": {
     "lat": 44.6909024,
@@ -2536,6 +2566,12 @@
     "lon": -63.7779156,
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SARAH CRES BROOKSIDE": {
+    "lat": 44.55534,
+    "lon": -63.7142807,
+    "precision": "approximate_geocode",
+    "query": "SARAH CRES, BROOKSIDE, Halifax, Nova Scotia, Canada"
   },
   "SARATOGA": {
     "lat": 44.7045869,
