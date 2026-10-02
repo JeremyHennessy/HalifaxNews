@@ -815,6 +815,12 @@
     "precision": "approximate_geocode",
     "query": "CORK ST, HALIFAX, Nova Scotia, Canada"
   },
+  "CORMORANT TANTALLON": {
+    "lat": 44.6774064,
+    "lon": -63.8963386,
+    "precision": "approximate_geocode",
+    "query": "CORMORANT LANE, TANTALLON, Halifax, Nova Scotia, Canada"
+  },
   "COTTAGE WINDSOR JUNCTION": {
     "lat": 44.7861333,
     "lon": -63.636174,
@@ -952,6 +958,12 @@
     "lon": -63.6189743,
     "precision": "approximate_geocode",
     "query": "DENTITH RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "DEVONSHIRE": {
+    "lat": 44.6670445,
+    "lon": -63.6000715,
+    "precision": "approximate_geocode",
+    "query": "DEVONSHIRE AVE, HALIFAX, Nova Scotia, Canada"
   },
   "DICKEY LOWER SACKVILLE": {
     "lat": 44.7662934,
@@ -1409,6 +1421,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 2, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 2 WELLINGTON": {
+    "lat": 44.8766428,
+    "lon": -63.6047432,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 2, WELLINGTON, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 207 WEST CHEZZETCOOK": {
     "lat": 44.7056905,
     "lon": -63.2589216,
@@ -1672,6 +1690,12 @@
     "lon": -63.5715396,
     "precision": "approximate_geocode",
     "query": "KENT ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "KERMIT WINDSOR JUNCTION": {
+    "lat": 44.7858298,
+    "lon": -63.6401308,
+    "precision": "approximate_geocode",
+    "query": "KERMIT LANE, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
   },
   "KERNWOOD MIDDLE SACKVILLE": {
     "lat": 44.8192375,
@@ -2368,6 +2392,12 @@
     "lon": -63.4992429,
     "precision": "approximate_geocode",
     "query": "PONDICHERRY CRES, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "POPE CRES LOWER SACKVILLE": {
+    "lat": 44.7632564,
+    "lon": -63.6615795,
+    "precision": "approximate_geocode",
+    "query": "POPE CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "POPLAR COLE HARBOUR": {
     "lat": 44.6753405,
