@@ -941,6 +941,12 @@
     "precision": "approximate_geocode",
     "query": "DELLRIDGE LANE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "DEMETREOUS": {
+    "lat": 44.6740713,
+    "lon": -63.5773774,
+    "precision": "approximate_geocode",
+    "query": "DEMETREOUS LANE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "DENTITH": {
     "lat": 44.6137329,
     "lon": -63.6189743,
@@ -1618,6 +1624,12 @@
     "lon": -63.4937707,
     "precision": "approximate_geocode",
     "query": "KAREN DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "KATA CRT HAMMONDS PLAINS": {
+    "lat": 44.7231134,
+    "lon": -63.838244,
+    "precision": "approximate_geocode",
+    "query": "KATA CRT, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "KAYE": {
     "lat": 44.6605072,
@@ -2500,6 +2512,12 @@
     "lon": -63.6299253,
     "precision": "approximate_geocode",
     "query": "RETREAT AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "RHODORA MIDDLE SACKVILLE": {
+    "lat": 44.8143015,
+    "lon": -63.7133778,
+    "precision": "approximate_geocode",
+    "query": "RHODORA DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "RIDGEWOOD": {
     "lat": 44.6317263,
