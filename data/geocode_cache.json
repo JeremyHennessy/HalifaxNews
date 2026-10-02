@@ -611,6 +611,12 @@
     "precision": "approximate_geocode",
     "query": "CAXTON CL, HALIFAX, Nova Scotia, Canada"
   },
+  "CEDAR": {
+    "lat": 44.6432364,
+    "lon": -63.593746,
+    "precision": "approximate_geocode",
+    "query": "CEDAR ST, HALIFAX, Nova Scotia, Canada"
+  },
   "CEDARWOOD WESTPHAL": {
     "lat": 44.691688,
     "lon": -63.4973728,
@@ -1145,6 +1151,12 @@
     "precision": "approximate_geocode",
     "query": "FLEETVIEW DR, HALIFAX, Nova Scotia, Canada"
   },
+  "FLETCHER FALL RIVER": {
+    "lat": 44.8261994,
+    "lon": -63.6118738,
+    "precision": "approximate_geocode",
+    "query": "FLETCHER DR, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "FLORENCE PLACE CRT LOWER SACKVILLE": {
     "lat": 44.7675239,
     "lon": -63.6811391,
@@ -1312,6 +1324,12 @@
     "lon": -63.611969,
     "precision": "approximate_geocode",
     "query": "HEATHERWOOD CRT, HALIFAX, Nova Scotia, Canada"
+  },
+  "HEBRIDEAN HERRING COVE": {
+    "lat": 44.570809,
+    "lon": -63.5650586,
+    "precision": "approximate_geocode",
+    "query": "HEBRIDEAN DR, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
   "HEMLOCK UPPER TANTALLON": {
     "lat": 44.7230234,
@@ -2429,6 +2447,12 @@
     "precision": "approximate_geocode",
     "query": "PORTLAND HILLS DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "POST OFFICE PORTERS LAKE": {
+    "lat": 44.7402092,
+    "lon": -63.3004642,
+    "precision": "approximate_geocode",
+    "query": "POST OFFICE RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "PRATT AND WHITNEY GOFFS": {
     "lat": 44.8645219,
     "lon": -63.542093,
@@ -2812,6 +2836,12 @@
     "lon": -63.6971311,
     "precision": "approximate_geocode",
     "query": "STANLEY ST, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "STARFLOWER WAY BROOKSIDE": {
+    "lat": 44.5307678,
+    "lon": -63.7023239,
+    "precision": "approximate_geocode",
+    "query": "STARFLOWER WAY, BROOKSIDE, Halifax, Nova Scotia, Canada"
   },
   "STELLA PORTERS LAKE": {
     "lat": 44.7436396,
