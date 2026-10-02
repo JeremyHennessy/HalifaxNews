@@ -161,6 +161,12 @@
     "precision": "approximate_geocode",
     "query": "ASPEN CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "ASTER CRT": {
+    "lat": 44.6721845,
+    "lon": -63.6741053,
+    "precision": "approximate_geocode",
+    "query": "ASTER CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "ATLANTIC": {
     "lat": 44.6322456,
     "lon": -63.5757861,
@@ -839,6 +845,12 @@
     "precision": "approximate_geocode",
     "query": "CRANEHILL RD, EAST PRESTON, Halifax, Nova Scotia, Canada"
   },
+  "CREIGHTON": {
+    "lat": 44.6534577,
+    "lon": -63.5871661,
+    "precision": "approximate_geocode",
+    "query": "CREIGHTON ST, HALIFAX, Nova Scotia, Canada"
+  },
   "CRESCENT LAKESIDE": {
     "lat": 44.6344241,
     "lon": -63.7046927,
@@ -880,6 +892,12 @@
     "lon": -63.6774276,
     "precision": "approximate_geocode",
     "query": "CUTTER DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "DAMASCUS BEDFORD": {
+    "lat": 44.7500521,
+    "lon": -63.6460021,
+    "precision": "approximate_geocode",
+    "query": "DAMASCUS RD, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "DARNER BEAVER BANK": {
     "lat": 44.826857,
@@ -1396,6 +1414,12 @@
     "lon": -63.3302023,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 224, GAYS RIVER, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 224 MIDDLE MUSQUODOBOIT": {
+    "lat": 45.0532897,
+    "lon": -63.1283749,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 224, MIDDLE MUSQUODOBOIT, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 277 DUTCH SETTLEMENT": {
     "lat": 44.9899164,
@@ -2758,6 +2782,12 @@
     "lon": -63.5839663,
     "precision": "approximate_geocode",
     "query": "SUMMER ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "SUN KEY EASTERN PASSAGE": {
+    "lat": 44.5984377,
+    "lon": -63.459127,
+    "precision": "approximate_geocode",
+    "query": "SUN KEY DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "SUSAN BEAVER BANK": {
     "lat": 44.7994755,
