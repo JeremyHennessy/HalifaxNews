@@ -227,6 +227,12 @@
     "precision": "approximate_geocode",
     "query": "BARNES DR, GOFFS, Halifax, Nova Scotia, Canada"
   },
+  "BARNSTEAD": {
+    "lat": 44.6537663,
+    "lon": -63.6223923,
+    "precision": "approximate_geocode",
+    "query": "BARNSTEAD LANE, HALIFAX, Nova Scotia, Canada"
+  },
   "BARRINGTON": {
     "lat": 44.652306,
     "lon": -63.5775196,
@@ -1481,6 +1487,12 @@
     "precision": "approximate_geocode",
     "query": "HILLTOP DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "HINES EASTERN PASSAGE": {
+    "lat": 44.6285208,
+    "lon": -63.486469,
+    "precision": "approximate_geocode",
+    "query": "HINES RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "HOLLAND FLETCHERS LAKE": {
     "lat": 44.8504542,
     "lon": -63.5992914,
@@ -1931,6 +1943,12 @@
     "precision": "approximate_geocode",
     "query": "MASSACHUSETTS AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "MCINTYRE EAST LAWRENCETOWN": {
+    "lat": 44.6590497,
+    "lon": -63.3260675,
+    "precision": "approximate_geocode",
+    "query": "MCINTYRE DR, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
+  },
   "MEADOWBROOK BEAVER BANK": {
     "lat": 44.870396,
     "lon": -63.6842184,
@@ -1984,6 +2002,12 @@
     "lon": -63.6748655,
     "precision": "approximate_geocode",
     "query": "METROPOLITAN AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "MICMAC": {
+    "lat": 44.6549841,
+    "lon": -63.6184411,
+    "precision": "approximate_geocode",
+    "query": "MICMAC ST, HALIFAX, Nova Scotia, Canada"
   },
   "MIDDLE VILLAGE WEST DOVER": {
     "lat": 44.5071842,
@@ -2920,6 +2944,12 @@
     "lon": -63.5743931,
     "precision": "approximate_geocode",
     "query": "VICTORIA RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "VILLAGE HERRING COVE": {
+    "lat": 44.5631138,
+    "lon": -63.5635821,
+    "precision": "approximate_geocode",
+    "query": "VILLAGE RD, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
   "VIMY": {
     "lat": 44.66202,
