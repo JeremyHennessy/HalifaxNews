@@ -791,6 +791,12 @@
     "precision": "approximate_geocode",
     "query": "COLFORD AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "COLLEGE": {
+    "lat": 44.6409685,
+    "lon": -63.5801616,
+    "precision": "approximate_geocode",
+    "query": "COLLEGE ST, HALIFAX, Nova Scotia, Canada"
+  },
   "CONNOLLY MIDDLE SACKVILLE": {
     "lat": 44.776731,
     "lon": -63.6999537,
@@ -1174,6 +1180,12 @@
     "lon": -63.6507334,
     "precision": "approximate_geocode",
     "query": "FIRST LAKE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "FLAGSTONE COLE HARBOUR": {
+    "lat": 44.6595447,
+    "lon": -63.4901216,
+    "precision": "approximate_geocode",
+    "query": "FLAGSTONE DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "FLEETVIEW": {
     "lat": 44.6989508,
@@ -1991,6 +2003,12 @@
     "precision": "approximate_geocode",
     "query": "LUCASVILLE RD, LUCASVILLE, Halifax, Nova Scotia, Canada"
   },
+  "MACARA": {
+    "lat": 44.6587713,
+    "lon": -63.5995936,
+    "precision": "approximate_geocode",
+    "query": "MACARA ST, HALIFAX, Nova Scotia, Canada"
+  },
   "MACDONALD POINT SEABRIGHT": {
     "lat": 44.6197528,
     "lon": -63.9319198,
@@ -2146,6 +2164,12 @@
     "lon": -63.7547022,
     "precision": "approximate_geocode",
     "query": "MORALL CRT, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "MORGAN LAWRENCETOWN": {
+    "lat": 44.6863137,
+    "lon": -63.4000968,
+    "precision": "approximate_geocode",
+    "query": "MORGAN DR, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
   "MORRIS": {
     "lat": 44.642235,
@@ -3106,6 +3130,12 @@
     "lon": -63.761382,
     "precision": "approximate_geocode",
     "query": "VOYAGEUR WAY, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "WAEGWOLTIC": {
+    "lat": 44.6380695,
+    "lon": -63.5990085,
+    "precision": "approximate_geocode",
+    "query": "WAEGWOLTIC AVE, HALIFAX, Nova Scotia, Canada"
   },
   "WALDEN PL BEDFORD": {
     "lat": 44.7134252,
