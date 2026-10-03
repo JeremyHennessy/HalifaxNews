@@ -905,6 +905,12 @@
     "precision": "approximate_geocode",
     "query": "CUNARD ST, HALIFAX, Nova Scotia, Canada"
   },
+  "CUTLER": {
+    "lat": 44.7196071,
+    "lon": -63.5594879,
+    "precision": "approximate_geocode",
+    "query": "CUTLER AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CUTTER": {
     "lat": 44.6961489,
     "lon": -63.6774276,
@@ -946,6 +952,12 @@
     "lon": -63.5462878,
     "precision": "approximate_geocode",
     "query": "DAWN DOUGLAS DR, PORTUGUESE COVE, Halifax, Nova Scotia, Canada"
+  },
+  "DEEPWOOD CRES": {
+    "lat": 44.6620269,
+    "lon": -63.648796,
+    "precision": "approximate_geocode",
+    "query": "DEEPWOOD CRES, HALIFAX, Nova Scotia, Canada"
   },
   "DELLRIDGE BEDFORD": {
     "lat": 44.7005551,
@@ -1360,6 +1372,12 @@
     "lon": -63.4971446,
     "precision": "approximate_geocode",
     "query": "HESCOTT ST, ELMSDALE, Halifax, Nova Scotia, Canada"
+  },
+  "HEWER CRES MIDDLE SACKVILLE": {
+    "lat": 44.7944259,
+    "lon": -63.7014666,
+    "precision": "approximate_geocode",
+    "query": "HEWER CRES, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "HIDEAWAY TRL BROOKSIDE": {
     "lat": 44.5304062,
@@ -1900,6 +1918,12 @@
     "lon": -63.2737248,
     "precision": "approximate_geocode",
     "query": "LES COLLINS AVE, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "LOCHMOOR LAKE LOON": {
+    "lat": 44.7103461,
+    "lon": -63.5151333,
+    "precision": "approximate_geocode",
+    "query": "LOCHMOOR LANE, LAKE LOON, Halifax, Nova Scotia, Canada"
   },
   "LONDRA CRT": {
     "lat": 44.6861101,
