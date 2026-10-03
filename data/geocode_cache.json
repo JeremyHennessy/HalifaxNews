@@ -1145,6 +1145,12 @@
     "precision": "approximate_geocode",
     "query": "FIDDLE PKY, HATCHET LAKE, Halifax, Nova Scotia, Canada"
   },
+  "FINDLAY CONROD SETTLEMENT": {
+    "lat": 44.7669566,
+    "lon": -63.2452748,
+    "precision": "approximate_geocode",
+    "query": "FINDLAY RD, CONROD SETTLEMENT, Halifax, Nova Scotia, Canada"
+  },
   "FIRESIDE COLE HARBOUR": {
     "lat": 44.6620362,
     "lon": -63.4871527,
@@ -2201,6 +2207,12 @@
     "precision": "approximate_geocode",
     "query": "NOTTING HILL RD, MINEVILLE, Halifax, Nova Scotia, Canada"
   },
+  "NOVA CRT": {
+    "lat": 44.6734876,
+    "lon": -63.5772841,
+    "precision": "approximate_geocode",
+    "query": "NOVA CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "OAKES FALL RIVER": {
     "lat": 44.8109288,
     "lon": -63.6029623,
@@ -2608,6 +2620,12 @@
     "lon": -63.6634227,
     "precision": "approximate_geocode",
     "query": "RIFLE RANGE LANE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "RIVER": {
+    "lat": 44.6061313,
+    "lon": -63.61215,
+    "precision": "approximate_geocode",
+    "query": "RIVER RD, HALIFAX, Nova Scotia, Canada"
   },
   "RIVERSIDE LOWER SACKVILLE": {
     "lat": 44.7821309,
@@ -3040,6 +3058,12 @@
     "lon": -63.6351184,
     "precision": "approximate_geocode",
     "query": "VAL ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "VERDI BEDFORD": {
+    "lat": 44.7479525,
+    "lon": -63.6442655,
+    "precision": "approximate_geocode",
+    "query": "VERDI DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "VICTORIA": {
     "lat": 44.6363866,
