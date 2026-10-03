@@ -749,6 +749,12 @@
     "precision": "approximate_geocode",
     "query": "CLAYMORE AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "CLERMONT CRES COLE HARBOUR": {
+    "lat": 44.6771228,
+    "lon": -63.4883061,
+    "precision": "approximate_geocode",
+    "query": "CLERMONT CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "CLUB HOUSE HAMMONDS PLAINS": {
     "lat": 44.7509704,
     "lon": -63.7687369,
@@ -1895,6 +1901,12 @@
     "precision": "approximate_geocode",
     "query": "LAKEFRONT RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "LAKEFRONT HAMMONDS PLAINS": {
+    "lat": 44.7077001,
+    "lon": -63.7506726,
+    "precision": "approximate_geocode",
+    "query": "LAKEFRONT DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "LAKEVIEW LAKEVIEW": {
     "lat": 44.7682277,
     "lon": -63.6285054,
@@ -2044,6 +2056,12 @@
     "lon": -63.4972858,
     "precision": "approximate_geocode",
     "query": "MAIN RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "MARGARETS BAY HEAD OF MARGARETS BAY": {
+    "lat": 44.6945036,
+    "lon": -63.8898548,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, HEAD OF ST MARGARETS BAY, Halifax, Nova Scotia, Canada"
   },
   "MARGARETS BAY HUBBARDS": {
     "lat": 44.6385428,
@@ -2435,6 +2453,12 @@
     "precision": "approximate_geocode",
     "query": "PERRON DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "PHILIP FALL RIVER": {
+    "lat": 44.8271544,
+    "lon": -63.6040254,
+    "precision": "approximate_geocode",
+    "query": "PHILIP DR, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "PINE GROVE": {
     "lat": 44.6116932,
     "lon": -63.6145453,
@@ -2825,6 +2849,12 @@
     "precision": "approximate_geocode",
     "query": "SEDGEWICK PL, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "SELIGS PROSPECT": {
+    "lat": 44.5033825,
+    "lon": -63.8017244,
+    "precision": "approximate_geocode",
+    "query": "SELIGS RD, PROSPECT, Halifax, Nova Scotia, Canada"
+  },
   "SEVENTH LUCASVILLE": {
     "lat": 44.7491828,
     "lon": -63.7434549,
@@ -2962,6 +2992,12 @@
     "lon": -63.6866944,
     "precision": "approximate_geocode",
     "query": "STOKIL DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "STONE MOUNT LOWER SACKVILLE": {
+    "lat": 44.7680911,
+    "lon": -63.6352074,
+    "precision": "approximate_geocode",
+    "query": "STONE MOUNT DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "STRATFORD COLE HARBOUR": {
     "lat": 44.6523947,
