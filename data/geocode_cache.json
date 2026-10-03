@@ -551,6 +551,12 @@
     "precision": "approximate_geocode",
     "query": "CAMBRIDGE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "CAMPBELL BEDFORD": {
+    "lat": 44.7237443,
+    "lon": -63.6739714,
+    "precision": "approximate_geocode",
+    "query": "CAMPBELL DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "CAMPEAU CRT EASTERN PASSAGE": {
     "lat": 44.6129422,
     "lon": -63.4720533,
@@ -748,6 +754,12 @@
     "lon": -63.7687369,
     "precision": "approximate_geocode",
     "query": "CLUB HOUSE LANE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "COASTAL SAMBRO": {
+    "lat": 44.4849123,
+    "lon": -63.5972338,
+    "precision": "approximate_geocode",
+    "query": "COASTAL LANE, SAMBRO, Halifax, Nova Scotia, Canada"
   },
   "COBEQUID LOWER SACKVILLE": {
     "lat": 44.7535276,
@@ -2476,6 +2488,12 @@
     "lon": -63.816032,
     "precision": "approximate_geocode",
     "query": "POCKWOCK RD, UPPER HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "POINT CLAM BAY": {
+    "lat": 44.7310764,
+    "lon": -62.9188513,
+    "precision": "approximate_geocode",
+    "query": "POINT RD, CLAM BAY, Halifax, Nova Scotia, Canada"
   },
   "POLARA LOWER SACKVILLE": {
     "lat": 44.7804768,
