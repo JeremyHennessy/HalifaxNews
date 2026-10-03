@@ -341,6 +341,12 @@
     "precision": "approximate_geocode",
     "query": "BELLEFONTAINE RD, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "BENTLY": {
+    "lat": 44.6484387,
+    "lon": -63.6558578,
+    "precision": "approximate_geocode",
+    "query": "BENTLY DR, HALIFAX, Nova Scotia, Canada"
+  },
   "BENVIEW": {
     "lat": 44.6770651,
     "lon": -63.5546632,
@@ -496,6 +502,12 @@
     "lon": -63.6894424,
     "precision": "approximate_geocode",
     "query": "BRUCE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "BRULE": {
+    "lat": 44.683927,
+    "lon": -63.5863785,
+    "precision": "approximate_geocode",
+    "query": "BRULE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "BRUNSWICK": {
     "lat": 44.6481011,
@@ -1798,6 +1810,12 @@
     "lon": -63.6765163,
     "precision": "approximate_geocode",
     "query": "KINSAC RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
+  "KINSAC KINSAC": {
+    "lat": 44.8453989,
+    "lon": -63.6765163,
+    "precision": "approximate_geocode",
+    "query": "KINSAC RD, KINSAC, Halifax, Nova Scotia, Canada"
   },
   "KIPAWA CRES HAMMONDS PLAINS": {
     "lat": 44.7453852,
