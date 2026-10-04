@@ -119,6 +119,12 @@
     "precision": "approximate_geocode",
     "query": "ARBOR WAY, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "ARGYLE": {
+    "lat": 44.6460809,
+    "lon": -63.5743001,
+    "precision": "approximate_geocode",
+    "query": "ARGYLE ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ARLINGTON": {
     "lat": 44.6448704,
     "lon": -63.6352294,
@@ -935,6 +941,12 @@
     "precision": "approximate_geocode",
     "query": "CROSS RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CROWNRIDGE BEDFORD": {
+    "lat": 44.7085604,
+    "lon": -63.7016355,
+    "precision": "approximate_geocode",
+    "query": "CROWNRIDGE DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "CUNARD": {
     "lat": 44.6502208,
     "lon": -63.5952106,
@@ -1558,6 +1570,12 @@
     "lon": -63.2556912,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 7 HEAD OF JEDDORE": {
+    "lat": 44.7798777,
+    "lon": -63.0946242,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, HEAD OF JEDDORE, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 7 LAKE CHARLOTTE": {
     "lat": 44.7745705,
@@ -2332,6 +2350,12 @@
     "lon": -63.7033312,
     "precision": "approximate_geocode",
     "query": "OLD SACKVILLE RD, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "OLD SAMBRO": {
+    "lat": 44.6172141,
+    "lon": -63.6216344,
+    "precision": "approximate_geocode",
+    "query": "OLD SAMBRO RD, HALIFAX, Nova Scotia, Canada"
   },
   "OLD SAMBRO SAMBRO": {
     "lat": 44.4886461,
@@ -3298,6 +3322,12 @@
     "lon": -63.4699293,
     "precision": "approximate_geocode",
     "query": "WILMINGTON CRT, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "WILMOT LOWER SACKVILLE": {
+    "lat": 44.7681016,
+    "lon": -63.6639168,
+    "precision": "approximate_geocode",
+    "query": "WILMOT ST, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "WINDCREST TERR": {
     "lat": 44.6532971,
