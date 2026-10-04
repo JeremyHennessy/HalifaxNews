@@ -1073,6 +1073,12 @@
     "precision": "approximate_geocode",
     "query": "DRYSDALE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "DUART FALL RIVER": {
+    "lat": 44.8231226,
+    "lon": -63.6397605,
+    "precision": "approximate_geocode",
+    "query": "DUART AVE, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "DUFFUS": {
     "lat": 44.6671906,
     "lon": -63.6064667,
@@ -1949,6 +1955,12 @@
     "precision": "approximate_geocode",
     "query": "LAKEVIEW AVE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "LAKEWOOD BROOKSIDE": {
+    "lat": 44.5549827,
+    "lon": -63.7186192,
+    "precision": "approximate_geocode",
+    "query": "LAKEWOOD DR, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
   "LANARKSHIRE CRT COLE HARBOUR": {
     "lat": 44.6807698,
     "lon": -63.4869296,
@@ -2495,6 +2507,12 @@
     "precision": "approximate_geocode",
     "query": "PEGGYS COVE RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
   },
+  "PEGGYS COVE TANTALLON": {
+    "lat": 44.6606414,
+    "lon": -63.9014597,
+    "precision": "approximate_geocode",
+    "query": "PEGGYS COVE RD, TANTALLON, Halifax, Nova Scotia, Canada"
+  },
   "PEGGYS POINT PEGGYS COVE": {
     "lat": 44.4951665,
     "lon": -63.9145881,
@@ -2698,6 +2716,12 @@
     "lon": -63.5776425,
     "precision": "approximate_geocode",
     "query": "QUEEN ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "QUINGATE PL": {
+    "lat": 44.6468739,
+    "lon": -63.5936113,
+    "precision": "approximate_geocode",
+    "query": "QUINGATE PL, HALIFAX, Nova Scotia, Canada"
   },
   "QUINPOOL": {
     "lat": 44.6430086,
@@ -3016,6 +3040,12 @@
     "lon": -63.5810733,
     "precision": "approximate_geocode",
     "query": "SPECTACLE LAKE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "SPINNAKER": {
+    "lat": 44.6367495,
+    "lon": -63.6157112,
+    "precision": "approximate_geocode",
+    "query": "SPINNAKER DR, HALIFAX, Nova Scotia, Canada"
   },
   "SPRING GARDEN": {
     "lat": 44.6437582,
