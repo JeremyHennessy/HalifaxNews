@@ -1709,6 +1709,12 @@
     "precision": "approximate_geocode",
     "query": "JEEP CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "JOFFRE": {
+    "lat": 44.6715155,
+    "lon": -63.5507685,
+    "precision": "approximate_geocode",
+    "query": "JOFFRE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "JOHN BRACKETT HERRING COVE": {
     "lat": 44.5727853,
     "lon": -63.55748,
@@ -2278,6 +2284,12 @@
     "lon": -63.637959,
     "precision": "approximate_geocode",
     "query": "NITA LANE, HALIFAX, Nova Scotia, Canada"
+  },
+  "NIVENS": {
+    "lat": 44.6756936,
+    "lon": -63.5916108,
+    "precision": "approximate_geocode",
+    "query": "NIVENS AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "NORA BERNARD": {
     "lat": 44.6529091,
@@ -2932,6 +2944,12 @@
     "lon": -63.4788016,
     "precision": "approximate_geocode",
     "query": "SIMMONDS RD, NORTH PRESTON, Halifax, Nova Scotia, Canada"
+  },
+  "SKEENA": {
+    "lat": 44.6779873,
+    "lon": -63.531036,
+    "precision": "approximate_geocode",
+    "query": "SKEENA ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SKY GOFFS": {
     "lat": 44.8667892,
