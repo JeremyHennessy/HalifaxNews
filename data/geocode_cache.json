@@ -2597,6 +2597,12 @@
     "precision": "approximate_geocode",
     "query": "POLARA DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "PONDEROSA LAKE ECHO": {
+    "lat": 44.7356141,
+    "lon": -63.3833511,
+    "precision": "approximate_geocode",
+    "query": "PONDEROSA DR, LAKE ECHO, Halifax, Nova Scotia, Canada"
+  },
   "PONDICHERRY CRES": {
     "lat": 44.6830377,
     "lon": -63.4992429,
