@@ -2447,11 +2447,23 @@
     "precision": "approximate_geocode",
     "query": "PARKVIEW DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "PATRICIA PL LAKE ECHO": {
+    "lat": 44.738674,
+    "lon": -63.3930108,
+    "precision": "approximate_geocode",
+    "query": "PATRICIA PL, LAKE ECHO, Halifax, Nova Scotia, Canada"
+  },
   "PATTON UPPER SACKVILLE": {
     "lat": 44.8124982,
     "lon": -63.7569817,
     "precision": "approximate_geocode",
     "query": "PATTON RD, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "PEACHTREE HILL": {
+    "lat": 44.659365,
+    "lon": -63.5246096,
+    "precision": "approximate_geocode",
+    "query": "PEACHTREE HILL, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "PEARSON HEAD OF CHEZZETCOOK": {
     "lat": 44.7551538,
@@ -3298,6 +3310,12 @@
     "lon": -63.6603602,
     "precision": "approximate_geocode",
     "query": "WENTWORTH DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "WEST JEDDORE WEST JEDDORE": {
+    "lat": 44.7048126,
+    "lon": -63.0182203,
+    "precision": "approximate_geocode",
+    "query": "WEST JEDDORE RD, WEST JEDDORE, Halifax, Nova Scotia, Canada"
   },
   "WEST PORTERS LAKE WEST PORTERS LAKE": {
     "lat": 44.6837028,
