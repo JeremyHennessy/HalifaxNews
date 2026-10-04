@@ -1457,6 +1457,12 @@
     "precision": "approximate_geocode",
     "query": "HIGGINS AVE, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "HIGGINSVILLE BROOKVALE": {
+    "lat": 45.0422673,
+    "lon": -63.0851618,
+    "precision": "approximate_geocode",
+    "query": "HIGGINSVILLE RD, BROOKVALE, Halifax, Nova Scotia, Canada"
+  },
   "HIGH FALL RIVER": {
     "lat": 44.8279341,
     "lon": -63.6169159,
@@ -2968,6 +2974,12 @@
     "lon": -63.5783674,
     "precision": "approximate_geocode",
     "query": "SOUTH PARK ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "SOUTH SOUTH SECTION": {
+    "lat": 45.019093,
+    "lon": -63.1478979,
+    "precision": "approximate_geocode",
+    "query": "SOUTH RD, SOUTH SECTION, Halifax, Nova Scotia, Canada"
   },
   "SPECTACLE LAKE": {
     "lat": 44.7011044,
