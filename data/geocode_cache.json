@@ -581,6 +581,12 @@
     "precision": "approximate_geocode",
     "query": "CANDY MOUNTAIN RD, MINEVILLE, Halifax, Nova Scotia, Canada"
   },
+  "CARDIFF PL": {
+    "lat": 44.6553993,
+    "lon": -63.5878346,
+    "precision": "approximate_geocode",
+    "query": "CARDIFF PL, HALIFAX, Nova Scotia, Canada"
+  },
   "CARLETON": {
     "lat": 44.6369927,
     "lon": -63.5263148,
@@ -1925,6 +1931,12 @@
     "precision": "approximate_geocode",
     "query": "LAKE RD, HATCHET LAKE, Halifax, Nova Scotia, Canada"
   },
+  "LAKE LOON LAKE LOON": {
+    "lat": 44.7096791,
+    "lon": -63.4922653,
+    "precision": "approximate_geocode",
+    "query": "LAKE LOON RD, LAKE LOON, Halifax, Nova Scotia, Canada"
+  },
   "LAKECREST": {
     "lat": 44.682929,
     "lon": -63.5393671,
@@ -2458,6 +2470,12 @@
     "lon": -63.6973917,
     "precision": "approximate_geocode",
     "query": "PARKVIEW DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "PARKWAY COLE HARBOUR": {
+    "lat": 44.6468195,
+    "lon": -63.4695543,
+    "precision": "approximate_geocode",
+    "query": "PARKWAY DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "PATRICIA PL LAKE ECHO": {
     "lat": 44.738674,
