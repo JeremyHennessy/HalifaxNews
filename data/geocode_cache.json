@@ -719,6 +719,12 @@
     "precision": "approximate_geocode",
     "query": "CHESAPEAKE RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "CHIPSTONE CL": {
+    "lat": 44.6692582,
+    "lon": -63.6633464,
+    "precision": "approximate_geocode",
+    "query": "CHIPSTONE CL, HALIFAX, Nova Scotia, Canada"
+  },
   "CHOCOLATE LAKE": {
     "lat": 44.6382059,
     "lon": -63.6209343,
@@ -1205,6 +1211,12 @@
     "precision": "approximate_geocode",
     "query": "FIDDLE PKY, HATCHET LAKE, Halifax, Nova Scotia, Canada"
   },
+  "FIDDLERS GRN COLE HARBOUR": {
+    "lat": 44.6610715,
+    "lon": -63.4873696,
+    "precision": "approximate_geocode",
+    "query": "FIDDLERS GRN, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "FINDLAY CONROD SETTLEMENT": {
     "lat": 44.7669566,
     "lon": -63.2452748,
@@ -1252,6 +1264,12 @@
     "lon": -63.4918596,
     "precision": "approximate_geocode",
     "query": "FOREST HILLS PKY, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "FRANCIE WILLIAMSWOOD": {
+    "lat": 44.5309094,
+    "lon": -63.6431278,
+    "precision": "approximate_geocode",
+    "query": "FRANCIE DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
   },
   "FRANKIE BEAVER BANK": {
     "lat": 44.7971734,
@@ -1642,6 +1660,12 @@
     "lon": -63.5992914,
     "precision": "approximate_geocode",
     "query": "HOLLAND RD, FLETCHERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "HOLLIS": {
+    "lat": 44.6467802,
+    "lon": -63.5724028,
+    "precision": "approximate_geocode",
+    "query": "HOLLIS ST, HALIFAX, Nova Scotia, Canada"
   },
   "HORIZON CRT": {
     "lat": 44.6880341,
