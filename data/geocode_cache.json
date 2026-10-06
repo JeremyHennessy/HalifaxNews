@@ -887,6 +887,12 @@
     "precision": "approximate_geocode",
     "query": "CONVOY RUN, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "CORBETT COOKS BROOK": {
+    "lat": 45.0256568,
+    "lon": -63.3007982,
+    "precision": "approximate_geocode",
+    "query": "CORBETT RD, COOKS BROOK, Halifax, Nova Scotia, Canada"
+  },
   "CORK": {
     "lat": 44.6533851,
     "lon": -63.6096112,
@@ -1793,6 +1799,12 @@
     "precision": "approximate_geocode",
     "query": "JOHN BRACKETT DR, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
+  "JOHN CROSS LAKE ECHO": {
+    "lat": 44.7300339,
+    "lon": -63.4026473,
+    "precision": "approximate_geocode",
+    "query": "JOHN CROSS DR, LAKE ECHO, Halifax, Nova Scotia, Canada"
+  },
   "JOSEPH HOWE": {
     "lat": 44.6495745,
     "lon": -63.6304869,
@@ -1972,6 +1984,12 @@
     "lon": -63.5223302,
     "precision": "approximate_geocode",
     "query": "KRAUSE CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "LA PIERRE CRES": {
+    "lat": 44.6838721,
+    "lon": -63.5056734,
+    "precision": "approximate_geocode",
+    "query": "LA PIERRE CRES, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "LACEWOOD": {
     "lat": 44.6639572,
@@ -2170,6 +2188,12 @@
     "lon": -63.4972858,
     "precision": "approximate_geocode",
     "query": "MAIN RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "MAPLEWOOD TIMBERLEA": {
+    "lat": 44.6558791,
+    "lon": -63.7378271,
+    "precision": "approximate_geocode",
+    "query": "MAPLEWOOD DR, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "MARGARETS BAY HEAD OF MARGARETS BAY": {
     "lat": 44.6945036,
