@@ -83,6 +83,12 @@
     "precision": "approximate_geocode",
     "query": "ALDERNEY DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ALEX NORTH PRESTON": {
+    "lat": 44.7488355,
+    "lon": -63.4663543,
+    "precision": "approximate_geocode",
+    "query": "ALEX LANE, NORTH PRESTON, Halifax, Nova Scotia, Canada"
+  },
   "ALMON": {
     "lat": 44.6577972,
     "lon": -63.5981735,
@@ -424,6 +430,12 @@
     "lon": -63.4763781,
     "precision": "approximate_geocode",
     "query": "BLOSSOM CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "BLUE MOUNTAIN HAMMONDS PLAINS": {
+    "lat": 44.7115447,
+    "lon": -63.726718,
+    "precision": "approximate_geocode",
+    "query": "BLUE MOUNTAIN DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "BOONDOCKS WEST PORTERS LAKE": {
     "lat": 44.6868065,
@@ -1181,6 +1193,12 @@
     "precision": "approximate_geocode",
     "query": "EVERWOOD AVE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "FAIRMOUNT": {
+    "lat": 44.6409439,
+    "lon": -63.621409,
+    "precision": "approximate_geocode",
+    "query": "FAIRMOUNT RD, HALIFAX, Nova Scotia, Canada"
+  },
   "FALKLAND": {
     "lat": 44.6510458,
     "lon": -63.5835061,
@@ -1703,6 +1721,12 @@
     "precision": "approximate_geocode",
     "query": "INDIGO WALK, HALIFAX, Nova Scotia, Canada"
   },
+  "IONEY HILL BEAVER BANK": {
+    "lat": 44.8025805,
+    "lon": -63.6858252,
+    "precision": "approximate_geocode",
+    "query": "IONEY HILL, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "ISELEY DUTCH SETTLEMENT": {
     "lat": 44.9798347,
     "lon": -63.461845,
@@ -2152,6 +2176,12 @@
     "lon": -63.7594235,
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "MARGINAL": {
+    "lat": 44.6410527,
+    "lon": -63.567467,
+    "precision": "approximate_geocode",
+    "query": "MARGINAL RD, HALIFAX, Nova Scotia, Canada"
   },
   "MARKETWAY TIMBERLEA": {
     "lat": 44.6369964,
