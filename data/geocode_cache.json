@@ -527,6 +527,12 @@
     "precision": "approximate_geocode",
     "query": "BRULE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "BRUNELLO TIMBERLEA": {
+    "lat": 44.6449011,
+    "lon": -63.7259489,
+    "precision": "approximate_geocode",
+    "query": "BRUNELLO BLVD, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "BRUNSWICK": {
     "lat": 44.6481011,
     "lon": -63.5774749,
@@ -1150,6 +1156,12 @@
     "lon": -63.7134962,
     "precision": "approximate_geocode",
     "query": "EDGETT DR, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "EDWARD": {
+    "lat": 44.6415192,
+    "lon": -63.5887862,
+    "precision": "approximate_geocode",
+    "query": "EDWARD ST, HALIFAX, Nova Scotia, Canada"
   },
   "EDWARD ARAB": {
     "lat": 44.6489553,
@@ -2549,6 +2561,12 @@
     "precision": "approximate_geocode",
     "query": "PEACHTREE HILL, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "PEAKVIEW WAY": {
+    "lat": 44.6988308,
+    "lon": -63.6870921,
+    "precision": "approximate_geocode",
+    "query": "PEAKVIEW WAY, HALIFAX, Nova Scotia, Canada"
+  },
   "PEARSON HEAD OF CHEZZETCOOK": {
     "lat": 44.7551538,
     "lon": -63.2303746,
@@ -2746,6 +2764,12 @@
     "lon": -63.7909462,
     "precision": "approximate_geocode",
     "query": "PROSPECT BAY RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
+  },
+  "PROSPECT BAYSIDE": {
+    "lat": 44.5273925,
+    "lon": -63.807373,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT RD, BAYSIDE, Halifax, Nova Scotia, Canada"
   },
   "PROSPECT BEECHVILLE": {
     "lat": 44.6298529,
