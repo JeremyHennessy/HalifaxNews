@@ -611,6 +611,12 @@
     "precision": "approximate_geocode",
     "query": "CARLETON ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CARRIAGEWAY CRES": {
+    "lat": 44.6710194,
+    "lon": -63.6135421,
+    "precision": "approximate_geocode",
+    "query": "CARRIAGEWAY CRES, HALIFAX, Nova Scotia, Canada"
+  },
   "CARRIE CRES BEAVER BANK": {
     "lat": 44.8279996,
     "lon": -63.6837235,
@@ -1385,6 +1391,12 @@
     "precision": "approximate_geocode",
     "query": "GRAFTON ST, HALIFAX, Nova Scotia, Canada"
   },
+  "GRANVILLE": {
+    "lat": 44.64739,
+    "lon": -63.5734442,
+    "precision": "approximate_geocode",
+    "query": "GRANVILLE ST, HALIFAX, Nova Scotia, Canada"
+  },
   "GREENPARK CL": {
     "lat": 44.6537474,
     "lon": -63.6666148,
@@ -1690,6 +1702,12 @@
     "lon": -63.486469,
     "precision": "approximate_geocode",
     "query": "HINES RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "HOGAN CRT BEDFORD": {
+    "lat": 44.6978522,
+    "lon": -63.691948,
+    "precision": "approximate_geocode",
+    "query": "HOGAN CRT, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "HOLLAND FLETCHERS LAKE": {
     "lat": 44.8504542,
