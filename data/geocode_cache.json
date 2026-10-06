@@ -95,6 +95,12 @@
     "precision": "approximate_geocode",
     "query": "ALMON ST, HALIFAX, Nova Scotia, Canada"
   },
+  "ALPS PORTERS LAKE": {
+    "lat": 44.7493661,
+    "lon": -63.2975081,
+    "precision": "approximate_geocode",
+    "query": "ALPS RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "ANCONA PL": {
     "lat": 44.6996696,
     "lon": -63.5413017,
@@ -1109,6 +1115,12 @@
     "precision": "approximate_geocode",
     "query": "DOYLE DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "DRESDEN ROW": {
+    "lat": 44.6409812,
+    "lon": -63.5769451,
+    "precision": "approximate_geocode",
+    "query": "DRESDEN ROW, HALIFAX, Nova Scotia, Canada"
+  },
   "DRYSDALE": {
     "lat": 44.606829,
     "lon": -63.6136058,
@@ -1841,6 +1853,12 @@
     "precision": "approximate_geocode",
     "query": "JULIUS BLVD, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "JUNIPER CRES EASTERN PASSAGE": {
+    "lat": 44.618119,
+    "lon": -63.4704336,
+    "precision": "approximate_geocode",
+    "query": "JUNIPER CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "KARELS FALL RIVER": {
     "lat": 44.8177787,
     "lon": -63.6213295,
@@ -2242,6 +2260,12 @@
     "lon": -63.7201087,
     "precision": "approximate_geocode",
     "query": "MARKETWAY LANE, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "MARLBOROUGH": {
+    "lat": 44.6312236,
+    "lon": -63.5837359,
+    "precision": "approximate_geocode",
+    "query": "MARLBOROUGH AVE, HALIFAX, Nova Scotia, Canada"
   },
   "MARY JOLLIMORE TERENCE BAY": {
     "lat": 44.4752745,
@@ -2891,6 +2915,12 @@
     "precision": "approximate_geocode",
     "query": "RAYMOOR DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "RED FERN TERR": {
+    "lat": 44.6704418,
+    "lon": -63.671412,
+    "precision": "approximate_geocode",
+    "query": "RED FERN TERR, HALIFAX, Nova Scotia, Canada"
+  },
   "REDMONDS SEABRIGHT": {
     "lat": 44.5977804,
     "lon": -63.9266629,
@@ -3460,6 +3490,12 @@
     "lon": -63.7347796,
     "precision": "approximate_geocode",
     "query": "WATERSTONE RUN, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "WATT": {
+    "lat": 44.6405507,
+    "lon": -63.5919755,
+    "precision": "approximate_geocode",
+    "query": "WATT ST, HALIFAX, Nova Scotia, Canada"
   },
   "WEDGEWOOD": {
     "lat": 44.6794213,
