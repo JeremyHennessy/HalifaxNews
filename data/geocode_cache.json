@@ -137,6 +137,12 @@
     "precision": "approximate_geocode",
     "query": "ARGYLE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "ARKLOW COLE HARBOUR": {
+    "lat": 44.6796977,
+    "lon": -63.4839567,
+    "precision": "approximate_geocode",
+    "query": "ARKLOW DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "ARLINGTON": {
     "lat": 44.6448704,
     "lon": -63.6352294,
@@ -1103,6 +1109,12 @@
     "precision": "approximate_geocode",
     "query": "DOOKS LANE, HEAD OF JEDDORE, Halifax, Nova Scotia, Canada"
   },
+  "DOROTHEA": {
+    "lat": 44.6767986,
+    "lon": -63.5053705,
+    "precision": "approximate_geocode",
+    "query": "DOROTHEA DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "DOWNTOWN": {
     "lat": 44.6461752,
     "lon": -63.5725221,
@@ -1451,6 +1463,12 @@
     "precision": "approximate_geocode",
     "query": "HALEF CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "HAMLET": {
+    "lat": 44.6683036,
+    "lon": -63.5367885,
+    "precision": "approximate_geocode",
+    "query": "HAMLET LANE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "HAMMONDS PLAINS HAMMONDS PLAINS": {
     "lat": 44.7349786,
     "lon": -63.8013291,
@@ -1768,6 +1786,12 @@
     "lon": -63.6140906,
     "precision": "approximate_geocode",
     "query": "INDIGO WALK, HALIFAX, Nova Scotia, Canada"
+  },
+  "INNOVATION BEDFORD": {
+    "lat": 44.725226,
+    "lon": -63.6958053,
+    "precision": "approximate_geocode",
+    "query": "INNOVATION DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "IONEY HILL BEAVER BANK": {
     "lat": 44.8025805,
@@ -2464,6 +2488,12 @@
     "lon": -63.591529,
     "precision": "approximate_geocode",
     "query": "NORTH ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "NORTH PRESTON NORTH PRESTON": {
+    "lat": 44.7245168,
+    "lon": -63.4653816,
+    "precision": "approximate_geocode",
+    "query": "NORTH PRESTON RD, NORTH PRESTON, Halifax, Nova Scotia, Canada"
   },
   "NOTTING HILL MINEVILLE": {
     "lat": 44.6981612,
