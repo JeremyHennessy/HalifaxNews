@@ -707,6 +707,12 @@
     "precision": "approximate_geocode",
     "query": "CHAIN LAKE DR, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "CHALAMONT HAMMONDS PLAINS": {
+    "lat": 44.7210019,
+    "lon": -63.8256446,
+    "precision": "approximate_geocode",
+    "query": "CHALAMONT DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "CHAMEAU CRES COLE HARBOUR": {
     "lat": 44.6810562,
     "lon": -63.4902744,
@@ -1745,6 +1751,12 @@
     "precision": "approximate_geocode",
     "query": "HINES RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "HOBSONS LAKE BEECHVILLE": {
+    "lat": 44.6438474,
+    "lon": -63.6793617,
+    "precision": "approximate_geocode",
+    "query": "HOBSONS LAKE DR, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
   "HOGAN CRT BEDFORD": {
     "lat": 44.6978522,
     "lon": -63.691948,
@@ -2242,6 +2254,12 @@
     "lon": -63.9319198,
     "precision": "approximate_geocode",
     "query": "MACDONALD POINT RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
+  },
+  "MADELINE LOWER SACKVILLE": {
+    "lat": 44.7638907,
+    "lon": -63.681472,
+    "precision": "approximate_geocode",
+    "query": "MADELINE AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "MAGENTA MIDDLE SACKVILLE": {
     "lat": 44.781139,
