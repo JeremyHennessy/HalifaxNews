@@ -3203,6 +3203,12 @@
     "precision": "approximate_geocode",
     "query": "SIMMONDS RD, NORTH PRESTON, Halifax, Nova Scotia, Canada"
   },
+  "SIXTH LUCASVILLE": {
+    "lat": 44.749758,
+    "lon": -63.7430245,
+    "precision": "approximate_geocode",
+    "query": "SIXTH ST, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
   "SKEENA": {
     "lat": 44.6779873,
     "lon": -63.531036,
@@ -3412,6 +3418,12 @@
     "lon": -63.6843037,
     "precision": "approximate_geocode",
     "query": "THORN AVE, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
+  "THORNHILL": {
+    "lat": 44.6947556,
+    "lon": -63.5930948,
+    "precision": "approximate_geocode",
+    "query": "THORNHILL DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "TIDEWINDS EASTERN PASSAGE": {
     "lat": 44.6142543,
