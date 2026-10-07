@@ -1091,6 +1091,12 @@
     "precision": "approximate_geocode",
     "query": "DICKEY DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "DOCKSIDE PORTERS LAKE": {
+    "lat": 44.760053,
+    "lon": -63.3295376,
+    "precision": "approximate_geocode",
+    "query": "DOCKSIDE LANE, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "DONALDSON": {
     "lat": 44.6785395,
     "lon": -63.6667076,
@@ -1636,6 +1642,12 @@
     "lon": -63.6047432,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 2, WELLINGTON, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 207 GRAND DESERT": {
+    "lat": 44.6928153,
+    "lon": -63.2549398,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 207, GRAND DESERT, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 207 WEST CHEZZETCOOK": {
     "lat": 44.7056905,
@@ -2422,6 +2434,12 @@
     "lon": -63.5082188,
     "precision": "approximate_geocode",
     "query": "MOUNT EDWARD RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "MOUNTAIN VIEW LAKE ECHO": {
+    "lat": 44.7470526,
+    "lon": -63.3837639,
+    "precision": "approximate_geocode",
+    "query": "MOUNTAIN VIEW DR, LAKE ECHO, Halifax, Nova Scotia, Canada"
   },
   "MYRA PORTERS LAKE": {
     "lat": 44.7589583,
@@ -3455,6 +3473,12 @@
     "precision": "approximate_geocode",
     "query": "VAL ST, HALIFAX, Nova Scotia, Canada"
   },
+  "VEITH": {
+    "lat": 44.6653884,
+    "lon": -63.5966257,
+    "precision": "approximate_geocode",
+    "query": "VEITH ST, HALIFAX, Nova Scotia, Canada"
+  },
   "VERDI BEDFORD": {
     "lat": 44.7479525,
     "lon": -63.6442655,
@@ -3562,6 +3586,12 @@
     "lon": -63.318684,
     "precision": "approximate_geocode",
     "query": "WEST PORTERS LAKE RD, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "WESTERN PKY BEDFORD": {
+    "lat": 44.7216775,
+    "lon": -63.6946462,
+    "precision": "approximate_geocode",
+    "query": "WESTERN PKY, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "WESTHAVER GLEN MARGARET": {
     "lat": 44.5929609,
