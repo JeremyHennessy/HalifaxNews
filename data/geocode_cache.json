@@ -77,6 +77,12 @@
     "precision": "approximate_geocode",
     "query": "ALBEMARLE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "ALBRO LAKE": {
+    "lat": 44.6814423,
+    "lon": -63.5818316,
+    "precision": "approximate_geocode",
+    "query": "ALBRO LAKE RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "ALDERNEY": {
     "lat": 44.6664317,
     "lon": -63.5645888,
@@ -443,6 +449,12 @@
     "precision": "approximate_geocode",
     "query": "BLOSSOM CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "BLUE HAVEN CRES BROOKSIDE": {
+    "lat": 44.5587561,
+    "lon": -63.7182607,
+    "precision": "approximate_geocode",
+    "query": "BLUE HAVEN CRES, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
   "BLUE MOUNTAIN HAMMONDS PLAINS": {
     "lat": 44.7115447,
     "lon": -63.726718,
@@ -748,6 +760,12 @@
     "lon": -63.6168663,
     "precision": "approximate_geocode",
     "query": "CHEBUCTO RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "CHELSEA": {
+    "lat": 44.6571354,
+    "lon": -63.6526563,
+    "precision": "approximate_geocode",
+    "query": "CHELSEA LANE, HALIFAX, Nova Scotia, Canada"
   },
   "CHERRY BROOK CHERRY BROOK": {
     "lat": 44.7069344,
@@ -1492,6 +1510,12 @@
     "lon": -63.4966781,
     "precision": "approximate_geocode",
     "query": "HANNEBURY DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "HARTFORD LOWER SACKVILLE": {
+    "lat": 44.7611596,
+    "lon": -63.6788882,
+    "precision": "approximate_geocode",
+    "query": "HARTFORD DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "HARVEY": {
     "lat": 44.6404338,
