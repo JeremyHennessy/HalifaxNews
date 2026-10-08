@@ -131,6 +131,12 @@
     "precision": "approximate_geocode",
     "query": "ANGUS L MACDONALD BRDG, HALIFAX, Nova Scotia, Canada"
   },
+  "APPALOOSA RUN HAMMONDS PLAINS": {
+    "lat": 44.7256734,
+    "lon": -63.7478586,
+    "precision": "approximate_geocode",
+    "query": "APPALOOSA RUN, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "AQUAVISTA": {
     "lat": 44.6584491,
     "lon": -63.4984292,
@@ -2471,6 +2477,12 @@
     "precision": "approximate_geocode",
     "query": "MILLWOOD DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "MINES EAST CHEZZETCOOK": {
+    "lat": 44.7292673,
+    "lon": -63.214041,
+    "precision": "approximate_geocode",
+    "query": "MINES RD, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "MINEVILLE MINEVILLE": {
     "lat": 44.6816404,
     "lon": -63.3825178,
@@ -2764,6 +2776,12 @@
     "lon": -63.2303746,
     "precision": "approximate_geocode",
     "query": "PEARSON DR, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "PEBBLECREEK CRES": {
+    "lat": 44.6601723,
+    "lon": -63.4990742,
+    "precision": "approximate_geocode",
+    "query": "PEBBLECREEK CRES, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "PEGGYS COVE GLEN HAVEN": {
     "lat": 44.6606414,
@@ -3598,6 +3616,12 @@
     "lon": -63.6442655,
     "precision": "approximate_geocode",
     "query": "VERDI DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "VICKY CRES EASTERN PASSAGE": {
+    "lat": 44.6108564,
+    "lon": -63.465014,
+    "precision": "approximate_geocode",
+    "query": "VICKY CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "VICTORIA": {
     "lat": 44.6363866,
