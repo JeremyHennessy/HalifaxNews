@@ -389,6 +389,12 @@
     "precision": "approximate_geocode",
     "query": "BERNICE DR, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "BETTY JANE CRT": {
+    "lat": 44.6687058,
+    "lon": -63.5177945,
+    "precision": "approximate_geocode",
+    "query": "BETTY JANE CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "BIRCH HILL CRT MIDDLE SACKVILLE": {
     "lat": 44.8131318,
     "lon": -63.725044,
@@ -1745,6 +1751,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, LAKE ECHO, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 7 MUSQUODOBOIT HARBOUR": {
+    "lat": 44.7823274,
+    "lon": -63.1851934,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, MUSQUODOBOIT HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 7 PORTERS LAKE": {
     "lat": 44.7377872,
     "lon": -63.3092792,
@@ -2218,6 +2230,12 @@
     "lon": -63.2737248,
     "precision": "approximate_geocode",
     "query": "LES COLLINS AVE, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "LINCOLN CRSS": {
+    "lat": 44.666074,
+    "lon": -63.6584503,
+    "precision": "approximate_geocode",
+    "query": "LINCOLN CRSS, HALIFAX, Nova Scotia, Canada"
   },
   "LOCHMOOR LAKE LOON": {
     "lat": 44.7103461,
@@ -2807,6 +2825,12 @@
     "precision": "approximate_geocode",
     "query": "PINEHILL DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "PINETREE CRES HAMMONDS PLAINS": {
+    "lat": 44.7165504,
+    "lon": -63.8273829,
+    "precision": "approximate_geocode",
+    "query": "PINETREE CRES, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "PLATEAU CRES": {
     "lat": 44.6613669,
     "lon": -63.6424697,
@@ -2902,6 +2926,12 @@
     "lon": -63.542093,
     "precision": "approximate_geocode",
     "query": "PRATT AND WHITNEY DR, GOFFS, Halifax, Nova Scotia, Canada"
+  },
+  "PRESCOTT": {
+    "lat": 44.663481,
+    "lon": -63.6098501,
+    "precision": "approximate_geocode",
+    "query": "PRESCOTT ST, HALIFAX, Nova Scotia, Canada"
   },
   "PRIMROSE": {
     "lat": 44.684797,
@@ -3184,6 +3214,12 @@
     "lon": -63.6079628,
     "precision": "approximate_geocode",
     "query": "SEAPOINT RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "SECOND": {
+    "lat": 44.6855539,
+    "lon": -63.542703,
+    "precision": "approximate_geocode",
+    "query": "SECOND ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SEDGEWICK PL BEDFORD": {
     "lat": 44.7042606,
