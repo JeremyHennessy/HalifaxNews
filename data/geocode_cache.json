@@ -113,6 +113,12 @@
     "precision": "approximate_geocode",
     "query": "ANCONA PL, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ANDERSON UPPER HAMMONDS PLAINS": {
+    "lat": 44.7479563,
+    "lon": -63.8511477,
+    "precision": "approximate_geocode",
+    "query": "ANDERSON RD, UPPER HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "ANDREW": {
     "lat": 44.6568704,
     "lon": -63.6312799,
@@ -1499,6 +1505,12 @@
     "precision": "approximate_geocode",
     "query": "HALEF CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "HALFWAY LAKE HAMMONDS PLAINS": {
+    "lat": 44.7472376,
+    "lon": -63.7892876,
+    "precision": "approximate_geocode",
+    "query": "HALFWAY LAKE DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "HAMLET": {
     "lat": 44.6683036,
     "lon": -63.5367885,
@@ -1918,6 +1930,12 @@
     "lon": -63.4026473,
     "precision": "approximate_geocode",
     "query": "JOHN CROSS DR, LAKE ECHO, Halifax, Nova Scotia, Canada"
+  },
+  "JOLLIMORE DUTCH SETTLEMENT": {
+    "lat": 44.9867869,
+    "lon": -63.4329408,
+    "precision": "approximate_geocode",
+    "query": "JOLLIMORE RD, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
   },
   "JOSEPH HOWE": {
     "lat": 44.6495745,
@@ -3478,6 +3496,12 @@
     "lon": -63.5734646,
     "precision": "approximate_geocode",
     "query": "THISTLE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "THOMAS LAKE ECHO": {
+    "lat": 44.7342706,
+    "lon": -63.3955874,
+    "precision": "approximate_geocode",
+    "query": "THOMAS ST, LAKE ECHO, Halifax, Nova Scotia, Canada"
   },
   "THOMAS RADDALL": {
     "lat": 44.658941,
