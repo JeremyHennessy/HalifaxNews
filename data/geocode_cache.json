@@ -293,6 +293,12 @@
     "precision": "approximate_geocode",
     "query": "BARRY ALLEN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "BARRY CRES HERRING COVE": {
+    "lat": 44.584378,
+    "lon": -63.5863385,
+    "precision": "approximate_geocode",
+    "query": "BARRY CRES, HERRING COVE, Halifax, Nova Scotia, Canada"
+  },
   "BASINVIEW BEDFORD": {
     "lat": 44.7262753,
     "lon": -63.6822445,
@@ -1715,6 +1721,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 102, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 103 BEECHVILLE": {
+    "lat": 44.6394116,
+    "lon": -63.6587553,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 103, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 103 TIMBERLEA": {
     "lat": 44.6413671,
     "lon": -63.7362999,
@@ -1882,6 +1894,12 @@
     "lon": -63.6162375,
     "precision": "approximate_geocode",
     "query": "HOROBIN DR, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
+  "HOUDA CRT": {
+    "lat": 44.675249,
+    "lon": -63.6494712,
+    "precision": "approximate_geocode",
+    "query": "HOUDA CRT, HALIFAX, Nova Scotia, Canada"
   },
   "HOWARD EASTERN PASSAGE": {
     "lat": 44.6258009,
