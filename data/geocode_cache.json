@@ -1049,6 +1049,12 @@
     "precision": "approximate_geocode",
     "query": "CRESTWOOD PL, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "CRICHTON": {
+    "lat": 44.6727784,
+    "lon": -63.5646088,
+    "precision": "approximate_geocode",
+    "query": "CRICHTON AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CRIMSON LOWER SACKVILLE": {
     "lat": 44.7721556,
     "lon": -63.6565189,
@@ -1600,6 +1606,12 @@
     "lon": -63.5650586,
     "precision": "approximate_geocode",
     "query": "HEBRIDEAN DR, HERRING COVE, Halifax, Nova Scotia, Canada"
+  },
+  "HECTOR GATE": {
+    "lat": 44.7019923,
+    "lon": -63.5641531,
+    "precision": "approximate_geocode",
+    "query": "HECTOR GATE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "HEMLOCK UPPER TANTALLON": {
     "lat": 44.7230234,
