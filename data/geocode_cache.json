@@ -863,6 +863,12 @@
     "precision": "approximate_geocode",
     "query": "CLAYMORE AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "CLEARVIEW BEDFORD": {
+    "lat": 44.7295758,
+    "lon": -63.6748532,
+    "precision": "approximate_geocode",
+    "query": "CLEARVIEW DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "CLERMONT CRES COLE HARBOUR": {
     "lat": 44.6771228,
     "lon": -63.4883061,
@@ -2171,6 +2177,12 @@
     "precision": "approximate_geocode",
     "query": "LAHEY RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "LAKE CHARLES": {
+    "lat": 44.7272322,
+    "lon": -63.5465588,
+    "precision": "approximate_geocode",
+    "query": "LAKE CHARLES DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "LAKE HATCHET LAKE": {
     "lat": 44.5682549,
     "lon": -63.7211158,
@@ -2627,6 +2639,12 @@
     "precision": "approximate_geocode",
     "query": "NORTH ST, HALIFAX, Nova Scotia, Canada"
   },
+  "NORTH PARK": {
+    "lat": 44.6503833,
+    "lon": -63.5862189,
+    "precision": "approximate_geocode",
+    "query": "NORTH PARK ST, HALIFAX, Nova Scotia, Canada"
+  },
   "NORTH PRESTON NORTH PRESTON": {
     "lat": 44.7245168,
     "lon": -63.4653816,
@@ -2722,6 +2740,12 @@
     "lon": -63.5990359,
     "precision": "approximate_geocode",
     "query": "ONYX CRES, HALIFAX, Nova Scotia, Canada"
+  },
+  "ORCADIAN CRT WESTPHAL": {
+    "lat": 44.6898201,
+    "lon": -63.4926767,
+    "precision": "approximate_geocode",
+    "query": "ORCADIAN CRT, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "ORCHARD UPPER HAMMONDS PLAINS": {
     "lat": 44.7531963,
