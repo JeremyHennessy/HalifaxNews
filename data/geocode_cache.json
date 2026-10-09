@@ -545,6 +545,12 @@
     "precision": "approximate_geocode",
     "query": "BROADWAY ST, LAKESIDE, Halifax, Nova Scotia, Canada"
   },
+  "BROOK POINT GAETZ BROOK": {
+    "lat": 44.7611234,
+    "lon": -63.2231422,
+    "precision": "approximate_geocode",
+    "query": "BROOK POINT RD, GAETZ BROOK, Halifax, Nova Scotia, Canada"
+  },
   "BROOKSIDE BROOKSIDE": {
     "lat": 44.5528893,
     "lon": -63.7277119,
@@ -3437,6 +3443,12 @@
     "precision": "approximate_geocode",
     "query": "STONE MOUNT DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "STONEY BEACH WHITES LAKE": {
+    "lat": 44.5410166,
+    "lon": -63.7414674,
+    "precision": "approximate_geocode",
+    "query": "STONEY BEACH RD, WHITES LAKE, Halifax, Nova Scotia, Canada"
+  },
   "STRATFORD COLE HARBOUR": {
     "lat": 44.6523947,
     "lon": -63.473791,
@@ -3796,6 +3808,12 @@
     "lon": -63.5947198,
     "precision": "approximate_geocode",
     "query": "WINDMILL RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "WINDSOR JUNCTION WINDSOR JUNCTION": {
+    "lat": 44.7798221,
+    "lon": -63.6307328,
+    "precision": "approximate_geocode",
+    "query": "WINDSOR JUNCTION RD, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
   },
   "WINLEY WINDSOR JUNCTION": {
     "lat": 44.7845026,
