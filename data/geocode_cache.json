@@ -119,6 +119,12 @@
     "precision": "approximate_geocode",
     "query": "ANDERSON RD, UPPER HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "ANDOVER": {
+    "lat": 44.7035338,
+    "lon": -63.5508619,
+    "precision": "approximate_geocode",
+    "query": "ANDOVER ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "ANDREW": {
     "lat": 44.6568704,
     "lon": -63.6312799,
@@ -424,6 +430,12 @@
     "lon": -63.6540318,
     "precision": "approximate_geocode",
     "query": "BIRKDALE CRES, HALIFAX, Nova Scotia, Canada"
+  },
+  "BIRMINGHAM": {
+    "lat": 44.6412339,
+    "lon": -63.5759838,
+    "precision": "approximate_geocode",
+    "query": "BIRMINGHAM ST, HALIFAX, Nova Scotia, Canada"
   },
   "BISSETT COLE HARBOUR": {
     "lat": 44.6574924,
@@ -1114,6 +1126,12 @@
     "lon": -63.6888836,
     "precision": "approximate_geocode",
     "query": "DELLRIDGE LANE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "DELRAY CRT FALL RIVER": {
+    "lat": 44.8322474,
+    "lon": -63.5874707,
+    "precision": "approximate_geocode",
+    "query": "DELRAY CRT, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
   "DEMETREOUS": {
     "lat": 44.6740713,
@@ -2380,6 +2398,12 @@
     "lon": -63.567467,
     "precision": "approximate_geocode",
     "query": "MARGINAL RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "MARILYN": {
+    "lat": 44.6660995,
+    "lon": -63.5371334,
+    "precision": "approximate_geocode",
+    "query": "MARILYN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "MARKETWAY TIMBERLEA": {
     "lat": 44.6369964,
@@ -3820,6 +3844,12 @@
     "lon": -63.6326759,
     "precision": "approximate_geocode",
     "query": "WINLEY DR, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
+  },
+  "WOODLAWN": {
+    "lat": 44.6819491,
+    "lon": -63.5279059,
+    "precision": "approximate_geocode",
+    "query": "WOODLAWN RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "WOODLYN HAMMONDS PLAINS": {
     "lat": 44.7235735,
