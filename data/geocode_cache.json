@@ -1931,6 +1931,12 @@
     "precision": "approximate_geocode",
     "query": "INDIGO WALK, HALIFAX, Nova Scotia, Canada"
   },
+  "INGRAM FALL RIVER": {
+    "lat": 44.7915909,
+    "lon": -63.6222497,
+    "precision": "approximate_geocode",
+    "query": "INGRAM DR, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "INNOVATION BEDFORD": {
     "lat": 44.725226,
     "lon": -63.6958053,
@@ -2417,6 +2423,12 @@
     "precision": "approximate_geocode",
     "query": "MAIN RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "MAPLE EASTERN PASSAGE": {
+    "lat": 44.6290999,
+    "lon": -63.5097798,
+    "precision": "approximate_geocode",
+    "query": "MAPLE DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "MAPLEWOOD TIMBERLEA": {
     "lat": 44.6558791,
     "lon": -63.7378271,
@@ -2644,6 +2656,12 @@
     "lon": -63.6072979,
     "precision": "approximate_geocode",
     "query": "NEWTON AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "NICHOLSON LAKESIDE": {
+    "lat": 44.6386073,
+    "lon": -63.6991309,
+    "precision": "approximate_geocode",
+    "query": "NICHOLSON DR, LAKESIDE, Halifax, Nova Scotia, Canada"
   },
   "NICTAUX LOWER SACKVILLE": {
     "lat": 44.7852389,
