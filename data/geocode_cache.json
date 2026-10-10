@@ -1787,6 +1787,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 207, GRAND DESERT, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 207 SEAFORTH": {
+    "lat": 44.65809,
+    "lon": -63.2668989,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 207, SEAFORTH, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 207 WEST CHEZZETCOOK": {
     "lat": 44.7056905,
     "lon": -63.2589216,
@@ -2363,6 +2369,12 @@
     "precision": "approximate_geocode",
     "query": "LINCOLN CRSS, HALIFAX, Nova Scotia, Canada"
   },
+  "LITTLES TERENCE BAY": {
+    "lat": 44.4675544,
+    "lon": -63.7236541,
+    "precision": "approximate_geocode",
+    "query": "LITTLES RD, TERENCE BAY, Halifax, Nova Scotia, Canada"
+  },
   "LOCHMOOR LAKE LOON": {
     "lat": 44.7103461,
     "lon": -63.5151333,
@@ -2896,6 +2908,12 @@
     "lon": -63.3930108,
     "precision": "approximate_geocode",
     "query": "PATRICIA PL, LAKE ECHO, Halifax, Nova Scotia, Canada"
+  },
+  "PATTERSON COW BAY": {
+    "lat": 44.6320062,
+    "lon": -63.4282064,
+    "precision": "approximate_geocode",
+    "query": "PATTERSON RD, COW BAY, Halifax, Nova Scotia, Canada"
   },
   "PATTON UPPER SACKVILLE": {
     "lat": 44.8124982,
@@ -3587,6 +3605,12 @@
     "precision": "approximate_geocode",
     "query": "STONEY BEACH RD, WHITES LAKE, Halifax, Nova Scotia, Canada"
   },
+  "STONEYBROOK CRT": {
+    "lat": 44.6623802,
+    "lon": -63.6392753,
+    "precision": "approximate_geocode",
+    "query": "STONEYBROOK CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "STRATFORD COLE HARBOUR": {
     "lat": 44.6523947,
     "lon": -63.473791,
@@ -3886,6 +3910,12 @@
     "lon": -63.6946462,
     "precision": "approximate_geocode",
     "query": "WESTERN PKY, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "WESTGROVE PL": {
+    "lat": 44.6569377,
+    "lon": -63.6564738,
+    "precision": "approximate_geocode",
+    "query": "WESTGROVE PL, HALIFAX, Nova Scotia, Canada"
   },
   "WESTHAVER GLEN MARGARET": {
     "lat": 44.5929609,
