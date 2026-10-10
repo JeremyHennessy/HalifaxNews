@@ -875,6 +875,12 @@
     "precision": "approximate_geocode",
     "query": "CLEARVIEW DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "CLEMENT": {
+    "lat": 44.6649352,
+    "lon": -63.5448751,
+    "precision": "approximate_geocode",
+    "query": "CLEMENT ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CLERMONT CRES COLE HARBOUR": {
     "lat": 44.6771228,
     "lon": -63.4883061,
@@ -2597,6 +2603,12 @@
     "precision": "approximate_geocode",
     "query": "MOUNT EDWARD RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "MOUNT HOPE": {
+    "lat": 44.654546,
+    "lon": -63.531025,
+    "precision": "approximate_geocode",
+    "query": "MOUNT HOPE AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "MOUNTAIN VIEW LAKE ECHO": {
     "lat": 44.7470526,
     "lon": -63.3837639,
@@ -3826,6 +3838,12 @@
     "lon": -63.9161219,
     "precision": "approximate_geocode",
     "query": "WESTHAVER RD, GLEN MARGARET, Halifax, Nova Scotia, Canada"
+  },
+  "WESTMOUNT WESTPHAL": {
+    "lat": 44.6877013,
+    "lon": -63.4559588,
+    "precision": "approximate_geocode",
+    "query": "WESTMOUNT DR, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "WESTRIDGE HATCHET LAKE": {
     "lat": 44.5686739,
