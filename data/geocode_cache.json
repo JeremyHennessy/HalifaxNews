@@ -41,6 +41,12 @@
     "precision": "approximate_geocode",
     "query": "ACORN RD, HALIFAX, Nova Scotia, Canada"
   },
+  "ACRES WILLIAMSWOOD": {
+    "lat": 44.5049826,
+    "lon": -63.6429406,
+    "precision": "approximate_geocode",
+    "query": "ACRES RD, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
   "ADELAIDE": {
     "lat": 44.6546242,
     "lon": -63.6425058,
@@ -797,6 +803,12 @@
     "precision": "approximate_geocode",
     "query": "CHARLES RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "CHASWOOD COLE HARBOUR": {
+    "lat": 44.6635589,
+    "lon": -63.497093,
+    "precision": "approximate_geocode",
+    "query": "CHASWOOD DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "CHEBUCTO": {
     "lat": 44.6448606,
     "lon": -63.6168663,
@@ -1025,6 +1037,12 @@
     "precision": "approximate_geocode",
     "query": "COWIE HILL RD, HALIFAX, Nova Scotia, Canada"
   },
+  "COX LAKE HAMMONDS PLAINS": {
+    "lat": 44.7276196,
+    "lon": -63.808192,
+    "precision": "approximate_geocode",
+    "query": "COX LAKE RD, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "CRANBERRY CRES": {
     "lat": 44.681496,
     "lon": -63.4985109,
@@ -1180,6 +1198,12 @@
     "lon": -63.6658074,
     "precision": "approximate_geocode",
     "query": "DICKEY DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "DISCOVERY": {
+    "lat": 44.6845977,
+    "lon": -63.612106,
+    "precision": "approximate_geocode",
+    "query": "DISCOVERY DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "DOCKSIDE PORTERS LAKE": {
     "lat": 44.760053,
@@ -2740,6 +2764,12 @@
     "lon": -63.6363194,
     "precision": "approximate_geocode",
     "query": "OAKWOOD DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
+  "OCEANVIEW BEDFORD": {
+    "lat": 44.7071231,
+    "lon": -63.6846056,
+    "precision": "approximate_geocode",
+    "query": "OCEANVIEW DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "OCHTERLONEY": {
     "lat": 44.6695709,
