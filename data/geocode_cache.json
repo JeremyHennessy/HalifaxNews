@@ -3731,6 +3731,12 @@
     "precision": "approximate_geocode",
     "query": "VEITH ST, HALIFAX, Nova Scotia, Canada"
   },
+  "VENICE CRT": {
+    "lat": 44.699003,
+    "lon": -63.5387016,
+    "precision": "approximate_geocode",
+    "query": "VENICE CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "VERDI BEDFORD": {
     "lat": 44.7479525,
     "lon": -63.6442655,
@@ -3862,6 +3868,12 @@
     "lon": -63.4559588,
     "precision": "approximate_geocode",
     "query": "WESTMOUNT DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "WESTPOINT LUCASVILLE": {
+    "lat": 44.7714944,
+    "lon": -63.7405727,
+    "precision": "approximate_geocode",
+    "query": "WESTPOINT DR, LUCASVILLE, Halifax, Nova Scotia, Canada"
   },
   "WESTRIDGE HATCHET LAKE": {
     "lat": 44.5686739,
