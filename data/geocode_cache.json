@@ -113,6 +113,12 @@
     "precision": "approximate_geocode",
     "query": "ALPS RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "AMARANTH CRES COLE HARBOUR": {
+    "lat": 44.6765128,
+    "lon": -63.4827193,
+    "precision": "approximate_geocode",
+    "query": "AMARANTH CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "ANCONA PL": {
     "lat": 44.6996696,
     "lon": -63.5413017,
@@ -586,6 +592,12 @@
     "lon": -63.5789756,
     "precision": "approximate_geocode",
     "query": "BROWNLOW AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "BRUCE": {
+    "lat": 44.6719531,
+    "lon": -63.5308885,
+    "precision": "approximate_geocode",
+    "query": "BRUCE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "BRUCE LOWER SACKVILLE": {
     "lat": 44.7668106,
@@ -3353,6 +3365,12 @@
     "precision": "approximate_geocode",
     "query": "ROMANS AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "ROOKERY WAY MUSQUODOBOIT HARBOUR": {
+    "lat": 44.8029599,
+    "lon": -63.1584916,
+    "precision": "approximate_geocode",
+    "query": "ROOKERY WAY, MUSQUODOBOIT HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "ROSEMARY MIDDLE SACKVILLE": {
     "lat": 44.8042318,
     "lon": -63.7251302,
@@ -3832,6 +3850,12 @@
     "lon": -63.6442655,
     "precision": "approximate_geocode",
     "query": "VERDI DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "VERONICA": {
+    "lat": 44.6509636,
+    "lon": -63.6517637,
+    "precision": "approximate_geocode",
+    "query": "VERONICA DR, HALIFAX, Nova Scotia, Canada"
   },
   "VICKY CRES EASTERN PASSAGE": {
     "lat": 44.6108564,
