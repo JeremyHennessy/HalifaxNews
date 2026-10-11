@@ -869,6 +869,12 @@
     "precision": "approximate_geocode",
     "query": "CLARENCE AVE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "CLARENCE NORTH PRESTON": {
+    "lat": 44.7433538,
+    "lon": -63.4675026,
+    "precision": "approximate_geocode",
+    "query": "CLARENCE ST, NORTH PRESTON, Halifax, Nova Scotia, Canada"
+  },
   "CLAUDIA CRES MIDDLE SACKVILLE": {
     "lat": 44.7776099,
     "lon": -63.7086878,
@@ -2068,6 +2074,12 @@
     "lon": -63.6304869,
     "precision": "approximate_geocode",
     "query": "JOSEPH HOWE DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "JUDY ANNE CRT LOWER SACKVILLE": {
+    "lat": 44.7627296,
+    "lon": -63.653224,
+    "precision": "approximate_geocode",
+    "query": "JUDY ANNE CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "JUDY ANNE HEAD OF CHEZZETCOOK": {
     "lat": 44.7439467,
@@ -3448,6 +3460,12 @@
     "lon": -63.8017244,
     "precision": "approximate_geocode",
     "query": "SELIGS RD, PROSPECT, Halifax, Nova Scotia, Canada"
+  },
+  "SEROP CRES EASTERN PASSAGE": {
+    "lat": 44.6124596,
+    "lon": -63.4678725,
+    "precision": "approximate_geocode",
+    "query": "SEROP CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "SEVENTH LUCASVILLE": {
     "lat": 44.7491828,
