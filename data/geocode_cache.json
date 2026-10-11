@@ -1379,6 +1379,12 @@
     "precision": "approximate_geocode",
     "query": "FALL RIVER RD, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "FARFIELDS BEAVER BANK": {
+    "lat": 44.8751807,
+    "lon": -63.6782968,
+    "precision": "approximate_geocode",
+    "query": "FARFIELDS LANE, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "FAUCHEAU WAVERLEY": {
     "lat": 44.7857601,
     "lon": -63.6000992,
@@ -1601,6 +1607,12 @@
     "precision": "approximate_geocode",
     "query": "HAMMONDS PLAINS RD, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "HAMMONDS PLAINS UPPER TANTALLON": {
+    "lat": 44.6892409,
+    "lon": -63.8763137,
+    "precision": "approximate_geocode",
+    "query": "HAMMONDS PLAINS RD, UPPER TANTALLON, Halifax, Nova Scotia, Canada"
+  },
   "HANNEBURY COLE HARBOUR": {
     "lat": 44.6675246,
     "lon": -63.4966781,
@@ -1678,6 +1690,12 @@
     "lon": -63.4971446,
     "precision": "approximate_geocode",
     "query": "HESCOTT ST, ELMSDALE, Halifax, Nova Scotia, Canada"
+  },
+  "HESELTON OSTREA LAKE": {
+    "lat": 44.7648115,
+    "lon": -63.1012173,
+    "precision": "approximate_geocode",
+    "query": "HESELTON DR, OSTREA LAKE, Halifax, Nova Scotia, Canada"
   },
   "HEWER CRES MIDDLE SACKVILLE": {
     "lat": 44.7944259,
@@ -3868,6 +3886,12 @@
     "lon": -63.5919755,
     "precision": "approximate_geocode",
     "query": "WATT ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "WAVERLEY WAVERLEY": {
+    "lat": 44.7405466,
+    "lon": -63.5568923,
+    "precision": "approximate_geocode",
+    "query": "WAVERLEY RD, WAVERLEY, Halifax, Nova Scotia, Canada"
   },
   "WEDGEWOOD": {
     "lat": 44.6794213,
