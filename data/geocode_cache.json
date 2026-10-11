@@ -293,6 +293,12 @@
     "precision": "approximate_geocode",
     "query": "BARNSTEAD LANE, HALIFAX, Nova Scotia, Canada"
   },
+  "BARREN HIGGINSVILLE": {
+    "lat": 45.0584864,
+    "lon": -63.0691895,
+    "precision": "approximate_geocode",
+    "query": "BARREN RD, HIGGINSVILLE, Halifax, Nova Scotia, Canada"
+  },
   "BARRINGTON": {
     "lat": 44.652306,
     "lon": -63.5775196,
@@ -1475,6 +1481,12 @@
     "precision": "approximate_geocode",
     "query": "FOREST HILLS PKY, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "FRAGGLE ROCK BEDFORD": {
+    "lat": 44.7481153,
+    "lon": -63.6275963,
+    "precision": "approximate_geocode",
+    "query": "FRAGGLE ROCK RD, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "FRANCIE WILLIAMSWOOD": {
     "lat": 44.5309094,
     "lon": -63.6431278,
@@ -2152,6 +2164,12 @@
     "lon": -63.6909241,
     "precision": "approximate_geocode",
     "query": "KEARNEY LAKE RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "KEIZER PORTERS LAKE": {
+    "lat": 44.7418973,
+    "lon": -63.3067009,
+    "precision": "approximate_geocode",
+    "query": "KEIZER DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "KELLY WILLIAMSWOOD": {
     "lat": 44.4806946,
