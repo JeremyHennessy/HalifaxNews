@@ -1553,6 +1553,12 @@
     "precision": "approximate_geocode",
     "query": "GASTON RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "GEORGE DAUPHINEE": {
+    "lat": 44.648893,
+    "lon": -63.6119332,
+    "precision": "approximate_geocode",
+    "query": "GEORGE DAUPHINEE AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "GERRISH": {
     "lat": 44.6559671,
     "lon": -63.5850396,
@@ -2795,6 +2801,12 @@
     "precision": "approximate_geocode",
     "query": "NICHOLSON DR, LAKESIDE, Halifax, Nova Scotia, Canada"
   },
+  "NICOLE CRT": {
+    "lat": 44.6675992,
+    "lon": -63.5433997,
+    "precision": "approximate_geocode",
+    "query": "NICOLE CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "NICTAUX LOWER SACKVILLE": {
     "lat": 44.7852389,
     "lon": -63.6760708,
@@ -3370,6 +3382,12 @@
     "lon": -63.6205576,
     "precision": "approximate_geocode",
     "query": "RIDGE VALLEY RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "RIDGE WAVERLEY": {
+    "lat": 44.778773,
+    "lon": -63.596006,
+    "precision": "approximate_geocode",
+    "query": "RIDGE AVE, WAVERLEY, Halifax, Nova Scotia, Canada"
   },
   "RIDGEWOOD": {
     "lat": 44.6317263,
