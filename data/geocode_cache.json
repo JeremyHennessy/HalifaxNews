@@ -143,6 +143,12 @@
     "precision": "approximate_geocode",
     "query": "ANDREW ST, HALIFAX, Nova Scotia, Canada"
   },
+  "ANDREWS": {
+    "lat": 44.6566857,
+    "lon": -63.6227706,
+    "precision": "approximate_geocode",
+    "query": "ST ANDREWS AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "ANGUS L MACDONALD BRDG": {
     "lat": 44.663637,
     "lon": -63.5847142,
@@ -682,6 +688,12 @@
     "lon": -63.1042896,
     "precision": "approximate_geocode",
     "query": "CANADA RD, BROOKVALE, Halifax, Nova Scotia, Canada"
+  },
+  "CANDLEWOOD LOWER SACKVILLE": {
+    "lat": 44.7782163,
+    "lon": -63.6845442,
+    "precision": "approximate_geocode",
+    "query": "CANDLEWOOD LANE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "CANDY MOUNTAIN MINEVILLE": {
     "lat": 44.6919189,
@@ -2189,6 +2201,12 @@
     "precision": "approximate_geocode",
     "query": "KEIZER DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "KELLY WELLINGTON": {
+    "lat": 44.8716516,
+    "lon": -63.5968869,
+    "precision": "approximate_geocode",
+    "query": "KELLY RD, WELLINGTON, Halifax, Nova Scotia, Canada"
+  },
   "KELLY WILLIAMSWOOD": {
     "lat": 44.4806946,
     "lon": -63.6108439,
@@ -3215,6 +3233,12 @@
     "precision": "approximate_geocode",
     "query": "PRIMROSE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "PRINCE LOWER SACKVILLE": {
+    "lat": 44.7675278,
+    "lon": -63.6754715,
+    "precision": "approximate_geocode",
+    "query": "PRINCE ST, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "PROSPECT BAY PROSPECT": {
     "lat": 44.47097,
     "lon": -63.7893064,
@@ -3340,6 +3364,12 @@
     "lon": -63.7133778,
     "precision": "approximate_geocode",
     "query": "RHODORA DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "RIDGE VALLEY": {
+    "lat": 44.6294492,
+    "lon": -63.6205576,
+    "precision": "approximate_geocode",
+    "query": "RIDGE VALLEY RD, HALIFAX, Nova Scotia, Canada"
   },
   "RIDGEWOOD": {
     "lat": 44.6317263,
@@ -3922,6 +3952,12 @@
     "lon": -63.6342445,
     "precision": "approximate_geocode",
     "query": "VIMY AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "VIRGINIA HAMMONDS PLAINS": {
+    "lat": 44.6967781,
+    "lon": -63.7616434,
+    "precision": "approximate_geocode",
+    "query": "VIRGINIA DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "VOYAGEUR WAY HAMMONDS PLAINS": {
     "lat": 44.7209452,
