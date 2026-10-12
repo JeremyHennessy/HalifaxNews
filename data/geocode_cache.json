@@ -2993,6 +2993,12 @@
     "precision": "approximate_geocode",
     "query": "PARKLAND DR, HALIFAX, Nova Scotia, Canada"
   },
+  "PARKLEA HEAD OF MARGARETS BAY": {
+    "lat": 44.6789923,
+    "lon": -63.902346,
+    "precision": "approximate_geocode",
+    "query": "PARKLEA DR, HEAD OF ST MARGARETS BAY, Halifax, Nova Scotia, Canada"
+  },
   "PARKMOOR": {
     "lat": 44.5871825,
     "lon": -63.593638,
@@ -3880,6 +3886,12 @@
     "lon": -63.5718555,
     "precision": "approximate_geocode",
     "query": "TOBIN ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "TRAILWOOD PL": {
+    "lat": 44.6725463,
+    "lon": -63.6585902,
+    "precision": "approximate_geocode",
+    "query": "TRAILWOOD PL, HALIFAX, Nova Scotia, Canada"
   },
   "TREELINE CRT HARRIETSFIELD": {
     "lat": 44.5745544,
