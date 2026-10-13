@@ -1367,6 +1367,12 @@
     "precision": "approximate_geocode",
     "query": "EDWARD ARAB AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "EDWARD LAURIE": {
+    "lat": 44.6787851,
+    "lon": -63.6761201,
+    "precision": "approximate_geocode",
+    "query": "EDWARD LAURIE DR, HALIFAX, Nova Scotia, Canada"
+  },
   "EISENER": {
     "lat": 44.668348,
     "lon": -63.5230931,
@@ -3125,6 +3131,12 @@
     "precision": "approximate_geocode",
     "query": "PERRON DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "PETAL WHITES LAKE": {
+    "lat": 44.5343248,
+    "lon": -63.7493184,
+    "precision": "approximate_geocode",
+    "query": "PETAL LANE, WHITES LAKE, Halifax, Nova Scotia, Canada"
+  },
   "PHILIP FALL RIVER": {
     "lat": 44.8271544,
     "lon": -63.6040254,
@@ -3617,6 +3629,12 @@
     "precision": "approximate_geocode",
     "query": "SEYMOUR ST, HALIFAX, Nova Scotia, Canada"
   },
+  "SHANNONVALE CRT HAMMONDS PLAINS": {
+    "lat": 44.7120155,
+    "lon": -63.7354049,
+    "precision": "approximate_geocode",
+    "query": "SHANNONVALE CRT, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "SHEPPARDS RUN BEECHVILLE": {
     "lat": 44.6335052,
     "lon": -63.6809028,
@@ -3688,6 +3706,12 @@
     "lon": -63.6699294,
     "precision": "approximate_geocode",
     "query": "SOLUTIONS DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "SOMERSET": {
+    "lat": 44.6757378,
+    "lon": -63.5440405,
+    "precision": "approximate_geocode",
+    "query": "SOMERSET ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SOUTH": {
     "lat": 44.6390923,
@@ -4061,6 +4085,12 @@
     "precision": "approximate_geocode",
     "query": "WATT ST, HALIFAX, Nova Scotia, Canada"
   },
+  "WAVERLEY": {
+    "lat": 44.7287322,
+    "lon": -63.5451829,
+    "precision": "approximate_geocode",
+    "query": "WAVERLEY RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "WAVERLEY WAVERLEY": {
     "lat": 44.7405466,
     "lon": -63.5568923,
@@ -4168,6 +4198,12 @@
     "lon": -63.6452085,
     "precision": "approximate_geocode",
     "query": "WILLETT ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "WILLIAM PARSONS LUCASVILLE": {
+    "lat": 44.7622237,
+    "lon": -63.7267637,
+    "precision": "approximate_geocode",
+    "query": "WILLIAM PARSONS LANE, LUCASVILLE, Halifax, Nova Scotia, Canada"
   },
   "WILLIAMS": {
     "lat": 44.7124043,
