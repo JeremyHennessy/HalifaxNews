@@ -641,6 +641,12 @@
     "precision": "approximate_geocode",
     "query": "BRUSHY HILL RD, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BUMPY LAKE ECHO": {
+    "lat": 44.7486974,
+    "lon": -63.3795141,
+    "precision": "approximate_geocode",
+    "query": "BUMPY LANE, LAKE ECHO, Halifax, Nova Scotia, Canada"
+  },
   "BURNSIDE": {
     "lat": 44.7109464,
     "lon": -63.5893005,
@@ -2417,6 +2423,12 @@
     "precision": "approximate_geocode",
     "query": "LANGBRAE DR, HALIFAX, Nova Scotia, Canada"
   },
+  "LARCH": {
+    "lat": 44.6389849,
+    "lon": -63.5960258,
+    "precision": "approximate_geocode",
+    "query": "LARCH ST, HALIFAX, Nova Scotia, Canada"
+  },
   "LARRY UTECK": {
     "lat": 44.6986408,
     "lon": -63.6644282,
@@ -2789,6 +2801,12 @@
     "precision": "approximate_geocode",
     "query": "NESTOR CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "NEWBERY": {
+    "lat": 44.6724636,
+    "lon": -63.6120827,
+    "precision": "approximate_geocode",
+    "query": "NEWBERY ST, HALIFAX, Nova Scotia, Canada"
+  },
   "NEWTON": {
     "lat": 44.6447689,
     "lon": -63.6072979,
@@ -3034,6 +3052,12 @@
     "lon": -63.7569817,
     "precision": "approximate_geocode",
     "query": "PATTON RD, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "PAUL DAVID CRT": {
+    "lat": 44.6926154,
+    "lon": -63.5325689,
+    "precision": "approximate_geocode",
+    "query": "PAUL DAVID CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "PEACHTREE HILL": {
     "lat": 44.659365,
@@ -4066,6 +4090,12 @@
     "lon": -63.6603602,
     "precision": "approximate_geocode",
     "query": "WENTWORTH DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "WEST": {
+    "lat": 44.6521818,
+    "lon": -63.5914552,
+    "precision": "approximate_geocode",
+    "query": "WEST ST, HALIFAX, Nova Scotia, Canada"
   },
   "WEST JEDDORE WEST JEDDORE": {
     "lat": 44.7048126,
