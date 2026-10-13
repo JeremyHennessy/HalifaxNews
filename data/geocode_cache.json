@@ -653,6 +653,12 @@
     "precision": "approximate_geocode",
     "query": "BURNSIDE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CABELA": {
+    "lat": 44.7100946,
+    "lon": -63.5605479,
+    "precision": "approximate_geocode",
+    "query": "CABELA RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CAIN NORTH PRESTON": {
     "lat": 44.7447232,
     "lon": -63.4665138,
@@ -1060,6 +1066,12 @@
     "lon": -63.636174,
     "precision": "approximate_geocode",
     "query": "COTTAGE LANE, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
+  },
+  "COVENTRY COLE HARBOUR": {
+    "lat": 44.6609651,
+    "lon": -63.4846326,
+    "precision": "approximate_geocode",
+    "query": "COVENTRY LANE, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "COW BAY COW BAY": {
     "lat": 44.6410905,
@@ -4210,6 +4222,12 @@
     "lon": -63.5850295,
     "precision": "approximate_geocode",
     "query": "WILLIAMS AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "WILLIAMS LAKE": {
+    "lat": 44.6202226,
+    "lon": -63.6052811,
+    "precision": "approximate_geocode",
+    "query": "WILLIAMS LAKE RD, HALIFAX, Nova Scotia, Canada"
   },
   "WILMINGTON CRT EASTERN PASSAGE": {
     "lat": 44.6153925,
