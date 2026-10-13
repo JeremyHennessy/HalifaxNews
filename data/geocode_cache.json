@@ -1073,6 +1073,12 @@
     "precision": "approximate_geocode",
     "query": "COTTAGE LANE, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
   },
+  "COUNTRYVIEW": {
+    "lat": 44.7017436,
+    "lon": -63.5653287,
+    "precision": "approximate_geocode",
+    "query": "COUNTRYVIEW DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "COVENTRY COLE HARBOUR": {
     "lat": 44.6609651,
     "lon": -63.4846326,
@@ -2849,6 +2855,12 @@
     "precision": "approximate_geocode",
     "query": "NESTOR CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "NESTWELL HAMMONDS PLAINS": {
+    "lat": 44.7256134,
+    "lon": -63.7417478,
+    "precision": "approximate_geocode",
+    "query": "NESTWELL LANE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "NEWBERY": {
     "lat": 44.6724636,
     "lon": -63.6120827,
@@ -3599,6 +3611,12 @@
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "SAMBRO CREEK SAMBRO CREEK": {
+    "lat": 44.4661537,
+    "lon": -63.6141595,
+    "precision": "approximate_geocode",
+    "query": "SAMBRO CREEK RD, SAMBRO CREEK, Halifax, Nova Scotia, Canada"
+  },
   "SARAH CRES BROOKSIDE": {
     "lat": 44.55534,
     "lon": -63.7142807,
@@ -3713,6 +3731,12 @@
     "precision": "approximate_geocode",
     "query": "SIMMONDS RD, NORTH PRESTON, Halifax, Nova Scotia, Canada"
   },
+  "SIRIUS CRES COLE HARBOUR": {
+    "lat": 44.6765508,
+    "lon": -63.5003932,
+    "precision": "approximate_geocode",
+    "query": "SIRIUS CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "SIXTH LUCASVILLE": {
     "lat": 44.749758,
     "lon": -63.7430245,
@@ -3814,6 +3838,12 @@
     "lon": -63.7023239,
     "precision": "approximate_geocode",
     "query": "STARFLOWER WAY, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
+  "STEED CRT": {
+    "lat": 44.6817825,
+    "lon": -63.5083953,
+    "precision": "approximate_geocode",
+    "query": "STEED CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "STELLA PORTERS LAKE": {
     "lat": 44.7436396,
