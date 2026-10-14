@@ -2453,6 +2453,12 @@
     "precision": "approximate_geocode",
     "query": "LAKEFRONT DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "LAKESHIRE CRES COLE HARBOUR": {
+    "lat": 44.6569803,
+    "lon": -63.4768592,
+    "precision": "approximate_geocode",
+    "query": "LAKESHIRE CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "LAKEVIEW LAKEVIEW": {
     "lat": 44.7682277,
     "lon": -63.6285054,
@@ -3508,6 +3514,12 @@
     "lon": -63.596006,
     "precision": "approximate_geocode",
     "query": "RIDGE AVE, WAVERLEY, Halifax, Nova Scotia, Canada"
+  },
+  "RIDGECREST": {
+    "lat": 44.6907494,
+    "lon": -63.5037952,
+    "precision": "approximate_geocode",
+    "query": "RIDGECREST DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "RIDGEWOOD": {
     "lat": 44.6317263,
