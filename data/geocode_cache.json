@@ -425,6 +425,12 @@
     "precision": "approximate_geocode",
     "query": "BELLEFONTAINE RD, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "BELLFLOWER MIDDLE SACKVILLE": {
+    "lat": 44.7913643,
+    "lon": -63.7617808,
+    "precision": "approximate_geocode",
+    "query": "BELLFLOWER LANE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "BENTLY": {
     "lat": 44.6484387,
     "lon": -63.6558578,
@@ -826,6 +832,12 @@
     "lon": -63.4902744,
     "precision": "approximate_geocode",
     "query": "CHAMEAU CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "CHANDLER LOWER SACKVILLE": {
+    "lat": 44.7670036,
+    "lon": -63.6618072,
+    "precision": "approximate_geocode",
+    "query": "CHANDLER DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "CHAPAIS LOWER SACKVILLE": {
     "lat": 44.7645511,
@@ -1588,6 +1600,12 @@
     "lon": -63.5394795,
     "precision": "approximate_geocode",
     "query": "GASTON RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "GATEHOUSE RUN HAMMONDS PLAINS": {
+    "lat": 44.730737,
+    "lon": -63.7315916,
+    "precision": "approximate_geocode",
+    "query": "GATEHOUSE RUN, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "GEORGE DAUPHINEE": {
     "lat": 44.648893,
@@ -2813,6 +2831,12 @@
     "precision": "approximate_geocode",
     "query": "MORRIS ST, HALIFAX, Nova Scotia, Canada"
   },
+  "MOSHER CONROD SETTLEMENT": {
+    "lat": 44.7644188,
+    "lon": -63.2502363,
+    "precision": "approximate_geocode",
+    "query": "MOSHER RD, CONROD SETTLEMENT, Halifax, Nova Scotia, Canada"
+  },
   "MOUNT EDWARD": {
     "lat": 44.6880503,
     "lon": -63.5082188,
@@ -3520,6 +3544,12 @@
     "lon": -63.5879823,
     "precision": "approximate_geocode",
     "query": "ROBIE ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "ROBINSON LAWRENCETOWN": {
+    "lat": 44.6888416,
+    "lon": -63.4259451,
+    "precision": "approximate_geocode",
+    "query": "ROBINSON RD, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
   "ROCHDALE PL BEDFORD": {
     "lat": 44.7049917,
