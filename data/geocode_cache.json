@@ -725,6 +725,12 @@
     "precision": "approximate_geocode",
     "query": "CANDY MOUNTAIN RD, MINEVILLE, Halifax, Nova Scotia, Canada"
   },
+  "CANTERBURY FALL RIVER": {
+    "lat": 44.7951436,
+    "lon": -63.6174312,
+    "precision": "approximate_geocode",
+    "query": "CANTERBURY LANE, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "CARDIFF PL": {
     "lat": 44.6553993,
     "lon": -63.5878346,
@@ -2014,6 +2020,12 @@
     "lon": -63.4969907,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "HILL TOP DUTCH SETTLEMENT": {
+    "lat": 44.9974887,
+    "lon": -63.4287626,
+    "precision": "approximate_geocode",
+    "query": "HILL TOP LANE, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
   },
   "HILLSBORO WESTPHAL": {
     "lat": 44.6913546,
@@ -4066,6 +4078,12 @@
     "lon": -63.6365313,
     "precision": "approximate_geocode",
     "query": "TREELINE CRT, HARRIETSFIELD, Halifax, Nova Scotia, Canada"
+  },
+  "TRUNDLE CRES MIDDLE SACKVILLE": {
+    "lat": 44.7909325,
+    "lon": -63.7108833,
+    "precision": "approximate_geocode",
+    "query": "TRUNDLE CRES, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "TUCKER LAKE BEAVER BANK": {
     "lat": 44.8383034,
