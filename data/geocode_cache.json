@@ -101,6 +101,12 @@
     "precision": "approximate_geocode",
     "query": "ALEX LANE, NORTH PRESTON, Halifax, Nova Scotia, Canada"
   },
+  "ALFRED WADDELL": {
+    "lat": 44.6522193,
+    "lon": -63.5801922,
+    "precision": "approximate_geocode",
+    "query": "DR ALFRED WADDELL ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ALMON": {
     "lat": 44.6577972,
     "lon": -63.5981735,
@@ -148,6 +154,12 @@
     "lon": -63.6227706,
     "precision": "approximate_geocode",
     "query": "ST ANDREWS AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "ANGLER HERRING COVE": {
+    "lat": 44.5785734,
+    "lon": -63.5766404,
+    "precision": "approximate_geocode",
+    "query": "ANGLER DR, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
   "ANGUS L MACDONALD BRDG": {
     "lat": 44.663637,
@@ -3089,6 +3101,12 @@
     "precision": "approximate_geocode",
     "query": "OLD TRUNK RD, ELMSDALE, Halifax, Nova Scotia, Canada"
   },
+  "OLIVET": {
+    "lat": 44.6483749,
+    "lon": -63.6242988,
+    "precision": "approximate_geocode",
+    "query": "OLIVET ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ONYX CRES": {
     "lat": 44.6040746,
     "lon": -63.5990359,
@@ -4294,6 +4312,12 @@
     "lon": -63.0182203,
     "precision": "approximate_geocode",
     "query": "WEST JEDDORE RD, WEST JEDDORE, Halifax, Nova Scotia, Canada"
+  },
+  "WEST PENNANT WEST PENNANT": {
+    "lat": 44.4681979,
+    "lon": -63.6550465,
+    "precision": "approximate_geocode",
+    "query": "WEST PENNANT RD, WEST PENNANT, Halifax, Nova Scotia, Canada"
   },
   "WEST PORTERS LAKE WEST PORTERS LAKE": {
     "lat": 44.6837028,
