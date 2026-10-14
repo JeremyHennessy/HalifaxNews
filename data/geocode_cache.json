@@ -1865,6 +1865,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 101, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 101 UPPER SACKVILLE": {
+    "lat": 44.8330603,
+    "lon": -63.7938813,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 101, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 102": {
     "lat": 44.7060265,
     "lon": -63.6953206,
@@ -2657,6 +2663,12 @@
     "precision": "approximate_geocode",
     "query": "MAIN RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "MANOR LOWER SACKVILLE": {
+    "lat": 44.7629341,
+    "lon": -63.6971813,
+    "precision": "approximate_geocode",
+    "query": "MANOR DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "MAPLE EASTERN PASSAGE": {
     "lat": 44.6290999,
     "lon": -63.5097798,
@@ -2818,6 +2830,12 @@
     "lon": -63.3825178,
     "precision": "approximate_geocode",
     "query": "MINEVILLE RD, MINEVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "MONASTERY": {
+    "lat": 44.6465931,
+    "lon": -63.5974598,
+    "precision": "approximate_geocode",
+    "query": "MONASTERY LANE, HALIFAX, Nova Scotia, Canada"
   },
   "MONTAGUE LAKE LOON": {
     "lat": 44.7030616,
@@ -3016,6 +3034,12 @@
     "lon": -63.5649982,
     "precision": "approximate_geocode",
     "query": "OCHTERLONEY ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "ODELL WESTPHAL": {
+    "lat": 44.6964926,
+    "lon": -63.4888238,
+    "precision": "approximate_geocode",
+    "query": "ODELL DR, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "OLD GLEN HAVEN": {
     "lat": 44.6296271,
