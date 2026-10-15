@@ -1691,6 +1691,12 @@
     "precision": "approximate_geocode",
     "query": "GRANVILLE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "GRASSY LAKE BEECHVILLE": {
+    "lat": 44.6296357,
+    "lon": -63.6688345,
+    "precision": "approximate_geocode",
+    "query": "GRASSY LAKE DR, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
   "GREENPARK CL": {
     "lat": 44.6537474,
     "lon": -63.6666148,
