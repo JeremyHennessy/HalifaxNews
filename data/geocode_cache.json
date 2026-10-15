@@ -677,6 +677,12 @@
     "precision": "approximate_geocode",
     "query": "BUMPY LANE, LAKE ECHO, Halifax, Nova Scotia, Canada"
   },
+  "BUNDY CHERRY BROOK": {
+    "lat": 44.7106885,
+    "lon": -63.4756242,
+    "precision": "approximate_geocode",
+    "query": "BUNDY LANE, CHERRY BROOK, Halifax, Nova Scotia, Canada"
+  },
   "BURNSIDE": {
     "lat": 44.7109464,
     "lon": -63.5893005,
@@ -2579,6 +2585,12 @@
     "precision": "approximate_geocode",
     "query": "LEDGEVIEW DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "LEEDS": {
+    "lat": 44.6691924,
+    "lon": -63.6124458,
+    "precision": "approximate_geocode",
+    "query": "LEEDS ST, HALIFAX, Nova Scotia, Canada"
+  },
   "LENNOX LOWER SACKVILLE": {
     "lat": 44.7792487,
     "lon": -63.678172,
@@ -3844,6 +3856,12 @@
     "lon": -63.4920323,
     "precision": "approximate_geocode",
     "query": "SHORE RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "SILISTRIA COLE HARBOUR": {
+    "lat": 44.6750666,
+    "lon": -63.4901324,
+    "precision": "approximate_geocode",
+    "query": "SILISTRIA DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "SILVER DART GOFFS": {
     "lat": 44.888103,
