@@ -59,6 +59,12 @@
     "precision": "approximate_geocode",
     "query": "AGRICOLA ST, HALIFAX, Nova Scotia, Canada"
   },
+  "AHMADI CRES BEDFORD": {
+    "lat": 44.7114867,
+    "lon": -63.6914961,
+    "precision": "approximate_geocode",
+    "query": "AHMADI CRES, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "AKERLEY": {
     "lat": 44.7096252,
     "lon": -63.6056304,
@@ -1631,6 +1637,12 @@
     "precision": "approximate_geocode",
     "query": "FREDERICK AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "FREER LOWER SACKVILLE": {
+    "lat": 44.7578871,
+    "lon": -63.6603335,
+    "precision": "approximate_geocode",
+    "query": "FREER LANE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "GARY MARTIN BEDFORD": {
     "lat": 44.7217798,
     "lon": -63.7069392,
@@ -1738,6 +1750,12 @@
     "lon": -63.6870934,
     "precision": "approximate_geocode",
     "query": "HADDAD DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "HADLEY CRES": {
+    "lat": 44.6238601,
+    "lon": -63.6234791,
+    "precision": "approximate_geocode",
+    "query": "HADLEY CRES, HALIFAX, Nova Scotia, Canada"
   },
   "HAGES PROSPECT": {
     "lat": 44.4937359,
@@ -2794,6 +2812,12 @@
     "lon": -63.588036,
     "precision": "approximate_geocode",
     "query": "MAYNARD ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "MCFATRIDGE": {
+    "lat": 44.6606379,
+    "lon": -63.6298855,
+    "precision": "approximate_geocode",
+    "query": "MCFATRIDGE RD, HALIFAX, Nova Scotia, Canada"
   },
   "MCINTYRE EAST LAWRENCETOWN": {
     "lat": 44.6590497,
@@ -4024,6 +4048,12 @@
     "lon": -63.7023239,
     "precision": "approximate_geocode",
     "query": "STARFLOWER WAY, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
+  "STATION KINSAC": {
+    "lat": 44.850743,
+    "lon": -63.6637569,
+    "precision": "approximate_geocode",
+    "query": "STATION RD, KINSAC, Halifax, Nova Scotia, Canada"
   },
   "STEED CRT": {
     "lat": 44.6817825,
