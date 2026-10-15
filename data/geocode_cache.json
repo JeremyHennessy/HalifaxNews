@@ -1451,6 +1451,12 @@
     "precision": "approximate_geocode",
     "query": "ELLA LANE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "ELM MIDDLE MUSQUODOBOIT": {
+    "lat": 45.045948,
+    "lon": -63.1454339,
+    "precision": "approximate_geocode",
+    "query": "ELM DR, MIDDLE MUSQUODOBOIT, Halifax, Nova Scotia, Canada"
+  },
   "ELMRIDGE WAVERLEY": {
     "lat": 44.7679044,
     "lon": -63.5726554,
