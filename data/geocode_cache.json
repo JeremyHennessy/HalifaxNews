@@ -3647,6 +3647,12 @@
     "precision": "approximate_geocode",
     "query": "RHODORA DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "RHULAND": {
+    "lat": 44.6352747,
+    "lon": -63.5755408,
+    "precision": "approximate_geocode",
+    "query": "RHULAND ST, HALIFAX, Nova Scotia, Canada"
+  },
   "RIDGE VALLEY": {
     "lat": 44.6294492,
     "lon": -63.6205576,
