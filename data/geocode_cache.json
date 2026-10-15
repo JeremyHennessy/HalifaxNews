@@ -1085,6 +1085,12 @@
     "precision": "approximate_geocode",
     "query": "CONTESSA CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "CONTINENTAL EASTERN PASSAGE": {
+    "lat": 44.6274734,
+    "lon": -63.5115681,
+    "precision": "approximate_geocode",
+    "query": "CONTINENTAL LANE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "CONVOY RUN BEDFORD": {
     "lat": 44.7176954,
     "lon": -63.6738216,
@@ -1318,6 +1324,12 @@
     "lon": -63.3295376,
     "precision": "approximate_geocode",
     "query": "DOCKSIDE LANE, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "DONALD SKEIR WAY WESTPHAL": {
+    "lat": 44.7006622,
+    "lon": -63.4781007,
+    "precision": "approximate_geocode",
+    "query": "DR DONALD SKEIR WAY, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "DONALDSON": {
     "lat": 44.6785395,
@@ -3059,6 +3071,12 @@
     "precision": "approximate_geocode",
     "query": "NOVA CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "OAK EASTERN PASSAGE": {
+    "lat": 44.6221843,
+    "lon": -63.4775077,
+    "precision": "approximate_geocode",
+    "query": "OAK LANE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "OAKES FALL RIVER": {
     "lat": 44.8109288,
     "lon": -63.6029623,
@@ -3647,6 +3665,12 @@
     "precision": "approximate_geocode",
     "query": "RIVERSIDE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "ROBERT MURPHY": {
+    "lat": 44.6474392,
+    "lon": -63.6127549,
+    "precision": "approximate_geocode",
+    "query": "ROBERT MURPHY DR, HALIFAX, Nova Scotia, Canada"
+  },
   "ROBERT WESTPHAL": {
     "lat": 44.6969678,
     "lon": -63.4806782,
@@ -3862,6 +3886,12 @@
     "lon": -63.4920323,
     "precision": "approximate_geocode",
     "query": "SHORE RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "SHORE HERRING COVE": {
+    "lat": 44.5709775,
+    "lon": -63.5559762,
+    "precision": "approximate_geocode",
+    "query": "SHORE RD, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
   "SILISTRIA COLE HARBOUR": {
     "lat": 44.6750666,
@@ -4108,6 +4138,12 @@
     "lon": -63.5352785,
     "precision": "approximate_geocode",
     "query": "TACOMA DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "TAHOE CRT HAMMONDS PLAINS": {
+    "lat": 44.7360633,
+    "lon": -63.7835994,
+    "precision": "approximate_geocode",
+    "query": "TAHOE CRT, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "TARANAKI WESTPHAL": {
     "lat": 44.6908575,
