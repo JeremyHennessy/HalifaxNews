@@ -125,6 +125,12 @@
     "precision": "approximate_geocode",
     "query": "AMARANTH CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "AMESBURY GATE BEDFORD": {
+    "lat": 44.7040777,
+    "lon": -63.6977311,
+    "precision": "approximate_geocode",
+    "query": "AMESBURY GATE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "ANCONA PL": {
     "lat": 44.6996696,
     "lon": -63.5413017,
@@ -2759,6 +2765,12 @@
     "precision": "approximate_geocode",
     "query": "MCINTYRE DR, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
+  "MEADOW WALK": {
+    "lat": 44.7166538,
+    "lon": -63.5452022,
+    "precision": "approximate_geocode",
+    "query": "MEADOW WALK, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "MEADOWBROOK BEAVER BANK": {
     "lat": 44.870396,
     "lon": -63.6842184,
@@ -2920,6 +2932,12 @@
     "lon": -63.5983784,
     "precision": "approximate_geocode",
     "query": "NEEDHAM ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "NELSONS LANDING BEDFORD": {
+    "lat": 44.712403,
+    "lon": -63.6773083,
+    "precision": "approximate_geocode",
+    "query": "NELSONS LANDING BLVD, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "NESTOR CRES COLE HARBOUR": {
     "lat": 44.6866666,
@@ -3491,6 +3509,12 @@
     "precision": "approximate_geocode",
     "query": "PURCELLS COVE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "QUAKER CRES LOWER SACKVILLE": {
+    "lat": 44.7786231,
+    "lon": -63.6654558,
+    "precision": "approximate_geocode",
+    "query": "QUAKER CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "QUEEN": {
     "lat": 44.6441809,
     "lon": -63.5776425,
@@ -3664,6 +3688,12 @@
     "lon": -63.7021887,
     "precision": "approximate_geocode",
     "query": "ROSSING DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "ROTHWELL UPPER SACKVILLE": {
+    "lat": 44.8214576,
+    "lon": -63.7615095,
+    "precision": "approximate_geocode",
+    "query": "ROTHWELL ST, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "ROY CRES BEDFORD": {
     "lat": 44.7218592,
