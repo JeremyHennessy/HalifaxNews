@@ -2213,6 +2213,12 @@
     "precision": "approximate_geocode",
     "query": "ISELEY LANE, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
   },
+  "ISLAND VIEW BOUTILIERS POINT": {
+    "lat": 44.6670355,
+    "lon": -63.9563078,
+    "precision": "approximate_geocode",
+    "query": "ISLAND VIEW DR, BOUTILIERS POINT, Halifax, Nova Scotia, Canada"
+  },
   "ISNOR": {
     "lat": 44.7079201,
     "lon": -63.600445,
@@ -3820,6 +3826,12 @@
     "lon": -63.6141595,
     "precision": "approximate_geocode",
     "query": "SAMBRO CREEK RD, SAMBRO CREEK, Halifax, Nova Scotia, Canada"
+  },
+  "SANDSTONE HATCHET LAKE": {
+    "lat": 44.5752593,
+    "lon": -63.7069621,
+    "precision": "approximate_geocode",
+    "query": "SANDSTONE DR, HATCHET LAKE, Halifax, Nova Scotia, Canada"
   },
   "SARAH CRES BROOKSIDE": {
     "lat": 44.55534,
