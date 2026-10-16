@@ -2975,6 +2975,12 @@
     "precision": "approximate_geocode",
     "query": "MORRIS ST, HALIFAX, Nova Scotia, Canada"
   },
+  "MOSHER": {
+    "lat": 44.7085601,
+    "lon": -63.6103885,
+    "precision": "approximate_geocode",
+    "query": "MOSHER DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "MOSHER CONROD SETTLEMENT": {
     "lat": 44.7644188,
     "lon": -63.2502363,
@@ -4222,6 +4228,12 @@
     "lon": -63.4937088,
     "precision": "approximate_geocode",
     "query": "TARANAKI DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "TERNAN GATE BEDFORD": {
+    "lat": 44.7033716,
+    "lon": -63.6855547,
+    "precision": "approximate_geocode",
+    "query": "TERNAN GATE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "THISTLE": {
     "lat": 44.6696644,
