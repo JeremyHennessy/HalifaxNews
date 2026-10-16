@@ -1523,6 +1523,12 @@
     "precision": "approximate_geocode",
     "query": "FARFIELDS LANE, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "FARTHINGTON PL": {
+    "lat": 44.6881041,
+    "lon": -63.5826584,
+    "precision": "approximate_geocode",
+    "query": "FARTHINGTON PL, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "FAUCHEAU WAVERLEY": {
     "lat": 44.7857601,
     "lon": -63.6000992,
@@ -4330,6 +4336,12 @@
     "lon": -63.6351184,
     "precision": "approximate_geocode",
     "query": "VAL ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "VANIER WAY BEDFORD": {
+    "lat": 44.7048422,
+    "lon": -63.6709747,
+    "precision": "approximate_geocode",
+    "query": "VANIER WAY, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "VEITH": {
     "lat": 44.6653884,
