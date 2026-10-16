@@ -1721,6 +1721,12 @@
     "precision": "approximate_geocode",
     "query": "GRASSY LAKE DR, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "GREEN BAY COW BAY": {
+    "lat": 44.6236223,
+    "lon": -63.4244026,
+    "precision": "approximate_geocode",
+    "query": "GREEN BAY DR, COW BAY, Halifax, Nova Scotia, Canada"
+  },
   "GREENPARK CL": {
     "lat": 44.6537474,
     "lon": -63.6666148,
@@ -2776,6 +2782,12 @@
     "lon": -63.7594235,
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "MARGATE": {
+    "lat": 44.6311932,
+    "lon": -63.61996,
+    "precision": "approximate_geocode",
+    "query": "MARGATE DR, HALIFAX, Nova Scotia, Canada"
   },
   "MARGINAL": {
     "lat": 44.6410527,
@@ -4067,6 +4079,12 @@
     "precision": "approximate_geocode",
     "query": "STARFLOWER WAY, BROOKSIDE, Halifax, Nova Scotia, Canada"
   },
+  "STATES BEECHVILLE": {
+    "lat": 44.6318474,
+    "lon": -63.6821501,
+    "precision": "approximate_geocode",
+    "query": "STATES LANE, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
   "STATION KINSAC": {
     "lat": 44.850743,
     "lon": -63.6637569,
@@ -4252,6 +4270,12 @@
     "lon": -63.5718555,
     "precision": "approximate_geocode",
     "query": "TOBIN ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "TOWER": {
+    "lat": 44.6313472,
+    "lon": -63.5778452,
+    "precision": "approximate_geocode",
+    "query": "TOWER RD, HALIFAX, Nova Scotia, Canada"
   },
   "TRAILWOOD PL": {
     "lat": 44.6725463,
