@@ -137,6 +137,12 @@
     "precision": "approximate_geocode",
     "query": "AMESBURY GATE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "ANCASTER CRT COLE HARBOUR": {
+    "lat": 44.668159,
+    "lon": -63.4867497,
+    "precision": "approximate_geocode",
+    "query": "ANCASTER CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "ANCONA PL": {
     "lat": 44.6996696,
     "lon": -63.5413017,
@@ -635,6 +641,12 @@
     "precision": "approximate_geocode",
     "query": "BROOKSIDE RD, BROOKSIDE, Halifax, Nova Scotia, Canada"
   },
+  "BROOM WESTPHAL": {
+    "lat": 44.6958735,
+    "lon": -63.4849723,
+    "precision": "approximate_geocode",
+    "query": "BROOM RD, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
   "BROWNLOW": {
     "lat": 44.6956432,
     "lon": -63.5789756,
@@ -796,6 +808,12 @@
     "lon": -63.6517977,
     "precision": "approximate_geocode",
     "query": "CARROLL LANE, HALIFAX, Nova Scotia, Canada"
+  },
+  "CARTARET": {
+    "lat": 44.6347279,
+    "lon": -63.5882556,
+    "precision": "approximate_geocode",
+    "query": "CARTARET ST, HALIFAX, Nova Scotia, Canada"
   },
   "CASSANDRA WESTPHAL": {
     "lat": 44.6837336,
@@ -3059,6 +3077,12 @@
     "precision": "approximate_geocode",
     "query": "NICHOLSON DR, LAKESIDE, Halifax, Nova Scotia, Canada"
   },
+  "NICKERSON EAST PENNANT": {
+    "lat": 44.466605,
+    "lon": -63.6320571,
+    "precision": "approximate_geocode",
+    "query": "NICKERSON RD, EAST PENNANT, Halifax, Nova Scotia, Canada"
+  },
   "NICOLE CRT": {
     "lat": 44.6675992,
     "lon": -63.5433997,
@@ -3773,6 +3797,12 @@
     "precision": "approximate_geocode",
     "query": "ROMANS AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "ROODE CRT COLE HARBOUR": {
+    "lat": 44.6753421,
+    "lon": -63.4728144,
+    "precision": "approximate_geocode",
+    "query": "ROODE CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "ROOKERY WAY MUSQUODOBOIT HARBOUR": {
     "lat": 44.8029599,
     "lon": -63.1584916,
@@ -4234,6 +4264,12 @@
     "lon": -63.6855547,
     "precision": "approximate_geocode",
     "query": "TERNAN GATE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "THIS PORTERS LAKE": {
+    "lat": 44.737825,
+    "lon": -63.3050693,
+    "precision": "approximate_geocode",
+    "query": "THIS ST, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "THISTLE": {
     "lat": 44.6696644,
