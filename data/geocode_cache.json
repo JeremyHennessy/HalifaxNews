@@ -4703,6 +4703,12 @@
     "precision": "approximate_geocode",
     "query": "ZAFFRE DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "ZINCK LOWER SACKVILLE": {
+    "lat": 44.7602024,
+    "lon": -63.6637952,
+    "precision": "approximate_geocode",
+    "query": "ZINCK AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "ZINNIA MIDDLE SACKVILLE": {
     "lat": 44.7900599,
     "lon": -63.7624075,
