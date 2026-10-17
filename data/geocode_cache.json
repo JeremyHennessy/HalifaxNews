@@ -2597,6 +2597,12 @@
     "precision": "approximate_geocode",
     "query": "LAKEWOOD DR, BROOKSIDE, Halifax, Nova Scotia, Canada"
   },
+  "LAMONT TERR": {
+    "lat": 44.6975308,
+    "lon": -63.567066,
+    "precision": "approximate_geocode",
+    "query": "LAMONT TERR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "LANARKSHIRE CRT COLE HARBOUR": {
     "lat": 44.6807698,
     "lon": -63.4869296,
@@ -2782,6 +2788,12 @@
     "lon": -63.5097798,
     "precision": "approximate_geocode",
     "query": "MAPLE DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "MAPLE GROVE TIMBERLEA": {
+    "lat": 44.6426359,
+    "lon": -63.715547,
+    "precision": "approximate_geocode",
+    "query": "MAPLE GROVE AVE, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "MAPLEWOOD TIMBERLEA": {
     "lat": 44.6558791,
