@@ -1163,6 +1163,12 @@
     "precision": "approximate_geocode",
     "query": "CORMORANT LANE, TANTALLON, Halifax, Nova Scotia, Canada"
   },
+  "CORONATION": {
+    "lat": 44.6539877,
+    "lon": -63.6419681,
+    "precision": "approximate_geocode",
+    "query": "CORONATION AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "COTTAGE WINDSOR JUNCTION": {
     "lat": 44.7861333,
     "lon": -63.636174,
@@ -3155,6 +3161,12 @@
     "precision": "approximate_geocode",
     "query": "NICTAUX DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "NINTH LUCASVILLE": {
+    "lat": 44.7483931,
+    "lon": -63.7450183,
+    "precision": "approximate_geocode",
+    "query": "NINTH ST, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
   "NITA": {
     "lat": 44.5935414,
     "lon": -63.637959,
@@ -3430,6 +3442,12 @@
     "lon": -63.9014597,
     "precision": "approximate_geocode",
     "query": "PEGGYS COVE RD, GLEN HAVEN, Halifax, Nova Scotia, Canada"
+  },
+  "PEGGYS COVE GLEN MARGARET": {
+    "lat": 44.5451258,
+    "lon": -63.9359725,
+    "precision": "approximate_geocode",
+    "query": "PEGGYS COVE RD, GLEN MARGARET, Halifax, Nova Scotia, Canada"
   },
   "PEGGYS COVE HACKETTS COVE": {
     "lat": 44.5451258,
