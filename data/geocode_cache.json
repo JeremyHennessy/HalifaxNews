@@ -923,6 +923,12 @@
     "precision": "approximate_geocode",
     "query": "CHARLES RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "CHARLOTTE": {
+    "lat": 44.6962449,
+    "lon": -63.6624092,
+    "precision": "approximate_geocode",
+    "query": "CHARLOTTE LANE, HALIFAX, Nova Scotia, Canada"
+  },
   "CHASWOOD COLE HARBOUR": {
     "lat": 44.6635589,
     "lon": -63.497093,
@@ -946,6 +952,12 @@
     "lon": -63.4746486,
     "precision": "approximate_geocode",
     "query": "CHERRY BROOK RD, CHERRY BROOK, Halifax, Nova Scotia, Canada"
+  },
+  "CHERRYWOOD COLE HARBOUR": {
+    "lat": 44.6602583,
+    "lon": -63.4968356,
+    "precision": "approximate_geocode",
+    "query": "CHERRYWOOD DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "CHESAPEAKE BEAVER BANK": {
     "lat": 44.8728342,
