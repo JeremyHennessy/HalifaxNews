@@ -701,6 +701,12 @@
     "precision": "approximate_geocode",
     "query": "BUNDY LANE, CHERRY BROOK, Halifax, Nova Scotia, Canada"
   },
+  "BURGEE RUN": {
+    "lat": 44.634325,
+    "lon": -63.6130531,
+    "precision": "approximate_geocode",
+    "query": "BURGEE RUN, HALIFAX, Nova Scotia, Canada"
+  },
   "BURNSIDE": {
     "lat": 44.7109464,
     "lon": -63.5893005,
@@ -2422,6 +2428,12 @@
     "lon": -63.3067009,
     "precision": "approximate_geocode",
     "query": "KEIZER DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "KELLY": {
+    "lat": 44.6326954,
+    "lon": -63.6284312,
+    "precision": "approximate_geocode",
+    "query": "KELLY ST, HALIFAX, Nova Scotia, Canada"
   },
   "KELLY WELLINGTON": {
     "lat": 44.8716516,
