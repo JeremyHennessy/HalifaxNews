@@ -1277,6 +1277,12 @@
     "precision": "approximate_geocode",
     "query": "CUTTER DR, HALIFAX, Nova Scotia, Canada"
   },
+  "DAHLIA": {
+    "lat": 44.6703223,
+    "lon": -63.5684319,
+    "precision": "approximate_geocode",
+    "query": "DAHLIA ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "DAMASCUS BEDFORD": {
     "lat": 44.7500521,
     "lon": -63.6460021,
