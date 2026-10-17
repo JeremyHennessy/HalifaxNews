@@ -3059,6 +3059,12 @@
     "precision": "approximate_geocode",
     "query": "MOUNTAIN VIEW DR, LAKE ECHO, Halifax, Nova Scotia, Canada"
   },
+  "MUMFORD": {
+    "lat": 44.649149,
+    "lon": -63.6230884,
+    "precision": "approximate_geocode",
+    "query": "MUMFORD RD, HALIFAX, Nova Scotia, Canada"
+  },
   "MYRA PORTERS LAKE": {
     "lat": 44.7589583,
     "lon": -63.3310675,
