@@ -2273,6 +2273,12 @@
     "precision": "approximate_geocode",
     "query": "INNOVATION DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "INNSBROOK WAY BEDFORD": {
+    "lat": 44.7099076,
+    "lon": -63.7006423,
+    "precision": "approximate_geocode",
+    "query": "INNSBROOK WAY, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "IONEY HILL BEAVER BANK": {
     "lat": 44.8025805,
     "lon": -63.6858252,
