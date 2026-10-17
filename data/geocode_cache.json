@@ -731,6 +731,12 @@
     "precision": "approximate_geocode",
     "query": "CALDWELL RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "CALEDONIA": {
+    "lat": 44.6926649,
+    "lon": -63.5333329,
+    "precision": "approximate_geocode",
+    "query": "CALEDONIA RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CAMBRIDGE": {
     "lat": 44.6420565,
     "lon": -63.6001756,
@@ -1420,6 +1426,12 @@
     "lon": -63.6837742,
     "precision": "approximate_geocode",
     "query": "DUGGAN DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
+  "DUNBRACK": {
+    "lat": 44.6416717,
+    "lon": -63.640519,
+    "precision": "approximate_geocode",
+    "query": "DUNBRACK ST, HALIFAX, Nova Scotia, Canada"
   },
   "DUTCH VILLAGE": {
     "lat": 44.6572377,
