@@ -2297,6 +2297,12 @@
     "precision": "approximate_geocode",
     "query": "IONEY HILL, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "IRISWEG BROOKSIDE": {
+    "lat": 44.5377615,
+    "lon": -63.7072766,
+    "precision": "approximate_geocode",
+    "query": "IRISWEG DR, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
   "ISELEY DUTCH SETTLEMENT": {
     "lat": 44.9798347,
     "lon": -63.461845,
@@ -2392,6 +2398,12 @@
     "lon": -63.2472684,
     "precision": "approximate_geocode",
     "query": "JUDY ANNE DR, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "JUDY LOWER SACKVILLE": {
+    "lat": 44.7802572,
+    "lon": -63.6962165,
+    "precision": "approximate_geocode",
+    "query": "JUDY AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "JULIUS BEECHVILLE": {
     "lat": 44.6509678,
@@ -3022,6 +3034,12 @@
     "lon": -63.8821388,
     "precision": "approximate_geocode",
     "query": "MIDDLE VILLAGE RD, WEST DOVER, Halifax, Nova Scotia, Canada"
+  },
+  "MILLBROOK COLE HARBOUR": {
+    "lat": 44.6507841,
+    "lon": -63.484894,
+    "precision": "approximate_geocode",
+    "query": "MILLBROOK AVE, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "MILLWOOD MIDDLE SACKVILLE": {
     "lat": 44.7858945,
