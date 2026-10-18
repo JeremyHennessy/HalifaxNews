@@ -209,6 +209,12 @@
     "precision": "approximate_geocode",
     "query": "ARGYLE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "ARKLE LOWER SACKVILLE": {
+    "lat": 44.7690161,
+    "lon": -63.6932511,
+    "precision": "approximate_geocode",
+    "query": "ARKLE LANE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "ARKLOW COLE HARBOUR": {
     "lat": 44.6796977,
     "lon": -63.4839567,
@@ -2974,6 +2980,12 @@
     "lon": -63.6231403,
     "precision": "approximate_geocode",
     "query": "MELWOOD AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "MERIDIAN CRT": {
+    "lat": 44.6853911,
+    "lon": -63.5019631,
+    "precision": "approximate_geocode",
+    "query": "MERIDIAN CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "MERRIMAC COLE HARBOUR": {
     "lat": 44.6770191,
