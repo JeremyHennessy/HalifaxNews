@@ -251,6 +251,12 @@
     "precision": "approximate_geocode",
     "query": "ARMSTRONG CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "ARNOLD": {
+    "lat": 44.618986,
+    "lon": -63.6135076,
+    "precision": "approximate_geocode",
+    "query": "ARNOLD DR, HALIFAX, Nova Scotia, Canada"
+  },
   "ASHGROVE COLE HARBOUR": {
     "lat": 44.6714528,
     "lon": -63.4829372,
@@ -742,6 +748,12 @@
     "lon": -63.4679753,
     "precision": "approximate_geocode",
     "query": "CALDWELL RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "CALEB DUTCH SETTLEMENT": {
+    "lat": 44.9879558,
+    "lon": -63.4568831,
+    "precision": "approximate_geocode",
+    "query": "CALEB LANE, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
   },
   "CALEDONIA": {
     "lat": 44.6926649,
@@ -1763,6 +1775,12 @@
     "precision": "approximate_geocode",
     "query": "GLEN ARBOUR WAY, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "GLEN EAGLE WAY": {
+    "lat": 44.6483219,
+    "lon": -63.6301803,
+    "precision": "approximate_geocode",
+    "query": "GLEN EAGLE WAY, HALIFAX, Nova Scotia, Canada"
+  },
   "GLENFOREST": {
     "lat": 44.6586218,
     "lon": -63.6436402,
@@ -1876,6 +1894,12 @@
     "lon": -63.8763137,
     "precision": "approximate_geocode",
     "query": "HAMMONDS PLAINS RD, UPPER TANTALLON, Halifax, Nova Scotia, Canada"
+  },
+  "HAMPTON GRN COLE HARBOUR": {
+    "lat": 44.6691782,
+    "lon": -63.4975215,
+    "precision": "approximate_geocode",
+    "query": "HAMPTON GRN, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "HANNEBURY COLE HARBOUR": {
     "lat": 44.6675246,
@@ -4672,6 +4696,12 @@
     "lon": -63.0182203,
     "precision": "approximate_geocode",
     "query": "WEST JEDDORE RD, WEST JEDDORE, Halifax, Nova Scotia, Canada"
+  },
+  "WEST PENNANT SAMBRO": {
+    "lat": 44.4756184,
+    "lon": -63.6175726,
+    "precision": "approximate_geocode",
+    "query": "WEST PENNANT RD, SAMBRO, Halifax, Nova Scotia, Canada"
   },
   "WEST PENNANT WEST PENNANT": {
     "lat": 44.4681979,
