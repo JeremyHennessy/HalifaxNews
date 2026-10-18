@@ -3443,6 +3443,12 @@
     "precision": "approximate_geocode",
     "query": "PARKDALE AVE, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "PARKHILL": {
+    "lat": 44.6260076,
+    "lon": -63.5993087,
+    "precision": "approximate_geocode",
+    "query": "PARKHILL RD, HALIFAX, Nova Scotia, Canada"
+  },
   "PARKLAND": {
     "lat": 44.6662625,
     "lon": -63.6734427,
@@ -3869,6 +3875,12 @@
     "precision": "approximate_geocode",
     "query": "RHULAND ST, HALIFAX, Nova Scotia, Canada"
   },
+  "RIDGE LOWER SACKVILLE": {
+    "lat": 44.7635286,
+    "lon": -63.6833883,
+    "precision": "approximate_geocode",
+    "query": "RIDGE AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "RIDGE VALLEY": {
     "lat": 44.6294492,
     "lon": -63.6205576,
@@ -4150,6 +4162,12 @@
     "lon": -63.6593544,
     "precision": "approximate_geocode",
     "query": "SHINING WALK, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SHORE BEDFORD": {
+    "lat": 44.7268157,
+    "lon": -63.6645443,
+    "precision": "approximate_geocode",
+    "query": "SHORE DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "SHORE EASTERN PASSAGE": {
     "lat": 44.6091349,
