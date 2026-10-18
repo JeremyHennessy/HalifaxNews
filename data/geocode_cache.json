@@ -791,6 +791,12 @@
     "precision": "approximate_geocode",
     "query": "CANTERBURY LANE, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "CAPRI WEST PORTERS LAKE": {
+    "lat": 44.6734682,
+    "lon": -63.3066347,
+    "precision": "approximate_geocode",
+    "query": "CAPRI DR, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "CARDIFF PL": {
     "lat": 44.6553993,
     "lon": -63.5878346,
@@ -3982,6 +3988,12 @@
     "lon": -63.7069621,
     "precision": "approximate_geocode",
     "query": "SANDSTONE DR, HATCHET LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "SANDY COVE TERENCE BAY": {
+    "lat": 44.4621784,
+    "lon": -63.7094564,
+    "precision": "approximate_geocode",
+    "query": "SANDY COVE RD, TERENCE BAY, Halifax, Nova Scotia, Canada"
   },
   "SARAH CRES BROOKSIDE": {
     "lat": 44.55534,
