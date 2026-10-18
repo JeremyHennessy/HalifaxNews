@@ -1793,6 +1793,12 @@
     "precision": "approximate_geocode",
     "query": "GOTTINGEN ST, HALIFAX, Nova Scotia, Canada"
   },
+  "GOUROK": {
+    "lat": 44.6937897,
+    "lon": -63.5348419,
+    "precision": "approximate_geocode",
+    "query": "GOUROK AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "GOVERNMENT SAMBRO": {
     "lat": 44.4737012,
     "lon": -63.6037007,
@@ -1900,6 +1906,12 @@
     "lon": -63.4975215,
     "precision": "approximate_geocode",
     "query": "HAMPTON GRN, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "HAMSHAW": {
+    "lat": 44.6857938,
+    "lon": -63.6851014,
+    "precision": "approximate_geocode",
+    "query": "HAMSHAW DR, HALIFAX, Nova Scotia, Canada"
   },
   "HANNEBURY COLE HARBOUR": {
     "lat": 44.6675246,
@@ -2842,6 +2854,12 @@
     "lon": -63.7203815,
     "precision": "approximate_geocode",
     "query": "LUCASVILLE RD, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "LUCIEN": {
+    "lat": 44.6845281,
+    "lon": -63.5123801,
+    "precision": "approximate_geocode",
+    "query": "LUCIEN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "MACARA": {
     "lat": 44.6587713,
@@ -4204,6 +4222,12 @@
     "lon": -63.6874193,
     "precision": "approximate_geocode",
     "query": "SMOKEY DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SNEEZY LAKE ECHO": {
+    "lat": 44.7440749,
+    "lon": -63.3822741,
+    "precision": "approximate_geocode",
+    "query": "SNEEZY AVE, LAKE ECHO, Halifax, Nova Scotia, Canada"
   },
   "SOLUTIONS": {
     "lat": 44.6560609,
