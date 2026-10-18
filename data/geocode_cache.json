@@ -4055,6 +4055,12 @@
     "precision": "approximate_geocode",
     "query": "SHEPPARDS RUN, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "SHERADON PL": {
+    "lat": 44.6595159,
+    "lon": -63.656405,
+    "precision": "approximate_geocode",
+    "query": "SHERADON PL, HALIFAX, Nova Scotia, Canada"
+  },
   "SHINING WALK LOWER SACKVILLE": {
     "lat": 44.7581704,
     "lon": -63.6593544,
