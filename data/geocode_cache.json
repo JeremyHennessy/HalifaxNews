@@ -2999,6 +2999,12 @@
     "precision": "approximate_geocode",
     "query": "MCINTYRE DR, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
+  "MCLEAN": {
+    "lat": 44.631651,
+    "lon": -63.5730031,
+    "precision": "approximate_geocode",
+    "query": "MCLEAN ST, HALIFAX, Nova Scotia, Canada"
+  },
   "MEADOW WALK": {
     "lat": 44.7166538,
     "lon": -63.5452022,
