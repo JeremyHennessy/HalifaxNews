@@ -1097,6 +1097,12 @@
     "precision": "approximate_geocode",
     "query": "COBURG RD, HALIFAX, Nova Scotia, Canada"
   },
+  "COCOA WESTPHAL": {
+    "lat": 44.7032457,
+    "lon": -63.4781373,
+    "precision": "approximate_geocode",
+    "query": "COCOA ST, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
   "COGSWELL": {
     "lat": 44.6503647,
     "lon": -63.5817161,
@@ -2794,6 +2800,12 @@
     "lon": -63.6124458,
     "precision": "approximate_geocode",
     "query": "LEEDS ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "LEGACY CRT LOWER SACKVILLE": {
+    "lat": 44.754187,
+    "lon": -63.663848,
+    "precision": "approximate_geocode",
+    "query": "LEGACY CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "LENNOX LOWER SACKVILLE": {
     "lat": 44.7792487,
@@ -4828,6 +4840,12 @@
     "lon": -63.855878,
     "precision": "approximate_geocode",
     "query": "WESTWOOD BLVD, UPPER TANTALLON, Halifax, Nova Scotia, Canada"
+  },
+  "WEXFORD COLE HARBOUR": {
+    "lat": 44.6681222,
+    "lon": -63.5018798,
+    "precision": "approximate_geocode",
+    "query": "WEXFORD RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "WHEATSTONE HTS": {
     "lat": 44.6742446,
