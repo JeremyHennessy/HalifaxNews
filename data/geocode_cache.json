@@ -1817,6 +1817,12 @@
     "precision": "approximate_geocode",
     "query": "GRAFTON ST, HALIFAX, Nova Scotia, Canada"
   },
+  "GRANITE COVE HUBLEY": {
+    "lat": 44.6593653,
+    "lon": -63.813276,
+    "precision": "approximate_geocode",
+    "query": "GRANITE COVE DR, HUBLEY, Halifax, Nova Scotia, Canada"
+  },
   "GRANVILLE": {
     "lat": 44.64739,
     "lon": -63.5734442,
@@ -3965,6 +3971,12 @@
     "precision": "approximate_geocode",
     "query": "ROCHDALE PL, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "ROCKCLIFFE ENFIELD": {
+    "lat": 44.9457179,
+    "lon": -63.5194122,
+    "precision": "approximate_geocode",
+    "query": "ROCKCLIFFE DR, ENFIELD, Halifax, Nova Scotia, Canada"
+  },
   "ROCKY LAKE BEDFORD": {
     "lat": 44.7376231,
     "lon": -63.6480095,
@@ -4318,6 +4330,12 @@
     "lon": -63.443385,
     "precision": "approximate_geocode",
     "query": "SPRUCE DR, COW BAY, Halifax, Nova Scotia, Canada"
+  },
+  "SQUIRES EASTERN PASSAGE": {
+    "lat": 44.6180928,
+    "lon": -63.4779706,
+    "precision": "approximate_geocode",
+    "query": "SQUIRES LANE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "STANLEY MIDDLE SACKVILLE": {
     "lat": 44.7826168,
