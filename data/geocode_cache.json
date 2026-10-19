@@ -605,6 +605,12 @@
     "precision": "approximate_geocode",
     "query": "BRENNANS RD, PROSPECT BAY, Halifax, Nova Scotia, Canada"
   },
+  "BRENTON": {
+    "lat": 44.6407424,
+    "lon": -63.5778289,
+    "precision": "approximate_geocode",
+    "query": "BRENTON ST, HALIFAX, Nova Scotia, Canada"
+  },
   "BRENTWOOD TIMBERLEA": {
     "lat": 44.653812,
     "lon": -63.7349529,
@@ -994,6 +1000,12 @@
     "lon": -63.6983676,
     "precision": "approximate_geocode",
     "query": "CHESAPEAKE RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
+  "CHESSVALE CL": {
+    "lat": 44.6673359,
+    "lon": -63.6535825,
+    "precision": "approximate_geocode",
+    "query": "CHESSVALE CL, HALIFAX, Nova Scotia, Canada"
   },
   "CHIPSTONE CL": {
     "lat": 44.6692582,
@@ -1906,6 +1918,12 @@
     "lon": -63.5367885,
     "precision": "approximate_geocode",
     "query": "HAMLET LANE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "HAMMONDS PLAINS BEDFORD": {
+    "lat": 44.7272174,
+    "lon": -63.7064928,
+    "precision": "approximate_geocode",
+    "query": "HAMMONDS PLAINS RD, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "HAMMONDS PLAINS HAMMONDS PLAINS": {
     "lat": 44.7349786,
@@ -2957,6 +2975,12 @@
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, HUBBARDS, Halifax, Nova Scotia, Canada"
   },
+  "MARGARETS BAY LEWIS LAKE": {
+    "lat": 44.6819394,
+    "lon": -63.8447651,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, LEWIS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "MARGARETS BAY TIMBERLEA": {
     "lat": 44.6657985,
     "lon": -63.7594235,
@@ -3682,6 +3706,12 @@
     "lon": -62.9188513,
     "precision": "approximate_geocode",
     "query": "POINT RD, CLAM BAY, Halifax, Nova Scotia, Canada"
+  },
+  "POINT PLEASANT": {
+    "lat": 44.6268004,
+    "lon": -63.572297,
+    "precision": "approximate_geocode",
+    "query": "POINT PLEASANT DR, HALIFAX, Nova Scotia, Canada"
   },
   "POLARA LOWER SACKVILLE": {
     "lat": 44.7804768,
