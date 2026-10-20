@@ -2735,6 +2735,12 @@
     "precision": "approximate_geocode",
     "query": "LAKE CHARLES DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "LAKE EGMONT LAKE EGMONT": {
+    "lat": 44.9880585,
+    "lon": -63.3051412,
+    "precision": "approximate_geocode",
+    "query": "LAKE EGMONT RD, LAKE EGMONT, Halifax, Nova Scotia, Canada"
+  },
   "LAKE HATCHET LAKE": {
     "lat": 44.5682549,
     "lon": -63.7211158,
@@ -4270,6 +4276,12 @@
     "lon": -63.6987886,
     "precision": "approximate_geocode",
     "query": "SHARON DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SHAUNSLIEVE": {
+    "lat": 44.6949285,
+    "lon": -63.6630652,
+    "precision": "approximate_geocode",
+    "query": "SHAUNSLIEVE DR, HALIFAX, Nova Scotia, Canada"
   },
   "SHEPPARDS RUN BEECHVILLE": {
     "lat": 44.6335052,
