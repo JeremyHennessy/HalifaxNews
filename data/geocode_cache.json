@@ -1733,6 +1733,12 @@
     "precision": "approximate_geocode",
     "query": "FOREST HILLS PKY, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "FOXBERRY HILL GLEN HAVEN": {
+    "lat": 44.6410861,
+    "lon": -63.9148568,
+    "precision": "approximate_geocode",
+    "query": "FOXBERRY HILL, GLEN HAVEN, Halifax, Nova Scotia, Canada"
+  },
   "FRAGGLE ROCK BEDFORD": {
     "lat": 44.7481153,
     "lon": -63.6275963,
@@ -4205,6 +4211,12 @@
     "precision": "approximate_geocode",
     "query": "SEAPOINT RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "SEAWOOD LOWER SACKVILLE": {
+    "lat": 44.7659616,
+    "lon": -63.6845414,
+    "precision": "approximate_geocode",
+    "query": "SEAWOOD AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "SECOND": {
     "lat": 44.6855539,
     "lon": -63.542703,
@@ -4252,6 +4264,12 @@
     "lon": -63.7354049,
     "precision": "approximate_geocode",
     "query": "SHANNONVALE CRT, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "SHARON MIDDLE SACKVILLE": {
+    "lat": 44.7832304,
+    "lon": -63.6987886,
+    "precision": "approximate_geocode",
+    "query": "SHARON DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SHEPPARDS RUN BEECHVILLE": {
     "lat": 44.6335052,
