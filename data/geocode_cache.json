@@ -1571,6 +1571,12 @@
     "precision": "approximate_geocode",
     "query": "EDWARD LAURIE DR, HALIFAX, Nova Scotia, Canada"
   },
+  "EILEEN STUBBS": {
+    "lat": 44.6972838,
+    "lon": -63.5777485,
+    "precision": "approximate_geocode",
+    "query": "EILEEN STUBBS AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "EISENER": {
     "lat": 44.668348,
     "lon": -63.5230931,
@@ -4966,6 +4972,12 @@
     "lon": -63.6326759,
     "precision": "approximate_geocode",
     "query": "WINLEY DR, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
+  },
+  "WOOD": {
+    "lat": 44.657561,
+    "lon": -63.5899543,
+    "precision": "approximate_geocode",
+    "query": "WOOD AVE, HALIFAX, Nova Scotia, Canada"
   },
   "WOODLAWN": {
     "lat": 44.6819491,
