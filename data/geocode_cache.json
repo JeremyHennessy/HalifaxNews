@@ -1193,6 +1193,12 @@
     "precision": "approximate_geocode",
     "query": "CONTINENTAL LANE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "CONVOY": {
+    "lat": 44.6544114,
+    "lon": -63.6440254,
+    "precision": "approximate_geocode",
+    "query": "CONVOY AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "CONVOY RUN BEDFORD": {
     "lat": 44.7176954,
     "lon": -63.6738216,
@@ -2267,6 +2273,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
+  "HIGNEY": {
+    "lat": 44.7136585,
+    "lon": -63.5640239,
+    "precision": "approximate_geocode",
+    "query": "HIGNEY AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "HILL TOP DUTCH SETTLEMENT": {
     "lat": 44.9974887,
     "lon": -63.4287626,
@@ -2404,6 +2416,12 @@
     "lon": -63.9563078,
     "precision": "approximate_geocode",
     "query": "ISLAND VIEW DR, BOUTILIERS POINT, Halifax, Nova Scotia, Canada"
+  },
+  "ISLEVILLE": {
+    "lat": 44.6668593,
+    "lon": -63.6076972,
+    "precision": "approximate_geocode",
+    "query": "ISLEVILLE ST, HALIFAX, Nova Scotia, Canada"
   },
   "ISNOR": {
     "lat": 44.7079201,
@@ -3250,6 +3268,12 @@
     "lon": -63.3310675,
     "precision": "approximate_geocode",
     "query": "MYRA RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "NARROWS PORTERS LAKE": {
+    "lat": 44.7384854,
+    "lon": -63.3099303,
+    "precision": "approximate_geocode",
+    "query": "NARROWS LANE, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "NAUTICAL WAY TANTALLON": {
     "lat": 44.6556645,
