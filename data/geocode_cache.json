@@ -377,6 +377,12 @@
     "precision": "approximate_geocode",
     "query": "BASINVIEW DR, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "BASSWOOD RUN": {
+    "lat": 44.6560536,
+    "lon": -63.5244531,
+    "precision": "approximate_geocode",
+    "query": "BASSWOOD RUN, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "BAYERS": {
     "lat": 44.6567,
     "lon": -63.6076338,
@@ -1978,6 +1984,12 @@
     "lon": -63.6121363,
     "precision": "approximate_geocode",
     "query": "HAWK TERR, HALIFAX, Nova Scotia, Canada"
+  },
+  "HEADINGS CRT MIDDLE SACKVILLE": {
+    "lat": 44.7888431,
+    "lon": -63.7084035,
+    "precision": "approximate_geocode",
+    "query": "HEADINGS CRT, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "HEATHERWOOD CRT": {
     "lat": 44.6711094,
@@ -4354,6 +4366,12 @@
     "lon": -63.5810733,
     "precision": "approximate_geocode",
     "query": "SPECTACLE LAKE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "SPENCER": {
+    "lat": 44.6143051,
+    "lon": -63.618317,
+    "precision": "approximate_geocode",
+    "query": "SPENCER AVE, HALIFAX, Nova Scotia, Canada"
   },
   "SPINNAKER": {
     "lat": 44.6367495,
