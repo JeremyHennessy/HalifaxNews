@@ -281,6 +281,12 @@
     "precision": "approximate_geocode",
     "query": "ASTER CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "ASTRAL COLE HARBOUR": {
+    "lat": 44.6489372,
+    "lon": -63.4719296,
+    "precision": "approximate_geocode",
+    "query": "ASTRAL DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "ATLANTIC": {
     "lat": 44.6322456,
     "lon": -63.5757861,
@@ -2794,6 +2800,12 @@
     "lon": -63.7506726,
     "precision": "approximate_geocode",
     "query": "LAKEFRONT DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "LAKEHEAD CRT LOWER SACKVILLE": {
+    "lat": 44.7780227,
+    "lon": -63.6723965,
+    "precision": "approximate_geocode",
+    "query": "LAKEHEAD CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "LAKESHIRE CRES COLE HARBOUR": {
     "lat": 44.6569803,
