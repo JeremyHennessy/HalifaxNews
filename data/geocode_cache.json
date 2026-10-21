@@ -2561,6 +2561,12 @@
     "precision": "approximate_geocode",
     "query": "KAREN CRES, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "KAREN SCOTT PORTERS LAKE": {
+    "lat": 44.7778055,
+    "lon": -63.3568228,
+    "precision": "approximate_geocode",
+    "query": "KAREN SCOTT DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "KAREN WESTPHAL": {
     "lat": 44.6953349,
     "lon": -63.4937707,
@@ -3484,6 +3490,12 @@
     "lon": -63.4888238,
     "precision": "approximate_geocode",
     "query": "ODELL DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "OGILVIE": {
+    "lat": 44.6275297,
+    "lon": -63.5739035,
+    "precision": "approximate_geocode",
+    "query": "OGILVIE ST, HALIFAX, Nova Scotia, Canada"
   },
   "OLD GLEN HAVEN": {
     "lat": 44.6296271,
@@ -4493,11 +4505,23 @@
     "precision": "approximate_geocode",
     "query": "STANLEY ST, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "STARBOARD": {
+    "lat": 44.698673,
+    "lon": -63.6849474,
+    "precision": "approximate_geocode",
+    "query": "STARBOARD DR, HALIFAX, Nova Scotia, Canada"
+  },
   "STARFLOWER WAY BROOKSIDE": {
     "lat": 44.5307678,
     "lon": -63.7023239,
     "precision": "approximate_geocode",
     "query": "STARFLOWER WAY, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
+  "STARGAZER PORTERS LAKE": {
+    "lat": 44.7536397,
+    "lon": -63.2893787,
+    "precision": "approximate_geocode",
+    "query": "STARGAZER DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "STATES BEECHVILLE": {
     "lat": 44.6318474,
