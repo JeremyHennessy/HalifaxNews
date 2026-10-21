@@ -257,6 +257,12 @@
     "precision": "approximate_geocode",
     "query": "ARNOLD DR, HALIFAX, Nova Scotia, Canada"
   },
+  "ASHDALE": {
+    "lat": 44.65839,
+    "lon": -63.6349544,
+    "precision": "approximate_geocode",
+    "query": "ASHDALE AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "ASHGROVE COLE HARBOUR": {
     "lat": 44.6714528,
     "lon": -63.4829372,
@@ -1090,6 +1096,12 @@
     "lon": -63.4883061,
     "precision": "approximate_geocode",
     "query": "CLERMONT CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "CLOVERFIELD CRT": {
+    "lat": 44.658861,
+    "lon": -63.5264605,
+    "precision": "approximate_geocode",
+    "query": "CLOVERFIELD CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "CLUB HOUSE HAMMONDS PLAINS": {
     "lat": 44.7509704,
@@ -2489,6 +2501,12 @@
     "precision": "approximate_geocode",
     "query": "JOHN PARR DR, HALIFAX, Nova Scotia, Canada"
   },
+  "JOHN STEWART COLE HARBOUR": {
+    "lat": 44.6833802,
+    "lon": -63.4841944,
+    "precision": "approximate_geocode",
+    "query": "JOHN STEWART DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "JOLLIMORE DUTCH SETTLEMENT": {
     "lat": 44.9867869,
     "lon": -63.4329408,
@@ -2885,6 +2903,12 @@
     "precision": "approximate_geocode",
     "query": "LES COLLINS AVE, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "LILLIAN": {
+    "lat": 44.6832706,
+    "lon": -63.5068626,
+    "precision": "approximate_geocode",
+    "query": "LILLIAN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "LINCOLN CRSS": {
     "lat": 44.666074,
     "lon": -63.6584503,
@@ -3082,6 +3106,12 @@
     "lon": -63.588036,
     "precision": "approximate_geocode",
     "query": "MAYNARD ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "MCCABE LAKE MIDDLE SACKVILLE": {
+    "lat": 44.793017,
+    "lon": -63.7714459,
+    "precision": "approximate_geocode",
+    "query": "MCCABE LAKE DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "MCFATRIDGE": {
     "lat": 44.6606379,
