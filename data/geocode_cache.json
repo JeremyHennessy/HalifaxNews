@@ -2363,6 +2363,12 @@
     "precision": "approximate_geocode",
     "query": "HOROBIN DR, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "HORSESHOE LAKE BEECHVILLE": {
+    "lat": 44.641395,
+    "lon": -63.6724949,
+    "precision": "approximate_geocode",
+    "query": "HORSESHOE LAKE DR, BEECHVILLE, Halifax, Nova Scotia, Canada"
+  },
   "HOUDA CRT": {
     "lat": 44.675249,
     "lon": -63.6494712,
