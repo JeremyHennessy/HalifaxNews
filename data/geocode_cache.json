@@ -1853,6 +1853,12 @@
     "precision": "approximate_geocode",
     "query": "GLENFOREST DR, HALIFAX, Nova Scotia, Canada"
   },
+  "GOLF LINKS BEDFORD": {
+    "lat": 44.7275676,
+    "lon": -63.6528439,
+    "precision": "approximate_geocode",
+    "query": "GOLF LINKS RD, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "GOTTINGEN": {
     "lat": 44.6692629,
     "lon": -63.6087222,
@@ -1870,6 +1876,12 @@
     "lon": -63.6037007,
     "precision": "approximate_geocode",
     "query": "GOVERNMENT RD, SAMBRO, Halifax, Nova Scotia, Canada"
+  },
+  "GOVERNMENT WHARF EASTERN PASSAGE": {
+    "lat": 44.6105657,
+    "lon": -63.4944057,
+    "precision": "approximate_geocode",
+    "query": "GOVERNMENT WHARF RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "GRAFTON": {
     "lat": 44.6443991,
@@ -2434,6 +2446,12 @@
     "lon": -63.7072766,
     "precision": "approximate_geocode",
     "query": "IRISWEG DR, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
+  "IRWIN HUBLEY SEABRIGHT": {
+    "lat": 44.6137612,
+    "lon": -63.928832,
+    "precision": "approximate_geocode",
+    "query": "IRWIN HUBLEY RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
   },
   "ISELEY DUTCH SETTLEMENT": {
     "lat": 44.9798347,
