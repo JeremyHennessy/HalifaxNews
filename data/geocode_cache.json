@@ -3539,6 +3539,12 @@
     "precision": "approximate_geocode",
     "query": "OLD SAMBRO RD, HALIFAX, Nova Scotia, Canada"
   },
+  "OLD SAMBRO HARRIETSFIELD": {
+    "lat": 44.5904871,
+    "lon": -63.6383977,
+    "precision": "approximate_geocode",
+    "query": "OLD SAMBRO RD, HARRIETSFIELD, Halifax, Nova Scotia, Canada"
+  },
   "OLD SAMBRO SAMBRO": {
     "lat": 44.4886461,
     "lon": -63.6190293,
@@ -3604,6 +3610,12 @@
     "lon": -63.7118379,
     "precision": "approximate_geocode",
     "query": "PARKDALE AVE, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "PARKER": {
+    "lat": 44.6625249,
+    "lon": -63.5565911,
+    "precision": "approximate_geocode",
+    "query": "PARKER ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "PARKHILL": {
     "lat": 44.6260076,
@@ -5032,6 +5044,12 @@
     "lon": -63.8051511,
     "precision": "approximate_geocode",
     "query": "WHITE HILLS RUN, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "WILKINSON": {
+    "lat": 44.7151515,
+    "lon": -63.5679625,
+    "precision": "approximate_geocode",
+    "query": "WILKINSON AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "WILLETT": {
     "lat": 44.6522498,
