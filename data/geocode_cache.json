@@ -4295,6 +4295,12 @@
     "precision": "approximate_geocode",
     "query": "SAMBRO CREEK RD, SAMBRO CREEK, Halifax, Nova Scotia, Canada"
   },
+  "SAMPSON LOWER SACKVILLE": {
+    "lat": 44.7881728,
+    "lon": -63.6817438,
+    "precision": "approximate_geocode",
+    "query": "SAMPSON DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "SANDSTONE HATCHET LAKE": {
     "lat": 44.5752593,
     "lon": -63.7069621,
