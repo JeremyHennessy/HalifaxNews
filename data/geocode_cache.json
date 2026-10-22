@@ -599,6 +599,12 @@
     "precision": "approximate_geocode",
     "query": "BOONDOCKS LANE, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "BOWATER MERSEY HEAD OF MARGARETS BAY": {
+    "lat": 44.7019882,
+    "lon": -63.8953176,
+    "precision": "approximate_geocode",
+    "query": "BOWATER MERSEY RD, HEAD OF ST MARGARETS BAY, Halifax, Nova Scotia, Canada"
+  },
   "BRADFORD PL BEDFORD": {
     "lat": 44.7021111,
     "lon": -63.7006755,
