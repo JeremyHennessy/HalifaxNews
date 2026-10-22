@@ -1703,6 +1703,12 @@
     "precision": "approximate_geocode",
     "query": "FAUCHEAU LANE, WAVERLEY, Halifax, Nova Scotia, Canada"
   },
+  "FENWICK": {
+    "lat": 44.6375761,
+    "lon": -63.5753047,
+    "precision": "approximate_geocode",
+    "query": "FENWICK ST, HALIFAX, Nova Scotia, Canada"
+  },
   "FERN BEAVER BANK": {
     "lat": 44.801799,
     "lon": -63.6834047,
@@ -4066,6 +4072,12 @@
     "lon": -63.6118935,
     "precision": "approximate_geocode",
     "query": "RAMSGATE LANE, HALIFAX, Nova Scotia, Canada"
+  },
+  "RANDALL": {
+    "lat": 44.6577829,
+    "lon": -63.6402596,
+    "precision": "approximate_geocode",
+    "query": "RANDALL AVE, HALIFAX, Nova Scotia, Canada"
   },
   "RANKIN LOWER SACKVILLE": {
     "lat": 44.7843564,
