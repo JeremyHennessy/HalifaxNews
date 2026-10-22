@@ -1481,6 +1481,12 @@
     "precision": "approximate_geocode",
     "query": "DONEGAL DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "DONVIEW": {
+    "lat": 44.6775311,
+    "lon": -63.513311,
+    "precision": "approximate_geocode",
+    "query": "DONVIEW DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "DOOKS HEAD OF JEDDORE": {
     "lat": 44.7698478,
     "lon": -63.0757934,
@@ -1642,6 +1648,12 @@
     "lon": -63.8040701,
     "precision": "approximate_geocode",
     "query": "EVERWOOD AVE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "EXHIBITION GROUNDS MIDDLE MUSQUODOBOIT": {
+    "lat": 45.042791,
+    "lon": -63.1574197,
+    "precision": "approximate_geocode",
+    "query": "EXHIBITION GROUNDS RD, MIDDLE MUSQUODOBOIT, Halifax, Nova Scotia, Canada"
   },
   "FAIRMOUNT": {
     "lat": 44.6409439,
@@ -3917,6 +3929,12 @@
     "precision": "approximate_geocode",
     "query": "POST OFFICE RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "POWERS WHITES LAKE": {
+    "lat": 44.5208837,
+    "lon": -63.760737,
+    "precision": "approximate_geocode",
+    "query": "POWERS RD, WHITES LAKE, Halifax, Nova Scotia, Canada"
+  },
   "PRATT AND WHITNEY GOFFS": {
     "lat": 44.8645219,
     "lon": -63.542093,
@@ -4217,6 +4235,12 @@
     "precision": "approximate_geocode",
     "query": "ROTHWELL ST, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "ROWE": {
+    "lat": 44.654978,
+    "lon": -63.628868,
+    "precision": "approximate_geocode",
+    "query": "ROWE AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "ROY CRES BEDFORD": {
     "lat": 44.7218592,
     "lon": -63.6823826,
@@ -4282,6 +4306,12 @@
     "lon": -63.7142807,
     "precision": "approximate_geocode",
     "query": "SARAH CRES, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
+  "SARAH INGRAHAM WILLIAMSWOOD": {
+    "lat": 44.5326213,
+    "lon": -63.6485364,
+    "precision": "approximate_geocode",
+    "query": "SARAH INGRAHAM DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
   },
   "SARATOGA": {
     "lat": 44.7045869,
