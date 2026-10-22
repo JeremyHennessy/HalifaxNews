@@ -1535,6 +1535,12 @@
     "precision": "approximate_geocode",
     "query": "DUART AVE, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "DUFFIELD ELMSDALE": {
+    "lat": 44.9687633,
+    "lon": -63.4834213,
+    "precision": "approximate_geocode",
+    "query": "DUFFIELD LANE, ELMSDALE, Halifax, Nova Scotia, Canada"
+  },
   "DUFFUS": {
     "lat": 44.6671906,
     "lon": -63.6064667,
@@ -3094,6 +3100,12 @@
     "lon": -63.7378271,
     "precision": "approximate_geocode",
     "query": "MAPLEWOOD DR, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "MARGARETS BAY BLACK POINT": {
+    "lat": 44.6562097,
+    "lon": -63.973355,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, BLACK POINT, Halifax, Nova Scotia, Canada"
   },
   "MARGARETS BAY HEAD OF MARGARETS BAY": {
     "lat": 44.6945036,
