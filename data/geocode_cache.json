@@ -887,6 +887,12 @@
     "precision": "approximate_geocode",
     "query": "CASTLE HILL DR, HALIFAX, Nova Scotia, Canada"
   },
+  "CASTLEWOOD COLE HARBOUR": {
+    "lat": 44.6657543,
+    "lon": -63.488805,
+    "precision": "approximate_geocode",
+    "query": "CASTLEWOOD DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "CATAMARAN": {
     "lat": 44.6195566,
     "lon": -63.6177965,
