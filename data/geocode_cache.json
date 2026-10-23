@@ -3017,6 +3017,12 @@
     "precision": "approximate_geocode",
     "query": "LINCOLN CRSS, HALIFAX, Nova Scotia, Canada"
   },
+  "LISA ANN LAWRENCETOWN": {
+    "lat": 44.6937601,
+    "lon": -63.4060525,
+    "precision": "approximate_geocode",
+    "query": "LISA ANN DR, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
+  },
   "LITTLES TERENCE BAY": {
     "lat": 44.4675544,
     "lon": -63.7236541,
@@ -4625,6 +4631,12 @@
     "precision": "approximate_geocode",
     "query": "SPINNAKER DR, HALIFAX, Nova Scotia, Canada"
   },
+  "SPINNER CRES LOWER SACKVILLE": {
+    "lat": 44.7853789,
+    "lon": -63.6833968,
+    "precision": "approximate_geocode",
+    "query": "SPINNER CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "SPRING GARDEN": {
     "lat": 44.6437582,
     "lon": -63.5742626,
@@ -4774,6 +4786,12 @@
     "lon": -63.5075565,
     "precision": "approximate_geocode",
     "query": "SWANTON DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "SYCAMORE CRT LOWER SACKVILLE": {
+    "lat": 44.7740731,
+    "lon": -63.6824069,
+    "precision": "approximate_geocode",
+    "query": "SYCAMORE CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SYLVANIA TERR HAMMONDS PLAINS": {
     "lat": 44.7218543,
