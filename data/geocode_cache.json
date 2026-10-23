@@ -4949,6 +4949,12 @@
     "precision": "approximate_geocode",
     "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "UPPER GOVERNOR NORTH PRESTON": {
+    "lat": 44.7408367,
+    "lon": -63.4605394,
+    "precision": "approximate_geocode",
+    "query": "UPPER GOVERNOR ST, NORTH PRESTON, Halifax, Nova Scotia, Canada"
+  },
   "UPPER WATER": {
     "lat": 44.6526031,
     "lon": -63.5768492,
