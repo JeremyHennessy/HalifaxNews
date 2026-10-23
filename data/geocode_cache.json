@@ -971,6 +971,12 @@
     "precision": "approximate_geocode",
     "query": "CHAPAIS DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "CHARLES": {
+    "lat": 44.6553805,
+    "lon": -63.5909614,
+    "precision": "approximate_geocode",
+    "query": "CHARLES ST, HALIFAX, Nova Scotia, Canada"
+  },
   "CHARLES GRAY WEST PENNANT": {
     "lat": 44.4739764,
     "lon": -63.636309,
@@ -3424,6 +3430,12 @@
     "lon": -63.3310675,
     "precision": "approximate_geocode",
     "query": "MYRA RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "NANTUCKET": {
+    "lat": 44.6724383,
+    "lon": -63.5745096,
+    "precision": "approximate_geocode",
+    "query": "NANTUCKET AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "NARROWS PORTERS LAKE": {
     "lat": 44.7384854,
