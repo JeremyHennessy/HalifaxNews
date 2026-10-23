@@ -2585,6 +2585,12 @@
     "precision": "approximate_geocode",
     "query": "JOHN PARR DR, HALIFAX, Nova Scotia, Canada"
   },
+  "JOHN SAVAGE": {
+    "lat": 44.7052116,
+    "lon": -63.575942,
+    "precision": "approximate_geocode",
+    "query": "JOHN SAVAGE AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "JOHN STEWART COLE HARBOUR": {
     "lat": 44.6833802,
     "lon": -63.4841944,
