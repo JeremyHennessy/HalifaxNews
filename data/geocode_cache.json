@@ -1385,6 +1385,12 @@
     "precision": "approximate_geocode",
     "query": "DAHLIA ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "DAISYWOOD HAMMONDS PLAINS": {
+    "lat": 44.7609581,
+    "lon": -63.7981773,
+    "precision": "approximate_geocode",
+    "query": "DAISYWOOD DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "DAMASCUS BEDFORD": {
     "lat": 44.7500521,
     "lon": -63.6460021,
@@ -1889,6 +1895,12 @@
     "precision": "approximate_geocode",
     "query": "GLENFOREST DR, HALIFAX, Nova Scotia, Canada"
   },
+  "GLENMONT BEDFORD": {
+    "lat": 44.7093387,
+    "lon": -63.6704452,
+    "precision": "approximate_geocode",
+    "query": "GLENMONT AVE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "GOLF LINKS BEDFORD": {
     "lat": 44.7275676,
     "lon": -63.6528439,
@@ -2074,6 +2086,12 @@
     "lon": -63.7084035,
     "precision": "approximate_geocode",
     "query": "HEADINGS CRT, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "HEATHERGLEN BEAVER BANK": {
+    "lat": 44.8370764,
+    "lon": -63.6722833,
+    "precision": "approximate_geocode",
+    "query": "HEATHERGLEN DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
   "HEATHERWOOD CRT": {
     "lat": 44.6711094,
@@ -5236,6 +5254,12 @@
     "lon": -63.5776312,
     "precision": "approximate_geocode",
     "query": "WYSE RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "YORKS EASTERN PASSAGE": {
+    "lat": 44.6099483,
+    "lon": -63.4851614,
+    "precision": "approximate_geocode",
+    "query": "YORKS LANE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "YOUNG": {
     "lat": 44.654574,
