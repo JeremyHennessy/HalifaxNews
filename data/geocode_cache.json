@@ -1127,6 +1127,12 @@
     "precision": "approximate_geocode",
     "query": "CLOVERFIELD CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CLUB BROOKSIDE": {
+    "lat": 44.5587975,
+    "lon": -63.7160926,
+    "precision": "approximate_geocode",
+    "query": "CLUB RD, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
   "CLUB HOUSE HAMMONDS PLAINS": {
     "lat": 44.7509704,
     "lon": -63.7687369,
@@ -1786,6 +1792,12 @@
     "lon": -63.6811391,
     "precision": "approximate_geocode",
     "query": "FLORENCE PLACE CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "FLYING CLOUD COLE HARBOUR": {
+    "lat": 44.6802556,
+    "lon": -63.4933187,
+    "precision": "approximate_geocode",
+    "query": "FLYING CLOUD DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "FOREST HILL": {
     "lat": 44.6762688,
@@ -3556,6 +3568,12 @@
     "lon": -63.4653816,
     "precision": "approximate_geocode",
     "query": "NORTH PRESTON RD, NORTH PRESTON, Halifax, Nova Scotia, Canada"
+  },
+  "NORTH RIDGE": {
+    "lat": 44.6727659,
+    "lon": -63.6158208,
+    "precision": "approximate_geocode",
+    "query": "NORTH RIDGE RD, HALIFAX, Nova Scotia, Canada"
   },
   "NOTTING HILL MINEVILLE": {
     "lat": 44.6981612,
