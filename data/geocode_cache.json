@@ -3779,6 +3779,12 @@
     "precision": "approximate_geocode",
     "query": "PARKWAY DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "PARTRIDGE NEST MINEVILLE": {
+    "lat": 44.7111226,
+    "lon": -63.3873834,
+    "precision": "approximate_geocode",
+    "query": "PARTRIDGE NEST DR, MINEVILLE, Halifax, Nova Scotia, Canada"
+  },
   "PATRICIA PL LAKE ECHO": {
     "lat": 44.738674,
     "lon": -63.3930108,
