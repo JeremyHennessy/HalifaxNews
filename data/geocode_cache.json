@@ -1313,6 +1313,12 @@
     "precision": "approximate_geocode",
     "query": "COX LAKE RD, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "CRAIGBURN": {
+    "lat": 44.7246232,
+    "lon": -63.543969,
+    "precision": "approximate_geocode",
+    "query": "CRAIGBURN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CRANBERRY CRES": {
     "lat": 44.681496,
     "lon": -63.4985109,
