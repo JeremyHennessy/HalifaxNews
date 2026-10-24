@@ -185,6 +185,12 @@
     "precision": "approximate_geocode",
     "query": "ANGUS L MACDONALD BRDG, HALIFAX, Nova Scotia, Canada"
   },
+  "ANTRIM CARROLLS CORNER": {
+    "lat": 44.9793931,
+    "lon": -63.3836934,
+    "precision": "approximate_geocode",
+    "query": "ANTRIM RD, CARROLLS CORNER, Halifax, Nova Scotia, Canada"
+  },
   "APPALOOSA RUN HAMMONDS PLAINS": {
     "lat": 44.7256734,
     "lon": -63.7478586,
@@ -2164,6 +2170,12 @@
     "lon": -63.5919463,
     "precision": "approximate_geocode",
     "query": "HERRING COVE RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "HERRING COVE HERRING COVE": {
+    "lat": 44.5851827,
+    "lon": -63.5887671,
+    "precision": "approximate_geocode",
+    "query": "HERRING COVE RD, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
   "HESCOTT ELMSDALE": {
     "lat": 44.9483751,
@@ -4294,6 +4306,12 @@
     "lon": -63.4259451,
     "precision": "approximate_geocode",
     "query": "ROBINSON RD, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
+  },
+  "ROBLEA": {
+    "lat": 44.681138,
+    "lon": -63.5193338,
+    "precision": "approximate_geocode",
+    "query": "ROBLEA DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "ROCHDALE PL BEDFORD": {
     "lat": 44.7049917,
