@@ -4241,6 +4241,12 @@
     "precision": "approximate_geocode",
     "query": "RIVERSIDE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "RIVERVIEW TIMBERLEA": {
+    "lat": 44.6508727,
+    "lon": -63.7296341,
+    "precision": "approximate_geocode",
+    "query": "RIVERVIEW DR, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "ROBERT MURPHY": {
     "lat": 44.6474392,
     "lon": -63.6127549,
