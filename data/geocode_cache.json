@@ -1769,6 +1769,12 @@
     "precision": "approximate_geocode",
     "query": "FIRST LAKE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "FIRST LUCASVILLE": {
+    "lat": 44.7524744,
+    "lon": -63.7407728,
+    "precision": "approximate_geocode",
+    "query": "FIRST ST, LUCASVILLE, Halifax, Nova Scotia, Canada"
+  },
   "FLAGSTONE COLE HARBOUR": {
     "lat": 44.6595447,
     "lon": -63.4901216,
