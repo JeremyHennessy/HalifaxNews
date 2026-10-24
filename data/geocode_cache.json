@@ -3311,6 +3311,12 @@
     "precision": "approximate_geocode",
     "query": "MERIDIAN CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "MERLOT CRT TIMBERLEA": {
+    "lat": 44.6440319,
+    "lon": -63.7182325,
+    "precision": "approximate_geocode",
+    "query": "MERLOT CRT, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "MERRIMAC COLE HARBOUR": {
     "lat": 44.6770191,
     "lon": -63.4907282,
