@@ -1073,6 +1073,12 @@
     "precision": "approximate_geocode",
     "query": "CHURCH ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CHURCHILL CRT": {
+    "lat": 44.6880335,
+    "lon": -63.5279175,
+    "precision": "approximate_geocode",
+    "query": "CHURCHILL CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CIRCASSION COLE HARBOUR": {
     "lat": 44.6792654,
     "lon": -63.499104,
@@ -2326,6 +2332,12 @@
     "lon": -63.2589216,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 207, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 224 CHASWOOD": {
+    "lat": 45.0433568,
+    "lon": -63.2185007,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 224, CHASWOOD, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 224 ELMSVALE": {
     "lat": 45.0988043,
@@ -4361,6 +4373,12 @@
     "precision": "approximate_geocode",
     "query": "ROSEMARY DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "ROSLYN": {
+    "lat": 44.6827335,
+    "lon": -63.4966208,
+    "precision": "approximate_geocode",
+    "query": "ROSLYN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "ROSS WESTPHAL": {
     "lat": 44.6958242,
     "lon": -63.4585758,
@@ -4588,6 +4606,12 @@
     "lon": -63.5559762,
     "precision": "approximate_geocode",
     "query": "SHORE RD, HERRING COVE, Halifax, Nova Scotia, Canada"
+  },
+  "SHORELINE MINEVILLE": {
+    "lat": 44.6842716,
+    "lon": -63.3600063,
+    "precision": "approximate_geocode",
+    "query": "SHORELINE DR, MINEVILLE, Halifax, Nova Scotia, Canada"
   },
   "SILISTRIA COLE HARBOUR": {
     "lat": 44.6750666,
