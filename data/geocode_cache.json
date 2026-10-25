@@ -1847,6 +1847,12 @@
     "precision": "approximate_geocode",
     "query": "FRAGGLE ROCK RD, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "FRANCES CRT": {
+    "lat": 44.5937129,
+    "lon": -63.5990961,
+    "precision": "approximate_geocode",
+    "query": "FRANCES CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "FRANCIE WILLIAMSWOOD": {
     "lat": 44.5309094,
     "lon": -63.6431278,
@@ -2296,6 +2302,12 @@
     "lon": -63.7362999,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 103, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 107 BEDFORD": {
+    "lat": 44.7277506,
+    "lon": -63.6309645,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 107, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 118 WAVERLEY": {
     "lat": 44.7440489,
@@ -4714,6 +4726,12 @@
     "lon": -63.1478979,
     "precision": "approximate_geocode",
     "query": "SOUTH RD, SOUTH SECTION, Halifax, Nova Scotia, Canada"
+  },
+  "SOVEREIGN CRES WESTPHAL": {
+    "lat": 44.6853667,
+    "lon": -63.4817412,
+    "precision": "approximate_geocode",
+    "query": "SOVEREIGN CRES, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "SPECTACLE LAKE": {
     "lat": 44.7011044,
