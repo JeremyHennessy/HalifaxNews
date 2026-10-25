@@ -3947,6 +3947,12 @@
     "precision": "approximate_geocode",
     "query": "PHILIP DR, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "PHOENIX CRES LOWER SACKVILLE": {
+    "lat": 44.7820851,
+    "lon": -63.6716953,
+    "precision": "approximate_geocode",
+    "query": "PHOENIX CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "PINE GROVE": {
     "lat": 44.6116932,
     "lon": -63.6145453,
@@ -5056,6 +5062,12 @@
     "lon": -63.55444,
     "precision": "approximate_geocode",
     "query": "TUPPER ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "TUSCANY RUN TIMBERLEA": {
+    "lat": 44.6393017,
+    "lon": -63.7237508,
+    "precision": "approximate_geocode",
+    "query": "TUSCANY RUN, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "UNION BEDFORD": {
     "lat": 44.7337842,
