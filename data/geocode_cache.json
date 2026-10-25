@@ -1193,6 +1193,12 @@
     "precision": "approximate_geocode",
     "query": "COLE HARBOUR RD, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "COLEMAN CRT": {
+    "lat": 44.6513766,
+    "lon": -63.6174733,
+    "precision": "approximate_geocode",
+    "query": "COLEMAN CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "COLERIDGE CRT COLE HARBOUR": {
     "lat": 44.6797877,
     "lon": -63.4620973,
@@ -5026,6 +5032,12 @@
     "lon": -63.5778452,
     "precision": "approximate_geocode",
     "query": "TOWER RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "TOWERVIEW": {
+    "lat": 44.6250755,
+    "lon": -63.6144174,
+    "precision": "approximate_geocode",
+    "query": "TOWERVIEW DR, HALIFAX, Nova Scotia, Canada"
   },
   "TRAILWOOD PL": {
     "lat": 44.6725463,
