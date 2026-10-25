@@ -4511,6 +4511,12 @@
     "precision": "approximate_geocode",
     "query": "SCHOOL AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "SEA KING": {
+    "lat": 44.6861058,
+    "lon": -63.5740167,
+    "precision": "approximate_geocode",
+    "query": "SEA KING DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "SEAPOINT": {
     "lat": 44.7004285,
     "lon": -63.6079628,
@@ -5021,6 +5027,12 @@
     "precision": "approximate_geocode",
     "query": "TRAILWOOD PL, HALIFAX, Nova Scotia, Canada"
   },
+  "TRANSOM": {
+    "lat": 44.6921199,
+    "lon": -63.679136,
+    "precision": "approximate_geocode",
+    "query": "TRANSOM DR, HALIFAX, Nova Scotia, Canada"
+  },
   "TREELINE CRT HARRIETSFIELD": {
     "lat": 44.5745544,
     "lon": -63.6365313,
@@ -5302,6 +5314,12 @@
     "lon": -63.5477908,
     "precision": "approximate_geocode",
     "query": "WHEATSTONE HTS, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "WHILEY UPPER HAMMONDS PLAINS": {
+    "lat": 44.7454142,
+    "lon": -63.8135675,
+    "precision": "approximate_geocode",
+    "query": "WHILEY LANE, UPPER HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
   "WHITE HILLS RUN HAMMONDS PLAINS": {
     "lat": 44.7478409,
