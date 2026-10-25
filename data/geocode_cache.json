@@ -497,6 +497,12 @@
     "precision": "approximate_geocode",
     "query": "BELLFLOWER LANE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BELMONT ON THE ARM": {
+    "lat": 44.6303355,
+    "lon": -63.5898085,
+    "precision": "approximate_geocode",
+    "query": "BELMONT ON THE ARM, HALIFAX, Nova Scotia, Canada"
+  },
   "BENTLY": {
     "lat": 44.6484387,
     "lon": -63.6558578,
@@ -1661,6 +1667,12 @@
     "precision": "approximate_geocode",
     "query": "EDWARD LAURIE DR, HALIFAX, Nova Scotia, Canada"
   },
+  "EDWARD NORTH PRESTON": {
+    "lat": 44.7444714,
+    "lon": -63.4745829,
+    "precision": "approximate_geocode",
+    "query": "EDWARD LANE, NORTH PRESTON, Halifax, Nova Scotia, Canada"
+  },
   "EILEEN STUBBS": {
     "lat": 44.6972838,
     "lon": -63.5777485,
@@ -1756,6 +1768,12 @@
     "lon": -63.5753047,
     "precision": "approximate_geocode",
     "query": "FENWICK ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "FENWOOD": {
+    "lat": 44.6363952,
+    "lon": -63.6300548,
+    "precision": "approximate_geocode",
+    "query": "FENWOOD RD, HALIFAX, Nova Scotia, Canada"
   },
   "FERN BEAVER BANK": {
     "lat": 44.801799,
