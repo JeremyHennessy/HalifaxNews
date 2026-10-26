@@ -1469,6 +1469,12 @@
     "precision": "approximate_geocode",
     "query": "DAWN DOUGLAS DR, PORTUGUESE COVE, Halifax, Nova Scotia, Canada"
   },
+  "DEBRAS WAY EAST CHEZZETCOOK": {
+    "lat": 44.7430563,
+    "lon": -63.2346687,
+    "precision": "approximate_geocode",
+    "query": "DEBRAS WAY, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "DEEPWOOD CRES": {
     "lat": 44.6620269,
     "lon": -63.648796,
@@ -4660,6 +4666,12 @@
     "lon": -63.3600063,
     "precision": "approximate_geocode",
     "query": "SHORELINE DR, MINEVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SHUBIE": {
+    "lat": 44.70709,
+    "lon": -63.5663957,
+    "precision": "approximate_geocode",
+    "query": "SHUBIE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SILISTRIA COLE HARBOUR": {
     "lat": 44.6750666,
