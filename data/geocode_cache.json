@@ -1865,6 +1865,12 @@
     "precision": "approximate_geocode",
     "query": "FOREST HILLS PKY, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "FOSTER FALL RIVER": {
+    "lat": 44.7989936,
+    "lon": -63.6345194,
+    "precision": "approximate_geocode",
+    "query": "FOSTER AVE, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "FOXBERRY HILL GLEN HAVEN": {
     "lat": 44.6410861,
     "lon": -63.9148568,
@@ -3737,6 +3743,12 @@
     "precision": "approximate_geocode",
     "query": "OGILVIE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "OLD BEAVER BANK LOWER SACKVILLE": {
+    "lat": 44.7706493,
+    "lon": -63.6901578,
+    "precision": "approximate_geocode",
+    "query": "OLD BEAVER BANK RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "OLD GLEN HAVEN": {
     "lat": 44.6296271,
     "lon": -63.8809236,
@@ -5321,6 +5333,12 @@
     "precision": "approximate_geocode",
     "query": "WEST JEDDORE RD, WEST JEDDORE, Halifax, Nova Scotia, Canada"
   },
+  "WEST LAWRENCETOWN LAWRENCETOWN": {
+    "lat": 44.6608849,
+    "lon": -63.3769862,
+    "precision": "approximate_geocode",
+    "query": "WEST LAWRENCETOWN RD, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
+  },
   "WEST PENNANT SAMBRO": {
     "lat": 44.4756184,
     "lon": -63.6175726,
@@ -5399,6 +5417,12 @@
     "precision": "approximate_geocode",
     "query": "WHILEY LANE, UPPER HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "WHISTLERS COVE EAST DOVER": {
+    "lat": 44.4934076,
+    "lon": -63.8461886,
+    "precision": "approximate_geocode",
+    "query": "WHISTLERS COVE RD, EAST DOVER, Halifax, Nova Scotia, Canada"
+  },
   "WHITE HILLS RUN HAMMONDS PLAINS": {
     "lat": 44.7478409,
     "lon": -63.8051511,
@@ -5476,6 +5500,12 @@
     "lon": -63.5899543,
     "precision": "approximate_geocode",
     "query": "WOOD AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "WOODBINE BEAVER BANK": {
+    "lat": 44.7985653,
+    "lon": -63.6861711,
+    "precision": "approximate_geocode",
+    "query": "WOODBINE DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
   "WOODLAWN": {
     "lat": 44.6819491,
