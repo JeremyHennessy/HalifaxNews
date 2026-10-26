@@ -3521,6 +3521,12 @@
     "precision": "approximate_geocode",
     "query": "MUMFORD RD, HALIFAX, Nova Scotia, Canada"
   },
+  "MURDOCK MACKAY CRT LOWER SACKVILLE": {
+    "lat": 44.7578412,
+    "lon": -63.6547506,
+    "precision": "approximate_geocode",
+    "query": "MURDOCK MACKAY CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "MYRA PORTERS LAKE": {
     "lat": 44.7589583,
     "lon": -63.3310675,
@@ -4426,6 +4432,12 @@
     "lon": -63.1584916,
     "precision": "approximate_geocode",
     "query": "ROOKERY WAY, MUSQUODOBOIT HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "ROSEDALE": {
+    "lat": 44.6529727,
+    "lon": -63.6378409,
+    "precision": "approximate_geocode",
+    "query": "ROSEDALE AVE, HALIFAX, Nova Scotia, Canada"
   },
   "ROSEMARY MIDDLE SACKVILLE": {
     "lat": 44.8042318,
