@@ -3527,6 +3527,12 @@
     "precision": "approximate_geocode",
     "query": "MYRA RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "NADIA": {
+    "lat": 44.6847986,
+    "lon": -63.5947968,
+    "precision": "approximate_geocode",
+    "query": "NADIA DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "NANTUCKET": {
     "lat": 44.6724383,
     "lon": -63.5745096,
@@ -3694,6 +3700,12 @@
     "lon": -63.6363194,
     "precision": "approximate_geocode",
     "query": "OAKWOOD DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
+  "OCEANBREEZE HERRING COVE": {
+    "lat": 44.5693175,
+    "lon": -63.570161,
+    "precision": "approximate_geocode",
+    "query": "OCEANBREEZE AVE, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
   "OCEANVIEW BEDFORD": {
     "lat": 44.7071231,
