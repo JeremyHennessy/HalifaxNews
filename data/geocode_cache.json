@@ -305,6 +305,12 @@
     "precision": "approximate_geocode",
     "query": "ATLANTIC VIEW DR, SAMBRO HEAD, Halifax, Nova Scotia, Canada"
   },
+  "AUBURN WESTPHAL": {
+    "lat": 44.6873565,
+    "lon": -63.4846352,
+    "precision": "approximate_geocode",
+    "query": "AUBURN DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
   "AUTUMN": {
     "lat": 44.6020567,
     "lon": -63.6078411,
@@ -3545,6 +3551,12 @@
     "precision": "approximate_geocode",
     "query": "MOSHER RD, CONROD SETTLEMENT, Halifax, Nova Scotia, Canada"
   },
+  "MOTTS EAST CHEZZETCOOK": {
+    "lat": 44.7486837,
+    "lon": -63.226603,
+    "precision": "approximate_geocode",
+    "query": "MOTTS DR, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "MOUNT EDWARD": {
     "lat": 44.6880503,
     "lon": -63.5082188,
@@ -3574,6 +3586,12 @@
     "lon": -63.6547506,
     "precision": "approximate_geocode",
     "query": "MURDOCK MACKAY CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "MYERS POINT MYERS POINT": {
+    "lat": 44.7716457,
+    "lon": -63.0506913,
+    "precision": "approximate_geocode",
+    "query": "MYERS POINT RD, MYERS POINT, Halifax, Nova Scotia, Canada"
   },
   "MYRA PORTERS LAKE": {
     "lat": 44.7589583,
@@ -4966,6 +4984,12 @@
     "lon": -63.5083953,
     "precision": "approximate_geocode",
     "query": "STEED CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "STEEVES CRT LOWER SACKVILLE": {
+    "lat": 44.7731257,
+    "lon": -63.6766065,
+    "precision": "approximate_geocode",
+    "query": "STEEVES CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "STELLA PORTERS LAKE": {
     "lat": 44.7436396,
