@@ -1715,6 +1715,12 @@
     "precision": "approximate_geocode",
     "query": "ELLA LANE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "ELLERSLIE CRES COLE HARBOUR": {
+    "lat": 44.6784698,
+    "lon": -63.4966413,
+    "precision": "approximate_geocode",
+    "query": "ELLERSLIE CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "ELM MIDDLE MUSQUODOBOIT": {
     "lat": 45.045948,
     "lon": -63.1454339,
@@ -2080,6 +2086,12 @@
     "lon": -63.4347282,
     "precision": "approximate_geocode",
     "query": "GRONO RD, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
+  },
+  "GROVER WILLIAMSWOOD": {
+    "lat": 44.5125774,
+    "lon": -63.6345618,
+    "precision": "approximate_geocode",
+    "query": "GROVER DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
   },
   "HADDAD LOWER SACKVILLE": {
     "lat": 44.7897984,
@@ -3557,6 +3569,12 @@
     "precision": "approximate_geocode",
     "query": "MYRA RD, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "MYRA TIMBERLEA": {
+    "lat": 44.6401108,
+    "lon": -63.7070326,
+    "precision": "approximate_geocode",
+    "query": "MYRA RD, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "NADIA": {
     "lat": 44.6847986,
     "lon": -63.5947968,
@@ -3832,6 +3850,12 @@
     "lon": -63.5990359,
     "precision": "approximate_geocode",
     "query": "ONYX CRES, HALIFAX, Nova Scotia, Canada"
+  },
+  "OPTIMISM WALK LOWER SACKVILLE": {
+    "lat": 44.7586058,
+    "lon": -63.6600612,
+    "precision": "approximate_geocode",
+    "query": "OPTIMISM WALK, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "ORCADIAN CRT WESTPHAL": {
     "lat": 44.6898201,
@@ -4594,6 +4618,12 @@
     "lon": -63.705705,
     "precision": "approximate_geocode",
     "query": "SAWMILL CRES, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "SCHOLARS UPPER TANTALLON": {
+    "lat": 44.6973956,
+    "lon": -63.8650005,
+    "precision": "approximate_geocode",
+    "query": "SCHOLARS RD, UPPER TANTALLON, Halifax, Nova Scotia, Canada"
   },
   "SCHOOL": {
     "lat": 44.6495992,
@@ -5518,6 +5548,12 @@
     "lon": -63.6326759,
     "precision": "approximate_geocode",
     "query": "WINLEY DR, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
+  },
+  "WOLFE CRES": {
+    "lat": 44.6590945,
+    "lon": -63.6182254,
+    "precision": "approximate_geocode",
+    "query": "WOLFE CRES, HALIFAX, Nova Scotia, Canada"
   },
   "WOOD": {
     "lat": 44.657561,
