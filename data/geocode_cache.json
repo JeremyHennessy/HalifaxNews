@@ -575,6 +575,12 @@
     "precision": "approximate_geocode",
     "query": "BLINK BONNIE TERR, HALIFAX, Nova Scotia, Canada"
   },
+  "BLOCK HIGHWAY 102 BEDFORD": {
+    "lat": 44.7328047,
+    "lon": -63.6548597,
+    "precision": "approximate_geocode",
+    "query": "BLOCK HIGHWAY 102, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "BLOOMFIELD": {
     "lat": 44.6592822,
     "lon": -63.5947748,
@@ -610,6 +616,12 @@
     "lon": -63.3167782,
     "precision": "approximate_geocode",
     "query": "BOONDOCKS LANE, WEST PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "BOOTH": {
+    "lat": 44.6882118,
+    "lon": -63.5259295,
+    "precision": "approximate_geocode",
+    "query": "BOOTH ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "BOWATER MERSEY HEAD OF MARGARETS BAY": {
     "lat": 44.7019882,
@@ -2140,6 +2152,12 @@
     "lon": -63.4966781,
     "precision": "approximate_geocode",
     "query": "HANNEBURY DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "HARLINGTON CRES": {
+    "lat": 44.6602763,
+    "lon": -63.6533255,
+    "precision": "approximate_geocode",
+    "query": "HARLINGTON CRES, HALIFAX, Nova Scotia, Canada"
   },
   "HARTFORD LOWER SACKVILLE": {
     "lat": 44.7611596,
@@ -4816,6 +4834,12 @@
     "lon": -63.4817412,
     "precision": "approximate_geocode",
     "query": "SOVEREIGN CRES, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "SPAR CRES": {
+    "lat": 44.6804259,
+    "lon": -63.513752,
+    "precision": "approximate_geocode",
+    "query": "SPAR CRES, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SPECTACLE LAKE": {
     "lat": 44.7011044,
