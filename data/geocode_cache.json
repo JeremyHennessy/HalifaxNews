@@ -2453,6 +2453,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, EAST PRESTON, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 7 GAETZ BROOK": {
+    "lat": 44.7656437,
+    "lon": -63.2157471,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, GAETZ BROOK, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 7 HEAD OF CHEZZETCOOK": {
     "lat": 44.7412187,
     "lon": -63.2556912,
@@ -3088,6 +3094,12 @@
     "lon": -63.3313895,
     "precision": "approximate_geocode",
     "query": "LAWRENCETOWN RD, EAST LAWRENCETOWN, Halifax, Nova Scotia, Canada"
+  },
+  "LAWRENCETOWN LAWRENCETOWN": {
+    "lat": 44.6828575,
+    "lon": -63.4518099,
+    "precision": "approximate_geocode",
+    "query": "LAWRENCETOWN RD, LAWRENCETOWN, Halifax, Nova Scotia, Canada"
   },
   "LEACOCK CRT COLE HARBOUR": {
     "lat": 44.6733792,
