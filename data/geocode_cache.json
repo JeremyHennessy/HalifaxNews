@@ -4595,6 +4595,12 @@
     "precision": "approximate_geocode",
     "query": "RUSSELL LAKE DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "RYANS RIDGE CRT LOWER SACKVILLE": {
+    "lat": 44.764402,
+    "lon": -63.6523693,
+    "precision": "approximate_geocode",
+    "query": "RYANS RIDGE CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "RYEDALE CRT WESTPHAL": {
     "lat": 44.7012946,
     "lon": -63.451231,
