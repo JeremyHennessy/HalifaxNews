@@ -1457,6 +1457,12 @@
     "precision": "approximate_geocode",
     "query": "DAMASCUS RD, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "DARJEELING": {
+    "lat": 44.6246892,
+    "lon": -63.6210838,
+    "precision": "approximate_geocode",
+    "query": "DARJEELING DR, HALIFAX, Nova Scotia, Canada"
+  },
   "DARNER BEAVER BANK": {
     "lat": 44.826857,
     "lon": -63.6728968,
@@ -3142,6 +3148,12 @@
     "lon": -63.663848,
     "precision": "approximate_geocode",
     "query": "LEGACY CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "LEMARCHANT": {
+    "lat": 44.6387459,
+    "lon": -63.5909332,
+    "precision": "approximate_geocode",
+    "query": "LEMARCHANT ST, HALIFAX, Nova Scotia, Canada"
   },
   "LENNOX LOWER SACKVILLE": {
     "lat": 44.7792487,
@@ -5075,6 +5087,12 @@
     "precision": "approximate_geocode",
     "query": "SUSIE LAKE CRES, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "SWAINE": {
+    "lat": 44.6482762,
+    "lon": -63.6078165,
+    "precision": "approximate_geocode",
+    "query": "SWAINE ST, HALIFAX, Nova Scotia, Canada"
+  },
   "SWANTON": {
     "lat": 44.6749964,
     "lon": -63.5075565,
@@ -5254,6 +5272,12 @@
     "lon": -63.4605394,
     "precision": "approximate_geocode",
     "query": "UPPER GOVERNOR ST, NORTH PRESTON, Halifax, Nova Scotia, Canada"
+  },
+  "UPPER PARTRIDGE RIVER EAST PRESTON": {
+    "lat": 44.7255232,
+    "lon": -63.419039,
+    "precision": "approximate_geocode",
+    "query": "UPPER PARTRIDGE RIVER RD, EAST PRESTON, Halifax, Nova Scotia, Canada"
   },
   "UPPER WATER": {
     "lat": 44.6526031,
