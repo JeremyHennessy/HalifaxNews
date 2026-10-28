@@ -3107,6 +3107,12 @@
     "precision": "approximate_geocode",
     "query": "LARRY UTECK BLVD, HALIFAX, Nova Scotia, Canada"
   },
+  "LAVENDER WALK": {
+    "lat": 44.5993156,
+    "lon": -63.6121165,
+    "precision": "approximate_geocode",
+    "query": "LAVENDER WALK, HALIFAX, Nova Scotia, Canada"
+  },
   "LAWRENCE": {
     "lat": 44.6790618,
     "lon": -63.549328,
@@ -4655,6 +4661,12 @@
     "precision": "approximate_geocode",
     "query": "SANDY COVE RD, TERENCE BAY, Halifax, Nova Scotia, Canada"
   },
+  "SANDY LAKE BEAVER BANK": {
+    "lat": 44.8787611,
+    "lon": -63.6872359,
+    "precision": "approximate_geocode",
+    "query": "SANDY LAKE RD, BEAVER BANK, Halifax, Nova Scotia, Canada"
+  },
   "SAPPHIRE CRES LOWER SACKVILLE": {
     "lat": 44.7860823,
     "lon": -63.6808936,
@@ -4937,6 +4949,12 @@
     "precision": "approximate_geocode",
     "query": "SPAR CRES, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "SPARKS LAKE LOON": {
+    "lat": 44.7112953,
+    "lon": -63.4968207,
+    "precision": "approximate_geocode",
+    "query": "SPARKS RD, LAKE LOON, Halifax, Nova Scotia, Canada"
+  },
   "SPECTACLE LAKE": {
     "lat": 44.7011044,
     "lon": -63.5810733,
@@ -4972,6 +4990,12 @@
     "lon": -63.443385,
     "precision": "approximate_geocode",
     "query": "SPRUCE DR, COW BAY, Halifax, Nova Scotia, Canada"
+  },
+  "SPRUCE LOWER SACKVILLE": {
+    "lat": 44.7730373,
+    "lon": -63.6852106,
+    "precision": "approximate_geocode",
+    "query": "SPRUCE AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SQUIRES EASTERN PASSAGE": {
     "lat": 44.6180928,
