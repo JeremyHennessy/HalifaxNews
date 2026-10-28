@@ -503,6 +503,12 @@
     "precision": "approximate_geocode",
     "query": "BELLFLOWER LANE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "BELMONT HAMMONDS PLAINS": {
+    "lat": 44.7242754,
+    "lon": -63.7403651,
+    "precision": "approximate_geocode",
+    "query": "BELMONT AVE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "BELMONT ON THE ARM": {
     "lat": 44.6303355,
     "lon": -63.5898085,
@@ -2362,6 +2368,12 @@
     "lon": -63.5313364,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 102, GOFFS, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 102 LAKEVIEW": {
+    "lat": 44.7694309,
+    "lon": -63.6325649,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 102, LAKEVIEW, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 102 LOWER SACKVILLE": {
     "lat": 44.7439432,
@@ -4637,6 +4649,12 @@
     "precision": "approximate_geocode",
     "query": "SANDY COVE RD, TERENCE BAY, Halifax, Nova Scotia, Canada"
   },
+  "SAPPHIRE CRES LOWER SACKVILLE": {
+    "lat": 44.7860823,
+    "lon": -63.6808936,
+    "precision": "approximate_geocode",
+    "query": "SAPPHIRE CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "SARAH CRES BROOKSIDE": {
     "lat": 44.55534,
     "lon": -63.7142807,
@@ -5254,6 +5272,12 @@
     "lon": -63.7237508,
     "precision": "approximate_geocode",
     "query": "TUSCANY RUN, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "UMLAH SEABRIGHT": {
+    "lat": 44.6089705,
+    "lon": -63.9246581,
+    "precision": "approximate_geocode",
+    "query": "UMLAH RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
   },
   "UNION BEDFORD": {
     "lat": 44.7337842,
