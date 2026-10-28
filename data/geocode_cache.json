@@ -245,6 +245,12 @@
     "precision": "approximate_geocode",
     "query": "ARMCREST DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "ARMENIA BEDFORD": {
+    "lat": 44.7020184,
+    "lon": -63.6894401,
+    "precision": "approximate_geocode",
+    "query": "ARMENIA DR, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "ARMOYAN LOWER SACKVILLE": {
     "lat": 44.7594715,
     "lon": -63.6735325,
@@ -1739,6 +1745,12 @@
     "precision": "approximate_geocode",
     "query": "ELLERSLIE CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "ELM": {
+    "lat": 44.6458546,
+    "lon": -63.6042031,
+    "precision": "approximate_geocode",
+    "query": "ELM ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ELM MIDDLE MUSQUODOBOIT": {
     "lat": 45.045948,
     "lon": -63.1454339,
@@ -2399,6 +2411,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 107, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 107 EAST CHEZZETCOOK": {
+    "lat": 44.7549972,
+    "lon": -63.2030428,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 107, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 118 WAVERLEY": {
     "lat": 44.7440489,
     "lon": -63.560151,
@@ -2909,6 +2927,12 @@
     "precision": "approximate_geocode",
     "query": "KETCH HARBOUR RD, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
+  "KETCH HARBOUR SAMBRO": {
+    "lat": 44.4847439,
+    "lon": -63.5935485,
+    "precision": "approximate_geocode",
+    "query": "KETCH HARBOUR RD, SAMBRO, Halifax, Nova Scotia, Canada"
+  },
   "KEYWORTH": {
     "lat": 44.6128596,
     "lon": -63.6094512,
@@ -3106,6 +3130,12 @@
     "lon": -63.6644282,
     "precision": "approximate_geocode",
     "query": "LARRY UTECK BLVD, HALIFAX, Nova Scotia, Canada"
+  },
+  "LARRY UTECK BEDFORD": {
+    "lat": 44.7008413,
+    "lon": -63.6854263,
+    "precision": "approximate_geocode",
+    "query": "LARRY UTECK BLVD, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "LAVENDER WALK": {
     "lat": 44.5993156,
