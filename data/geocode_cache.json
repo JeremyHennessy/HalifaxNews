@@ -269,6 +269,12 @@
     "precision": "approximate_geocode",
     "query": "ARNOLD DR, HALIFAX, Nova Scotia, Canada"
   },
+  "ASCOT WAY LOWER SACKVILLE": {
+    "lat": 44.7712085,
+    "lon": -63.7018381,
+    "precision": "approximate_geocode",
+    "query": "ASCOT WAY, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "ASHDALE": {
     "lat": 44.65839,
     "lon": -63.6349544,
@@ -340,6 +346,12 @@
     "lon": -63.5320777,
     "precision": "approximate_geocode",
     "query": "BAKER DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "BAMBRICK MIDDLE SACKVILLE": {
+    "lat": 44.7936344,
+    "lon": -63.7273428,
+    "precision": "approximate_geocode",
+    "query": "BAMBRICK RD, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "BANOOK": {
     "lat": 44.6753203,
@@ -1306,6 +1318,12 @@
     "lon": -63.6738216,
     "precision": "approximate_geocode",
     "query": "CONVOY RUN, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "COOKS MILL CARROLLS CORNER": {
+    "lat": 45.03188,
+    "lon": -63.3897133,
+    "precision": "approximate_geocode",
+    "query": "COOKS MILL RD, CARROLLS CORNER, Halifax, Nova Scotia, Canada"
   },
   "CORBETT COOKS BROOK": {
     "lat": 45.0256568,
@@ -3304,6 +3322,12 @@
     "lon": -63.5123801,
     "precision": "approximate_geocode",
     "query": "LUCIEN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "LYDGATE LOWER SACKVILLE": {
+    "lat": 44.7773244,
+    "lon": -63.6758458,
+    "precision": "approximate_geocode",
+    "query": "LYDGATE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "MACARA": {
     "lat": 44.6587713,
