@@ -911,6 +911,12 @@
     "precision": "approximate_geocode",
     "query": "CARLETON ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CARNABY CRES COLE HARBOUR": {
+    "lat": 44.6643098,
+    "lon": -63.4887106,
+    "precision": "approximate_geocode",
+    "query": "CARNABY CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "CARRIAGEWAY CRES": {
     "lat": 44.6710194,
     "lon": -63.6135421,
@@ -2428,6 +2434,12 @@
     "lon": -63.7362999,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 103, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 107": {
+    "lat": 44.7264758,
+    "lon": -63.5375516,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 107, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 107 BEDFORD": {
     "lat": 44.7277506,
