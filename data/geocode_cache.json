@@ -1019,6 +1019,12 @@
     "precision": "approximate_geocode",
     "query": "CHALAMONT DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "CHALLENGER": {
+    "lat": 44.6830009,
+    "lon": -63.6104855,
+    "precision": "approximate_geocode",
+    "query": "CHALLENGER DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CHAMEAU CRES COLE HARBOUR": {
     "lat": 44.6810562,
     "lon": -63.4902744,
