@@ -701,6 +701,12 @@
     "precision": "approximate_geocode",
     "query": "BRIARWOOD DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "BRIGHT": {
+    "lat": 44.6681503,
+    "lon": -63.6171854,
+    "precision": "approximate_geocode",
+    "query": "BRIGHT ST, HALIFAX, Nova Scotia, Canada"
+  },
   "BROAD BEDFORD": {
     "lat": 44.7159577,
     "lon": -63.7049716,
@@ -2747,6 +2753,12 @@
     "precision": "approximate_geocode",
     "query": "JOFFRE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "JOHN": {
+    "lat": 44.6533167,
+    "lon": -63.5918408,
+    "precision": "approximate_geocode",
+    "query": "JOHN ST, HALIFAX, Nova Scotia, Canada"
+  },
   "JOHN BRACKETT HERRING COVE": {
     "lat": 44.5727853,
     "lon": -63.55748,
@@ -3317,6 +3329,12 @@
     "precision": "approximate_geocode",
     "query": "MAGENTA DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "MAGNATE CRT HAMMONDS PLAINS": {
+    "lat": 44.7390002,
+    "lon": -63.7265579,
+    "precision": "approximate_geocode",
+    "query": "MAGNATE CRT, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "MAIN": {
     "lat": 44.6567905,
     "lon": -63.6405868,
@@ -3496,6 +3514,12 @@
     "lon": -63.6231403,
     "precision": "approximate_geocode",
     "query": "MELWOOD AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "MEMORIAL WESTPHAL": {
+    "lat": 44.6973851,
+    "lon": -63.490889,
+    "precision": "approximate_geocode",
+    "query": "MEMORIAL DR, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
   "MERIDIAN CRT": {
     "lat": 44.6853911,
