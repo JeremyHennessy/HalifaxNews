@@ -191,6 +191,12 @@
     "precision": "approximate_geocode",
     "query": "ANTRIM RD, CARROLLS CORNER, Halifax, Nova Scotia, Canada"
   },
+  "APOLLO CRT": {
+    "lat": 44.6545492,
+    "lon": -63.6490964,
+    "precision": "approximate_geocode",
+    "query": "APOLLO CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "APPALOOSA RUN HAMMONDS PLAINS": {
     "lat": 44.7256734,
     "lon": -63.7478586,
@@ -346,6 +352,12 @@
     "lon": -63.5320777,
     "precision": "approximate_geocode",
     "query": "BAKER DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "BALI TERR PORTERS LAKE": {
+    "lat": 44.737974,
+    "lon": -63.3277875,
+    "precision": "approximate_geocode",
+    "query": "BALI TERR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "BAMBRICK MIDDLE SACKVILLE": {
     "lat": 44.7936344,
@@ -718,6 +730,12 @@
     "lon": -63.6171854,
     "precision": "approximate_geocode",
     "query": "BRIGHT ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "BRIGHTSIDE CRT PORTERS LAKE": {
+    "lat": 44.7473019,
+    "lon": -63.3008528,
+    "precision": "approximate_geocode",
+    "query": "BRIGHTSIDE CRT, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "BROAD BEDFORD": {
     "lat": 44.7159577,
