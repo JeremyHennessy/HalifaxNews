@@ -2525,6 +2525,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 207, SEAFORTH, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 207 THREE FATHOM HARBOUR": {
+    "lat": 44.6513709,
+    "lon": -63.3010394,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 207, THREE FATHOM HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 207 WEST CHEZZETCOOK": {
     "lat": 44.7056905,
     "lon": -63.2589216,
@@ -2746,6 +2752,12 @@
     "lon": -63.7006423,
     "precision": "approximate_geocode",
     "query": "INNSBROOK WAY, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "INSPIRATION PORTERS LAKE": {
+    "lat": 44.7351957,
+    "lon": -63.285874,
+    "precision": "approximate_geocode",
+    "query": "INSPIRATION DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "IONEY HILL BEAVER BANK": {
     "lat": 44.8025805,
@@ -3580,6 +3592,12 @@
     "lon": -63.9694871,
     "precision": "approximate_geocode",
     "query": "MEISNERS POINT RD, INGRAMPORT, Halifax, Nova Scotia, Canada"
+  },
+  "MELHAM MIDDLE SACKVILLE": {
+    "lat": 44.7851445,
+    "lon": -63.7138151,
+    "precision": "approximate_geocode",
+    "query": "MELHAM DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "MELROSE": {
     "lat": 44.6500292,
