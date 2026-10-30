@@ -311,6 +311,12 @@
     "precision": "approximate_geocode",
     "query": "ASTRAL DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "ATHOLEA COLE HARBOUR": {
+    "lat": 44.6446542,
+    "lon": -63.4790582,
+    "precision": "approximate_geocode",
+    "query": "ATHOLEA DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "ATLANTIC": {
     "lat": 44.6322456,
     "lon": -63.5757861,
@@ -1139,6 +1145,12 @@
     "precision": "approximate_geocode",
     "query": "CHIPSTONE CL, HALIFAX, Nova Scotia, Canada"
   },
+  "CHISHOLM": {
+    "lat": 44.658048,
+    "lon": -63.6213602,
+    "precision": "approximate_geocode",
+    "query": "CHISHOLM AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "CHOCOLATE LAKE": {
     "lat": 44.6382059,
     "lon": -63.6209343,
@@ -1720,6 +1732,12 @@
     "lon": -63.2301382,
     "precision": "approximate_geocode",
     "query": "DWYER LANE, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "DYKE COW BAY": {
+    "lat": 44.6275357,
+    "lon": -63.4416788,
+    "precision": "approximate_geocode",
+    "query": "DYKE RD, COW BAY, Halifax, Nova Scotia, Canada"
   },
   "EAST CHEZZETCOOK EAST CHEZZETCOOK": {
     "lat": 44.7226355,
@@ -3503,6 +3521,12 @@
     "precision": "approximate_geocode",
     "query": "MASSACHUSETTS AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "MASTHEAD CRT": {
+    "lat": 44.6926391,
+    "lon": -63.6809744,
+    "precision": "approximate_geocode",
+    "query": "MASTHEAD CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "MAYNARD": {
     "lat": 44.6530973,
     "lon": -63.588036,
@@ -3958,6 +3982,12 @@
     "lon": -63.6901578,
     "precision": "approximate_geocode",
     "query": "OLD BEAVER BANK RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "OLD BIRCH": {
+    "lat": 44.6621163,
+    "lon": -63.5155353,
+    "precision": "approximate_geocode",
+    "query": "OLD BIRCH RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "OLD GLEN HAVEN": {
     "lat": 44.6296271,
@@ -5260,6 +5290,12 @@
     "lon": -63.5075565,
     "precision": "approximate_geocode",
     "query": "SWANTON DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "SWAYSLAND GLEN HAVEN": {
+    "lat": 44.6403211,
+    "lon": -63.9097989,
+    "precision": "approximate_geocode",
+    "query": "SWAYSLAND LANE, GLEN HAVEN, Halifax, Nova Scotia, Canada"
   },
   "SYCAMORE CRT LOWER SACKVILLE": {
     "lat": 44.7740731,
