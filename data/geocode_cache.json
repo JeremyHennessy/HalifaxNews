@@ -881,6 +881,12 @@
     "precision": "approximate_geocode",
     "query": "CAMBRIDGE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "CAMILLA CRT": {
+    "lat": 44.6974728,
+    "lon": -63.5388051,
+    "precision": "approximate_geocode",
+    "query": "CAMILLA CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CAMPBELL BEDFORD": {
     "lat": 44.7237443,
     "lon": -63.6739714,
@@ -2021,6 +2027,12 @@
     "precision": "approximate_geocode",
     "query": "FRANKIE DR, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "FRANKLYN": {
+    "lat": 44.6469754,
+    "lon": -63.5404394,
+    "precision": "approximate_geocode",
+    "query": "FRANKLYN ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "FRANKLYN CRT": {
     "lat": 44.6870602,
     "lon": -63.5834101,
@@ -2110,6 +2122,12 @@
     "lon": -63.6528439,
     "precision": "approximate_geocode",
     "query": "GOLF LINKS RD, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "GORDON": {
+    "lat": 44.6575927,
+    "lon": -63.6419169,
+    "precision": "approximate_geocode",
+    "query": "GORDON AVE, HALIFAX, Nova Scotia, Canada"
   },
   "GOTTINGEN": {
     "lat": 44.6692629,
@@ -5255,6 +5273,12 @@
     "precision": "approximate_geocode",
     "query": "STRATFORD DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "STRATH": {
+    "lat": 44.6887576,
+    "lon": -63.5350163,
+    "precision": "approximate_geocode",
+    "query": "STRATH LANE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "STRAWBERRY HILL": {
     "lat": 44.6614715,
     "lon": -63.6174706,
@@ -5471,6 +5495,12 @@
     "precision": "approximate_geocode",
     "query": "TUSCANY RUN, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "TWINING FALL RIVER": {
+    "lat": 44.814265,
+    "lon": -63.6198996,
+    "precision": "approximate_geocode",
+    "query": "TWINING DR, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
   "UMLAH SEABRIGHT": {
     "lat": 44.6089705,
     "lon": -63.9246581,
@@ -5488,6 +5518,12 @@
     "lon": -63.5839372,
     "precision": "approximate_geocode",
     "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "UPPER GOVERNOR EAST PRESTON": {
+    "lat": 44.7183391,
+    "lon": -63.4367979,
+    "precision": "approximate_geocode",
+    "query": "UPPER GOVERNOR ST, EAST PRESTON, Halifax, Nova Scotia, Canada"
   },
   "UPPER GOVERNOR NORTH PRESTON": {
     "lat": 44.7408367,
