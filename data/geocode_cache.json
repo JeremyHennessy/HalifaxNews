@@ -1973,6 +1973,12 @@
     "precision": "approximate_geocode",
     "query": "FLETCHER DR, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "FLINT": {
+    "lat": 44.657462,
+    "lon": -63.6373764,
+    "precision": "approximate_geocode",
+    "query": "FLINT ST, HALIFAX, Nova Scotia, Canada"
+  },
   "FLORENCE PLACE CRT LOWER SACKVILLE": {
     "lat": 44.7675239,
     "lon": -63.6811391,
@@ -3418,6 +3424,12 @@
     "lon": -63.6758458,
     "precision": "approximate_geocode",
     "query": "LYDGATE DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "LYNWOOD BROOKSIDE": {
+    "lat": 44.5532069,
+    "lon": -63.7094031,
+    "precision": "approximate_geocode",
+    "query": "LYNWOOD DR, BROOKSIDE, Halifax, Nova Scotia, Canada"
   },
   "MACARA": {
     "lat": 44.6587713,
