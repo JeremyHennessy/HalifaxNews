@@ -89,6 +89,12 @@
     "precision": "approximate_geocode",
     "query": "ALBEMARLE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "ALBERT": {
+    "lat": 44.6711985,
+    "lon": -63.6068013,
+    "precision": "approximate_geocode",
+    "query": "ALBERT ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ALBRO LAKE": {
     "lat": 44.6814423,
     "lon": -63.5818316,
@@ -2219,6 +2225,12 @@
     "precision": "approximate_geocode",
     "query": "GRENNAN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "GRISTMILL CRT": {
+    "lat": 44.6592375,
+    "lon": -63.6584091,
+    "precision": "approximate_geocode",
+    "query": "GRISTMILL CRT, HALIFAX, Nova Scotia, Canada"
+  },
   "GRONO DUTCH SETTLEMENT": {
     "lat": 44.9858252,
     "lon": -63.4347282,
@@ -3766,6 +3778,12 @@
     "lon": -63.669009,
     "precision": "approximate_geocode",
     "query": "MONTGOMERY CRT, HALIFAX, Nova Scotia, Canada"
+  },
+  "MORADO": {
+    "lat": 44.674704,
+    "lon": -63.5427988,
+    "precision": "approximate_geocode",
+    "query": "MORADO LANE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "MORALL CRT HAMMONDS PLAINS": {
     "lat": 44.7078108,
@@ -5512,6 +5530,12 @@
     "lon": -63.6365313,
     "precision": "approximate_geocode",
     "query": "TREELINE CRT, HARRIETSFIELD, Halifax, Nova Scotia, Canada"
+  },
+  "TRINITY WAY TIMBERLEA": {
+    "lat": 44.6474132,
+    "lon": -63.7143322,
+    "precision": "approximate_geocode",
+    "query": "TRINITY WAY, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "TRUNDLE CRES MIDDLE SACKVILLE": {
     "lat": 44.7909325,
