@@ -1061,6 +1061,12 @@
     "precision": "approximate_geocode",
     "query": "CHAMEAU CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "CHAMPLAIN MIDDLE SACKVILLE": {
+    "lat": 44.7962552,
+    "lon": -63.7444059,
+    "precision": "approximate_geocode",
+    "query": "CHAMPLAIN AVE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "CHANDLER LOWER SACKVILLE": {
     "lat": 44.7670036,
     "lon": -63.6618072,
@@ -2740,6 +2746,12 @@
     "lon": -63.5074067,
     "precision": "approximate_geocode",
     "query": "HOWARD AVE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "HOWE": {
+    "lat": 44.674808,
+    "lon": -63.5881668,
+    "precision": "approximate_geocode",
+    "query": "HOWE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "ILSLEY": {
     "lat": 44.69967,
@@ -5818,6 +5830,12 @@
     "lon": -63.8051511,
     "precision": "approximate_geocode",
     "query": "WHITE HILLS RUN, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "WILDWOOD": {
+    "lat": 44.6832463,
+    "lon": -63.49804,
+    "precision": "approximate_geocode",
+    "query": "WILDWOOD BLVD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "WILKINSON": {
     "lat": 44.7151515,
