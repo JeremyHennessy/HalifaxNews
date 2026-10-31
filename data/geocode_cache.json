@@ -2231,6 +2231,12 @@
     "precision": "approximate_geocode",
     "query": "GROVER DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
   },
+  "GUSTY WILLIAMSWOOD": {
+    "lat": 44.4968568,
+    "lon": -63.6310592,
+    "precision": "approximate_geocode",
+    "query": "GUSTY LANE, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
   "HADDAD LOWER SACKVILLE": {
     "lat": 44.7897984,
     "lon": -63.6870934,
@@ -3382,6 +3388,12 @@
     "lon": -63.5151333,
     "precision": "approximate_geocode",
     "query": "LOCHMOOR LANE, LAKE LOON, Halifax, Nova Scotia, Canada"
+  },
+  "LOCKWOOD HERRING COVE": {
+    "lat": 44.583972,
+    "lon": -63.5813123,
+    "precision": "approximate_geocode",
+    "query": "LOCKWOOD AVE, HERRING COVE, Halifax, Nova Scotia, Canada"
   },
   "LONDRA CRT": {
     "lat": 44.6861101,
@@ -5530,6 +5542,12 @@
     "lon": -63.6198996,
     "precision": "approximate_geocode",
     "query": "TWINING DR, FALL RIVER, Halifax, Nova Scotia, Canada"
+  },
+  "TYNES CRT LOWER SACKVILLE": {
+    "lat": 44.7879249,
+    "lon": -63.6904883,
+    "precision": "approximate_geocode",
+    "query": "TYNES CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "UMLAH SEABRIGHT": {
     "lat": 44.6089705,
