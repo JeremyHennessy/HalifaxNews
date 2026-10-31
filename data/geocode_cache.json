@@ -1289,6 +1289,12 @@
     "precision": "approximate_geocode",
     "query": "COLBY DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "COLE COLE HARBOUR": {
+    "lat": 44.6767836,
+    "lon": -63.478664,
+    "precision": "approximate_geocode",
+    "query": "COLE DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "COLE HARBOUR COLE HARBOUR": {
     "lat": 44.6777183,
     "lon": -63.4610259,
