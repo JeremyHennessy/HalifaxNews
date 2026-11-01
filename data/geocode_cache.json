@@ -557,6 +557,12 @@
     "precision": "approximate_geocode",
     "query": "BELMONT ON THE ARM, HALIFAX, Nova Scotia, Canada"
   },
+  "BENS CRT BROOKSIDE": {
+    "lat": 44.555679,
+    "lon": -63.7116432,
+    "precision": "approximate_geocode",
+    "query": "BENS CRT, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
   "BENTLY": {
     "lat": 44.6484387,
     "lon": -63.6558578,
@@ -1624,6 +1630,12 @@
     "lon": -63.5773774,
     "precision": "approximate_geocode",
     "query": "DEMETREOUS LANE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "DENNEB CRES LOWER SACKVILLE": {
+    "lat": 44.780837,
+    "lon": -63.6973087,
+    "precision": "approximate_geocode",
+    "query": "DENNEB CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "DENTITH": {
     "lat": 44.6137329,
@@ -4193,6 +4205,12 @@
     "precision": "approximate_geocode",
     "query": "OXFORD ST, HALIFAX, Nova Scotia, Canada"
   },
+  "PAIGE PLZ LOWER SACKVILLE": {
+    "lat": 44.7706412,
+    "lon": -63.6954699,
+    "precision": "approximate_geocode",
+    "query": "PAIGE PLZ, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "PARKDALE TIMBERLEA": {
     "lat": 44.6409287,
     "lon": -63.7118379,
@@ -4883,6 +4901,12 @@
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, UPPER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "SALTER": {
+    "lat": 44.6454312,
+    "lon": -63.5699174,
+    "precision": "approximate_geocode",
+    "query": "SALTER ST, HALIFAX, Nova Scotia, Canada"
+  },
   "SAMBRO CREEK SAMBRO CREEK": {
     "lat": 44.4661537,
     "lon": -63.6141595,
@@ -5416,6 +5440,12 @@
     "lon": -63.8270283,
     "precision": "approximate_geocode",
     "query": "SYLVANIA TERR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
+  "SYLVIA": {
+    "lat": 44.6038322,
+    "lon": -63.6109688,
+    "precision": "approximate_geocode",
+    "query": "SYLVIA AVE, HALIFAX, Nova Scotia, Canada"
   },
   "SYMONDS": {
     "lat": 44.6799411,
