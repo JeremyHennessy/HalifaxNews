@@ -2153,6 +2153,12 @@
     "precision": "approximate_geocode",
     "query": "GORDON AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "GORSEBROOK": {
+    "lat": 44.629887,
+    "lon": -63.5788881,
+    "precision": "approximate_geocode",
+    "query": "GORSEBROOK AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "GOTTINGEN": {
     "lat": 44.6692629,
     "lon": -63.6087222,
