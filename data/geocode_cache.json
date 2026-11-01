@@ -557,6 +557,12 @@
     "precision": "approximate_geocode",
     "query": "BELMONT ON THE ARM, HALIFAX, Nova Scotia, Canada"
   },
+  "BEN JOHNSON TIMBERLEA": {
+    "lat": 44.6447697,
+    "lon": -63.7077814,
+    "precision": "approximate_geocode",
+    "query": "BEN JOHNSON LANE, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "BENS CRT BROOKSIDE": {
     "lat": 44.555679,
     "lon": -63.7116432,
@@ -1367,6 +1373,12 @@
     "precision": "approximate_geocode",
     "query": "CONROD BEACH RD, LOWER EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "CONROD SETTLEMENT CONROD SETTLEMENT": {
+    "lat": 44.7642253,
+    "lon": -63.2401968,
+    "precision": "approximate_geocode",
+    "query": "CONROD SETTLEMENT RD, CONROD SETTLEMENT, Halifax, Nova Scotia, Canada"
+  },
   "CONTESSA CRT LOWER SACKVILLE": {
     "lat": 44.7591587,
     "lon": -63.6752265,
@@ -1876,6 +1888,12 @@
     "lon": -63.5181435,
     "precision": "approximate_geocode",
     "query": "ERIN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "EVERGREEN COLE HARBOUR": {
+    "lat": 44.6751502,
+    "lon": -63.4958305,
+    "precision": "approximate_geocode",
+    "query": "EVERGREEN DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "EVERWOOD HAMMONDS PLAINS": {
     "lat": 44.6977734,
@@ -4709,6 +4727,12 @@
     "precision": "approximate_geocode",
     "query": "RIDGECREST DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "RIDGEVIEW LOWER SACKVILLE": {
+    "lat": 44.768902,
+    "lon": -63.6769457,
+    "precision": "approximate_geocode",
+    "query": "RIDGEVIEW DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "RIDGEWOOD": {
     "lat": 44.6317263,
     "lon": -63.5924303,
@@ -5260,6 +5284,12 @@
     "lon": -63.443385,
     "precision": "approximate_geocode",
     "query": "SPRUCE DR, COW BAY, Halifax, Nova Scotia, Canada"
+  },
+  "SPRUCE CRT MUSQUODOBOIT HARBOUR": {
+    "lat": 44.7794694,
+    "lon": -63.1583525,
+    "precision": "approximate_geocode",
+    "query": "SPRUCE CRT, MUSQUODOBOIT HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "SPRUCE LOWER SACKVILLE": {
     "lat": 44.7730373,
