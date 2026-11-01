@@ -2807,6 +2807,12 @@
     "precision": "approximate_geocode",
     "query": "HOWE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "HUNTER": {
+    "lat": 44.6512592,
+    "lon": -63.5949612,
+    "precision": "approximate_geocode",
+    "query": "HUNTER ST, HALIFAX, Nova Scotia, Canada"
+  },
   "ILSLEY": {
     "lat": 44.69967,
     "lon": -63.5875683,
@@ -3436,6 +3442,12 @@
     "lon": -63.5151333,
     "precision": "approximate_geocode",
     "query": "LOCHMOOR LANE, LAKE LOON, Halifax, Nova Scotia, Canada"
+  },
+  "LOCKS": {
+    "lat": 44.6992786,
+    "lon": -63.5510004,
+    "precision": "approximate_geocode",
+    "query": "LOCKS RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "LOCKWOOD HERRING COVE": {
     "lat": 44.583972,
@@ -4385,6 +4397,12 @@
     "precision": "approximate_geocode",
     "query": "PETAL LANE, WHITES LAKE, Halifax, Nova Scotia, Canada"
   },
+  "PEVERILL CRT BEDFORD": {
+    "lat": 44.7067618,
+    "lon": -63.6847242,
+    "precision": "approximate_geocode",
+    "query": "PEVERILL CRT, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "PHILIP FALL RIVER": {
     "lat": 44.8271544,
     "lon": -63.6040254,
@@ -4618,6 +4636,12 @@
     "lon": -63.6020302,
     "precision": "approximate_geocode",
     "query": "PURCELLS COVE RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "PURCELLS COVE FERGUSONS COVE": {
+    "lat": 44.6013846,
+    "lon": -63.5614738,
+    "precision": "approximate_geocode",
+    "query": "PURCELLS COVE RD, FERGUSONS COVE, Halifax, Nova Scotia, Canada"
   },
   "QUAKER CRES LOWER SACKVILLE": {
     "lat": 44.7786231,
@@ -5704,6 +5728,12 @@
     "lon": -63.5387016,
     "precision": "approximate_geocode",
     "query": "VENICE CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "VENUS HARRIETSFIELD": {
+    "lat": 44.5667936,
+    "lon": -63.6380741,
+    "precision": "approximate_geocode",
+    "query": "VENUS DR, HARRIETSFIELD, Halifax, Nova Scotia, Canada"
   },
   "VERDI BEDFORD": {
     "lat": 44.7479525,
