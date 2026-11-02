@@ -2987,6 +2987,12 @@
     "precision": "approximate_geocode",
     "query": "JOSEPH HOWE DR, HALIFAX, Nova Scotia, Canada"
   },
+  "JOSEPH YOUNG": {
+    "lat": 44.6867093,
+    "lon": -63.5877567,
+    "precision": "approximate_geocode",
+    "query": "JOSEPH YOUNG ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "JUDY ANNE CRT LOWER SACKVILLE": {
     "lat": 44.7627296,
     "lon": -63.653224,
@@ -3557,6 +3563,12 @@
     "precision": "approximate_geocode",
     "query": "MAIN RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "MANOR": {
+    "lat": 44.6657679,
+    "lon": -63.6376837,
+    "precision": "approximate_geocode",
+    "query": "MANOR LANE, HALIFAX, Nova Scotia, Canada"
+  },
   "MANOR LOWER SACKVILLE": {
     "lat": 44.7629341,
     "lon": -63.6971813,
@@ -3760,6 +3772,12 @@
     "lon": -63.4907282,
     "precision": "approximate_geocode",
     "query": "MERRIMAC DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "MERRY SAMBRO": {
+    "lat": 44.4750095,
+    "lon": -63.6053339,
+    "precision": "approximate_geocode",
+    "query": "MERRY RD, SAMBRO, Halifax, Nova Scotia, Canada"
   },
   "MERSEY CRT HATCHET LAKE": {
     "lat": 44.562174,
@@ -4703,6 +4721,12 @@
     "precision": "approximate_geocode",
     "query": "REDMONDS RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
   },
+  "REGENCY PARK": {
+    "lat": 44.6539545,
+    "lon": -63.6638594,
+    "precision": "approximate_geocode",
+    "query": "REGENCY PARK DR, HALIFAX, Nova Scotia, Canada"
+  },
   "REGENT": {
     "lat": 44.6767566,
     "lon": -63.5454862,
@@ -5446,6 +5470,12 @@
     "lon": -63.5839663,
     "precision": "approximate_geocode",
     "query": "SUMMER ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "SUMMER FIELD WAY": {
+    "lat": 44.6681948,
+    "lon": -63.511792,
+    "precision": "approximate_geocode",
+    "query": "SUMMER FIELD WAY, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "SUN KEY EASTERN PASSAGE": {
     "lat": 44.5984377,
