@@ -2243,6 +2243,12 @@
     "precision": "approximate_geocode",
     "query": "GRASSY LAKE DR, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
+  "GREEN": {
+    "lat": 44.6720641,
+    "lon": -63.577696,
+    "precision": "approximate_geocode",
+    "query": "GREEN RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "GREEN BAY COW BAY": {
     "lat": 44.6236223,
     "lon": -63.4244026,
@@ -3664,6 +3670,12 @@
     "lon": -63.5837359,
     "precision": "approximate_geocode",
     "query": "MARLBOROUGH AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "MARVIN": {
+    "lat": 44.6598899,
+    "lon": -63.5484337,
+    "precision": "approximate_geocode",
+    "query": "MARVIN ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "MARY JOLLIMORE TERENCE BAY": {
     "lat": 44.4752745,
@@ -5428,6 +5440,12 @@
     "lon": -63.6866944,
     "precision": "approximate_geocode",
     "query": "STOKIL DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "STONE CREST CRT LOWER SACKVILLE": {
+    "lat": 44.7700677,
+    "lon": -63.634642,
+    "precision": "approximate_geocode",
+    "query": "STONE CREST CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "STONE MOUNT LOWER SACKVILLE": {
     "lat": 44.7680911,
