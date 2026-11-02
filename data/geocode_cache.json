@@ -1997,6 +1997,12 @@
     "precision": "approximate_geocode",
     "query": "FIRST ST, LUCASVILLE, Halifax, Nova Scotia, Canada"
   },
+  "FIRST MIDDLE SACKVILLE": {
+    "lat": 44.8058839,
+    "lon": -63.7477532,
+    "precision": "approximate_geocode",
+    "query": "FIRST AVE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "FLAGSTONE COLE HARBOUR": {
     "lat": 44.6595447,
     "lon": -63.4901216,
@@ -3418,6 +3424,12 @@
     "lon": -63.2737248,
     "precision": "approximate_geocode",
     "query": "LES COLLINS AVE, WEST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "LEXINGTON": {
+    "lat": 44.701516,
+    "lon": -63.5361426,
+    "precision": "approximate_geocode",
+    "query": "LEXINGTON AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "LILLIAN": {
     "lat": 44.6832706,
@@ -5711,6 +5723,12 @@
     "precision": "approximate_geocode",
     "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "UPANOVER HEAD OF CHEZZETCOOK": {
+    "lat": 44.7420011,
+    "lon": -63.2581349,
+    "precision": "approximate_geocode",
+    "query": "UPANOVER LANE, HEAD OF CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
   "UPPER GOVERNOR EAST PRESTON": {
     "lat": 44.7183391,
     "lon": -63.4367979,
@@ -6034,6 +6052,12 @@
     "lon": -63.6052811,
     "precision": "approximate_geocode",
     "query": "WILLIAMS LAKE RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "WILLOWDALE COLE HARBOUR": {
+    "lat": 44.6541755,
+    "lon": -63.4856702,
+    "precision": "approximate_geocode",
+    "query": "WILLOWDALE DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "WILMINGTON CRT EASTERN PASSAGE": {
     "lat": 44.6153925,
