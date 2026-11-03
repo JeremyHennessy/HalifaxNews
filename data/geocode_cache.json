@@ -461,6 +461,12 @@
     "precision": "approximate_geocode",
     "query": "BAYVIEW DR, HACKETTS COVE, Halifax, Nova Scotia, Canada"
   },
+  "BEAUFORT": {
+    "lat": 44.6324319,
+    "lon": -63.5921581,
+    "precision": "approximate_geocode",
+    "query": "BEAUFORT AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "BEAVER BANK BEAVER BANK": {
     "lat": 44.8614871,
     "lon": -63.6870831,
@@ -2135,6 +2141,12 @@
     "precision": "approximate_geocode",
     "query": "FREER LANE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "GARDENIA WAY": {
+    "lat": 44.7163115,
+    "lon": -63.5388237,
+    "precision": "approximate_geocode",
+    "query": "GARDENIA WAY, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "GARY MARTIN BEDFORD": {
     "lat": 44.7217798,
     "lon": -63.7069392,
@@ -2950,6 +2962,12 @@
     "lon": -63.2796301,
     "precision": "approximate_geocode",
     "query": "JAMES ROY DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "JAMES TIMBERLEA": {
+    "lat": 44.6588566,
+    "lon": -63.7427974,
+    "precision": "approximate_geocode",
+    "query": "JAMES ST, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
   "JARRETT BROOKSIDE": {
     "lat": 44.5553826,
@@ -5182,6 +5200,12 @@
     "lon": -63.6630652,
     "precision": "approximate_geocode",
     "query": "SHAUNSLIEVE DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "SHEA LOWER SACKVILLE": {
+    "lat": 44.767254,
+    "lon": -63.6644644,
+    "precision": "approximate_geocode",
+    "query": "SHEA ST, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SHEPPARDS RUN BEECHVILLE": {
     "lat": 44.6335052,
