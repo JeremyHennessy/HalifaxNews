@@ -965,6 +965,12 @@
     "precision": "approximate_geocode",
     "query": "CARNABY CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "CARRIAGE WAY TERR LOWER SACKVILLE": {
+    "lat": 44.7724548,
+    "lon": -63.6986196,
+    "precision": "approximate_geocode",
+    "query": "CARRIAGE WAY TERR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "CARRIAGEWAY CRES": {
     "lat": 44.6710194,
     "lon": -63.6135421,
@@ -1709,6 +1715,12 @@
     "precision": "approximate_geocode",
     "query": "DOOKS LANE, HEAD OF JEDDORE, Halifax, Nova Scotia, Canada"
   },
+  "DOREY": {
+    "lat": 44.7109455,
+    "lon": -63.5813227,
+    "precision": "approximate_geocode",
+    "query": "DOREY AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "DOROTHEA": {
     "lat": 44.6767986,
     "lon": -63.5053705,
@@ -2050,6 +2062,12 @@
     "lon": -63.4918596,
     "precision": "approximate_geocode",
     "query": "FOREST HILLS PKY, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "FORESTSIDE CRES": {
+    "lat": 44.6581519,
+    "lon": -63.649145,
+    "precision": "approximate_geocode",
+    "query": "FORESTSIDE CRES, HALIFAX, Nova Scotia, Canada"
   },
   "FOSTER FALL RIVER": {
     "lat": 44.7989936,
@@ -4181,6 +4199,12 @@
     "precision": "approximate_geocode",
     "query": "OLD HALIFAX RD, GLEN HAVEN, Nova Scotia, Canada"
   },
+  "OLD GUYSBOROUGH ELDERBANK": {
+    "lat": 44.9666778,
+    "lon": -63.2605536,
+    "precision": "approximate_geocode",
+    "query": "OLD GUYSBOROUGH RD, ELDERBANK, Halifax, Nova Scotia, Canada"
+  },
   "OLD GUYSBOROUGH GOFFS": {
     "lat": 44.8875333,
     "lon": -63.469465,
@@ -4708,6 +4732,12 @@
     "lon": -63.60539,
     "precision": "approximate_geocode",
     "query": "QUINPOOL RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "RADCLIFFE": {
+    "lat": 44.661531,
+    "lon": -63.6640926,
+    "precision": "approximate_geocode",
+    "query": "RADCLIFFE DR, HALIFAX, Nova Scotia, Canada"
   },
   "RAMSGATE": {
     "lat": 44.6320681,
@@ -5488,6 +5518,12 @@
     "lon": -63.5074462,
     "precision": "approximate_geocode",
     "query": "STUART HARRIS DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "SUCKER BROOK LOWER SACKVILLE": {
+    "lat": 44.7669585,
+    "lon": -63.6478947,
+    "precision": "approximate_geocode",
+    "query": "SUCKER BROOK RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SULLIVAN": {
     "lat": 44.6615332,
