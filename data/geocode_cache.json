@@ -143,6 +143,12 @@
     "precision": "approximate_geocode",
     "query": "AMESBURY GATE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "ANAHID CRT BEDFORD": {
+    "lat": 44.7214681,
+    "lon": -63.680728,
+    "precision": "approximate_geocode",
+    "query": "ANAHID CRT, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "ANCASTER CRT COLE HARBOUR": {
     "lat": 44.668159,
     "lon": -63.4867497,
@@ -767,6 +773,12 @@
     "precision": "approximate_geocode",
     "query": "BRIGHTSIDE CRT, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
+  "BRITTANY MURPHY TERR WILLIAMSWOOD": {
+    "lat": 44.5384619,
+    "lon": -63.6537954,
+    "precision": "approximate_geocode",
+    "query": "BRITTANY MURPHY TERR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
+  },
   "BROAD BEDFORD": {
     "lat": 44.7159577,
     "lon": -63.7049716,
@@ -1348,6 +1360,12 @@
     "lon": -63.4620973,
     "precision": "approximate_geocode",
     "query": "COLERIDGE CRT, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
+  "COLES LOWER SACKVILLE": {
+    "lat": 44.7657632,
+    "lon": -63.666763,
+    "precision": "approximate_geocode",
+    "query": "COLES RD, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "COLFORD": {
     "lat": 44.7181396,
@@ -3659,6 +3677,12 @@
     "precision": "approximate_geocode",
     "query": "MAPLEWOOD DR, TIMBERLEA, Halifax, Nova Scotia, Canada"
   },
+  "MARGARETS BAY": {
+    "lat": 44.6414138,
+    "lon": -63.6233123,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, HALIFAX, Nova Scotia, Canada"
+  },
   "MARGARETS BAY BLACK POINT": {
     "lat": 44.6562097,
     "lon": -63.973355,
@@ -3676,6 +3700,12 @@
     "lon": -64.0618727,
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, HUBBARDS, Halifax, Nova Scotia, Canada"
+  },
+  "MARGARETS BAY INGRAMPORT": {
+    "lat": 44.6728247,
+    "lon": -63.9683106,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, INGRAMPORT, Halifax, Nova Scotia, Canada"
   },
   "MARGARETS BAY LEWIS LAKE": {
     "lat": 44.6819394,
@@ -4330,6 +4360,12 @@
     "lon": -63.583451,
     "precision": "approximate_geocode",
     "query": "ORDNANCE RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "ORION EASTERN PASSAGE": {
+    "lat": 44.6242658,
+    "lon": -63.4577381,
+    "precision": "approximate_geocode",
+    "query": "ORION DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
   "OSBORNE EASTERN PASSAGE": {
     "lat": 44.6025892,
