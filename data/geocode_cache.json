@@ -1895,6 +1895,12 @@
     "precision": "approximate_geocode",
     "query": "ELM DR, MIDDLE MUSQUODOBOIT, Halifax, Nova Scotia, Canada"
   },
+  "ELMDALE CRES": {
+    "lat": 44.6011876,
+    "lon": -63.6281707,
+    "precision": "approximate_geocode",
+    "query": "ELMDALE CRES, HALIFAX, Nova Scotia, Canada"
+  },
   "ELMRIDGE WAVERLEY": {
     "lat": 44.7679044,
     "lon": -63.5726554,
@@ -1960,6 +1966,12 @@
     "lon": -63.6000992,
     "precision": "approximate_geocode",
     "query": "FAUCHEAU LANE, WAVERLEY, Halifax, Nova Scotia, Canada"
+  },
+  "FEDERAL": {
+    "lat": 44.6556544,
+    "lon": -63.6200647,
+    "precision": "approximate_geocode",
+    "query": "FEDERAL AVE, HALIFAX, Nova Scotia, Canada"
   },
   "FENWICK": {
     "lat": 44.6375761,
@@ -3719,6 +3731,12 @@
     "precision": "approximate_geocode",
     "query": "MARY JOLLIMORE RD, TERENCE BAY, Halifax, Nova Scotia, Canada"
   },
+  "MASONS POINT HEAD OF MARGARETS BAY": {
+    "lat": 44.6680265,
+    "lon": -63.9133395,
+    "precision": "approximate_geocode",
+    "query": "MASONS POINT RD, HEAD OF ST MARGARETS BAY, Halifax, Nova Scotia, Canada"
+  },
   "MASSACHUSETTS": {
     "lat": 44.6637255,
     "lon": -63.6129265,
@@ -3958,6 +3976,12 @@
     "lon": -63.531025,
     "precision": "approximate_geocode",
     "query": "MOUNT HOPE AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "MOUNTAIN": {
+    "lat": 44.6873541,
+    "lon": -63.53912,
+    "precision": "approximate_geocode",
+    "query": "MOUNTAIN AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "MOUNTAIN VIEW LAKE ECHO": {
     "lat": 44.7470526,
