@@ -1673,6 +1673,12 @@
     "precision": "approximate_geocode",
     "query": "DEMETREOUS LANE, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "DENFORD WHITES LAKE": {
+    "lat": 44.5426393,
+    "lon": -63.7423554,
+    "precision": "approximate_geocode",
+    "query": "DENFORD RD, WHITES LAKE, Halifax, Nova Scotia, Canada"
+  },
   "DENNEB CRES LOWER SACKVILLE": {
     "lat": 44.780837,
     "lon": -63.6973087,
@@ -1834,6 +1840,12 @@
     "lon": -63.2136053,
     "precision": "approximate_geocode",
     "query": "EAST CHEZZETCOOK RD, LOWER EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
+  },
+  "EAST PENNANT EAST PENNANT": {
+    "lat": 44.4694496,
+    "lon": -63.6279849,
+    "precision": "approximate_geocode",
+    "query": "EAST PENNANT RD, EAST PENNANT, Halifax, Nova Scotia, Canada"
   },
   "EAST PETPESWICK EAST PETPESWICK": {
     "lat": 44.7319173,
