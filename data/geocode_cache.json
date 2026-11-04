@@ -3101,6 +3101,12 @@
     "precision": "approximate_geocode",
     "query": "JOSEPH YOUNG ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "JUBILEE": {
+    "lat": 44.6388623,
+    "lon": -63.6052895,
+    "precision": "approximate_geocode",
+    "query": "JUBILEE RD, HALIFAX, Nova Scotia, Canada"
+  },
   "JUDY ANNE CRT LOWER SACKVILLE": {
     "lat": 44.7627296,
     "lon": -63.653224,
@@ -6262,6 +6268,12 @@
     "lon": -63.5947198,
     "precision": "approximate_geocode",
     "query": "WINDMILL RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "WINDSOR": {
+    "lat": 44.6608652,
+    "lon": -63.621084,
+    "precision": "approximate_geocode",
+    "query": "WINDSOR ST, HALIFAX, Nova Scotia, Canada"
   },
   "WINDSOR JUNCTION WINDSOR JUNCTION": {
     "lat": 44.7798221,
