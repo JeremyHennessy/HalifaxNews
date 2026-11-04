@@ -533,6 +533,12 @@
     "precision": "approximate_geocode",
     "query": "BELL RD, HALIFAX, Nova Scotia, Canada"
   },
+  "BELL EAST PRESTON": {
+    "lat": 44.726079,
+    "lon": -63.401345,
+    "precision": "approximate_geocode",
+    "query": "BELL ST, EAST PRESTON, Halifax, Nova Scotia, Canada"
+  },
   "BELL GOFFS": {
     "lat": 44.8842917,
     "lon": -63.5160016,
@@ -3971,6 +3977,12 @@
     "precision": "approximate_geocode",
     "query": "MINEVILLE RD, MINEVILLE, Halifax, Nova Scotia, Canada"
   },
+  "MOIRS MILL BEDFORD": {
+    "lat": 44.7123927,
+    "lon": -63.681006,
+    "precision": "approximate_geocode",
+    "query": "MOIRS MILL RD, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "MONASTERY": {
     "lat": 44.6465931,
     "lon": -63.5974598,
@@ -5128,6 +5140,12 @@
     "lon": -63.451231,
     "precision": "approximate_geocode",
     "query": "RYEDALE CRT, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "SACKVILLE": {
+    "lat": 44.6451545,
+    "lon": -63.5779385,
+    "precision": "approximate_geocode",
+    "query": "SACKVILLE ST, HALIFAX, Nova Scotia, Canada"
   },
   "SACKVILLE CROSS LOWER SACKVILLE": {
     "lat": 44.7638613,
