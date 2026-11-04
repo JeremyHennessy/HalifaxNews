@@ -2249,6 +2249,12 @@
     "precision": "approximate_geocode",
     "query": "GLENMONT AVE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "GLORIA MCCLUSKEY": {
+    "lat": 44.7198456,
+    "lon": -63.5860227,
+    "precision": "approximate_geocode",
+    "query": "GLORIA MCCLUSKEY AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "GOLF LINKS BEDFORD": {
     "lat": 44.7275676,
     "lon": -63.6528439,
@@ -2669,6 +2675,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 107, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 107 EAST PRESTON": {
+    "lat": 44.7039026,
+    "lon": -63.4456108,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 107, EAST PRESTON, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 118 WAVERLEY": {
     "lat": 44.7440489,
     "lon": -63.560151,
@@ -3022,6 +3034,12 @@
     "lon": -63.4648157,
     "precision": "approximate_geocode",
     "query": "JEEP CRES, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "JENNINGS": {
+    "lat": 44.640035,
+    "lon": -63.5965253,
+    "precision": "approximate_geocode",
+    "query": "JENNINGS ST, HALIFAX, Nova Scotia, Canada"
   },
   "JOFFRE": {
     "lat": 44.6715155,
@@ -4043,6 +4061,12 @@
     "precision": "approximate_geocode",
     "query": "MURDOCK MACKAY CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "MURRAY EASTERN PASSAGE": {
+    "lat": 44.6070654,
+    "lon": -63.4595029,
+    "precision": "approximate_geocode",
+    "query": "MURRAY RD, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "MYERS POINT MYERS POINT": {
     "lat": 44.7716457,
     "lon": -63.0506913,
@@ -4072,6 +4096,12 @@
     "lon": -63.5745096,
     "precision": "approximate_geocode",
     "query": "NANTUCKET AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "NAPPAN LOWER SACKVILLE": {
+    "lat": 44.7837065,
+    "lon": -63.6761365,
+    "precision": "approximate_geocode",
+    "query": "NAPPAN DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "NARROWS PORTERS LAKE": {
     "lat": 44.7384854,
