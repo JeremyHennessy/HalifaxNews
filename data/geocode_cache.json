@@ -983,6 +983,12 @@
     "precision": "approximate_geocode",
     "query": "CARLETON ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "CARLSON CRT": {
+    "lat": 44.6783417,
+    "lon": -63.5064672,
+    "precision": "approximate_geocode",
+    "query": "CARLSON CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "CARNABY CRES COLE HARBOUR": {
     "lat": 44.6643098,
     "lon": -63.4887106,
@@ -994,6 +1000,12 @@
     "lon": -63.6986196,
     "precision": "approximate_geocode",
     "query": "CARRIAGE WAY TERR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "CARRIAGE WINDSOR JUNCTION": {
+    "lat": 44.7854268,
+    "lon": -63.6496626,
+    "precision": "approximate_geocode",
+    "query": "CARRIAGE RD, WINDSOR JUNCTION, Halifax, Nova Scotia, Canada"
   },
   "CARRIAGEWAY CRES": {
     "lat": 44.6710194,
@@ -2776,6 +2788,12 @@
     "lon": -63.4425448,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 277, DUTCH SETTLEMENT, Halifax, Nova Scotia, Canada"
+  },
+  "HIGHWAY 357 ELDERBANK": {
+    "lat": 44.9789362,
+    "lon": -63.2230692,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 357, ELDERBANK, Halifax, Nova Scotia, Canada"
   },
   "HIGHWAY 357 MEAGHERS GRANT": {
     "lat": 44.9439496,
@@ -5476,6 +5494,12 @@
     "lon": -63.4642733,
     "precision": "approximate_geocode",
     "query": "SMITH LANE, NORTH PRESTON, Halifax, Nova Scotia, Canada"
+  },
+  "SMITHS BEDFORD": {
+    "lat": 44.7276669,
+    "lon": -63.6924039,
+    "precision": "approximate_geocode",
+    "query": "SMITHS RD, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "SMOKEY LOWER SACKVILLE": {
     "lat": 44.7833143,
