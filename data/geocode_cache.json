@@ -3365,6 +3365,12 @@
     "precision": "approximate_geocode",
     "query": "LACEWOOD DR, HALIFAX, Nova Scotia, Canada"
   },
+  "LADY HAMMOND": {
+    "lat": 44.6627544,
+    "lon": -63.6221526,
+    "precision": "approximate_geocode",
+    "query": "LADY HAMMOND RD, HALIFAX, Nova Scotia, Canada"
+  },
   "LAHEY": {
     "lat": 44.6791939,
     "lon": -63.5862326,
@@ -3604,6 +3610,12 @@
     "lon": -63.5813123,
     "precision": "approximate_geocode",
     "query": "LOCKWOOD AVE, HERRING COVE, Halifax, Nova Scotia, Canada"
+  },
+  "LONDON": {
+    "lat": 44.6524137,
+    "lon": -63.6080944,
+    "precision": "approximate_geocode",
+    "query": "LONDON ST, HALIFAX, Nova Scotia, Canada"
   },
   "LONDRA CRT": {
     "lat": 44.6861101,
