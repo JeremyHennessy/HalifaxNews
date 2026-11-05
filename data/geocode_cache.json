@@ -1703,6 +1703,12 @@
     "precision": "approximate_geocode",
     "query": "DEVONSHIRE AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "DIANA GRACE": {
+    "lat": 44.6603158,
+    "lon": -63.5115264,
+    "precision": "approximate_geocode",
+    "query": "DIANA GRACE AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "DICKEY LOWER SACKVILLE": {
     "lat": 44.7662934,
     "lon": -63.6658074,
@@ -2470,6 +2476,12 @@
     "lon": -63.5720439,
     "precision": "approximate_geocode",
     "query": "HARVEY ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "HAVELOCK CRES COLE HARBOUR": {
+    "lat": 44.6816623,
+    "lon": -63.4920887,
+    "precision": "approximate_geocode",
+    "query": "HAVELOCK CRES, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
   "HAVENBROOK HILL": {
     "lat": 44.6664498,
@@ -4277,6 +4289,12 @@
     "precision": "approximate_geocode",
     "query": "OAKHILL DR, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
+  "OAKLAND": {
+    "lat": 44.6324395,
+    "lon": -63.5932978,
+    "precision": "approximate_geocode",
+    "query": "OAKLAND RD, HALIFAX, Nova Scotia, Canada"
+  },
   "OAKWOOD WILLIAMSWOOD": {
     "lat": 44.5174604,
     "lon": -63.6363194,
@@ -4858,6 +4876,12 @@
     "lon": -63.5776425,
     "precision": "approximate_geocode",
     "query": "QUEEN ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "QUEENS CRT LOWER SACKVILLE": {
+    "lat": 44.7783743,
+    "lon": -63.6662557,
+    "precision": "approximate_geocode",
+    "query": "QUEENS CRT, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "QUINGATE PL": {
     "lat": 44.6468739,
