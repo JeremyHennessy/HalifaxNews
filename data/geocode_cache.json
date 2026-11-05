@@ -1661,6 +1661,12 @@
     "precision": "approximate_geocode",
     "query": "DEEPWOOD CRES, HALIFAX, Nova Scotia, Canada"
   },
+  "DEERWOOD TIMBERLEA": {
+    "lat": 44.6737887,
+    "lon": -63.7844134,
+    "precision": "approximate_geocode",
+    "query": "DEERWOOD LANE, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
   "DELLRIDGE BEDFORD": {
     "lat": 44.7005551,
     "lon": -63.6888836,
@@ -6130,6 +6136,12 @@
     "lon": -63.5798924,
     "precision": "approximate_geocode",
     "query": "WELLINGTON ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "WELLINGTON WELLINGTON": {
+    "lat": 44.8569683,
+    "lon": -63.616073,
+    "precision": "approximate_geocode",
+    "query": "WELLINGTON DR, WELLINGTON, Halifax, Nova Scotia, Canada"
   },
   "WENTWORTH": {
     "lat": 44.6748901,
