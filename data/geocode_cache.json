@@ -551,6 +551,12 @@
     "precision": "approximate_geocode",
     "query": "BELL ST, LAKE ECHO, Halifax, Nova Scotia, Canada"
   },
+  "BELLBROOK CRES": {
+    "lat": 44.6615617,
+    "lon": -63.5004434,
+    "precision": "approximate_geocode",
+    "query": "BELLBROOK CRES, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "BELLEFONTAINE WEST CHEZZETCOOK": {
     "lat": 44.7052235,
     "lon": -63.282956,
@@ -2021,6 +2027,12 @@
     "precision": "approximate_geocode",
     "query": "FARFIELDS LANE, BEAVER BANK, Halifax, Nova Scotia, Canada"
   },
+  "FARRELL": {
+    "lat": 44.6785859,
+    "lon": -63.5888035,
+    "precision": "approximate_geocode",
+    "query": "FARRELL ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "FARTHINGTON PL": {
     "lat": 44.6881041,
     "lon": -63.5826584,
@@ -2956,6 +2968,12 @@
     "lon": -63.5881668,
     "precision": "approximate_geocode",
     "query": "HOWE ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "HUGHES MIDDLE SACKVILLE": {
+    "lat": 44.7889761,
+    "lon": -63.6943349,
+    "precision": "approximate_geocode",
+    "query": "HUGHES DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "HUNTER": {
     "lat": 44.6512592,
