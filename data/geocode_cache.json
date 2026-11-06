@@ -3713,6 +3713,12 @@
     "precision": "approximate_geocode",
     "query": "LUCIEN DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "LUCKNOW": {
+    "lat": 44.636131,
+    "lon": -63.5751037,
+    "precision": "approximate_geocode",
+    "query": "LUCKNOW ST, HALIFAX, Nova Scotia, Canada"
+  },
   "LYDGATE LOWER SACKVILLE": {
     "lat": 44.7773244,
     "lon": -63.6758458,
@@ -4973,6 +4979,12 @@
     "precision": "approximate_geocode",
     "query": "RADCLIFFE DR, HALIFAX, Nova Scotia, Canada"
   },
+  "RADDALL": {
+    "lat": 44.70345,
+    "lon": -63.588919,
+    "precision": "approximate_geocode",
+    "query": "RADDALL AVE, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "RAMSGATE": {
     "lat": 44.6320681,
     "lon": -63.6118935,
@@ -5008,6 +5020,12 @@
     "lon": -63.9266629,
     "precision": "approximate_geocode",
     "query": "REDMONDS RD, SEABRIGHT, Halifax, Nova Scotia, Canada"
+  },
+  "REGAN": {
+    "lat": 44.5985787,
+    "lon": -63.6148227,
+    "precision": "approximate_geocode",
+    "query": "REGAN DR, HALIFAX, Nova Scotia, Canada"
   },
   "REGENCY PARK": {
     "lat": 44.6539545,
