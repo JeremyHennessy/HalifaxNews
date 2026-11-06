@@ -1625,6 +1625,12 @@
     "precision": "approximate_geocode",
     "query": "DAMASCUS RD, BEDFORD, Halifax, Nova Scotia, Canada"
   },
+  "DANFORTH": {
+    "lat": 44.6116255,
+    "lon": -63.6072485,
+    "precision": "approximate_geocode",
+    "query": "DANFORTH RD, HALIFAX, Nova Scotia, Canada"
+  },
   "DARJEELING": {
     "lat": 44.6246892,
     "lon": -63.6210838,
@@ -2908,6 +2914,12 @@
     "lon": -63.5724028,
     "precision": "approximate_geocode",
     "query": "HOLLIS ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "HOPERIDGE EAST CHEZZETCOOK": {
+    "lat": 44.7265561,
+    "lon": -63.2399314,
+    "precision": "approximate_geocode",
+    "query": "HOPERIDGE LANE, EAST CHEZZETCOOK, Halifax, Nova Scotia, Canada"
   },
   "HORIZON CRT": {
     "lat": 44.6880341,
@@ -4306,6 +4318,12 @@
     "lon": -63.5772841,
     "precision": "approximate_geocode",
     "query": "NOVA CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "NOVALEA": {
+    "lat": 44.6719836,
+    "lon": -63.6128182,
+    "precision": "approximate_geocode",
+    "query": "NOVALEA DR, HALIFAX, Nova Scotia, Canada"
   },
   "OAK EASTERN PASSAGE": {
     "lat": 44.6221843,
@@ -5842,6 +5860,12 @@
     "lon": -63.6855547,
     "precision": "approximate_geocode",
     "query": "TERNAN GATE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
+  "TERRA NOVA LAKE LOON": {
+    "lat": 44.7026704,
+    "lon": -63.495604,
+    "precision": "approximate_geocode",
+    "query": "TERRA NOVA AVE, LAKE LOON, Halifax, Nova Scotia, Canada"
   },
   "THIS PORTERS LAKE": {
     "lat": 44.737825,
