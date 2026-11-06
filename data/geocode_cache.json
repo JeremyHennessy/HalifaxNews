@@ -5717,6 +5717,12 @@
     "precision": "approximate_geocode",
     "query": "STEVEN MURPHY DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
   },
+  "STOCKLEIGH PL": {
+    "lat": 44.6645021,
+    "lon": -63.6635146,
+    "precision": "approximate_geocode",
+    "query": "STOCKLEIGH PL, HALIFAX, Nova Scotia, Canada"
+  },
   "STOKIL LOWER SACKVILLE": {
     "lat": 44.7866353,
     "lon": -63.6866944,
