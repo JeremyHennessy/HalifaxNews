@@ -3071,6 +3071,12 @@
     "precision": "approximate_geocode",
     "query": "ISNOR DR, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "IVANHOE": {
+    "lat": 44.6334601,
+    "lon": -63.5764585,
+    "precision": "approximate_geocode",
+    "query": "IVANHOE ST, HALIFAX, Nova Scotia, Canada"
+  },
   "JACKSON": {
     "lat": 44.6831929,
     "lon": -63.5823214,
