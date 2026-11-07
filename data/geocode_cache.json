@@ -2195,6 +2195,12 @@
     "precision": "approximate_geocode",
     "query": "FRANCIE DR, WILLIAMSWOOD, Halifax, Nova Scotia, Canada"
   },
+  "FRANCKLYN": {
+    "lat": 44.6255602,
+    "lon": -63.5764603,
+    "precision": "approximate_geocode",
+    "query": "FRANCKLYN ST, HALIFAX, Nova Scotia, Canada"
+  },
   "FRANKIE BEAVER BANK": {
     "lat": 44.7971734,
     "lon": -63.6871208,
@@ -3316,6 +3322,12 @@
     "lon": -63.7232555,
     "precision": "approximate_geocode",
     "query": "KERNWOOD DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
+  "KETCH HARBOUR BEAR COVE": {
+    "lat": 44.5361157,
+    "lon": -63.5448399,
+    "precision": "approximate_geocode",
+    "query": "KETCH HARBOUR RD, BEAR COVE, Halifax, Nova Scotia, Canada"
   },
   "KETCH HARBOUR HERRING COVE": {
     "lat": 44.5569177,
@@ -4535,6 +4547,12 @@
     "precision": "approximate_geocode",
     "query": "OSBORNE DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "OSTREA LAKE OSTREA LAKE": {
+    "lat": 44.7156791,
+    "lon": -63.0650272,
+    "precision": "approximate_geocode",
+    "query": "OSTREA LAKE RD, OSTREA LAKE, Halifax, Nova Scotia, Canada"
+  },
   "OXFORD": {
     "lat": 44.6360461,
     "lon": -63.5959853,
@@ -5710,6 +5728,12 @@
     "lon": -63.2893787,
     "precision": "approximate_geocode",
     "query": "STARGAZER DR, PORTERS LAKE, Halifax, Nova Scotia, Canada"
+  },
+  "STARVIEW PORTERS LAKE": {
+    "lat": 44.7434679,
+    "lon": -63.336254,
+    "precision": "approximate_geocode",
+    "query": "STARVIEW LANE, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "STATES BEECHVILLE": {
     "lat": 44.6318474,
