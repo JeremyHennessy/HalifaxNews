@@ -4619,6 +4619,12 @@
     "precision": "approximate_geocode",
     "query": "PAUL DAVID CRT, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "PAXTON COLE HARBOUR": {
+    "lat": 44.6825441,
+    "lon": -63.49291,
+    "precision": "approximate_geocode",
+    "query": "PAXTON DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
+  },
   "PEACHTREE HILL": {
     "lat": 44.659365,
     "lon": -63.5246096,
