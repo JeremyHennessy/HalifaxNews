@@ -5933,6 +5933,12 @@
     "precision": "approximate_geocode",
     "query": "TARANAKI DR, WESTPHAL, Halifax, Nova Scotia, Canada"
   },
+  "TARTAN": {
+    "lat": 44.6057907,
+    "lon": -63.6165121,
+    "precision": "approximate_geocode",
+    "query": "TARTAN AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "TERNAN GATE BEDFORD": {
     "lat": 44.7033716,
     "lon": -63.6855547,
