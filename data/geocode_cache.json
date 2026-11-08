@@ -2777,6 +2777,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 2, FALL RIVER, Halifax, Nova Scotia, Canada"
   },
+  "HIGHWAY 2 FLETCHERS LAKE": {
+    "lat": 44.8354385,
+    "lon": -63.6088676,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 2, FLETCHERS LAKE, Halifax, Nova Scotia, Canada"
+  },
   "HIGHWAY 2 WELLINGTON": {
     "lat": 44.8766428,
     "lon": -63.6047432,
@@ -3850,6 +3856,12 @@
     "lon": -63.6233123,
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "MARGARETS BAY BEECHVILLE": {
+    "lat": 44.6368028,
+    "lon": -63.6388374,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, BEECHVILLE, Halifax, Nova Scotia, Canada"
   },
   "MARGARETS BAY BLACK POINT": {
     "lat": 44.6562097,
@@ -5890,6 +5902,12 @@
     "lon": -63.459127,
     "precision": "approximate_geocode",
     "query": "SUN KEY DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "SUNNYVALE CRES LOWER SACKVILLE": {
+    "lat": 44.7888691,
+    "lon": -63.6931971,
+    "precision": "approximate_geocode",
+    "query": "SUNNYVALE CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "SUSAN BEAVER BANK": {
     "lat": 44.7994755,
