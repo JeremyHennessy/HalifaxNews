@@ -101,6 +101,12 @@
     "precision": "approximate_geocode",
     "query": "ALBRO LAKE RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "ALDER CRES LOWER SACKVILLE": {
+    "lat": 44.7789235,
+    "lon": -63.6842406,
+    "precision": "approximate_geocode",
+    "query": "ALDER CRES, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "ALDERNEY": {
     "lat": 44.6664317,
     "lon": -63.5645888,
@@ -1222,6 +1228,12 @@
     "lon": -63.6535825,
     "precision": "approximate_geocode",
     "query": "CHESSVALE CL, HALIFAX, Nova Scotia, Canada"
+  },
+  "CHEVIOT HILL PORTERS LAKE": {
+    "lat": 44.7351641,
+    "lon": -63.3126822,
+    "precision": "approximate_geocode",
+    "query": "CHEVIOT HILL, PORTERS LAKE, Halifax, Nova Scotia, Canada"
   },
   "CHIPSTONE CL": {
     "lat": 44.6692582,
