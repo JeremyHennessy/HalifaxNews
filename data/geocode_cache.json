@@ -773,6 +773,12 @@
     "precision": "approximate_geocode",
     "query": "BRIARWOOD DR, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
   },
+  "BRIDLEWOOD LOWER SACKVILLE": {
+    "lat": 44.7744226,
+    "lon": -63.6987727,
+    "precision": "approximate_geocode",
+    "query": "BRIDLEWOOD LANE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "BRIGHT": {
     "lat": 44.6681503,
     "lon": -63.6171854,
@@ -1816,6 +1822,12 @@
     "lon": -63.5769451,
     "precision": "approximate_geocode",
     "query": "DRESDEN ROW, HALIFAX, Nova Scotia, Canada"
+  },
+  "DRUM": {
+    "lat": 44.7073581,
+    "lon": -63.5678118,
+    "precision": "approximate_geocode",
+    "query": "DRUM RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "DRYSDALE": {
     "lat": 44.606829,
@@ -5417,6 +5429,12 @@
     "precision": "approximate_geocode",
     "query": "SECOND ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
+  "SECOND LAKESIDE": {
+    "lat": 44.6346567,
+    "lon": -63.704088,
+    "precision": "approximate_geocode",
+    "query": "SECOND ST, LAKESIDE, Halifax, Nova Scotia, Canada"
+  },
   "SEDGEWICK PL BEDFORD": {
     "lat": 44.7042606,
     "lon": -63.6828239,
@@ -5998,6 +6016,12 @@
     "lon": -63.4953885,
     "precision": "approximate_geocode",
     "query": "TIDEWINDS LANE, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
+  "TILBURY BEDFORD": {
+    "lat": 44.7105011,
+    "lon": -63.6993842,
+    "precision": "approximate_geocode",
+    "query": "TILBURY AVE, BEDFORD, Halifax, Nova Scotia, Canada"
   },
   "TITUS": {
     "lat": 44.6591734,
