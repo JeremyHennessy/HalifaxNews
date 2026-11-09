@@ -707,6 +707,12 @@
     "precision": "approximate_geocode",
     "query": "BLUE MOUNTAIN DR, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
   },
+  "BONDI MIDDLE SACKVILLE": {
+    "lat": 44.7999935,
+    "lon": -63.7695231,
+    "precision": "approximate_geocode",
+    "query": "BONDI DR, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
+  },
   "BOONDOCKS WEST PORTERS LAKE": {
     "lat": 44.6868065,
     "lon": -63.3167782,
