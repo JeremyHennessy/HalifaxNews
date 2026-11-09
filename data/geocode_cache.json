@@ -1427,6 +1427,12 @@
     "precision": "approximate_geocode",
     "query": "COLLEGE ST, HALIFAX, Nova Scotia, Canada"
   },
+  "COLONIAL CRES": {
+    "lat": 44.6017636,
+    "lon": -63.6045542,
+    "precision": "approximate_geocode",
+    "query": "COLONIAL CRES, HALIFAX, Nova Scotia, Canada"
+  },
   "CONNOLLY MIDDLE SACKVILLE": {
     "lat": 44.776731,
     "lon": -63.6999537,
