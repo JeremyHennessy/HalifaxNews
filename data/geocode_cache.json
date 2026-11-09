@@ -2411,6 +2411,12 @@
     "precision": "approximate_geocode",
     "query": "GREEN BAY DR, COW BAY, Halifax, Nova Scotia, Canada"
   },
+  "GREEN BEDFORD": {
+    "lat": 44.7280507,
+    "lon": -63.6674553,
+    "precision": "approximate_geocode",
+    "query": "GREEN LANE, BEDFORD, Halifax, Nova Scotia, Canada"
+  },
   "GREENPARK CL": {
     "lat": 44.6537474,
     "lon": -63.6666148,
@@ -5998,6 +6004,12 @@
     "lon": -63.495604,
     "precision": "approximate_geocode",
     "query": "TERRA NOVA AVE, LAKE LOON, Halifax, Nova Scotia, Canada"
+  },
+  "TESSA MIDDLE SACKVILLE": {
+    "lat": 44.7770224,
+    "lon": -63.7007893,
+    "precision": "approximate_geocode",
+    "query": "TESSA LANE, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "THIS PORTERS LAKE": {
     "lat": 44.737825,
