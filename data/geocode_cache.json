@@ -1,4 +1,10 @@
 {
+  "v2:AKERLEY BLVD DARTMOUTH": {
+    "lat": 44.7242814,
+    "lon": -63.5826365,
+    "precision": "approximate_geocode",
+    "query": "AKERLEY BLVD, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:ATLANTIC ST DARTMOUTH": {
     "lat": 44.651155,
     "lon": -63.5429257,
@@ -22,6 +28,12 @@
     "lon": -63.7635757,
     "precision": "approximate_geocode",
     "query": "DAVID PAUL DR, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
+  "v2:DOWNTOWN HALIFAX": {
+    "lat": 44.6461752,
+    "lon": -63.5725221,
+    "precision": "approximate_geocode",
+    "query": "Downtown Halifax, Nova Scotia, Canada"
   },
   "v2:HERRING COVE RD HALIFAX": {
     "lat": 44.6199921,
@@ -53,6 +65,12 @@
     "precision": "approximate_geocode",
     "query": "LAKECREST DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:MACLAUGHLIN RD WESTPHAL": {
+    "lat": 44.7032733,
+    "lon": -63.4880955,
+    "precision": "approximate_geocode",
+    "query": "MACLAUGHLIN RD, WESTPHAL, Nova Scotia, Canada"
+  },
   "v2:MAPLEWOOD DR COLE HARBOUR": {
     "lat": 44.6531212,
     "lon": -63.4732611,
@@ -64,6 +82,18 @@
     "lon": -63.7194156,
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:SHEA ST LOWER SACKVILLE": {
+    "lat": 44.767254,
+    "lon": -63.6644644,
+    "precision": "approximate_geocode",
+    "query": "SHEA ST, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:ST MARGARETS BAY RD QUEENSLAND": {
+    "lat": 44.6403457,
+    "lon": -64.0347107,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, QUEENSLAND, Nova Scotia, Canada"
   },
   "v2:UNIVERSITY AVE HALIFAX": {
     "lat": 44.639559,
