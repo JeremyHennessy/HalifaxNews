@@ -1,40 +1,25 @@
 # Verification status
 
-Build checkpoint: initial HFX Pulse MVP package.
+## November 10, 2026 refresh
 
-## Confirmed in the build environment
+The reliability refresh is verified with:
 
-- Python source compiles successfully.
-- JavaScript passes `node --check`.
-- Seven unit tests pass:
-  - HRFE public-label incident parsing;
-  - HRFE collision classification;
-  - 511 Traffic Events table parsing and HRM filtering;
-  - Environment Canada Atom parsing;
-  - two-official-source correlation;
-  - community reports cannot create official corroboration;
-  - street normalization.
-- Collector adapters are independently guarded: one adapter exception produces a Source Health error instead of stopping the complete run.
-- Generated data writes atomically through a temporary file.
-- Community ingestion does not retain Reddit usernames.
+- 74 Python unit/parser/scoring tests, including captured Halifax Water notice cards, publication clock/DST, archive timestamps, duplicate cards, and missing-date boundaries.
+- Ten Node refresh regression tests: unchanged stale data, background failures, overlapping requests, malformed and older payloads, recovery, timeouts, future-dated publications, partial rendering failures and the checked-in publication contract.
+- Python compile and JavaScript syntax checks.
+- Live collection and source-health inspection. HRFE and Halifax Transit must be healthy; an all-green workflow alone is insufficient.
 
-## Not yet confirmed
+The app preserves source evidence, ignores Reddit author identities, and does not interpret an unavailable source as zero incidents. Water archive rows explicitly identify updated rather than published source times. The 48-hour retention gate still excludes old archive records.
 
-- Live end-to-end adapter compatibility from a networked runtime. The current build environment cannot resolve external internet hosts, so it cannot truthfully validate the live HRFE/HRP/GTFS/511/etc. responses.
-- A visual browser acceptance screenshot. The available headless Chromium process did not complete reliably in this environment.
-- GitHub Pages deployment. No target repository was specified, and the connected GitHub tooling can write to existing repositories but cannot create a new repository.
-- Minute-level freshness. GitHub Actions includes a five-minute schedule, but scheduled Actions are best-effort and can be delayed.
+## Release checks
 
-## First deployment acceptance gate
+Before claiming deployment, verify the exact remote commit, passing branch CI, successful Pages publication and the live asset/data response. Check the live timeline, filters, refresh control and source-health panel. Local unit tests do not constitute a deployed browser check.
 
-Do not call the app live/verified until all of the following pass from the deployment environment:
+The existing branch-based Pages publisher serves the canonical app at `public/`. The repository root redirects there.
 
-1. `python scripts/collect.py` completes.
-2. Source Health is inspected source by source; an all-green workflow alone is insufficient.
-3. At least one real HRFE incident is compared field-by-field with the official incident page.
-4. A real 511 event (when available) is compared with the Traffic Events text report.
-5. GTFS-Realtime alerts decode without protobuf/schema errors.
-6. Generated timestamps are source event times where provided, not rebuild times.
-7. Desktop and iPhone layouts are visually checked.
-8. GitHub Pages serves `public/data/incidents.json` without caching it stale.
-9. The refresh workflow is observed for at least 24 hours to measure actual schedule delay and scraper stability.
+## Known operational limits
+
+- The Port of Halifax schedule has returned HTTP 403. Its source-health error remains visible. No alternate route is used to evade the denial.
+- GitHub scheduled Actions are best-effort. Although the workflow requests a five-minute cadence, the last observed scheduled runs on November 8–9 were hours apart. No five-minute service guarantee is established.
+- The app's refresh button checks for a newer published JSON dataset. It does not run collectors from the browser.
+- Optional adapters can be unhealthy or return legitimately empty results. Source-health counts are observations from their displayed check times, not a promise that every source remains available.

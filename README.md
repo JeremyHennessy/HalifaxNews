@@ -16,7 +16,7 @@ The product deliberately collects broadly. First-party dispatch/operational sour
 
 ## Current collector surface
 
-The MVP has **18 collector paths** covering:
+The app has **27 collector paths** covering:
 
 - Halifax Regional Fire & Emergency live incident feed;
 - HRFE Incident Initial Response open-data layer;
@@ -50,7 +50,7 @@ If no recent downtown signal scores above zero, the UI says the cause is **unkno
 ```text
 PUBLIC WEB / FEEDS / SOCIAL / COMMUNITY
         ↓
-18 independent adapters (parallel fetch)
+27 independent adapters (parallel fetch)
         ↓
 normalized Incident schema + SourceHealth
         ↓
@@ -75,6 +75,7 @@ pip install -r requirements.txt
 python -m unittest discover -s tests -v
 python -m compileall -q hfxpulse scripts tests
 node --check public/assets/app.js
+node --test tests/app_refresh.test.cjs
 HFXPULSE_GEOCODE=0 python scripts/collect.py
 python -m http.server 8000 -d public
 ```
@@ -83,7 +84,7 @@ python -m http.server 8000 -d public
 
 - `.github/workflows/ci.yml` runs unit/syntax checks and a real network source-compatibility smoke test on branches and pull requests. HRFE and Halifax Transit are critical-path sources for merge readiness; other source failures remain visible but do not block the entire app.
 - `.github/workflows/refresh.yml` refreshes the generated dataset every five minutes on `main`, validates the code, and commits data only when changed.
-- `.github/workflows/pages.yml` deploys `public/` to GitHub Pages whenever app/data content changes.
+- GitHub Pages uses the repository’s existing branch-based publisher. The root redirects to `public/`; there is no separate Pages workflow in this checkout.
 
 GitHub scheduled workflows are **best-effort**, so `*/5 * * * *` is not a guaranteed five-minute SLA. If measured latency is not good enough after a soak test, move ingestion to a minute-level Azure job/function and leave Pages as the presentation layer.
 
@@ -110,3 +111,10 @@ Routine small Nova Scotia Power outages are suppressed by default below 100 cust
 ### Build 002 source expansion
 
 Adds dedicated HRFE automated-feed mirrors, HRM active street closures, Emergency Info Nova Scotia ArcGIS messages, Reddit Atom fallback, more resilient HRP parsing, Bluesky search host fallback, and the current Port of Halifax cruise-schedule domain. Source provenance remains explicit; community and secondary sources are visible rather than treated as official facts.
+
+### November 2026 reliability refresh
+
+- Refresh failures preserve the last successfully loaded timeline, map and metrics together, with a visible failure warning. Manual checks do not mark an old publication fresh. Overlapping requests, invalid/older publications and stalled requests are guarded.
+- Halifax Water notices use bounded teaser/archive cards and preserve the source’s actual time of day. Archive-only last-updated times are identified separately from publication times.
+- The five-minute cron is only a request to GitHub Actions. Recent observed runs have been hours apart, so neither the app’s Refresh button nor a successful job proves minute-level source freshness. The button checks for a newer published dataset; it does not start a collector.
+- Optional sources that deny access remain visibly unavailable. Do not route around an access restriction or equate a failed source with zero incidents.

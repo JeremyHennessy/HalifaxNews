@@ -10,13 +10,13 @@ const downtownWords = [
 
 const state = {
   payload:null, category:'ALL', downtownOnly:true, hideCommunity:false, hours:12, minPriority:0,
-  search:'', sort:'priority', map:null, layer:null, refreshFeedbackTimer:null,
+  search:'', sort:'priority', map:null, layer:null, refreshFeedbackTimer:null, loading:false, loadError:null,
 };
 
 const el = id => document.getElementById(id);
 const esc = (value='') => String(value).replace(/[&<>'"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
 const rows = () => state.payload?.events?.length ? state.payload.events : (state.payload?.incidents || []);
-function parseDate(value){const d=new Date(value);return Number.isNaN(+d)?null:d;}
+function parseDate(value){if(typeof value!=='string'||!value.trim())return null;const d=new Date(value);return Number.isNaN(+d)?null:d;}
 function minutesAgo(value){const d=parseDate(value);return d?Math.max(0,Math.round((Date.now()-d)/60000)):null;}
 function ageLabel(value){const m=minutesAgo(value);if(m===null)return'unknown time';if(m<1)return'now';if(m<60)return`${m}m ago`;const h=Math.floor(m/60),rem=m%60;if(h<24)return rem?`${h}h ${rem}m ago`:`${h}h ago`;return`${Math.floor(h/24)}d ago`;}
 function haversineKm(aLat,aLon,bLat,bLon){const r=6371,rad=x=>x*Math.PI/180,p1=rad(aLat),p2=rad(bLat),dp=rad(bLat-aLat),dl=rad(bLon-aLon);const h=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;return 2*r*Math.asin(Math.sqrt(h));}
@@ -121,6 +121,12 @@ function renderHealth(){
 }
 function renderFreshness(){
   const generated=parseDate(state.payload?.generated_at),pill=el('freshnessPill');
+  el('generatedAt').textContent=generated?`Dataset generated ${generated.toLocaleString('en-CA',{timeZone:HALIFAX_TZ,dateStyle:'medium',timeStyle:'short'})}`:'No dataset loaded yet';
+  if(state.loadError){
+    pill.className='status-pill stale';
+    pill.innerHTML=`<span class="dot"></span> ${state.payload?'Refresh failed · showing saved data':'Data unavailable'}`;
+    return;
+  }
   if(!generated){
     pill.className='status-pill stale';
     pill.innerHTML='<span class="dot"></span> No live refresh yet';
@@ -129,8 +135,8 @@ function renderFreshness(){
   const age=Math.max(0,Math.round((Date.now()-generated)/60000));
   pill.className=`status-pill ${age<=12?'fresh':age>30?'stale':''}`;
   pill.innerHTML=`<span class="dot"></span> ${age<=1?'Fresh now':`Updated ${age}m ago`}`;
-  el('generatedAt').textContent=`Dataset generated ${generated.toLocaleString('en-CA',{timeZone:HALIFAX_TZ,dateStyle:'medium',timeStyle:'short'})}`;
 }
+
 function renderAll(){renderFreshness();renderMetrics();renderPriority();renderSirens();renderHealth();renderFeed();}
 
 function beginManualRefresh(){
@@ -154,49 +160,97 @@ function finishManualRefresh(message,{failed=false}={}){
   button.setAttribute('aria-busy','false');
   button.setAttribute('aria-label','Refresh data');
   button.title='Refresh data';
-  pill.className=`status-pill ${failed?'stale':'fresh'}`;
+  renderFreshness();
+  if(failed)pill.className='status-pill stale';
   pill.innerHTML=`<span class="dot"></span> ${esc(message)}`;
-  if(!failed&&state.payload?.generated_at){
-    const generated=parseDate(state.payload.generated_at);
-    if(generated)el('generatedAt').textContent=`Dataset generated ${generated.toLocaleString('en-CA',{timeZone:HALIFAX_TZ,dateStyle:'medium',timeStyle:'short'})}`;
-  }
   state.refreshFeedbackTimer=setTimeout(()=>{
     state.refreshFeedbackTimer=null;
     renderFreshness();
   },3500);
 }
 
+// Reject broken publications before replacing the last known-good snapshot.
+function validatePayload(payload){
+  const object=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
+  if(!object(payload)||!parseDate(payload.generated_at)||
+    (!Array.isArray(payload.events)&&!Array.isArray(payload.incidents))){
+    throw new Error('Invalid dataset');
+  }
+  if(parseDate(payload.generated_at).getTime()>Date.now()+5*60000)throw new Error('Dataset timestamp is in the future');
+  for(const key of ['events','incidents','source_health']){
+    if(payload[key]!==undefined&&(!Array.isArray(payload[key])||!payload[key].every(object))){
+      throw new Error(`Invalid ${key}`);
+    }
+  }
+  for(const row of [...(payload.events||[]),...(payload.incidents||[])]){
+    if(typeof row.title!=='string'||typeof row.category!=='string'||!/^[A-Z_]+$/.test(row.category)||!parseDate(row.reported_at)){
+      throw new Error('Invalid incident');
+    }
+    if(row.priority_band!=null&&!['low','moderate','elevated','high','critical'].includes(row.priority_band))throw new Error('Invalid priority band');
+    if(row.metadata!=null&&!object(row.metadata))throw new Error('Invalid metadata');
+    for(const [value,itemsAreObjects] of [[row.evidence,true],[row.attention_reasons,false],
+      [row.metadata?.source_names,false],[row.metadata?.decoded_response,true],
+      [row.metadata?.response_unknown_codes,false]]){
+      if(value!=null&&(!Array.isArray(value)||!value.every(item=>itemsAreObjects?object(item):typeof item==='string'))){
+        throw new Error('Invalid incident details');
+      }
+    }
+  }
+  return payload;
+}
+
 async function loadData({cacheBust=false,userInitiated=false}={}){
+  // A single request owns the UI, including its busy state and feedback timer.
+  if(state.loading)return;
+  state.loading=true;
+  if(state.refreshFeedbackTimer){clearTimeout(state.refreshFeedbackTimer);state.refreshFeedbackTimer=null;}
   const button=el('refreshButton');
-  const previousGeneratedAt=state.payload?.generated_at||null;
+  const previousPayload=state.payload;
+  const previousGeneratedAt=previousPayload?.generated_at||null;
   button.disabled=true;
   if(userInitiated)beginManualRefresh();
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),15000);
   try{
     const url=cacheBust?`${DATA_URL}?t=${Date.now()}`:DATA_URL;
-    const res=await fetch(url,{cache:'no-store'});
+    const res=await fetch(url,{cache:'no-store',signal:controller.signal});
     if(!res.ok)throw new Error(`HTTP ${res.status}`);
-    const nextPayload=await res.json();
+    const nextPayload=validatePayload(await res.json());
+    if(previousGeneratedAt&&parseDate(nextPayload.generated_at)<parseDate(previousGeneratedAt)){
+      throw new Error('Received an older dataset');
+    }
     state.payload=nextPayload;
+    state.loadError=null;
     renderAll();
     if(userInitiated){
-      const nextGeneratedAt=nextPayload?.generated_at||null;
-      const changed=Boolean(nextGeneratedAt&&nextGeneratedAt!==previousGeneratedAt);
+      const changed=nextPayload.generated_at!==previousGeneratedAt;
       finishManualRefresh(changed?'New data loaded':'Checked · no newer data');
     }
   }catch(err){
-    if(userInitiated){
-      finishManualRefresh('Refresh failed',{failed:true});
-    }else{
-      el('freshnessPill').className='status-pill stale';
-      el('freshnessPill').innerHTML='<span class="dot"></span> Data unavailable';
-      el('incidentFeed').innerHTML=`<div class="empty-feed">Could not load the generated dataset: ${esc(err.message)}</div>`;
+    // Rendering can fail after some panels changed. Roll back the whole snapshot.
+    if(state.payload!==previousPayload){
+      state.payload=previousPayload;
+      if(previousPayload){
+        try{renderAll();}catch{state.payload=null;}
+      }
     }
+    state.loadError=err.message||'Refresh failed';
+    // Preserve feed, map, and metrics together when an update fails.
+    renderFreshness();
+    if(!state.payload){
+      for(const id of ['metricActive','metricHigh','metricSources','metricMerged','visibleCount'])el(id).textContent='—';
+      for(const id of ['priorityCards','sirenCards','sourceHealth'])el(id).innerHTML='';
+      el('sourceHealthSummary').textContent='Unavailable';
+      if(state.layer){try{state.layer.clearLayers();}catch{/* Map may also be unavailable. */}}
+      el('incidentFeed').innerHTML=`<div class="empty-feed">Could not load the generated dataset: ${esc(state.loadError)}. Try refreshing again.</div>`;
+    }
+    if(userInitiated)finishManualRefresh(state.payload?'Refresh failed · showing saved data':'Data unavailable',{failed:true});
   }finally{
+    clearTimeout(timeout);
+    state.loading=false;
     button.disabled=false;
-    if(!userInitiated){
-      button.classList.remove('refreshing');
-      button.setAttribute('aria-busy','false');
-    }
+    button.classList.remove('refreshing');
+    button.setAttribute('aria-busy','false');
   }
 }
 function updateClock(){const now=new Date();el('clockTime').textContent=now.toLocaleTimeString('en-CA',{timeZone:HALIFAX_TZ,hour:'2-digit',minute:'2-digit',hour12:false});el('clockDate').textContent=now.toLocaleDateString('en-CA',{timeZone:HALIFAX_TZ,weekday:'short',month:'short',day:'numeric'});}
