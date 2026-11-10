@@ -11,6 +11,30 @@
     "precision": "approximate_geocode",
     "query": "BEDFORD HWY, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:DAVID PAUL DR HAMMONDS PLAINS": {
+    "lat": 44.7322097,
+    "lon": -63.7635757,
+    "precision": "approximate_geocode",
+    "query": "DAVID PAUL DR, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
+  "v2:HERRING COVE RD HALIFAX": {
+    "lat": 44.6199921,
+    "lon": -63.6163651,
+    "precision": "approximate_geocode",
+    "query": "HERRING COVE RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:HIGHWAY 102 HALIFAX": {
+    "lat": 44.6516299,
+    "lon": -63.6298812,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 102, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:HILLSIDE AVE LOWER SACKVILLE": {
+    "lat": 44.7607195,
+    "lon": -63.666812,
+    "precision": "approximate_geocode",
+    "query": "HILLSIDE AVE, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:HOLLIS ST HALIFAX": {
     "lat": 44.6391504,
     "lon": -63.5694124,
@@ -28,6 +52,12 @@
     "lon": -63.7194156,
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:UNIVERSITY AVE HALIFAX": {
+    "lat": 44.639559,
+    "lon": -63.5805954,
+    "precision": "approximate_geocode",
+    "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
   },
   "v2:WILLIAM ST EAST PRESTON": {
     "lat": 44.7316016,
