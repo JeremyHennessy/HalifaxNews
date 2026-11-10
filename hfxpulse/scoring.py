@@ -8,7 +8,7 @@ from hfxpulse.util import DOWNTOWN_CENTER, apparatus_count, haversine_km, parse_
 
 DOWNTOWN_TERMS = (
     "downtown", "barrington", "argyle", "granville", "hollis", "lower water", "water st",
-    "spring garden", "sackville", "duke", "george", "brunswick", "gottingen", "quinpool",
+    "spring garden", "sackville st", "sackville street", "duke", "george", "brunswick", "gottingen", "quinpool",
     "cogswell", "university", "south park", "morris", "inglis", "waterfront", "scotia square",
     "purdy", "citadel", "commons",
 )
@@ -159,7 +159,7 @@ def _downtown(row: Incident) -> bool:
             return haversine_km(float(row.lat), float(row.lon), *DOWNTOWN_CENTER) <= 2.2
         except (TypeError, ValueError):
             pass
-    return any(term in _text(row) for term in DOWNTOWN_TERMS)
+    return _has(_text(row), *DOWNTOWN_TERMS)
 
 
 def priority_score(row: Incident, seriousness: int) -> tuple[int, list[str]]:

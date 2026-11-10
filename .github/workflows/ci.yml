@@ -50,10 +50,14 @@ jobs:
               duplicates = sorted({event_id for event_id in event_ids if event_ids.count(event_id) > 1})
               raise SystemExit(f"Duplicate normalized event IDs: {duplicates[:10]}")
 
+          call_by_id = {row['id']: (row.get('metadata') or {}).get('call_number') for row in p['incidents']}
           for event in p['events']:
               assert event['source_count'] >= 1
               assert event['evidence_count'] >= 1
               assert isinstance(event['evidence'], list)
+              calls = {call_by_id.get(row.get('id')) for row in event['evidence']} - {None, ''}
+              if len(calls) > 1:
+                  raise SystemExit(f"Distinct HRFE dispatch calls clustered together: {event.get('id')}")
               gtfs_evidence = [
                   row for row in event['evidence']
                   if row.get('source') == 'Halifax Transit GTFS-Realtime'

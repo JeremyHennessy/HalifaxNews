@@ -29,7 +29,7 @@ SOURCE_CLASS_ALIASES = {
 }
 
 NEIGHBOURHOODS = {
-    "DOWNTOWN": ("BARRINGTON", "ARGYLE", "GRANVILLE", "HOLLIS", "LOWER WATER", "SPRING GARDEN", "SACKVILLE", "DUKE", "GEORGE", "SCOTIA SQUARE", "PURDYS", "PURDY"),
+    "DOWNTOWN": ("BARRINGTON", "ARGYLE", "GRANVILLE", "HOLLIS", "LOWER WATER", "SPRING GARDEN", "SACKVILLE ST", "SACKVILLE STREET", "DUKE", "GEORGE", "SCOTIA SQUARE", "PURDYS", "PURDY"),
     "NORTH END": ("GOTTINGEN", "AGRICOLA", "NORTH ST", "HYDROSTONE", "ALMON", "YOUNG ST"),
     "SOUTH END": ("SOUTH PARK", "INGLIS", "MORRIS", "UNIVERSITY", "YOUNG AVE", "POINT PLEASANT"),
     "WEST END": ("QUINPOOL", "OXFORD", "CONNAUGHT", "CHEBUCTO"),
@@ -105,7 +105,7 @@ def event_type(row: Incident) -> str:
 def infer_neighbourhood(row: Incident) -> str | None:
     text = f"{row.location_text or ''} {row.title or ''} {row.summary or ''}".upper()
     for name, terms in NEIGHBOURHOODS.items():
-        if any(term in text for term in terms):
+        if any(_term(text, term) for term in terms):
             return name
     return None
 
@@ -225,7 +225,13 @@ def _family(category: str) -> str:
 
 def _call_number(row: Incident) -> str | None:
     value = (row.metadata or {}).get("call_number")
-    return clean_text(str(value)) if value else None
+    if value:
+        return clean_text(str(value))
+    # This adapter explicitly stores the official incident number as its sole
+    # raw ID. Do not interpret unrelated adapters' raw IDs as dispatch numbers.
+    if row.source == "HRFE Incident Initial Response · Open Data" and len(row.raw_ids or []) == 1:
+        return clean_text(str(row.raw_ids[0])) or None
+    return None
 
 
 def _same_event(a: Incident, b: Incident) -> bool:
@@ -243,8 +249,8 @@ def _same_event(a: Incident, b: Incident) -> bool:
         if a.source == b.source == "Halifax Transit GTFS-Realtime":
             return False
     ca, cb = _call_number(a), _call_number(b)
-    if ca and cb and ca == cb:
-        return True
+    if ca and cb:
+        return ca == cb
     age = _minutes_apart(a, b)
     if age is None or age > 180:
         return False
@@ -284,6 +290,7 @@ def cluster_events(rows: list[Incident]) -> list[Incident]:
     if not rows:
         return []
     parent = list(range(len(rows)))
+    calls = [{call} if (call := _call_number(row)) else set() for row in rows]
 
     def find(x: int) -> int:
         while parent[x] != x:
@@ -294,7 +301,11 @@ def cluster_events(rows: list[Incident]) -> list[Incident]:
     def union(a: int, b: int) -> None:
         ra, rb = find(a), find(b)
         if ra != rb:
+            # A report without a call number must not bridge distinct dispatches.
+            if calls[ra] and calls[rb] and calls[ra] != calls[rb]:
+                return
             parent[rb] = ra
+            calls[ra] |= calls[rb]
 
     ordered = sorted(range(len(rows)), key=lambda i: parse_datetime(rows[i].reported_at) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
     for pos, i in enumerate(ordered):

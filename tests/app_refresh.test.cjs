@@ -173,3 +173,13 @@ test('initial rendering failure clears partial panels and permits recovery', asy
   assert.equal(app.payload, payload);
   assert.match(app.el('incidentFeed').innerHTML, /No normalized events/);
 });
+
+test('downtown fallback distinguishes Sackville Street from Sackville communities', () => {
+  const app = harness(async () => response(dataset()));
+  for (const location of ['Lynnville Drive, Lower Sackville', 'Middle Sackville', 'Upper Sackville', 'Sackville Drive', 'Sackville', 'Sackville Drive, Halifax']) {
+    assert.equal(app.run(`isDowntown({location_text:${JSON.stringify(location)}})`), false, location);
+  }
+  for (const location of ['SACKVILLE ST, HALIFAX', 'Sackville Street, Halifax']) {
+    assert.equal(app.run(`isDowntown({location_text:${JSON.stringify(location)}})`), true, location);
+  }
+});

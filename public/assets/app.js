@@ -4,7 +4,7 @@ const DOWNTOWN_CENTER = [44.6488, -63.5752];
 const DOWNTOWN_RADIUS_KM = 2.2;
 const downtownWords = [
   'DOWNTOWN','BARRINGTON','ARGYLE','GRANVILLE','HOLLIS','LOWER WATER','WATER ST','SPRING GARDEN',
-  'SACKVILLE','DUKE','GEORGE','BRUNSWICK','GOTTINGEN','ROBIE','QUINPOOL','COGSWELL','UNIVERSITY',
+  'SACKVILLE ST','SACKVILLE STREET','DUKE','GEORGE','BRUNSWICK','GOTTINGEN','ROBIE','QUINPOOL','COGSWELL','UNIVERSITY',
   'SOUTH PARK','MORRIS','INGLIS','YOUNG AVE','WATERFRONT','SCOTIA SQUARE','PURDY'
 ];
 
@@ -24,7 +24,7 @@ function isDowntown(row){
   if(Number.isFinite(row.lat)&&Number.isFinite(row.lon))return haversineKm(row.lat,row.lon,...DOWNTOWN_CENTER)<=DOWNTOWN_RADIUS_KM;
   if(row.neighbourhood==='DOWNTOWN')return true;
   const text=`${row.location_text||''} ${row.title||''} ${row.summary||''}`.toUpperCase();
-  return downtownWords.some(w=>text.includes(w));
+  return downtownWords.some(w=>new RegExp(`\\b${w}\\b`).test(text));
 }
 function sourceEvidence(row){return row.evidence?.length?row.evidence:[{source:row.source,source_url:row.source_url,source_class:row.source_class||row.source_kind,reported_at:row.reported_at,title:row.title}];}
 function allCommunity(row){const evidence=sourceEvidence(row);return evidence.length>0&&evidence.every(e=>e.source_class==='community'||e.source_class==='secondary');}
