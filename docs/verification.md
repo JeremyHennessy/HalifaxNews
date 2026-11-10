@@ -4,8 +4,8 @@
 
 The reliability refresh is verified with:
 
-- 74 Python unit/parser/scoring tests, including captured Halifax Water notice cards, publication clock/DST, archive timestamps, duplicate cards, and missing-date boundaries.
-- Ten Node refresh regression tests: unchanged stale data, background failures, overlapping requests, malformed and older payloads, recovery, timeouts, future-dated publications, partial rendering failures and the checked-in publication contract.
+- Python unit/parser/scoring tests, including captured Halifax Water notice cards, publication clock/DST, archive timestamps, duplicate cards, and missing-date boundaries.
+- Node refresh and geography regression tests: unchanged stale data, background failures, overlapping requests, malformed and older payloads, recovery, timeouts, future-dated publications, partial rendering failures and the checked-in publication contract.
 - Python compile and JavaScript syntax checks.
 - Live collection and source-health inspection. HRFE and Halifax Transit must be healthy; an all-green workflow alone is insufficient.
 
@@ -23,3 +23,9 @@ The existing branch-based Pages publisher serves the canonical app at `public/`.
 - GitHub scheduled Actions are best-effort. Although the workflow requests a five-minute cadence, the last observed scheduled runs on November 8–9 were hours apart. No five-minute service guarantee is established.
 - The app's refresh button checks for a newer published JSON dataset. It does not run collectors from the browser.
 - Optional adapters can be unhealthy or return legitimately empty results. Source-health counts are observations from their displayed check times, not a promise that every source remains available.
+
+## Geographic and dispatch identity follow-up
+
+- Sackville Street is distinct from Lower, Middle and Upper Sackville and Sackville Drive in neighbourhood assignment, priority scoring and browser filtering.
+- Geocode cache keys retain municipality and street type. Legacy ambiguous derived coordinates are invalidated; source-provided geometry is preserved. Missing coordinates remain unknown while bounded lookups rebuild the cache.
+- Different explicit HRFE dispatch identifiers cannot merge, including through an intermediate report without a call identifier. Live CI also checks that normalized event evidence does not mix known dispatch IDs.
