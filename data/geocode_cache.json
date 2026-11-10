@@ -5,6 +5,12 @@
     "precision": "approximate_geocode",
     "query": "ATLANTIC ST, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:BEAVER BANK RD BEAVER BANK": {
+    "lat": 44.8757625,
+    "lon": -63.6989598,
+    "precision": "approximate_geocode",
+    "query": "BEAVER BANK RD, BEAVER BANK, Nova Scotia, Canada"
+  },
   "v2:BEDFORD HWY BEDFORD": {
     "lat": 44.7332875,
     "lon": -63.6559228,
@@ -47,6 +53,12 @@
     "precision": "approximate_geocode",
     "query": "LAKECREST DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:MAPLEWOOD DR COLE HARBOUR": {
+    "lat": 44.6531212,
+    "lon": -63.4732611,
+    "precision": "approximate_geocode",
+    "query": "MAPLEWOOD DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:SACKVILLE DR MIDDLE SACKVILLE": {
     "lat": 44.7941574,
     "lon": -63.7194156,
@@ -59,10 +71,22 @@
     "precision": "approximate_geocode",
     "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:WEST AVE BEAVER BANK": {
+    "lat": 44.8771625,
+    "lon": -63.6952501,
+    "precision": "approximate_geocode",
+    "query": "WEST AVE, BEAVER BANK, Nova Scotia, Canada"
+  },
   "v2:WILLIAM ST EAST PRESTON": {
     "lat": 44.7316016,
     "lon": -63.4069026,
     "precision": "approximate_geocode",
     "query": "WILLIAM ST, EAST PRESTON, Nova Scotia, Canada"
+  },
+  "v2:WINDSOR ST HALIFAX": {
+    "lat": 44.6564798,
+    "lon": -63.606763,
+    "precision": "approximate_geocode",
+    "query": "WINDSOR ST, HALIFAX, Nova Scotia, Canada"
   }
 }
