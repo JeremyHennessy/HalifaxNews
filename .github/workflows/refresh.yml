@@ -12,7 +12,8 @@ on:
       - "requirements.txt"
       - ".github/workflows/refresh.yml"
   schedule:
-    - cron: "*/5 * * * *"
+    # Avoid the top-of-hour peak; Actions schedules still have no latency SLA.
+    - cron: "2-59/5 * * * *"
 
 permissions:
   contents: write
@@ -24,9 +25,12 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Scheduled events may sit in a queue. Collect with current production code.
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -48,3 +52,8 @@ jobs:
           git commit -m "data: refresh Halifax incident signals"
           git pull --rebase
           git push
+      - name: Verify the published dataset is current
+        run: >-
+          python scripts/check_freshness.py
+          --expected-file public/data/incidents.json
+          --wait-seconds 240

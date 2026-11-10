@@ -4,8 +4,8 @@ from datetime import datetime
 
 from bs4 import BeautifulSoup
 
-from hfxpulse.adapters.base import AdapterResult, guarded_fetch, session
-from hfxpulse.models import Incident
+from hfxpulse.adapters.base import AdapterResult
+from hfxpulse.models import Incident, SourceHealth, utc_now_iso
 from hfxpulse.util import HALIFAX_TZ, clean_text, iso_utc, parse_datetime, stable_id
 
 URL = "https://www.portofhalifax.ca/cruise/cruise-schedule/"
@@ -53,8 +53,15 @@ def parse_html(html: str, now: datetime | None = None) -> list[Incident]:
 
 
 def fetch() -> AdapterResult:
-    def run() -> list[Incident]:
-        res = session().get(URL, timeout=25)
-        res.raise_for_status()
-        return parse_html(res.text)
-    return guarded_fetch(SOURCE, URL, "official schedule", run, notes="Same-day cruise calls provide crowd/traffic context; they are not emergency incidents.")
+    # The current endpoint denied access (HTTP 403). Keep the failure visible,
+    # but do not retry it from scheduled refreshes or CI. Re-enabling requires
+    # a reviewed, permitted source change rather than a fallback around the denial.
+    return AdapterResult([], SourceHealth(
+        source=SOURCE,
+        url=URL,
+        authority="official schedule",
+        status="error",
+        checked_at=utc_now_iso(),
+        error="Collection paused after HTTP 403; no network request made.",
+        notes="Cruise context is unavailable. This is not evidence of zero cruise calls.",
+    ))

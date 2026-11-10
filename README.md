@@ -83,10 +83,10 @@ python -m http.server 8000 -d public
 ## GitHub automation
 
 - `.github/workflows/ci.yml` runs unit/syntax checks and a real network source-compatibility smoke test on branches and pull requests. HRFE and Halifax Transit are critical-path sources for merge readiness; other source failures remain visible but do not block the entire app.
-- `.github/workflows/refresh.yml` refreshes the generated dataset every five minutes on `main`, validates the code, and commits data only when changed.
+- `.github/workflows/refresh.yml` requests a refresh every five minutes on `main` (minutes 2, 7, 12, etc.), validates the code, commits data only when changed, and checks the actual public dataset after publication. Queued runs check out current `main`.
 - GitHub Pages uses the repository’s existing branch-based publisher. The root redirects to `public/`; there is no separate Pages workflow in this checkout.
 
-GitHub scheduled workflows are **best-effort**, so `*/5 * * * *` is not a guaranteed five-minute SLA. If measured latency is not good enough after a soak test, move ingestion to a minute-level Azure job/function and leave Pages as the presentation layer.
+GitHub scheduled workflows are **best-effort**, so `2-59/5 * * * *` is not a guaranteed five-minute SLA. If measured latency is not good enough after a soak test, move ingestion to a minute-level Azure job/function and leave Pages as the presentation layer.
 
 ## Data boundaries
 
@@ -118,3 +118,20 @@ Adds dedicated HRFE automated-feed mirrors, HRM active street closures, Emergenc
 - Halifax Water notices use bounded teaser/archive cards and preserve the source’s actual time of day. Archive-only last-updated times are identified separately from publication times.
 - The five-minute cron is only a request to GitHub Actions. Recent observed runs have been hours apart, so neither the app’s Refresh button nor a successful job proves minute-level source freshness. The button checks for a newer published dataset; it does not start a collector.
 - Optional sources that deny access remain visibly unavailable. Do not route around an access restriction or equate a failed source with zero incidents.
+
+### Publication freshness verification
+
+Run `python scripts/check_freshness.py` to check the actual public dataset, not
+workflow status. It fails when the dataset is more than 20 minutes old, invalid,
+implausibly future-dated, or unreachable. The refresh workflow also requires the
+public timestamp to reach the just-collected timestamp, with a bounded four-minute
+wait for Pages. Source success counts are explicitly snapshots at collection time.
+
+The cron offset avoids GitHub's top-of-hour peak but does not fix or guarantee
+scheduler delivery. No independent scheduler or new service is configured. The
+browser Refresh button only reads the latest publication. A successful publication
+check says nothing about whether the next scheduled collection will start on time.
+
+The cruise collector is paused after the existing endpoint returned HTTP 403.
+It keeps an unavailable health row, makes no network request and does not substitute
+zero cruise activity. Re-enabling needs a reviewed, permitted source change.
