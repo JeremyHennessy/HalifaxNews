@@ -2015,6 +2015,12 @@
     "precision": "approximate_geocode",
     "query": "ELMRIDGE DR, WAVERLEY, Halifax, Nova Scotia, Canada"
   },
+  "ELWIN CRES": {
+    "lat": 44.6817426,
+    "lon": -63.5234602,
+    "precision": "approximate_geocode",
+    "query": "ELWIN CRES, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
   "ERIN": {
     "lat": 44.6859122,
     "lon": -63.5181435,
@@ -2278,6 +2284,12 @@
     "lon": -63.5388237,
     "precision": "approximate_geocode",
     "query": "GARDENIA WAY, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "GARSHAN": {
+    "lat": 44.697979,
+    "lon": -63.5505067,
+    "precision": "approximate_geocode",
+    "query": "GARSHAN RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "GARY MARTIN BEDFORD": {
     "lat": 44.7217798,
@@ -3094,6 +3106,12 @@
     "lon": -63.7072766,
     "precision": "approximate_geocode",
     "query": "IRISWEG DR, BROOKSIDE, Halifax, Nova Scotia, Canada"
+  },
+  "IRVING": {
+    "lat": 44.6470347,
+    "lon": -63.5428259,
+    "precision": "approximate_geocode",
+    "query": "IRVING ST, DARTMOUTH, Halifax, Nova Scotia, Canada"
   },
   "IRWIN HUBLEY SEABRIGHT": {
     "lat": 44.6137612,
@@ -5657,6 +5675,12 @@
     "precision": "approximate_geocode",
     "query": "SNEEZY AVE, LAKE ECHO, Halifax, Nova Scotia, Canada"
   },
+  "SOFTWIND HAMMONDS PLAINS": {
+    "lat": 44.7187731,
+    "lon": -63.8214909,
+    "precision": "approximate_geocode",
+    "query": "SOFTWIND LANE, HAMMONDS PLAINS, Halifax, Nova Scotia, Canada"
+  },
   "SOLUTIONS": {
     "lat": 44.6560609,
     "lon": -63.6699294,
@@ -6124,6 +6148,12 @@
     "lon": -63.7143322,
     "precision": "approximate_geocode",
     "query": "TRINITY WAY, TIMBERLEA, Halifax, Nova Scotia, Canada"
+  },
+  "TROLLOPE": {
+    "lat": 44.6475773,
+    "lon": -63.5857114,
+    "precision": "approximate_geocode",
+    "query": "TROLLOPE ST, HALIFAX, Nova Scotia, Canada"
   },
   "TRUNDLE CRES MIDDLE SACKVILLE": {
     "lat": 44.7909325,
