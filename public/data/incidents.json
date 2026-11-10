@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-10T00:22:56Z",
+  "generated_at": "2026-11-10T00:29:29Z",
   "history_hours": 48,
   "collector_count": 27,
   "incidents": [
@@ -11,7 +11,7 @@
       "title": "Power outage",
       "summary": "Emergency Repair of Lines",
       "category": "UTILITY",
-      "reported_at": "2026-11-10T00:21:42Z",
+      "reported_at": "2026-11-10T00:28:15Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -242,7 +242,7 @@
       "lon": -63.5724028,
       "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 75,
+      "siren_score": 69,
       "seriousness_score": 40,
       "source_class": "first_party",
       "event_type": "fire_alarm",
@@ -252,12 +252,12 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 57,
+      "priority_score": 53,
       "priority_band": "elevated",
       "impact_scope": "local",
       "attention_reasons": [
         "multiple responding units (3)",
-        "very recent",
+        "recent",
         "downtown relevance"
       ],
       "signals": [
@@ -492,11 +492,11 @@
       "updated_at": null,
       "status": "active",
       "location_text": "WILLIAM ST, EAST PRESTON",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.7316016,
+      "lon": -63.4069026,
+      "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 60,
+      "siren_score": 54,
       "seriousness_score": 28,
       "source_class": "first_party",
       "event_type": "medical_response",
@@ -506,11 +506,11 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 36,
+      "priority_score": 31,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
-        "recent"
+        "within 90 minutes"
       ],
       "signals": [
         "official_dispatch",
@@ -586,7 +586,7 @@
       "lon": null,
       "location_precision": null,
       "severity": 2,
-      "siren_score": 25,
+      "siren_score": 20,
       "seriousness_score": 32,
       "source_class": "community",
       "event_type": "police_incident",
@@ -596,11 +596,11 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 37,
+      "priority_score": 32,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
-        "recent"
+        "within 90 minutes"
       ],
       "signals": [
         "community_social"
@@ -860,7 +860,7 @@
       "lon": null,
       "location_precision": null,
       "severity": 2,
-      "siren_score": 31,
+      "siren_score": 26,
       "seriousness_score": 32,
       "source_class": "first_party",
       "event_type": "police_incident",
@@ -870,12 +870,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 34,
+      "priority_score": 30,
       "priority_band": "moderate",
       "impact_scope": "local",
-      "attention_reasons": [
-        "within 90 minutes"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_social"
       ],
@@ -1171,7 +1169,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 28,
+      "priority_score": 23,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [],
@@ -1212,7 +1210,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 36,
+      "priority_score": 31,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [
@@ -1453,6 +1451,50 @@
       }
     },
     {
+      "id": "water-58d77bbbc6831c0d1c",
+      "source": "Halifax Water",
+      "source_url": "https://www.halifaxwater.ca/notice/lynnville-drive-water-system-repair",
+      "title": "Lynnville Drive – Water System Repair",
+      "summary": "Beginning at 8:30 AM tomorrow, Tuesday, November 10th, Halifax Water crews will be performing a water system repair near 62 Lynnville Drive, Lower Sackville. This work will not impact Halifax Water services in the area. There will be stop-and-go traffic in the work zone. Experienced traffic control personnel will be on-site to manage traffic flows. Customers in the area may experience discoloured water during/following this repair. It is recommended that those customers run the COLD water at one faucet until the water runs clear. To learn more about discoloured water and to report it, please v",
+      "category": "UTILITY",
+      "reported_at": "2026-11-09T19:54:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "water_notice",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "seriousness_score": 12,
+      "source_class": "first_party",
+      "event_type": "water_disruption",
+      "canonical_location": null,
+      "neighbourhood": "DOWNTOWN",
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 19,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "downtown relevance"
+      ],
+      "signals": [
+        "official_notice"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {
+        "source_timestamp_kind": "published",
+        "source_timestamp": "3:54 PM | November 9, 2026"
+      }
+    },
+    {
       "id": "hrfe-hf26000016948",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016948",
@@ -1466,9 +1508,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "HILLSIDE AVE, LOWER SACKVILLE",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.7607195,
+      "lon": -63.666812,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 44,
       "seriousness_score": 28,
@@ -1480,12 +1522,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 30,
+      "priority_score": 22,
       "priority_band": "moderate",
       "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_dispatch",
         "responding_units"
@@ -1767,9 +1807,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "CROSSROADS CRT, MIDDLE SACKVILLE",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.7898472,
+      "lon": -63.6993544,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 44,
       "seriousness_score": 28,
@@ -1781,12 +1821,10 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 30,
+      "priority_score": 22,
       "priority_band": "moderate",
       "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance"
-      ],
+      "attention_reasons": [],
       "signals": [
         "official_dispatch",
         "responding_units"
@@ -2161,9 +2199,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "CHATER ST, EASTERN PASSAGE",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.605815,
+      "lon": -63.4742954,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 44,
       "seriousness_score": 28,
@@ -2221,6 +2259,48 @@
           }
         ],
         "response_unknown_codes": []
+      }
+    },
+    {
+      "id": "water-338f56b481621d7b17",
+      "source": "Halifax Water",
+      "source_url": "https://www.halifaxwater.ca/notice/remembrance-day-service-level-adjustments-0",
+      "title": "Remembrance Day Service Level Adjustments",
+      "summary": "Halifax Water offices will be closed to the public on Wednesday, November 11, 2026, for Remembrance Day. Regular hours of operation will resume on Thursday, November 12. We want to assure our customers that we remain committed to serving them and will operate with a smaller group of core critical staff. Halifax Water will continue to respond to and address any urgent water, wastewater, and stormwater infrastructure matters. Our Customer Care Centre Emergency Line remains open 24/7 at 902-420-9287.",
+      "category": "UTILITY",
+      "reported_at": "2026-11-09T17:30:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "water_notice",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "seriousness_score": 12,
+      "source_class": "first_party",
+      "event_type": "utility_disruption",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 11,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_notice"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {
+        "source_timestamp_kind": "published",
+        "source_timestamp": "1:30 PM | November 9, 2026"
       }
     },
     {
@@ -2297,6 +2377,48 @@
           }
         ],
         "response_unknown_codes": []
+      }
+    },
+    {
+      "id": "water-9b65edbf676c309cea",
+      "source": "Halifax Water",
+      "source_url": "https://www.halifaxwater.ca/notice/micmac-street-water-valve-installation",
+      "title": "Micmac Street – Water Valve Installation",
+      "summary": "On Tuesday, November 10th from 9:00 AM to 4:00 PM, Halifax Water crews will be installing a water valve near 3155 Micmac Street, Halifax. Impacted water service customers were notified in advance of this work.",
+      "category": "UTILITY",
+      "reported_at": "2026-11-09T17:19:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "water_notice",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "seriousness_score": 12,
+      "source_class": "first_party",
+      "event_type": "water_disruption",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": null,
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [],
+      "priority_score": 11,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_notice"
+      ],
+      "raw_ids": [],
+      "related_ids": [],
+      "metadata": {
+        "source_timestamp_kind": "published",
+        "source_timestamp": "1:19 PM | November 9, 2026"
       }
     },
     {
@@ -5613,125 +5735,6 @@
       }
     },
     {
-      "id": "water-58d77bbbc6831c0d1c",
-      "source": "Halifax Water",
-      "source_url": "https://www.halifaxwater.ca/notice/lynnville-drive-water-system-repair",
-      "title": "Lynnville Drive – Water System Repair",
-      "summary": "Lynnville Drive – Water System Repair Published: 3:54 PM | November 9, 2026 Beginning at 8:30 AM tomorrow, Tuesday, November 10th, Halifax Water crews will be performing a water system repair near 62 Lynnville Drive, Lower Sackville. This work will not impact Halifax Water services in the area. There will be stop-and-go traffic in the work zone. Experienced traffic control personnel will be on-site to manage traffic flows. Customers in the area may experience discoloured water during/following this repair. It is recommended that those customers run the COLD water at one faucet until the water",
-      "category": "UTILITY",
-      "reported_at": "2026-11-09T04:00:00Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "water_notice",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 1,
-      "siren_score": 0,
-      "seriousness_score": 12,
-      "source_class": "first_party",
-      "event_type": "water_disruption",
-      "canonical_location": null,
-      "neighbourhood": "DOWNTOWN",
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 19,
-      "priority_band": "low",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance"
-      ],
-      "signals": [
-        "official_notice"
-      ],
-      "raw_ids": [],
-      "related_ids": [],
-      "metadata": {}
-    },
-    {
-      "id": "water-338f56b481621d7b17",
-      "source": "Halifax Water",
-      "source_url": "https://www.halifaxwater.ca/notice/remembrance-day-service-level-adjustments-0",
-      "title": "Remembrance Day Service Level Adjustments",
-      "summary": "Remembrance Day Service Level Adjustments Published: 1:30 PM | November 9, 2026 Halifax Water offices will be closed to the public on Wednesday, November 11, 2026, for Remembrance Day. Regular hours of operation will resume on Thursday, November 12. We want to assure our customers that we remain committed to serving them and will operate with a smaller group of core critical staff. Halifax Water will continue to respond to and address any urgent water, wastewater, and stormwater infrastructure matters. Our Customer Care Centre Emergency Line remains open 24/7 at 902-420-9287. Halifax Water",
-      "category": "UTILITY",
-      "reported_at": "2026-11-09T04:00:00Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "water_notice",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 1,
-      "siren_score": 0,
-      "seriousness_score": 12,
-      "source_class": "first_party",
-      "event_type": "utility_disruption",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 11,
-      "priority_band": "low",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_notice"
-      ],
-      "raw_ids": [],
-      "related_ids": [],
-      "metadata": {}
-    },
-    {
-      "id": "water-9b65edbf676c309cea",
-      "source": "Halifax Water",
-      "source_url": "https://www.halifaxwater.ca/notice/micmac-street-water-valve-installation",
-      "title": "Micmac Street – Water Valve Installation",
-      "summary": "Micmac Street – Water Valve Installation Published: 1:19 PM | November 9, 2026 On Tuesday, November 10th from 9:00 AM to 4:00 PM, Halifax Water crews will be installing a water valve near 3155 Micmac Street, Halifax. Impacted water service customers were notified in advance of this work. Read more Halifax Water",
-      "category": "UTILITY",
-      "reported_at": "2026-11-09T04:00:00Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "water_notice",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 1,
-      "siren_score": 0,
-      "seriousness_score": 12,
-      "source_class": "first_party",
-      "event_type": "water_disruption",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": null,
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [],
-      "priority_score": 11,
-      "priority_band": "low",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_notice"
-      ],
-      "raw_ids": [],
-      "related_ids": [],
-      "metadata": {}
-    },
-    {
       "id": "bsky-search-fffd59541213956cb1",
       "source": "Bluesky · @hrfeincidents.bsky.social",
       "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3mztznvucqp2d",
@@ -7123,8 +7126,8 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 24,
-      "priority_band": "moderate",
+      "priority_score": 16,
+      "priority_band": "low",
       "impact_scope": "local",
       "attention_reasons": [],
       "signals": [
@@ -7435,7 +7438,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-11-10T00:22:17Z",
+      "updated_at": "2026-11-10T00:28:47Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -8160,7 +8163,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-11-10T00:22:17Z",
+      "updated_at": "2026-11-10T00:28:47Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -9873,7 +9876,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-11-10T00:22:17Z",
+      "updated_at": "2026-11-10T00:28:47Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -10912,7 +10915,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-11-10T00:22:17Z",
+      "updated_at": "2026-11-10T00:28:47Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -76773,7 +76776,7 @@
       }
     },
     {
-      "id": "evt-866f7a0e807e5137da",
+      "id": "evt-9d8531149517215238",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016959",
       "title": "Alarms",
@@ -76790,13 +76793,13 @@
       "lon": -63.5724028,
       "location_precision": "approximate_geocode",
       "severity": 2,
-      "siren_score": 75,
+      "siren_score": 69,
       "seriousness_score": 40,
       "source_class": "first_party",
       "event_type": "fire_alarm",
       "canonical_location": "HOLLIS",
       "neighbourhood": "DOWNTOWN",
-      "cluster_id": "evt-866f7a0e807e5137da",
+      "cluster_id": "evt-9d8531149517215238",
       "evidence_count": 10,
       "source_count": 1,
       "evidence": [
@@ -76891,14 +76894,13 @@
           "title": "Alarms"
         }
       ],
-      "priority_score": 57,
+      "priority_score": 53,
       "priority_band": "elevated",
       "impact_scope": "local",
       "attention_reasons": [
         "multiple responding units (3)",
-        "downtown relevance",
-        "very recent",
         "recent",
+        "downtown relevance",
         "within 90 minutes"
       ],
       "signals": [
@@ -76909,19 +76911,19 @@
         "HF26000016959"
       ],
       "related_ids": [
-        "hrfe-hf26000016933",
-        "hrfe-hf26000016932",
-        "hrfe-hf26000016929",
         "hrfe-hf26000016959",
         "hrfe-hf26000016957",
         "hrfe-hf26000016953",
         "hrfe-hf26000016952",
         "hrfe-hf26000016950",
         "hrfe-hf26000016947",
-        "hrfe-hf26000016939"
+        "hrfe-hf26000016939",
+        "hrfe-hf26000016933",
+        "hrfe-hf26000016932",
+        "hrfe-hf26000016929"
       ],
       "metadata": {
-        "call_number": "HF26000016933",
+        "call_number": "HF26000016959",
         "response": "A03 E02 E03 STN02",
         "decoded_units": [
           {
@@ -77221,7 +77223,7 @@
       "impact_scope": "local",
       "attention_reasons": [
         "very recent",
-        "recent"
+        "within 90 minutes"
       ],
       "signals": [
         "official_dispatch",
@@ -77485,23 +77487,23 @@
         "at://did:plc:izxjtq3zcaqagcgwecex2w5o/app.bsky.feed.post/3mzvly6riy72z"
       ],
       "related_ids": [
-        "bsky-search-177e1520938d0ad066",
         "news-0c4d9bede3baf86ab8",
+        "news-8d3342c57561c89204",
         "news-5de425cb012b57628f",
-        "news-8d3342c57561c89204"
+        "bsky-search-177e1520938d0ad066"
       ],
       "metadata": {
         "handle": "lighthousemedians.bsky.social",
         "first_reported_at": "2026-11-09T18:54:02Z",
         "source_names": [
-          "Bluesky · @lighthousemedians.bsky.social",
           "Global News Halifax",
+          "Google News · Halifax emergency search",
           "CityNews Halifax",
-          "Google News · Halifax emergency search"
+          "Bluesky · @lighthousemedians.bsky.social"
         ],
         "source_classes": [
-          "community",
-          "news"
+          "news",
+          "community"
         ],
         "news_summary": "Child sexual abuse and exploitation material was discovered on the devices of two Nova Scotia men leading to a slew of related charges. On Oct. 1, the Halifax RCMP, with information from the Federal Bureau of Investigation, found that a Halifax man had been posting child sexual abuse material online. After searching the man’s home",
         "news_summary_source": "CityNews Halifax",
@@ -77530,70 +77532,6 @@
           }
         ],
         "news_summary_basis": "extractive_feed_text"
-      }
-    },
-    {
-      "id": "evt-3cc1be746f847ce416",
-      "source": "Bluesky · @ns-wn.bsky.social",
-      "source_url": "https://bsky.app/profile/ns-wn.bsky.social/post/3mzw3u54blc2d",
-      "title": "🚔 HRP are investigating suspected drink tampering after a woman became unresponsive at a Halifax bar on Nov. 7. A 31-year-old man was arrest…",
-      "summary": "🚔 HRP are investigating suspected drink tampering after a woman became unresponsive at a Halifax bar on Nov. 7. A 31-year-old man was arrested and charged with administering a noxious substance with intent. The investigation is ongoing. Police update: www.halifax.ca/home/news/we... #Halifax #HRP",
-      "category": "POLICE",
-      "reported_at": "2026-11-09T23:38:06Z",
-      "source_kind": "community",
-      "confidence": "unverified",
-      "subtype": "social_post",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 2,
-      "siren_score": 25,
-      "seriousness_score": 32,
-      "source_class": "community",
-      "event_type": "police_incident",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": "evt-3cc1be746f847ce416",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "bsky-search-46ec7b91a8f0a0d99c",
-          "source": "Bluesky · @ns-wn.bsky.social",
-          "source_url": "https://bsky.app/profile/ns-wn.bsky.social/post/3mzw3u54blc2d",
-          "source_class": "community",
-          "confidence": "unverified",
-          "reported_at": "2026-11-09T23:38:06Z",
-          "title": "🚔 HRP are investigating suspected drink tampering after a woman became unresponsive at a Halifax bar on Nov. 7. A 31-year-old man was arrest…"
-        }
-      ],
-      "priority_score": 37,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "recent"
-      ],
-      "signals": [
-        "community_social"
-      ],
-      "raw_ids": [
-        "at://did:plc:xdo3oojgklcfsgemmmpr2jki/app.bsky.feed.post/3mzw3u54blc2d"
-      ],
-      "related_ids": [
-        "bsky-search-46ec7b91a8f0a0d99c"
-      ],
-      "metadata": {
-        "handle": "ns-wn.bsky.social",
-        "first_reported_at": "2026-11-09T23:38:06Z",
-        "source_names": [
-          "Bluesky · @ns-wn.bsky.social"
-        ],
-        "source_classes": [
-          "community"
-        ]
       }
     },
     {
@@ -77890,70 +77828,6 @@
       }
     },
     {
-      "id": "evt-8ef69dad6b0388d5a2",
-      "source": "Halifax Fire · Bluesky",
-      "source_url": "https://bsky.app/profile/hfx-fire.bsky.social/post/3mzvzkeomgk2o",
-      "title": "This evening, HRFE leadership was honoured to attend “Our Veterans, Their Stories,” a Veterans’ Week concert featuring the Stadacona Band of…",
-      "summary": "This evening, HRFE leadership was honoured to attend “Our Veterans, Their Stories,” a Veterans’ Week concert featuring the Stadacona Band of the Royal Canadian Navy. A memorable performance honouring the service and sacrifice of Canada’s Veterans. Lest we forget. 🇨🇦",
-      "category": "POLICE",
-      "reported_at": "2026-11-09T22:56:51Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "social_post",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 2,
-      "siren_score": 31,
-      "seriousness_score": 32,
-      "source_class": "first_party",
-      "event_type": "police_incident",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": "evt-8ef69dad6b0388d5a2",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "bsky-06ce8698c242225bd4-ccc79712d2df211e69",
-          "source": "Halifax Fire · Bluesky",
-          "source_url": "https://bsky.app/profile/hfx-fire.bsky.social/post/3mzvzkeomgk2o",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T22:56:51Z",
-          "title": "This evening, HRFE leadership was honoured to attend “Our Veterans, Their Stories,” a Veterans’ Week concert featuring the Stadacona Band of…"
-        }
-      ],
-      "priority_score": 34,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [
-        "within 90 minutes"
-      ],
-      "signals": [
-        "official_social"
-      ],
-      "raw_ids": [
-        "at://did:plc:mdi5ke2tqwmjnwyomjbq6go4/app.bsky.feed.post/3mzvzkeomgk2o"
-      ],
-      "related_ids": [
-        "bsky-06ce8698c242225bd4-ccc79712d2df211e69"
-      ],
-      "metadata": {
-        "handle": "hfx-fire.bsky.social",
-        "first_reported_at": "2026-11-09T22:56:51Z",
-        "source_names": [
-          "Halifax Fire · Bluesky"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
       "id": "evt-3e8c5491767560a539",
       "source": "Halifax Regional Fire & Emergency",
       "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016951",
@@ -78089,6 +77963,70 @@
         ],
         "source_classes": [
           "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-3cc1be746f847ce416",
+      "source": "Bluesky · @ns-wn.bsky.social",
+      "source_url": "https://bsky.app/profile/ns-wn.bsky.social/post/3mzw3u54blc2d",
+      "title": "🚔 HRP are investigating suspected drink tampering after a woman became unresponsive at a Halifax bar on Nov. 7. A 31-year-old man was arrest…",
+      "summary": "🚔 HRP are investigating suspected drink tampering after a woman became unresponsive at a Halifax bar on Nov. 7. A 31-year-old man was arrested and charged with administering a noxious substance with intent. The investigation is ongoing. Police update: www.halifax.ca/home/news/we... #Halifax #HRP",
+      "category": "POLICE",
+      "reported_at": "2026-11-09T23:38:06Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "social_post",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 2,
+      "siren_score": 20,
+      "seriousness_score": 32,
+      "source_class": "community",
+      "event_type": "police_incident",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-3cc1be746f847ce416",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "bsky-search-46ec7b91a8f0a0d99c",
+          "source": "Bluesky · @ns-wn.bsky.social",
+          "source_url": "https://bsky.app/profile/ns-wn.bsky.social/post/3mzw3u54blc2d",
+          "source_class": "community",
+          "confidence": "unverified",
+          "reported_at": "2026-11-09T23:38:06Z",
+          "title": "🚔 HRP are investigating suspected drink tampering after a woman became unresponsive at a Halifax bar on Nov. 7. A 31-year-old man was arrest…"
+        }
+      ],
+      "priority_score": 32,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [
+        "within 90 minutes"
+      ],
+      "signals": [
+        "community_social"
+      ],
+      "raw_ids": [
+        "at://did:plc:xdo3oojgklcfsgemmmpr2jki/app.bsky.feed.post/3mzw3u54blc2d"
+      ],
+      "related_ids": [
+        "bsky-search-46ec7b91a8f0a0d99c"
+      ],
+      "metadata": {
+        "handle": "ns-wn.bsky.social",
+        "first_reported_at": "2026-11-09T23:38:06Z",
+        "source_names": [
+          "Bluesky · @ns-wn.bsky.social"
+        ],
+        "source_classes": [
+          "community"
         ]
       }
     },
@@ -78624,166 +78562,61 @@
       }
     },
     {
-      "id": "evt-a44b1f869ce0e8ee44",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016945",
-      "title": "Medical Assistance",
-      "summary": "Medical first-response: Tanker 10 and Station 10 assignment.",
-      "category": "EMS",
-      "reported_at": "2026-11-09T19:36:43Z",
+      "id": "evt-8ef69dad6b0388d5a2",
+      "source": "Halifax Fire · Bluesky",
+      "source_url": "https://bsky.app/profile/hfx-fire.bsky.social/post/3mzvzkeomgk2o",
+      "title": "This evening, HRFE leadership was honoured to attend “Our Veterans, Their Stories,” a Veterans’ Week concert featuring the Stadacona Band of…",
+      "summary": "This evening, HRFE leadership was honoured to attend “Our Veterans, Their Stories,” a Veterans’ Week concert featuring the Stadacona Band of the Royal Canadian Navy. A memorable performance honouring the service and sacrifice of Canada’s Veterans. Lest we forget. 🇨🇦",
+      "category": "POLICE",
+      "reported_at": "2026-11-09T22:56:51Z",
       "source_kind": "official",
       "confidence": "official",
-      "subtype": "MEDICAL ASSISTANCE",
+      "subtype": "social_post",
       "updated_at": null,
       "status": "active",
-      "location_text": "CROSSROADS CRT, MIDDLE SACKVILLE",
+      "location_text": null,
       "lat": null,
       "lon": null,
-      "location_precision": "street_or_intersection",
+      "location_precision": null,
       "severity": 2,
-      "siren_score": 44,
-      "seriousness_score": 28,
+      "siren_score": 26,
+      "seriousness_score": 32,
       "source_class": "first_party",
-      "event_type": "medical_response",
-      "canonical_location": "CROSSROADS CRT MIDDLE SACKVILLE",
-      "neighbourhood": "DOWNTOWN",
-      "cluster_id": "evt-a44b1f869ce0e8ee44",
-      "evidence_count": 8,
+      "event_type": "police_incident",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-8ef69dad6b0388d5a2",
+      "evidence_count": 1,
       "source_count": 1,
       "evidence": [
         {
-          "id": "hrfe-hf26000016948",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016948",
+          "id": "bsky-06ce8698c242225bd4-ccc79712d2df211e69",
+          "source": "Halifax Fire · Bluesky",
+          "source_url": "https://bsky.app/profile/hfx-fire.bsky.social/post/3mzvzkeomgk2o",
           "source_class": "first_party",
           "confidence": "official",
-          "reported_at": "2026-11-09T19:36:43Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000016945",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016945",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T18:56:22Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000016942",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016942",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T18:06:47Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000016941",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016941",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T17:47:40Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000016940",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016940",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T17:19:20Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000016936",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016936",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T15:48:48Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000016935",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016935",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T15:22:34Z",
-          "title": "Medical Assistance"
-        },
-        {
-          "id": "hrfe-hf26000016934",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016934",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T15:12:23Z",
-          "title": "Medical Assistance"
+          "reported_at": "2026-11-09T22:56:51Z",
+          "title": "This evening, HRFE leadership was honoured to attend “Our Veterans, Their Stories,” a Veterans’ Week concert featuring the Stadacona Band of…"
         }
       ],
       "priority_score": 30,
       "priority_band": "moderate",
       "impact_scope": "local",
-      "attention_reasons": [
-        "downtown relevance"
-      ],
+      "attention_reasons": [],
       "signals": [
-        "official_dispatch",
-        "responding_units"
+        "official_social"
       ],
       "raw_ids": [
-        "HF26000016945"
+        "at://did:plc:mdi5ke2tqwmjnwyomjbq6go4/app.bsky.feed.post/3mzvzkeomgk2o"
       ],
       "related_ids": [
-        "hrfe-hf26000016936",
-        "hrfe-hf26000016935",
-        "hrfe-hf26000016934",
-        "hrfe-hf26000016948",
-        "hrfe-hf26000016945",
-        "hrfe-hf26000016942",
-        "hrfe-hf26000016941",
-        "hrfe-hf26000016940"
+        "bsky-06ce8698c242225bd4-ccc79712d2df211e69"
       ],
       "metadata": {
-        "call_number": "HF26000016936",
-        "response": "EA10 STN09",
-        "decoded_units": [
-          {
-            "code": "EA10",
-            "label": "Engine 10 Alpha",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN09",
-            "label": "Station 9 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "EA10 — Engine 10 Alpha · STN09 — Station 9 assignment",
-        "response_summary": "Medical first-response: Station 9 assignment and Engine 10 Alpha.",
-        "decoded_response": [
-          {
-            "code": "EA10",
-            "label": "Engine 10 Alpha",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN09",
-            "label": "Station 9 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": [],
-        "first_reported_at": "2026-11-09T15:12:23Z",
+        "handle": "hfx-fire.bsky.social",
+        "first_reported_at": "2026-11-09T22:56:51Z",
         "source_names": [
-          "Halifax Regional Fire & Emergency"
+          "Halifax Fire · Bluesky"
         ],
         "source_classes": [
           "first_party"
@@ -79115,7 +78948,7 @@
       "title": "Power outage",
       "summary": "Emergency Repair of Lines",
       "category": "UTILITY",
-      "reported_at": "2026-11-10T00:21:42Z",
+      "reported_at": "2026-11-10T00:28:15Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -79142,7 +78975,7 @@
           "source_url": "https://outagemap.nspower.ca/external/default.html",
           "source_class": "secondary",
           "confidence": "secondary",
-          "reported_at": "2026-11-10T00:21:42Z",
+          "reported_at": "2026-11-10T00:28:15Z",
           "title": "Power outage"
         }
       ],
@@ -79168,7 +79001,7 @@
         "customers": 0,
         "cause": "Emergency Repair of Lines",
         "minimum_customers": 100,
-        "first_reported_at": "2026-11-10T00:21:42Z",
+        "first_reported_at": "2026-11-10T00:28:15Z",
         "source_names": [
           "Nova Scotia Power outages"
         ],
@@ -80944,70 +80777,6 @@
       }
     },
     {
-      "id": "evt-6e60d65635495800a3",
-      "source": "r/halifax",
-      "source_url": "https://www.reddit.com/r/halifax/comments/1xrdhxl/sirens_in_the_south_end_820pm/",
-      "title": "sirens in the south end ~ 8:20PM?",
-      "summary": "anyone know? in maybe sixty seconds we heard fire, police, and EMS sirens...",
-      "category": "FIRE",
-      "reported_at": "2026-11-09T00:23:08Z",
-      "source_kind": "community",
-      "confidence": "unverified",
-      "subtype": "community_report",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 1,
-      "siren_score": 26,
-      "seriousness_score": 34,
-      "source_class": "community",
-      "event_type": "fire_incident",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": "evt-6e60d65635495800a3",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "reddit-halifax-1afe2346905300fa17",
-          "source": "r/halifax",
-          "source_url": "https://www.reddit.com/r/halifax/comments/1xrdhxl/sirens_in_the_south_end_820pm/",
-          "source_class": "community",
-          "confidence": "unverified",
-          "reported_at": "2026-11-09T00:23:08Z",
-          "title": "sirens in the south end ~ 8:20PM?"
-        }
-      ],
-      "priority_score": 24,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "community_report",
-        "unverified"
-      ],
-      "raw_ids": [
-        "1xrdhxl"
-      ],
-      "related_ids": [
-        "reddit-halifax-1afe2346905300fa17"
-      ],
-      "metadata": {
-        "subreddit": "halifax",
-        "transport": "rss",
-        "first_reported_at": "2026-11-09T00:23:08Z",
-        "source_names": [
-          "r/halifax"
-        ],
-        "source_classes": [
-          "community"
-        ]
-      }
-    },
-    {
       "id": "evt-8c88b726ad053ff9c7",
       "source": "Environment and Climate Change Canada",
       "source_url": "https://weather.gc.ca/warnings/report_e.html?ns1",
@@ -81547,6 +81316,171 @@
         ],
         "response_unknown_codes": [],
         "first_reported_at": "2026-11-08T00:42:47Z",
+        "source_names": [
+          "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-d6c8d13564cb678f2e",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016936",
+      "title": "Medical Assistance",
+      "summary": "Medical first-response: Station 9 assignment and Engine 10 Alpha.",
+      "category": "EMS",
+      "reported_at": "2026-11-09T19:36:43Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SUNNYVALE CRES, LOWER SACKVILLE",
+      "lat": 44.7888691,
+      "lon": -63.6931971,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 44,
+      "seriousness_score": 28,
+      "source_class": "first_party",
+      "event_type": "medical_response",
+      "canonical_location": "SUNNYVALE CRES LOWER SACKVILLE",
+      "neighbourhood": "DOWNTOWN",
+      "cluster_id": "evt-d6c8d13564cb678f2e",
+      "evidence_count": 8,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "hrfe-hf26000016948",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016948",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T19:36:43Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000016945",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016945",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T18:56:22Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000016942",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016942",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T18:06:47Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000016941",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016941",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T17:47:40Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000016940",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016940",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T17:19:20Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000016936",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016936",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T15:48:48Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000016935",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016935",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T15:22:34Z",
+          "title": "Medical Assistance"
+        },
+        {
+          "id": "hrfe-hf26000016934",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000016934",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T15:12:23Z",
+          "title": "Medical Assistance"
+        }
+      ],
+      "priority_score": 22,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000016936"
+      ],
+      "related_ids": [
+        "hrfe-hf26000016948",
+        "hrfe-hf26000016945",
+        "hrfe-hf26000016942",
+        "hrfe-hf26000016941",
+        "hrfe-hf26000016940",
+        "hrfe-hf26000016936",
+        "hrfe-hf26000016935",
+        "hrfe-hf26000016934"
+      ],
+      "metadata": {
+        "call_number": "HF26000016948",
+        "response": "E09 STN09",
+        "decoded_units": [
+          {
+            "code": "E09",
+            "label": "Engine 9",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN09",
+            "label": "Station 9 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E09 — Engine 9 · STN09 — Station 9 assignment",
+        "response_summary": "Medical first-response: Engine 9 and Station 9 assignment.",
+        "decoded_response": [
+          {
+            "code": "E09",
+            "label": "Engine 9",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN09",
+            "label": "Station 9 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": [],
+        "first_reported_at": "2026-11-09T15:12:23Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -82132,13 +82066,13 @@
       }
     },
     {
-      "id": "evt-a412be33ead3bfc69c",
+      "id": "evt-036c034995f13c803a",
       "source": "Halifax Water",
       "source_url": "https://www.halifaxwater.ca/notice/lynnville-drive-water-system-repair",
       "title": "Lynnville Drive – Water System Repair",
-      "summary": "Lynnville Drive – Water System Repair Published: 3:54 PM | November 9, 2026 Beginning at 8:30 AM tomorrow, Tuesday, November 10th, Halifax Water crews will be performing a water system repair near 62 Lynnville Drive, Lower Sackville. This work will not impact Halifax Water services in the area. There will be stop-and-go traffic in the work zone. Experienced traffic control personnel will be on-site to manage traffic flows. Customers in the area may experience discoloured water during/following this repair. It is recommended that those customers run the COLD water at one faucet until the water",
+      "summary": "Beginning at 8:30 AM tomorrow, Tuesday, November 10th, Halifax Water crews will be performing a water system repair near 62 Lynnville Drive, Lower Sackville. This work will not impact Halifax Water services in the area. There will be stop-and-go traffic in the work zone. Experienced traffic control personnel will be on-site to manage traffic flows. Customers in the area may experience discoloured water during/following this repair. It is recommended that those customers run the COLD water at one faucet until the water runs clear. To learn more about discoloured water and to report it, please v",
       "category": "UTILITY",
-      "reported_at": "2026-11-09T04:00:00Z",
+      "reported_at": "2026-11-09T19:54:00Z",
       "source_kind": "official",
       "confidence": "official",
       "subtype": "water_notice",
@@ -82155,7 +82089,7 @@
       "event_type": "water_disruption",
       "canonical_location": null,
       "neighbourhood": "DOWNTOWN",
-      "cluster_id": "evt-a412be33ead3bfc69c",
+      "cluster_id": "evt-036c034995f13c803a",
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [
@@ -82165,7 +82099,7 @@
           "source_url": "https://www.halifaxwater.ca/notice/lynnville-drive-water-system-repair",
           "source_class": "first_party",
           "confidence": "official",
-          "reported_at": "2026-11-09T04:00:00Z",
+          "reported_at": "2026-11-09T19:54:00Z",
           "title": "Lynnville Drive – Water System Repair"
         }
       ],
@@ -82183,7 +82117,9 @@
         "water-58d77bbbc6831c0d1c"
       ],
       "metadata": {
-        "first_reported_at": "2026-11-09T04:00:00Z",
+        "source_timestamp_kind": "published",
+        "source_timestamp": "3:54 PM | November 9, 2026",
+        "first_reported_at": "2026-11-09T19:54:00Z",
         "source_names": [
           "Halifax Water"
         ],
@@ -85738,6 +85674,70 @@
       }
     },
     {
+      "id": "evt-6e60d65635495800a3",
+      "source": "r/halifax",
+      "source_url": "https://www.reddit.com/r/halifax/comments/1xrdhxl/sirens_in_the_south_end_820pm/",
+      "title": "sirens in the south end ~ 8:20PM?",
+      "summary": "anyone know? in maybe sixty seconds we heard fire, police, and EMS sirens...",
+      "category": "FIRE",
+      "reported_at": "2026-11-09T00:23:08Z",
+      "source_kind": "community",
+      "confidence": "unverified",
+      "subtype": "community_report",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 26,
+      "seriousness_score": 34,
+      "source_class": "community",
+      "event_type": "fire_incident",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-6e60d65635495800a3",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "reddit-halifax-1afe2346905300fa17",
+          "source": "r/halifax",
+          "source_url": "https://www.reddit.com/r/halifax/comments/1xrdhxl/sirens_in_the_south_end_820pm/",
+          "source_class": "community",
+          "confidence": "unverified",
+          "reported_at": "2026-11-09T00:23:08Z",
+          "title": "sirens in the south end ~ 8:20PM?"
+        }
+      ],
+      "priority_score": 16,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "community_report",
+        "unverified"
+      ],
+      "raw_ids": [
+        "1xrdhxl"
+      ],
+      "related_ids": [
+        "reddit-halifax-1afe2346905300fa17"
+      ],
+      "metadata": {
+        "subreddit": "halifax",
+        "transport": "rss",
+        "first_reported_at": "2026-11-09T00:23:08Z",
+        "source_names": [
+          "r/halifax"
+        ],
+        "source_classes": [
+          "community"
+        ]
+      }
+    },
+    {
       "id": "evt-ed4659c0c10e85e6f9",
       "source": "Canadian Coast Guard Halifax NAVWARNs",
       "source_url": "https://nis.ccg-gcc.gc.ca/public/rest/messages/en/message/187140",
@@ -86302,6 +86302,128 @@
         "first_reported_at": "2026-11-09T18:33:20Z",
         "source_names": [
           "Halifax Regional Municipality · Bluesky"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-25d9a6f4b95f436076",
+      "source": "Halifax Water",
+      "source_url": "https://www.halifaxwater.ca/notice/remembrance-day-service-level-adjustments-0",
+      "title": "Remembrance Day Service Level Adjustments",
+      "summary": "Halifax Water offices will be closed to the public on Wednesday, November 11, 2026, for Remembrance Day. Regular hours of operation will resume on Thursday, November 12. We want to assure our customers that we remain committed to serving them and will operate with a smaller group of core critical staff. Halifax Water will continue to respond to and address any urgent water, wastewater, and stormwater infrastructure matters. Our Customer Care Centre Emergency Line remains open 24/7 at 902-420-9287.",
+      "category": "UTILITY",
+      "reported_at": "2026-11-09T17:30:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "water_notice",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "seriousness_score": 12,
+      "source_class": "first_party",
+      "event_type": "utility_disruption",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-25d9a6f4b95f436076",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "water-338f56b481621d7b17",
+          "source": "Halifax Water",
+          "source_url": "https://www.halifaxwater.ca/notice/remembrance-day-service-level-adjustments-0",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T17:30:00Z",
+          "title": "Remembrance Day Service Level Adjustments"
+        }
+      ],
+      "priority_score": 11,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_notice"
+      ],
+      "raw_ids": [],
+      "related_ids": [
+        "water-338f56b481621d7b17"
+      ],
+      "metadata": {
+        "source_timestamp_kind": "published",
+        "source_timestamp": "1:30 PM | November 9, 2026",
+        "first_reported_at": "2026-11-09T17:30:00Z",
+        "source_names": [
+          "Halifax Water"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-a5fd35a62a76d6cc81",
+      "source": "Halifax Water",
+      "source_url": "https://www.halifaxwater.ca/notice/micmac-street-water-valve-installation",
+      "title": "Micmac Street – Water Valve Installation",
+      "summary": "On Tuesday, November 10th from 9:00 AM to 4:00 PM, Halifax Water crews will be installing a water valve near 3155 Micmac Street, Halifax. Impacted water service customers were notified in advance of this work.",
+      "category": "UTILITY",
+      "reported_at": "2026-11-09T17:19:00Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "water_notice",
+      "updated_at": null,
+      "status": "active",
+      "location_text": null,
+      "lat": null,
+      "lon": null,
+      "location_precision": null,
+      "severity": 1,
+      "siren_score": 0,
+      "seriousness_score": 12,
+      "source_class": "first_party",
+      "event_type": "water_disruption",
+      "canonical_location": null,
+      "neighbourhood": null,
+      "cluster_id": "evt-a5fd35a62a76d6cc81",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "water-9b65edbf676c309cea",
+          "source": "Halifax Water",
+          "source_url": "https://www.halifaxwater.ca/notice/micmac-street-water-valve-installation",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-09T17:19:00Z",
+          "title": "Micmac Street – Water Valve Installation"
+        }
+      ],
+      "priority_score": 11,
+      "priority_band": "low",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_notice"
+      ],
+      "raw_ids": [],
+      "related_ids": [
+        "water-9b65edbf676c309cea"
+      ],
+      "metadata": {
+        "source_timestamp_kind": "published",
+        "source_timestamp": "1:19 PM | November 9, 2026",
+        "first_reported_at": "2026-11-09T17:19:00Z",
+        "source_names": [
+          "Halifax Water"
         ],
         "source_classes": [
           "first_party"
@@ -86875,124 +86997,6 @@
         "first_reported_at": "2026-11-09T08:00:00Z",
         "source_names": [
           "Halifax Transit GTFS-Realtime"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
-      "id": "evt-c709351005b16230fb",
-      "source": "Halifax Water",
-      "source_url": "https://www.halifaxwater.ca/notice/remembrance-day-service-level-adjustments-0",
-      "title": "Remembrance Day Service Level Adjustments",
-      "summary": "Remembrance Day Service Level Adjustments Published: 1:30 PM | November 9, 2026 Halifax Water offices will be closed to the public on Wednesday, November 11, 2026, for Remembrance Day. Regular hours of operation will resume on Thursday, November 12. We want to assure our customers that we remain committed to serving them and will operate with a smaller group of core critical staff. Halifax Water will continue to respond to and address any urgent water, wastewater, and stormwater infrastructure matters. Our Customer Care Centre Emergency Line remains open 24/7 at 902-420-9287. Halifax Water",
-      "category": "UTILITY",
-      "reported_at": "2026-11-09T04:00:00Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "water_notice",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 1,
-      "siren_score": 0,
-      "seriousness_score": 12,
-      "source_class": "first_party",
-      "event_type": "utility_disruption",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": "evt-c709351005b16230fb",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "water-338f56b481621d7b17",
-          "source": "Halifax Water",
-          "source_url": "https://www.halifaxwater.ca/notice/remembrance-day-service-level-adjustments-0",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T04:00:00Z",
-          "title": "Remembrance Day Service Level Adjustments"
-        }
-      ],
-      "priority_score": 11,
-      "priority_band": "low",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_notice"
-      ],
-      "raw_ids": [],
-      "related_ids": [
-        "water-338f56b481621d7b17"
-      ],
-      "metadata": {
-        "first_reported_at": "2026-11-09T04:00:00Z",
-        "source_names": [
-          "Halifax Water"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
-      "id": "evt-15b9c173642ede397b",
-      "source": "Halifax Water",
-      "source_url": "https://www.halifaxwater.ca/notice/micmac-street-water-valve-installation",
-      "title": "Micmac Street – Water Valve Installation",
-      "summary": "Micmac Street – Water Valve Installation Published: 1:19 PM | November 9, 2026 On Tuesday, November 10th from 9:00 AM to 4:00 PM, Halifax Water crews will be installing a water valve near 3155 Micmac Street, Halifax. Impacted water service customers were notified in advance of this work. Read more Halifax Water",
-      "category": "UTILITY",
-      "reported_at": "2026-11-09T04:00:00Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "water_notice",
-      "updated_at": null,
-      "status": "active",
-      "location_text": null,
-      "lat": null,
-      "lon": null,
-      "location_precision": null,
-      "severity": 1,
-      "siren_score": 0,
-      "seriousness_score": 12,
-      "source_class": "first_party",
-      "event_type": "water_disruption",
-      "canonical_location": null,
-      "neighbourhood": null,
-      "cluster_id": "evt-15b9c173642ede397b",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "water-9b65edbf676c309cea",
-          "source": "Halifax Water",
-          "source_url": "https://www.halifaxwater.ca/notice/micmac-street-water-valve-installation",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-09T04:00:00Z",
-          "title": "Micmac Street – Water Valve Installation"
-        }
-      ],
-      "priority_score": 11,
-      "priority_band": "low",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_notice"
-      ],
-      "raw_ids": [],
-      "related_ids": [
-        "water-9b65edbf676c309cea"
-      ],
-      "metadata": {
-        "first_reported_at": "2026-11-09T04:00:00Z",
-        "source_names": [
-          "Halifax Water"
         ],
         "source_classes": [
           "first_party"
@@ -101191,7 +101195,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-11-10T00:22:17Z",
+      "updated_at": "2026-11-10T00:28:47Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -101256,7 +101260,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-11-10T00:22:17Z",
+      "updated_at": "2026-11-10T00:28:47Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -101321,7 +101325,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-11-10T00:22:17Z",
+      "updated_at": "2026-11-10T00:28:47Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -101386,7 +101390,7 @@
       "source_kind": "official",
       "confidence": "official",
       "subtype": "marine_weather_warning",
-      "updated_at": "2026-11-10T00:22:17Z",
+      "updated_at": "2026-11-10T00:28:47Z",
       "status": "resolved",
       "location_text": "Halifax Harbour and Approaches",
       "lat": 44.65,
@@ -101580,7 +101584,7 @@
       "url": "https://www.portofhalifax.ca/cruise/cruise-schedule/",
       "authority": "official schedule",
       "status": "error",
-      "checked_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:15Z",
       "fetched_at": null,
       "records": 0,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portofhalifax.ca/cruise/cruise-schedule/",
@@ -101591,8 +101595,8 @@
       "url": "https://511.novascotia.ca/list/events/traffic",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 0,
       "error": null,
       "notes": "Official traffic-event text report. Zero parsed rows can legitimately mean there are no listed HRM traffic events at collection time."
@@ -101602,8 +101606,8 @@
       "url": "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=Halifax%20sirens",
       "authority": "community",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 295,
       "error": null,
       "notes": "Broad public Halifax disruption search. Each query independently falls back across both Bluesky AppView hosts; partial query failures do not discard successful search results."
@@ -101613,8 +101617,8 @@
       "url": "https://bsky.app/",
       "authority": "mixed",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:42Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 182,
       "error": null,
       "notes": "4/4 configured accounts reachable; includes official, community and automated mirrors."
@@ -101624,8 +101628,8 @@
       "url": "https://nis.ccg-gcc.gc.ca/public/rest/messages/en/search?q=Halifax&status=PUBLISHED",
       "authority": "official Canadian Coast Guard",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:45Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:17Z",
       "records": 1,
       "error": null,
       "notes": "Recent published NAVWARNs mentioning Halifax/Bedford Basin; older standing marine notices are excluded from the incident timeline."
@@ -101635,8 +101639,8 @@
       "url": "https://cwfis.cfs.nrcan.gc.ca/interactive-map",
       "authority": "official federal wildfire data",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 0,
       "error": null,
       "notes": "CWFIS active-fire records within 100 km of downtown Halifax; out/extinguished records are excluded."
@@ -101646,8 +101650,8 @@
       "url": "https://downtownhalifax.ca/events",
       "authority": "event listing",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:42Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:15Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 0,
       "error": null,
       "notes": "Only events whose published date range includes today are emitted as context."
@@ -101657,8 +101661,8 @@
       "url": "https://emergencyinfo.novascotia.ca/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 56,
       "error": null,
       "notes": "Provincial public-message ArcGIS view; avoids website TLS/rendering failures while preserving the same emergency-information source."
@@ -101668,8 +101672,8 @@
       "url": "https://weather.gc.ca/rss/battleboard/ns1_e.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 1,
       "error": null,
       "notes": "Halifax Metro and Halifax County West near-real-time public weather alert Atom feed."
@@ -101679,8 +101683,8 @@
       "url": "https://weather.gc.ca/marine/forecast_e.html?mapID=15&siteID=06000",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 0,
       "error": null,
       "notes": "Environment Canada warnings specifically for Halifax Harbour and Approaches; emits no row when no warning is in effect."
@@ -101690,8 +101694,8 @@
       "url": "https://halifaxharbourbridges.ca/traffic/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 0,
       "error": null,
       "notes": "Live bridge traffic/closure page. Only disruption-like text is emitted into the incident timeline."
@@ -101701,8 +101705,8 @@
       "url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed/rss.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 58,
       "error": null,
       "notes": "Official HRFE RSS dispatch feed with official HTML fallback. Response codes are retained verbatim and decoded into human-readable apparatus/command labels; inferred code expansions remain marked in metadata."
@@ -101712,8 +101716,8 @@
       "url": "https://bsky.app/profile/hfxgov.bsky.social",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 42,
       "error": null,
       "notes": "Official HRM social updates filtered to disruption/public-safety terms. HRM directs residents to this account during emergency events."
@@ -101723,8 +101727,8 @@
       "url": "https://www.halifax.ca/home/news?category=25",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 10,
       "error": null,
       "notes": "Official HRP releases; current release-card parser with a bounded dated-link fallback."
@@ -101734,9 +101738,9 @@
       "url": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
-      "records": 56,
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
+      "records": 55,
       "error": null,
       "notes": "Official GTFS-Realtime alerts; data licensed under the Open Government Licence — Halifax."
     },
@@ -101745,19 +101749,19 @@
       "url": "https://www.halifaxwater.ca/notices-and-news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
-      "records": 3,
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
+      "records": 6,
       "error": null,
-      "notes": null
+      "notes": "Official dated notice cards. Source publication time is preserved; archive-only rows explicitly identify their last-updated timestamp."
     },
     {
       "source": "Halifax Water active alerts",
       "url": "https://www.halifaxwater.ca/alerts",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 1,
       "error": null,
       "notes": "Current Halifax Water alert banner/list; historical alerts are excluded at the parser boundary."
@@ -101767,8 +101771,8 @@
       "url": "https://data-hrm.hub.arcgis.com/datasets/HRM::hrfe-incident-initial-response",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 200,
       "error": null,
       "notes": "Periodic HRFE open-data layer used as a second incident source/enrichment path. Source timestamps are preserved; no guessed offset correction is applied."
@@ -101778,8 +101782,8 @@
       "url": "https://bsky.app/profile/hrfeincidents.bsky.social",
       "authority": "secondary automated mirror",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 0,
       "error": null,
       "notes": "2/2 HRFE mirror accounts reachable. Primary mirror states it republishes the HRFE RSS incident feed and may lag by up to five minutes. Not operated by HRFE."
@@ -101789,8 +101793,8 @@
       "url": "https://services2.arcgis.com/11XBiaBYA9Ep0yNJ/ArcGIS/rest/services/Street_Closures_Active/FeatureServer/0",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 21,
       "error": null,
       "notes": "HRM's active planned/permitted street-closure layer. Useful context for blocked roads and unusual response routing; not an emergency feed."
@@ -101800,8 +101804,8 @@
       "url": "https://www.halifax.ca/home/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 0,
       "error": null,
       "notes": "Current HRM newsroom filtered to public-safety, transportation and disruption terms."
@@ -101811,8 +101815,8 @@
       "url": "https://globalnews.ca/halifax/feed/",
       "authority": "news / aggregator",
       "status": "ok",
-      "checked_at": "2026-11-10T00:22:17Z",
-      "fetched_at": "2026-11-10T00:22:17Z",
+      "checked_at": "2026-11-10T00:28:47Z",
+      "fetched_at": "2026-11-10T00:28:47Z",
       "records": 18,
       "error": null,
       "notes": "5/11 feeds reachable. Items require Halifax-area geography plus nearby public-safety/disruption language; reports are not treated as dispatch confirmation."
@@ -101822,8 +101826,8 @@
       "url": "https://www.nshealth.ca/service-statuses-closures-and-cancellations",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:42Z",
-      "fetched_at": "2026-11-10T00:21:43Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 0,
       "error": null,
       "notes": "Current Nova Scotia Health disruptions/advisories filtered to urban HRM facilities; provincial non-HRM closures are excluded and locality evidence is required for a healthy zero."
@@ -101833,8 +101837,8 @@
       "url": "https://outagemap.hfxdeploy.com/api/outages",
       "authority": "secondary",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:42Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 1,
       "error": null,
       "notes": "Machine-readable helper linked to the official NSP map. Routine small outages are suppressed; threshold defaults to 100 customers."
@@ -101844,8 +101848,8 @@
       "url": "https://rcmp.ca/en/nova-scotia/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:41Z",
-      "fetched_at": "2026-11-10T00:21:41Z",
+      "checked_at": "2026-11-10T00:28:14Z",
+      "fetched_at": "2026-11-10T00:28:14Z",
       "records": 0,
       "error": null,
       "notes": "RCMP Nova Scotia releases filtered to HRM-area place names."
@@ -101855,8 +101859,8 @@
       "url": "https://www.reddit.com/r/halifax/new/",
       "authority": "community",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:42Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:15Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 2,
       "error": null,
       "notes": "1/2 subreddits reachable via r/halifax:rss. JSON is preferred; Atom/RSS is the fallback. Usernames are not persisted."
@@ -101866,8 +101870,8 @@
       "url": "https://www.smu.ca/alert/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-10T00:21:42Z",
-      "fetched_at": "2026-11-10T00:21:42Z",
+      "checked_at": "2026-11-10T00:28:15Z",
+      "fetched_at": "2026-11-10T00:28:15Z",
       "records": 0,
       "error": null,
       "notes": "Saint Mary's current closure/interruption page; normal operating status produces zero events."

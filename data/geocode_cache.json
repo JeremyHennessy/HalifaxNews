@@ -1199,6 +1199,12 @@
     "precision": "approximate_geocode",
     "query": "CHASWOOD DR, COLE HARBOUR, Halifax, Nova Scotia, Canada"
   },
+  "CHATER EASTERN PASSAGE": {
+    "lat": 44.605815,
+    "lon": -63.4742954,
+    "precision": "approximate_geocode",
+    "query": "CHATER ST, EASTERN PASSAGE, Halifax, Nova Scotia, Canada"
+  },
   "CHEBUCTO": {
     "lat": 44.6448606,
     "lon": -63.6168663,
@@ -1618,6 +1624,12 @@
     "lon": -63.5106132,
     "precision": "approximate_geocode",
     "query": "CROSS RD, DARTMOUTH, Halifax, Nova Scotia, Canada"
+  },
+  "CROSSROADS CRT MIDDLE SACKVILLE": {
+    "lat": 44.7898472,
+    "lon": -63.6993544,
+    "precision": "approximate_geocode",
+    "query": "CROSSROADS CRT, MIDDLE SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "CROWNRIDGE BEDFORD": {
     "lat": 44.7085604,
@@ -2956,6 +2968,12 @@
     "lon": -63.4908817,
     "precision": "approximate_geocode",
     "query": "HILLSBORO DR, WESTPHAL, Halifax, Nova Scotia, Canada"
+  },
+  "HILLSIDE LOWER SACKVILLE": {
+    "lat": 44.7607195,
+    "lon": -63.666812,
+    "precision": "approximate_geocode",
+    "query": "HILLSIDE AVE, LOWER SACKVILLE, Halifax, Nova Scotia, Canada"
   },
   "HILLTOP LOWER SACKVILLE": {
     "lat": 44.7645826,
@@ -6526,6 +6544,12 @@
     "lon": -63.6452085,
     "precision": "approximate_geocode",
     "query": "WILLETT ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "WILLIAM EAST PRESTON": {
+    "lat": 44.7316016,
+    "lon": -63.4069026,
+    "precision": "approximate_geocode",
+    "query": "WILLIAM ST, EAST PRESTON, Halifax, Nova Scotia, Canada"
   },
   "WILLIAM PARSONS LUCASVILLE": {
     "lat": 44.7622237,
