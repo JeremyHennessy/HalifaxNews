@@ -89,17 +89,35 @@
     "precision": "approximate_geocode",
     "query": "JUBILEE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:KAYE ST LOWER SACKVILLE": {
+    "lat": 44.7691456,
+    "lon": -63.6805153,
+    "precision": "approximate_geocode",
+    "query": "KAYE ST, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:LAKECREST DR DARTMOUTH": {
     "lat": 44.6834837,
     "lon": -63.5357274,
     "precision": "approximate_geocode",
     "query": "LAKECREST DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:LEGACY CRT LOWER SACKVILLE": {
+    "lat": 44.7539291,
+    "lon": -63.6633248,
+    "precision": "approximate_geocode",
+    "query": "LEGACY CRT, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:LEPPERT ST HALIFAX": {
     "lat": 44.6456313,
     "lon": -63.617116,
     "precision": "approximate_geocode",
     "query": "LEPPERT ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:LINCOLNSHIRE DR FALL RIVER": {
+    "lat": 44.7981823,
+    "lon": -63.6207249,
+    "precision": "approximate_geocode",
+    "query": "LINCOLNSHIRE DR, FALL RIVER, Nova Scotia, Canada"
   },
   "v2:LOCKS RD DARTMOUTH": {
     "lat": 44.6992786,
@@ -118,6 +136,18 @@
     "lon": -63.4732611,
     "precision": "approximate_geocode",
     "query": "MAPLEWOOD DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
+  "v2:MATADOR CRT LOWER SACKVILLE": {
+    "lat": 44.7799063,
+    "lon": -63.6829396,
+    "precision": "approximate_geocode",
+    "query": "MATADOR CRT, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:NORTH PRESTON RD NORTH PRESTON": {
+    "lat": 44.7245168,
+    "lon": -63.4653816,
+    "precision": "approximate_geocode",
+    "query": "NORTH PRESTON RD, NORTH PRESTON, Nova Scotia, Canada"
   },
   "v2:ROCKY LAKE DR BEDFORD": {
     "lat": 44.7485349,
