@@ -23,6 +23,12 @@
     "precision": "approximate_geocode",
     "query": "BEDFORD HWY, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:COLLINS GRV DARTMOUTH": {
+    "lat": 44.6720071,
+    "lon": -63.5143315,
+    "precision": "approximate_geocode",
+    "query": "COLLINS GRV, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:DAVID PAUL DR HAMMONDS PLAINS": {
     "lat": 44.7322097,
     "lon": -63.7635757,
@@ -34,6 +40,12 @@
     "lon": -63.5725221,
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
+  },
+  "v2:GATEWAY RD HALIFAX": {
+    "lat": 44.6646287,
+    "lon": -63.6407759,
+    "precision": "approximate_geocode",
+    "query": "GATEWAY RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:HERRING COVE RD HALIFAX": {
     "lat": 44.6199921,
@@ -65,6 +77,18 @@
     "precision": "approximate_geocode",
     "query": "LAKECREST DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:LEPPERT ST HALIFAX": {
+    "lat": 44.6456313,
+    "lon": -63.617116,
+    "precision": "approximate_geocode",
+    "query": "LEPPERT ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:LOCKS RD DARTMOUTH": {
+    "lat": 44.6992786,
+    "lon": -63.5510004,
+    "precision": "approximate_geocode",
+    "query": "LOCKS RD, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:MACLAUGHLIN RD WESTPHAL": {
     "lat": 44.7032733,
     "lon": -63.4880955,
@@ -83,6 +107,12 @@
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:SALTER ST HALIFAX": {
+    "lat": 44.6449834,
+    "lon": -63.5716723,
+    "precision": "approximate_geocode",
+    "query": "SALTER ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:SHEA ST LOWER SACKVILLE": {
     "lat": 44.767254,
     "lon": -63.6644644,
@@ -100,6 +130,12 @@
     "lon": -63.5805954,
     "precision": "approximate_geocode",
     "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:VICTORIA RD HALIFAX": {
+    "lat": 44.6363866,
+    "lon": -63.5743931,
+    "precision": "approximate_geocode",
+    "query": "VICTORIA RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:WEST AVE BEAVER BANK": {
     "lat": 44.8771625,
