@@ -23,6 +23,12 @@
     "precision": "approximate_geocode",
     "query": "BEDFORD HWY, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:CHARLES RD TIMBERLEA": {
+    "lat": 44.6568862,
+    "lon": -63.7494283,
+    "precision": "approximate_geocode",
+    "query": "CHARLES RD, TIMBERLEA, Nova Scotia, Canada"
+  },
   "v2:COLLINS GRV DARTMOUTH": {
     "lat": 44.6720071,
     "lon": -63.5143315,
@@ -53,6 +59,12 @@
     "precision": "approximate_geocode",
     "query": "HERRING COVE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:HIGHWAY 102 GOFFS": {
+    "lat": 44.8391097,
+    "lon": -63.5840202,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 102, GOFFS, Nova Scotia, Canada"
+  },
   "v2:HIGHWAY 102 HALIFAX": {
     "lat": 44.6516299,
     "lon": -63.6298812,
@@ -70,6 +82,12 @@
     "lon": -63.5694124,
     "precision": "approximate_geocode",
     "query": "HOLLIS ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:JUBILEE RD HALIFAX": {
+    "lat": 44.6417852,
+    "lon": -63.5948911,
+    "precision": "approximate_geocode",
+    "query": "JUBILEE RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:LAKECREST DR DARTMOUTH": {
     "lat": 44.6834837,
@@ -101,6 +119,12 @@
     "precision": "approximate_geocode",
     "query": "MAPLEWOOD DR, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:ROCKY LAKE DR BEDFORD": {
+    "lat": 44.7485349,
+    "lon": -63.6283577,
+    "precision": "approximate_geocode",
+    "query": "ROCKY LAKE DR, BEDFORD, Nova Scotia, Canada"
+  },
   "v2:SACKVILLE DR MIDDLE SACKVILLE": {
     "lat": 44.7941574,
     "lon": -63.7194156,
@@ -118,6 +142,12 @@
     "lon": -63.6644644,
     "precision": "approximate_geocode",
     "query": "SHEA ST, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:ST ANDREWS AVE HALIFAX": {
+    "lat": 44.6566857,
+    "lon": -63.6227706,
+    "precision": "approximate_geocode",
+    "query": "ST ANDREWS AVE, HALIFAX, Nova Scotia, Canada"
   },
   "v2:ST MARGARETS BAY RD QUEENSLAND": {
     "lat": 44.6403457,
