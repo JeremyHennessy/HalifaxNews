@@ -23,6 +23,12 @@
     "precision": "approximate_geocode",
     "query": "BEDFORD HWY, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:BIRCH BEAR RUN LEWIS LAKE": {
+    "lat": 44.6747208,
+    "lon": -63.8318178,
+    "precision": "approximate_geocode",
+    "query": "BIRCH BEAR RUN, LEWIS LAKE, Nova Scotia, Canada"
+  },
   "v2:CHARLES RD TIMBERLEA": {
     "lat": 44.6568862,
     "lon": -63.7494283,
@@ -47,11 +53,23 @@
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
   },
+  "v2:EAST CHEZZETCOOK RD EAST CHEZZETCOOK": {
+    "lat": 44.7429951,
+    "lon": -63.2356045,
+    "precision": "approximate_geocode",
+    "query": "EAST CHEZZETCOOK RD, EAST CHEZZETCOOK, Nova Scotia, Canada"
+  },
   "v2:GATEWAY RD HALIFAX": {
     "lat": 44.6646287,
     "lon": -63.6407759,
     "precision": "approximate_geocode",
     "query": "GATEWAY RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:GUYSBOROUGH AVE DARTMOUTH": {
+    "lat": 44.6823385,
+    "lon": -63.5306708,
+    "precision": "approximate_geocode",
+    "query": "GUYSBOROUGH AVE, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:HERRING COVE RD HALIFAX": {
     "lat": 44.6199921,
@@ -70,6 +88,12 @@
     "lon": -63.6298812,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 102, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:HIGHWAY 7 PORTERS LAKE": {
+    "lat": 44.7377872,
+    "lon": -63.3092792,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, PORTERS LAKE, Nova Scotia, Canada"
   },
   "v2:HILLSIDE AVE LOWER SACKVILLE": {
     "lat": 44.7607195,
@@ -148,6 +172,12 @@
     "lon": -63.4653816,
     "precision": "approximate_geocode",
     "query": "NORTH PRESTON RD, NORTH PRESTON, Nova Scotia, Canada"
+  },
+  "v2:RHODORA DR MIDDLE SACKVILLE": {
+    "lat": 44.8143015,
+    "lon": -63.7133778,
+    "precision": "approximate_geocode",
+    "query": "RHODORA DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
   },
   "v2:ROCKY LAKE DR BEDFORD": {
     "lat": 44.7485349,
