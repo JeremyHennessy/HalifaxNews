@@ -29,6 +29,12 @@
     "precision": "approximate_geocode",
     "query": "BIRCH BEAR RUN, LEWIS LAKE, Nova Scotia, Canada"
   },
+  "v2:BRUNSWICK ST HALIFAX": {
+    "lat": 44.651682,
+    "lon": -63.5797895,
+    "precision": "approximate_geocode",
+    "query": "BRUNSWICK ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:CHARLES RD TIMBERLEA": {
     "lat": 44.6568862,
     "lon": -63.7494283,
@@ -100,6 +106,12 @@
     "lon": -63.6298812,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 102, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:HIGHWAY 7 MUSQUODOBOIT HARBOUR": {
+    "lat": 44.7905991,
+    "lon": -63.1249478,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, MUSQUODOBOIT HARBOUR, Nova Scotia, Canada"
   },
   "v2:HIGHWAY 7 PORTERS LAKE": {
     "lat": 44.7377872,
@@ -185,6 +197,12 @@
     "precision": "approximate_geocode",
     "query": "MAPLEWOOD DR, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:MARKET ST HALIFAX": {
+    "lat": 44.6467318,
+    "lon": -63.5760349,
+    "precision": "approximate_geocode",
+    "query": "MARKET ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:MATADOR CRT LOWER SACKVILLE": {
     "lat": 44.7799063,
     "lon": -63.6829396,
@@ -214,6 +232,12 @@
     "lon": -63.4971626,
     "precision": "approximate_geocode",
     "query": "POPLAR DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
+  "v2:REDBANK RD BEDFORD": {
+    "lat": 44.7406218,
+    "lon": -63.6518593,
+    "precision": "approximate_geocode",
+    "query": "REDBANK RD, BEDFORD, Nova Scotia, Canada"
   },
   "v2:RHODORA DR MIDDLE SACKVILLE": {
     "lat": 44.8143015,
@@ -262,6 +286,12 @@
     "lon": -64.0347107,
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, QUEENSLAND, Nova Scotia, Canada"
+  },
+  "v2:TOWER RD HALIFAX": {
+    "lat": 44.6313472,
+    "lon": -63.5778452,
+    "precision": "approximate_geocode",
+    "query": "TOWER RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:UNIVERSITY AVE HALIFAX": {
     "lat": 44.639559,
