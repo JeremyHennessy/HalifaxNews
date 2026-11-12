@@ -173,6 +173,24 @@
     "precision": "approximate_geocode",
     "query": "NORTH PRESTON RD, NORTH PRESTON, Nova Scotia, Canada"
   },
+  "v2:PHOENIX CRES LOWER SACKVILLE": {
+    "lat": 44.7820851,
+    "lon": -63.6716953,
+    "precision": "approximate_geocode",
+    "query": "PHOENIX CRES, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:PLEASANT ST DARTMOUTH": {
+    "lat": 44.6389176,
+    "lon": -63.5309722,
+    "precision": "approximate_geocode",
+    "query": "PLEASANT ST, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:POPLAR DR COLE HARBOUR": {
+    "lat": 44.6736685,
+    "lon": -63.4971626,
+    "precision": "approximate_geocode",
+    "query": "POPLAR DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:RHODORA DR MIDDLE SACKVILLE": {
     "lat": 44.8143015,
     "lon": -63.7133778,
