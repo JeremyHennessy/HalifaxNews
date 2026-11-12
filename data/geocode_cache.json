@@ -35,6 +35,12 @@
     "precision": "approximate_geocode",
     "query": "CHARLES RD, TIMBERLEA, Nova Scotia, Canada"
   },
+  "v2:CLUB HOUSE LANE HAMMONDS PLAINS": {
+    "lat": 44.7509704,
+    "lon": -63.7687369,
+    "precision": "approximate_geocode",
+    "query": "CLUB HOUSE LANE, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
   "v2:COLLINS GRV DARTMOUTH": {
     "lat": 44.6720071,
     "lon": -63.5143315,
@@ -58,6 +64,12 @@
     "lon": -63.2356045,
     "precision": "approximate_geocode",
     "query": "EAST CHEZZETCOOK RD, EAST CHEZZETCOOK, Nova Scotia, Canada"
+  },
+  "v2:FORD ST HALIFAX": {
+    "lat": 44.661329,
+    "lon": -63.633025,
+    "precision": "approximate_geocode",
+    "query": "FORD ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:GATEWAY RD HALIFAX": {
     "lat": 44.6646287,
@@ -94,6 +106,18 @@
     "lon": -63.3092792,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, PORTERS LAKE, Nova Scotia, Canada"
+  },
+  "v2:HIGHWAY 7 WESTPHAL": {
+    "lat": 44.6969087,
+    "lon": -63.4952541,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, WESTPHAL, Nova Scotia, Canada"
+  },
+  "v2:HILLSBURN CRT DARTMOUTH": {
+    "lat": 44.6722084,
+    "lon": -63.5165703,
+    "precision": "approximate_geocode",
+    "query": "HILLSBURN CRT, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:HILLSIDE AVE LOWER SACKVILLE": {
     "lat": 44.7607195,
@@ -220,6 +244,12 @@
     "lon": -63.6644644,
     "precision": "approximate_geocode",
     "query": "SHEA ST, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:SHERWOOD ST COLE HARBOUR": {
+    "lat": 44.6490791,
+    "lon": -63.4747528,
+    "precision": "approximate_geocode",
+    "query": "SHERWOOD ST, COLE HARBOUR, Nova Scotia, Canada"
   },
   "v2:ST ANDREWS AVE HALIFAX": {
     "lat": 44.6566857,
