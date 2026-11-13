@@ -113,6 +113,18 @@
     "precision": "approximate_geocode",
     "query": "GUYSBOROUGH AVE, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:HANWELL DR MIDDLE SACKVILLE": {
+    "lat": 44.7873996,
+    "lon": -63.7224211,
+    "precision": "approximate_geocode",
+    "query": "HANWELL DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:HAULING RD HACKETTS COVE": {
+    "lat": 44.5678247,
+    "lon": -63.9333824,
+    "precision": "approximate_geocode",
+    "query": "HAULING RD, HACKETTS COVE, Nova Scotia, Canada"
+  },
   "v2:HERRING COVE RD HALIFAX": {
     "lat": 44.6199921,
     "lon": -63.6163651,
@@ -305,6 +317,12 @@
     "precision": "approximate_geocode",
     "query": "ROCKY LAKE DR, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:ROSLEY RD BEAVER BANK": {
+    "lat": 44.845807,
+    "lon": -63.68837,
+    "precision": "approximate_geocode",
+    "query": "ROSLEY RD, BEAVER BANK, Nova Scotia, Canada"
+  },
   "v2:SACKVILLE DR MIDDLE SACKVILLE": {
     "lat": 44.7941574,
     "lon": -63.7194156,
@@ -341,6 +359,12 @@
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, QUEENSLAND, Nova Scotia, Canada"
   },
+  "v2:ST MARGARETS BAY RD TIMBERLEA": {
+    "lat": 44.6657985,
+    "lon": -63.7594235,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, TIMBERLEA, Nova Scotia, Canada"
+  },
   "v2:TACOMA DR DARTMOUTH": {
     "lat": 44.6832287,
     "lon": -63.5338492,
@@ -371,11 +395,23 @@
     "precision": "approximate_geocode",
     "query": "WEST AVE, BEAVER BANK, Nova Scotia, Canada"
   },
+  "v2:WILKINSON AVE DARTMOUTH": {
+    "lat": 44.7214073,
+    "lon": -63.5691613,
+    "precision": "approximate_geocode",
+    "query": "WILKINSON AVE, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:WILLIAM ST EAST PRESTON": {
     "lat": 44.7316016,
     "lon": -63.4069026,
     "precision": "approximate_geocode",
     "query": "WILLIAM ST, EAST PRESTON, Nova Scotia, Canada"
+  },
+  "v2:WINDMILL RD BEDFORD": {
+    "lat": 44.7161484,
+    "lon": -63.6327957,
+    "precision": "approximate_geocode",
+    "query": "WINDMILL RD, BEDFORD, Nova Scotia, Canada"
   },
   "v2:WINDSOR ST HALIFAX": {
     "lat": 44.6564798,
