@@ -59,6 +59,12 @@
     "precision": "approximate_geocode",
     "query": "CLUB HOUSE LANE, HAMMONDS PLAINS, Nova Scotia, Canada"
   },
+  "v2:COLE HARBOUR RD COLE HARBOUR": {
+    "lat": 44.6715422,
+    "lon": -63.4927238,
+    "precision": "approximate_geocode",
+    "query": "COLE HARBOUR RD, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:COLLINS GRV DARTMOUTH": {
     "lat": 44.6720071,
     "lon": -63.5143315,
@@ -155,6 +161,12 @@
     "precision": "approximate_geocode",
     "query": "HILLSIDE AVE, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:HIRANDALE CRES WESTPHAL": {
+    "lat": 44.6848192,
+    "lon": -63.4824885,
+    "precision": "approximate_geocode",
+    "query": "HIRANDALE CRES, WESTPHAL, Nova Scotia, Canada"
+  },
   "v2:HOLLIS ST HALIFAX": {
     "lat": 44.6391504,
     "lon": -63.5694124,
@@ -209,6 +221,12 @@
     "precision": "approximate_geocode",
     "query": "LOCKS RD, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:LUMBERMAN DR MIDDLE SACKVILLE": {
+    "lat": 44.7880637,
+    "lon": -63.7122462,
+    "precision": "approximate_geocode",
+    "query": "LUMBERMAN DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:MACLAUGHLIN RD WESTPHAL": {
     "lat": 44.7032733,
     "lon": -63.4880955,
@@ -233,6 +251,12 @@
     "precision": "approximate_geocode",
     "query": "MATADOR CRT, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:MEADOWBROOK DR BEDFORD": {
+    "lat": 44.7268184,
+    "lon": -63.6721251,
+    "precision": "approximate_geocode",
+    "query": "MEADOWBROOK DR, BEDFORD, Nova Scotia, Canada"
+  },
   "v2:NORTH PRESTON RD NORTH PRESTON": {
     "lat": 44.7245168,
     "lon": -63.4653816,
@@ -244,6 +268,12 @@
     "lon": -63.6716953,
     "precision": "approximate_geocode",
     "query": "PHOENIX CRES, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:PINECREST DR DARTMOUTH": {
+    "lat": 44.6845658,
+    "lon": -63.5820435,
+    "precision": "approximate_geocode",
+    "query": "PINECREST DR, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:PLEASANT ST DARTMOUTH": {
     "lat": 44.6389176,
@@ -310,6 +340,12 @@
     "lon": -64.0347107,
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, QUEENSLAND, Nova Scotia, Canada"
+  },
+  "v2:TACOMA DR DARTMOUTH": {
+    "lat": 44.6832287,
+    "lon": -63.5338492,
+    "precision": "approximate_geocode",
+    "query": "TACOMA DR, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:TOWER RD HALIFAX": {
     "lat": 44.6313472,
