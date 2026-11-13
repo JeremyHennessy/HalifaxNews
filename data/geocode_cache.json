@@ -11,6 +11,12 @@
     "precision": "approximate_geocode",
     "query": "ATLANTIC ST, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:AVENUE DU PORTAGE DARTMOUTH": {
+    "lat": 44.7005359,
+    "lon": -63.5362251,
+    "precision": "approximate_geocode",
+    "query": "AVENUE DU PORTAGE, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:BEAVER BANK RD BEAVER BANK": {
     "lat": 44.8757625,
     "lon": -63.6989598,
@@ -41,6 +47,12 @@
     "precision": "approximate_geocode",
     "query": "CHARLES RD, TIMBERLEA, Nova Scotia, Canada"
   },
+  "v2:CHISHOLM AVE HALIFAX": {
+    "lat": 44.658048,
+    "lon": -63.6213602,
+    "precision": "approximate_geocode",
+    "query": "CHISHOLM AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:CLUB HOUSE LANE HAMMONDS PLAINS": {
     "lat": 44.7509704,
     "lon": -63.7687369,
@@ -70,6 +82,12 @@
     "lon": -63.2356045,
     "precision": "approximate_geocode",
     "query": "EAST CHEZZETCOOK RD, EAST CHEZZETCOOK, Nova Scotia, Canada"
+  },
+  "v2:FARNHAM GATE RD HALIFAX": {
+    "lat": 44.6717642,
+    "lon": -63.6717337,
+    "precision": "approximate_geocode",
+    "query": "FARNHAM GATE RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:FORD ST HALIFAX": {
     "lat": 44.661329,
@@ -160,6 +178,12 @@
     "lon": -63.5357274,
     "precision": "approximate_geocode",
     "query": "LAKECREST DR, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:LEEDS ST HALIFAX": {
+    "lat": 44.6691924,
+    "lon": -63.6124458,
+    "precision": "approximate_geocode",
+    "query": "LEEDS ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:LEGACY CRT LOWER SACKVILLE": {
     "lat": 44.7539291,
