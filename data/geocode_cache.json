@@ -71,6 +71,12 @@
     "precision": "approximate_geocode",
     "query": "COLLINS GRV, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:COW BAY RD EASTERN PASSAGE": {
+    "lat": 44.6200493,
+    "lon": -63.4613127,
+    "precision": "approximate_geocode",
+    "query": "COW BAY RD, EASTERN PASSAGE, Nova Scotia, Canada"
+  },
   "v2:DAVID PAUL DR HAMMONDS PLAINS": {
     "lat": 44.7322097,
     "lon": -63.7635757,
@@ -269,11 +275,23 @@
     "precision": "approximate_geocode",
     "query": "MEADOWBROOK DR, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:NORA BERNARD ST HALIFAX": {
+    "lat": 44.651517,
+    "lon": -63.5852688,
+    "precision": "approximate_geocode",
+    "query": "NORA BERNARD ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:NORTH PRESTON RD NORTH PRESTON": {
     "lat": 44.7245168,
     "lon": -63.4653816,
     "precision": "approximate_geocode",
     "query": "NORTH PRESTON RD, NORTH PRESTON, Nova Scotia, Canada"
+  },
+  "v2:OLIVET ST HALIFAX": {
+    "lat": 44.6483749,
+    "lon": -63.6242988,
+    "precision": "approximate_geocode",
+    "query": "OLIVET ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:PHOENIX CRES LOWER SACKVILLE": {
     "lat": 44.7820851,
@@ -317,6 +335,12 @@
     "precision": "approximate_geocode",
     "query": "ROCKY LAKE DR, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:ROMA DR HEAD OF CHEZZETCOOK": {
+    "lat": 44.7432644,
+    "lon": -63.2673948,
+    "precision": "approximate_geocode",
+    "query": "ROMA DR, HEAD OF CHEZZETCOOK, Nova Scotia, Canada"
+  },
   "v2:ROSLEY RD BEAVER BANK": {
     "lat": 44.845807,
     "lon": -63.68837,
@@ -334,6 +358,12 @@
     "lon": -63.5716723,
     "precision": "approximate_geocode",
     "query": "SALTER ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:SETON RD HALIFAX": {
+    "lat": 44.669669,
+    "lon": -63.6465416,
+    "precision": "approximate_geocode",
+    "query": "SETON RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:SHEA ST LOWER SACKVILLE": {
     "lat": 44.767254,
