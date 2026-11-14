@@ -35,6 +35,12 @@
     "precision": "approximate_geocode",
     "query": "BIRCH BEAR RUN, LEWIS LAKE, Nova Scotia, Canada"
   },
+  "v2:BOXWOOD CRES LOWER SACKVILLE": {
+    "lat": 44.7873414,
+    "lon": -63.6897865,
+    "precision": "approximate_geocode",
+    "query": "BOXWOOD CRES, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:BRUNSWICK ST HALIFAX": {
     "lat": 44.651682,
     "lon": -63.5797895,
@@ -58,6 +64,12 @@
     "lon": -63.7687369,
     "precision": "approximate_geocode",
     "query": "CLUB HOUSE LANE, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
+  "v2:COBEQUID RD LOWER SACKVILLE": {
+    "lat": 44.7589243,
+    "lon": -63.6605255,
+    "precision": "approximate_geocode",
+    "query": "COBEQUID RD, LOWER SACKVILLE, Nova Scotia, Canada"
   },
   "v2:COLE HARBOUR RD COLE HARBOUR": {
     "lat": 44.6715422,
@@ -131,6 +143,12 @@
     "precision": "approximate_geocode",
     "query": "HAULING RD, HACKETTS COVE, Nova Scotia, Canada"
   },
+  "v2:HAVILAND ST LOWER SACKVILLE": {
+    "lat": 44.7633946,
+    "lon": -63.6595783,
+    "precision": "approximate_geocode",
+    "query": "HAVILAND ST, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:HERRING COVE RD HALIFAX": {
     "lat": 44.6199921,
     "lon": -63.6163651,
@@ -202,6 +220,12 @@
     "lon": -63.6805153,
     "precision": "approximate_geocode",
     "query": "KAYE ST, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:KINDLING CRES MIDDLE SACKVILLE": {
+    "lat": 44.7833546,
+    "lon": -63.7080795,
+    "precision": "approximate_geocode",
+    "query": "KINDLING CRES, MIDDLE SACKVILLE, Nova Scotia, Canada"
   },
   "v2:LAKECREST DR DARTMOUTH": {
     "lat": 44.6834837,
@@ -316,6 +340,12 @@
     "lon": -63.4971626,
     "precision": "approximate_geocode",
     "query": "POPLAR DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
+  "v2:PROSPECT RD HATCHET LAKE": {
+    "lat": 44.572295,
+    "lon": -63.7140736,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT RD, HATCHET LAKE, Nova Scotia, Canada"
   },
   "v2:REDBANK RD BEDFORD": {
     "lat": 44.7406218,
