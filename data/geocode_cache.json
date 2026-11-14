@@ -209,6 +209,12 @@
     "precision": "approximate_geocode",
     "query": "HOLLIS ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:JOHN SAVAGE AVE DARTMOUTH": {
+    "lat": 44.7162331,
+    "lon": -63.5805492,
+    "precision": "approximate_geocode",
+    "query": "JOHN SAVAGE AVE, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:JUBILEE RD HALIFAX": {
     "lat": 44.6417852,
     "lon": -63.5948911,
@@ -220,6 +226,12 @@
     "lon": -63.6805153,
     "precision": "approximate_geocode",
     "query": "KAYE ST, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:KEMPT RD HALIFAX": {
+    "lat": 44.6592866,
+    "lon": -63.6031949,
+    "precision": "approximate_geocode",
+    "query": "KEMPT RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:KINDLING CRES MIDDLE SACKVILLE": {
     "lat": 44.7833546,
@@ -347,6 +359,12 @@
     "precision": "approximate_geocode",
     "query": "PROSPECT RD, HATCHET LAKE, Nova Scotia, Canada"
   },
+  "v2:RAYMOND DR LOWER SACKVILLE": {
+    "lat": 44.774214,
+    "lon": -63.6783711,
+    "precision": "approximate_geocode",
+    "query": "RAYMOND DR, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:REDBANK RD BEDFORD": {
     "lat": 44.7406218,
     "lon": -63.6518593,
@@ -413,6 +431,12 @@
     "precision": "approximate_geocode",
     "query": "ST ANDREWS AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:ST GEORGE BLVD HAMMONDS PLAINS": {
+    "lat": 44.7162675,
+    "lon": -63.7543517,
+    "precision": "approximate_geocode",
+    "query": "ST GEORGE BLVD, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
   "v2:ST MARGARETS BAY RD QUEENSLAND": {
     "lat": 44.6403457,
     "lon": -64.0347107,
@@ -424,6 +448,18 @@
     "lon": -63.7594235,
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, TIMBERLEA, Nova Scotia, Canada"
+  },
+  "v2:STARGAZER DR PORTERS LAKE": {
+    "lat": 44.7568186,
+    "lon": -63.2873966,
+    "precision": "approximate_geocode",
+    "query": "STARGAZER DR, PORTERS LAKE, Nova Scotia, Canada"
+  },
+  "v2:STOCKTON RG BEDFORD": {
+    "lat": 44.7056063,
+    "lon": -63.6799709,
+    "precision": "approximate_geocode",
+    "query": "STOCKTON RG, BEDFORD, Nova Scotia, Canada"
   },
   "v2:TACOMA DR DARTMOUTH": {
     "lat": 44.6832287,
