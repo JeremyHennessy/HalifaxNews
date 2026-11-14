@@ -119,6 +119,12 @@
     "precision": "approximate_geocode",
     "query": "FARNHAM GATE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:FIRST ST HALIFAX": {
+    "lat": 44.6432573,
+    "lon": -63.6072677,
+    "precision": "approximate_geocode",
+    "query": "FIRST ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:FORD ST HALIFAX": {
     "lat": 44.661329,
     "lon": -63.633025,
@@ -161,6 +167,12 @@
     "precision": "approximate_geocode",
     "query": "HERRING COVE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:HIGHWAY 101 UPPER SACKVILLE": {
+    "lat": 44.8155601,
+    "lon": -63.7745394,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 101, UPPER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:HIGHWAY 102 GOFFS": {
     "lat": 44.8391097,
     "lon": -63.5840202,
@@ -172,6 +184,12 @@
     "lon": -63.6298812,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 102, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:HIGHWAY 7 GAETZ BROOK": {
+    "lat": 44.7656437,
+    "lon": -63.2157471,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 7, GAETZ BROOK, Nova Scotia, Canada"
   },
   "v2:HIGHWAY 7 MUSQUODOBOIT HARBOUR": {
     "lat": 44.7905991,
@@ -418,6 +436,12 @@
     "lon": -63.68837,
     "precision": "approximate_geocode",
     "query": "ROSLEY RD, BEAVER BANK, Nova Scotia, Canada"
+  },
+  "v2:SACKVILLE DR LOWER SACKVILLE": {
+    "lat": 44.7751167,
+    "lon": -63.6943846,
+    "precision": "approximate_geocode",
+    "query": "SACKVILLE DR, LOWER SACKVILLE, Nova Scotia, Canada"
   },
   "v2:SACKVILLE DR MIDDLE SACKVILLE": {
     "lat": 44.7941574,
