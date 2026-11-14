@@ -5,6 +5,12 @@
     "precision": "approximate_geocode",
     "query": "AKERLEY BLVD, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:ALBRO LAKE RD DARTMOUTH": {
+    "lat": 44.6778973,
+    "lon": -63.5860313,
+    "precision": "approximate_geocode",
+    "query": "ALBRO LAKE RD, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:ATLANTIC ST DARTMOUTH": {
     "lat": 44.651155,
     "lon": -63.5429257,
@@ -329,6 +335,12 @@
     "precision": "approximate_geocode",
     "query": "OLIVET ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:PARKLAND DR HALIFAX": {
+    "lat": 44.6662625,
+    "lon": -63.6734427,
+    "precision": "approximate_geocode",
+    "query": "PARKLAND DR, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:PHOENIX CRES LOWER SACKVILLE": {
     "lat": 44.7820851,
     "lon": -63.6716953,
@@ -347,11 +359,23 @@
     "precision": "approximate_geocode",
     "query": "PLEASANT ST, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:POCKWOCK RD HAMMONDS PLAINS": {
+    "lat": 44.7390275,
+    "lon": -63.7976997,
+    "precision": "approximate_geocode",
+    "query": "POCKWOCK RD, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
   "v2:POPLAR DR COLE HARBOUR": {
     "lat": 44.6736685,
     "lon": -63.4971626,
     "precision": "approximate_geocode",
     "query": "POPLAR DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
+  "v2:PRATT AND WHITNEY DR GOFFS": {
+    "lat": 44.8645219,
+    "lon": -63.542093,
+    "precision": "approximate_geocode",
+    "query": "PRATT AND WHITNEY DR, GOFFS, Nova Scotia, Canada"
   },
   "v2:PROSPECT RD HATCHET LAKE": {
     "lat": 44.572295,
@@ -400,6 +424,12 @@
     "lon": -63.7194156,
     "precision": "approximate_geocode",
     "query": "SACKVILLE DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:SACKVILLE ST HALIFAX": {
+    "lat": 44.645474,
+    "lon": -63.5765869,
+    "precision": "approximate_geocode",
+    "query": "SACKVILLE ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:SALTER ST HALIFAX": {
     "lat": 44.6449834,
@@ -514,5 +544,11 @@
     "lon": -63.606763,
     "precision": "approximate_geocode",
     "query": "WINDSOR ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:YANKEETOWN RD HAMMONDS PLAINS": {
+    "lat": 44.7284049,
+    "lon": -63.8123336,
+    "precision": "approximate_geocode",
+    "query": "YANKEETOWN RD, HAMMONDS PLAINS, Nova Scotia, Canada"
   }
 }
