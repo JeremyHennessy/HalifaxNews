@@ -125,6 +125,12 @@
     "precision": "approximate_geocode",
     "query": "FIRST ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:FLAGSTONE DR COLE HARBOUR": {
+    "lat": 44.6619244,
+    "lon": -63.4890052,
+    "precision": "approximate_geocode",
+    "query": "FLAGSTONE DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:FORD ST HALIFAX": {
     "lat": 44.661329,
     "lon": -63.633025,
@@ -263,6 +269,12 @@
     "precision": "approximate_geocode",
     "query": "KINDLING CRES, MIDDLE SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:LAKE RD HATCHET LAKE": {
+    "lat": 44.5682549,
+    "lon": -63.7211158,
+    "precision": "approximate_geocode",
+    "query": "LAKE RD, HATCHET LAKE, Nova Scotia, Canada"
+  },
   "v2:LAKECREST DR DARTMOUTH": {
     "lat": 44.6834837,
     "lon": -63.5357274,
@@ -389,6 +401,12 @@
     "precision": "approximate_geocode",
     "query": "POPLAR DR, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:PORTLAND ST DARTMOUTH": {
+    "lat": 44.6720405,
+    "lon": -63.5229877,
+    "precision": "approximate_geocode",
+    "query": "PORTLAND ST, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:PRATT AND WHITNEY DR GOFFS": {
     "lat": 44.8645219,
     "lon": -63.542093,
@@ -479,6 +497,12 @@
     "precision": "approximate_geocode",
     "query": "SHERWOOD ST, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:SPRUCE AVE LOWER SACKVILLE": {
+    "lat": 44.7730373,
+    "lon": -63.6852106,
+    "precision": "approximate_geocode",
+    "query": "SPRUCE AVE, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:ST ANDREWS AVE HALIFAX": {
     "lat": 44.6566857,
     "lon": -63.6227706,
@@ -550,6 +574,12 @@
     "lon": -63.5691613,
     "precision": "approximate_geocode",
     "query": "WILKINSON AVE, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:WILLETT ST HALIFAX": {
+    "lat": 44.6494471,
+    "lon": -63.6427676,
+    "precision": "approximate_geocode",
+    "query": "WILLETT ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:WILLIAM ST EAST PRESTON": {
     "lat": 44.7316016,
