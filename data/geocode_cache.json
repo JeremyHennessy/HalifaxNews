@@ -203,6 +203,12 @@
     "precision": "approximate_geocode",
     "query": "HERRING COVE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:HERRING COVE RD HERRING COVE": {
+    "lat": 44.5783048,
+    "lon": -63.5777534,
+    "precision": "approximate_geocode",
+    "query": "HERRING COVE RD, HERRING COVE, Nova Scotia, Canada"
+  },
   "v2:HIGHWAY 101 UPPER SACKVILLE": {
     "lat": 44.8155601,
     "lon": -63.7745394,
@@ -352,6 +358,12 @@
     "lon": -63.617116,
     "precision": "approximate_geocode",
     "query": "LEPPERT ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:LILAC ST DARTMOUTH": {
+    "lat": 44.648445,
+    "lon": -63.5377658,
+    "precision": "approximate_geocode",
+    "query": "LILAC ST, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:LINCOLNSHIRE DR FALL RIVER": {
     "lat": 44.7981823,
@@ -622,6 +634,12 @@
     "lon": -63.7594235,
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, TIMBERLEA, Nova Scotia, Canada"
+  },
+  "v2:STARBOARD DR HALIFAX": {
+    "lat": 44.6961118,
+    "lon": -63.6698414,
+    "precision": "approximate_geocode",
+    "query": "STARBOARD DR, HALIFAX, Nova Scotia, Canada"
   },
   "v2:STARGAZER DR PORTERS LAKE": {
     "lat": 44.7568186,
