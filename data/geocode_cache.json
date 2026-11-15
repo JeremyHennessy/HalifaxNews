@@ -143,6 +143,12 @@
     "precision": "approximate_geocode",
     "query": "FARNHAM GATE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:FENWICK ST DARTMOUTH": {
+    "lat": 44.6647215,
+    "lon": -63.5458271,
+    "precision": "approximate_geocode",
+    "query": "FENWICK ST, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:FIRST ST HALIFAX": {
     "lat": 44.6432573,
     "lon": -63.6072677,
@@ -263,6 +269,18 @@
     "precision": "approximate_geocode",
     "query": "HOLLIS ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:HOWARD AVE EASTERN PASSAGE": {
+    "lat": 44.6258009,
+    "lon": -63.5074067,
+    "precision": "approximate_geocode",
+    "query": "HOWARD AVE, EASTERN PASSAGE, Nova Scotia, Canada"
+  },
+  "v2:JAMIESON ST DARTMOUTH": {
+    "lat": 44.6706466,
+    "lon": -63.5858195,
+    "precision": "approximate_geocode",
+    "query": "JAMIESON ST, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:JOHN SAVAGE AVE DARTMOUTH": {
     "lat": 44.7162331,
     "lon": -63.5805492,
@@ -298,6 +316,12 @@
     "lon": -63.7080795,
     "precision": "approximate_geocode",
     "query": "KINDLING CRES, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:KINGSTON CRES DARTMOUTH": {
+    "lat": 44.6842229,
+    "lon": -63.5699757,
+    "precision": "approximate_geocode",
+    "query": "KINGSTON CRES, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:LAKE RD HATCHET LAKE": {
     "lat": 44.5682549,
