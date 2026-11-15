@@ -183,3 +183,31 @@ test('downtown fallback distinguishes Sackville Street from Sackville communitie
     assert.equal(app.run(`isDowntown({location_text:${JSON.stringify(location)}})`), true, location);
   }
 });
+
+test('coverage separates recent publication from partial source coverage', () => {
+  const app=harness(async()=>response(dataset()));
+  const result=app.run(`coverageSummary({generated_at:new Date().toISOString(),source_health:[{status:'ok',checked_at:new Date().toISOString()},{status:'error',checked_at:new Date().toISOString()}]},null)`);
+  assert.equal(result.status,'partial');assert.match(result.detail,/1\/2 collectors/);assert.match(result.detail,/1 failed or unknown/);
+});
+test('old and missing checks never imply live source health', () => {
+ const app=harness(async()=>response(dataset()));
+ const result=app.run(`coverageSummary({generated_at:new Date().toISOString(),source_health:[{status:'ok'},{status:'ok',checked_at:new Date(Date.now()-3600000).toISOString()}]},null)`);
+ assert.equal(result.status,'partial');assert.match(result.detail,/2 checks are old or undated/);
+});
+test('failed refresh and old publication are prominent coverage warnings', async () => {
+ const app=harness(async()=>response(dataset(45)));await app.load();
+ assert.match(app.el('coverageTitle').textContent,/delayed/);
+ app.run(`state.loadError='offline';renderFreshness()`);
+ assert.match(app.el('coverageTitle').textContent,/Refresh failed/);assert.match(app.el('coverageDetail').textContent,/not the source feeds/);
+});
+test('empty coverage and future clocks remain unknown or warning', () => {
+ const app=harness(async()=>response(dataset()));
+ assert.match(app.run(`coverageSummary(null,null).detail`),/coverage is unknown/);
+ assert.equal(app.run(`coverageSummary({generated_at:new Date().toISOString(),source_health:[]},null).status`),'partial');
+ assert.equal(app.run(`coverageSummary({generated_at:new Date(Date.now()+60000).toISOString()},null).status`),'warning');
+});
+test('reset filters restores consistent state and controls', () => {
+ const app=harness(async()=>response(dataset()));
+ app.run(`document.querySelectorAll=()=>[];renderFeed=()=>{};Object.assign(state,{category:'POLICE',downtownOnly:false,hideCommunity:true,hours:48,minPriority:60,search:'abc',sort:'newest'});resetFilters()`);
+ assert.equal(app.run('state.category'),'ALL');assert.equal(app.run('state.hours'),12);assert.equal(app.run('state.search'),'');assert.equal(app.el('downtownOnly').checked,true);assert.equal(app.el('feedSearch').value,'');assert.equal(app.el('timeRange').value,'12');
+});

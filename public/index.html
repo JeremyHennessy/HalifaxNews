@@ -9,8 +9,8 @@
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="preconnect" href="https://unpkg.com" crossorigin />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
-  <link rel="stylesheet" href="assets/styles.css" />
-  <link rel="stylesheet" href="assets/ui-fix.css" />
+  <link rel="stylesheet" href="assets/styles.css?v=20261115-coverage" />
+  <link rel="stylesheet" href="assets/ui-fix.css?v=20261115-coverage" />
 </head>
 <body>
   <header class="topbar">
@@ -27,8 +27,8 @@
   <main>
     <section class="hero shell">
       <div>
-        <p class="eyebrow">DOWNTOWN HALIFAX · LIVE SIGNALS</p>
-        <h1>What’s happening <em>right now?</em></h1>
+        <p class="eyebrow">HALIFAX · PUBLIC SIGNALS</p>
+        <h1>Your city, <em>in context.</em></h1>
         <p class="lede">Fire dispatch, police and RCMP releases, traffic, bridges, transit, utilities, weather, local news, Reddit, Bluesky, event and harbour context — together in one timeline with the source shown.</p>
       </div>
       <div class="hero-clock" aria-label="Current Halifax time">
@@ -37,8 +37,14 @@
       </div>
     </section>
 
+    <section class="shell coverage-banner" aria-label="Data coverage and freshness" aria-live="polite">
+      <div><p class="eyebrow">DATA CHECK</p><h2 id="coverageTitle">Loading published snapshot…</h2><p id="coverageDetail">A recent publication does not guarantee every source is complete.</p></div>
+      <a href="#coverage" class="coverage-link">Check sources ↓</a>
+    </section>
+    <nav class="shell section-nav" aria-label="Dashboard sections"><a href="#priorityHeading">Priority</a><a href="#sirenHeading">Sirens</a><a href="#filters">Timeline</a><a href="#coverage">Source health</a></nav>
+
     <section class="shell metric-strip" aria-label="Current Halifax signal summary">
-      <article class="metric-card"><span>Active nearby</span><strong id="metricActive">—</strong><small id="metricActiveSub">downtown · last 3h</small></article>
+      <article class="metric-card"><span>Recent nearby reports</span><strong id="metricActive">—</strong><small id="metricActiveSub">downtown · last 3h</small></article>
       <article class="metric-card"><span>High priority</span><strong id="metricHigh">—</strong><small id="metricHighSub">high / critical · 6h</small></article>
       <article class="metric-card"><span>Source health</span><strong id="metricSources">—</strong><small id="metricSourcesSub">collectors healthy</small></article>
       <article class="metric-card"><span>Noise removed</span><strong id="metricMerged">—</strong><small id="metricMergedSub">duplicate observations merged</small></article>
@@ -111,20 +117,21 @@
           </select>
         </div>
 
+        <div class="filter-summary"><span id="filterSummary">Downtown · last 12 hours · all categories</span><button id="resetFilters" type="button">Reset filters</button></div>
         <div id="incidentFeed" class="incident-feed" aria-live="polite"></div>
       </div>
 
       <aside class="right-column">
         <div class="panel map-panel">
           <div class="panel-header">
-            <div><p class="eyebrow">MAP</p><h2>Active locations</h2></div>
+            <div><p class="eyebrow">MAP</p><h2>Reported locations</h2></div>
             <span class="map-note">Approx. where noted</span>
           </div>
           <div id="map" aria-label="Map of Halifax signals"></div>
           <div class="map-legend"><span><b class="legend-dot official"></b> First-party/news</span><span><b class="legend-dot community"></b> Community/secondary</span></div>
         </div>
 
-        <div class="panel health-panel">
+        <div class="panel health-panel" id="coverage">
           <div class="panel-header">
             <div><p class="eyebrow">SOURCE HEALTH</p><h2>Collectors</h2></div>
             <span id="sourceHealthSummary" class="health-summary">—</span>
@@ -163,6 +170,6 @@
   </template>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script type="module" src="assets/app.js"></script>
+  <script type="module" src="assets/app.js?v=20261115-coverage"></script>
 </body>
 </html>

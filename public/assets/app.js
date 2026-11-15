@@ -67,7 +67,7 @@ function renderMetrics(){
   el('metricMerged').textContent=merged;
   el('metricActiveSub').textContent='downtown · last 3h';
   el('metricHighSub').textContent='high / critical · 6h';
-  el('metricSourcesSub').textContent='collectors healthy';
+  el('metricSourcesSub').textContent='successful at last check';
   el('metricMergedSub').textContent='duplicate observations merged';
 }
 function renderPriority(){
@@ -100,6 +100,7 @@ function renderEvidence(row){
   return`<details class="evidence-drawer"><summary>${evidence.length} source observation${evidence.length===1?'':'s'} <span>view evidence</span></summary><div>${items}</div></details>`;
 }
 function renderFeed(){
+  const summary=el('filterSummary');if(summary)summary.textContent=`${state.downtownOnly?'Downtown':'All areas'} · last ${state.hours}h · ${state.category==='ALL'?'all categories':state.category.toLowerCase()}${state.search?' · search active':''}`;
   const list=visibleRows();el('visibleCount').textContent=list.length;const feed=el('incidentFeed');feed.innerHTML='';
   if(!list.length){feed.innerHTML='<div class="empty-feed">No normalized events match these filters. This does not mean no incident exists; check source health and broaden the filters.</div>';renderMap(list);return;}
   const tpl=el('incidentTemplate');
@@ -116,10 +117,38 @@ function renderMap(list){
   list.filter(r=>Number.isFinite(r.lat)&&Number.isFinite(r.lon)).slice(0,100).forEach(row=>{const color=colors[row.priority_band]||colors.low;const radius=5+Math.min(6,Math.round((row.priority_score||0)/20));const marker=L.circleMarker([row.lat,row.lon],{radius,color,weight:2,fillColor:color,fillOpacity:.45});marker.bindPopup(`<strong>${esc(row.title)}</strong><br><span>${esc(row.location_text||'')}</span><br><small>${esc(priorityLabel(row))} · ${row.source_count||1} source${(row.source_count||1)===1?'':'s'} · ${esc(ageLabel(row.reported_at))}</small>`);marker.addTo(state.layer);});
 }
 function renderHealth(){
-  const health=state.payload?.source_health||[],good=health.filter(x=>x.status==='ok').length;el('sourceHealthSummary').textContent=health.length?`${good}/${health.length} healthy`:'No checks';const box=el('sourceHealth');box.innerHTML='';
+  const health=state.payload?.source_health||[],good=health.filter(x=>x.status==='ok').length;el('sourceHealthSummary').textContent=health.length?`${good}/${health.length} last checks OK`:'No checks';const box=el('sourceHealth');box.innerHTML='';
   health.forEach(row=>{const div=document.createElement('div');div.className=`source-row ${row.status==='ok'?'ok':'error'}`;const details=row.status==='ok'?`${row.authority} · checked ${ageLabel(row.checked_at)}`:`${row.authority} · ${row.error||'collector error'}`;div.innerHTML=`<span class="source-dot"></span><div><div class="source-name">${esc(row.source)}</div><div class="source-sub">${esc(details)}</div></div><span class="source-count">${row.records||0}</span>`;box.appendChild(div);});if(!health.length)box.innerHTML='<div class="empty-feed">Collector has not run yet.</div>';
 }
+function coverageSummary(payload, loadError, now=Date.now()) {
+  const generated=parseDate(payload?.generated_at), health=payload?.source_health||[];
+  const age=generated?(now-generated.getTime())/60000:null;
+  const good=health.filter(row=>row.status==='ok').length;
+  const failed=health.filter(row=>row.status!=='ok').length;
+  const old=health.filter(row=>{const t=parseDate(row.checked_at);return !t||now-t.getTime()>30*60000||t.getTime()>now+5*60000;}).length;
+  let title=!generated?'No published snapshot loaded':loadError?'Refresh failed · saved snapshot only':age<0?'Snapshot clock needs checking':age>30?'Snapshot is delayed':age>12?'Snapshot is aging':'Recent published snapshot';
+  const status=!generated||loadError||age<0||age>30?'warning':!health.length||failed||old?'partial':'recent';
+  const time=generated?`Published ${generated.toLocaleString('en-CA',{timeZone:HALIFAX_TZ,dateStyle:'medium',timeStyle:'short'})} Halifax time. `:'';
+  const checks=health.length?`${good}/${health.length} collectors succeeded at their last check; ${failed} failed or unknown; ${old} checks are old or undated. `:'Collector coverage is unknown. ';
+  return {title,status,detail:time+checks+'Reports may be delayed or incomplete. Refresh checks the latest published file, not the source feeds.'};
+}
+function renderCoverage(){
+  const box=el('coverageTitle');if(!box)return;
+  const summary=coverageSummary(state.payload,state.loadError);
+  box.textContent=summary.title;
+  el('coverageDetail').textContent=summary.detail;
+  box.parentElement?.parentElement?.setAttribute('data-status',summary.status);
+}
+function resetFilters(){
+  Object.assign(state,{category:'ALL',downtownOnly:true,hideCommunity:false,hours:12,minPriority:0,search:'',sort:'priority'});
+  for(const [id,value] of [['feedSearch',''],['timeRange','12'],['priorityRange','0'],['sortOrder','priority']])el(id).value=value;
+  el('downtownOnly').checked=true;el('hideCommunity').checked=false;
+  document.querySelectorAll('.filter').forEach(btn=>{const selected=btn.dataset.filter==='ALL';btn.classList.toggle('active',selected);btn.setAttribute('aria-pressed',String(selected));});
+  renderFeed();
+}
+
 function renderFreshness(){
+  renderCoverage();
   const generated=parseDate(state.payload?.generated_at),pill=el('freshnessPill');
   el('generatedAt').textContent=generated?`Dataset generated ${generated.toLocaleString('en-CA',{timeZone:HALIFAX_TZ,dateStyle:'medium',timeStyle:'short'})}`:'No dataset loaded yet';
   if(state.loadError){
@@ -255,7 +284,9 @@ async function loadData({cacheBust=false,userInitiated=false}={}){
 }
 function updateClock(){const now=new Date();el('clockTime').textContent=now.toLocaleTimeString('en-CA',{timeZone:HALIFAX_TZ,hour:'2-digit',minute:'2-digit',hour12:false});el('clockDate').textContent=now.toLocaleDateString('en-CA',{timeZone:HALIFAX_TZ,weekday:'short',month:'short',day:'numeric'});}
 function wireControls(){
-  document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));btn.classList.add('active');state.category=btn.dataset.filter;renderFeed();}));
+  el('resetFilters').addEventListener('click',resetFilters);
+  document.querySelectorAll('.filter').forEach(btn=>btn.setAttribute('aria-pressed',String(btn.dataset.filter===state.category)));
+  document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false');});btn.classList.add('active');btn.setAttribute('aria-pressed','true');state.category=btn.dataset.filter;renderFeed();}));
   el('downtownOnly').addEventListener('change',e=>{state.downtownOnly=e.target.checked;renderFeed();});
   el('hideCommunity').addEventListener('change',e=>{state.hideCommunity=e.target.checked;renderFeed();});
   el('priorityRange').addEventListener('change',e=>{state.minPriority=Number(e.target.value);renderFeed();});
@@ -265,5 +296,5 @@ function wireControls(){
   el('refreshButton').addEventListener('click',()=>loadData({cacheBust:true,userInitiated:true}));
 }
 
-initMap();wireControls();updateClock();setInterval(updateClock,30000);loadData();setInterval(()=>loadData({cacheBust:true}),120000);
+initMap();wireControls();updateClock();setInterval(()=>{updateClock();renderFreshness();},30000);loadData();setInterval(()=>loadData({cacheBust:true}),120000);
 if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
