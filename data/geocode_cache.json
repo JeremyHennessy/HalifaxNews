@@ -65,6 +65,12 @@
     "precision": "approximate_geocode",
     "query": "CHISHOLM AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:CHURCHILL TERR NORTH PRESTON": {
+    "lat": 44.7438624,
+    "lon": -63.4651164,
+    "precision": "approximate_geocode",
+    "query": "CHURCHILL TERR, NORTH PRESTON, Nova Scotia, Canada"
+  },
   "v2:CLUB HOUSE LANE HAMMONDS PLAINS": {
     "lat": 44.7509704,
     "lon": -63.7687369,
@@ -88,6 +94,12 @@
     "lon": -63.5143315,
     "precision": "approximate_geocode",
     "query": "COLLINS GRV, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:COLONIAL CRES HALIFAX": {
+    "lat": 44.6017636,
+    "lon": -63.6045542,
+    "precision": "approximate_geocode",
+    "query": "COLONIAL CRES, HALIFAX, Nova Scotia, Canada"
   },
   "v2:COW BAY RD EASTERN PASSAGE": {
     "lat": 44.6200493,
@@ -365,11 +377,23 @@
     "precision": "approximate_geocode",
     "query": "OLIVET ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:OXFORD ST HALIFAX": {
+    "lat": 44.6519496,
+    "lon": -63.606555,
+    "precision": "approximate_geocode",
+    "query": "OXFORD ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:PARKLAND DR HALIFAX": {
     "lat": 44.6662625,
     "lon": -63.6734427,
     "precision": "approximate_geocode",
     "query": "PARKLAND DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:PEGGYS COVE RD GLEN HAVEN": {
+    "lat": 44.6606414,
+    "lon": -63.9014597,
+    "precision": "approximate_geocode",
+    "query": "PEGGYS COVE RD, GLEN HAVEN, Nova Scotia, Canada"
   },
   "v2:PHOENIX CRES LOWER SACKVILLE": {
     "lat": 44.7820851,
@@ -412,6 +436,12 @@
     "lon": -63.542093,
     "precision": "approximate_geocode",
     "query": "PRATT AND WHITNEY DR, GOFFS, Nova Scotia, Canada"
+  },
+  "v2:PROSPECT RD GOODWOOD": {
+    "lat": 44.5993398,
+    "lon": -63.6858912,
+    "precision": "approximate_geocode",
+    "query": "PROSPECT RD, GOODWOOD, Nova Scotia, Canada"
   },
   "v2:PROSPECT RD HATCHET LAKE": {
     "lat": 44.572295,
@@ -478,6 +508,12 @@
     "lon": -63.5716723,
     "precision": "approximate_geocode",
     "query": "SALTER ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:SECOND ST DARTMOUTH": {
+    "lat": 44.6855539,
+    "lon": -63.542703,
+    "precision": "approximate_geocode",
+    "query": "SECOND ST, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:SETON RD HALIFAX": {
     "lat": 44.669669,
