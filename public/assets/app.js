@@ -80,26 +80,33 @@ function renderPriority(){
   if(!top.length){box.innerHTML='<div class="empty-siren">No elevated recent events in the current dataset.</div>';return;}
   top.forEach(row=>{const card=document.createElement('article');card.className=`priority-card band-${esc(row.priority_band||'low')}`;const reasons=(row.attention_reasons||[]).slice(0,3).map(esc).join(' · ');card.innerHTML=`<div class="priority-score"><strong>${row.priority_score||0}</strong><span>priority</span></div><div class="priority-body"><div class="priority-kicker"><span>${esc(categoryLabel(row))}</span><span>${esc(ageLabel(row.reported_at))}</span><span>${row.source_count||1} src</span></div><h3>${esc(row.title)}</h3><p>${esc(row.metadata?.response_summary||row.location_text||row.summary||'')}</p><div class="priority-meta">Seriousness ${row.seriousness_score||0}${reasons?` · ${reasons}`:''}</div></div>`;box.appendChild(card);});
 }
+function sirenCardContent(row){
+  return `<div class="siren-score" title="Ranking heuristic, not a probability">${esc(row.siren_score??0)}</div><small>${esc(categoryLabel(row))} · ${esc(ageLabel(row.reported_at))} · ${esc(confidenceLabel(row))}</small><h3>${esc(row.title)}</h3><p>${esc(row.location_text||row.summary||'Location not supplied')}</p><p class="siren-caution">Possible context, not a confirmed cause of the sirens.</p>${renderResponse(row)}${renderEvidence(row)}`;
+}
 function renderSirens(){
   const box=el('sirenCards');if(!box||!state.payload)return;
   const top=rows().filter(r=>(minutesAgo(r.reported_at)??99999)<=90&&isDowntown(r)&&(r.siren_score||0)>0).sort((a,b)=>(b.siren_score||0)-(a.siren_score||0)||new Date(b.reported_at)-new Date(a.reported_at)).slice(0,3);
   box.innerHTML='';
   if(!top.length){box.innerHTML='<div class="empty-siren">No recent downtown signal in the current data explains sirens. That is an <strong>unknown</strong>, not evidence that nothing happened.</div>';return;}
-  top.forEach(row=>{const card=document.createElement('article');card.className='siren-card';card.innerHTML=`<div class="siren-score" title="Siren-likelihood heuristic">${row.siren_score}</div><small>${esc(categoryLabel(row))} · ${esc(ageLabel(row.reported_at))} · ${row.source_count||1} source${(row.source_count||1)===1?'':'s'}</small><h3>${esc(row.title)}</h3><p>${esc(row.metadata?.response_summary||row.location_text||row.summary||'')}</p>`;box.appendChild(card);});
+  top.forEach(row=>{const card=document.createElement('article');card.className='siren-card';card.innerHTML=sirenCardContent(row);box.appendChild(card);});
 }
 function sourceMeta(row){const bits=[];bits.push(`${row.source_count||1} source${(row.source_count||1)===1?'':'s'}`);bits.push(`Seriousness ${row.seriousness_score||0}`);if(row.neighbourhood)bits.push(row.neighbourhood);if(row.impact_scope&&row.impact_scope!=='local')bits.push(row.impact_scope);return bits;}
 
 function renderResponse(row){
   const meta=row.metadata||{}, units=meta.decoded_response||[];
   if(!units.length&&!meta.response_summary)return'';
-  const chips=units.map(u=>`<span class="unit-chip ${u.certainty==='unknown'?'unknown':''}" title="${esc(u.certainty==='inferred'?'Call-sign expansion inferred from HRFE apparatus naming':u.certainty==='confirmed'?'Documented/public nomenclature':'Code not yet decoded')}"><b>${esc(u.code)}</b><span>${esc(u.label)}</span></span>`).join('');
+  const chips=units.map(u=>`<span class="unit-chip ${u.certainty==='unknown'?'unknown':''}" title="${esc(u.certainty==='inferred'?'Call-sign expansion inferred from HRFE apparatus naming':u.certainty==='confirmed'?'Documented/public nomenclature':'Code not yet decoded')}"><b>${esc(u.code)}</b><span>${esc(u.label)}</span><small class="unit-certainty">${u.certainty==='confirmed'?'Documented label':u.certainty==='inferred'?'Inferred label':'Unverified label'}</small></span>`).join('');
   const unknown=meta.response_unknown_codes?.length?`<p class="unit-note">Not yet decoded: ${esc(meta.response_unknown_codes.join(', '))}</p>`:'';
   return `<div class="response-summary"><p>${esc(meta.response_summary||'')}</p>${meta.response?`<div class="raw-response">Raw response: ${esc(meta.response)}</div>`:''}<details class="unit-drawer"><summary>${units.length} response code${units.length===1?'':'s'} · decode units</summary><div class="unit-grid">${chips}</div>${unknown}</details></div>`;
 }
 
+function safeEvidenceUrl(value){
+  if(typeof value!=='string'||!/^https?:\/\//i.test(value)||/[\u0000-\u0020\u007f]/.test(value))return null;
+  try{const u=new URL(value);return u.username||u.password?null:u.href;}catch{return null;}
+}
 function renderEvidence(row){
   const evidence=sourceEvidence(row);if(!evidence.length)return'';
-  const items=evidence.slice(0,8).map(e=>`<a class="evidence-row" href="${esc(e.source_url||'#')}" target="_blank" rel="noopener"><span><strong>${esc(e.source||'Source')}</strong><small>${esc(e.source_class||'source')} · ${esc(ageLabel(e.reported_at))}</small></span><b>↗</b></a>`).join('');
+  const items=evidence.slice(0,8).map(e=>{const url=safeEvidenceUrl(e.source_url);const text=`<span><strong>${esc(e.source||'Source')}</strong><small>${esc(e.source_class||'source')} · ${esc(ageLabel(e.reported_at))}</small></span>`;return url?`<a class="evidence-row" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${text}<b>↗</b></a>`:`<div class="evidence-row">${text}<small>Source link unavailable</small></div>`;}).join('');
   return`<details class="evidence-drawer"><summary>${evidence.length} source observation${evidence.length===1?'':'s'} <span>view evidence</span></summary><div>${items}</div></details>`;
 }
 function renderFeed(){

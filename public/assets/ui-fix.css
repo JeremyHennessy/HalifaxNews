@@ -155,3 +155,12 @@
 @media(max-width:600px){.quick-views,.reading-controls{padding:14px}.quick-view-buttons{display:grid;grid-template-columns:1fr 1fr}.quick-view-buttons button{min-height:44px}.reading-controls{align-items:flex-start;flex-direction:column}.reading-controls select{min-height:44px}.filter-summary{align-items:flex-start;gap:8px}.filter-summary span{line-height:1.5}.map-coverage{padding:12px}}
 
 .healthy-drawer summary {cursor:pointer;padding:16px;color:#bce7df;font-size:13px}.health-attention>strong {display:block;padding:14px 16px;color:#efc382;font-size:13px}.health-clear {padding:12px 16px;color:#a9bbce;font-size:12px;line-height:1.5}
+
+/* Source context remains readable without hover or a wide viewport. */
+.siren-context-note { color:var(--muted); font-size:13px; line-height:1.5; margin:0 0 14px; }
+.siren-card .siren-caution { margin-top:10px; font-size:12px; }
+.unit-chip { flex-wrap:wrap; overflow-wrap:anywhere; }
+.unit-chip .unit-certainty { display:block; flex-basis:100%; color:var(--muted); font-size:10px; }
+.siren-card .evidence-row { overflow-wrap:anywhere; }
+.siren-card details > summary { min-height:44px; display:flex; align-items:center; flex-wrap:wrap; gap:4px; cursor:pointer; }
+@media(max-width:600px) { .siren-card:nth-child(n+3) { display:block; } }

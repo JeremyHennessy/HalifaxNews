@@ -17,7 +17,7 @@ function harness(fetch, { realRender = false } = {}) {
     return elements.get(id);
   };
   const context = vm.createContext({
-    document: { getElementById: getElement }, fetch, AbortController, console,
+    document: { getElementById: getElement }, fetch, AbortController, URL, console,
     setTimeout(fn, delay) { const id = nextTimer++; timers.set(id, { fn, delay }); return id; },
     clearTimeout(id) { timers.delete(id); },
   });
@@ -255,4 +255,27 @@ test('collector health prioritizes failures and keeps successful timestamps expa
  assert.ok(html.indexOf('Bad')<html.indexOf('Good'));
  assert.match(html,/<details class="healthy-drawer">/);
  assert.match(html,/1 collectors need attention/);
+});
+
+
+test('siren cards expose evidence and decoded certainty without hover', () => {
+  const app=harness(async()=>response(dataset()));
+  const html=app.run(`sirenCardContent({title:'Alarms',category:'FIRE',reported_at:new Date().toISOString(),siren_score:75,source_class:'first_party',source:'HRFE',source_url:'https://example.org/report',metadata:{response:'E01 PCE XYZ',decoded_response:[{code:'E01',label:'Engine 1',certainty:'confirmed'},{code:'PCE',label:'Captain',certainty:'inferred'},{code:'XYZ',label:'Unknown unit',certainty:'unknown'}]}})`);
+  assert.match(html,/Possible context, not a confirmed cause/);
+  assert.match(html,/https:\/\/example.org\/report/);
+  for(const text of ['Documented label','Inferred label','Unverified label','decode units','view evidence'])assert.ok(html.includes(text));
+});
+test('source evidence rejects executable, malformed and credential URLs', () => {
+  const app=harness(async()=>response(dataset()));
+  for(const url of ['javascript:alert(1)','data:text/html,a','//example.org','https://user:pass@example.org','https://example.org/\nfoo','https://']) {
+    assert.equal(app.run(`safeEvidenceUrl(${JSON.stringify(url)})`),null);
+    const html=app.run(`renderEvidence({source:'<script>',source_url:${JSON.stringify(url)}})`);
+    assert.doesNotMatch(html,/<a /); assert.match(html,/Source link unavailable/); assert.match(html,/&lt;script&gt;/);
+  }
+  assert.equal(app.run(`safeEvidenceUrl('https://example.org/report?a=1')`),'https://example.org/report?a=1');
+});
+test('siren cards retain unknown times and escape untrusted titles',()=>{
+  const app=harness(async()=>response(dataset()));
+  const html=app.run(`sirenCardContent({title:'<img onerror=bad>',category:'FIRE',reported_at:null})`);
+  assert.match(html,/unknown time/);assert.match(html,/&lt;img/);assert.doesNotMatch(html,/<img/);
 });
