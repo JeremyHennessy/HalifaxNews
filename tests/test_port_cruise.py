@@ -28,3 +28,23 @@ class PortCruiseParserTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class PortCoverageTests(unittest.TestCase):
+    header='<table><tr><th>Date</th><th>Vessel</th><th>Cruise Line</th><th>Passengers</th></tr>'
+    def test_denial_and_unrelated_table_are_errors(self):
+        for html in ['<h1>Access denied</h1>','<table><tr><td>other</td></tr></table>',self.header+'</table>'+self.header+'</table>']:
+            with self.assertRaises(ValueError): parse_html(html)
+    def test_empty_identified_schedule_is_zero(self):
+        self.assertEqual(parse_html(self.header+'</table>'),[])
+    def test_yearless_invalid_and_truncated_rows_fail_closed(self):
+        for cells in ['<td>11-15</td><td>Ship</td><td>Line</td><td>300</td>','<td>bad 2026</td><td>Ship</td><td>Line</td><td>300</td>','<td>November 15, 2026</td><td>Ship</td>']:
+            with self.assertRaises(ValueError): parse_html(self.header+'<tr>'+cells+'</tr></table>')
+    def test_only_passenger_column_used(self):
+        html=self.header+'<tr><td>November 15, 2026</td><td>2026</td><td>3000</td><td>Unknown</td></tr></table>'
+        rows=parse_html(html,datetime(2026,11,15,12,tzinfo=HALIFAX_TZ))
+        self.assertEqual(rows[0].metadata,{})
+
+    def test_partial_year_or_month_cannot_inherit_today(self):
+        for date in ['2026', 'November 2026', '2026-11', 'November 15']:
+            html=self.header+f'<tr><td>{date}</td><td>Ship</td><td>Line</td><td>300</td></tr></table>'
+            with self.assertRaises(ValueError): parse_html(html,datetime(2026,11,15,12,tzinfo=HALIFAX_TZ))

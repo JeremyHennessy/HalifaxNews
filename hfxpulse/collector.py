@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import copy
 import json
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -165,7 +166,38 @@ def _run_adapters() -> tuple[list[Incident], list[SourceHealth]]:
     return fresh, health
 
 
+def _previous_snapshot_clock(path: Path) -> str | None:
+    """Read only the prior generation clock; an invalid clock is unknown."""
+    try:
+        value = json.loads(path.read_text(encoding="utf-8")).get("generated_at")
+        if not isinstance(value, str) or not value.endswith("Z"):
+            return None
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        return value if parsed.tzinfo else None
+    except (OSError, ValueError, TypeError, AttributeError):
+        return None
+
+
+def collection_receipt(started: str, finished: str, elapsed: float, previous: str | None) -> dict:
+    """Observed collector clocks, not scheduler guarantees or deployment receipts."""
+    start = datetime.fromisoformat(started.replace("Z", "+00:00"))
+    prior = datetime.fromisoformat(previous.replace("Z", "+00:00")) if previous else None
+    gap = (start - prior).total_seconds() if prior else None
+    return {
+        "started_at": started,
+        "finished_at": finished,
+        "elapsed_seconds": round(max(0, elapsed), 3),
+        "previous_snapshot_generated_at": previous,
+        "gap_since_previous_snapshot_seconds": gap if gap is not None and gap >= 0 else None,
+        "previous_clock_status": "future" if gap is not None and gap < 0 else ("known" if prior else "unknown"),
+        "scope": "collector_observation_only_not_scheduler_or_delivery_guarantee",
+    }
+
+
 def collect(output: Path) -> dict:
+    started = utc_now_iso()
+    monotonic_start = time.monotonic()
+    previous = _previous_snapshot_clock(output)
     fresh, health = _run_adapters()
     existing = _apply_snapshot_lifecycle(_read_existing(output), fresh, health)
     rows = _revalidate_retained_rows(_retain_history(existing, fresh))
@@ -180,9 +212,11 @@ def collect(output: Path) -> dict:
     rows.sort(key=lambda row: parse_datetime(row.reported_at) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
     health.sort(key=lambda item: (item.status != "error", item.source.lower()))
 
+    finished = utc_now_iso()
     payload = {
         "schema_version": 4,
-        "generated_at": utc_now_iso(),
+        "generated_at": finished,
+        "collection_run": collection_receipt(started, finished, time.monotonic() - monotonic_start, previous),
         "history_hours": 48,
         "collector_count": len(ADAPTERS),
         "incidents": [row.to_dict() for row in rows],
