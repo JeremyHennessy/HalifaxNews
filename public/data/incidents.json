@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-15T03:07:09Z",
+  "generated_at": "2026-11-15T03:18:55Z",
   "history_hours": 48,
   "collector_count": 27,
   "incidents": [
@@ -11,7 +11,7 @@
       "title": "Power outage",
       "summary": "Vehicle Accident",
       "category": "UTILITY",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -61,7 +61,7 @@
       "title": "Power outage",
       "summary": "Emergency outage for public safety",
       "category": "UTILITY",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -111,7 +111,7 @@
       "title": "Power outage",
       "summary": "Vehicle Accident",
       "category": "UTILITY",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -161,7 +161,7 @@
       "title": "Power outage",
       "summary": "Emergency Repair of Lines",
       "category": "UTILITY",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -211,7 +211,7 @@
       "title": "Power outage",
       "summary": "Vehicle Accident",
       "category": "UTILITY",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -261,7 +261,7 @@
       "title": "BlackHawk at Casino Nova Scotia in Halifax Nov 14 2026 Casino Nova Scotia",
       "summary": "BlackHawk at Casino Nova Scotia in Halifax Nov 14 2026 Casino Nova Scotia",
       "category": "EVENT",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -304,7 +304,7 @@
       "title": "Temple of Eros Nov 14 2026 Casey Vale",
       "summary": "Temple of Eros Nov 14 2026 Casey Vale",
       "category": "EVENT",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -347,7 +347,7 @@
       "title": "City Wide Gallery Hop - November 14, 12-5pm Nov 14 2026 The Prow Gallery",
       "summary": "City Wide Gallery Hop - November 14, 12-5pm Nov 14 2026 The Prow Gallery",
       "category": "EVENT",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -390,7 +390,7 @@
       "title": "Halifax and Bedford Gallery Hop - Teichert Gallery- featuring Bob Hainstock Artist Talk at 1 pm Nov 14 2026 Teichert Gallery",
       "summary": "Halifax and Bedford Gallery Hop - Teichert Gallery- featuring Bob Hainstock Artist Talk at 1 pm Nov 14 2026 Teichert Gallery",
       "category": "EVENT",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -433,7 +433,7 @@
       "title": "Power outage",
       "summary": "Fire",
       "category": "UTILITY",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -490,9 +490,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "BAYVIEW DR, HACKETTS COVE",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.5724839,
+      "lon": -63.9271239,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 54,
       "seriousness_score": 28,
@@ -563,7 +563,8 @@
             "certainty": "confirmed"
           }
         ],
-        "response_unknown_codes": []
+        "response_unknown_codes": [],
+        "geocode_key": "v2:BAYVIEW DR HACKETTS COVE"
       }
     },
     {
@@ -657,9 +658,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "KATA CRT, HAMMONDS PLAINS",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.7231134,
+      "lon": -63.838244,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 60,
       "seriousness_score": 38,
@@ -716,7 +717,8 @@
             "certainty": "confirmed"
           }
         ],
-        "response_unknown_codes": []
+        "response_unknown_codes": [],
+        "geocode_key": "v2:KATA CRT HAMMONDS PLAINS"
       }
     },
     {
@@ -733,9 +735,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "SANCTUARY CRT, FALL RIVER",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.8269692,
+      "lon": -63.5891037,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 53,
       "seriousness_score": 34,
@@ -804,7 +806,8 @@
             "certainty": "confirmed"
           }
         ],
-        "response_unknown_codes": []
+        "response_unknown_codes": [],
+        "geocode_key": "v2:SANCTUARY CRT FALL RIVER"
       }
     },
     {
@@ -821,9 +824,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "MOUNTAIN RD, HALIFAX",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6310091,
+      "lon": -63.6236468,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 57,
       "seriousness_score": 40,
@@ -906,7 +909,8 @@
             "certainty": "confirmed"
           }
         ],
-        "response_unknown_codes": []
+        "response_unknown_codes": [],
+        "geocode_key": "v2:MOUNTAIN RD HALIFAX"
       }
     },
     {
@@ -968,9 +972,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "CASTLEWOOD DR, COLE HARBOUR",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6646014,
+      "lon": -63.4870312,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 44,
       "seriousness_score": 28,
@@ -1027,7 +1031,8 @@
             "certainty": "confirmed"
           }
         ],
-        "response_unknown_codes": []
+        "response_unknown_codes": [],
+        "geocode_key": "v2:CASTLEWOOD DR COLE HARBOUR"
       }
     },
     {
@@ -1044,9 +1049,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "ROSS RD, WESTPHAL",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6958242,
+      "lon": -63.4585758,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 44,
       "seriousness_score": 28,
@@ -1103,7 +1108,8 @@
             "certainty": "confirmed"
           }
         ],
-        "response_unknown_codes": []
+        "response_unknown_codes": [],
+        "geocode_key": "v2:ROSS RD WESTPHAL"
       }
     },
     {
@@ -1470,7 +1476,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 27,
+      "priority_score": 22,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [],
@@ -1559,7 +1565,7 @@
       "evidence_count": 1,
       "source_count": 1,
       "evidence": [],
-      "priority_score": 31,
+      "priority_score": 26,
       "priority_band": "moderate",
       "impact_scope": "local",
       "attention_reasons": [],
@@ -82288,9 +82294,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "MOUNTAIN RD, HALIFAX",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6310091,
+      "lon": -63.6236468,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 57,
       "seriousness_score": 40,
@@ -82386,6 +82392,7 @@
           }
         ],
         "response_unknown_codes": [],
+        "geocode_key": "v2:MOUNTAIN RD HALIFAX",
         "first_reported_at": "2026-11-15T00:40:49Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
@@ -82531,9 +82538,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "KATA CRT, HAMMONDS PLAINS",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.7231134,
+      "lon": -63.838244,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 60,
       "seriousness_score": 38,
@@ -82603,6 +82610,7 @@
           }
         ],
         "response_unknown_codes": [],
+        "geocode_key": "v2:KATA CRT HAMMONDS PLAINS",
         "first_reported_at": "2026-11-15T00:54:41Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
@@ -82626,9 +82634,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "BAYVIEW DR, HACKETTS COVE",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.5724839,
+      "lon": -63.9271239,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 54,
       "seriousness_score": 28,
@@ -82712,6 +82720,7 @@
           }
         ],
         "response_unknown_codes": [],
+        "geocode_key": "v2:BAYVIEW DR HACKETTS COVE",
         "first_reported_at": "2026-11-15T02:10:40Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
@@ -82735,9 +82744,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "SANCTUARY CRT, FALL RIVER",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.8269692,
+      "lon": -63.5891037,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 53,
       "seriousness_score": 34,
@@ -82819,91 +82828,8 @@
           }
         ],
         "response_unknown_codes": [],
+        "geocode_key": "v2:SANCTUARY CRT FALL RIVER",
         "first_reported_at": "2026-11-15T00:52:45Z",
-        "source_names": [
-          "Halifax Regional Fire & Emergency"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
-      "id": "evt-df6f2915dc3c2eeb31",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000017210",
-      "title": "Fire Moveup",
-      "summary": "Emergency response: Engine 14.",
-      "category": "FIRE",
-      "reported_at": "2026-11-14T23:08:26Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "FIRE MOVEUP",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "SECOND ST, DARTMOUTH",
-      "lat": 44.6855539,
-      "lon": -63.542703,
-      "location_precision": "approximate_geocode",
-      "severity": 2,
-      "siren_score": 34,
-      "seriousness_score": 34,
-      "source_class": "first_party",
-      "event_type": "fire_incident",
-      "canonical_location": "SECOND",
-      "neighbourhood": "DARTMOUTH",
-      "cluster_id": "evt-df6f2915dc3c2eeb31",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "hrfe-hf26000017210",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000017210",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-14T23:08:26Z",
-          "title": "Fire Moveup"
-        }
-      ],
-      "priority_score": 31,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000017210"
-      ],
-      "related_ids": [
-        "hrfe-hf26000017210"
-      ],
-      "metadata": {
-        "call_number": "HF26000017210",
-        "response": "E14",
-        "decoded_units": [
-          {
-            "code": "E14",
-            "label": "Engine 14",
-            "kind": "apparatus",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E14 — Engine 14",
-        "response_summary": "Emergency response: Engine 14.",
-        "decoded_response": [
-          {
-            "code": "E14",
-            "label": "Engine 14",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": [],
-        "geocode_key": "v2:SECOND ST DARTMOUTH",
-        "first_reported_at": "2026-11-14T23:08:26Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -84316,7 +84242,7 @@
       "title": "Power outage",
       "summary": "Emergency outage for public safety",
       "category": "UTILITY",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "secondary",
       "confidence": "secondary",
       "subtype": "power_outage",
@@ -84343,7 +84269,7 @@
           "source_url": "https://outagemap.nspower.ca/external/default.html",
           "source_class": "secondary",
           "confidence": "secondary",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "Power outage"
         },
         {
@@ -84352,7 +84278,7 @@
           "source_url": "https://outagemap.nspower.ca/external/default.html",
           "source_class": "secondary",
           "confidence": "secondary",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "Power outage"
         },
         {
@@ -84361,7 +84287,7 @@
           "source_url": "https://outagemap.nspower.ca/external/default.html",
           "source_class": "secondary",
           "confidence": "secondary",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "Power outage"
         },
         {
@@ -84370,7 +84296,7 @@
           "source_url": "https://outagemap.nspower.ca/external/default.html",
           "source_class": "secondary",
           "confidence": "secondary",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "Power outage"
         },
         {
@@ -84379,7 +84305,7 @@
           "source_url": "https://outagemap.nspower.ca/external/default.html",
           "source_class": "secondary",
           "confidence": "secondary",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "Power outage"
         },
         {
@@ -84388,7 +84314,7 @@
           "source_url": "https://outagemap.nspower.ca/external/default.html",
           "source_class": "secondary",
           "confidence": "secondary",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "Power outage"
         }
       ],
@@ -84419,7 +84345,7 @@
         "customers": 0,
         "cause": "Emergency outage for public safety",
         "minimum_customers": 100,
-        "first_reported_at": "2026-11-15T03:05:57Z",
+        "first_reported_at": "2026-11-15T03:17:37Z",
         "source_names": [
           "Nova Scotia Power outages"
         ],
@@ -84538,9 +84464,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "CASTLEWOOD DR, COLE HARBOUR",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6646014,
+      "lon": -63.4870312,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 44,
       "seriousness_score": 28,
@@ -84610,6 +84536,7 @@
           }
         ],
         "response_unknown_codes": [],
+        "geocode_key": "v2:CASTLEWOOD DR COLE HARBOUR",
         "first_reported_at": "2026-11-15T00:03:08Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
@@ -84633,9 +84560,9 @@
       "updated_at": null,
       "status": "active",
       "location_text": "ROSS RD, WESTPHAL",
-      "lat": null,
-      "lon": null,
-      "location_precision": "street_or_intersection",
+      "lat": 44.6958242,
+      "lon": -63.4585758,
+      "location_precision": "approximate_geocode",
       "severity": 2,
       "siren_score": 44,
       "seriousness_score": 28,
@@ -84705,6 +84632,7 @@
           }
         ],
         "response_unknown_codes": [],
+        "geocode_key": "v2:ROSS RD WESTPHAL",
         "first_reported_at": "2026-11-14T23:48:49Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
@@ -84906,114 +84834,6 @@
       }
     },
     {
-      "id": "evt-f1eadcf31c216ee9ab",
-      "source": "Halifax Regional Fire & Emergency",
-      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000017211",
-      "title": "Medical Assistance",
-      "summary": "Medical first-response: Engines 55 and 65 and Station 55 assignment.",
-      "category": "EMS",
-      "reported_at": "2026-11-14T23:16:47Z",
-      "source_kind": "official",
-      "confidence": "official",
-      "subtype": "MEDICAL ASSISTANCE",
-      "updated_at": null,
-      "status": "active",
-      "location_text": "PEGGYS COVE RD, GLEN HAVEN",
-      "lat": 44.6606414,
-      "lon": -63.9014597,
-      "location_precision": "approximate_geocode",
-      "severity": 2,
-      "siren_score": 48,
-      "seriousness_score": 28,
-      "source_class": "first_party",
-      "event_type": "medical_response",
-      "canonical_location": "PEGGYS COVE GLEN HAVEN",
-      "neighbourhood": null,
-      "cluster_id": "evt-f1eadcf31c216ee9ab",
-      "evidence_count": 1,
-      "source_count": 1,
-      "evidence": [
-        {
-          "id": "hrfe-hf26000017211",
-          "source": "Halifax Regional Fire & Emergency",
-          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000017211",
-          "source_class": "first_party",
-          "confidence": "official",
-          "reported_at": "2026-11-14T23:16:47Z",
-          "title": "Medical Assistance"
-        }
-      ],
-      "priority_score": 27,
-      "priority_band": "moderate",
-      "impact_scope": "local",
-      "attention_reasons": [],
-      "signals": [
-        "official_dispatch",
-        "responding_units"
-      ],
-      "raw_ids": [
-        "HF26000017211"
-      ],
-      "related_ids": [
-        "hrfe-hf26000017211"
-      ],
-      "metadata": {
-        "call_number": "HF26000017211",
-        "response": "E55 E65 STN55",
-        "decoded_units": [
-          {
-            "code": "E55",
-            "label": "Engine 55",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "E65",
-            "label": "Engine 65",
-            "kind": "apparatus",
-            "confidence": "verified"
-          },
-          {
-            "code": "STN55",
-            "label": "Station 55 assignment",
-            "kind": "station",
-            "confidence": "verified"
-          }
-        ],
-        "decoded_unit_text": "E55 — Engine 55 · E65 — Engine 65 · STN55 — Station 55 assignment",
-        "response_summary": "Medical first-response: Engines 55 and 65 and Station 55 assignment.",
-        "decoded_response": [
-          {
-            "code": "E55",
-            "label": "Engine 55",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "E65",
-            "label": "Engine 65",
-            "kind": "apparatus",
-            "certainty": "confirmed"
-          },
-          {
-            "code": "STN55",
-            "label": "Station 55 assignment",
-            "kind": "station",
-            "certainty": "confirmed"
-          }
-        ],
-        "response_unknown_codes": [],
-        "geocode_key": "v2:PEGGYS COVE RD GLEN HAVEN",
-        "first_reported_at": "2026-11-14T23:16:47Z",
-        "source_names": [
-          "Halifax Regional Fire & Emergency"
-        ],
-        "source_classes": [
-          "first_party"
-        ]
-      }
-    },
-    {
       "id": "evt-aa3a2a395de09ffeec",
       "source": "2 sources",
       "source_url": "https://bsky.app/profile/hrfeincidents.bsky.social/post/3n2cku64rtt2e",
@@ -85158,6 +84978,90 @@
         "source_classes": [
           "community",
           "news"
+        ]
+      }
+    },
+    {
+      "id": "evt-df6f2915dc3c2eeb31",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000017210",
+      "title": "Fire Moveup",
+      "summary": "Emergency response: Engine 14.",
+      "category": "FIRE",
+      "reported_at": "2026-11-14T23:08:26Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "FIRE MOVEUP",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "SECOND ST, DARTMOUTH",
+      "lat": 44.6855539,
+      "lon": -63.542703,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 34,
+      "seriousness_score": 34,
+      "source_class": "first_party",
+      "event_type": "fire_incident",
+      "canonical_location": "SECOND",
+      "neighbourhood": "DARTMOUTH",
+      "cluster_id": "evt-df6f2915dc3c2eeb31",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "hrfe-hf26000017210",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000017210",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-14T23:08:26Z",
+          "title": "Fire Moveup"
+        }
+      ],
+      "priority_score": 26,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000017210"
+      ],
+      "related_ids": [
+        "hrfe-hf26000017210"
+      ],
+      "metadata": {
+        "call_number": "HF26000017210",
+        "response": "E14",
+        "decoded_units": [
+          {
+            "code": "E14",
+            "label": "Engine 14",
+            "kind": "apparatus",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E14 — Engine 14",
+        "response_summary": "Emergency response: Engine 14.",
+        "decoded_response": [
+          {
+            "code": "E14",
+            "label": "Engine 14",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": [],
+        "geocode_key": "v2:SECOND ST DARTMOUTH",
+        "first_reported_at": "2026-11-14T23:08:26Z",
+        "source_names": [
+          "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
         ]
       }
     },
@@ -87772,6 +87676,114 @@
         "response_unknown_codes": [],
         "geocode_key": "v2:ST MARGARETS BAY RD TIMBERLEA",
         "first_reported_at": "2026-11-13T04:53:36Z",
+        "source_names": [
+          "Halifax Regional Fire & Emergency"
+        ],
+        "source_classes": [
+          "first_party"
+        ]
+      }
+    },
+    {
+      "id": "evt-f1eadcf31c216ee9ab",
+      "source": "Halifax Regional Fire & Emergency",
+      "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000017211",
+      "title": "Medical Assistance",
+      "summary": "Medical first-response: Engines 55 and 65 and Station 55 assignment.",
+      "category": "EMS",
+      "reported_at": "2026-11-14T23:16:47Z",
+      "source_kind": "official",
+      "confidence": "official",
+      "subtype": "MEDICAL ASSISTANCE",
+      "updated_at": null,
+      "status": "active",
+      "location_text": "PEGGYS COVE RD, GLEN HAVEN",
+      "lat": 44.6606414,
+      "lon": -63.9014597,
+      "location_precision": "approximate_geocode",
+      "severity": 2,
+      "siren_score": 48,
+      "seriousness_score": 28,
+      "source_class": "first_party",
+      "event_type": "medical_response",
+      "canonical_location": "PEGGYS COVE GLEN HAVEN",
+      "neighbourhood": null,
+      "cluster_id": "evt-f1eadcf31c216ee9ab",
+      "evidence_count": 1,
+      "source_count": 1,
+      "evidence": [
+        {
+          "id": "hrfe-hf26000017211",
+          "source": "Halifax Regional Fire & Emergency",
+          "source_url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed#HF26000017211",
+          "source_class": "first_party",
+          "confidence": "official",
+          "reported_at": "2026-11-14T23:16:47Z",
+          "title": "Medical Assistance"
+        }
+      ],
+      "priority_score": 22,
+      "priority_band": "moderate",
+      "impact_scope": "local",
+      "attention_reasons": [],
+      "signals": [
+        "official_dispatch",
+        "responding_units"
+      ],
+      "raw_ids": [
+        "HF26000017211"
+      ],
+      "related_ids": [
+        "hrfe-hf26000017211"
+      ],
+      "metadata": {
+        "call_number": "HF26000017211",
+        "response": "E55 E65 STN55",
+        "decoded_units": [
+          {
+            "code": "E55",
+            "label": "Engine 55",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "E65",
+            "label": "Engine 65",
+            "kind": "apparatus",
+            "confidence": "verified"
+          },
+          {
+            "code": "STN55",
+            "label": "Station 55 assignment",
+            "kind": "station",
+            "confidence": "verified"
+          }
+        ],
+        "decoded_unit_text": "E55 — Engine 55 · E65 — Engine 65 · STN55 — Station 55 assignment",
+        "response_summary": "Medical first-response: Engines 55 and 65 and Station 55 assignment.",
+        "decoded_response": [
+          {
+            "code": "E55",
+            "label": "Engine 55",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "E65",
+            "label": "Engine 65",
+            "kind": "apparatus",
+            "certainty": "confirmed"
+          },
+          {
+            "code": "STN55",
+            "label": "Station 55 assignment",
+            "kind": "station",
+            "certainty": "confirmed"
+          }
+        ],
+        "response_unknown_codes": [],
+        "geocode_key": "v2:PEGGYS COVE RD GLEN HAVEN",
+        "first_reported_at": "2026-11-14T23:16:47Z",
         "source_names": [
           "Halifax Regional Fire & Emergency"
         ],
@@ -90803,7 +90815,7 @@
       "title": "BlackHawk at Casino Nova Scotia in Halifax Nov 14 2026 Casino Nova Scotia",
       "summary": "BlackHawk at Casino Nova Scotia in Halifax Nov 14 2026 Casino Nova Scotia",
       "category": "EVENT",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -90830,7 +90842,7 @@
           "source_url": "https://downtownhalifax.ca/event/blackhawk-casino-nova-scotia-halifax",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "BlackHawk at Casino Nova Scotia in Halifax Nov 14 2026 Casino Nova Scotia"
         }
       ],
@@ -90849,7 +90861,7 @@
       ],
       "metadata": {
         "geocode_key": "v2:DOWNTOWN HALIFAX",
-        "first_reported_at": "2026-11-15T03:05:57Z",
+        "first_reported_at": "2026-11-15T03:17:37Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -90865,7 +90877,7 @@
       "title": "Temple of Eros Nov 14 2026 Casey Vale",
       "summary": "Temple of Eros Nov 14 2026 Casey Vale",
       "category": "EVENT",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -90892,7 +90904,7 @@
           "source_url": "https://downtownhalifax.ca/event/temple-eros",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "Temple of Eros Nov 14 2026 Casey Vale"
         }
       ],
@@ -90911,7 +90923,7 @@
       ],
       "metadata": {
         "geocode_key": "v2:DOWNTOWN HALIFAX",
-        "first_reported_at": "2026-11-15T03:05:57Z",
+        "first_reported_at": "2026-11-15T03:17:37Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -90927,7 +90939,7 @@
       "title": "City Wide Gallery Hop - November 14, 12-5pm Nov 14 2026 The Prow Gallery",
       "summary": "City Wide Gallery Hop - November 14, 12-5pm Nov 14 2026 The Prow Gallery",
       "category": "EVENT",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -90954,7 +90966,7 @@
           "source_url": "https://downtownhalifax.ca/event/city-wide-gallery-hop-november-14-12-5pm",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "City Wide Gallery Hop - November 14, 12-5pm Nov 14 2026 The Prow Gallery"
         }
       ],
@@ -90973,7 +90985,7 @@
       ],
       "metadata": {
         "geocode_key": "v2:DOWNTOWN HALIFAX",
-        "first_reported_at": "2026-11-15T03:05:57Z",
+        "first_reported_at": "2026-11-15T03:17:37Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -90989,7 +91001,7 @@
       "title": "Halifax and Bedford Gallery Hop - Teichert Gallery- featuring Bob Hainstock Artist Talk at 1 pm Nov 14 2026 Teichert Gallery",
       "summary": "Halifax and Bedford Gallery Hop - Teichert Gallery- featuring Bob Hainstock Artist Talk at 1 pm Nov 14 2026 Teichert Gallery",
       "category": "EVENT",
-      "reported_at": "2026-11-15T03:05:57Z",
+      "reported_at": "2026-11-15T03:17:37Z",
       "source_kind": "event",
       "confidence": "listing",
       "subtype": "downtown_event",
@@ -91016,7 +91028,7 @@
           "source_url": "https://downtownhalifax.ca/event/halifax-and-bedford-gallery-hop-teichert-gallery-featuring-bob-hainstock-artist-talk-1-pm",
           "source_class": "listing",
           "confidence": "listing",
-          "reported_at": "2026-11-15T03:05:57Z",
+          "reported_at": "2026-11-15T03:17:37Z",
           "title": "Halifax and Bedford Gallery Hop - Teichert Gallery- featuring Bob Hainstock Artist Talk at 1 pm Nov 14 2026 Teichert Gallery"
         }
       ],
@@ -91035,7 +91047,7 @@
       ],
       "metadata": {
         "geocode_key": "v2:DOWNTOWN HALIFAX",
-        "first_reported_at": "2026-11-15T03:05:57Z",
+        "first_reported_at": "2026-11-15T03:17:37Z",
         "source_names": [
           "Downtown Halifax events"
         ],
@@ -113241,7 +113253,7 @@
       "url": "https://www.portofhalifax.ca/cruise/cruise-schedule/",
       "authority": "official schedule",
       "status": "error",
-      "checked_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:37Z",
       "fetched_at": null,
       "records": 0,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portofhalifax.ca/cruise/cruise-schedule/",
@@ -113252,8 +113264,8 @@
       "url": "https://511.novascotia.ca/list/events/traffic",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 0,
       "error": null,
       "notes": "Official traffic-event text report. Zero parsed rows can legitimately mean there are no listed HRM traffic events at collection time."
@@ -113263,8 +113275,8 @@
       "url": "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=Halifax%20sirens",
       "authority": "community",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:56Z",
-      "fetched_at": "2026-11-15T03:05:58Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 298,
       "error": null,
       "notes": "Broad public Halifax disruption search. Each query independently falls back across both Bluesky AppView hosts; partial query failures do not discard successful search results."
@@ -113274,8 +113286,8 @@
       "url": "https://bsky.app/",
       "authority": "mixed",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:58Z",
-      "fetched_at": "2026-11-15T03:05:58Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 180,
       "error": null,
       "notes": "4/4 configured accounts reachable; includes official, community and automated mirrors."
@@ -113285,8 +113297,8 @@
       "url": "https://nis.ccg-gcc.gc.ca/public/rest/messages/en/search?q=Halifax&status=PUBLISHED",
       "authority": "official Canadian Coast Guard",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:06:00Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:39Z",
       "records": 2,
       "error": null,
       "notes": "Recent published NAVWARNs mentioning Halifax/Bedford Basin; older standing marine notices are excluded from the incident timeline."
@@ -113296,8 +113308,8 @@
       "url": "https://cwfis.cfs.nrcan.gc.ca/interactive-map",
       "authority": "official federal wildfire data",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 0,
       "error": null,
       "notes": "CWFIS active-fire records within 100 km of downtown Halifax; out/extinguished records are excluded."
@@ -113307,8 +113319,8 @@
       "url": "https://downtownhalifax.ca/events",
       "authority": "event listing",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:58Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 4,
       "error": null,
       "notes": "Only events whose published date range includes today are emitted as context."
@@ -113318,8 +113330,8 @@
       "url": "https://emergencyinfo.novascotia.ca/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 56,
       "error": null,
       "notes": "Provincial public-message ArcGIS view; avoids website TLS/rendering failures while preserving the same emergency-information source."
@@ -113329,8 +113341,8 @@
       "url": "https://weather.gc.ca/rss/battleboard/ns1_e.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 1,
       "error": null,
       "notes": "Halifax Metro and Halifax County West near-real-time public weather alert Atom feed."
@@ -113340,8 +113352,8 @@
       "url": "https://weather.gc.ca/marine/forecast_e.html?mapID=15&siteID=06000",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 0,
       "error": null,
       "notes": "Environment Canada warnings specifically for Halifax Harbour and Approaches; emits no row when no warning is in effect."
@@ -113351,8 +113363,8 @@
       "url": "https://halifaxharbourbridges.ca/traffic/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 0,
       "error": null,
       "notes": "Live bridge traffic/closure page. Only disruption-like text is emitted into the incident timeline."
@@ -113362,8 +113374,8 @@
       "url": "https://www.halifax.ca/safety-security/fire-emergency/hrfe-incident-feed/rss.xml",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:56Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:36Z",
       "records": 53,
       "error": null,
       "notes": "Official HRFE RSS dispatch feed with official HTML fallback. Response codes are retained verbatim and decoded into human-readable apparatus/command labels; inferred code expansions remain marked in metadata."
@@ -113373,8 +113385,8 @@
       "url": "https://bsky.app/profile/hfxgov.bsky.social",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:56Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:36Z",
       "records": 38,
       "error": null,
       "notes": "Official HRM social updates filtered to disruption/public-safety terms. HRM directs residents to this account during emergency events."
@@ -113384,8 +113396,8 @@
       "url": "https://www.halifax.ca/home/news?category=25",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:56Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 10,
       "error": null,
       "notes": "Official HRP releases; current release-card parser with a bounded dated-link fallback."
@@ -113395,8 +113407,8 @@
       "url": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:56Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 57,
       "error": null,
       "notes": "Official GTFS-Realtime alerts; data licensed under the Open Government Licence — Halifax."
@@ -113406,8 +113418,8 @@
       "url": "https://www.halifaxwater.ca/notices-and-news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 6,
       "error": null,
       "notes": "Official dated notice cards. Source publication time is preserved; archive-only rows explicitly identify their last-updated timestamp."
@@ -113417,8 +113429,8 @@
       "url": "https://www.halifaxwater.ca/alerts",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 1,
       "error": null,
       "notes": "Current Halifax Water alert banner/list; historical alerts are excluded at the parser boundary."
@@ -113428,8 +113440,8 @@
       "url": "https://data-hrm.hub.arcgis.com/datasets/HRM::hrfe-incident-initial-response",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:56Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:36Z",
       "records": 200,
       "error": null,
       "notes": "Periodic HRFE open-data layer used as a second incident source/enrichment path. Source timestamps are preserved; no guessed offset correction is applied."
@@ -113439,8 +113451,8 @@
       "url": "https://bsky.app/profile/hrfeincidents.bsky.social",
       "authority": "secondary automated mirror",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:36Z",
       "records": 0,
       "error": null,
       "notes": "2/2 HRFE mirror accounts reachable. Primary mirror states it republishes the HRFE RSS incident feed and may lag by up to five minutes. Not operated by HRFE."
@@ -113450,8 +113462,8 @@
       "url": "https://services2.arcgis.com/11XBiaBYA9Ep0yNJ/ArcGIS/rest/services/Street_Closures_Active/FeatureServer/0",
       "authority": "official open data",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:36Z",
       "records": 18,
       "error": null,
       "notes": "HRM's active planned/permitted street-closure layer. Useful context for blocked roads and unusual response routing; not an emergency feed."
@@ -113461,8 +113473,8 @@
       "url": "https://www.halifax.ca/home/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:56Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 0,
       "error": null,
       "notes": "Current HRM newsroom filtered to public-safety, transportation and disruption terms."
@@ -113472,8 +113484,8 @@
       "url": "https://globalnews.ca/halifax/feed/",
       "authority": "news / aggregator",
       "status": "ok",
-      "checked_at": "2026-11-15T03:06:31Z",
-      "fetched_at": "2026-11-15T03:06:31Z",
+      "checked_at": "2026-11-15T03:18:12Z",
+      "fetched_at": "2026-11-15T03:18:12Z",
       "records": 17,
       "error": null,
       "notes": "5/11 feeds reachable. Items require Halifax-area geography plus nearby public-safety/disruption language; reports are not treated as dispatch confirmation."
@@ -113483,8 +113495,8 @@
       "url": "https://www.nshealth.ca/service-statuses-closures-and-cancellations",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:38Z",
       "records": 0,
       "error": null,
       "notes": "Current Nova Scotia Health disruptions/advisories filtered to urban HRM facilities; provincial non-HRM closures are excluded and locality evidence is required for a healthy zero."
@@ -113494,8 +113506,8 @@
       "url": "https://outagemap.hfxdeploy.com/api/outages",
       "authority": "secondary",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 6,
       "error": null,
       "notes": "Machine-readable helper linked to the official NSP map. Routine small outages are suppressed; threshold defaults to 100 customers."
@@ -113505,8 +113517,8 @@
       "url": "https://rcmp.ca/en/nova-scotia/news",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:56Z",
-      "fetched_at": "2026-11-15T03:05:57Z",
+      "checked_at": "2026-11-15T03:17:36Z",
+      "fetched_at": "2026-11-15T03:17:37Z",
       "records": 0,
       "error": null,
       "notes": "RCMP Nova Scotia releases filtered to HRM-area place names."
@@ -113516,8 +113528,8 @@
       "url": "https://www.reddit.com/r/halifax/new/",
       "authority": "community",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:58Z",
-      "fetched_at": "2026-11-15T03:05:58Z",
+      "checked_at": "2026-11-15T03:17:38Z",
+      "fetched_at": "2026-11-15T03:17:38Z",
       "records": 1,
       "error": null,
       "notes": "1/2 subreddits reachable via r/halifax:rss. JSON is preferred; Atom/RSS is the fallback. Usernames are not persisted."
@@ -113527,8 +113539,8 @@
       "url": "https://www.smu.ca/alert/",
       "authority": "official",
       "status": "ok",
-      "checked_at": "2026-11-15T03:05:57Z",
-      "fetched_at": "2026-11-15T03:05:58Z",
+      "checked_at": "2026-11-15T03:17:37Z",
+      "fetched_at": "2026-11-15T03:17:38Z",
       "records": 0,
       "error": null,
       "notes": "Saint Mary's current closure/interruption page; normal operating status produces zero events."

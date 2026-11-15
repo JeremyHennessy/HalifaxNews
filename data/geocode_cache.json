@@ -23,6 +23,12 @@
     "precision": "approximate_geocode",
     "query": "AVENUE DU PORTAGE, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:BAYVIEW DR HACKETTS COVE": {
+    "lat": 44.5724839,
+    "lon": -63.9271239,
+    "precision": "approximate_geocode",
+    "query": "BAYVIEW DR, HACKETTS COVE, Nova Scotia, Canada"
+  },
   "v2:BEAVER BANK RD BEAVER BANK": {
     "lat": 44.8757625,
     "lon": -63.6989598,
@@ -52,6 +58,12 @@
     "lon": -63.5797895,
     "precision": "approximate_geocode",
     "query": "BRUNSWICK ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:CASTLEWOOD DR COLE HARBOUR": {
+    "lat": 44.6646014,
+    "lon": -63.4870312,
+    "precision": "approximate_geocode",
+    "query": "CASTLEWOOD DR, COLE HARBOUR, Nova Scotia, Canada"
   },
   "v2:CHARLES RD TIMBERLEA": {
     "lat": 44.6568862,
@@ -263,6 +275,12 @@
     "precision": "approximate_geocode",
     "query": "JUBILEE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:KATA CRT HAMMONDS PLAINS": {
+    "lat": 44.7231134,
+    "lon": -63.838244,
+    "precision": "approximate_geocode",
+    "query": "KATA CRT, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
   "v2:KAYE ST LOWER SACKVILLE": {
     "lat": 44.7691456,
     "lon": -63.6805153,
@@ -358,6 +376,12 @@
     "lon": -63.6721251,
     "precision": "approximate_geocode",
     "query": "MEADOWBROOK DR, BEDFORD, Nova Scotia, Canada"
+  },
+  "v2:MOUNTAIN RD HALIFAX": {
+    "lat": 44.6310091,
+    "lon": -63.6236468,
+    "precision": "approximate_geocode",
+    "query": "MOUNTAIN RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:NORA BERNARD ST HALIFAX": {
     "lat": 44.651517,
@@ -485,6 +509,12 @@
     "precision": "approximate_geocode",
     "query": "ROSLEY RD, BEAVER BANK, Nova Scotia, Canada"
   },
+  "v2:ROSS RD WESTPHAL": {
+    "lat": 44.6958242,
+    "lon": -63.4585758,
+    "precision": "approximate_geocode",
+    "query": "ROSS RD, WESTPHAL, Nova Scotia, Canada"
+  },
   "v2:SACKVILLE DR LOWER SACKVILLE": {
     "lat": 44.7751167,
     "lon": -63.6943846,
@@ -508,6 +538,12 @@
     "lon": -63.5716723,
     "precision": "approximate_geocode",
     "query": "SALTER ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:SANCTUARY CRT FALL RIVER": {
+    "lat": 44.8269692,
+    "lon": -63.5891037,
+    "precision": "approximate_geocode",
+    "query": "SANCTUARY CRT, FALL RIVER, Nova Scotia, Canada"
   },
   "v2:SECOND ST DARTMOUTH": {
     "lat": 44.6855539,
