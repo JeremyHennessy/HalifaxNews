@@ -83,6 +83,12 @@
     "precision": "approximate_geocode",
     "query": "CHARLES RD, TIMBERLEA, Nova Scotia, Canada"
   },
+  "v2:CHERRYWOOD DR COLE HARBOUR": {
+    "lat": 44.6602583,
+    "lon": -63.4968356,
+    "precision": "approximate_geocode",
+    "query": "CHERRYWOOD DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:CHISHOLM AVE HALIFAX": {
     "lat": 44.658048,
     "lon": -63.6213602,
@@ -244,6 +250,12 @@
     "lon": -63.6298812,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 102, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:HIGHWAY 2 FALL RIVER": {
+    "lat": 44.7994594,
+    "lon": -63.6059865,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 2, FALL RIVER, Nova Scotia, Canada"
   },
   "v2:HIGHWAY 7 GAETZ BROOK": {
     "lat": 44.7656437,
@@ -425,6 +437,12 @@
     "precision": "approximate_geocode",
     "query": "MATADOR CRT, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:MCALPINE AVE HALIFAX": {
+    "lat": 44.657253,
+    "lon": -63.6211871,
+    "precision": "approximate_geocode",
+    "query": "MCALPINE AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:MEADOWBROOK DR BEDFORD": {
     "lat": 44.7268184,
     "lon": -63.6721251,
@@ -436,6 +454,12 @@
     "lon": -63.5148639,
     "precision": "approximate_geocode",
     "query": "MEDWAY CRT, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:MILLWOOD DR MIDDLE SACKVILLE": {
+    "lat": 44.7928747,
+    "lon": -63.7069339,
+    "precision": "approximate_geocode",
+    "query": "MILLWOOD DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
   },
   "v2:MOIRA ST DARTMOUTH": {
     "lat": 44.6798498,
@@ -538,6 +562,12 @@
     "lon": -63.7140736,
     "precision": "approximate_geocode",
     "query": "PROSPECT RD, HATCHET LAKE, Nova Scotia, Canada"
+  },
+  "v2:RALEIGH CRT HALIFAX": {
+    "lat": 44.6641393,
+    "lon": -63.6658717,
+    "precision": "approximate_geocode",
+    "query": "RALEIGH CRT, HALIFAX, Nova Scotia, Canada"
   },
   "v2:RAYMOND DR LOWER SACKVILLE": {
     "lat": 44.774214,
