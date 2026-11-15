@@ -11,6 +11,12 @@
     "precision": "approximate_geocode",
     "query": "ALBRO LAKE RD, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:ASTRAL DR COLE HARBOUR": {
+    "lat": 44.6504434,
+    "lon": -63.4744468,
+    "precision": "approximate_geocode",
+    "query": "ASTRAL DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:ATLANTIC ST DARTMOUTH": {
     "lat": 44.651155,
     "lon": -63.5429257,
@@ -58,6 +64,12 @@
     "lon": -63.5797895,
     "precision": "approximate_geocode",
     "query": "BRUNSWICK ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:CALEDONIA RD DARTMOUTH": {
+    "lat": 44.6896525,
+    "lon": -63.5317614,
+    "precision": "approximate_geocode",
+    "query": "CALEDONIA RD, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:CASTLEWOOD DR COLE HARBOUR": {
     "lat": 44.6646014,
@@ -118,6 +130,12 @@
     "lon": -63.4613127,
     "precision": "approximate_geocode",
     "query": "COW BAY RD, EASTERN PASSAGE, Nova Scotia, Canada"
+  },
+  "v2:CRANE LANE EAST PRESTON": {
+    "lat": 44.7211348,
+    "lon": -63.4401765,
+    "precision": "approximate_geocode",
+    "query": "CRANE LANE, EAST PRESTON, Nova Scotia, Canada"
   },
   "v2:DAVID PAUL DR HAMMONDS PLAINS": {
     "lat": 44.7322097,
