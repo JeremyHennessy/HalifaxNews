@@ -9,8 +9,8 @@
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="preconnect" href="https://unpkg.com" crossorigin />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
-  <link rel="stylesheet" href="assets/styles.css?v=20261115-coverage" />
-  <link rel="stylesheet" href="assets/ui-fix.css?v=20261115-coverage" />
+  <link rel="stylesheet" href="assets/styles.css?v=20261115-views" />
+  <link rel="stylesheet" href="assets/ui-fix.css?v=20261115-views" />
 </head>
 <body>
   <header class="topbar">
@@ -79,6 +79,7 @@
           <span id="visibleCount" class="count-badge">0</span>
         </div>
 
+        <div class="quick-views" aria-label="Quick timeline views"><div><strong>Choose your view</strong><small>Shortcuts change timeline and map filters only.</small></div><div class="quick-view-buttons"><button data-preset="downtown">Downtown · 3h</button><button data-preset="latest">Latest · all areas</button><button data-preset="transport">Traffic & transport</button><button data-preset="wide">Explore · 48h</button></div></div>
         <div class="filters" id="filters" aria-label="Signal filters">
           <button class="filter active" data-filter="ALL">All</button>
           <button class="filter" data-filter="FIRE">Fire</button>
@@ -117,6 +118,7 @@
           </select>
         </div>
 
+        <div class="reading-controls"><label>Evidence <select id="sourceMode" aria-label="Source evidence filter"><option value="all">All source types</option><option value="first_party">Has first-party evidence</option><option value="noncommunity">Exclude community-only</option></select></label><label><input type="checkbox" id="compactView" /> Compact timeline</label><small>First-party does not mean independently confirmed.</small></div>
         <div class="filter-summary"><span id="filterSummary">Downtown · last 12 hours · all categories</span><button id="resetFilters" type="button">Reset filters</button></div>
         <div id="incidentFeed" class="incident-feed" aria-live="polite"></div>
       </div>
@@ -128,6 +130,7 @@
             <span class="map-note">Approx. where noted</span>
           </div>
           <div id="map" aria-label="Map of Halifax signals"></div>
+          <p id="mapCoverage" class="map-coverage">Location coverage will appear after loading.</p>
           <div class="map-legend"><span><b class="legend-dot official"></b> First-party/news</span><span><b class="legend-dot community"></b> Community/secondary</span></div>
         </div>
 
@@ -170,6 +173,6 @@
   </template>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script type="module" src="assets/app.js?v=20261115-coverage"></script>
+  <script type="module" src="assets/app.js?v=20261115-views"></script>
 </body>
 </html>

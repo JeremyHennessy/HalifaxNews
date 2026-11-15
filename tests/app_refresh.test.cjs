@@ -11,7 +11,7 @@ function harness(fetch, { realRender = false } = {}) {
   const getElement = id => {
     if (!elements.has(id)) elements.set(id, {
       innerHTML: '', textContent: '', className: '', disabled: false,
-      classList: { add() {}, remove() {} }, attributes: {},
+      classList: { add() {}, remove() {}, toggle() {} }, attributes: {},
       setAttribute(key, value) { this.attributes[key] = value; },
     });
     return elements.get(id);
@@ -143,8 +143,9 @@ test('actual render failure restores every panel from the last good snapshot', a
   const app = harness(async () => response(payload), { realRender: true });
   await app.load();
   const good = app.payload, feed = app.el('incidentFeed').innerHTML;
-  // Real renderMetrics updates the count before real renderHealth attempts a DOM
-  // operation unavailable in this test document. This simulates a partial render.
+  // Inject a deterministic DOM failure after metrics changed; ordinary health
+  // rendering no longer requires createElement.
+  app.run('const originalHealth = renderHealth; renderHealth = function(){if(state.payload.source_health.length)throw Error("DOM failure");originalHealth();}');
   payload = { ...dataset(), observation_count: 19, source_health: [{ status: 'ok' }] };
   await app.load();
   assert.equal(app.payload, good);
@@ -158,6 +159,7 @@ test('actual render failure restores every panel from the last good snapshot', a
 test('initial rendering failure clears partial panels and permits recovery', async () => {
   let payload = { ...dataset(), observation_count: 19, source_health: [{ status: 'ok' }] };
   const app = harness(async () => response(payload), { realRender: true });
+  app.run('const originalHealth = renderHealth; renderHealth = function(){if(state.payload.source_health.length)throw Error("DOM failure");originalHealth();}');
   app.run('state.layer = { clearLayers() { el("map").innerHTML = "cleared"; } }');
   await app.load({ userInitiated: true });
   assert.equal(app.payload, null);
@@ -210,4 +212,47 @@ test('reset filters restores consistent state and controls', () => {
  const app=harness(async()=>response(dataset()));
  app.run(`document.querySelectorAll=()=>[];renderFeed=()=>{};Object.assign(state,{category:'POLICE',downtownOnly:false,hideCommunity:true,hours:48,minPriority:60,search:'abc',sort:'newest'});resetFilters()`);
  assert.equal(app.run('state.category'),'ALL');assert.equal(app.run('state.hours'),12);assert.equal(app.run('state.search'),'');assert.equal(app.el('downtownOnly').checked,true);assert.equal(app.el('feedSearch').value,'');assert.equal(app.el('timeRange').value,'12');
+});
+
+
+test('quick views deterministically reset hidden filters without location access', () => {
+ const app=harness(async()=>response(dataset()));
+ app.run("document.querySelectorAll=()=>[]; renderFeed=()=>{}; state.search='old'; state.category='FIRE';state.sourceMode='first_party';applyPreset('transport')");
+ assert.equal(app.run('state.transportOnly'),true);
+ assert.equal(app.run('state.downtownOnly'),false);
+ assert.equal(app.run('state.search'),'');
+ assert.equal(app.el('timeRange').value,'24');
+ app.run("applyPreset('downtown')");
+ assert.equal(app.run('state.transportOnly'),false);
+ assert.equal(app.run('state.hours'),3);
+ assert.equal(app.run('state.downtownOnly'),true);
+ app.run('resetFilters()');
+ assert.equal(app.run('state.sourceMode'),'all');
+ assert.equal(app.run('state.compact'),false);
+});
+test('transport and evidence filters are explicit independent predicates',()=>{
+ const app=harness(async()=>response(dataset()));
+ app.run(`state.downtownOnly=false;state.payload={events:[
+ {title:'Traffic',category:'TRAFFIC',reported_at:new Date().toISOString(),evidence:[{source_class:'first_party'}]},
+ {title:'Bus',category:'TRANSIT',reported_at:new Date().toISOString(),evidence:[{source_class:'community'}]},
+ {title:'Fire',category:'FIRE',reported_at:new Date().toISOString(),evidence:[{source_class:'first_party'}]}
+ ]};state.transportOnly=true`);
+ assert.equal(app.run('visibleRows().length'),2);
+ app.run("state.sourceMode='first_party'");assert.equal(app.run('visibleRows().length'),1);
+ app.run("state.sourceMode='noncommunity'");assert.equal(app.run('visibleRows()[0].title'),'Traffic');
+});
+test('map reports unmapped coverage even without a map library',()=>{
+ const app=harness(async()=>response(dataset()));
+ app.run('renderMap([{lat:44.6,lon:-63.5},{title:"unlocated"}])');
+ assert.match(app.el('mapCoverage').textContent,/1 of 2 filtered reports/);
+ assert.match(app.el('mapCoverage').textContent,/Unmapped reports remain/);
+});
+
+test('collector health prioritizes failures and keeps successful timestamps expandable',()=>{
+ const app=harness(async()=>response(dataset()));
+ app.run(`state.payload={source_health:[{source:'Good',status:'ok',checked_at:new Date().toISOString()},{source:'Bad',status:'error',error:'failed'}]};renderHealth()`);
+ const html=app.el('sourceHealth').innerHTML;
+ assert.ok(html.indexOf('Bad')<html.indexOf('Good'));
+ assert.match(html,/<details class="healthy-drawer">/);
+ assert.match(html,/1 collectors need attention/);
 });

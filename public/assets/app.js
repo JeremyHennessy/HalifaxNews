@@ -10,7 +10,7 @@ const downtownWords = [
 
 const state = {
   payload:null, category:'ALL', downtownOnly:true, hideCommunity:false, hours:12, minPriority:0,
-  search:'', sort:'priority', map:null, layer:null, refreshFeedbackTimer:null, loading:false, loadError:null,
+  search:'', sort:'priority', sourceMode:'all', compact:false, transportOnly:false, map:null, layer:null, refreshFeedbackTimer:null, loading:false, loadError:null,
 };
 
 const el = id => document.getElementById(id);
@@ -31,6 +31,9 @@ function allCommunity(row){const evidence=sourceEvidence(row);return evidence.le
 function visibleRows(){
   const q=state.search.trim().toLowerCase();
   const out=rows().filter(row=>{
+    if(state.transportOnly&&!['TRAFFIC','TRANSIT','MARINE'].includes(row.category))return false;
+    if(state.sourceMode==='first_party'&&!sourceEvidence(row).some(e=>e.source_class==='first_party'||e.source_kind==='first_party'))return false;
+    if(state.sourceMode==='noncommunity'&&allCommunity(row))return false;
     if(state.category!=='ALL'&&row.category!==state.category)return false;
     if(state.downtownOnly&&!isDowntown(row))return false;
     if(state.hideCommunity&&allCommunity(row))return false;
@@ -100,7 +103,8 @@ function renderEvidence(row){
   return`<details class="evidence-drawer"><summary>${evidence.length} source observation${evidence.length===1?'':'s'} <span>view evidence</span></summary><div>${items}</div></details>`;
 }
 function renderFeed(){
-  const summary=el('filterSummary');if(summary)summary.textContent=`${state.downtownOnly?'Downtown':'All areas'} · last ${state.hours}h · ${state.category==='ALL'?'all categories':state.category.toLowerCase()}${state.search?' · search active':''}`;
+  const compact=el('incidentFeed');if(compact)compact.classList.toggle('compact',state.compact);
+  const summary=el('filterSummary');if(summary)summary.textContent=`${state.downtownOnly?'Downtown':'All areas'} · last ${state.hours}h · ${state.transportOnly?'transport':state.category==='ALL'?'all categories':state.category.toLowerCase()} · ${state.sourceMode==='first_party'?'first-party evidence':state.sourceMode==='noncommunity'?'excluding community-only':'all source types'}${state.search?' · search active':''}`;
   const list=visibleRows();el('visibleCount').textContent=list.length;const feed=el('incidentFeed');feed.innerHTML='';
   if(!list.length){feed.innerHTML='<div class="empty-feed">No normalized events match these filters. This does not mean no incident exists; check source health and broaden the filters.</div>';renderMap(list);return;}
   const tpl=el('incidentTemplate');
@@ -112,13 +116,18 @@ function initMap(){
   state.map=L.map('map',{zoomControl:false,attributionControl:true}).setView(DOWNTOWN_CENTER,14);L.control.zoom({position:'bottomright'}).addTo(state.map);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(state.map);state.layer=L.layerGroup().addTo(state.map);L.circle(DOWNTOWN_CENTER,{radius:DOWNTOWN_RADIUS_KM*1000,color:'#56d3c2',weight:1,opacity:.25,fillOpacity:.015,dashArray:'4 6'}).addTo(state.map);
 }
 function renderMap(list){
+  const located=list.filter(r=>Number.isFinite(r.lat)&&Number.isFinite(r.lon));
+  const coverage=el('mapCoverage');if(coverage)coverage.textContent=`${located.length} of ${list.length} filtered reports have coordinates${located.length>100?' · showing first 100':''}. Unmapped reports remain in the timeline; positions may be approximate.`;
   if(!state.map||!state.layer)return;state.layer.clearLayers();
   const colors={critical:'#ff6b62',high:'#f4bc63',elevated:'#65a8ff',moderate:'#56d3c2',low:'#8f9baa'};
   list.filter(r=>Number.isFinite(r.lat)&&Number.isFinite(r.lon)).slice(0,100).forEach(row=>{const color=colors[row.priority_band]||colors.low;const radius=5+Math.min(6,Math.round((row.priority_score||0)/20));const marker=L.circleMarker([row.lat,row.lon],{radius,color,weight:2,fillColor:color,fillOpacity:.45});marker.bindPopup(`<strong>${esc(row.title)}</strong><br><span>${esc(row.location_text||'')}</span><br><small>${esc(priorityLabel(row))} · ${row.source_count||1} source${(row.source_count||1)===1?'':'s'} · ${esc(ageLabel(row.reported_at))}</small>`);marker.addTo(state.layer);});
 }
 function renderHealth(){
   const health=state.payload?.source_health||[],good=health.filter(x=>x.status==='ok').length;el('sourceHealthSummary').textContent=health.length?`${good}/${health.length} last checks OK`:'No checks';const box=el('sourceHealth');box.innerHTML='';
-  health.forEach(row=>{const div=document.createElement('div');div.className=`source-row ${row.status==='ok'?'ok':'error'}`;const details=row.status==='ok'?`${row.authority} · checked ${ageLabel(row.checked_at)}`:`${row.authority} · ${row.error||'collector error'}`;div.innerHTML=`<span class="source-dot"></span><div><div class="source-name">${esc(row.source)}</div><div class="source-sub">${esc(details)}</div></div><span class="source-count">${row.records||0}</span>`;box.appendChild(div);});if(!health.length)box.innerHTML='<div class="empty-feed">Collector has not run yet.</div>';
+  const failed=health.filter(row=>row.status!=='ok'), passed=health.filter(row=>row.status==='ok');
+  const markup=row=>{const details=row.status==='ok'?`${row.authority||'Source'} · checked ${ageLabel(row.checked_at)}`:`${row.authority||'Source'} · ${row.error||'collector error'} · checked ${ageLabel(row.checked_at)}`;return `<div class="source-row ${row.status==='ok'?'ok':'error'}"><span class="source-dot"></span><div><div class="source-name">${esc(row.source)}</div><div class="source-sub">${esc(details)}</div></div><span class="source-count">${esc(row.records||0)}</span></div>`;};
+  if(!health.length){box.innerHTML='<div class="empty-feed">Collector has not run yet.</div>';return;}
+  box.innerHTML=(failed.length?`<div class="health-attention"><strong>${failed.length} collectors need attention</strong>${failed.map(markup).join('')}</div>`:'<p class="health-clear">No collector errors in this snapshot. Coverage may still be incomplete.</p>')+(passed.length?`<details class="healthy-drawer"><summary>${passed.length} successful last checks · view timestamps</summary>${passed.map(markup).join('')}</details>`:'');
 }
 function coverageSummary(payload, loadError, now=Date.now()) {
   const generated=parseDate(payload?.generated_at), health=payload?.source_health||[];
@@ -139,9 +148,20 @@ function renderCoverage(){
   el('coverageDetail').textContent=summary.detail;
   box.parentElement?.parentElement?.setAttribute('data-status',summary.status);
 }
+function syncFilterControls(){
+  for(const [id,value] of [['feedSearch',state.search],['timeRange',String(state.hours)],['priorityRange',String(state.minPriority)],['sortOrder',state.sort],['sourceMode',state.sourceMode]])el(id).value=value;
+  el('downtownOnly').checked=state.downtownOnly;el('hideCommunity').checked=state.hideCommunity;el('compactView').checked=state.compact;
+  document.querySelectorAll('.filter').forEach(btn=>{const selected=btn.dataset.filter===state.category;btn.classList.toggle('active',selected);btn.setAttribute('aria-pressed',String(selected));});
+}
+function applyPreset(name){
+  const presets={downtown:{downtownOnly:true,hours:3,sort:'newest'},latest:{downtownOnly:false,hours:12,sort:'newest'},transport:{downtownOnly:false,hours:24,sort:'newest',transportOnly:true},wide:{downtownOnly:false,hours:48,sort:'newest'}};
+  if(!Object.hasOwn(presets,name))return;
+  Object.assign(state,{category:'ALL',hideCommunity:false,minPriority:0,search:'',sourceMode:'all',transportOnly:false},presets[name]);
+  syncFilterControls();renderFeed();
+}
 function resetFilters(){
-  Object.assign(state,{category:'ALL',downtownOnly:true,hideCommunity:false,hours:12,minPriority:0,search:'',sort:'priority'});
-  for(const [id,value] of [['feedSearch',''],['timeRange','12'],['priorityRange','0'],['sortOrder','priority']])el(id).value=value;
+  Object.assign(state,{category:'ALL',downtownOnly:true,hideCommunity:false,hours:12,minPriority:0,search:'',sort:'priority',sourceMode:'all',compact:false,transportOnly:false});
+  syncFilterControls();
   el('downtownOnly').checked=true;el('hideCommunity').checked=false;
   document.querySelectorAll('.filter').forEach(btn=>{const selected=btn.dataset.filter==='ALL';btn.classList.toggle('active',selected);btn.setAttribute('aria-pressed',String(selected));});
   renderFeed();
@@ -284,9 +304,12 @@ async function loadData({cacheBust=false,userInitiated=false}={}){
 }
 function updateClock(){const now=new Date();el('clockTime').textContent=now.toLocaleTimeString('en-CA',{timeZone:HALIFAX_TZ,hour:'2-digit',minute:'2-digit',hour12:false});el('clockDate').textContent=now.toLocaleDateString('en-CA',{timeZone:HALIFAX_TZ,weekday:'short',month:'short',day:'numeric'});}
 function wireControls(){
+  document.querySelectorAll('[data-preset]').forEach(btn=>btn.addEventListener('click',()=>applyPreset(btn.dataset.preset)));
+  el('sourceMode').addEventListener('change',e=>{state.sourceMode=e.target.value;renderFeed();});
+  el('compactView').addEventListener('change',e=>{state.compact=e.target.checked;renderFeed();});
   el('resetFilters').addEventListener('click',resetFilters);
   document.querySelectorAll('.filter').forEach(btn=>btn.setAttribute('aria-pressed',String(btn.dataset.filter===state.category)));
-  document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false');});btn.classList.add('active');btn.setAttribute('aria-pressed','true');state.category=btn.dataset.filter;renderFeed();}));
+  document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false');});btn.classList.add('active');btn.setAttribute('aria-pressed','true');state.category=btn.dataset.filter;state.transportOnly=false;renderFeed();}));
   el('downtownOnly').addEventListener('change',e=>{state.downtownOnly=e.target.checked;renderFeed();});
   el('hideCommunity').addEventListener('change',e=>{state.hideCommunity=e.target.checked;renderFeed();});
   el('priorityRange').addEventListener('change',e=>{state.minPriority=Number(e.target.value);renderFeed();});

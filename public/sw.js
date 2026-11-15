@@ -1,5 +1,5 @@
-const CACHE='hfx-pulse-shell-v5';
-const SHELL=['./','./index.html','./assets/styles.css?v=20261115-coverage','./assets/ui-fix.css?v=20261115-coverage','./assets/app.js?v=20261115-coverage','./manifest.webmanifest'];
+const CACHE='hfx-pulse-shell-v6';
+const SHELL=['./','./index.html','./assets/styles.css?v=20261115-views','./assets/ui-fix.css?v=20261115-views','./assets/app.js?v=20261115-views','./manifest.webmanifest'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(Promise.all([
   caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE&&key.startsWith('hfx-pulse-shell-')).map(key=>caches.delete(key)))),
