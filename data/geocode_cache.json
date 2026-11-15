@@ -413,6 +413,12 @@
     "precision": "approximate_geocode",
     "query": "MEADOWBROOK DR, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:MOIRA ST DARTMOUTH": {
+    "lat": 44.6798498,
+    "lon": -63.5781953,
+    "precision": "approximate_geocode",
+    "query": "MOIRA ST, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:MOUNTAIN RD HALIFAX": {
     "lat": 44.6310091,
     "lon": -63.6236468,
