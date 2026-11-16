@@ -509,6 +509,12 @@
     "precision": "approximate_geocode",
     "query": "MEDWAY CRT, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:MILLS DR GOODWOOD": {
+    "lat": 44.6036369,
+    "lon": -63.6754083,
+    "precision": "approximate_geocode",
+    "query": "MILLS DR, GOODWOOD, Nova Scotia, Canada"
+  },
   "v2:MILLWOOD DR MIDDLE SACKVILLE": {
     "lat": 44.7928747,
     "lon": -63.7069339,
@@ -527,6 +533,12 @@
     "precision": "approximate_geocode",
     "query": "MOUNTAIN RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:MYRA RD PORTERS LAKE": {
+    "lat": 44.7530159,
+    "lon": -63.3262156,
+    "precision": "approximate_geocode",
+    "query": "MYRA RD, PORTERS LAKE, Nova Scotia, Canada"
+  },
   "v2:NORA BERNARD ST HALIFAX": {
     "lat": 44.651517,
     "lon": -63.5852688,
@@ -538,6 +550,12 @@
     "lon": -63.4653816,
     "precision": "approximate_geocode",
     "query": "NORTH PRESTON RD, NORTH PRESTON, Nova Scotia, Canada"
+  },
+  "v2:OCHTERLONEY ST DARTMOUTH": {
+    "lat": 44.6675452,
+    "lon": -63.5673233,
+    "precision": "approximate_geocode",
+    "query": "OCHTERLONEY ST, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:OLIVET ST HALIFAX": {
     "lat": 44.6483749,
@@ -556,6 +574,12 @@
     "lon": -63.6734427,
     "precision": "approximate_geocode",
     "query": "PARKLAND DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:PARKLANE DR LOWER SACKVILLE": {
+    "lat": 44.7645561,
+    "lon": -63.7020417,
+    "precision": "approximate_geocode",
+    "query": "PARKLANE DR, LOWER SACKVILLE, Nova Scotia, Canada"
   },
   "v2:PEGGYS COVE RD GLEN HAVEN": {
     "lat": 44.6606414,
@@ -652,6 +676,12 @@
     "lon": -63.6205576,
     "precision": "approximate_geocode",
     "query": "RIDGE VALLEY RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:ROBERT ST FALL RIVER": {
+    "lat": 44.824998,
+    "lon": -63.5989379,
+    "precision": "approximate_geocode",
+    "query": "ROBERT ST, FALL RIVER, Nova Scotia, Canada"
   },
   "v2:ROCKY LAKE DR BEDFORD": {
     "lat": 44.7485349,
