@@ -11,6 +11,12 @@
     "precision": "approximate_geocode",
     "query": "ALBRO LAKE RD, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:ANDREW ST HALIFAX": {
+    "lat": 44.6568704,
+    "lon": -63.6312799,
+    "precision": "approximate_geocode",
+    "query": "ANDREW ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:ASTRAL DR COLE HARBOUR": {
     "lat": 44.6504434,
     "lon": -63.4744468,
@@ -149,11 +155,23 @@
     "precision": "approximate_geocode",
     "query": "CRANE LANE, EAST PRESTON, Nova Scotia, Canada"
   },
+  "v2:CRESTFIELD DR HAMMONDS PLAINS": {
+    "lat": 44.7231379,
+    "lon": -63.7428115,
+    "precision": "approximate_geocode",
+    "query": "CRESTFIELD DR, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
   "v2:DAVID PAUL DR HAMMONDS PLAINS": {
     "lat": 44.7322097,
     "lon": -63.7635757,
     "precision": "approximate_geocode",
     "query": "DAVID PAUL DR, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
+  "v2:DEERMIST DR PORTERS LAKE": {
+    "lat": 44.715016,
+    "lon": -63.30566,
+    "precision": "approximate_geocode",
+    "query": "DEERMIST DR, PORTERS LAKE, Nova Scotia, Canada"
   },
   "v2:DOWNTOWN HALIFAX": {
     "lat": 44.6461752,
@@ -298,6 +316,12 @@
     "lon": -63.4952541,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 7, WESTPHAL, Nova Scotia, Canada"
+  },
+  "v2:HILL TOP DR PORTERS LAKE": {
+    "lat": 44.7406941,
+    "lon": -63.3028194,
+    "precision": "approximate_geocode",
+    "query": "HILL TOP DR, PORTERS LAKE, Nova Scotia, Canada"
   },
   "v2:HILLSBURN CRT DARTMOUTH": {
     "lat": 44.6722084,
@@ -599,6 +623,12 @@
     "precision": "approximate_geocode",
     "query": "RALEIGH CRT, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:RANKIN DR LOWER SACKVILLE": {
+    "lat": 44.7843564,
+    "lon": -63.6849851,
+    "precision": "approximate_geocode",
+    "query": "RANKIN DR, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:RAYMOND DR LOWER SACKVILLE": {
     "lat": 44.774214,
     "lon": -63.6783711,
@@ -616,6 +646,12 @@
     "lon": -63.7133778,
     "precision": "approximate_geocode",
     "query": "RHODORA DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:RIDGE VALLEY RD HALIFAX": {
+    "lat": 44.6294492,
+    "lon": -63.6205576,
+    "precision": "approximate_geocode",
+    "query": "RIDGE VALLEY RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:ROCKY LAKE DR BEDFORD": {
     "lat": 44.7485349,
