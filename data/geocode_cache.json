@@ -113,6 +113,12 @@
     "precision": "approximate_geocode",
     "query": "COBEQUID RD, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:COLBY DR COLE HARBOUR": {
+    "lat": 44.6606545,
+    "lon": -63.4783446,
+    "precision": "approximate_geocode",
+    "query": "COLBY DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:COLE HARBOUR RD COLE HARBOUR": {
     "lat": 44.6715422,
     "lon": -63.4927238,
@@ -154,6 +160,12 @@
     "lon": -63.5725221,
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
+  },
+  "v2:DUNCAN ST HALIFAX": {
+    "lat": 44.648777,
+    "lon": -63.5992297,
+    "precision": "approximate_geocode",
+    "query": "DUNCAN ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:EAST CHEZZETCOOK RD EAST CHEZZETCOOK": {
     "lat": 44.7429951,
@@ -220,6 +232,12 @@
     "lon": -63.6595783,
     "precision": "approximate_geocode",
     "query": "HAVILAND ST, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:HENRY ST DARTMOUTH": {
+    "lat": 44.6721198,
+    "lon": -63.5868288,
+    "precision": "approximate_geocode",
+    "query": "HENRY ST, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:HERRING COVE RD HALIFAX": {
     "lat": 44.6199921,
@@ -353,6 +371,12 @@
     "precision": "approximate_geocode",
     "query": "KINDLING CRES, MIDDLE SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:KING ST DARTMOUTH": {
+    "lat": 44.6667724,
+    "lon": -63.5686747,
+    "precision": "approximate_geocode",
+    "query": "KING ST, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:KINGSTON CRES DARTMOUTH": {
     "lat": 44.6842229,
     "lon": -63.5699757,
@@ -406,6 +430,12 @@
     "lon": -63.5510004,
     "precision": "approximate_geocode",
     "query": "LOCKS RD, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:LORIANN DR PORTERS LAKE": {
+    "lat": 44.7490096,
+    "lon": -63.28952,
+    "precision": "approximate_geocode",
+    "query": "LORIANN DR, PORTERS LAKE, Nova Scotia, Canada"
   },
   "v2:LUMBERMAN DR MIDDLE SACKVILLE": {
     "lat": 44.7880637,
@@ -646,6 +676,12 @@
     "lon": -63.542703,
     "precision": "approximate_geocode",
     "query": "SECOND ST, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:SEROCCO CRES WESTPHAL": {
+    "lat": 44.6894665,
+    "lon": -63.4845709,
+    "precision": "approximate_geocode",
+    "query": "SEROCCO CRES, WESTPHAL, Nova Scotia, Canada"
   },
   "v2:SETON RD HALIFAX": {
     "lat": 44.669669,
