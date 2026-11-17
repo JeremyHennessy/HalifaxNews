@@ -119,6 +119,12 @@
     "precision": "approximate_geocode",
     "query": "COBEQUID RD, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:COBURG RD HALIFAX": {
+    "lat": 44.6384685,
+    "lon": -63.5933638,
+    "precision": "approximate_geocode",
+    "query": "COBURG RD, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:COLBY DR COLE HARBOUR": {
     "lat": 44.6606545,
     "lon": -63.4783446,
@@ -142,6 +148,12 @@
     "lon": -63.6045542,
     "precision": "approximate_geocode",
     "query": "COLONIAL CRES, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:CONNAUGHT AVE HALIFAX": {
+    "lat": 44.6481729,
+    "lon": -63.6092309,
+    "precision": "approximate_geocode",
+    "query": "CONNAUGHT AVE, HALIFAX, Nova Scotia, Canada"
   },
   "v2:COW BAY RD EASTERN PASSAGE": {
     "lat": 44.6200493,
@@ -400,6 +412,12 @@
     "lon": -63.6031949,
     "precision": "approximate_geocode",
     "query": "KEMPT RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:KETCH HARBOUR RD DUNCANS COVE": {
+    "lat": 44.5124719,
+    "lon": -63.5410916,
+    "precision": "approximate_geocode",
+    "query": "KETCH HARBOUR RD, DUNCANS COVE, Nova Scotia, Canada"
   },
   "v2:KINDLING CRES MIDDLE SACKVILLE": {
     "lat": 44.7833546,
@@ -797,6 +815,12 @@
     "precision": "approximate_geocode",
     "query": "SHERWOOD ST, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:SOUTH ST HALIFAX": {
+    "lat": 44.6373458,
+    "lon": -63.5812747,
+    "precision": "approximate_geocode",
+    "query": "SOUTH ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:SPRUCE AVE LOWER SACKVILLE": {
     "lat": 44.7730373,
     "lon": -63.6852106,
@@ -874,6 +898,12 @@
     "lon": -63.6952501,
     "precision": "approximate_geocode",
     "query": "WEST AVE, BEAVER BANK, Nova Scotia, Canada"
+  },
+  "v2:WEST LAWRENCETOWN RD LAWRENCETOWN": {
+    "lat": 44.650929,
+    "lon": -63.3847721,
+    "precision": "approximate_geocode",
+    "query": "WEST LAWRENCETOWN RD, LAWRENCETOWN, Nova Scotia, Canada"
   },
   "v2:WILKINSON AVE DARTMOUTH": {
     "lat": 44.7214073,
