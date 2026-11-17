@@ -239,6 +239,12 @@
     "precision": "approximate_geocode",
     "query": "GATEWAY RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:GLENDALE DR LOWER SACKVILLE": {
+    "lat": 44.7816022,
+    "lon": -63.6896434,
+    "precision": "approximate_geocode",
+    "query": "GLENDALE DR, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:GOTTINGEN ST HALIFAX": {
     "lat": 44.6514212,
     "lon": -63.5825277,
@@ -370,6 +376,12 @@
     "lon": -63.5074067,
     "precision": "approximate_geocode",
     "query": "HOWARD AVE, EASTERN PASSAGE, Nova Scotia, Canada"
+  },
+  "v2:INGLIS ST HALIFAX": {
+    "lat": 44.6319161,
+    "lon": -63.5861992,
+    "precision": "approximate_geocode",
+    "query": "INGLIS ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:JAMIESON ST DARTMOUTH": {
     "lat": 44.6706466,
@@ -550,6 +562,12 @@
     "lon": -63.5148639,
     "precision": "approximate_geocode",
     "query": "MEDWAY CRT, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:MICMAC BLVD DARTMOUTH": {
+    "lat": 44.6847925,
+    "lon": -63.5566321,
+    "precision": "approximate_geocode",
+    "query": "MICMAC BLVD, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:MILLS DR GOODWOOD": {
     "lat": 44.6036369,
@@ -869,11 +887,23 @@
     "precision": "approximate_geocode",
     "query": "STOCKTON RG, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:SWANTON DR DARTMOUTH": {
+    "lat": 44.6764593,
+    "lon": -63.5081499,
+    "precision": "approximate_geocode",
+    "query": "SWANTON DR, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:TACOMA DR DARTMOUTH": {
     "lat": 44.6832287,
     "lon": -63.5338492,
     "precision": "approximate_geocode",
     "query": "TACOMA DR, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:TAYLORWOOD LANE EASTERN PASSAGE": {
+    "lat": 44.6144759,
+    "lon": -63.4721412,
+    "precision": "approximate_geocode",
+    "query": "TAYLORWOOD LANE, EASTERN PASSAGE, Nova Scotia, Canada"
   },
   "v2:TOWER RD HALIFAX": {
     "lat": 44.6313472,
