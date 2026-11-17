@@ -227,6 +227,12 @@
     "precision": "approximate_geocode",
     "query": "GATEWAY RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:GOTTINGEN ST HALIFAX": {
+    "lat": 44.6514212,
+    "lon": -63.5825277,
+    "precision": "approximate_geocode",
+    "query": "GOTTINGEN ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:GUYSBOROUGH AVE DARTMOUTH": {
     "lat": 44.6823385,
     "lon": -63.5306708,
@@ -359,6 +365,12 @@
     "precision": "approximate_geocode",
     "query": "JAMIESON ST, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:JOAN ELIZABETH WAY PORTERS LAKE": {
+    "lat": 44.7297399,
+    "lon": -63.2937555,
+    "precision": "approximate_geocode",
+    "query": "JOAN ELIZABETH WAY, PORTERS LAKE, Nova Scotia, Canada"
+  },
   "v2:JOHN SAVAGE AVE DARTMOUTH": {
     "lat": 44.7162331,
     "lon": -63.5805492,
@@ -419,6 +431,12 @@
     "precision": "approximate_geocode",
     "query": "LAKECREST DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:LARRY UTECK BLVD HALIFAX": {
+    "lat": 44.7020231,
+    "lon": -63.6753058,
+    "precision": "approximate_geocode",
+    "query": "LARRY UTECK BLVD, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:LEEDS ST HALIFAX": {
     "lat": 44.6691924,
     "lon": -63.6124458,
@@ -466,6 +484,12 @@
     "lon": -63.7122462,
     "precision": "approximate_geocode",
     "query": "LUMBERMAN DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:LYONS AVE HALIFAX": {
+    "lat": 44.617736,
+    "lon": -63.6094319,
+    "precision": "approximate_geocode",
+    "query": "LYONS AVE, HALIFAX, Nova Scotia, Canada"
   },
   "v2:MACLAUGHLIN RD WESTPHAL": {
     "lat": 44.7032733,
@@ -616,6 +640,12 @@
     "lon": -63.4971626,
     "precision": "approximate_geocode",
     "query": "POPLAR DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
+  "v2:PORTLAND HILLS DR DARTMOUTH": {
+    "lat": 44.6656116,
+    "lon": -63.5073335,
+    "precision": "approximate_geocode",
+    "query": "PORTLAND HILLS DR, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:PORTLAND ST DARTMOUTH": {
     "lat": 44.6720405,
@@ -880,5 +910,11 @@
     "lon": -63.8123336,
     "precision": "approximate_geocode",
     "query": "YANKEETOWN RD, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
+  "v2:YOUNG ST HALIFAX": {
+    "lat": 44.6589797,
+    "lon": -63.6032673,
+    "precision": "approximate_geocode",
+    "query": "YOUNG ST, HALIFAX, Nova Scotia, Canada"
   }
 }
