@@ -527,6 +527,12 @@
     "precision": "approximate_geocode",
     "query": "LOCKS RD, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:LONG LAKE DR HAMMONDS PLAINS": {
+    "lat": 44.7057163,
+    "lon": -63.7435857,
+    "precision": "approximate_geocode",
+    "query": "LONG LAKE DR, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
   "v2:LORIANN DR PORTERS LAKE": {
     "lat": 44.7490096,
     "lon": -63.28952,
@@ -689,6 +695,12 @@
     "precision": "approximate_geocode",
     "query": "PINECREST DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:PINEHILL DR LOWER SACKVILLE": {
+    "lat": 44.7648869,
+    "lon": -63.6764161,
+    "precision": "approximate_geocode",
+    "query": "PINEHILL DR, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:PLEASANT ST DARTMOUTH": {
     "lat": 44.6389176,
     "lon": -63.5309722,
@@ -839,6 +851,12 @@
     "precision": "approximate_geocode",
     "query": "SANCTUARY CRT, FALL RIVER, Nova Scotia, Canada"
   },
+  "v2:SARATOGA DR LOWER SACKVILLE": {
+    "lat": 44.7852646,
+    "lon": -63.6819122,
+    "precision": "approximate_geocode",
+    "query": "SARATOGA DR, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:SECOND ST DARTMOUTH": {
     "lat": 44.6855539,
     "lon": -63.542703,
@@ -850,6 +868,12 @@
     "lon": -63.4845709,
     "precision": "approximate_geocode",
     "query": "SEROCCO CRES, WESTPHAL, Nova Scotia, Canada"
+  },
+  "v2:SERPENTINE AVE LAKE LOON": {
+    "lat": 44.7060319,
+    "lon": -63.4976147,
+    "precision": "approximate_geocode",
+    "query": "SERPENTINE AVE, LAKE LOON, Nova Scotia, Canada"
   },
   "v2:SETON RD HALIFAX": {
     "lat": 44.669669,
@@ -977,6 +1001,12 @@
     "precision": "approximate_geocode",
     "query": "WAKEFIELD CRT, MIDDLE SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:WAVERLEY RD WAVERLEY": {
+    "lat": 44.7405466,
+    "lon": -63.5568923,
+    "precision": "approximate_geocode",
+    "query": "WAVERLEY RD, WAVERLEY, Nova Scotia, Canada"
+  },
   "v2:WEST AVE BEAVER BANK": {
     "lat": 44.8771625,
     "lon": -63.6952501,
@@ -1030,6 +1060,12 @@
     "lon": -63.8123336,
     "precision": "approximate_geocode",
     "query": "YANKEETOWN RD, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
+  "v2:YARDING CRT MIDDLE SACKVILLE": {
+    "lat": 44.7936203,
+    "lon": -63.7037373,
+    "precision": "approximate_geocode",
+    "query": "YARDING CRT, MIDDLE SACKVILLE, Nova Scotia, Canada"
   },
   "v2:YOUNG ST HALIFAX": {
     "lat": 44.6589797,
