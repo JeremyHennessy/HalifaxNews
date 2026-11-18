@@ -311,6 +311,18 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 102, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:HIGHWAY 107 DARTMOUTH": {
+    "lat": 44.6943827,
+    "lon": -63.499808,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 107, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:HIGHWAY 2 ENFIELD": {
+    "lat": 44.9194977,
+    "lon": -63.5513193,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 2, ENFIELD, Nova Scotia, Canada"
+  },
   "v2:HIGHWAY 2 FALL RIVER": {
     "lat": 44.7994594,
     "lon": -63.6059865,
@@ -382,6 +394,12 @@
     "lon": -63.5861992,
     "precision": "approximate_geocode",
     "query": "INGLIS ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:JAMES ST TIMBERLEA": {
+    "lat": 44.6588566,
+    "lon": -63.7427974,
+    "precision": "approximate_geocode",
+    "query": "JAMES ST, TIMBERLEA, Nova Scotia, Canada"
   },
   "v2:JAMIESON ST DARTMOUTH": {
     "lat": 44.6706466,
@@ -773,6 +791,12 @@
     "precision": "approximate_geocode",
     "query": "ROSS RD, WESTPHAL, Nova Scotia, Canada"
   },
+  "v2:RUSSELL ST HALIFAX": {
+    "lat": 44.6601488,
+    "lon": -63.5990877,
+    "precision": "approximate_geocode",
+    "query": "RUSSELL ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:SACKVILLE DR LOWER SACKVILLE": {
     "lat": 44.7751167,
     "lon": -63.6943846,
@@ -899,6 +923,12 @@
     "precision": "approximate_geocode",
     "query": "TACOMA DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:TARANAKI DR WESTPHAL": {
+    "lat": 44.6919864,
+    "lon": -63.4924238,
+    "precision": "approximate_geocode",
+    "query": "TARANAKI DR, WESTPHAL, Nova Scotia, Canada"
+  },
   "v2:TAYLORWOOD LANE EASTERN PASSAGE": {
     "lat": 44.6144759,
     "lon": -63.4721412,
@@ -964,6 +994,12 @@
     "lon": -63.606763,
     "precision": "approximate_geocode",
     "query": "WINDSOR ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:WOODWARD CRES HALIFAX": {
+    "lat": 44.659769,
+    "lon": -63.6432891,
+    "precision": "approximate_geocode",
+    "query": "WOODWARD CRES, HALIFAX, Nova Scotia, Canada"
   },
   "v2:YANKEETOWN RD HAMMONDS PLAINS": {
     "lat": 44.7284049,
