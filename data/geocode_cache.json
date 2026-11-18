@@ -437,6 +437,12 @@
     "precision": "approximate_geocode",
     "query": "KAYE ST, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:KEIZER DR PORTERS LAKE": {
+    "lat": 44.7400202,
+    "lon": -63.3049002,
+    "precision": "approximate_geocode",
+    "query": "KEIZER DR, PORTERS LAKE, Nova Scotia, Canada"
+  },
   "v2:KEMPT RD HALIFAX": {
     "lat": 44.6592866,
     "lon": -63.6031949,
@@ -610,6 +616,12 @@
     "lon": -63.6236468,
     "precision": "approximate_geocode",
     "query": "MOUNTAIN RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:MUMFORD RD HALIFAX": {
+    "lat": 44.6458811,
+    "lon": -63.6158765,
+    "precision": "approximate_geocode",
+    "query": "MUMFORD RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:MYRA RD PORTERS LAKE": {
     "lat": 44.7530159,
@@ -941,6 +953,12 @@
     "precision": "approximate_geocode",
     "query": "TOWER RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:TROUT RUN HALIFAX": {
+    "lat": 44.5913966,
+    "lon": -63.599421,
+    "precision": "approximate_geocode",
+    "query": "TROUT RUN, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:UNIVERSITY AVE HALIFAX": {
     "lat": 44.639559,
     "lon": -63.5805954,
@@ -952,6 +970,12 @@
     "lon": -63.5743931,
     "precision": "approximate_geocode",
     "query": "VICTORIA RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:WAKEFIELD CRT MIDDLE SACKVILLE": {
+    "lat": 44.7875708,
+    "lon": -63.715807,
+    "precision": "approximate_geocode",
+    "query": "WAKEFIELD CRT, MIDDLE SACKVILLE, Nova Scotia, Canada"
   },
   "v2:WEST AVE BEAVER BANK": {
     "lat": 44.8771625,
