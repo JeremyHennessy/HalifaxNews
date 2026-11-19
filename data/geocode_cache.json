@@ -23,6 +23,12 @@
     "precision": "approximate_geocode",
     "query": "ANDREW ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:ARCHIBALD BROOK RD MIDDLE MUSQUODOBOIT": {
+    "lat": 45.0286033,
+    "lon": -63.1411954,
+    "precision": "approximate_geocode",
+    "query": "ARCHIBALD BROOK RD, MIDDLE MUSQUODOBOIT, Nova Scotia, Canada"
+  },
   "v2:ASTRAL DR COLE HARBOUR": {
     "lat": 44.6504434,
     "lon": -63.4744468,
@@ -95,6 +101,12 @@
     "precision": "approximate_geocode",
     "query": "CASTLEWOOD DR, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:CELEBRATION DR FALL RIVER": {
+    "lat": 44.8342121,
+    "lon": -63.6450965,
+    "precision": "approximate_geocode",
+    "query": "CELEBRATION DR, FALL RIVER, Nova Scotia, Canada"
+  },
   "v2:CHARLES RD TIMBERLEA": {
     "lat": 44.6568862,
     "lon": -63.7494283,
@@ -118,6 +130,12 @@
     "lon": -63.4651164,
     "precision": "approximate_geocode",
     "query": "CHURCHILL TERR, NORTH PRESTON, Nova Scotia, Canada"
+  },
+  "v2:CLAYTON PARK DR HALIFAX": {
+    "lat": 44.6602828,
+    "lon": -63.6473761,
+    "precision": "approximate_geocode",
+    "query": "CLAYTON PARK DR, HALIFAX, Nova Scotia, Canada"
   },
   "v2:CLUB HOUSE LANE HAMMONDS PLAINS": {
     "lat": 44.7509704,
@@ -166,6 +184,12 @@
     "lon": -63.6092309,
     "precision": "approximate_geocode",
     "query": "CONNAUGHT AVE, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:COVINGTON WAY HALIFAX": {
+    "lat": 44.6561233,
+    "lon": -63.6540585,
+    "precision": "approximate_geocode",
+    "query": "COVINGTON WAY, HALIFAX, Nova Scotia, Canada"
   },
   "v2:COW BAY RD EASTERN PASSAGE": {
     "lat": 44.6200493,
@@ -256,6 +280,12 @@
     "lon": -63.6407759,
     "precision": "approximate_geocode",
     "query": "GATEWAY RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:GERRISH ST HALIFAX": {
+    "lat": 44.6559671,
+    "lon": -63.5850396,
+    "precision": "approximate_geocode",
+    "query": "GERRISH ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:GLENDALE DR LOWER SACKVILLE": {
     "lat": 44.7816022,
@@ -580,6 +610,12 @@
     "lon": -63.4880955,
     "precision": "approximate_geocode",
     "query": "MACLAUGHLIN RD, WESTPHAL, Nova Scotia, Canada"
+  },
+  "v2:MAIN ST DARTMOUTH": {
+    "lat": 44.6851201,
+    "lon": -63.5256664,
+    "precision": "approximate_geocode",
+    "query": "MAIN ST, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:MAPLEWOOD DR COLE HARBOUR": {
     "lat": 44.6531212,
