@@ -1,4 +1,10 @@
 {
+  "v2:ACADIA ST DARTMOUTH": {
+    "lat": 44.6559396,
+    "lon": -63.544911,
+    "precision": "approximate_geocode",
+    "query": "ACADIA ST, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:AKERLEY BLVD DARTMOUTH": {
     "lat": 44.7242814,
     "lon": -63.5826365,
@@ -70,6 +76,12 @@
     "lon": -63.6559228,
     "precision": "approximate_geocode",
     "query": "BEDFORD HWY, BEDFORD, Nova Scotia, Canada"
+  },
+  "v2:BILBY ST HALIFAX": {
+    "lat": 44.6582866,
+    "lon": -63.5989023,
+    "precision": "approximate_geocode",
+    "query": "BILBY ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:BIRCH BEAR RUN LEWIS LAKE": {
     "lat": 44.6747208,
@@ -262,6 +274,12 @@
     "lon": -63.5458271,
     "precision": "approximate_geocode",
     "query": "FENWICK ST, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:FIDDLE PKY HATCHET LAKE": {
+    "lat": 44.5631919,
+    "lon": -63.7369486,
+    "precision": "approximate_geocode",
+    "query": "FIDDLE PKY, HATCHET LAKE, Nova Scotia, Canada"
   },
   "v2:FIRST ST HALIFAX": {
     "lat": 44.6432573,
@@ -1066,6 +1084,18 @@
     "lon": -63.5778452,
     "precision": "approximate_geocode",
     "query": "TOWER RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:TOWERVIEW DR HALIFAX": {
+    "lat": 44.6250755,
+    "lon": -63.6144174,
+    "precision": "approximate_geocode",
+    "query": "TOWERVIEW DR, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:TRANQUIL LANE HERRING COVE": {
+    "lat": 44.5641559,
+    "lon": -63.5630885,
+    "precision": "approximate_geocode",
+    "query": "TRANQUIL LANE, HERRING COVE, Nova Scotia, Canada"
   },
   "v2:TROUT RUN HALIFAX": {
     "lat": 44.5913966,
