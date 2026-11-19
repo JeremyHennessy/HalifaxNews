@@ -11,6 +11,12 @@
     "precision": "approximate_geocode",
     "query": "ALBRO LAKE RD, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:ALMON ST HALIFAX": {
+    "lat": 44.6596013,
+    "lon": -63.5956856,
+    "precision": "approximate_geocode",
+    "query": "ALMON ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:ANDREW ST HALIFAX": {
     "lat": 44.6568704,
     "lon": -63.6312799,
@@ -58,6 +64,12 @@
     "lon": -63.8318178,
     "precision": "approximate_geocode",
     "query": "BIRCH BEAR RUN, LEWIS LAKE, Nova Scotia, Canada"
+  },
+  "v2:BOUTILIERS COVE RD HACKETTS COVE": {
+    "lat": 44.5736737,
+    "lon": -63.9221941,
+    "precision": "approximate_geocode",
+    "query": "BOUTILIERS COVE RD, HACKETTS COVE, Nova Scotia, Canada"
   },
   "v2:BOXWOOD CRES LOWER SACKVILLE": {
     "lat": 44.7873414,
@@ -190,6 +202,12 @@
     "lon": -63.5725221,
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
+  },
+  "v2:DRYSDALE RD HALIFAX": {
+    "lat": 44.6082792,
+    "lon": -63.6103426,
+    "precision": "approximate_geocode",
+    "query": "DRYSDALE RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:DUNCAN ST HALIFAX": {
     "lat": 44.648777,
@@ -418,6 +436,12 @@
     "lon": -63.5805492,
     "precision": "approximate_geocode",
     "query": "JOHN SAVAGE AVE, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:JOSEPH HOWE DR HALIFAX": {
+    "lat": 44.6540971,
+    "lon": -63.6300876,
+    "precision": "approximate_geocode",
+    "query": "JOSEPH HOWE DR, HALIFAX, Nova Scotia, Canada"
   },
   "v2:JUBILEE RD HALIFAX": {
     "lat": 44.6417852,
@@ -899,6 +923,12 @@
     "precision": "approximate_geocode",
     "query": "SOUTH ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:SPRING GARDEN RD HALIFAX": {
+    "lat": 44.6408554,
+    "lon": -63.5850833,
+    "precision": "approximate_geocode",
+    "query": "SPRING GARDEN RD, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:SPRUCE AVE LOWER SACKVILLE": {
     "lat": 44.7730373,
     "lon": -63.6852106,
@@ -1018,6 +1048,12 @@
     "lon": -63.3847721,
     "precision": "approximate_geocode",
     "query": "WEST LAWRENCETOWN RD, LAWRENCETOWN, Nova Scotia, Canada"
+  },
+  "v2:WHITE HILLS RUN HAMMONDS PLAINS": {
+    "lat": 44.7580062,
+    "lon": -63.7909177,
+    "precision": "approximate_geocode",
+    "query": "WHITE HILLS RUN, HAMMONDS PLAINS, Nova Scotia, Canada"
   },
   "v2:WILKINSON AVE DARTMOUTH": {
     "lat": 44.7214073,
