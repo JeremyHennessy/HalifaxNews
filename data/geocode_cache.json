@@ -47,6 +47,12 @@
     "precision": "approximate_geocode",
     "query": "AVENUE DU PORTAGE, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:BARRINGTON ST HALIFAX": {
+    "lat": 44.6375712,
+    "lon": -63.5697109,
+    "precision": "approximate_geocode",
+    "query": "BARRINGTON ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:BAYVIEW DR HACKETTS COVE": {
     "lat": 44.5724839,
     "lon": -63.9271239,
@@ -539,6 +545,12 @@
     "precision": "approximate_geocode",
     "query": "LAKECREST DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:LAKESHIRE CRES COLE HARBOUR": {
+    "lat": 44.6569803,
+    "lon": -63.4768592,
+    "precision": "approximate_geocode",
+    "query": "LAKESHIRE CRES, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:LARRY UTECK BLVD HALIFAX": {
     "lat": 44.7020231,
     "lon": -63.6753058,
@@ -953,6 +965,12 @@
     "precision": "approximate_geocode",
     "query": "SHERWOOD ST, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:SOUTH PARK ST HALIFAX": {
+    "lat": 44.643304,
+    "lon": -63.5802615,
+    "precision": "approximate_geocode",
+    "query": "SOUTH PARK ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:SOUTH ST HALIFAX": {
     "lat": 44.6373458,
     "lon": -63.5812747,
@@ -1036,6 +1054,12 @@
     "lon": -63.4721412,
     "precision": "approximate_geocode",
     "query": "TAYLORWOOD LANE, EASTERN PASSAGE, Nova Scotia, Canada"
+  },
+  "v2:THOMAS RADDALL DR HALIFAX": {
+    "lat": 44.6580881,
+    "lon": -63.6638777,
+    "precision": "approximate_geocode",
+    "query": "THOMAS RADDALL DR, HALIFAX, Nova Scotia, Canada"
   },
   "v2:TOWER RD HALIFAX": {
     "lat": 44.6313472,
