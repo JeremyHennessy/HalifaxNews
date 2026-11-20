@@ -305,6 +305,12 @@
     "precision": "approximate_geocode",
     "query": "FORD ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:GASTON RD DARTMOUTH": {
+    "lat": 44.665665,
+    "lon": -63.5394795,
+    "precision": "approximate_geocode",
+    "query": "GASTON RD, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:GATEWAY RD HALIFAX": {
     "lat": 44.6646287,
     "lon": -63.6407759,
@@ -575,6 +581,12 @@
     "precision": "approximate_geocode",
     "query": "KING ST, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:KINGFISHER WAY LOWER SACKVILLE": {
+    "lat": 44.77552,
+    "lon": -63.6739045,
+    "precision": "approximate_geocode",
+    "query": "KINGFISHER WAY, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:KINGSTON CRES DARTMOUTH": {
     "lat": 44.6842229,
     "lon": -63.5699757,
@@ -784,6 +796,12 @@
     "lon": -63.5673233,
     "precision": "approximate_geocode",
     "query": "OCHTERLONEY ST, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:OLD SAMBRO RD HALIFAX": {
+    "lat": 44.6172147,
+    "lon": -63.6216346,
+    "precision": "approximate_geocode",
+    "query": "OLD SAMBRO RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:OLIVET ST HALIFAX": {
     "lat": 44.6483749,
