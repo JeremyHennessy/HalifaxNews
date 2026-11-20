@@ -251,6 +251,12 @@
     "precision": "approximate_geocode",
     "query": "DRYSDALE RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:DUFFIELD LANE ELMSDALE": {
+    "lat": 44.9687633,
+    "lon": -63.4834213,
+    "precision": "approximate_geocode",
+    "query": "DUFFIELD LANE, ELMSDALE, Nova Scotia, Canada"
+  },
   "v2:DUNCAN ST HALIFAX": {
     "lat": 44.648777,
     "lon": -63.5992297,
@@ -305,6 +311,12 @@
     "precision": "approximate_geocode",
     "query": "GATEWAY RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:GEORGE DAUPHINEE AVE HALIFAX": {
+    "lat": 44.648893,
+    "lon": -63.6119332,
+    "precision": "approximate_geocode",
+    "query": "GEORGE DAUPHINEE AVE, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:GERRISH ST HALIFAX": {
     "lat": 44.6559671,
     "lon": -63.5850396,
@@ -353,6 +365,12 @@
     "precision": "approximate_geocode",
     "query": "HENRY ST, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:HENRY ST HALIFAX": {
+    "lat": 44.6417538,
+    "lon": -63.5899791,
+    "precision": "approximate_geocode",
+    "query": "HENRY ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:HERRING COVE RD HALIFAX": {
     "lat": 44.6199921,
     "lon": -63.6163651,
@@ -400,6 +418,12 @@
     "lon": -63.6059865,
     "precision": "approximate_geocode",
     "query": "HIGHWAY 2, FALL RIVER, Nova Scotia, Canada"
+  },
+  "v2:HIGHWAY 357 MUSQUODOBOIT HARBOUR": {
+    "lat": 44.8123958,
+    "lon": -63.1793485,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 357, MUSQUODOBOIT HARBOUR, Nova Scotia, Canada"
   },
   "v2:HIGHWAY 7 GAETZ BROOK": {
     "lat": 44.7656437,
@@ -484,6 +508,12 @@
     "lon": -63.2937555,
     "precision": "approximate_geocode",
     "query": "JOAN ELIZABETH WAY, PORTERS LAKE, Nova Scotia, Canada"
+  },
+  "v2:JOE ST WAVERLEY": {
+    "lat": 44.7477052,
+    "lon": -63.5618604,
+    "precision": "approximate_geocode",
+    "query": "JOE ST, WAVERLEY, Nova Scotia, Canada"
   },
   "v2:JOHN SAVAGE AVE DARTMOUTH": {
     "lat": 44.7162331,
