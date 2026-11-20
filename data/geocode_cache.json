@@ -581,6 +581,12 @@
     "precision": "approximate_geocode",
     "query": "KINGSTON CRES, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:KIRTLAND CRT COLE HARBOUR": {
+    "lat": 44.6803709,
+    "lon": -63.4989318,
+    "precision": "approximate_geocode",
+    "query": "KIRTLAND CRT, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:LAKE RD HATCHET LAKE": {
     "lat": 44.5682549,
     "lon": -63.7211158,
@@ -688,6 +694,12 @@
     "lon": -63.5760349,
     "precision": "approximate_geocode",
     "query": "MARKET ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:MARVIN LANE GLEN MARGARET": {
+    "lat": 44.5879085,
+    "lon": -63.9169916,
+    "precision": "approximate_geocode",
+    "query": "MARVIN LANE, GLEN MARGARET, Nova Scotia, Canada"
   },
   "v2:MATADOR CRT LOWER SACKVILLE": {
     "lat": 44.7799063,
@@ -922,6 +934,12 @@
     "lon": -63.2673948,
     "precision": "approximate_geocode",
     "query": "ROMA DR, HEAD OF CHEZZETCOOK, Nova Scotia, Canada"
+  },
+  "v2:ROSEHILL DR DARTMOUTH": {
+    "lat": 44.6600475,
+    "lon": -63.5143853,
+    "precision": "approximate_geocode",
+    "query": "ROSEHILL DR, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:ROSLEY RD BEAVER BANK": {
     "lat": 44.845807,
