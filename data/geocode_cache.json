@@ -545,6 +545,12 @@
     "precision": "approximate_geocode",
     "query": "JOSEPH HOWE DR, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:JOSEPH YOUNG ST DARTMOUTH": {
+    "lat": 44.6867093,
+    "lon": -63.5877567,
+    "precision": "approximate_geocode",
+    "query": "JOSEPH YOUNG ST, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:JUBILEE RD HALIFAX": {
     "lat": 44.6417852,
     "lon": -63.5948911,
@@ -653,6 +659,12 @@
     "precision": "approximate_geocode",
     "query": "LEGACY CRT, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:LEMARCHANT ST HALIFAX": {
+    "lat": 44.6387459,
+    "lon": -63.5909332,
+    "precision": "approximate_geocode",
+    "query": "LEMARCHANT ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:LEPPERT ST HALIFAX": {
     "lat": 44.6456313,
     "lon": -63.617116,
@@ -718,6 +730,12 @@
     "lon": -63.4732611,
     "precision": "approximate_geocode",
     "query": "MAPLEWOOD DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
+  "v2:MARILYN DR DARTMOUTH": {
+    "lat": 44.6660995,
+    "lon": -63.5371334,
+    "precision": "approximate_geocode",
+    "query": "MARILYN DR, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:MARKET ST HALIFAX": {
     "lat": 44.6467318,
@@ -796,6 +814,12 @@
     "lon": -63.3262156,
     "precision": "approximate_geocode",
     "query": "MYRA RD, PORTERS LAKE, Nova Scotia, Canada"
+  },
+  "v2:NESTWELL LANE HAMMONDS PLAINS": {
+    "lat": 44.7256134,
+    "lon": -63.7417478,
+    "precision": "approximate_geocode",
+    "query": "NESTWELL LANE, HAMMONDS PLAINS, Nova Scotia, Canada"
   },
   "v2:NORA BERNARD ST HALIFAX": {
     "lat": 44.651517,
@@ -1258,6 +1282,12 @@
     "lon": -63.6327957,
     "precision": "approximate_geocode",
     "query": "WINDMILL RD, BEDFORD, Nova Scotia, Canada"
+  },
+  "v2:WINDMILL RD DARTMOUTH": {
+    "lat": 44.6995984,
+    "lon": -63.6062812,
+    "precision": "approximate_geocode",
+    "query": "WINDMILL RD, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:WINDSOR ST HALIFAX": {
     "lat": 44.6564798,
