@@ -227,6 +227,12 @@
     "precision": "approximate_geocode",
     "query": "CRESTFIELD DR, HAMMONDS PLAINS, Nova Scotia, Canada"
   },
+  "v2:CRYSTALWOOD DR EAST PENNANT": {
+    "lat": 44.4634244,
+    "lon": -63.6345311,
+    "precision": "approximate_geocode",
+    "query": "CRYSTALWOOD DR, EAST PENNANT, Nova Scotia, Canada"
+  },
   "v2:DAVID PAUL DR HAMMONDS PLAINS": {
     "lat": 44.7322097,
     "lon": -63.7635757,
@@ -497,6 +503,12 @@
     "precision": "approximate_geocode",
     "query": "INGLIS ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:IONEY HILL BEAVER BANK": {
+    "lat": 44.8025805,
+    "lon": -63.6858252,
+    "precision": "approximate_geocode",
+    "query": "IONEY HILL, BEAVER BANK, Nova Scotia, Canada"
+  },
   "v2:JAMES ST TIMBERLEA": {
     "lat": 44.6588566,
     "lon": -63.7427974,
@@ -598,6 +610,12 @@
     "lon": -63.4989318,
     "precision": "approximate_geocode",
     "query": "KIRTLAND CRT, COLE HARBOUR, Nova Scotia, Canada"
+  },
+  "v2:LADY HAMMOND RD HALIFAX": {
+    "lat": 44.6645574,
+    "lon": -63.6179386,
+    "precision": "approximate_geocode",
+    "query": "LADY HAMMOND RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:LAKE RD HATCHET LAKE": {
     "lat": 44.5682549,
@@ -1007,6 +1025,12 @@
     "precision": "approximate_geocode",
     "query": "SANCTUARY CRT, FALL RIVER, Nova Scotia, Canada"
   },
+  "v2:SAPPHIRE CRES LOWER SACKVILLE": {
+    "lat": 44.7860823,
+    "lon": -63.6808936,
+    "precision": "approximate_geocode",
+    "query": "SAPPHIRE CRES, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:SARATOGA DR LOWER SACKVILLE": {
     "lat": 44.7852646,
     "lon": -63.6819122,
@@ -1246,6 +1270,12 @@
     "lon": -63.6432891,
     "precision": "approximate_geocode",
     "query": "WOODWARD CRES, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:WYSE RD DARTMOUTH": {
+    "lat": 44.6720313,
+    "lon": -63.5811755,
+    "precision": "approximate_geocode",
+    "query": "WYSE RD, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:YANKEETOWN RD HAMMONDS PLAINS": {
     "lat": 44.7284049,
