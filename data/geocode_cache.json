@@ -107,6 +107,18 @@
     "precision": "approximate_geocode",
     "query": "BOXWOOD CRES, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:BRENTON ST HALIFAX": {
+    "lat": 44.6407424,
+    "lon": -63.5778289,
+    "precision": "approximate_geocode",
+    "query": "BRENTON ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:BRUNELLO BLVD TIMBERLEA": {
+    "lat": 44.6449011,
+    "lon": -63.7259489,
+    "precision": "approximate_geocode",
+    "query": "BRUNELLO BLVD, TIMBERLEA, Nova Scotia, Canada"
+  },
   "v2:BRUNSWICK ST HALIFAX": {
     "lat": 44.651682,
     "lon": -63.5797895,
@@ -875,6 +887,12 @@
     "precision": "approximate_geocode",
     "query": "OSTREA LAKE RD, OSTREA LAKE, Nova Scotia, Canada"
   },
+  "v2:OUTRIGGER CRES HALIFAX": {
+    "lat": 44.6967504,
+    "lon": -63.6704139,
+    "precision": "approximate_geocode",
+    "query": "OUTRIGGER CRES, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:OXFORD ST HALIFAX": {
     "lat": 44.6519496,
     "lon": -63.606555,
@@ -964,6 +982,12 @@
     "lon": -63.7140736,
     "precision": "approximate_geocode",
     "query": "PROSPECT RD, HATCHET LAKE, Nova Scotia, Canada"
+  },
+  "v2:PURCELLS COVE RD HALIFAX": {
+    "lat": 44.6013846,
+    "lon": -63.5614738,
+    "precision": "approximate_geocode",
+    "query": "PURCELLS COVE RD, HALIFAX, Nova Scotia, Canada"
   },
   "v2:RALEIGH CRT HALIFAX": {
     "lat": 44.6641393,
