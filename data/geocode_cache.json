@@ -59,6 +59,12 @@
     "precision": "approximate_geocode",
     "query": "BARRINGTON ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:BAYERS RD HALIFAX": {
+    "lat": 44.6556831,
+    "lon": -63.6092353,
+    "precision": "approximate_geocode",
+    "query": "BAYERS RD, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:BAYVIEW DR HACKETTS COVE": {
     "lat": 44.5724839,
     "lon": -63.9271239,
@@ -232,6 +238,12 @@
     "lon": -63.6345311,
     "precision": "approximate_geocode",
     "query": "CRYSTALWOOD DR, EAST PENNANT, Nova Scotia, Canada"
+  },
+  "v2:CUNARD ST HALIFAX": {
+    "lat": 44.6528454,
+    "lon": -63.5861194,
+    "precision": "approximate_geocode",
+    "query": "CUNARD ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:DAVID PAUL DR HAMMONDS PLAINS": {
     "lat": 44.7322097,
@@ -508,6 +520,12 @@
     "lon": -63.6858252,
     "precision": "approximate_geocode",
     "query": "IONEY HILL, BEAVER BANK, Nova Scotia, Canada"
+  },
+  "v2:JAMES AVE FALL RIVER": {
+    "lat": 44.8253122,
+    "lon": -63.6063071,
+    "precision": "approximate_geocode",
+    "query": "JAMES AVE, FALL RIVER, Nova Scotia, Canada"
   },
   "v2:JAMES ST TIMBERLEA": {
     "lat": 44.6588566,
@@ -850,6 +868,12 @@
     "lon": -63.6242988,
     "precision": "approximate_geocode",
     "query": "OLIVET ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:OSTREA LAKE RD OSTREA LAKE": {
+    "lat": 44.7078752,
+    "lon": -63.0639995,
+    "precision": "approximate_geocode",
+    "query": "OSTREA LAKE RD, OSTREA LAKE, Nova Scotia, Canada"
   },
   "v2:OXFORD ST HALIFAX": {
     "lat": 44.6519496,
