@@ -5,6 +5,12 @@
     "precision": "approximate_geocode",
     "query": "ACADIA ST, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:ACRES RD WILLIAMSWOOD": {
+    "lat": 44.5049826,
+    "lon": -63.6429406,
+    "precision": "approximate_geocode",
+    "query": "ACRES RD, WILLIAMSWOOD, Nova Scotia, Canada"
+  },
   "v2:AKERLEY BLVD DARTMOUTH": {
     "lat": 44.7242814,
     "lon": -63.5826365,
@@ -154,6 +160,12 @@
     "lon": -63.6450965,
     "precision": "approximate_geocode",
     "query": "CELEBRATION DR, FALL RIVER, Nova Scotia, Canada"
+  },
+  "v2:CHAMEAU CRES COLE HARBOUR": {
+    "lat": 44.6810562,
+    "lon": -63.4902744,
+    "precision": "approximate_geocode",
+    "query": "CHAMEAU CRES, COLE HARBOUR, Nova Scotia, Canada"
   },
   "v2:CHARLES RD TIMBERLEA": {
     "lat": 44.6568862,
@@ -485,6 +497,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 2, FALL RIVER, Nova Scotia, Canada"
   },
+  "v2:HIGHWAY 207 THREE FATHOM HARBOUR": {
+    "lat": 44.6513709,
+    "lon": -63.3010394,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 207, THREE FATHOM HARBOUR, Nova Scotia, Canada"
+  },
   "v2:HIGHWAY 357 MUSQUODOBOIT HARBOUR": {
     "lat": 44.8123958,
     "lon": -63.1793485,
@@ -718,6 +736,12 @@
     "lon": -63.6753058,
     "precision": "approximate_geocode",
     "query": "LARRY UTECK BLVD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:LEAMAN DR DARTMOUTH": {
+    "lat": 44.6859327,
+    "lon": -63.5794574,
+    "precision": "approximate_geocode",
+    "query": "LEAMAN DR, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:LEEDS ST HALIFAX": {
     "lat": 44.6691924,
@@ -1253,6 +1277,12 @@
     "precision": "approximate_geocode",
     "query": "ST GEORGE BLVD, HAMMONDS PLAINS, Nova Scotia, Canada"
   },
+  "v2:ST MARGARETS BAY RD HUBBARDS": {
+    "lat": 44.6441582,
+    "lon": -64.0490917,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, HUBBARDS, Nova Scotia, Canada"
+  },
   "v2:ST MARGARETS BAY RD QUEENSLAND": {
     "lat": 44.6403457,
     "lon": -64.0347107,
@@ -1336,6 +1366,12 @@
     "lon": -63.599421,
     "precision": "approximate_geocode",
     "query": "TROUT RUN, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:TULLOCH WAY DARTMOUTH": {
+    "lat": 44.6667244,
+    "lon": -63.5093251,
+    "precision": "approximate_geocode",
+    "query": "TULLOCH WAY, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:UNIVERSITY AVE HALIFAX": {
     "lat": 44.639559,
