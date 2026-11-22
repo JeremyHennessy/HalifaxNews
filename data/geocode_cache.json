@@ -89,6 +89,12 @@
     "precision": "approximate_geocode",
     "query": "BEDFORD HWY, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:BEDFORD HWY HALIFAX": {
+    "lat": 44.6626069,
+    "lon": -63.6227336,
+    "precision": "approximate_geocode",
+    "query": "BEDFORD HWY, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:BILBY ST HALIFAX": {
     "lat": 44.6582866,
     "lon": -63.5989023,
@@ -887,6 +893,12 @@
     "precision": "approximate_geocode",
     "query": "MYRA RD, PORTERS LAKE, Nova Scotia, Canada"
   },
+  "v2:NANTUCKET AVE DARTMOUTH": {
+    "lat": 44.6702166,
+    "lon": -63.5772653,
+    "precision": "approximate_geocode",
+    "query": "NANTUCKET AVE, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:NESTWELL LANE HAMMONDS PLAINS": {
     "lat": 44.7256134,
     "lon": -63.7417478,
@@ -1199,6 +1211,12 @@
     "precision": "approximate_geocode",
     "query": "SHERWOOD ST, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:SKYLINE DR HARRIETSFIELD": {
+    "lat": 44.5728774,
+    "lon": -63.6369222,
+    "precision": "approximate_geocode",
+    "query": "SKYLINE DR, HARRIETSFIELD, Nova Scotia, Canada"
+  },
   "v2:SOUTH PARK ST HALIFAX": {
     "lat": 44.643304,
     "lon": -63.5802615,
@@ -1361,6 +1379,12 @@
     "precision": "approximate_geocode",
     "query": "WEST LAWRENCETOWN RD, LAWRENCETOWN, Nova Scotia, Canada"
   },
+  "v2:WEST PETPESWICK RD WEST PETPESWICK": {
+    "lat": 44.7437927,
+    "lon": -63.1684118,
+    "precision": "approximate_geocode",
+    "query": "WEST PETPESWICK RD, WEST PETPESWICK, Nova Scotia, Canada"
+  },
   "v2:WHITE HILLS RUN HAMMONDS PLAINS": {
     "lat": 44.7580062,
     "lon": -63.7909177,
@@ -1384,6 +1408,12 @@
     "lon": -63.4069026,
     "precision": "approximate_geocode",
     "query": "WILLIAM ST, EAST PRESTON, Nova Scotia, Canada"
+  },
+  "v2:WINDGATE DR BEAVER BANK": {
+    "lat": 44.7924811,
+    "lon": -63.6852407,
+    "precision": "approximate_geocode",
+    "query": "WINDGATE DR, BEAVER BANK, Nova Scotia, Canada"
   },
   "v2:WINDMILL RD BEDFORD": {
     "lat": 44.7161484,
