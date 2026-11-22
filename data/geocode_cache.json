@@ -263,6 +263,12 @@
     "precision": "approximate_geocode",
     "query": "DAVID PAUL DR, HAMMONDS PLAINS, Nova Scotia, Canada"
   },
+  "v2:DAY HOLLOW DR FLETCHERS LAKE": {
+    "lat": 44.8528188,
+    "lon": -63.6044237,
+    "precision": "approximate_geocode",
+    "query": "DAY HOLLOW DR, FLETCHERS LAKE, Nova Scotia, Canada"
+  },
   "v2:DEERMIST DR PORTERS LAKE": {
     "lat": 44.715016,
     "lon": -63.30566,
@@ -526,6 +532,12 @@
     "lon": -63.5861992,
     "precision": "approximate_geocode",
     "query": "INGLIS ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:INNOVATION DR BEDFORD": {
+    "lat": 44.7233205,
+    "lon": -63.7019091,
+    "precision": "approximate_geocode",
+    "query": "INNOVATION DR, BEDFORD, Nova Scotia, Canada"
   },
   "v2:IONEY HILL BEAVER BANK": {
     "lat": 44.8025805,
@@ -935,6 +947,12 @@
     "precision": "approximate_geocode",
     "query": "PINEHILL DR, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:PLATEAU CRES HALIFAX": {
+    "lat": 44.6613669,
+    "lon": -63.6424692,
+    "precision": "approximate_geocode",
+    "query": "PLATEAU CRES, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:PLEASANT ST DARTMOUTH": {
     "lat": 44.6389176,
     "lon": -63.5309722,
@@ -1000,6 +1018,12 @@
     "lon": -63.6849851,
     "precision": "approximate_geocode",
     "query": "RANKIN DR, LOWER SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:RAVINES DR BEDFORD": {
+    "lat": 44.7039705,
+    "lon": -63.674854,
+    "precision": "approximate_geocode",
+    "query": "RAVINES DR, BEDFORD, Nova Scotia, Canada"
   },
   "v2:RAYMOND DR LOWER SACKVILLE": {
     "lat": 44.774214,
@@ -1282,6 +1306,12 @@
     "lon": -63.715807,
     "precision": "approximate_geocode",
     "query": "WAKEFIELD CRT, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:WALKER AVE LOWER SACKVILLE": {
+    "lat": 44.7658617,
+    "lon": -63.694529,
+    "precision": "approximate_geocode",
+    "query": "WALKER AVE, LOWER SACKVILLE, Nova Scotia, Canada"
   },
   "v2:WAVERLEY RD WAVERLEY": {
     "lat": 44.7405466,
