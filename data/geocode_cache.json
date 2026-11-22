@@ -53,6 +53,12 @@
     "precision": "approximate_geocode",
     "query": "AVENUE DU PORTAGE, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:BAKER DR DARTMOUTH": {
+    "lat": 44.6554663,
+    "lon": -63.5293922,
+    "precision": "approximate_geocode",
+    "query": "BAKER DR, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:BARRINGTON ST HALIFAX": {
     "lat": 44.6375712,
     "lon": -63.5697109,
@@ -371,11 +377,23 @@
     "precision": "approximate_geocode",
     "query": "GLENDALE DR, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:GLENFOREST DR HALIFAX": {
+    "lat": 44.6586218,
+    "lon": -63.6436402,
+    "precision": "approximate_geocode",
+    "query": "GLENFOREST DR, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:GOTTINGEN ST HALIFAX": {
     "lat": 44.6514212,
     "lon": -63.5825277,
     "precision": "approximate_geocode",
     "query": "GOTTINGEN ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:GOVERNMENT WHARF RD EASTERN PASSAGE": {
+    "lat": 44.6105657,
+    "lon": -63.4944057,
+    "precision": "approximate_geocode",
+    "query": "GOVERNMENT WHARF RD, EASTERN PASSAGE, Nova Scotia, Canada"
   },
   "v2:GUYSBOROUGH AVE DARTMOUTH": {
     "lat": 44.6823385,
@@ -677,6 +695,12 @@
     "precision": "approximate_geocode",
     "query": "LAKECREST DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:LAKELANDS BLVD BEECHVILLE": {
+    "lat": 44.6365165,
+    "lon": -63.6691362,
+    "precision": "approximate_geocode",
+    "query": "LAKELANDS BLVD, BEECHVILLE, Nova Scotia, Canada"
+  },
   "v2:LAKESHIRE CRES COLE HARBOUR": {
     "lat": 44.6569803,
     "lon": -63.4768592,
@@ -748,6 +772,12 @@
     "lon": -63.7122462,
     "precision": "approximate_geocode",
     "query": "LUMBERMAN DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
+  "v2:LYNWOOD DR BROOKSIDE": {
+    "lat": 44.5576369,
+    "lon": -63.7144689,
+    "precision": "approximate_geocode",
+    "query": "LYNWOOD DR, BROOKSIDE, Nova Scotia, Canada"
   },
   "v2:LYONS AVE HALIFAX": {
     "lat": 44.617736,
