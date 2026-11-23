@@ -101,6 +101,12 @@
     "precision": "approximate_geocode",
     "query": "BEDFORD HWY, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:BIGBEAR LOOP PORTERS LAKE": {
+    "lat": 44.7500487,
+    "lon": -63.3364896,
+    "precision": "approximate_geocode",
+    "query": "BIGBEAR LOOP, PORTERS LAKE, Nova Scotia, Canada"
+  },
   "v2:BILBY ST HALIFAX": {
     "lat": 44.6582866,
     "lon": -63.5989023,
@@ -479,6 +485,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 101, UPPER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:HIGHWAY 102 ENFIELD": {
+    "lat": 44.9040531,
+    "lon": -63.530664,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 102, ENFIELD, Nova Scotia, Canada"
+  },
   "v2:HIGHWAY 102 GOFFS": {
     "lat": 44.8391097,
     "lon": -63.5840202,
@@ -814,6 +826,12 @@
     "lon": -63.28952,
     "precision": "approximate_geocode",
     "query": "LORIANN DR, PORTERS LAKE, Nova Scotia, Canada"
+  },
+  "v2:LUCIEN DR DARTMOUTH": {
+    "lat": 44.6845281,
+    "lon": -63.5123801,
+    "precision": "approximate_geocode",
+    "query": "LUCIEN DR, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:LUMBERMAN DR MIDDLE SACKVILLE": {
     "lat": 44.7880637,
