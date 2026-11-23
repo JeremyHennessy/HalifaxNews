@@ -131,6 +131,12 @@
     "precision": "approximate_geocode",
     "query": "BRENTON ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:BRENTWOOD AVE TIMBERLEA": {
+    "lat": 44.653812,
+    "lon": -63.7349529,
+    "precision": "approximate_geocode",
+    "query": "BRENTWOOD AVE, TIMBERLEA, Nova Scotia, Canada"
+  },
   "v2:BRUNELLO BLVD TIMBERLEA": {
     "lat": 44.6449011,
     "lon": -63.7259489,
@@ -334,6 +340,12 @@
     "lon": -63.6717337,
     "precision": "approximate_geocode",
     "query": "FARNHAM GATE RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:FAULKNER CRES HEAD OF JEDDORE": {
+    "lat": 44.7525804,
+    "lon": -63.0590763,
+    "precision": "approximate_geocode",
+    "query": "FAULKNER CRES, HEAD OF JEDDORE, Nova Scotia, Canada"
   },
   "v2:FENWICK ST DARTMOUTH": {
     "lat": 44.6647215,
@@ -772,6 +784,12 @@
     "lon": -63.5377658,
     "precision": "approximate_geocode",
     "query": "LILAC ST, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:LILLIAN DR DARTMOUTH": {
+    "lat": 44.6832706,
+    "lon": -63.5068626,
+    "precision": "approximate_geocode",
+    "query": "LILLIAN DR, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:LINCOLNSHIRE DR FALL RIVER": {
     "lat": 44.7981823,
@@ -1372,6 +1390,12 @@
     "lon": -63.5093251,
     "precision": "approximate_geocode",
     "query": "TULLOCH WAY, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:TUPPER ST DARTMOUTH": {
+    "lat": 44.6618746,
+    "lon": -63.55444,
+    "precision": "approximate_geocode",
+    "query": "TUPPER ST, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:UNIVERSITY AVE HALIFAX": {
     "lat": 44.639559,
