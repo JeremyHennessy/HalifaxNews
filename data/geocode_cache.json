@@ -41,6 +41,12 @@
     "precision": "approximate_geocode",
     "query": "ARCHIBALD BROOK RD, MIDDLE MUSQUODOBOIT, Nova Scotia, Canada"
   },
+  "v2:ARKLOW DR COLE HARBOUR": {
+    "lat": 44.6785267,
+    "lon": -63.4839807,
+    "precision": "approximate_geocode",
+    "query": "ARKLOW DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:ASTRAL DR COLE HARBOUR": {
     "lat": 44.6504434,
     "lon": -63.4744468,
@@ -335,6 +341,12 @@
     "precision": "approximate_geocode",
     "query": "Downtown Halifax, Nova Scotia, Canada"
   },
+  "v2:DOYLE CRT BEDFORD": {
+    "lat": 44.7196442,
+    "lon": -63.6782,
+    "precision": "approximate_geocode",
+    "query": "DOYLE CRT, BEDFORD, Nova Scotia, Canada"
+  },
   "v2:DRYSDALE RD HALIFAX": {
     "lat": 44.6082792,
     "lon": -63.6103426,
@@ -358,6 +370,12 @@
     "lon": -63.2356045,
     "precision": "approximate_geocode",
     "query": "EAST CHEZZETCOOK RD, EAST CHEZZETCOOK, Nova Scotia, Canada"
+  },
+  "v2:ELM ST HALIFAX": {
+    "lat": 44.6458546,
+    "lon": -63.6042031,
+    "precision": "approximate_geocode",
+    "query": "ELM ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:FARNHAM GATE RD HALIFAX": {
     "lat": 44.6717642,
@@ -790,6 +808,12 @@
     "lon": -63.5794574,
     "precision": "approximate_geocode",
     "query": "LEAMAN DR, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:LEASIDE DR LOWER SACKVILLE": {
+    "lat": 44.7660979,
+    "lon": -63.6832528,
+    "precision": "approximate_geocode",
+    "query": "LEASIDE DR, LOWER SACKVILLE, Nova Scotia, Canada"
   },
   "v2:LEEDS ST HALIFAX": {
     "lat": 44.6691924,
