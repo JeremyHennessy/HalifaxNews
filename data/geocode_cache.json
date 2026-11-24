@@ -125,6 +125,12 @@
     "precision": "approximate_geocode",
     "query": "BOUTILIERS COVE RD, HACKETTS COVE, Nova Scotia, Canada"
   },
+  "v2:BOUTILIERS POINT RD BOUTILIERS POINT": {
+    "lat": 44.664792,
+    "lon": -63.9554343,
+    "precision": "approximate_geocode",
+    "query": "BOUTILIERS POINT RD, BOUTILIERS POINT, Nova Scotia, Canada"
+  },
   "v2:BOXWOOD CRES LOWER SACKVILLE": {
     "lat": 44.7873414,
     "lon": -63.6897865,
@@ -239,6 +245,12 @@
     "precision": "approximate_geocode",
     "query": "COLE HARBOUR RD, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:COLLEGE ST HALIFAX": {
+    "lat": 44.640608,
+    "lon": -63.5815624,
+    "precision": "approximate_geocode",
+    "query": "COLLEGE ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:COLLINS GRV DARTMOUTH": {
     "lat": 44.6720071,
     "lon": -63.5143315,
@@ -292,6 +304,12 @@
     "lon": -63.5861194,
     "precision": "approximate_geocode",
     "query": "CUNARD ST, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:DAHLIA ST DARTMOUTH": {
+    "lat": 44.6703223,
+    "lon": -63.5684319,
+    "precision": "approximate_geocode",
+    "query": "DAHLIA ST, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:DAVID PAUL DR HAMMONDS PLAINS": {
     "lat": 44.7322097,
@@ -610,6 +628,12 @@
     "lon": -63.6858252,
     "precision": "approximate_geocode",
     "query": "IONEY HILL, BEAVER BANK, Nova Scotia, Canada"
+  },
+  "v2:ISLEVILLE ST HALIFAX": {
+    "lat": 44.6589535,
+    "lon": -63.5960305,
+    "precision": "approximate_geocode",
+    "query": "ISLEVILLE ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:JAMES AVE FALL RIVER": {
     "lat": 44.8253122,
