@@ -41,6 +41,12 @@
     "precision": "approximate_geocode",
     "query": "ARCHIBALD BROOK RD, MIDDLE MUSQUODOBOIT, Nova Scotia, Canada"
   },
+  "v2:ARGYLE ST HALIFAX": {
+    "lat": 44.6460809,
+    "lon": -63.5743001,
+    "precision": "approximate_geocode",
+    "query": "ARGYLE ST, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:ARKLOW DR COLE HARBOUR": {
     "lat": 44.6785267,
     "lon": -63.4839807,
@@ -557,6 +563,12 @@
     "precision": "approximate_geocode",
     "query": "HIGHWAY 102, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:HIGHWAY 107 BEDFORD": {
+    "lat": 44.7202227,
+    "lon": -63.6235309,
+    "precision": "approximate_geocode",
+    "query": "HIGHWAY 107, BEDFORD, Nova Scotia, Canada"
+  },
   "v2:HIGHWAY 107 DARTMOUTH": {
     "lat": 44.6943827,
     "lon": -63.499808,
@@ -1060,6 +1072,12 @@
     "lon": -63.6216346,
     "precision": "approximate_geocode",
     "query": "OLD SAMBRO RD, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:OLD SAMBRO RD WILLIAMSWOOD": {
+    "lat": 44.5268952,
+    "lon": -63.6416609,
+    "precision": "approximate_geocode",
+    "query": "OLD SAMBRO RD, WILLIAMSWOOD, Nova Scotia, Canada"
   },
   "v2:OLIVET ST HALIFAX": {
     "lat": 44.6483749,
