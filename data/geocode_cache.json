@@ -131,6 +131,12 @@
     "precision": "approximate_geocode",
     "query": "BIRCH BEAR RUN, LEWIS LAKE, Nova Scotia, Canada"
   },
+  "v2:BONAVISTA DR HARRIETSFIELD": {
+    "lat": 44.5738674,
+    "lon": -63.6350817,
+    "precision": "approximate_geocode",
+    "query": "BONAVISTA DR, HARRIETSFIELD, Nova Scotia, Canada"
+  },
   "v2:BOUTILIERS COVE RD HACKETTS COVE": {
     "lat": 44.5736737,
     "lon": -63.9221941,
@@ -803,6 +809,12 @@
     "precision": "approximate_geocode",
     "query": "KIRTLAND CRT, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:KOHAR CRT EASTERN PASSAGE": {
+    "lat": 44.6127534,
+    "lon": -63.4701345,
+    "precision": "approximate_geocode",
+    "query": "KOHAR CRT, EASTERN PASSAGE, Nova Scotia, Canada"
+  },
   "v2:LADY HAMMOND RD HALIFAX": {
     "lat": 44.6645574,
     "lon": -63.6179386,
@@ -983,6 +995,12 @@
     "precision": "approximate_geocode",
     "query": "MCALPINE AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:MCMULLIN RD ANTRIM": {
+    "lat": 44.9632313,
+    "lon": -63.3410625,
+    "precision": "approximate_geocode",
+    "query": "MCMULLIN RD, ANTRIM, Nova Scotia, Canada"
+  },
   "v2:MEADOWBROOK DR BEDFORD": {
     "lat": 44.7268184,
     "lon": -63.6721251,
@@ -1018,6 +1036,12 @@
     "lon": -63.5781953,
     "precision": "approximate_geocode",
     "query": "MOIRA ST, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:MONIQUE AVE DARTMOUTH": {
+    "lat": 44.689002,
+    "lon": -63.5823974,
+    "precision": "approximate_geocode",
+    "query": "MONIQUE AVE, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:MOUNTAIN RD HALIFAX": {
     "lat": 44.6310091,
@@ -1439,6 +1463,12 @@
     "precision": "approximate_geocode",
     "query": "STOCKTON RG, BEDFORD, Nova Scotia, Canada"
   },
+  "v2:SUNNYLEA RD WELLINGTON": {
+    "lat": 44.8621562,
+    "lon": -63.6187875,
+    "precision": "approximate_geocode",
+    "query": "SUNNYLEA RD, WELLINGTON, Nova Scotia, Canada"
+  },
   "v2:SWANTON DR DARTMOUTH": {
     "lat": 44.6764593,
     "lon": -63.5081499,
@@ -1552,6 +1582,12 @@
     "lon": -63.1684118,
     "precision": "approximate_geocode",
     "query": "WEST PETPESWICK RD, WEST PETPESWICK, Nova Scotia, Canada"
+  },
+  "v2:WESTGROVE PL HALIFAX": {
+    "lat": 44.6569377,
+    "lon": -63.6564738,
+    "precision": "approximate_geocode",
+    "query": "WESTGROVE PL, HALIFAX, Nova Scotia, Canada"
   },
   "v2:WHITE HILLS RUN HAMMONDS PLAINS": {
     "lat": 44.7580062,
