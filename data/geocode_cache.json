@@ -137,6 +137,12 @@
     "precision": "approximate_geocode",
     "query": "BONAVISTA DR, HARRIETSFIELD, Nova Scotia, Canada"
   },
+  "v2:BONIN RD GRAND DESERT": {
+    "lat": 44.6859915,
+    "lon": -63.2621205,
+    "precision": "approximate_geocode",
+    "query": "BONIN RD, GRAND DESERT, Nova Scotia, Canada"
+  },
   "v2:BOUTILIERS COVE RD HACKETTS COVE": {
     "lat": 44.5736737,
     "lon": -63.9221941,
@@ -232,6 +238,12 @@
     "lon": -63.4651164,
     "precision": "approximate_geocode",
     "query": "CHURCHILL TERR, NORTH PRESTON, Nova Scotia, Canada"
+  },
+  "v2:CIRCLE DR LAKE ECHO": {
+    "lat": 44.7455989,
+    "lon": -63.3829199,
+    "precision": "approximate_geocode",
+    "query": "CIRCLE DR, LAKE ECHO, Nova Scotia, Canada"
   },
   "v2:CLAYTON PARK DR HALIFAX": {
     "lat": 44.6602828,
@@ -430,6 +442,12 @@
     "lon": -63.7369486,
     "precision": "approximate_geocode",
     "query": "FIDDLE PKY, HATCHET LAKE, Nova Scotia, Canada"
+  },
+  "v2:FIRST ST DARTMOUTH": {
+    "lat": 44.6842086,
+    "lon": -63.540368,
+    "precision": "approximate_geocode",
+    "query": "FIRST ST, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:FIRST ST HALIFAX": {
     "lat": 44.6432573,
@@ -995,11 +1013,23 @@
     "precision": "approximate_geocode",
     "query": "MCALPINE AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:MCCABE LAKE DR MIDDLE SACKVILLE": {
+    "lat": 44.7873684,
+    "lon": -63.7584806,
+    "precision": "approximate_geocode",
+    "query": "MCCABE LAKE DR, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:MCMULLIN RD ANTRIM": {
     "lat": 44.9632313,
     "lon": -63.3410625,
     "precision": "approximate_geocode",
     "query": "MCMULLIN RD, ANTRIM, Nova Scotia, Canada"
+  },
+  "v2:MEADOWBROOK DR BEAVER BANK": {
+    "lat": 44.870396,
+    "lon": -63.6842184,
+    "precision": "approximate_geocode",
+    "query": "MEADOWBROOK DR, BEAVER BANK, Nova Scotia, Canada"
   },
   "v2:MEADOWBROOK DR BEDFORD": {
     "lat": 44.7268184,
@@ -1090,6 +1120,12 @@
     "lon": -63.5673233,
     "precision": "approximate_geocode",
     "query": "OCHTERLONEY ST, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:OLD BEAVER BANK RD LOWER SACKVILLE": {
+    "lat": 44.7717126,
+    "lon": -63.689949,
+    "precision": "approximate_geocode",
+    "query": "OLD BEAVER BANK RD, LOWER SACKVILLE, Nova Scotia, Canada"
   },
   "v2:OLD SAMBRO RD HALIFAX": {
     "lat": 44.6172147,
