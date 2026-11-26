@@ -119,6 +119,12 @@
     "precision": "approximate_geocode",
     "query": "BELL BLVD, GOFFS, Nova Scotia, Canada"
   },
+  "v2:BIANCA CRT MIDDLE SACKVILLE": {
+    "lat": 44.7844404,
+    "lon": -63.7103919,
+    "precision": "approximate_geocode",
+    "query": "BIANCA CRT, MIDDLE SACKVILLE, Nova Scotia, Canada"
+  },
   "v2:BIGBEAR LOOP PORTERS LAKE": {
     "lat": 44.7500487,
     "lon": -63.3364896,
@@ -1127,6 +1133,12 @@
     "precision": "approximate_geocode",
     "query": "NESTWELL LANE, HAMMONDS PLAINS, Nova Scotia, Canada"
   },
+  "v2:NIVENS AVE DARTMOUTH": {
+    "lat": 44.6756936,
+    "lon": -63.5916108,
+    "precision": "approximate_geocode",
+    "query": "NIVENS AVE, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:NORA BERNARD ST HALIFAX": {
     "lat": 44.651517,
     "lon": -63.5852688,
@@ -1138,6 +1150,12 @@
     "lon": -63.4653816,
     "precision": "approximate_geocode",
     "query": "NORTH PRESTON RD, NORTH PRESTON, Nova Scotia, Canada"
+  },
+  "v2:NORTH ST HALIFAX": {
+    "lat": 44.6486048,
+    "lon": -63.6034133,
+    "precision": "approximate_geocode",
+    "query": "NORTH ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:OCHTERLONEY ST DARTMOUTH": {
     "lat": 44.6675452,
@@ -1420,6 +1438,12 @@
     "lon": -63.4845709,
     "precision": "approximate_geocode",
     "query": "SEROCCO CRES, WESTPHAL, Nova Scotia, Canada"
+  },
+  "v2:SEROP CRES EASTERN PASSAGE": {
+    "lat": 44.6136322,
+    "lon": -63.4665252,
+    "precision": "approximate_geocode",
+    "query": "SEROP CRES, EASTERN PASSAGE, Nova Scotia, Canada"
   },
   "v2:SERPENTINE AVE LAKE LOON": {
     "lat": 44.7060319,
@@ -1708,6 +1732,12 @@
     "lon": -63.6432891,
     "precision": "approximate_geocode",
     "query": "WOODWARD CRES, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:WYNDENFOG LANE EAST LAWRENCETOWN": {
+    "lat": 44.6438929,
+    "lon": -63.3299739,
+    "precision": "approximate_geocode",
+    "query": "WYNDENFOG LANE, EAST LAWRENCETOWN, Nova Scotia, Canada"
   },
   "v2:WYSE RD DARTMOUTH": {
     "lat": 44.6720313,
