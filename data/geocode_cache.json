@@ -113,6 +113,12 @@
     "precision": "approximate_geocode",
     "query": "BEDFORD HWY, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:BELL BLVD GOFFS": {
+    "lat": 44.8775801,
+    "lon": -63.5303482,
+    "precision": "approximate_geocode",
+    "query": "BELL BLVD, GOFFS, Nova Scotia, Canada"
+  },
   "v2:BIGBEAR LOOP PORTERS LAKE": {
     "lat": 44.7500487,
     "lon": -63.3364896,
@@ -130,6 +136,12 @@
     "lon": -63.8318178,
     "precision": "approximate_geocode",
     "query": "BIRCH BEAR RUN, LEWIS LAKE, Nova Scotia, Canada"
+  },
+  "v2:BLAKE AVE COW BAY": {
+    "lat": 44.6268948,
+    "lon": -63.4324248,
+    "precision": "approximate_geocode",
+    "query": "BLAKE AVE, COW BAY, Nova Scotia, Canada"
   },
   "v2:BONAVISTA DR HARRIETSFIELD": {
     "lat": 44.5738674,
@@ -364,6 +376,12 @@
     "lon": -63.30566,
     "precision": "approximate_geocode",
     "query": "DEERMIST DR, PORTERS LAKE, Nova Scotia, Canada"
+  },
+  "v2:DENISE DR LAKE ECHO": {
+    "lat": 44.7337251,
+    "lon": -63.399252,
+    "precision": "approximate_geocode",
+    "query": "DENISE DR, LAKE ECHO, Nova Scotia, Canada"
   },
   "v2:DOROTHEA DR DARTMOUTH": {
     "lat": 44.6787997,
@@ -862,6 +880,12 @@
     "lon": -63.4768592,
     "precision": "approximate_geocode",
     "query": "LAKESHIRE CRES, COLE HARBOUR, Nova Scotia, Canada"
+  },
+  "v2:LARCH ST HALIFAX": {
+    "lat": 44.6389849,
+    "lon": -63.5960258,
+    "precision": "approximate_geocode",
+    "query": "LARCH ST, HALIFAX, Nova Scotia, Canada"
   },
   "v2:LARRY UTECK BLVD HALIFAX": {
     "lat": 44.7020231,
@@ -1528,6 +1552,12 @@
     "lon": -63.4721412,
     "precision": "approximate_geocode",
     "query": "TAYLORWOOD LANE, EASTERN PASSAGE, Nova Scotia, Canada"
+  },
+  "v2:THICKET DR BROOKSIDE": {
+    "lat": 44.5275245,
+    "lon": -63.7063169,
+    "precision": "approximate_geocode",
+    "query": "THICKET DR, BROOKSIDE, Nova Scotia, Canada"
   },
   "v2:THOMAS RADDALL DR HALIFAX": {
     "lat": 44.6580881,
