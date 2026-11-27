@@ -449,6 +449,12 @@
     "precision": "approximate_geocode",
     "query": "EAST CHEZZETCOOK RD, EAST CHEZZETCOOK, Nova Scotia, Canada"
   },
+  "v2:ELIZABETH CRT WHITES LAKE": {
+    "lat": 44.52883,
+    "lon": -63.7633573,
+    "precision": "approximate_geocode",
+    "query": "ELIZABETH CRT, WHITES LAKE, Nova Scotia, Canada"
+  },
   "v2:ELM ST HALIFAX": {
     "lat": 44.6458546,
     "lon": -63.6042031,
@@ -718,6 +724,12 @@
     "lon": -63.4824885,
     "precision": "approximate_geocode",
     "query": "HIRANDALE CRES, WESTPHAL, Nova Scotia, Canada"
+  },
+  "v2:HOGAN CRT BEDFORD": {
+    "lat": 44.6962208,
+    "lon": -63.6913719,
+    "precision": "approximate_geocode",
+    "query": "HOGAN CRT, BEDFORD, Nova Scotia, Canada"
   },
   "v2:HOLLIS ST HALIFAX": {
     "lat": 44.6391504,
@@ -1193,6 +1205,12 @@
     "precision": "approximate_geocode",
     "query": "OLD BEAVER BANK RD, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:OLD PRESTON RD EAST PRESTON": {
+    "lat": 44.7110944,
+    "lon": -63.438714,
+    "precision": "approximate_geocode",
+    "query": "OLD PRESTON RD, EAST PRESTON, Nova Scotia, Canada"
+  },
   "v2:OLD SAMBRO RD HALIFAX": {
     "lat": 44.6172147,
     "lon": -63.6216346,
@@ -1252,6 +1270,12 @@
     "lon": -63.9266908,
     "precision": "approximate_geocode",
     "query": "PEGGYS COVE RD, SEABRIGHT, Nova Scotia, Canada"
+  },
+  "v2:PERRON DR COLE HARBOUR": {
+    "lat": 44.6730724,
+    "lon": -63.4818282,
+    "precision": "approximate_geocode",
+    "query": "PERRON DR, COLE HARBOUR, Nova Scotia, Canada"
   },
   "v2:PHOENIX CRES LOWER SACKVILLE": {
     "lat": 44.7820851,
@@ -1558,6 +1582,12 @@
     "lon": -63.7594235,
     "precision": "approximate_geocode",
     "query": "ST MARGARETS BAY RD, TIMBERLEA, Nova Scotia, Canada"
+  },
+  "v2:ST MARGARETS BAY RD UPPER TANTALLON": {
+    "lat": 44.6892286,
+    "lon": -63.8815729,
+    "precision": "approximate_geocode",
+    "query": "ST MARGARETS BAY RD, UPPER TANTALLON, Nova Scotia, Canada"
   },
   "v2:STARBOARD DR HALIFAX": {
     "lat": 44.6961118,
