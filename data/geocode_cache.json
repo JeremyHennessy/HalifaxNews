@@ -29,6 +29,12 @@
     "precision": "approximate_geocode",
     "query": "ALMON ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:AMALAMEK WAY HALIFAX": {
+    "lat": 44.6533077,
+    "lon": -63.5805485,
+    "precision": "approximate_geocode",
+    "query": "AMALAMEK WAY, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:ANDREW ST HALIFAX": {
     "lat": 44.6568704,
     "lon": -63.6312799,
@@ -226,6 +232,12 @@
     "lon": -63.6450965,
     "precision": "approximate_geocode",
     "query": "CELEBRATION DR, FALL RIVER, Nova Scotia, Canada"
+  },
+  "v2:CHADWICK PL HALIFAX": {
+    "lat": 44.6601985,
+    "lon": -63.6572966,
+    "precision": "approximate_geocode",
+    "query": "CHADWICK PL, HALIFAX, Nova Scotia, Canada"
   },
   "v2:CHAMEAU CRES COLE HARBOUR": {
     "lat": 44.6810562,
@@ -610,6 +622,12 @@
     "lon": -63.5777534,
     "precision": "approximate_geocode",
     "query": "HERRING COVE RD, HERRING COVE, Nova Scotia, Canada"
+  },
+  "v2:HESCOTT ST ELMSDALE": {
+    "lat": 44.9483835,
+    "lon": -63.4971508,
+    "precision": "approximate_geocode",
+    "query": "HESCOTT ST, ELMSDALE, Nova Scotia, Canada"
   },
   "v2:HIGHWAY 101 UPPER SACKVILLE": {
     "lat": 44.8155601,
@@ -1042,6 +1060,12 @@
     "lon": -63.4732611,
     "precision": "approximate_geocode",
     "query": "MAPLEWOOD DR, COLE HARBOUR, Nova Scotia, Canada"
+  },
+  "v2:MARBLE CRT HALIFAX": {
+    "lat": 44.6055294,
+    "lon": -63.5999782,
+    "precision": "approximate_geocode",
+    "query": "MARBLE CRT, HALIFAX, Nova Scotia, Canada"
   },
   "v2:MARILYN DR DARTMOUTH": {
     "lat": 44.6660995,
@@ -1517,6 +1541,12 @@
     "precision": "approximate_geocode",
     "query": "SHEA ST, LOWER SACKVILLE, Nova Scotia, Canada"
   },
+  "v2:SHEPPARDS RUN BEECHVILLE": {
+    "lat": 44.6335052,
+    "lon": -63.6809028,
+    "precision": "approximate_geocode",
+    "query": "SHEPPARDS RUN, BEECHVILLE, Nova Scotia, Canada"
+  },
   "v2:SHERWOOD ST COLE HARBOUR": {
     "lat": 44.6490791,
     "lon": -63.4747528,
@@ -1606,6 +1636,12 @@
     "lon": -63.6799709,
     "precision": "approximate_geocode",
     "query": "STOCKTON RG, BEDFORD, Nova Scotia, Canada"
+  },
+  "v2:STOKIL DR LOWER SACKVILLE": {
+    "lat": 44.7882545,
+    "lon": -63.6882519,
+    "precision": "approximate_geocode",
+    "query": "STOKIL DR, LOWER SACKVILLE, Nova Scotia, Canada"
   },
   "v2:SUNNYLEA RD WELLINGTON": {
     "lat": 44.8621562,
