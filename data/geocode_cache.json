@@ -233,6 +233,12 @@
     "precision": "approximate_geocode",
     "query": "CHAMEAU CRES, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:CHAPPELL ST DARTMOUTH": {
+    "lat": 44.6774744,
+    "lon": -63.5851194,
+    "precision": "approximate_geocode",
+    "query": "CHAPPELL ST, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:CHARLES RD TIMBERLEA": {
     "lat": 44.6568862,
     "lon": -63.7494283,
@@ -323,6 +329,12 @@
     "precision": "approximate_geocode",
     "query": "CONNAUGHT AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:COVENTRY LANE COLE HARBOUR": {
+    "lat": 44.6609651,
+    "lon": -63.4846326,
+    "precision": "approximate_geocode",
+    "query": "COVENTRY LANE, COLE HARBOUR, Nova Scotia, Canada"
+  },
   "v2:COVINGTON WAY HALIFAX": {
     "lat": 44.6561233,
     "lon": -63.6540585,
@@ -364,6 +376,12 @@
     "lon": -63.5684319,
     "precision": "approximate_geocode",
     "query": "DAHLIA ST, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:DARTMOUTH RD BEDFORD": {
+    "lat": 44.7275131,
+    "lon": -63.6448739,
+    "precision": "approximate_geocode",
+    "query": "DARTMOUTH RD, BEDFORD, Nova Scotia, Canada"
   },
   "v2:DAVID PAUL DR HAMMONDS PLAINS": {
     "lat": 44.7322097,
@@ -1055,6 +1073,12 @@
     "precision": "approximate_geocode",
     "query": "MCMULLIN RD, ANTRIM, Nova Scotia, Canada"
   },
+  "v2:MCQUADE LAKE CRES BEECHVILLE": {
+    "lat": 44.6391335,
+    "lon": -63.6668454,
+    "precision": "approximate_geocode",
+    "query": "MCQUADE LAKE CRES, BEECHVILLE, Nova Scotia, Canada"
+  },
   "v2:MEADOWBROOK DR BEAVER BANK": {
     "lat": 44.870396,
     "lon": -63.6842184,
@@ -1222,6 +1246,12 @@
     "lon": -63.9014597,
     "precision": "approximate_geocode",
     "query": "PEGGYS COVE RD, GLEN HAVEN, Nova Scotia, Canada"
+  },
+  "v2:PEGGYS COVE RD SEABRIGHT": {
+    "lat": 44.6164088,
+    "lon": -63.9266908,
+    "precision": "approximate_geocode",
+    "query": "PEGGYS COVE RD, SEABRIGHT, Nova Scotia, Canada"
   },
   "v2:PHOENIX CRES LOWER SACKVILLE": {
     "lat": 44.7820851,
