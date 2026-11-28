@@ -329,6 +329,12 @@
     "precision": "approximate_geocode",
     "query": "COBURG RD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:CODROY AVE LAKE LOON": {
+    "lat": 44.704309,
+    "lon": -63.496257,
+    "precision": "approximate_geocode",
+    "query": "CODROY AVE, LAKE LOON, Nova Scotia, Canada"
+  },
   "v2:COLBY DR COLE HARBOUR": {
     "lat": 44.6606545,
     "lon": -63.4783446,
@@ -1025,6 +1031,12 @@
     "precision": "approximate_geocode",
     "query": "LILLIAN DR, DARTMOUTH, Nova Scotia, Canada"
   },
+  "v2:LIMERICK RD HALIFAX": {
+    "lat": 44.6306312,
+    "lon": -63.6210517,
+    "precision": "approximate_geocode",
+    "query": "LIMERICK RD, HALIFAX, Nova Scotia, Canada"
+  },
   "v2:LINCOLNSHIRE DR FALL RIVER": {
     "lat": 44.7981823,
     "lon": -63.6207249,
@@ -1109,6 +1121,12 @@
     "precision": "approximate_geocode",
     "query": "MARKET ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:MARKETPLACE DR DARTMOUTH": {
+    "lat": 44.6985538,
+    "lon": -63.6072283,
+    "precision": "approximate_geocode",
+    "query": "MARKETPLACE DR, DARTMOUTH, Nova Scotia, Canada"
+  },
   "v2:MARVIN LANE GLEN MARGARET": {
     "lat": 44.5879085,
     "lon": -63.9169916,
@@ -1162,6 +1180,12 @@
     "lon": -63.5148639,
     "precision": "approximate_geocode",
     "query": "MEDWAY CRT, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:MEGAN DR LAWRENCETOWN": {
+    "lat": 44.699191,
+    "lon": -63.4112269,
+    "precision": "approximate_geocode",
+    "query": "MEGAN DR, LAWRENCETOWN, Nova Scotia, Canada"
   },
   "v2:MICMAC BLVD DARTMOUTH": {
     "lat": 44.6847925,
@@ -1282,6 +1306,12 @@
     "lon": -63.6416609,
     "precision": "approximate_geocode",
     "query": "OLD SAMBRO RD, WILLIAMSWOOD, Nova Scotia, Canada"
+  },
+  "v2:OLDHAM MINES RD OLDHAM": {
+    "lat": 44.9184124,
+    "lon": -63.4949682,
+    "precision": "approximate_geocode",
+    "query": "OLDHAM MINES RD, OLDHAM, Nova Scotia, Canada"
   },
   "v2:OLIVET ST HALIFAX": {
     "lat": 44.6483749,
