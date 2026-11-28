@@ -59,6 +59,12 @@
     "precision": "approximate_geocode",
     "query": "ARKLOW DR, COLE HARBOUR, Nova Scotia, Canada"
   },
+  "v2:ASHCROFT AVE HARRIETSFIELD": {
+    "lat": 44.571549,
+    "lon": -63.6376033,
+    "precision": "approximate_geocode",
+    "query": "ASHCROFT AVE, HARRIETSFIELD, Nova Scotia, Canada"
+  },
   "v2:ASTRAL DR COLE HARBOUR": {
     "lat": 44.6504434,
     "lon": -63.4744468,
@@ -82,6 +88,12 @@
     "lon": -63.5293922,
     "precision": "approximate_geocode",
     "query": "BAKER DR, DARTMOUTH, Nova Scotia, Canada"
+  },
+  "v2:BALD EAGLE PL HALIFAX": {
+    "lat": 44.6310205,
+    "lon": -63.6301867,
+    "precision": "approximate_geocode",
+    "query": "BALD EAGLE PL, HALIFAX, Nova Scotia, Canada"
   },
   "v2:BARRINGTON ST HALIFAX": {
     "lat": 44.6375712,
@@ -947,6 +959,12 @@
     "precision": "approximate_geocode",
     "query": "LARRY UTECK BLVD, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:LAWRENCETOWN RD LAWRENCETOWN": {
+    "lat": 44.6684486,
+    "lon": -63.3758466,
+    "precision": "approximate_geocode",
+    "query": "LAWRENCETOWN RD, LAWRENCETOWN, Nova Scotia, Canada"
+  },
   "v2:LEAMAN DR DARTMOUTH": {
     "lat": 44.6859327,
     "lon": -63.5794574,
@@ -1559,6 +1577,12 @@
     "precision": "approximate_geocode",
     "query": "SKYLINE DR, HARRIETSFIELD, Nova Scotia, Canada"
   },
+  "v2:SMITHS RD BEDFORD": {
+    "lat": 44.7276669,
+    "lon": -63.6924039,
+    "precision": "approximate_geocode",
+    "query": "SMITHS RD, BEDFORD, Nova Scotia, Canada"
+  },
   "v2:SOUTH PARK ST HALIFAX": {
     "lat": 44.643304,
     "lon": -63.5802615,
@@ -1727,6 +1751,12 @@
     "precision": "approximate_geocode",
     "query": "UNIVERSITY AVE, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:UPPER GOVERNOR ST EAST PRESTON": {
+    "lat": 44.7183391,
+    "lon": -63.4367979,
+    "precision": "approximate_geocode",
+    "query": "UPPER GOVERNOR ST, EAST PRESTON, Nova Scotia, Canada"
+  },
   "v2:VICTORIA RD HALIFAX": {
     "lat": 44.6363866,
     "lon": -63.5743931,
@@ -1828,6 +1858,12 @@
     "lon": -63.6432891,
     "precision": "approximate_geocode",
     "query": "WOODWARD CRES, HALIFAX, Nova Scotia, Canada"
+  },
+  "v2:WRIGHT AVE DARTMOUTH": {
+    "lat": 44.6984832,
+    "lon": -63.6045992,
+    "precision": "approximate_geocode",
+    "query": "WRIGHT AVE, DARTMOUTH, Nova Scotia, Canada"
   },
   "v2:WYNDENFOG LANE EAST LAWRENCETOWN": {
     "lat": 44.6438929,
