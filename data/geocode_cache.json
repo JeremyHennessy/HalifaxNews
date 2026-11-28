@@ -269,6 +269,18 @@
     "precision": "approximate_geocode",
     "query": "CHARLES RD, TIMBERLEA, Nova Scotia, Canada"
   },
+  "v2:CHARLESWOOD DR WINDSOR JUNCTION": {
+    "lat": 44.788961,
+    "lon": -63.6474061,
+    "precision": "approximate_geocode",
+    "query": "CHARLESWOOD DR, WINDSOR JUNCTION, Nova Scotia, Canada"
+  },
+  "v2:CHERRY BROOK RD CHERRY BROOK": {
+    "lat": 44.7069344,
+    "lon": -63.4746486,
+    "precision": "approximate_geocode",
+    "query": "CHERRY BROOK RD, CHERRY BROOK, Nova Scotia, Canada"
+  },
   "v2:CHERRYWOOD DR COLE HARBOUR": {
     "lat": 44.6602583,
     "lon": -63.4968356,
@@ -1235,6 +1247,12 @@
     "precision": "approximate_geocode",
     "query": "NORTH ST, HALIFAX, Nova Scotia, Canada"
   },
+  "v2:NOTTING HILL RD MINEVILLE": {
+    "lat": 44.6981612,
+    "lon": -63.3773883,
+    "precision": "approximate_geocode",
+    "query": "NOTTING HILL RD, MINEVILLE, Nova Scotia, Canada"
+  },
   "v2:OCHTERLONEY ST DARTMOUTH": {
     "lat": 44.6675452,
     "lon": -63.5673233,
@@ -1354,6 +1372,12 @@
     "lon": -63.7976997,
     "precision": "approximate_geocode",
     "query": "POCKWOCK RD, HAMMONDS PLAINS, Nova Scotia, Canada"
+  },
+  "v2:POCKWOCK RD UPPER HAMMONDS PLAINS": {
+    "lat": 44.7482418,
+    "lon": -63.8132459,
+    "precision": "approximate_geocode",
+    "query": "POCKWOCK RD, UPPER HAMMONDS PLAINS, Nova Scotia, Canada"
   },
   "v2:POPLAR DR COLE HARBOUR": {
     "lat": 44.6736685,
